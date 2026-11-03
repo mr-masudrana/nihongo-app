@@ -35,7 +35,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.data.SettingsRepository
 import com.example.nihongo.ui.components.LocalTts
-import com.example.nihongo.ui.flashcard.FlashcardViewModel
 import com.example.nihongo.ui.kana.KanaViewModel
 import com.example.nihongo.ui.kana.TtsHelper
 import com.example.nihongo.ui.quiz.KanaQuizViewModel
@@ -46,19 +45,16 @@ import com.example.nihongo.ui.settings.SettingsViewModel
 import com.example.nihongo.ui.stats.StatsScreen
 import com.example.nihongo.ui.stats.StatsViewModel
 import com.example.nihongo.ui.theme.NihongoTheme
-import com.example.nihongo.ui.vocab.VocabListViewModel
 import com.example.nihongo.ui.home.HomeScreen
 import com.example.nihongo.ui.learn.LearnScreen
 import com.example.nihongo.ui.learn.ROUTE_HUB
 import com.example.nihongo.ui.learn.parentRoute
 import com.example.nihongo.ui.search.SearchScreen
-import com.example.nihongo.ui.vocab.VocabStudyViewModel
+import com.example.nihongo.ui.search.SearchViewModel
 
 class MainActivity : ComponentActivity() {
     private val kanaVm: KanaViewModel by viewModels()
-    private val flashVm: FlashcardViewModel by viewModels()
-    private val vocabListVm: VocabListViewModel by viewModels()
-    private val vocabStudyVm: VocabStudyViewModel by viewModels()
+    private val searchVm: SearchViewModel by viewModels()
     private val kanaQuizVm: KanaQuizViewModel by viewModels()
     private val vocabQuizVm: VocabQuizViewModel by viewModels()
     private val statsVm: StatsViewModel by viewModels()
@@ -98,7 +94,6 @@ class MainActivity : ComponentActivity() {
         BackHandler(enabled = tab != 0) { tab = 0 }
 
         var learnRoute by rememberSaveable { mutableStateOf(ROUTE_HUB) }
-        var kanaSub by rememberSaveable { mutableStateOf(0) }
         // Learn-এর ভেতরের সেকশন থেকে ব্যাক চাপলে আগে Learn সূচিতে ফেরে
         BackHandler(enabled = tab == 1 && learnRoute != ROUTE_HUB) { learnRoute = parentRoute(learnRoute) }
         var showSettings by rememberSaveable { mutableStateOf(false) }
@@ -141,21 +136,16 @@ class MainActivity : ComponentActivity() {
                     when (t) {
                         0 -> HomeScreen(
                             statsVm,
-                            onLearn = { r, sub -> learnRoute = r; kanaSub = sub; tab = 1 },
+                            onLearn = { r -> learnRoute = r; tab = 1 },
                             onQuiz = { tab = 3 },
                             onSearch = { tab = 2 }
                         )
                         1 -> LearnScreen(
                             route = learnRoute,
                             onRoute = { learnRoute = it },
-                            kanaSub = kanaSub,
-                            onKanaSub = { kanaSub = it },
-                            kanaVm = kanaVm,
-                            flashVm = flashVm,
-                            vocabListVm = vocabListVm,
-                            vocabStudyVm = vocabStudyVm
+                            kanaVm = kanaVm
                         )
-                        2 -> SearchScreen(vocabListVm)
+                        2 -> SearchScreen(searchVm)
                         3 -> QuizScreen(kanaQuizVm, vocabQuizVm, statsVm)
                         else -> StatsScreen(statsVm, onOpenSettings = { showSettings = true })
                     }

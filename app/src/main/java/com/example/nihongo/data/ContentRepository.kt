@@ -38,6 +38,9 @@ data class LessonInfo(
     val exists: Boolean
 )
 
+/** সার্চ ও কুইজের জন্য: কোন লেভেল/লেসনের শব্দ */
+data class LessonWord(val level: String, val lessonNo: Int, val word: WordItem)
+
 /**
  * লেসন-ভিত্তিক কনটেন্ট — assets/lessons/<level>/lesson_NN.json (level = n5 | n4)।
  * নতুন লেসন যোগ করতে শুধু ফাইলটি ওই ফোল্ডারে রাখুন; কোড বা ডেটাবেজ বদলাতে হবে না।
@@ -58,6 +61,13 @@ class ContentRepository private constructor(private val context: Context) {
         val l = lesson(level, no)
         if (l == null) LessonInfo(no, "", 0, 0, 0, false)
         else LessonInfo(no, l.title, l.vocab.size, l.grammar.size, l.kanji.size, true)
+    }
+
+    /** সব লেসনের সব শব্দ (N5 ও N4) */
+    fun allWords(): List<LessonWord> = listOf("n5", "n4").flatMap { level ->
+        lessonRange(level).flatMap { no ->
+            lesson(level, no)?.vocab.orEmpty().map { LessonWord(level, no, it) }
+        }
     }
 
     private fun parse(o: JSONObject, fallbackNo: Int) = Lesson(

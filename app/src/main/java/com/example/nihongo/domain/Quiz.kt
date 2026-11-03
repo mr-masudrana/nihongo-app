@@ -1,7 +1,6 @@
 package com.example.nihongo.domain
 
 import com.example.nihongo.data.KanaEntity
-import com.example.nihongo.data.VocabEntity
 import kotlin.random.Random
 
 data class QuizQuestion(
@@ -12,6 +11,17 @@ data class QuizQuestion(
     val correctIndex: Int,
     val promptSp: Int,
     val optionSp: Int
+)
+
+/** শব্দ কুইজের জন্য লেসনের শব্দ। category = "<level>_<লেসন নম্বর>", যেমন n5_1 */
+data class QuizWord(
+    val id: Int,
+    val word: String,
+    val reading: String,
+    val romaji: String,
+    val meaningBn: String,
+    val meaningEn: String,
+    val category: String
 )
 
 enum class KanaDir { KANA_TO_ROMAJI, ROMAJI_TO_KANA }
@@ -60,7 +70,7 @@ object QuizBuilder {
 
     // ---------------- শব্দ কুইজ ----------------
     fun vocabQuestions(
-        all: List<VocabEntity>,
+        all: List<QuizWord>,
         category: String,
         dir: VocabDir,
         count: Int = DEFAULT_COUNT,
@@ -91,7 +101,7 @@ object QuizBuilder {
         }
     }
 
-    private fun label(v: VocabEntity) = if (v.reading != v.word) "${v.word} (${v.reading})" else v.word
+    private fun label(v: QuizWord) = if (v.reading != v.word) "${v.word} (${v.reading})" else v.word
 
     private fun build(
         prompt: String, hint: String?, speak: String?, correct: String,

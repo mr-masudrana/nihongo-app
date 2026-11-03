@@ -19,7 +19,9 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -37,10 +39,12 @@ import com.example.nihongo.ui.components.SegmentedTabs
 import com.example.nihongo.ui.components.SoftCard
 
 @Composable
-fun KanaChartScreen(vm: KanaViewModel) {
+fun KanaChartScreen(vm: KanaViewModel, type: String) {
     val tts = LocalTts.current
-    val kana by vm.kana.collectAsState()
-    val type by vm.type.collectAsState()
+    val allKana by vm.kana.collectAsState()
+    LaunchedEffect(type) { vm.selectType(type) }
+    // ডেটা বদলের ঝলক এড়াতে স্ক্রিনেও টাইপ দিয়ে ছেঁকে নেওয়া হয়
+    val kana = remember(allKana, type) { allKana.filter { it.type == type } }
     val group by vm.group.collectAsState()
     var selectedId by rememberSaveable { mutableStateOf(-1) }
     val selected = kana.firstOrNull { it.id == selectedId }
@@ -48,13 +52,7 @@ fun KanaChartScreen(vm: KanaViewModel) {
     val groups = listOf("all" to "সব", "basic" to "মূল", "dakuten" to "দাকুতেন", "yoon" to "যৌগিক")
 
     Column(Modifier.fillMaxSize()) {
-        ScreenHeader("কানা চার্ট", "ট্যাপ করে উচ্চারণ শুনুন")
-        SegmentedTabs(
-            options = listOf("হিরাগানা", "কাতাকানা"),
-            selectedIndex = if (type == "katakana") 1 else 0,
-            onSelect = { vm.selectType(if (it == 1) "katakana" else "hiragana") }
-        )
-        Spacer(Modifier.height(12.dp))
+        Spacer(Modifier.height(8.dp))
         ChipRow(groups, group, vm::selectGroup)
         Spacer(Modifier.height(12.dp))
 

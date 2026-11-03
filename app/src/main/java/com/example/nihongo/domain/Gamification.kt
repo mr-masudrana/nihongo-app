@@ -15,8 +15,6 @@ data class Stats(
 object Gamification {
     const val XP_CORRECT = 10          // কুইজে সঠিক উত্তর
     const val XP_PERFECT_BONUS = 20    // সব উত্তর সঠিক হলে বোনাস
-    const val XP_FLASH_KNOWN = 5       // ফ্ল্যাশকার্ডে "জানি"
-    const val XP_FLASH_AGAIN = 1       // ফ্ল্যাশকার্ডে "জানি না" (চেষ্টাও স্ট্রিকে গণ্য)
     const val DAILY_GOAL = 50
     const val XP_PER_LEVEL = 100
 

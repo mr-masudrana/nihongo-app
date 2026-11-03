@@ -70,8 +70,6 @@ fun StatsBar(vm: StatsViewModel) {
 fun StatsScreen(vm: StatsViewModel, onOpenSettings: () -> Unit = {}) {
     val s by vm.stats.collectAsState()
     val goal by vm.dailyGoal.collectAsState()
-    val learnedKana by vm.learnedKana.collectAsState()
-    val learnedVocab by vm.learnedVocab.collectAsState()
     val today = remember(s) { Gamification.dayOf() }
     val cs = MaterialTheme.colorScheme
 
@@ -188,15 +186,10 @@ fun StatsScreen(vm: StatsViewModel, onOpenSettings: () -> Unit = {}) {
 
             // সংখ্যা
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                NumberTile("あ", "$learnedKana", "শেখা কানা", Modifier.weight(1f))
-                NumberTile("語", "$learnedVocab", "শেখা শব্দ", Modifier.weight(1f))
+                NumberTile("連", "${s.bestStreak}", "সর্বোচ্চ স্ট্রিক", Modifier.weight(1f))
                 NumberTile("問", "${s.quizzes}", "মোট কুইজ", Modifier.weight(1f))
+                NumberTile("経", "${s.xp}", "মোট XP", Modifier.weight(1f))
             }
-            Text(
-                "“শেখা” মানে SRS লেভেল ৩ বা তার বেশি।",
-                style = MaterialTheme.typography.bodySmall,
-                color = cs.onSurfaceVariant
-            )
 
             // XP নিয়ম
             SoftCard(Modifier.fillMaxWidth(), color = cs.primaryContainer, borderColor = cs.primaryContainer) {
@@ -207,11 +200,7 @@ fun StatsScreen(vm: StatsViewModel, onOpenSettings: () -> Unit = {}) {
                         style = MaterialTheme.typography.bodyMedium, color = cs.onPrimaryContainer
                     )
                     Text(
-                        "ফ্ল্যাশকার্ডে “জানি” +${Gamification.XP_FLASH_KNOWN}, “জানি না” +${Gamification.XP_FLASH_AGAIN}।",
-                        style = MaterialTheme.typography.bodyMedium, color = cs.onPrimaryContainer
-                    )
-                    Text(
-                        "দিনে যেকোনো একটি অ্যাক্টিভিটি করলেই স্ট্রিক বাড়ে।",
+                        "দিনে অন্তত একটি কুইজ দিলেই স্ট্রিক বাড়ে।",
                         style = MaterialTheme.typography.bodyMedium, color = cs.onPrimaryContainer
                     )
                 }

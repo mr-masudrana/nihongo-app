@@ -28,16 +28,16 @@ import com.example.nihongo.ui.components.BigText
 import com.example.nihongo.ui.components.ScreenHeader
 import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.components.entrance
-import com.example.nihongo.ui.learn.ROUTE_KANA
-import com.example.nihongo.ui.learn.ROUTE_N5_VOCAB_ALL
+import com.example.nihongo.ui.learn.ROUTE_HIRAGANA
+import com.example.nihongo.ui.learn.ROUTE_KATAKANA
 import com.example.nihongo.ui.stats.StatsBar
 import com.example.nihongo.ui.stats.StatsViewModel
 
-/** Home: স্ট্রিক, আজকের লক্ষ্য ও দ্রুত শুরুর কার্ড। onLearn(0 = কানা, 1 = ফ্ল্যাশকার্ড, 2 = শব্দ প্র্যাকটিস) */
+/** Home: স্ট্রিক, আজকের লক্ষ্য ও দ্রুত শুরুর কার্ড */
 @Composable
 fun HomeScreen(
     statsVm: StatsViewModel,
-    onLearn: (route: String, kanaSub: Int) -> Unit,
+    onLearn: (route: String) -> Unit,
     onQuiz: () -> Unit,
     onSearch: () -> Unit
 ) {
@@ -74,11 +74,10 @@ fun HomeScreen(
                 }
             }
 
-            HomeAction("札", "ফ্ল্যাশকার্ড রিভিউ", "আজকের SRS কার্ডগুলো দেখুন") { onLearn(ROUTE_KANA, 1) }
-            HomeAction("あ", "কানা চার্ট", "হিরাগানা ও কাতাকানা") { onLearn(ROUTE_KANA, 0) }
-            HomeAction("語", "শব্দ প্র্যাকটিস", "N5 শব্দ কার্ডে শিখুন") { onLearn(ROUTE_N5_VOCAB_ALL, 0) }
+            HomeAction("あ", "Hiragana", "৪৬ মূল অক্ষর, দাকুতেন ও যৌগিক") { onLearn(ROUTE_HIRAGANA) }
+            HomeAction("ア", "Katakana", "বিদেশি শব্দের জন্য কানা") { onLearn(ROUTE_KATAKANA) }
             HomeAction("問", "কুইজ", "১০টি প্রশ্নে নিজেকে যাচাই করুন", onQuiz)
-            HomeAction("探", "শব্দ খুঁজুন", "জাপানি / romaji / বাংলা / English", onSearch)
+            HomeAction("探", "শব্দ খুঁজুন", "লেসনের শব্দে জাপানি / romaji / বাংলা / English", onSearch)
         }
     }
 }

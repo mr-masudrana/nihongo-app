@@ -27,22 +27,16 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.ui.components.BigText
 import com.example.nihongo.ui.components.ScreenHeader
-import com.example.nihongo.ui.components.SegmentedTabs
 import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.components.bounceClick
-import com.example.nihongo.ui.flashcard.FlashcardScreen
-import com.example.nihongo.ui.flashcard.FlashcardViewModel
 import com.example.nihongo.ui.kana.KanaChartScreen
 import com.example.nihongo.ui.kana.KanaViewModel
-import com.example.nihongo.ui.vocab.VocabListViewModel
-import com.example.nihongo.ui.vocab.VocabScreen
-import com.example.nihongo.ui.vocab.VocabStudyViewModel
 
 const val ROUTE_HUB = "hub"
-const val ROUTE_KANA = "kana"
+const val ROUTE_HIRAGANA = "hiragana"
+const val ROUTE_KATAKANA = "katakana"
 const val ROUTE_NUMBERS = "numbers"
 const val ROUTE_N5_VOCAB = "n5_vocab"
-const val ROUTE_N5_VOCAB_ALL = "n5_vocab_all" // পুরনো ২৪০ শব্দের SRS প্র্যাকটিস
 const val ROUTE_N5_GRAMMAR = "n5_grammar"
 const val ROUTE_N5_KANJI = "n5_kanji"
 const val ROUTE_N4_VOCAB = "n4_vocab"
@@ -52,7 +46,8 @@ const val ROUTE_N4_KANJI = "n4_kanji"
 private data class LearnItem(val glyph: String, val title: String, val sub: String, val route: String)
 
 private val basicItems = listOf(
-    LearnItem("あ", "Kana", "হিরাগানা ও কাতাকানা — চার্ট ও ফ্ল্যাশকার্ড", ROUTE_KANA),
+    LearnItem("あ", "Hiragana", "৪৬ মূল অক্ষর, দাকুতেন ও যৌগিক — চার্ট ও উচ্চারণ", ROUTE_HIRAGANA),
+    LearnItem("ア", "Katakana", "বিদেশি শব্দের জন্য কানা, চার্ট ও উচ্চারণ", ROUTE_KATAKANA),
     LearnItem("数", "Number", "১ থেকে ১০,০০০ ও বিশেষ উচ্চারণ", ROUTE_NUMBERS)
 )
 private val n5Items = listOf(
@@ -76,9 +71,9 @@ private fun crumb(route: String): Pair<String, String> {
     val base = route.substringBefore(':')
     val no = route.substringAfter(':', "").toIntOrNull()
     return when (base) {
-        ROUTE_KANA -> "Basic" to "Kana"
+        ROUTE_HIRAGANA -> "Basic" to "Hiragana"
+        ROUTE_KATAKANA -> "Basic" to "Katakana"
         ROUTE_NUMBERS -> "Basic" to "Number"
-        ROUTE_N5_VOCAB_ALL -> "N5 · Vocabulary" to "সব শব্দ — প্র্যাকটিস"
         else -> {
             val parts = base.split("_")
             val level = parts[0].uppercase()
@@ -91,24 +86,17 @@ private fun crumb(route: String): Pair<String, String> {
 /** ব্যাক চাপলে এক ধাপ উপরে: লেসন → লেসন তালিকা → Learn সূচি */
 fun parentRoute(route: String): String = when {
     ':' in route -> route.substringBefore(':')
-    route == ROUTE_N5_VOCAB_ALL -> ROUTE_N5_VOCAB
     else -> ROUTE_HUB
 }
 
 /**
  * route: ROUTE_HUB হলে লেভেল-ভিত্তিক সূচি; নইলে নির্বাচিত সেকশন।
- * kanaSub: 0 = কানা চার্ট, 1 = ফ্ল্যাশকার্ড
  */
 @Composable
 fun LearnScreen(
     route: String,
     onRoute: (String) -> Unit,
-    kanaSub: Int,
-    onKanaSub: (Int) -> Unit,
-    kanaVm: KanaViewModel,
-    flashVm: FlashcardViewModel,
-    vocabListVm: VocabListViewModel,
-    vocabStudyVm: VocabStudyViewModel
+    kanaVm: KanaViewModel
 ) {
     if (route == ROUTE_HUB) {
         LearnHub(onRoute)
@@ -121,44 +109,15 @@ fun LearnScreen(
         val no = route.substringAfter(':', "").toIntOrNull()
         val parts = base.split("_")
         when {
-            base == ROUTE_KANA -> {
-                SegmentedTabs(listOf("চার্ট", "ফ্ল্যাশকার্ড"), kanaSub, onSelect = onKanaSub)
-                if (kanaSub == 0) KanaChartScreen(kanaVm) else FlashcardScreen(flashVm)
-            }
+            base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
+            base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
             base == ROUTE_NUMBERS -> NumbersScreen()
-            base == ROUTE_N5_VOCAB_ALL -> VocabScreen(vocabListVm, vocabStudyVm)
             no != null -> LessonContent(parts[0], parts.getOrElse(1) { "vocab" }, no)
             else -> LessonListScreen(
                 level = parts[0],
                 type = parts.getOrElse(1) { "vocab" },
-                onOpen = { onRoute("$base:$it") },
-                top = if (base == ROUTE_N5_VOCAB) legacyTop(onRoute) else null
+                onOpen = { onRoute("$base:$it") }
             )
-        }
-    }
-}
-
-private fun legacyTop(onRoute: (String) -> Unit): @Composable () -> Unit = {
-    LegacyVocabCard { onRoute(ROUTE_N5_VOCAB_ALL) }
-}
-
-@Composable
-private fun LegacyVocabCard(onClick: () -> Unit) {
-    val cs = MaterialTheme.colorScheme
-    SoftCard(
-        Modifier.fillMaxWidth(),
-        color = cs.secondaryContainer,
-        borderColor = cs.secondaryContainer,
-        onClick = onClick
-    ) {
-        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text("🔁", fontSize = 24.sp)
-            Spacer(Modifier.width(14.dp))
-            Column(Modifier.weight(1f)) {
-                Text("সব শব্দ — SRS প্র্যাকটিস", style = MaterialTheme.typography.titleMedium, color = cs.onSecondaryContainer)
-                Text("২৪০টি N5 শব্দ, তালিকা ও কার্ড প্র্যাকটিস", style = MaterialTheme.typography.bodySmall, color = cs.onSecondaryContainer)
-            }
-            Text("›", style = MaterialTheme.typography.titleLarge, color = cs.onSecondaryContainer)
         }
     }
 }

@@ -5,10 +5,9 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 
-@Database(entities = [KanaEntity::class, VocabEntity::class], version = 3, exportSchema = false)
+@Database(entities = [KanaEntity::class], version = 4, exportSchema = false)
 abstract class AppDatabase : RoomDatabase() {
     abstract fun kanaDao(): KanaDao
-    abstract fun vocabDao(): VocabDao
 
     companion object {
         @Volatile private var INSTANCE: AppDatabase? = null

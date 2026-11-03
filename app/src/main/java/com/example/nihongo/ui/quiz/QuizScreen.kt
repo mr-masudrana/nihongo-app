@@ -29,7 +29,6 @@ import com.example.nihongo.ui.components.SegmentedTabs
 import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.stats.StatsBar
 import com.example.nihongo.ui.stats.StatsViewModel
-import com.example.nihongo.ui.vocab.vocabCategories
 
 @Composable
 fun QuizScreen(kanaVm: KanaQuizViewModel, vocabVm: VocabQuizViewModel, statsVm: StatsViewModel) {
@@ -83,14 +82,23 @@ private fun KanaQuiz(vm: KanaQuizViewModel) {
 private fun VocabQuiz(vm: VocabQuizViewModel) {
     val ui by vm.ui.collectAsState()
     val cfg by vm.config.collectAsState()
+    val cats by vm.categories.collectAsState()
 
     when (ui.phase) {
         QuizPhase.SETUP -> SetupPanel(
             startLabel = "কুইজ শুরু করুন (সর্বোচ্চ ১০টি প্রশ্ন)",
             onStart = { vm.start() }
         ) {
-            SectionLabel("বিভাগ")
-            ChipRow(vocabCategories, cfg.category, vm::setCategory)
+            SectionLabel("লেসন")
+            ChipRow(cats, cfg.category, vm::setCategory)
+            if (cats.size <= 1) {
+                Text(
+                    "শব্দ কুইজের জন্য আগে লেসনের JSON-এ শব্দ যোগ করুন।",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    modifier = Modifier.padding(horizontal = 20.dp)
+                )
+            }
             SectionLabel("প্রশ্নের ধরন")
             ChipRow(
                 listOf(

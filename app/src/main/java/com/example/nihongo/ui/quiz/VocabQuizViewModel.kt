@@ -3,35 +3,61 @@ package com.example.nihongo.ui.quiz
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.nihongo.data.ContentRepository
 import com.example.nihongo.data.StatsRepository
-import com.example.nihongo.data.VocabRepository
 import com.example.nihongo.domain.QuizBuilder
+import com.example.nihongo.domain.QuizWord
 import com.example.nihongo.domain.VocabDir
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 data class VocabQuizConfig(
     val category: String = "all",
     val dir: VocabDir = VocabDir.WORD_TO_MEANING
 )
 
+/** শব্দ কুইজ — প্রশ্ন আসে লেসনের শব্দ (assets/lessons/...) থেকে; বিভাগ = লেসন */
 class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
-    private val repo = VocabRepository.get(app)
+    private val content = ContentRepository.get(app)
     private val runner = QuizRunner(StatsRepository.get(app))
 
     val ui: StateFlow<QuizUi> = runner.ui
     val config = MutableStateFlow(VocabQuizConfig())
+
+    /** (key, লেবেল) — প্রথমটি সবসময় "all" */
+    val categories = MutableStateFlow(listOf("all" to "সব"))
+    private var words: List<QuizWord> = emptyList()
+
+    init { viewModelScope.launch { load() } }
+
+    private suspend fun load() {
+        val all = withContext(Dispatchers.IO) { content.allWords() }
+        words = all.mapIndexed { i, lw ->
+            QuizWord(
+                id = i,
+                word = lw.word.word, reading = lw.word.reading, romaji = lw.word.romaji,
+                meaningBn = lw.word.bn, meaningEn = lw.word.en,
+                category = "${lw.level}_${lw.lessonNo}"
+            )
+        }
+        categories.value = listOf("all" to "সব") + all
+            .map { it.level to it.lessonNo }
+            .distinct()
+            .map { (level, no) -> "${level}_$no" to "${level.uppercase()} L$no" }
+    }
 
     fun setCategory(c: String) { config.update { it.copy(category = c) } }
     fun setDir(d: VocabDir) { config.update { it.copy(dir = d) } }
 
     fun start() {
         viewModelScope.launch {
-            repo.seedIfEmpty()
+            if (words.isEmpty()) load()
             val c = config.value
-            runner.start(QuizBuilder.vocabQuestions(repo.allVocab(), c.category, c.dir))
+            runner.start(QuizBuilder.vocabQuestions(words, c.category, c.dir))
         }
     }
 

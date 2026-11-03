@@ -16,11 +16,7 @@ class KanaRepository private constructor(
 
     fun kana(type: String, grp: String): Flow<List<KanaEntity>> = dao.byTypeAndGroup(type, grp)
 
-    suspend fun dueReviews(type: String, now: Long, limit: Int) = dao.dueReviews(type, now, limit)
-    suspend fun newCards(type: String, limit: Int) = dao.newCards(type, limit)
-    suspend fun update(card: KanaEntity) = dao.update(card)
     suspend fun allKana(): List<KanaEntity> = dao.all()
-    fun learnedCount(): Flow<Int> = dao.learnedCount()
 
     /** প্রথমবার চালালে assets/kana.json থেকে ডেটাবেজে ঢোকায় (একাধিকবার ডাকলেও নিরাপদ) */
     suspend fun seedIfEmpty() = seedLock.withLock {
