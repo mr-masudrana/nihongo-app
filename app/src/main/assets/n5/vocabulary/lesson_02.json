@@ -1,0 +1,76 @@
+{
+ "lesson": 2,
+ "title": "জিনিস চেনানো",
+ "words": [
+  {
+   "word": "これ",
+   "reading": "これ",
+   "romaji": "kore",
+   "bn": "এটা (কাছে)",
+   "en": "this one"
+  },
+  {
+   "word": "それ",
+   "reading": "それ",
+   "romaji": "sore",
+   "bn": "ওটা (শ্রোতার কাছে)",
+   "en": "that one"
+  },
+  {
+   "word": "あれ",
+   "reading": "あれ",
+   "romaji": "are",
+   "bn": "ওটা (দূরে)",
+   "en": "that one over there"
+  },
+  {
+   "word": "ほん",
+   "reading": "ほん",
+   "romaji": "hon",
+   "bn": "বই",
+   "en": "book"
+  },
+  {
+   "word": "じしょ",
+   "reading": "じしょ",
+   "romaji": "jisho",
+   "bn": "অভিধান",
+   "en": "dictionary"
+  },
+  {
+   "word": "かばん",
+   "reading": "かばん",
+   "romaji": "kaban",
+   "bn": "ব্যাগ",
+   "en": "bag"
+  },
+  {
+   "word": "かぎ",
+   "reading": "かぎ",
+   "romaji": "kagi",
+   "bn": "চাবি",
+   "en": "key"
+  },
+  {
+   "word": "とけい",
+   "reading": "とけい",
+   "romaji": "tokei",
+   "bn": "ঘড়ি",
+   "en": "clock, watch"
+  },
+  {
+   "word": "くるま",
+   "reading": "くるま",
+   "romaji": "kuruma",
+   "bn": "গাড়ি",
+   "en": "car"
+  },
+  {
+   "word": "つくえ",
+   "reading": "つくえ",
+   "romaji": "tsukue",
+   "bn": "টেবিল",
+   "en": "desk"
+  }
+ ]
+}

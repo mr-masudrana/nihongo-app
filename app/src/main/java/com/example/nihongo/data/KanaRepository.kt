@@ -18,22 +18,24 @@ class KanaRepository private constructor(
 
     suspend fun allKana(): List<KanaEntity> = dao.all()
 
-    /** প্রথমবার চালালে assets/kana.json থেকে ডেটাবেজে ঢোকায় (একাধিকবার ডাকলেও নিরাপদ) */
+    /** প্রথমবার চালালে assets/hiragana.json ও katakana.json থেকে ডেটাবেজে ঢোকায় (একাধিকবার ডাকলেও নিরাপদ) */
     suspend fun seedIfEmpty() = seedLock.withLock {
         withContext(Dispatchers.IO) {
             if (dao.count() > 0) return@withContext
-            val json = context.assets.open("kana.json").bufferedReader().use { it.readText() }
-            val arr = JSONArray(json)
-            val list = (0 until arr.length()).map { i ->
-                val o = arr.getJSONObject(i)
-                KanaEntity(
-                    symbol = o.getString("symbol"),
-                    romaji = o.getString("romaji"),
-                    bn = o.getString("bn"),
-                    type = o.getString("type"),
-                    grp = o.getString("grp"),
-                    rowName = o.getString("row")
-                )
+            val list = listOf("hiragana.json", "katakana.json").flatMap { file ->
+                val json = context.assets.open(file).bufferedReader().use { it.readText() }
+                val arr = JSONArray(json)
+                (0 until arr.length()).map { i ->
+                    val o = arr.getJSONObject(i)
+                    KanaEntity(
+                        symbol = o.getString("symbol"),
+                        romaji = o.getString("romaji"),
+                        bn = o.getString("bn"),
+                        type = o.getString("type"),
+                        grp = o.getString("grp"),
+                        rowName = o.getString("row")
+                    )
+                }
             }
             dao.insertAll(list)
         }

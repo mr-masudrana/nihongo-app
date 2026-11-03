@@ -29,9 +29,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.data.ContentRepository
 import com.example.nihongo.data.GrammarItem
-import com.example.nihongo.data.Lesson
+import com.example.nihongo.data.GrammarLesson
 import com.example.nihongo.data.LessonInfo
-import com.example.nihongo.data.KanjiItem
+import com.example.nihongo.data.VocabLesson
 import com.example.nihongo.data.WordItem
 import com.example.nihongo.ui.components.BigText
 import com.example.nihongo.ui.components.EmptyState
@@ -55,7 +55,7 @@ private fun Loading() {
 
 // ---------------------------------------------------------------- লেসন তালিকা
 
-/** type: "vocab" | "grammar" | "kanji"; ডেটা না থাকা লেসন ধূসর দেখায় ও চাপা যায় না */
+/** type: "vocab" | "grammar"; ডেটা না থাকা লেসন ধূসর দেখায় ও চাপা যায় না */
 @Composable
 fun LessonListScreen(
     level: String,
@@ -64,8 +64,8 @@ fun LessonListScreen(
     top: (@Composable () -> Unit)? = null
 ) {
     val ctx = LocalContext.current
-    val loaded by produceState<List<LessonInfo>?>(null, level) {
-        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).lessonInfos(level) }
+    val loaded by produceState<List<LessonInfo>?>(null, level, type) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).lessonInfos(level, type) }
     }
     val list = loaded
     if (list == null) { Loading(); return }
@@ -77,16 +77,8 @@ fun LessonListScreen(
     ) {
         if (top != null) item { top() }
         items(list) { info ->
-            val count = when (type) {
-                "vocab" -> info.vocab
-                "grammar" -> info.grammar
-                else -> info.kanji
-            }
-            val unit = when (type) {
-                "vocab" -> "টি শব্দ"
-                "grammar" -> "টি পাঠ"
-                else -> "টি কাঞ্জি"
-            }
+            val count = info.count
+            val unit = if (type == "vocab") "টি শব্দ" else "টি পাঠ"
             val available = info.exists && count > 0
             SoftCard(
                 Modifier.fillMaxWidth(),
@@ -122,69 +114,52 @@ fun LessonListScreen(
 
 @Composable
 fun LessonContent(level: String, type: String, no: Int) {
+    if (type == "vocab") VocabLessonContent(level, no) else GrammarLessonContent(level, no)
+}
+
+@Composable
+private fun LessonTitle(title: String) {
+    if (title.isNotEmpty()) {
+        Text(
+            title,
+            style = MaterialTheme.typography.titleMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)
+        )
+    }
+}
+
+@Composable
+private fun VocabLessonContent(level: String, no: Int) {
     val ctx = LocalContext.current
-    val loaded by produceState<Lesson?>(null, level, no) {
-        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).lesson(level, no) }
+    val loaded by produceState<VocabLesson?>(null, level, no) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).vocabLesson(level, no) }
     }
     val lesson = loaded
     if (lesson == null) { Loading(); return }
     Column(Modifier.fillMaxSize()) {
-        if (lesson.title.isNotEmpty()) {
-            Text(
-                lesson.title,
-                style = MaterialTheme.typography.titleMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(horizontal = 20.dp, vertical = 8.dp)
-            )
-        }
-        when (type) {
-            "vocab" -> WordList(lesson.vocab)
-            "grammar" -> GrammarList(lesson.grammar)
-            else -> KanjiList(lesson.kanji)
-        }
+        LessonTitle(lesson.title)
+        WordList(lesson.words)
+    }
+}
+
+@Composable
+private fun GrammarLessonContent(level: String, no: Int) {
+    val ctx = LocalContext.current
+    val loaded by produceState<GrammarLesson?>(null, level, no) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).grammarLesson(level, no) }
+    }
+    val lesson = loaded
+    if (lesson == null) { Loading(); return }
+    Column(Modifier.fillMaxSize()) {
+        LessonTitle(lesson.title)
+        GrammarList(lesson.points)
     }
 }
 
 @Composable
 private fun EmptyLesson() {
     EmptyState("📭", "এই লেসনে এখনো ডেটা নেই", "JSON ফাইলে যোগ করলেই এখানে দেখাবে।")
-}
-
-// ---------------------------------------------------------------- কাঞ্জি
-
-@Composable
-fun KanjiList(list: List<KanjiItem>) {
-    if (list.isEmpty()) { EmptyLesson(); return }
-    val tts = LocalTts.current
-    LazyColumn(
-        Modifier.fillMaxSize(),
-        contentPadding = listPadding,
-        verticalArrangement = Arrangement.spacedBy(10.dp)
-    ) {
-        items(list) { k -> KanjiRow(k) { tts.speak(k.exampleReading) } }
-    }
-}
-
-@Composable
-private fun KanjiRow(k: KanjiItem, onSpeak: () -> Unit) {
-    val cs = MaterialTheme.colorScheme
-    SoftCard(Modifier.fillMaxWidth(), onClick = onSpeak) {
-        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-            BigText(k.kanji, 48.sp, color = cs.primary, weight = FontWeight.Medium)
-            Spacer(Modifier.width(16.dp))
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                Text(k.bn, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
-                Text(k.en, style = MaterialTheme.typography.labelMedium, color = cs.outline)
-                Text("音  ${k.onyomi}", style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
-                Text("訓  ${k.kunyomi}", style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
-                Text(
-                    "${k.example}（${k.exampleReading}） — ${k.exampleBn}",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = cs.tertiary
-                )
-            }
-        }
-    }
 }
 
 // ---------------------------------------------------------------- ব্যাকরণ
@@ -220,6 +195,13 @@ private fun GrammarCard(g: GrammarItem) {
             Text(g.pattern, style = MaterialTheme.typography.bodyMedium, color = cs.primary)
             if (open) {
                 Text(g.explain, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                if (g.note.isNotBlank()) {
+                    Text(
+                        "📝 ${g.note}",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = cs.tertiary
+                    )
+                }
                 g.examples.forEach { e ->
                     Row(
                         Modifier
@@ -276,6 +258,14 @@ fun WordList(list: List<WordItem>) {
                             color = cs.outline,
                             textAlign = TextAlign.End
                         )
+                        if (w.note.isNotBlank()) {
+                            Text(
+                                w.note,
+                                style = MaterialTheme.typography.labelSmall,
+                                color = cs.tertiary,
+                                textAlign = TextAlign.End
+                            )
+                        }
                     }
                 }
             }
@@ -316,6 +306,45 @@ private val tensAndMore = listOf(
     Num("10,000", "一万", "いちまん", "ichi-man")
 )
 
+private val tsuCounters = listOf(
+    Num("1つ", "一つ", "ひとつ", "hitotsu"),
+    Num("2つ", "二つ", "ふたつ", "futatsu"),
+    Num("3つ", "三つ", "みっつ", "mittsu"),
+    Num("4つ", "四つ", "よっつ", "yottsu"),
+    Num("5つ", "五つ", "いつつ", "itsutsu"),
+    Num("6つ", "六つ", "むっつ", "muttsu"),
+    Num("7つ", "七つ", "ななつ", "nanatsu"),
+    Num("8つ", "八つ", "やっつ", "yattsu"),
+    Num("9つ", "九つ", "ここのつ", "kokonotsu"),
+    Num("10", "十", "とお", "too")
+)
+
+private val personCounters = listOf(
+    Num("1人", "一人", "ひとり", "hitori"),
+    Num("2人", "二人", "ふたり", "futari"),
+    Num("3人", "三人", "さんにん", "sannin"),
+    Num("4人", "四人", "よにん", "yonin"),
+    Num("5人", "五人", "ごにん", "gonin"),
+    Num("6人", "六人", "ろくにん", "rokunin"),
+    Num("7人", "七人", "ななにん／しちにん", "nananin / shichinin"),
+    Num("8人", "八人", "はちにん", "hachinin"),
+    Num("9人", "九人", "きゅうにん", "kyuunin"),
+    Num("10人", "十人", "じゅうにん", "juunin")
+)
+
+private val pieceCounters = listOf(
+    Num("1個", "一個", "いっこ", "ikko"),
+    Num("2個", "二個", "にこ", "niko"),
+    Num("3個", "三個", "さんこ", "sanko"),
+    Num("4個", "四個", "よんこ", "yonko"),
+    Num("5個", "五個", "ごこ", "goko"),
+    Num("6個", "六個", "ろっこ", "rokko"),
+    Num("7個", "七個", "ななこ", "nanako"),
+    Num("8個", "八個", "はっこ", "hakko"),
+    Num("9個", "九個", "きゅうこ", "kyuuko"),
+    Num("10個", "十個", "じゅっこ", "jukko")
+)
+
 private val irregularNumbers = listOf(
     Num("300", "三百", "さんびゃく", "san-byaku"),
     Num("600", "六百", "ろっぴゃく", "rop-pyaku"),
@@ -325,7 +354,7 @@ private val irregularNumbers = listOf(
 )
 
 @Composable
-fun NumbersScreen() {
+fun CountingScreen() {
     val tts = LocalTts.current
     val cs = MaterialTheme.colorScheme
     LazyColumn(
@@ -339,6 +368,12 @@ fun NumbersScreen() {
         items(tensAndMore) { n -> NumRow(n) { tts.speak(n.reading) } }
         item { NumHeader("বিশেষ উচ্চারণ (শব্দ বদলে যায়)") }
         items(irregularNumbers) { n -> NumRow(n) { tts.speak(n.reading) } }
+        item { NumHeader("গোনার ধরন: ～つ (সাধারণ জিনিস, ১০ পর্যন্ত)") }
+        items(tsuCounters) { n -> NumRow(n) { tts.speak(n.reading) } }
+        item { NumHeader("গোনার ধরন: ～人 (মানুষ)") }
+        items(personCounters) { n -> NumRow(n) { tts.speak(n.reading.substringBefore("／")) } }
+        item { NumHeader("গোনার ধরন: ～個 (ছোট জিনিস)") }
+        items(pieceCounters) { n -> NumRow(n) { tts.speak(n.reading) } }
         item {
             Text(
                 "৪, ৭ ও ৯-এর দুটি করে পড়া আছে। সাধারণত ৪ = よん, ৭ = なな, ৯ = きゅう বেশি চলে।",

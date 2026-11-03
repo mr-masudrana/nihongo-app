@@ -31,35 +31,23 @@ import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.components.bounceClick
 import com.example.nihongo.ui.kana.KanaChartScreen
 import com.example.nihongo.ui.kana.KanaViewModel
+import com.example.nihongo.ui.quiz.KanaQuizViewModel
+import com.example.nihongo.ui.quiz.TestScreen
+import com.example.nihongo.ui.quiz.VocabQuizViewModel
 
 const val ROUTE_HUB = "hub"
 const val ROUTE_HIRAGANA = "hiragana"
 const val ROUTE_KATAKANA = "katakana"
-const val ROUTE_NUMBERS = "numbers"
+const val ROUTE_COUNTING = "counting"
+const val ROUTE_TEST_KANA = "test_kana"
+const val ROUTE_TEST_N5 = "test_n5"
+const val ROUTE_TEST_N4 = "test_n4"
 const val ROUTE_N5_VOCAB = "n5_vocab"
 const val ROUTE_N5_GRAMMAR = "n5_grammar"
 const val ROUTE_N5_KANJI = "n5_kanji"
 const val ROUTE_N4_VOCAB = "n4_vocab"
 const val ROUTE_N4_GRAMMAR = "n4_grammar"
 const val ROUTE_N4_KANJI = "n4_kanji"
-
-private data class LearnItem(val glyph: String, val title: String, val sub: String, val route: String)
-
-private val basicItems = listOf(
-    LearnItem("あ", "Hiragana", "৪৬ মূল অক্ষর, দাকুতেন ও যৌগিক — চার্ট ও উচ্চারণ", ROUTE_HIRAGANA),
-    LearnItem("ア", "Katakana", "বিদেশি শব্দের জন্য কানা, চার্ট ও উচ্চারণ", ROUTE_KATAKANA),
-    LearnItem("数", "Number", "১ থেকে ১০,০০০ ও বিশেষ উচ্চারণ", ROUTE_NUMBERS)
-)
-private val n5Items = listOf(
-    LearnItem("語", "Vocabulary", "লেসন অনুযায়ী শব্দ (লেসন ১–২৫)", ROUTE_N5_VOCAB),
-    LearnItem("文", "Grammar", "লেসন অনুযায়ী ব্যাকরণ (লেসন ১–২৫)", ROUTE_N5_GRAMMAR),
-    LearnItem("字", "Kanji", "লেসন অনুযায়ী কাঞ্জি (লেসন ১–২৫)", ROUTE_N5_KANJI)
-)
-private val n4Items = listOf(
-    LearnItem("語", "Vocabulary", "লেসন অনুযায়ী শব্দ (লেসন ২৬–৫০)", ROUTE_N4_VOCAB),
-    LearnItem("文", "Grammar", "লেসন অনুযায়ী ব্যাকরণ (লেসন ২৬–৫০)", ROUTE_N4_GRAMMAR),
-    LearnItem("字", "Kanji", "লেসন অনুযায়ী কাঞ্জি (লেসন ২৬–৫০)", ROUTE_N4_KANJI)
-)
 
 private fun typeName(t: String) = when (t) {
     "vocab" -> "Vocabulary"
@@ -73,12 +61,19 @@ private fun crumb(route: String): Pair<String, String> {
     return when (base) {
         ROUTE_HIRAGANA -> "Basic" to "Hiragana"
         ROUTE_KATAKANA -> "Basic" to "Katakana"
-        ROUTE_NUMBERS -> "Basic" to "Number"
+        ROUTE_COUNTING -> "Basic" to "Counting"
+        ROUTE_TEST_KANA -> "Basic" to "Test"
+        ROUTE_TEST_N5 -> "N5" to "Test"
+        ROUTE_TEST_N4 -> "N4" to "Test"
         else -> {
             val parts = base.split("_")
             val level = parts[0].uppercase()
             val type = typeName(parts.getOrElse(1) { "" })
-            if (no == null) level to type else "$level · $type" to "Lesson $no"
+            when {
+                no == null -> level to type
+                parts.getOrNull(1) == "kanji" -> "$level · $type" to "${no + 1}"
+                else -> "$level · $type" to "Lesson $no"
+            }
         }
     }
 }
@@ -90,18 +85,16 @@ fun parentRoute(route: String): String = when {
 }
 
 /**
- * route: ROUTE_HUB হলে লেভেল-ভিত্তিক সূচি; নইলে নির্বাচিত সেকশন।
+ * হোমের কোনো টাইল চাপলে এই স্ক্রিন খোলে (ROUTE_HUB-এর জন্য নয় — সেটা HomeScreen দেখায়)।
  */
 @Composable
 fun LearnScreen(
     route: String,
     onRoute: (String) -> Unit,
-    kanaVm: KanaViewModel
+    kanaVm: KanaViewModel,
+    kanaQuizVm: KanaQuizViewModel,
+    vocabQuizVm: VocabQuizViewModel
 ) {
-    if (route == ROUTE_HUB) {
-        LearnHub(onRoute)
-        return
-    }
     val (level, name) = crumb(route)
     Column(Modifier.fillMaxSize()) {
         SectionBar(level, name, onBack = { onRoute(parentRoute(route)) })
@@ -111,7 +104,14 @@ fun LearnScreen(
         when {
             base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
             base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
-            base == ROUTE_NUMBERS -> NumbersScreen()
+            base == ROUTE_COUNTING -> CountingScreen()
+            base == ROUTE_TEST_KANA -> TestScreen("kana", kanaQuizVm, vocabQuizVm)
+            base == ROUTE_TEST_N5 -> TestScreen("n5", kanaQuizVm, vocabQuizVm)
+            base == ROUTE_TEST_N4 -> TestScreen("n4", kanaQuizVm, vocabQuizVm)
+            parts.getOrNull(1) == "kanji" && no != null ->
+                KanjiDetailScreen(parts[0], no, onNavigate = { onRoute("$base:$it") })
+            parts.getOrNull(1) == "kanji" ->
+                KanjiGridScreen(parts[0], onOpen = { onRoute("$base:$it") })
             no != null -> LessonContent(parts[0], parts.getOrElse(1) { "vocab" }, no)
             else -> LessonListScreen(
                 level = parts[0],
@@ -145,56 +145,6 @@ private fun SectionBar(level: String, name: String, onBack: () -> Unit) {
         Column {
             Text(level, style = MaterialTheme.typography.labelMedium, color = cs.onSurfaceVariant)
             Text(name, style = MaterialTheme.typography.titleLarge, color = cs.onSurface)
-        }
-    }
-}
-
-@Composable
-private fun LearnHub(onRoute: (String) -> Unit) {
-    Column(Modifier.fillMaxSize()) {
-        ScreenHeader("Learn", "ধাপে ধাপে জাপানি শিখুন")
-        Column(
-            Modifier
-                .fillMaxSize()
-                .verticalScroll(rememberScrollState())
-                .padding(bottom = 24.dp),
-            verticalArrangement = Arrangement.spacedBy(10.dp)
-        ) {
-            LevelBlock("Basic", "শুরুর ভিত্তি", basicItems, onRoute)
-            LevelBlock("N5", "প্রাথমিক স্তর", n5Items, onRoute)
-            LevelBlock("N4", "মাধ্যমিক স্তর", n4Items, onRoute)
-        }
-    }
-}
-
-@Composable
-private fun LevelBlock(level: String, subtitle: String, items: List<LearnItem>, onRoute: (String) -> Unit) {
-    val cs = MaterialTheme.colorScheme
-    Column(Modifier.padding(horizontal = 20.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-        Row(Modifier.padding(top = 8.dp), verticalAlignment = Alignment.CenterVertically) {
-            Box(
-                Modifier
-                    .clip(RoundedCornerShape(10.dp))
-                    .background(cs.primaryContainer)
-                    .padding(horizontal = 12.dp, vertical = 4.dp)
-            ) {
-                Text(level, style = MaterialTheme.typography.titleSmall, color = cs.onPrimaryContainer)
-            }
-            Spacer(Modifier.width(10.dp))
-            Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
-        }
-        items.forEach { item ->
-            SoftCard(Modifier.fillMaxWidth(), onClick = { onRoute(item.route) }) {
-                Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-                    BigText(item.glyph, 28.sp, color = cs.primary, weight = FontWeight.Bold)
-                    Spacer(Modifier.width(16.dp))
-                    Column(Modifier.weight(1f)) {
-                        Text(item.title, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
-                        Text(item.sub, style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant)
-                    }
-                    Text("›", style = MaterialTheme.typography.titleLarge, color = cs.outline)
-                }
-            }
         }
     }
 }

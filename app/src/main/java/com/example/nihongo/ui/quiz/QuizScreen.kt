@@ -12,6 +12,8 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -27,19 +29,19 @@ import com.example.nihongo.ui.components.ScreenHeader
 import com.example.nihongo.ui.components.SectionLabel
 import com.example.nihongo.ui.components.SegmentedTabs
 import com.example.nihongo.ui.components.SoftCard
-import com.example.nihongo.ui.stats.StatsBar
-import com.example.nihongo.ui.stats.StatsViewModel
 
+/**
+ * হোমের "Test" টাইলের স্ক্রিন। kind: "kana" = কানা কুইজ; "n5"/"n4" = ওই লেভেলের লেসনের শব্দ কুইজ।
+ * স্ক্রিন ছেড়ে গেলে কুইজ সেটআপে ফিরে যায়।
+ */
 @Composable
-fun QuizScreen(kanaVm: KanaQuizViewModel, vocabVm: VocabQuizViewModel, statsVm: StatsViewModel) {
-    var mode by rememberSaveable { mutableStateOf(0) }
+fun TestScreen(kind: String, kanaVm: KanaQuizViewModel, vocabVm: VocabQuizViewModel) {
+    LaunchedEffect(kind) { if (kind != "kana") vocabVm.setLevel(kind) }
+    DisposableEffect(kind) {
+        onDispose { if (kind == "kana") kanaVm.back() else vocabVm.back() }
+    }
     Column(Modifier.fillMaxSize()) {
-        ScreenHeader("কুইজ", "নিজেকে যাচাই করুন, XP জিতুন")
-        StatsBar(statsVm)
-        Spacer(Modifier.height(12.dp))
-        SegmentedTabs(listOf("কানা কুইজ", "শব্দ কুইজ"), mode, onSelect = { mode = it })
-        Spacer(Modifier.height(8.dp))
-        if (mode == 0) KanaQuiz(kanaVm) else VocabQuiz(vocabVm)
+        if (kind == "kana") KanaQuiz(kanaVm) else VocabQuiz(vocabVm)
     }
 }
 

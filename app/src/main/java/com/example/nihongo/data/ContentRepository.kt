@@ -4,97 +4,139 @@ import android.content.Context
 import org.json.JSONArray
 import org.json.JSONObject
 
+data class KanjiWord(val word: String, val reading: String, val bn: String)
+
+/** কাঞ্জি লেসনের অংশ নয় — আলাদা তালিকা (assets/<level>/kanji.json) */
 data class KanjiItem(
     val kanji: String, val onyomi: String, val kunyomi: String,
     val bn: String, val en: String,
-    val example: String, val exampleReading: String, val exampleBn: String
+    val strokes: Int,
+    val words: List<KanjiWord>,
+    val sentenceJp: String, val sentenceBn: String
 )
 
 data class GrammarExample(val jp: String, val romaji: String, val bn: String)
 
+/** ব্যাকরণের একটি পয়েন্ট (বইয়ের "1. N1 は N2 です"-এর মতো)। note ঐচ্ছিক */
 data class GrammarItem(
     val title: String, val pattern: String, val explain: String,
-    val examples: List<GrammarExample>
+    val examples: List<GrammarExample>,
+    val note: String = ""
 )
 
+/** একটি শব্দ। word = কাঞ্জি/লেখার রূপ, reading = কানা পড়া। note ঐচ্ছিক (ব্যবহারের টীকা) */
 data class WordItem(
     val word: String, val reading: String, val romaji: String,
-    val bn: String, val en: String
+    val bn: String, val en: String,
+    val note: String = ""
 )
 
-/** একটি লেসনের সব কনটেন্ট */
-data class Lesson(
-    val no: Int,
-    val title: String,
-    val vocab: List<WordItem>,
-    val grammar: List<GrammarItem>,
-    val kanji: List<KanjiItem>
-)
+/** assets/<level>/vocabulary/lesson_NN.json */
+data class VocabLesson(val no: Int, val title: String, val words: List<WordItem>)
+
+/** assets/<level>/grammar/lesson_NN.json */
+data class GrammarLesson(val no: Int, val title: String, val points: List<GrammarItem>)
 
 /** লেসন তালিকার জন্য সারাংশ। exists = false মানে ফাইলটি এখনো যোগ হয়নি */
-data class LessonInfo(
-    val no: Int, val title: String,
-    val vocab: Int, val grammar: Int, val kanji: Int,
-    val exists: Boolean
-)
+data class LessonInfo(val no: Int, val title: String, val count: Int, val exists: Boolean)
 
 /** সার্চ ও কুইজের জন্য: কোন লেভেল/লেসনের শব্দ */
 data class LessonWord(val level: String, val lessonNo: Int, val word: WordItem)
 
 /**
- * লেসন-ভিত্তিক কনটেন্ট — assets/lessons/<level>/lesson_NN.json (level = n5 | n4)।
- * নতুন লেসন যোগ করতে শুধু ফাইলটি ওই ফোল্ডারে রাখুন; কোড বা ডেটাবেজ বদলাতে হবে না।
+ * ডেটার ফোল্ডার (level = n5 | n4):
+ *   assets/<level>/vocabulary/lesson_NN.json   — লেসনের শব্দ
+ *   assets/<level>/grammar/lesson_NN.json      — লেসনের ব্যাকরণ
+ *   assets/<level>/kanji.json                  — কাঞ্জি (লেসন ছাড়া)
+ * নতুন ফাইল রাখলেই অ্যাপে দেখাবে; কোড বা ডেটাবেজ বদলাতে হবে না।
  * Room ব্যবহার করে না, তাই ডেটাবেজ রিসেটে প্রভাব নেই।
  */
 class ContentRepository private constructor(private val context: Context) {
 
+    /** N5 = লেসন ১–২৫, N4 = ২৬–৫০ */
     fun lessonRange(level: String): IntRange = if (level == "n5") 1..25 else 26..50
 
-    private fun fileName(level: String, no: Int) = "lessons/$level/lesson_${"%02d".format(no)}.json"
+    private fun lessonPath(level: String, folder: String, no: Int) =
+        "$level/$folder/lesson_${"%02d".format(no)}.json"
 
-    fun lesson(level: String, no: Int): Lesson? = runCatching {
-        val text = context.assets.open(fileName(level, no)).bufferedReader().use { it.readText() }
-        parse(JSONObject(text), no)
+    private fun readObject(path: String): JSONObject? = runCatching {
+        JSONObject(context.assets.open(path).bufferedReader().use { it.readText() })
     }.getOrNull()
 
-    fun lessonInfos(level: String): List<LessonInfo> = lessonRange(level).map { no ->
-        val l = lesson(level, no)
-        if (l == null) LessonInfo(no, "", 0, 0, 0, false)
-        else LessonInfo(no, l.title, l.vocab.size, l.grammar.size, l.kanji.size, true)
-    }
+    // ---------------------------------------------------------------- শব্দ
 
-    /** সব লেসনের সব শব্দ (N5 ও N4) */
-    fun allWords(): List<LessonWord> = listOf("n5", "n4").flatMap { level ->
-        lessonRange(level).flatMap { no ->
-            lesson(level, no)?.vocab.orEmpty().map { LessonWord(level, no, it) }
-        }
-    }
-
-    private fun parse(o: JSONObject, fallbackNo: Int) = Lesson(
-        no = o.optInt("lesson", fallbackNo),
-        title = o.optString("title", ""),
-        vocab = list(o.optJSONArray("vocab")) { w ->
-            WordItem(
-                w.optString("word"), w.optString("reading"), w.optString("romaji"),
-                w.optString("bn"), w.optString("en")
-            )
-        },
-        grammar = list(o.optJSONArray("grammar")) { g ->
-            GrammarItem(
-                g.optString("title"), g.optString("pattern"), g.optString("explain"),
-                list(g.optJSONArray("examples")) { e ->
-                    GrammarExample(e.optString("jp"), e.optString("romaji"), e.optString("bn"))
+    fun vocabLesson(level: String, no: Int): VocabLesson? =
+        readObject(lessonPath(level, "vocabulary", no))?.let { o ->
+            VocabLesson(
+                o.optInt("lesson", no), o.optString("title", ""),
+                list(o.optJSONArray("words")) { w ->
+                    WordItem(
+                        w.optString("word"), w.optString("reading"), w.optString("romaji"),
+                        w.optString("bn"), w.optString("en"), w.optString("note")
+                    )
                 }
             )
-        },
-        kanji = list(o.optJSONArray("kanji")) { k ->
-            KanjiItem(
-                k.optString("kanji"), k.optString("on"), k.optString("kun"),
-                k.optString("bn"), k.optString("en"),
-                k.optString("ex"), k.optString("exReading"), k.optString("exBn")
+        }
+
+    // ---------------------------------------------------------------- ব্যাকরণ
+
+    fun grammarLesson(level: String, no: Int): GrammarLesson? =
+        readObject(lessonPath(level, "grammar", no))?.let { o ->
+            GrammarLesson(
+                o.optInt("lesson", no), o.optString("title", ""),
+                list(o.optJSONArray("points")) { g ->
+                    GrammarItem(
+                        g.optString("title"), g.optString("pattern"), g.optString("explain"),
+                        list(g.optJSONArray("examples")) { e ->
+                            GrammarExample(e.optString("jp"), e.optString("romaji"), e.optString("bn"))
+                        },
+                        g.optString("note")
+                    )
+                }
             )
         }
-    )
+
+    /** type = "vocab" | "grammar" — লেসন তালিকার সারাংশ (ফাইল না থাকলে exists = false) */
+    fun lessonInfos(level: String, type: String): List<LessonInfo> = lessonRange(level).map { no ->
+        if (type == "vocab") {
+            val l = vocabLesson(level, no)
+            if (l == null) LessonInfo(no, "", 0, false) else LessonInfo(no, l.title, l.words.size, true)
+        } else {
+            val l = grammarLesson(level, no)
+            if (l == null) LessonInfo(no, "", 0, false) else LessonInfo(no, l.title, l.points.size, true)
+        }
+    }
+
+    /** সব লেসনের সব শব্দ (N5 ও N4) — সার্চ ও কুইজের জন্য */
+    fun allWords(): List<LessonWord> = listOf("n5", "n4").flatMap { level ->
+        lessonRange(level).flatMap { no ->
+            vocabLesson(level, no)?.words.orEmpty().map { LessonWord(level, no, it) }
+        }
+    }
+
+    // ---------------------------------------------------------------- কাঞ্জি
+
+    private val kanjiCache = HashMap<String, List<KanjiItem>>()
+
+    /** level = "n5" | "n4" — assets/<level>/kanji.json */
+    @Synchronized
+    fun kanji(level: String): List<KanjiItem> = kanjiCache.getOrPut(level) {
+        runCatching {
+            val text = context.assets.open("$level/kanji.json").bufferedReader().use { it.readText() }
+            list(JSONArray(text)) { k ->
+                KanjiItem(
+                    k.optString("kanji"), k.optString("on"), k.optString("kun"),
+                    k.optString("bn"), k.optString("en"),
+                    k.optInt("strokes", 0),
+                    list(k.optJSONArray("words")) { w ->
+                        KanjiWord(w.optString("w"), w.optString("r"), w.optString("bn"))
+                    },
+                    k.optJSONObject("sentence")?.optString("jp").orEmpty(),
+                    k.optJSONObject("sentence")?.optString("bn").orEmpty()
+                )
+            }
+        }.getOrDefault(emptyList())
+    }
 
     private fun <T> list(a: JSONArray?, f: (JSONObject) -> T): List<T> =
         if (a == null) emptyList() else (0 until a.length()).map { f(a.getJSONObject(it)) }

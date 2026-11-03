@@ -38,15 +38,12 @@ import com.example.nihongo.ui.components.LocalTts
 import com.example.nihongo.ui.kana.KanaViewModel
 import com.example.nihongo.ui.kana.TtsHelper
 import com.example.nihongo.ui.quiz.KanaQuizViewModel
-import com.example.nihongo.ui.quiz.QuizScreen
 import com.example.nihongo.ui.quiz.VocabQuizViewModel
 import com.example.nihongo.ui.settings.SettingsScreen
 import com.example.nihongo.ui.settings.SettingsViewModel
-import com.example.nihongo.ui.stats.StatsScreen
 import com.example.nihongo.ui.stats.StatsViewModel
 import com.example.nihongo.ui.theme.NihongoTheme
 import com.example.nihongo.ui.home.HomeScreen
-import com.example.nihongo.ui.learn.LearnScreen
 import com.example.nihongo.ui.learn.ROUTE_HUB
 import com.example.nihongo.ui.learn.parentRoute
 import com.example.nihongo.ui.search.SearchScreen
@@ -89,16 +86,13 @@ class MainActivity : ComponentActivity() {
     private fun NihongoApp() {
         val cs = MaterialTheme.colorScheme
         var tab by rememberSaveable { mutableStateOf(0) }
+        // Home ট্যাবের ভেতরের পাতা (লেভেলের সেকশন, লেসন, টেস্ট…)
+        var homeRoute by rememberSaveable { mutableStateOf(ROUTE_HUB) }
 
-        // অন্য ট্যাবে থাকলে ব্যাক চাপলে প্রথম ট্যাবে ফেরে
+        // অন্য ট্যাবে থাকলে ব্যাক চাপলে Home-এ ফেরে
         BackHandler(enabled = tab != 0) { tab = 0 }
-
-        var learnRoute by rememberSaveable { mutableStateOf(ROUTE_HUB) }
-        // Learn-এর ভেতরের সেকশন থেকে ব্যাক চাপলে আগে Learn সূচিতে ফেরে
-        BackHandler(enabled = tab == 1 && learnRoute != ROUTE_HUB) { learnRoute = parentRoute(learnRoute) }
-        var showSettings by rememberSaveable { mutableStateOf(false) }
-        // পরে রেজিস্টার হওয়া হ্যান্ডলার আগে চলে — তাই সেটিংস খোলা থাকলে ব্যাক আগে সেটিংস বন্ধ করে
-        BackHandler(enabled = showSettings) { showSettings = false }
+        // পরে রেজিস্টার হওয়া হ্যান্ডলার আগে চলে — তাই Home-এর ভেতরে থাকলে ব্যাক আগে এক ধাপ উপরে যায়
+        BackHandler(enabled = tab == 0 && homeRoute != ROUTE_HUB) { homeRoute = parentRoute(homeRoute) }
 
         Scaffold(
             containerColor = cs.background,
@@ -106,15 +100,17 @@ class MainActivity : ComponentActivity() {
                 NavigationBar(containerColor = cs.surfaceContainer, tonalElevation = 0.dp) {
                     val items = listOf(
                         "家" to "Home",
-                        "学" to "Learn",
                         "探" to "Search",
-                        "問" to "Quiz",
-                        "我" to "Me"
+                        "設" to "Settings"
                     )
                     items.forEachIndexed { i, (glyph, label) ->
                         NavigationBarItem(
                             selected = tab == i,
-                            onClick = { tab = i },
+                            onClick = {
+                                // Home আবার চাপলে হোমের মূল পাতায় ফেরে
+                                if (i == 0 && tab == 0) homeRoute = ROUTE_HUB
+                                tab = i
+                            },
                             icon = { Text(glyph, fontSize = 22.sp, fontWeight = FontWeight.Bold) },
                             label = { Text(label) },
                             colors = NavigationBarItemDefaults.colors(
@@ -130,24 +126,18 @@ class MainActivity : ComponentActivity() {
             }
         ) { pad ->
             Box(Modifier.fillMaxSize().padding(pad)) {
-                if (showSettings) {
-                    SettingsScreen(settingsVm, onBack = { showSettings = false })
-                } else Crossfade(targetState = tab, animationSpec = tween(220), label = "tabs") { t ->
+                Crossfade(targetState = tab, animationSpec = tween(220), label = "tabs") { t ->
                     when (t) {
                         0 -> HomeScreen(
-                            statsVm,
-                            onLearn = { r -> learnRoute = r; tab = 1 },
-                            onQuiz = { tab = 3 },
-                            onSearch = { tab = 2 }
+                            route = homeRoute,
+                            onRoute = { homeRoute = it },
+                            statsVm = statsVm,
+                            kanaVm = kanaVm,
+                            kanaQuizVm = kanaQuizVm,
+                            vocabQuizVm = vocabQuizVm
                         )
-                        1 -> LearnScreen(
-                            route = learnRoute,
-                            onRoute = { learnRoute = it },
-                            kanaVm = kanaVm
-                        )
-                        2 -> SearchScreen(searchVm)
-                        3 -> QuizScreen(kanaQuizVm, vocabQuizVm, statsVm)
-                        else -> StatsScreen(statsVm, onOpenSettings = { showSettings = true })
+                        1 -> SearchScreen(searchVm)
+                        else -> SettingsScreen(settingsVm, statsVm)
                     }
                 }
             }

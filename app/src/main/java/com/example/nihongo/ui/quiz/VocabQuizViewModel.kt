@@ -20,7 +20,7 @@ data class VocabQuizConfig(
     val dir: VocabDir = VocabDir.WORD_TO_MEANING
 )
 
-/** শব্দ কুইজ — প্রশ্ন আসে লেসনের শব্দ (assets/lessons/...) থেকে; বিভাগ = লেসন */
+/** শব্দ কুইজ — প্রশ্ন আসে লেসনের শব্দ (assets/<level>/vocabulary/...) থেকে; বিভাগ = লেসন */
 class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
     private val content = ContentRepository.get(app)
     private val runner = QuizRunner(StatsRepository.get(app))
@@ -31,11 +31,21 @@ class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
     /** (key, লেবেল) — প্রথমটি সবসময় "all" */
     val categories = MutableStateFlow(listOf("all" to "সব"))
     private var words: List<QuizWord> = emptyList()
+    private var level = "n5"
+    private var loadedLevel: String? = null
 
-    init { viewModelScope.launch { load() } }
+    /** "n5" বা "n4" — শুধু ওই লেভেলের লেসনের শব্দ কুইজে আসবে */
+    fun setLevel(l: String) {
+        if (l == level && loadedLevel == l) return
+        level = l
+        config.update { it.copy(category = "all") }
+        viewModelScope.launch { load() }
+    }
 
     private suspend fun load() {
-        val all = withContext(Dispatchers.IO) { content.allWords() }
+        val lvl = level
+        val all = withContext(Dispatchers.IO) { content.allWords() }.filter { it.level == lvl }
+        loadedLevel = lvl
         words = all.mapIndexed { i, lw ->
             QuizWord(
                 id = i,
@@ -47,7 +57,7 @@ class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
         categories.value = listOf("all" to "সব") + all
             .map { it.level to it.lessonNo }
             .distinct()
-            .map { (level, no) -> "${level}_$no" to "${level.uppercase()} L$no" }
+            .map { (lv, no) -> "${lv}_$no" to "L$no" }
     }
 
     fun setCategory(c: String) { config.update { it.copy(category = c) } }
@@ -55,7 +65,7 @@ class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
 
     fun start() {
         viewModelScope.launch {
-            if (words.isEmpty()) load()
+            if (loadedLevel != level) load()
             val c = config.value
             runner.start(QuizBuilder.vocabQuestions(words, c.category, c.dir))
         }

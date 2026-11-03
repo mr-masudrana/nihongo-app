@@ -1,0 +1,76 @@
+{
+ "lesson": 1,
+ "title": "নিজের পরিচয়",
+ "words": [
+  {
+   "word": "わたし",
+   "reading": "わたし",
+   "romaji": "watashi",
+   "bn": "আমি",
+   "en": "I"
+  },
+  {
+   "word": "あなた",
+   "reading": "あなた",
+   "romaji": "anata",
+   "bn": "আপনি / তুমি",
+   "en": "you"
+  },
+  {
+   "word": "せんせい",
+   "reading": "せんせい",
+   "romaji": "sensei",
+   "bn": "শিক্ষক",
+   "en": "teacher"
+  },
+  {
+   "word": "がくせい",
+   "reading": "がくせい",
+   "romaji": "gakusei",
+   "bn": "ছাত্র",
+   "en": "student"
+  },
+  {
+   "word": "かいしゃいん",
+   "reading": "かいしゃいん",
+   "romaji": "kaishain",
+   "bn": "অফিস কর্মী",
+   "en": "company employee"
+  },
+  {
+   "word": "いしゃ",
+   "reading": "いしゃ",
+   "romaji": "isha",
+   "bn": "ডাক্তার",
+   "en": "doctor"
+  },
+  {
+   "word": "だれ",
+   "reading": "だれ",
+   "romaji": "dare",
+   "bn": "কে",
+   "en": "who"
+  },
+  {
+   "word": "にほん",
+   "reading": "にほん",
+   "romaji": "nihon",
+   "bn": "জাপান",
+   "en": "Japan"
+  },
+  {
+   "word": "はい",
+   "reading": "はい",
+   "romaji": "hai",
+   "bn": "হ্যাঁ",
+   "en": "yes"
+  },
+  {
+   "word": "いいえ",
+   "reading": "いいえ",
+   "romaji": "iie",
+   "bn": "না",
+   "en": "no"
+  }
+ ]
+}

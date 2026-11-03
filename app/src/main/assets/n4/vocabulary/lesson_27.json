@@ -1,0 +1,34 @@
+{
+ "lesson": 27,
+ "title": "পারা ও সম্ভাবনা",
+ "words": [
+  {
+   "word": "作る",
+   "reading": "つくる",
+   "romaji": "tsukuru",
+   "bn": "বানানো",
+   "en": "to make"
+  },
+  {
+   "word": "飼う",
+   "reading": "かう",
+   "romaji": "kau",
+   "bn": "পোষা",
+   "en": "to keep (a pet)"
+  },
+  {
+   "word": "書く",
+   "reading": "かく",
+   "romaji": "kaku",
+   "bn": "লেখা",
+   "en": "to write"
+  },
+  {
+   "word": "読む",
+   "reading": "よむ",
+   "romaji": "yomu",
+   "bn": "পড়া",
+   "en": "to read"
+  }
+ ]
+}

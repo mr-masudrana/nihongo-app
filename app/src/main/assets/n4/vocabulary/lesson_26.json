@@ -1,0 +1,41 @@
+{
+ "lesson": 26,
+ "title": "কারণ ও ব্যাখ্যা",
+ "words": [
+  {
+   "word": "探す",
+   "reading": "さがす",
+   "romaji": "sagasu",
+   "bn": "খোঁজা",
+   "en": "to search"
+  },
+  {
+   "word": "遅れる",
+   "reading": "おくれる",
+   "romaji": "okureru",
+   "bn": "দেরি হওয়া",
+   "en": "to be late"
+  },
+  {
+   "word": "間に合う",
+   "reading": "まにあう",
+   "romaji": "maniau",
+   "bn": "সময়মতো পৌঁছানো",
+   "en": "to be in time"
+  },
+  {
+   "word": "片付ける",
+   "reading": "かたづける",
+   "romaji": "katadukeru",
+   "bn": "গুছিয়ে রাখা",
+   "en": "to tidy up"
+  },
+  {
+   "word": "捨てる",
+   "reading": "すてる",
+   "romaji": "suteru",
+   "bn": "ফেলে দেওয়া",
+   "en": "to throw away"
+  }
+ ]
+}

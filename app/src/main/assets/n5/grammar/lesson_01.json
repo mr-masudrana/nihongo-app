@@ -1,0 +1,54 @@
+{
+ "lesson": 1,
+ "title": "নিজের পরিচয়",
+ "points": [
+  {
+   "title": "A は B です",
+   "pattern": "A は B です",
+   "explain": "A নিয়ে কথা বলছি এবং A-ই B, এটা বোঝায়। は উচ্চারণ হয় “ওয়া”।",
+   "examples": [
+    {
+     "jp": "わたしは がくせいです。",
+     "romaji": "Watashi wa gakusei desu.",
+     "bn": "আমি ছাত্র।"
+    }
+   ]
+  },
+  {
+   "title": "A は B じゃ ありません",
+   "pattern": "A は B じゃ ありません",
+   "explain": "না-বাচক রূপ। です-এর জায়গায় じゃ ありません বসে।",
+   "examples": [
+    {
+     "jp": "わたしは せんせいじゃ ありません。",
+     "romaji": "Watashi wa sensei ja arimasen.",
+     "bn": "আমি শিক্ষক নই।"
+    }
+   ]
+  },
+  {
+   "title": "か — প্রশ্ন",
+   "pattern": "～ですか",
+   "explain": "বাক্যের শেষে か বসালে প্রশ্ন হয়।",
+   "examples": [
+    {
+     "jp": "あなたは がくせいですか。",
+     "romaji": "Anata wa gakusei desu ka.",
+     "bn": "আপনি কি ছাত্র?"
+    }
+   ]
+  },
+  {
+   "title": "も — ও (সমান)",
+   "pattern": "A も B です",
+   "explain": "আগের বাক্যের মতো একই ব্যাপার বোঝাতে は-এর জায়গায় も বসে।",
+   "examples": [
+    {
+     "jp": "わたしも がくせいです。",
+     "romaji": "Watashi mo gakusei desu.",
+     "bn": "আমিও ছাত্র।"
+    }
+   ]
+  }
+ ]
+}

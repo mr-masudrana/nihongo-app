@@ -14,7 +14,7 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
-/** সব লেসনের শব্দে খোঁজে (assets/lessons/...) */
+/** সব লেসনের শব্দে খোঁজে (assets/<level>/vocabulary/...) */
 class SearchViewModel(app: Application) : AndroidViewModel(app) {
     private val repo = ContentRepository.get(app)
 
