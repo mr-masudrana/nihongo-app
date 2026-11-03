@@ -1,110 +1,80 @@
 package com.example.nihongo.ui.flashcard
 
-import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.nihongo.ui.kana.TtsHelper
+import com.example.nihongo.ui.components.BigText
+import com.example.nihongo.ui.components.EmptyState
+import com.example.nihongo.ui.components.LocalTts
+import com.example.nihongo.ui.components.ScreenHeader
+import com.example.nihongo.ui.components.SegmentedTabs
+import com.example.nihongo.ui.components.SessionDone
+import com.example.nihongo.ui.components.SpeakButton
+import com.example.nihongo.ui.components.StudyDeck
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FlashcardScreen(vm: FlashcardViewModel) {
-    val context = LocalContext.current
-    val tts = remember { TtsHelper(context) }
-    DisposableEffect(Unit) { onDispose { tts.shutdown() } }
-
+    val tts = LocalTts.current
     val ui by vm.ui.collectAsState()
-    val types = listOf("hiragana" to "হিরাগানা", "katakana" to "কাতাকানা")
+    val cs = MaterialTheme.colorScheme
+    val card = ui.current
 
     Column(Modifier.fillMaxSize()) {
-        TopAppBar(title = { Text("ফ্ল্যাশকার্ড") }, windowInsets = WindowInsets(0))
+        ScreenHeader("ফ্ল্যাশকার্ড", "কার্ড উল্টে মনে করার চেষ্টা করুন")
+        SegmentedTabs(
+            options = listOf("হিরাগানা", "কাতাকানা"),
+            selectedIndex = if (ui.type == "katakana") 1 else 0,
+            onSelect = { vm.setType(if (it == 1) "katakana" else "hiragana") }
+        )
+        Spacer(Modifier.height(16.dp))
 
-        Row(
-            Modifier.padding(horizontal = 16.dp, vertical = 8.dp),
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
-            types.forEach { (key, label) ->
-                FilterChip(selected = ui.type == key, onClick = { vm.setType(key) }, label = { Text(label) })
-            }
-        }
-
-        Box(Modifier.weight(1f).fillMaxWidth().padding(16.dp), contentAlignment = Alignment.Center) {
+        Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
             when {
                 ui.loading -> CircularProgressIndicator()
 
-                ui.empty -> Message("আজকের জন্য কোনো কার্ড বাকি নেই 🎉\nপরে আবার আসুন।")
+                ui.empty -> EmptyState(
+                    emoji = "🎉",
+                    title = "আজকের জন্য সব শেষ!",
+                    message = "কোনো কার্ড বাকি নেই। পরে আবার আসুন।"
+                )
 
-                ui.finished -> Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("সেশন শেষ! 🎉", fontSize = 24.sp)
-                    Spacer(Modifier.height(12.dp))
-                    Text("জানি: ${ui.known}   |   জানি না: ${ui.again}", fontSize = 16.sp)
-                    Spacer(Modifier.height(20.dp))
-                    Button(onClick = { vm.restart() }) { Text("আবার শুরু করুন") }
-                }
+                ui.finished -> SessionDone(known = ui.known, again = ui.again, onRestart = vm::restart)
 
-                else -> {
-                    val card = ui.current!!
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text("${ui.index + 1} / ${ui.queue.size}", fontSize = 14.sp)
-                        Spacer(Modifier.height(6.dp))
-                        LinearProgressIndicator(
-                            progress = { ui.index.toFloat() / ui.queue.size },
-                            modifier = Modifier.fillMaxWidth()
-                        )
-                        Spacer(Modifier.height(20.dp))
-                        Card(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(300.dp)
-                                .clickable(enabled = !ui.flipped) {
-                                    vm.flip()
-                                    tts.speak(card.symbol)
-                                }
-                        ) {
-                            Column(
-                                Modifier.fillMaxSize().padding(16.dp),
-                                horizontalAlignment = Alignment.CenterHorizontally,
-                                verticalArrangement = Arrangement.Center
-                            ) {
-                                Text(card.symbol, fontSize = 96.sp)
-                                Spacer(Modifier.height(12.dp))
-                                if (ui.flipped) {
-                                    Text(card.romaji, fontSize = 28.sp)
-                                    Text(card.bn, fontSize = 24.sp, color = MaterialTheme.colorScheme.primary)
-                                    Spacer(Modifier.height(8.dp))
-                                    TextButton(onClick = { tts.speak(card.symbol) }) { Text("🔊 আবার শুনুন") }
-                                } else {
-                                    Text("ট্যাপ করে উত্তর দেখুন", fontSize = 14.sp)
-                                }
-                            }
-                        }
-                        Spacer(Modifier.height(20.dp))
-                        if (ui.flipped) {
-                            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                OutlinedButton(onClick = { vm.answer(false) }, modifier = Modifier.weight(1f)) {
-                                    Text("জানি না")
-                                }
-                                Button(onClick = { vm.answer(true) }, modifier = Modifier.weight(1f)) {
-                                    Text("জানি")
-                                }
-                            }
-                        } else {
-                            Spacer(Modifier.height(40.dp))
-                        }
+                card != null -> StudyDeck(
+                    index = ui.index,
+                    total = ui.queue.size,
+                    flipped = ui.flipped,
+                    onFlip = {
+                        vm.flip()
+                        tts.speak(card.symbol)
+                    },
+                    onAnswer = vm::answer,
+                    front = {
+                        BigText(card.symbol, 112.sp, color = cs.onPrimaryContainer, weight = FontWeight.Medium)
+                    },
+                    back = {
+                        BigText(card.symbol, 72.sp, color = cs.onSurface, weight = FontWeight.Medium)
+                        Spacer(Modifier.height(8.dp))
+                        BigText(card.romaji, 36.sp, color = cs.onSurface, weight = FontWeight.Bold)
+                        BigText(card.bn, 26.sp, color = cs.secondary, weight = FontWeight.SemiBold)
+                        Spacer(Modifier.height(16.dp))
+                        SpeakButton(onClick = { tts.speak(card.symbol) }, diameter = 52.dp)
                     }
-                }
+                )
             }
         }
     }
-}
-
-@Composable
-private fun Message(text: String) {
-    Text(text, fontSize = 18.sp, textAlign = TextAlign.Center)
 }

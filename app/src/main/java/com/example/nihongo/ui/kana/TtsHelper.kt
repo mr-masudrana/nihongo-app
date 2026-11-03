@@ -7,6 +7,7 @@ import java.util.Locale
 class TtsHelper(context: Context) {
     private var ready: Boolean = false
     private var tts: TextToSpeech? = null
+    private var rate: Float = 1.0f
 
     init {
         tts = TextToSpeech(context.applicationContext) { status ->
@@ -15,9 +16,16 @@ class TtsHelper(context: Context) {
                     val result = engine.setLanguage(Locale.JAPANESE)
                     ready = result != TextToSpeech.LANG_MISSING_DATA &&
                         result != TextToSpeech.LANG_NOT_SUPPORTED
+                    engine.setSpeechRate(rate)
                 }
             }
         }
+    }
+
+    /** 1.0 = স্বাভাবিক; ইঞ্জিন তৈরি হওয়ার আগে ডাকলেও পরে প্রয়োগ হবে */
+    fun setRate(r: Float) {
+        rate = r
+        tts?.setSpeechRate(r)
     }
 
     fun speak(text: String) {

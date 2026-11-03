@@ -1,30 +1,45 @@
 package com.example.nihongo.ui.quiz
 
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.example.nihongo.domain.KanaDir
 import com.example.nihongo.domain.VocabDir
+import com.example.nihongo.ui.components.ActionButton
+import com.example.nihongo.ui.components.ChipRow
+import com.example.nihongo.ui.components.ScreenHeader
+import com.example.nihongo.ui.components.SectionLabel
+import com.example.nihongo.ui.components.SegmentedTabs
+import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.stats.StatsBar
 import com.example.nihongo.ui.stats.StatsViewModel
 import com.example.nihongo.ui.vocab.vocabCategories
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuizScreen(kanaVm: KanaQuizViewModel, vocabVm: VocabQuizViewModel, statsVm: StatsViewModel) {
-    var mode by remember { mutableIntStateOf(0) }
+    var mode by rememberSaveable { mutableStateOf(0) }
     Column(Modifier.fillMaxSize()) {
-        TopAppBar(title = { Text("কুইজ") }, windowInsets = WindowInsets(0))
+        ScreenHeader("কুইজ", "নিজেকে যাচাই করুন, XP জিতুন")
         StatsBar(statsVm)
-        TabRow(selectedTabIndex = mode) {
-            Tab(selected = mode == 0, onClick = { mode = 0 }, text = { Text("কানা কুইজ") })
-            Tab(selected = mode == 1, onClick = { mode = 1 }, text = { Text("শব্দ কুইজ") })
-        }
+        Spacer(Modifier.height(12.dp))
+        SegmentedTabs(listOf("কানা কুইজ", "শব্দ কুইজ"), mode, onSelect = { mode = it })
+        Spacer(Modifier.height(8.dp))
         if (mode == 0) KanaQuiz(kanaVm) else VocabQuiz(vocabVm)
     }
 }
@@ -37,31 +52,22 @@ private fun KanaQuiz(vm: KanaQuizViewModel) {
     val cfg by vm.config.collectAsState()
 
     when (ui.phase) {
-        QuizPhase.SETUP -> Column(
-            Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp)
+        QuizPhase.SETUP -> SetupPanel(
+            startLabel = "কুইজ শুরু করুন (১০টি প্রশ্ন)",
+            onStart = { vm.start() }
         ) {
-            Text("কোন কানা?", fontSize = 16.sp)
-            ChoiceChips(
+            SectionLabel("কোন কানা?")
+            ChipRow(
                 listOf("hiragana" to "হিরাগানা", "katakana" to "কাতাকানা", "both" to "দুটোই"),
                 cfg.scripts, vm::setScripts
             )
-            Spacer(Modifier.height(12.dp))
-            Text("প্রশ্নের ধরন", fontSize = 16.sp)
-            ChoiceChips(
+            SectionLabel("প্রশ্নের ধরন")
+            ChipRow(
                 listOf(
                     KanaDir.KANA_TO_ROMAJI.name to "কানা → রোমাজি",
                     KanaDir.ROMAJI_TO_KANA.name to "রোমাজি → কানা"
                 ),
                 cfg.dir.name, { vm.setDir(KanaDir.valueOf(it)) }
-            )
-            Spacer(Modifier.height(20.dp))
-            Button(onClick = { vm.start() }, modifier = Modifier.fillMaxWidth()) {
-                Text("কুইজ শুরু করুন (১০টি প্রশ্ন)")
-            }
-            Spacer(Modifier.height(8.dp))
-            Text(
-                "সঠিক উত্তরে +১০ XP; সব ঠিক হলে +২০ বোনাস।",
-                fontSize = 12.sp
             )
         }
 
@@ -79,33 +85,61 @@ private fun VocabQuiz(vm: VocabQuizViewModel) {
     val cfg by vm.config.collectAsState()
 
     when (ui.phase) {
-        QuizPhase.SETUP -> Column(
-            Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp)
+        QuizPhase.SETUP -> SetupPanel(
+            startLabel = "কুইজ শুরু করুন (সর্বোচ্চ ১০টি প্রশ্ন)",
+            onStart = { vm.start() }
         ) {
-            Text("বিভাগ", fontSize = 16.sp)
-            ChoiceChips(vocabCategories, cfg.category, vm::setCategory)
-            Spacer(Modifier.height(12.dp))
-            Text("প্রশ্নের ধরন", fontSize = 16.sp)
-            ChoiceChips(
+            SectionLabel("বিভাগ")
+            ChipRow(vocabCategories, cfg.category, vm::setCategory)
+            SectionLabel("প্রশ্নের ধরন")
+            ChipRow(
                 listOf(
                     VocabDir.WORD_TO_MEANING.name to "জাপানি → বাংলা",
                     VocabDir.MEANING_TO_WORD.name to "বাংলা → জাপানি"
                 ),
                 cfg.dir.name, { vm.setDir(VocabDir.valueOf(it)) }
             )
-            Spacer(Modifier.height(20.dp))
-            Button(onClick = { vm.start() }, modifier = Modifier.fillMaxWidth()) {
-                Text("কুইজ শুরু করুন (সর্বোচ্চ ১০টি প্রশ্ন)")
-            }
-            Spacer(Modifier.height(8.dp))
-            Text(
-                "সঠিক উত্তরে +১০ XP; সব ঠিক হলে +২০ বোনাস।",
-                fontSize = 12.sp
-            )
         }
 
         QuizPhase.PLAYING -> QuizPlay(ui, onSelect = vm::select, onNext = vm::next)
 
         QuizPhase.FINISHED -> QuizResult(ui, onRetry = vm::start, onBack = vm::back)
+    }
+}
+
+/** কুইজ শুরুর আগের সেটিংস প্যানেল — দুই কুইজেই একই চেহারা */
+@Composable
+private fun SetupPanel(
+    startLabel: String,
+    onStart: () -> Unit,
+    options: @Composable ColumnScope.() -> Unit
+) {
+    val cs = MaterialTheme.colorScheme
+    Column(
+        Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(vertical = 8.dp)
+    ) {
+        options()
+        Spacer(Modifier.height(20.dp))
+        SoftCard(
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp),
+            color = cs.secondaryContainer,
+            borderColor = cs.secondaryContainer
+        ) {
+            Column(Modifier.padding(16.dp)) {
+                Text("🎯 কীভাবে XP পাবেন", style = MaterialTheme.typography.titleSmall, color = cs.onSecondaryContainer)
+                Text(
+                    "সঠিক উত্তরে +১০ XP; সব ঠিক হলে +২০ বোনাস।",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = cs.onSecondaryContainer
+                )
+            }
+        }
+        Spacer(Modifier.height(20.dp))
+        ActionButton(
+            text = startLabel,
+            onClick = onStart,
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp)
+        )
+        Spacer(Modifier.height(24.dp))
     }
 }

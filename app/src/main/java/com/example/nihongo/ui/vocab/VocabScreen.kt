@@ -1,79 +1,108 @@
 package com.example.nihongo.ui.vocab
 
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material3.*
-import androidx.compose.runtime.*
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.data.VocabEntity
-import com.example.nihongo.ui.kana.TtsHelper
+import com.example.nihongo.ui.components.BigText
+import com.example.nihongo.ui.components.ChipRow
+import com.example.nihongo.ui.components.EmptyState
+import com.example.nihongo.ui.components.LocalTts
+import com.example.nihongo.ui.components.ScreenHeader
+import com.example.nihongo.ui.components.SegmentedTabs
+import com.example.nihongo.ui.components.SessionDone
+import com.example.nihongo.ui.components.SoftCard
+import com.example.nihongo.ui.components.SpeakButton
+import com.example.nihongo.ui.components.StudyDeck
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun VocabScreen(listVm: VocabListViewModel, studyVm: VocabStudyViewModel) {
-    var mode by remember { mutableIntStateOf(0) }
+    var mode by rememberSaveable { mutableStateOf(0) }
     Column(Modifier.fillMaxSize()) {
-        TopAppBar(title = { Text("N5 শব্দভান্ডার") }, windowInsets = WindowInsets(0))
-        TabRow(selectedTabIndex = mode) {
-            Tab(selected = mode == 0, onClick = { mode = 0 }, text = { Text("তালিকা") })
-            Tab(selected = mode == 1, onClick = { mode = 1 }, text = { Text("প্র্যাকটিস") })
-        }
+        ScreenHeader("N5 শব্দভান্ডার", "প্রয়োজনীয় ২৪০টি শব্দ")
+        SegmentedTabs(listOf("তালিকা", "প্র্যাকটিস"), mode, onSelect = { mode = it })
+        Spacer(Modifier.height(12.dp))
         if (mode == 0) VocabList(listVm) else VocabStudy(studyVm)
-    }
-}
-
-@OptIn(ExperimentalMaterial3Api::class)
-@Composable
-private fun CategoryChips(selected: String, onSelect: (String) -> Unit) {
-    LazyRow(
-        contentPadding = PaddingValues(horizontal = 12.dp, vertical = 6.dp),
-        horizontalArrangement = Arrangement.spacedBy(6.dp)
-    ) {
-        items(vocabCategories) { (key, label) ->
-            FilterChip(selected = selected == key, onClick = { onSelect(key) }, label = { Text(label) })
-        }
     }
 }
 
 // ---------------- তালিকা ----------------
 
 @Composable
-private fun VocabList(vm: VocabListViewModel) {
-    val context = LocalContext.current
-    val tts = remember { TtsHelper(context) }
-    DisposableEffect(Unit) { onDispose { tts.shutdown() } }
-
+fun VocabList(vm: VocabListViewModel) {
+    val tts = LocalTts.current
     val words by vm.words.collectAsState()
     val category by vm.category.collectAsState()
     val query by vm.query.collectAsState()
     val learned by vm.learned.collectAsState()
+    val cs = MaterialTheme.colorScheme
 
-    Column {
-        OutlinedTextField(
+    Column(Modifier.fillMaxSize()) {
+        TextField(
             value = query,
             onValueChange = vm::setQuery,
             singleLine = true,
-            placeholder = { Text("খুঁজুন (জাপানি / romaji / বাংলা / English)") },
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 4.dp)
+            placeholder = { Text("খুঁজুন — জাপানি / romaji / বাংলা / English") },
+            leadingIcon = { Text("🔍") },
+            trailingIcon = { if (query.isNotEmpty()) ClearButton { vm.setQuery("") } },
+            shape = RoundedCornerShape(16.dp),
+            colors = TextFieldDefaults.colors(
+                focusedContainerColor = cs.surfaceContainerHigh,
+                unfocusedContainerColor = cs.surfaceContainerHigh,
+                focusedIndicatorColor = Color.Transparent,
+                unfocusedIndicatorColor = Color.Transparent,
+                disabledIndicatorColor = Color.Transparent,
+                errorIndicatorColor = Color.Transparent
+            ),
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp)
         )
-        CategoryChips(category, vm::selectCategory)
+        Spacer(Modifier.height(12.dp))
+        ChipRow(vocabCategories, category, vm::selectCategory)
         Text(
-            "দেখানো হচ্ছে ${words.size}টি  •  শেখা শব্দ: $learned",
-            fontSize = 12.sp,
-            modifier = Modifier.padding(horizontal = 16.dp, vertical = 2.dp)
+            "${words.size}টি শব্দ  •  শেখা হয়েছে: $learned",
+            style = MaterialTheme.typography.labelMedium,
+            color = cs.onSurfaceVariant,
+            modifier = Modifier.padding(horizontal = 20.dp, vertical = 10.dp)
         )
+
         if (words.isEmpty()) {
-            Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text("কোনো শব্দ পাওয়া যায়নি") }
+            EmptyState("🔎", "কোনো শব্দ পাওয়া যায়নি", "অন্য কিছু লিখে বা অন্য বিভাগে খুঁজে দেখুন।")
         } else {
-            LazyColumn(contentPadding = PaddingValues(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            LazyColumn(
+                modifier = Modifier.fillMaxSize(),
+                contentPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 4.dp, bottom = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(10.dp)
+            ) {
                 items(words, key = { it.id }) { v -> VocabRow(v) { tts.speak(v.reading) } }
             }
         }
@@ -81,18 +110,43 @@ private fun VocabList(vm: VocabListViewModel) {
 }
 
 @Composable
+private fun ClearButton(onClick: () -> Unit) {
+    Text(
+        "✕",
+        modifier = Modifier.clickable(onClick = onClick).padding(12.dp),
+        color = MaterialTheme.colorScheme.onSurfaceVariant
+    )
+}
+
+@Composable
 private fun VocabRow(v: VocabEntity, onSpeak: () -> Unit) {
-    Card(Modifier.fillMaxWidth().clickable(onClick = onSpeak)) {
-        Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
+    val cs = MaterialTheme.colorScheme
+    SoftCard(Modifier.fillMaxWidth(), onClick = onSpeak) {
+        Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
-                Text(v.word, fontSize = 24.sp)
-                if (v.reading != v.word) Text(v.reading, fontSize = 14.sp)
-                Text(v.romaji, fontSize = 12.sp, color = MaterialTheme.colorScheme.outline)
-                Spacer(Modifier.height(4.dp))
-                Text(v.meaningBn, fontSize = 16.sp, color = MaterialTheme.colorScheme.primary)
-                Text(v.meaningEn, fontSize = 12.sp)
+                BigText(v.word, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
+                if (v.reading != v.word) {
+                    Text(v.reading, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                }
+                Text(v.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
             }
-            Text("🔊", fontSize = 22.sp)
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
+                Text(
+                    v.meaningBn,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = cs.primary,
+                    textAlign = TextAlign.End
+                )
+                Text(
+                    v.meaningEn,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = cs.onSurfaceVariant,
+                    textAlign = TextAlign.End
+                )
+            }
+            Spacer(Modifier.width(12.dp))
+            SpeakButton(onClick = onSpeak, diameter = 40.dp)
         }
     }
 }
@@ -100,89 +154,59 @@ private fun VocabRow(v: VocabEntity, onSpeak: () -> Unit) {
 // ---------------- প্র্যাকটিস (SRS ফ্ল্যাশকার্ড) ----------------
 
 @Composable
-private fun VocabStudy(vm: VocabStudyViewModel) {
-    val context = LocalContext.current
-    val tts = remember { TtsHelper(context) }
-    DisposableEffect(Unit) { onDispose { tts.shutdown() } }
-
+fun VocabStudy(vm: VocabStudyViewModel) {
+    val tts = LocalTts.current
     val ui by vm.ui.collectAsState()
+    val cs = MaterialTheme.colorScheme
+    val card = ui.current
 
     Column(Modifier.fillMaxSize()) {
-        CategoryChips(ui.category, vm::setCategory)
+        ChipRow(vocabCategories, ui.category, vm::setCategory)
+        Spacer(Modifier.height(16.dp))
 
-        Box(Modifier.weight(1f).fillMaxWidth().padding(16.dp), contentAlignment = Alignment.Center) {
+        Box(Modifier.weight(1f).fillMaxWidth(), contentAlignment = Alignment.Center) {
             when {
                 ui.loading -> CircularProgressIndicator()
 
-                ui.empty -> Text(
-                    "এই বিভাগে আজকের জন্য কোনো কার্ড বাকি নেই 🎉\nপরে আবার আসুন বা অন্য বিভাগ বেছে নিন।",
-                    fontSize = 16.sp, textAlign = TextAlign.Center
+                ui.empty -> EmptyState(
+                    emoji = "🎉",
+                    title = "আজকের জন্য সব শেষ!",
+                    message = "এই বিভাগে কোনো কার্ড বাকি নেই। পরে আবার আসুন বা অন্য বিভাগ বেছে নিন।"
                 )
 
-                ui.finished -> Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Text("সেশন শেষ! 🎉", fontSize = 24.sp)
-                    Spacer(Modifier.height(12.dp))
-                    Text("জানি: ${ui.known}   |   জানি না: ${ui.again}", fontSize = 16.sp)
-                    Spacer(Modifier.height(20.dp))
-                    Button(onClick = { vm.restart() }) { Text("আবার শুরু করুন") }
-                }
+                ui.finished -> SessionDone(known = ui.known, again = ui.again, onRestart = vm::restart)
 
-                else -> {
-                    val card = ui.current!!
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text("${ui.index + 1} / ${ui.queue.size}", fontSize = 14.sp)
-                        Spacer(Modifier.height(6.dp))
-                        LinearProgressIndicator(
-                            progress = { ui.index.toFloat() / ui.queue.size },
-                            modifier = Modifier.fillMaxWidth()
+                card != null -> StudyDeck(
+                    index = ui.index,
+                    total = ui.queue.size,
+                    flipped = ui.flipped,
+                    onFlip = {
+                        vm.flip()
+                        tts.speak(card.reading)
+                    },
+                    onAnswer = vm::answer,
+                    front = {
+                        BigText(
+                            card.word, 54.sp,
+                            color = cs.onPrimaryContainer, weight = FontWeight.Medium, textAlign = TextAlign.Center
                         )
-                        Spacer(Modifier.height(20.dp))
-                        Card(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(300.dp)
-                                .clickable(enabled = !ui.flipped) {
-                                    vm.flip()
-                                    tts.speak(card.reading)
-                                }
-                        ) {
-                            Column(
-                                Modifier.fillMaxSize().padding(16.dp),
-                                horizontalAlignment = Alignment.CenterHorizontally,
-                                verticalArrangement = Arrangement.Center
-                            ) {
-                                Text(card.word, fontSize = 48.sp, textAlign = TextAlign.Center)
-                                Spacer(Modifier.height(12.dp))
-                                if (ui.flipped) {
-                                    if (card.reading != card.word) Text(card.reading, fontSize = 22.sp)
-                                    Text(card.romaji, fontSize = 16.sp, color = MaterialTheme.colorScheme.outline)
-                                    Spacer(Modifier.height(8.dp))
-                                    Text(
-                                        card.meaningBn, fontSize = 22.sp, textAlign = TextAlign.Center,
-                                        color = MaterialTheme.colorScheme.primary
-                                    )
-                                    Text(card.meaningEn, fontSize = 14.sp)
-                                    TextButton(onClick = { tts.speak(card.reading) }) { Text("🔊 আবার শুনুন") }
-                                } else {
-                                    Text("ট্যাপ করে অর্থ দেখুন", fontSize = 14.sp)
-                                }
-                            }
+                    },
+                    back = {
+                        BigText(card.word, 38.sp, color = cs.onSurface, weight = FontWeight.Medium, textAlign = TextAlign.Center)
+                        if (card.reading != card.word) {
+                            BigText(card.reading, 24.sp, color = cs.onSurfaceVariant, textAlign = TextAlign.Center)
                         }
-                        Spacer(Modifier.height(20.dp))
-                        if (ui.flipped) {
-                            Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                OutlinedButton(onClick = { vm.answer(false) }, modifier = Modifier.weight(1f)) {
-                                    Text("জানি না")
-                                }
-                                Button(onClick = { vm.answer(true) }, modifier = Modifier.weight(1f)) {
-                                    Text("জানি")
-                                }
-                            }
-                        } else {
-                            Spacer(Modifier.height(40.dp))
-                        }
+                        Text(card.romaji, style = MaterialTheme.typography.bodyMedium, color = cs.outline)
+                        Spacer(Modifier.height(14.dp))
+                        BigText(
+                            card.meaningBn, 28.sp,
+                            color = cs.secondary, weight = FontWeight.SemiBold, textAlign = TextAlign.Center
+                        )
+                        Text(card.meaningEn, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                        Spacer(Modifier.height(14.dp))
+                        SpeakButton(onClick = { tts.speak(card.reading) }, diameter = 52.dp)
                     }
-                }
+                )
             }
         }
     }

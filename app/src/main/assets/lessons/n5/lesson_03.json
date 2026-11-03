@@ -1,0 +1,82 @@
+{
+ "lesson": 3,
+ "title": "জায়গা ও দিক",
+ "vocab": [
+  {
+   "word": "ここ",
+   "reading": "ここ",
+   "romaji": "koko",
+   "bn": "এখানে",
+   "en": "here"
+  },
+  {
+   "word": "そこ",
+   "reading": "そこ",
+   "romaji": "soko",
+   "bn": "ওখানে",
+   "en": "there"
+  },
+  {
+   "word": "あそこ",
+   "reading": "あそこ",
+   "romaji": "asoko",
+   "bn": "ঐ দূরে",
+   "en": "over there"
+  },
+  {
+   "word": "どこ",
+   "reading": "どこ",
+   "romaji": "doko",
+   "bn": "কোথায়",
+   "en": "where"
+  },
+  {
+   "word": "がっこう",
+   "reading": "がっこう",
+   "romaji": "gakkou",
+   "bn": "স্কুল",
+   "en": "school"
+  },
+  {
+   "word": "えき",
+   "reading": "えき",
+   "romaji": "eki",
+   "bn": "স্টেশন",
+   "en": "station"
+  },
+  {
+   "word": "うち",
+   "reading": "うち",
+   "romaji": "uchi",
+   "bn": "বাড়ি",
+   "en": "house, home"
+  },
+  {
+   "word": "へや",
+   "reading": "へや",
+   "romaji": "heya",
+   "bn": "ঘর",
+   "en": "room"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "ここ・そこ・あそこ・どこ",
+   "pattern": "ここ／そこ／あそこ は ～です",
+   "explain": "জায়গা বোঝানোর শব্দ। どこ দিয়ে জায়গা জিজ্ঞেস করা হয়।",
+   "examples": [
+    {
+     "jp": "えきは どこですか。",
+     "romaji": "Eki wa doko desu ka.",
+     "bn": "স্টেশন কোথায়?"
+    },
+    {
+     "jp": "えきは あそこです。",
+     "romaji": "Eki wa asoko desu.",
+     "bn": "স্টেশন ঐ যে ওখানে।"
+    }
+   ]
+  }
+ ],
+ "kanji": []
+}

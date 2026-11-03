@@ -1,0 +1,82 @@
+{
+ "lesson": 26,
+ "title": "কারণ ও ব্যাখ্যা",
+ "vocab": [
+  {
+   "word": "探す",
+   "reading": "さがす",
+   "romaji": "sagasu",
+   "bn": "খোঁজা",
+   "en": "to search"
+  },
+  {
+   "word": "遅れる",
+   "reading": "おくれる",
+   "romaji": "okureru",
+   "bn": "দেরি হওয়া",
+   "en": "to be late"
+  },
+  {
+   "word": "間に合う",
+   "reading": "まにあう",
+   "romaji": "maniau",
+   "bn": "সময়মতো পৌঁছানো",
+   "en": "to be in time"
+  },
+  {
+   "word": "片付ける",
+   "reading": "かたづける",
+   "romaji": "katadukeru",
+   "bn": "গুছিয়ে রাখা",
+   "en": "to tidy up"
+  },
+  {
+   "word": "捨てる",
+   "reading": "すてる",
+   "romaji": "suteru",
+   "bn": "ফেলে দেওয়া",
+   "en": "to throw away"
+  }
+ ],
+ "grammar": [
+  {
+   "title": "～んです — কারণ/ব্যাখ্যা",
+   "pattern": "সাধারণ রূপ + んです",
+   "explain": "কোনো ঘটনার কারণ বা প্রেক্ষাপট ব্যাখ্যা করতে, বা কারণ জানতে চাইতে ব্যবহার হয়।",
+   "examples": [
+    {
+     "jp": "どうして おくれたんですか。",
+     "romaji": "Doushite okureta n desu ka.",
+     "bn": "দেরি হলো কেন?"
+    },
+    {
+     "jp": "バスが こなかったんです。",
+     "romaji": "Basu ga konakatta n desu.",
+     "bn": "বাস আসেনি তাই।"
+    }
+   ]
+  }
+ ],
+ "kanji": [
+  {
+   "kanji": "探",
+   "on": "タン",
+   "kun": "さが(す)",
+   "bn": "খোঁজা",
+   "en": "search",
+   "ex": "探す",
+   "exReading": "さがす",
+   "exBn": "খোঁজা"
+  },
+  {
+   "kanji": "遅",
+   "on": "チ",
+   "kun": "おく(れる)・おそ(い)",
+   "bn": "দেরি",
+   "en": "late, slow",
+   "ex": "遅れる",
+   "exReading": "おくれる",
+   "exBn": "দেরি হওয়া"
+  }
+ ]
+}
