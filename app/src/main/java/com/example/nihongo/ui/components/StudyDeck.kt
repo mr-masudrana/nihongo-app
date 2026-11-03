@@ -1,13 +1,10 @@
 package com.example.nihongo.ui.components
 
-import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.spring
 import androidx.compose.animation.core.tween
-import androidx.compose.animation.fadeIn
-import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectHorizontalDragGestures
@@ -194,13 +191,16 @@ fun StudyDeck(
             Spacer(Modifier.height(16.dp))
 
             // নিচে উত্তরের বাটন / ইঙ্গিত
+            // AnimatedVisibility এখানে Column/Box-এর implicit receiver নিয়ে কম্পাইল এরর দেয়, তাই alpha অ্যানিমেশন
+            val answerAlpha by animateFloatAsState(
+                if (flipped) 1f else 0f, tween(250), label = "answerAlpha"
+            )
             Box(Modifier.fillMaxWidth().height(56.dp)) {
-                AnimatedVisibility(
-                    visible = flipped,
-                    enter = fadeIn(tween(250)),
-                    exit = fadeOut(tween(100))
-                ) {
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                if (flipped) {
+                    Row(
+                        Modifier.fillMaxWidth().graphicsLayer { alpha = answerAlpha },
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
                         ActionButton(
                             text = "←  জানি না",
                             onClick = { dismiss(false) },
@@ -218,18 +218,15 @@ fun StudyDeck(
                             enabled = !busy
                         )
                     }
-                }
-                AnimatedVisibility(
-                    visible = !flipped,
-                    modifier = Modifier.align(Alignment.Center),
-                    enter = fadeIn(tween(250)),
-                    exit = fadeOut(tween(100))
-                ) {
+                } else {
                     Text(
                         "কার্ডে ট্যাপ করে উত্তর দেখুন",
                         style = MaterialTheme.typography.bodyMedium,
                         color = cs.onSurfaceVariant,
-                        textAlign = TextAlign.Center
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier
+                            .align(Alignment.Center)
+                            .graphicsLayer { alpha = 1f - answerAlpha }
                     )
                 }
             }
