@@ -6,7 +6,7 @@ import org.json.JSONObject
 
 data class KanjiWord(val word: String, val reading: String, val bn: String)
 
-/** কাঞ্জি লেসনের অংশ নয় — আলাদা তালিকা (assets/<level>/kanji.json) */
+/** কাঞ্জি লেসনের অংশ নয় — আলাদা তালিকা (assets/<level>/kanji_<level>.json) */
 data class KanjiItem(
     val kanji: String, val onyomi: String, val kunyomi: String,
     val bn: String, val en: String,
@@ -14,6 +14,10 @@ data class KanjiItem(
     val words: List<KanjiWord>,
     val sentenceJp: String, val sentenceBn: String
 )
+
+/** সংখ্যা (assets/number.json) */
+data class NumberItem(val number: String, val kanji: String, val reading: String, val romaji: String, val note: String)
+data class NumberSection(val id: String, val titleBn: String, val titleEn: String, val items: List<NumberItem>)
 
 data class GrammarExample(val jp: String, val romaji: String, val bn: String)
 
@@ -47,7 +51,8 @@ data class LessonWord(val level: String, val lessonNo: Int, val word: WordItem)
  * ডেটার ফোল্ডার (level = n5 | n4):
  *   assets/<level>/vocabulary/lesson_NN.json   — লেসনের শব্দ
  *   assets/<level>/grammar/lesson_NN.json      — লেসনের ব্যাকরণ
- *   assets/<level>/kanji.json                  — কাঞ্জি (লেসন ছাড়া)
+ *   assets/<level>/kanji_<level>.json          — কাঞ্জি (লেসন ছাড়া)
+ *   assets/number.json                         — সংখ্যা (Basic → Number)
  * নতুন ফাইল রাখলেই অ্যাপে দেখাবে; কোড বা ডেটাবেজ বদলাতে হবে না।
  * Room ব্যবহার করে না, তাই ডেটাবেজ রিসেটে প্রভাব নেই।
  */
@@ -118,11 +123,11 @@ class ContentRepository private constructor(private val context: Context) {
 
     private val kanjiCache = HashMap<String, List<KanjiItem>>()
 
-    /** level = "n5" | "n4" — assets/<level>/kanji.json */
+    /** level = "n5" | "n4" — assets/<level>/kanji_<level>.json */
     @Synchronized
     fun kanji(level: String): List<KanjiItem> = kanjiCache.getOrPut(level) {
         runCatching {
-            val text = context.assets.open("$level/kanji.json").bufferedReader().use { it.readText() }
+            val text = context.assets.open("$level/kanji_$level.json").bufferedReader().use { it.readText() }
             list(JSONArray(text)) { k ->
                 KanjiItem(
                     k.optString("kanji"), k.optString("on"), k.optString("kun"),
@@ -137,6 +142,27 @@ class ContentRepository private constructor(private val context: Context) {
             }
         }.getOrDefault(emptyList())
     }
+
+    // ---------------------------------------------------------------- সংখ্যা
+
+    private var numberCache: List<NumberSection>? = null
+
+    /** assets/number.json — Basic → Number */
+    @Synchronized
+    fun numbers(): List<NumberSection> = numberCache ?: runCatching {
+        val text = context.assets.open("number.json").bufferedReader().use { it.readText() }
+        list(JSONObject(text).optJSONArray("sections")) { sec ->
+            NumberSection(
+                sec.optString("id"), sec.optString("title_bn"), sec.optString("title_en"),
+                list(sec.optJSONArray("items")) { n ->
+                    NumberItem(
+                        n.optString("number"), n.optString("kanji"), n.optString("reading"),
+                        n.optString("romaji"), n.optString("note")
+                    )
+                }
+            )
+        }
+    }.getOrDefault(emptyList()).also { if (it.isNotEmpty()) numberCache = it }
 
     private fun <T> list(a: JSONArray?, f: (JSONObject) -> T): List<T> =
         if (a == null) emptyList() else (0 until a.length()).map { f(a.getJSONObject(it)) }

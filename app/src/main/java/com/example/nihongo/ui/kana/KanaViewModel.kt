@@ -19,7 +19,7 @@ class KanaViewModel(app: Application) : AndroidViewModel(app) {
     private val repo = KanaRepository.get(app)
 
     val type = MutableStateFlow("hiragana")
-    val group = MutableStateFlow("all")
+    val group = MutableStateFlow("basic")
 
     val kana: StateFlow<List<KanaEntity>> = combine(type, group) { t, g -> t to g }
         .flatMapLatest { (t, g) -> repo.kana(t, g) }

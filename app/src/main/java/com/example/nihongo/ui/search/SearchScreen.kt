@@ -1,6 +1,8 @@
 package com.example.nihongo.ui.search
 
 import androidx.compose.foundation.clickable
+import com.example.nihongo.ui.components.AppIcons
+import com.example.nihongo.ui.components.AppIcon
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -50,13 +52,12 @@ fun SearchScreen(vm: SearchViewModel) {
             onValueChange = vm::setQuery,
             singleLine = true,
             placeholder = { Text("খুঁজুন — জাপানি / romaji / বাংলা / English") },
-            leadingIcon = { Text("🔍") },
+            leadingIcon = { AppIcon(AppIcons.Search, size = 22.dp, tint = cs.onSurfaceVariant) },
             trailingIcon = {
                 if (query.isNotEmpty()) {
-                    Text(
-                        "✕",
-                        modifier = Modifier.clickable { vm.setQuery("") }.padding(12.dp),
-                        color = cs.onSurfaceVariant
+                    AppIcon(
+                        AppIcons.Close, size = 20.dp, tint = cs.onSurfaceVariant,
+                        modifier = Modifier.clickable { vm.setQuery("") }.padding(12.dp)
                     )
                 }
             },
@@ -80,11 +81,11 @@ fun SearchScreen(vm: SearchViewModel) {
 
         when {
             loaded && total == 0 -> EmptyState(
-                "📭", "এখনো কোনো শব্দ নেই",
+                AppIcons.Inbox, "এখনো কোনো শব্দ নেই",
                 "লেসনের JSON ফাইলে শব্দ যোগ করলে এখানে খোঁজা যাবে।"
             )
             results.isEmpty() && loaded -> EmptyState(
-                "🔎", "কোনো শব্দ পাওয়া যায়নি", "অন্য কিছু লিখে খুঁজে দেখুন।"
+                AppIcons.Search, "কোনো শব্দ পাওয়া যায়নি", "অন্য কিছু লিখে খুঁজে দেখুন।"
             )
             else -> LazyColumn(
                 modifier = Modifier.fillMaxSize(),

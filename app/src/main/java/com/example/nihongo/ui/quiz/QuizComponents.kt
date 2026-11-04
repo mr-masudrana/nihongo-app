@@ -1,6 +1,8 @@
 package com.example.nihongo.ui.quiz
 
 import androidx.compose.animation.AnimatedVisibility
+import com.example.nihongo.ui.components.AppIcons
+import com.example.nihongo.ui.components.AppIcon
 import androidx.compose.animation.ExitTransition
 import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.core.tween
@@ -145,11 +147,18 @@ fun QuizPlay(ui: QuizUi, onSelect: (Int) -> Unit, onNext: () -> Unit) {
                     .background(if (correct) cs.tertiaryContainer else cs.errorContainer)
                     .padding(start = 20.dp, end = 20.dp, top = 18.dp, bottom = 16.dp)
             ) {
-                Text(
-                    if (correct) "✓ সঠিক!  +${Gamification.XP_CORRECT} XP" else "✕ ভুল হয়েছে",
-                    style = MaterialTheme.typography.titleLarge,
-                    color = if (correct) cs.onTertiaryContainer else cs.onErrorContainer
-                )
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    AppIcon(
+                        if (correct) AppIcons.Check else AppIcons.Close, size = 24.dp,
+                        tint = if (correct) cs.onTertiaryContainer else cs.onErrorContainer
+                    )
+                    Spacer(Modifier.width(8.dp))
+                    Text(
+                        if (correct) "সঠিক!  +${Gamification.XP_CORRECT} XP" else "ভুল হয়েছে",
+                        style = MaterialTheme.typography.titleLarge,
+                        color = if (correct) cs.onTertiaryContainer else cs.onErrorContainer
+                    )
+                }
                 if (!correct) {
                     Text(
                         "সঠিক উত্তর: ${q.options[q.correctIndex]}",
@@ -227,11 +236,9 @@ private fun OptionCard(
                 color = content, textAlign = TextAlign.Center
             )
             if (answered && (isCorrect || isSelected)) {
-                Text(
-                    if (isCorrect) "✓" else "✕",
-                    modifier = Modifier.align(Alignment.CenterEnd),
-                    style = MaterialTheme.typography.titleLarge,
-                    color = content
+                AppIcon(
+                    if (isCorrect) AppIcons.Check else AppIcons.Close, size = 24.dp, tint = content,
+                    modifier = Modifier.align(Alignment.CenterEnd).padding(end = 14.dp)
                 )
             }
         }
@@ -249,7 +256,7 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            EmptyState("🤔", "প্রশ্ন তৈরি করা যায়নি", "অন্য বিভাগ বা সেটিংস বেছে নিয়ে আবার চেষ্টা করুন।")
+            EmptyState(AppIcons.Help, "প্রশ্ন তৈরি করা যায়নি", "অন্য বিভাগ বা সেটিংস বেছে নিয়ে আবার চেষ্টা করুন।")
             Spacer(Modifier.height(8.dp))
             ActionButton("ফিরে যান", onClick = onBack, modifier = Modifier.fillMaxWidth())
         }
@@ -257,11 +264,11 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
     }
 
     val pct = ui.score * 100 / total
-    val (emoji, message) = when {
-        pct == 100 -> "🏆" to "অসাধারণ! সবগুলো সঠিক!"
-        pct >= 70 -> "🎉" to "দারুণ করেছেন!"
-        pct >= 40 -> "👍" to "ভালো চেষ্টা — আরেকবার খেলে দেখুন"
-        else -> "💪" to "অনুশীলন চালিয়ে যান, পারবেন!"
+    val (resultIcon, message) = when {
+        pct == 100 -> AppIcons.Trophy to "অসাধারণ! সবগুলো সঠিক!"
+        pct >= 70 -> AppIcons.Star to "দারুণ করেছেন!"
+        pct >= 40 -> AppIcons.ThumbUp to "ভালো চেষ্টা — আরেকবার খেলে দেখুন"
+        else -> AppIcons.Fire to "অনুশীলন চালিয়ে যান, পারবেন!"
     }
     val ringColor = if (pct >= 70) cs.tertiary else if (pct >= 40) cs.primary else cs.secondary
 
@@ -281,14 +288,14 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
             color = ringColor
         ) {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                Text(emoji, fontSize = 36.sp)
+                AppIcon(resultIcon, size = 40.dp, tint = ringColor)
                 BigText("${ui.score} / $total", 30.sp, color = cs.onSurface, weight = FontWeight.Bold)
             }
         }
         Spacer(Modifier.height(20.dp))
         Text(message, style = MaterialTheme.typography.titleLarge, color = cs.onSurface, textAlign = TextAlign.Center)
         Spacer(Modifier.height(12.dp))
-        StatPill("⭐ এই কুইজে অর্জন: +${ui.xpEarned} XP", cs.primaryContainer, cs.onPrimaryContainer)
+        StatPill("এই কুইজে অর্জন: +${ui.xpEarned} XP", cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Star)
         if (pct == 100) {
             Spacer(Modifier.height(8.dp))
             Text(

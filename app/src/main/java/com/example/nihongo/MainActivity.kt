@@ -1,6 +1,9 @@
 package com.example.nihongo
 
 import android.os.Bundle
+import com.example.nihongo.ui.profile.ProfileScreen
+import com.example.nihongo.ui.components.AppIcons
+import com.example.nihongo.ui.components.AppIcon
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -93,25 +96,29 @@ class MainActivity : ComponentActivity() {
         BackHandler(enabled = tab != 0) { tab = 0 }
         // পরে রেজিস্টার হওয়া হ্যান্ডলার আগে চলে — তাই Home-এর ভেতরে থাকলে ব্যাক আগে এক ধাপ উপরে যায়
         BackHandler(enabled = tab == 0 && homeRoute != ROUTE_HUB) { homeRoute = parentRoute(homeRoute) }
+        // প্রোফাইল ট্যাবে সেটিংস খোলা থাকলে ব্যাক চাপলে প্রোফাইলে ফেরে
+        var showSettings by rememberSaveable { mutableStateOf(false) }
+        BackHandler(enabled = tab == 2 && showSettings) { showSettings = false }
 
         Scaffold(
             containerColor = cs.background,
             bottomBar = {
                 NavigationBar(containerColor = cs.surfaceContainer, tonalElevation = 0.dp) {
                     val items = listOf(
-                        "家" to "Home",
-                        "探" to "Search",
-                        "設" to "Settings"
+                        AppIcons.Home to "Home",
+                        AppIcons.Search to "Search",
+                        AppIcons.Person to "Profile"
                     )
-                    items.forEachIndexed { i, (glyph, label) ->
+                    items.forEachIndexed { i, (iconVec, label) ->
                         NavigationBarItem(
                             selected = tab == i,
                             onClick = {
                                 // Home আবার চাপলে হোমের মূল পাতায় ফেরে
                                 if (i == 0 && tab == 0) homeRoute = ROUTE_HUB
+                                if (i == 2 && tab == 2) showSettings = false
                                 tab = i
                             },
-                            icon = { Text(glyph, fontSize = 22.sp, fontWeight = FontWeight.Bold) },
+                            icon = { AppIcon(iconVec, size = 24.dp) },
                             label = { Text(label) },
                             colors = NavigationBarItemDefaults.colors(
                                 selectedIconColor = cs.onPrimaryContainer,
@@ -137,7 +144,11 @@ class MainActivity : ComponentActivity() {
                             vocabQuizVm = vocabQuizVm
                         )
                         1 -> SearchScreen(searchVm)
-                        else -> SettingsScreen(settingsVm, statsVm)
+                        else -> if (showSettings) {
+                            SettingsScreen(settingsVm, onBack = { showSettings = false })
+                        } else {
+                            ProfileScreen(settingsVm, statsVm, onOpenSettings = { showSettings = true })
+                        }
                     }
                 }
             }

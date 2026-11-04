@@ -1,0 +1,389 @@
+{
+ "title": "Numbers",
+ "sections": [
+  {
+   "id": "digits",
+   "title_bn": "০ থেকে ৯",
+   "title_en": "0–9",
+   "items": [
+    {
+     "number": "0",
+     "kanji": "〇／零",
+     "reading": "ゼロ／れい",
+     "romaji": "zero / rei"
+    },
+    {
+     "number": "1",
+     "kanji": "一",
+     "reading": "いち",
+     "romaji": "ichi"
+    },
+    {
+     "number": "2",
+     "kanji": "二",
+     "reading": "に",
+     "romaji": "ni"
+    },
+    {
+     "number": "3",
+     "kanji": "三",
+     "reading": "さん",
+     "romaji": "san"
+    },
+    {
+     "number": "4",
+     "kanji": "四",
+     "reading": "よん／し",
+     "romaji": "yon / shi"
+    },
+    {
+     "number": "5",
+     "kanji": "五",
+     "reading": "ご",
+     "romaji": "go"
+    },
+    {
+     "number": "6",
+     "kanji": "六",
+     "reading": "ろく",
+     "romaji": "roku"
+    },
+    {
+     "number": "7",
+     "kanji": "七",
+     "reading": "なな／しち",
+     "romaji": "nana / shichi"
+    },
+    {
+     "number": "8",
+     "kanji": "八",
+     "reading": "はち",
+     "romaji": "hachi"
+    },
+    {
+     "number": "9",
+     "kanji": "九",
+     "reading": "きゅう／く",
+     "romaji": "kyuu / ku"
+    }
+   ]
+  },
+  {
+   "id": "teens",
+   "title_bn": "১০ থেকে ১৯",
+   "title_en": "10–19",
+   "items": [
+    {
+     "number": "10",
+     "kanji": "十",
+     "reading": "じゅう",
+     "romaji": "juu"
+    },
+    {
+     "number": "11",
+     "kanji": "十一",
+     "reading": "じゅういち",
+     "romaji": "juu-ichi"
+    },
+    {
+     "number": "12",
+     "kanji": "十二",
+     "reading": "じゅうに",
+     "romaji": "juu-ni"
+    },
+    {
+     "number": "13",
+     "kanji": "十三",
+     "reading": "じゅうさん",
+     "romaji": "juu-san"
+    },
+    {
+     "number": "14",
+     "kanji": "十四",
+     "reading": "じゅうよん／じゅうし",
+     "romaji": "juu-yon / juu-shi"
+    },
+    {
+     "number": "15",
+     "kanji": "十五",
+     "reading": "じゅうご",
+     "romaji": "juu-go"
+    },
+    {
+     "number": "16",
+     "kanji": "十六",
+     "reading": "じゅうろく",
+     "romaji": "juu-roku"
+    },
+    {
+     "number": "17",
+     "kanji": "十七",
+     "reading": "じゅうなな／じゅうしち",
+     "romaji": "juu-nana / juu-shichi"
+    },
+    {
+     "number": "18",
+     "kanji": "十八",
+     "reading": "じゅうはち",
+     "romaji": "juu-hachi"
+    },
+    {
+     "number": "19",
+     "kanji": "十九",
+     "reading": "じゅうきゅう／じゅうく",
+     "romaji": "juu-kyuu / juu-ku"
+    }
+   ]
+  },
+  {
+   "id": "tens",
+   "title_bn": "দশক (২০–৯০)",
+   "title_en": "20–90",
+   "items": [
+    {
+     "number": "20",
+     "kanji": "二十",
+     "reading": "にじゅう",
+     "romaji": "ni-juu"
+    },
+    {
+     "number": "30",
+     "kanji": "三十",
+     "reading": "さんじゅう",
+     "romaji": "san-juu"
+    },
+    {
+     "number": "40",
+     "kanji": "四十",
+     "reading": "よんじゅう",
+     "romaji": "yon-juu"
+    },
+    {
+     "number": "50",
+     "kanji": "五十",
+     "reading": "ごじゅう",
+     "romaji": "go-juu"
+    },
+    {
+     "number": "60",
+     "kanji": "六十",
+     "reading": "ろくじゅう",
+     "romaji": "roku-juu"
+    },
+    {
+     "number": "70",
+     "kanji": "七十",
+     "reading": "ななじゅう／しちじゅう",
+     "romaji": "nana-juu / shichi-juu"
+    },
+    {
+     "number": "80",
+     "kanji": "八十",
+     "reading": "はちじゅう",
+     "romaji": "hachi-juu"
+    },
+    {
+     "number": "90",
+     "kanji": "九十",
+     "reading": "きゅうじゅう",
+     "romaji": "kyuu-juu"
+    }
+   ]
+  },
+  {
+   "id": "hundreds",
+   "title_bn": "শতক (১০০–৯০০)",
+   "title_en": "100–900",
+   "items": [
+    {
+     "number": "100",
+     "kanji": "百",
+     "reading": "ひゃく",
+     "romaji": "hyaku"
+    },
+    {
+     "number": "200",
+     "kanji": "二百",
+     "reading": "にひゃく",
+     "romaji": "ni-hyaku"
+    },
+    {
+     "number": "300",
+     "kanji": "三百",
+     "reading": "さんびゃく",
+     "romaji": "san-byaku",
+     "note": "বিশেষ উচ্চারণ"
+    },
+    {
+     "number": "400",
+     "kanji": "四百",
+     "reading": "よんひゃく",
+     "romaji": "yon-hyaku"
+    },
+    {
+     "number": "500",
+     "kanji": "五百",
+     "reading": "ごひゃく",
+     "romaji": "go-hyaku"
+    },
+    {
+     "number": "600",
+     "kanji": "六百",
+     "reading": "ろっぴゃく",
+     "romaji": "rop-pyaku",
+     "note": "বিশেষ উচ্চারণ"
+    },
+    {
+     "number": "700",
+     "kanji": "七百",
+     "reading": "ななひゃく",
+     "romaji": "nana-hyaku"
+    },
+    {
+     "number": "800",
+     "kanji": "八百",
+     "reading": "はっぴゃく",
+     "romaji": "hap-pyaku",
+     "note": "বিশেষ উচ্চারণ"
+    },
+    {
+     "number": "900",
+     "kanji": "九百",
+     "reading": "きゅうひゃく",
+     "romaji": "kyuu-hyaku"
+    }
+   ]
+  },
+  {
+   "id": "thousands",
+   "title_bn": "হাজার (১,০০০–৯,০০০)",
+   "title_en": "1,000–9,000",
+   "items": [
+    {
+     "number": "1,000",
+     "kanji": "千",
+     "reading": "せん",
+     "romaji": "sen"
+    },
+    {
+     "number": "2,000",
+     "kanji": "二千",
+     "reading": "にせん",
+     "romaji": "ni-sen"
+    },
+    {
+     "number": "3,000",
+     "kanji": "三千",
+     "reading": "さんぜん",
+     "romaji": "san-zen",
+     "note": "বিশেষ উচ্চারণ"
+    },
+    {
+     "number": "4,000",
+     "kanji": "四千",
+     "reading": "よんせん",
+     "romaji": "yon-sen"
+    },
+    {
+     "number": "5,000",
+     "kanji": "五千",
+     "reading": "ごせん",
+     "romaji": "go-sen"
+    },
+    {
+     "number": "6,000",
+     "kanji": "六千",
+     "reading": "ろくせん",
+     "romaji": "roku-sen"
+    },
+    {
+     "number": "7,000",
+     "kanji": "七千",
+     "reading": "ななせん",
+     "romaji": "nana-sen"
+    },
+    {
+     "number": "8,000",
+     "kanji": "八千",
+     "reading": "はっせん",
+     "romaji": "has-sen",
+     "note": "বিশেষ উচ্চারণ"
+    },
+    {
+     "number": "9,000",
+     "kanji": "九千",
+     "reading": "きゅうせん",
+     "romaji": "kyuu-sen"
+    }
+   ]
+  },
+  {
+   "id": "large",
+   "title_bn": "বড় সংখ্যা",
+   "title_en": "10,000+",
+   "items": [
+    {
+     "number": "10,000",
+     "kanji": "一万",
+     "reading": "いちまん",
+     "romaji": "ichi-man"
+    },
+    {
+     "number": "100,000",
+     "kanji": "十万",
+     "reading": "じゅうまん",
+     "romaji": "juu-man"
+    },
+    {
+     "number": "1,000,000",
+     "kanji": "百万",
+     "reading": "ひゃくまん",
+     "romaji": "hyaku-man"
+    },
+    {
+     "number": "10,000,000",
+     "kanji": "千万",
+     "reading": "せんまん",
+     "romaji": "sen-man"
+    },
+    {
+     "number": "100,000,000",
+     "kanji": "一億",
+     "reading": "いちおく",
+     "romaji": "ichi-oku"
+    }
+   ]
+  },
+  {
+   "id": "decimal_fraction",
+   "title_bn": "দশমিক ও ভগ্নাংশ",
+   "title_en": "Decimals & fractions",
+   "items": [
+    {
+     "number": "17.5",
+     "kanji": "十七点五",
+     "reading": "じゅうななてんご",
+     "romaji": "juu-nana ten go"
+    },
+    {
+     "number": "0.83",
+     "kanji": "零点八三",
+     "reading": "れいてんはちさん",
+     "romaji": "rei ten hachi san"
+    },
+    {
+     "number": "1/2",
+     "kanji": "二分の一",
+     "reading": "にぶんのいち",
+     "romaji": "ni-bun no ichi"
+    },
+    {
+     "number": "3/4",
+     "kanji": "四分の三",
+     "reading": "よんぶんのさん",
+     "romaji": "yon-bun no san"
+    }
+   ]
+  }
+ ]
+}

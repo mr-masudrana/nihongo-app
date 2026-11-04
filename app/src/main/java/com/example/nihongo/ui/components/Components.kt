@@ -1,6 +1,7 @@
 package com.example.nihongo.ui.components
 
 import androidx.compose.animation.animateColorAsState
+import androidx.compose.foundation.layout.width
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.FastOutSlowInEasing
 import androidx.compose.animation.core.Spring
@@ -186,7 +187,7 @@ fun SpeakButton(onClick: () -> Unit, modifier: Modifier = Modifier, diameter: Dp
             .background(MaterialTheme.colorScheme.primaryContainer),
         contentAlignment = Alignment.Center
     ) {
-        Text("🔊", fontSize = (diameter.value * 0.45f).sp)
+        AppIcon(AppIcons.Speaker, size = diameter * 0.5f, tint = MaterialTheme.colorScheme.onPrimaryContainer)
     }
 }
 
@@ -195,16 +196,23 @@ fun StatPill(
     text: String,
     container: Color,
     content: Color,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    icon: androidx.compose.ui.graphics.vector.ImageVector? = null
 ) {
     Box(
         modifier = modifier
             .clip(RoundedCornerShape(14.dp))
             .background(container)
-            .padding(horizontal = 8.dp, vertical = 8.dp),
+            .padding(horizontal = 10.dp, vertical = 8.dp),
         contentAlignment = Alignment.Center
     ) {
-        Text(text, color = content, style = MaterialTheme.typography.labelLarge, maxLines = 1)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            if (icon != null) {
+                AppIcon(icon, size = 16.dp, tint = content)
+                Spacer(Modifier.width(6.dp))
+            }
+            Text(text, color = content, style = MaterialTheme.typography.labelLarge, maxLines = 1)
+        }
     }
 }
 
@@ -216,13 +224,14 @@ fun SegmentedTabs(
     options: List<String>,
     selectedIndex: Int,
     onSelect: (Int) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    horizontalPadding: Dp = 20.dp
 ) {
     val cs = MaterialTheme.colorScheme
     Row(
         modifier
             .fillMaxWidth()
-            .padding(horizontal = 20.dp)
+            .padding(horizontal = horizontalPadding)
             .clip(RoundedCornerShape(16.dp))
             .background(cs.surfaceContainerHigh)
             .padding(4.dp),
@@ -353,7 +362,7 @@ fun ProgressRing(
 // ---------------------------------------------------------------- খালি / শেষ অবস্থা
 
 @Composable
-fun EmptyState(emoji: String, title: String, message: String, modifier: Modifier = Modifier) {
+fun EmptyState(icon: androidx.compose.ui.graphics.vector.ImageVector, title: String, message: String, modifier: Modifier = Modifier) {
     val cs = MaterialTheme.colorScheme
     Column(
         modifier.fillMaxWidth().padding(32.dp).entrance(),
@@ -362,7 +371,7 @@ fun EmptyState(emoji: String, title: String, message: String, modifier: Modifier
         Box(
             Modifier.size(96.dp).clip(CircleShape).background(cs.primaryContainer),
             contentAlignment = Alignment.Center
-        ) { Text(emoji, fontSize = 44.sp) }
+        ) { AppIcon(icon, size = 48.dp, tint = cs.onPrimaryContainer) }
         Spacer(Modifier.height(20.dp))
         Text(title, style = MaterialTheme.typography.titleLarge, color = cs.onSurface, textAlign = TextAlign.Center)
         Spacer(Modifier.height(6.dp))
@@ -380,13 +389,13 @@ fun SessionDone(known: Int, again: Int, onRestart: () -> Unit, modifier: Modifie
         Box(
             Modifier.size(104.dp).clip(CircleShape).background(cs.tertiaryContainer),
             contentAlignment = Alignment.Center
-        ) { Text("🎉", fontSize = 48.sp) }
+        ) { AppIcon(AppIcons.Trophy, size = 52.dp, tint = cs.onTertiaryContainer) }
         Spacer(Modifier.height(20.dp))
         Text("সেশন শেষ!", style = MaterialTheme.typography.headlineSmall, color = cs.onSurface)
         Spacer(Modifier.height(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            StatPill("✓ জানি: $known", cs.tertiaryContainer, cs.onTertiaryContainer)
-            StatPill("↻ জানি না: $again", cs.errorContainer, cs.onErrorContainer)
+            StatPill("জানি: $known", cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
+            StatPill("জানি না: $again", cs.errorContainer, cs.onErrorContainer, icon = AppIcons.Refresh)
         }
         Spacer(Modifier.height(28.dp))
         ActionButton("আবার শুরু করুন", onClick = onRestart, modifier = Modifier.fillMaxWidth())

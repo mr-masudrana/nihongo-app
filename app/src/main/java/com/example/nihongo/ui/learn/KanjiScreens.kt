@@ -1,6 +1,7 @@
 package com.example.nihongo.ui.learn
 
 import androidx.compose.foundation.background
+import com.example.nihongo.ui.components.AppIcons
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -71,7 +72,7 @@ fun KanjiGridScreen(level: String, onOpen: (Int) -> Unit) {
         return
     }
     if (list.isEmpty()) {
-        EmptyState("📭", "এখনো কাঞ্জি নেই", "assets/${level}/kanji.json ফাইলে কাঞ্জি যোগ করুন।")
+        EmptyState(AppIcons.Inbox, "এখনো কাঞ্জি নেই", "assets/${level}/kanji_${level}.json ফাইলে কাঞ্জি যোগ করুন।")
         return
     }
     val cs = MaterialTheme.colorScheme
@@ -136,7 +137,7 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
     val list = rememberKanji(level)
     val k = list?.getOrNull(index)
     if (list == null || k == null) {
-        EmptyState("🈳", "কাঞ্জি পাওয়া যায়নি", "তালিকায় ফিরে গিয়ে আবার চেষ্টা করুন।")
+        EmptyState(AppIcons.Inbox, "কাঞ্জি পাওয়া যায়নি", "তালিকায় ফিরে গিয়ে আবার চেষ্টা করুন।")
         return
     }
     val cs = MaterialTheme.colorScheme

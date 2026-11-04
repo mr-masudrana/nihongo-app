@@ -1,6 +1,8 @@
 package com.example.nihongo.ui.learn
 
 import androidx.compose.foundation.background
+import com.example.nihongo.ui.components.AppIcons
+import com.example.nihongo.ui.components.AppIcon
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,7 +40,7 @@ import com.example.nihongo.ui.quiz.VocabQuizViewModel
 const val ROUTE_HUB = "hub"
 const val ROUTE_HIRAGANA = "hiragana"
 const val ROUTE_KATAKANA = "katakana"
-const val ROUTE_COUNTING = "counting"
+const val ROUTE_NUMBER = "number"
 const val ROUTE_TEST_KANA = "test_kana"
 const val ROUTE_TEST_N5 = "test_n5"
 const val ROUTE_TEST_N4 = "test_n4"
@@ -61,7 +63,7 @@ private fun crumb(route: String): Pair<String, String> {
     return when (base) {
         ROUTE_HIRAGANA -> "Basic" to "Hiragana"
         ROUTE_KATAKANA -> "Basic" to "Katakana"
-        ROUTE_COUNTING -> "Basic" to "Counting"
+        ROUTE_NUMBER -> "Basic" to "Number"
         ROUTE_TEST_KANA -> "Basic" to "Test"
         ROUTE_TEST_N5 -> "N5" to "Test"
         ROUTE_TEST_N4 -> "N4" to "Test"
@@ -104,7 +106,7 @@ fun LearnScreen(
         when {
             base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
             base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
-            base == ROUTE_COUNTING -> CountingScreen()
+            base == ROUTE_NUMBER -> NumberScreen()
             base == ROUTE_TEST_KANA -> TestScreen("kana", kanaQuizVm, vocabQuizVm)
             base == ROUTE_TEST_N5 -> TestScreen("n5", kanaQuizVm, vocabQuizVm)
             base == ROUTE_TEST_N4 -> TestScreen("n4", kanaQuizVm, vocabQuizVm)
@@ -139,7 +141,7 @@ private fun SectionBar(level: String, name: String, onBack: () -> Unit) {
                 .background(cs.surfaceContainerHigh),
             contentAlignment = Alignment.Center
         ) {
-            Text("‹", fontSize = 24.sp, color = cs.onSurface)
+            AppIcon(AppIcons.Back, size = 22.dp, tint = cs.onSurface)
         }
         Spacer(Modifier.width(12.dp))
         Column {

@@ -1,6 +1,11 @@
 package com.example.nihongo.ui.quiz
 
 import androidx.compose.foundation.layout.Column
+import androidx.compose.ui.Alignment
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.Row
+import com.example.nihongo.ui.components.AppIcons
+import com.example.nihongo.ui.components.AppIcon
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -136,7 +141,11 @@ private fun SetupPanel(
             borderColor = cs.secondaryContainer
         ) {
             Column(Modifier.padding(16.dp)) {
-                Text("🎯 কীভাবে XP পাবেন", style = MaterialTheme.typography.titleSmall, color = cs.onSecondaryContainer)
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    AppIcon(AppIcons.Target, size = 18.dp, tint = cs.onSecondaryContainer)
+                    Spacer(Modifier.width(8.dp))
+                    Text("কীভাবে XP পাবেন", style = MaterialTheme.typography.titleSmall, color = cs.onSecondaryContainer)
+                }
                 Text(
                     "সঠিক উত্তরে +১০ XP; সব ঠিক হলে +২০ বোনাস।",
                     style = MaterialTheme.typography.bodyMedium,

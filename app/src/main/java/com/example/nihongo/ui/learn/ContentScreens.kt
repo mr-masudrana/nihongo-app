@@ -1,6 +1,8 @@
 package com.example.nihongo.ui.learn
 
 import androidx.compose.foundation.layout.Arrangement
+import com.example.nihongo.ui.components.AppIcons
+import com.example.nihongo.ui.components.AppIcon
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
@@ -31,6 +33,8 @@ import com.example.nihongo.data.ContentRepository
 import com.example.nihongo.data.GrammarItem
 import com.example.nihongo.data.GrammarLesson
 import com.example.nihongo.data.LessonInfo
+import com.example.nihongo.data.NumberSection
+import com.example.nihongo.data.NumberItem
 import com.example.nihongo.data.VocabLesson
 import com.example.nihongo.data.WordItem
 import com.example.nihongo.ui.components.BigText
@@ -103,7 +107,7 @@ fun LessonListScreen(
                             color = cs.onSurfaceVariant
                         )
                     }
-                    if (available) Text("›", style = MaterialTheme.typography.titleLarge, color = cs.outline)
+                    if (available) AppIcon(AppIcons.ChevronRight, size = 24.dp, tint = cs.outline)
                 }
             }
         }
@@ -159,7 +163,7 @@ private fun GrammarLessonContent(level: String, no: Int) {
 
 @Composable
 private fun EmptyLesson() {
-    EmptyState("📭", "এই লেসনে এখনো ডেটা নেই", "JSON ফাইলে যোগ করলেই এখানে দেখাবে।")
+    EmptyState(AppIcons.Inbox, "এই লেসনে এখনো ডেটা নেই", "JSON ফাইলে যোগ করলেই এখানে দেখাবে।")
 }
 
 // ---------------------------------------------------------------- ব্যাকরণ
@@ -196,11 +200,15 @@ private fun GrammarCard(g: GrammarItem) {
             if (open) {
                 Text(g.explain, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
                 if (g.note.isNotBlank()) {
-                    Text(
-                        "📝 ${g.note}",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = cs.tertiary
-                    )
+                    Row(verticalAlignment = Alignment.Top) {
+                        AppIcon(AppIcons.Info, size = 16.dp, tint = cs.tertiary, modifier = Modifier.padding(top = 2.dp))
+                        Spacer(Modifier.width(6.dp))
+                        Text(
+                            g.note,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = cs.tertiary
+                        )
+                    }
                 }
                 g.examples.forEach { e ->
                     Row(
@@ -275,110 +283,34 @@ fun WordList(list: List<WordItem>) {
 
 // ---------------------------------------------------------------- সংখ্যা
 
-private data class Num(val digit: String, val kanji: String, val reading: String, val romaji: String)
-
-private val basicNumbers = listOf(
-    Num("0", "〇／零", "ゼロ／れい", "zero / rei"),
-    Num("1", "一", "いち", "ichi"),
-    Num("2", "二", "に", "ni"),
-    Num("3", "三", "さん", "san"),
-    Num("4", "四", "よん／し", "yon / shi"),
-    Num("5", "五", "ご", "go"),
-    Num("6", "六", "ろく", "roku"),
-    Num("7", "七", "なな／しち", "nana / shichi"),
-    Num("8", "八", "はち", "hachi"),
-    Num("9", "九", "きゅう／く", "kyuu / ku"),
-    Num("10", "十", "じゅう", "juu")
-)
-
-private val tensAndMore = listOf(
-    Num("11", "十一", "じゅういち", "juu-ichi"),
-    Num("20", "二十", "にじゅう", "ni-juu"),
-    Num("30", "三十", "さんじゅう", "san-juu"),
-    Num("40", "四十", "よんじゅう", "yon-juu"),
-    Num("50", "五十", "ごじゅう", "go-juu"),
-    Num("60", "六十", "ろくじゅう", "roku-juu"),
-    Num("70", "七十", "ななじゅう", "nana-juu"),
-    Num("80", "八十", "はちじゅう", "hachi-juu"),
-    Num("90", "九十", "きゅうじゅう", "kyuu-juu"),
-    Num("100", "百", "ひゃく", "hyaku"),
-    Num("1,000", "千", "せん", "sen"),
-    Num("10,000", "一万", "いちまん", "ichi-man")
-)
-
-private val tsuCounters = listOf(
-    Num("1つ", "一つ", "ひとつ", "hitotsu"),
-    Num("2つ", "二つ", "ふたつ", "futatsu"),
-    Num("3つ", "三つ", "みっつ", "mittsu"),
-    Num("4つ", "四つ", "よっつ", "yottsu"),
-    Num("5つ", "五つ", "いつつ", "itsutsu"),
-    Num("6つ", "六つ", "むっつ", "muttsu"),
-    Num("7つ", "七つ", "ななつ", "nanatsu"),
-    Num("8つ", "八つ", "やっつ", "yattsu"),
-    Num("9つ", "九つ", "ここのつ", "kokonotsu"),
-    Num("10", "十", "とお", "too")
-)
-
-private val personCounters = listOf(
-    Num("1人", "一人", "ひとり", "hitori"),
-    Num("2人", "二人", "ふたり", "futari"),
-    Num("3人", "三人", "さんにん", "sannin"),
-    Num("4人", "四人", "よにん", "yonin"),
-    Num("5人", "五人", "ごにん", "gonin"),
-    Num("6人", "六人", "ろくにん", "rokunin"),
-    Num("7人", "七人", "ななにん／しちにん", "nananin / shichinin"),
-    Num("8人", "八人", "はちにん", "hachinin"),
-    Num("9人", "九人", "きゅうにん", "kyuunin"),
-    Num("10人", "十人", "じゅうにん", "juunin")
-)
-
-private val pieceCounters = listOf(
-    Num("1個", "一個", "いっこ", "ikko"),
-    Num("2個", "二個", "にこ", "niko"),
-    Num("3個", "三個", "さんこ", "sanko"),
-    Num("4個", "四個", "よんこ", "yonko"),
-    Num("5個", "五個", "ごこ", "goko"),
-    Num("6個", "六個", "ろっこ", "rokko"),
-    Num("7個", "七個", "ななこ", "nanako"),
-    Num("8個", "八個", "はっこ", "hakko"),
-    Num("9個", "九個", "きゅうこ", "kyuuko"),
-    Num("10個", "十個", "じゅっこ", "jukko")
-)
-
-private val irregularNumbers = listOf(
-    Num("300", "三百", "さんびゃく", "san-byaku"),
-    Num("600", "六百", "ろっぴゃく", "rop-pyaku"),
-    Num("800", "八百", "はっぴゃく", "hap-pyaku"),
-    Num("3,000", "三千", "さんぜん", "san-zen"),
-    Num("8,000", "八千", "はっせん", "has-sen")
-)
-
 @Composable
-fun CountingScreen() {
+fun NumberScreen() {
+    val context = LocalContext.current
+    val loaded by produceState<List<NumberSection>?>(null) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(context).numbers() }
+    }
     val tts = LocalTts.current
-    val cs = MaterialTheme.colorScheme
+    val sections = loaded ?: return
+    if (sections.isEmpty()) {
+        EmptyState(AppIcons.Inbox, "সংখ্যা পাওয়া যায়নি", "assets/number.json ফাইলটি দেখুন।")
+        return
+    }
     LazyColumn(
         Modifier.fillMaxSize(),
         contentPadding = listPadding,
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
-        item { NumHeader("১ থেকে ১০") }
-        items(basicNumbers) { n -> NumRow(n) { tts.speak(n.reading.substringBefore("／")) } }
-        item { NumHeader("দশক, শত, হাজার") }
-        items(tensAndMore) { n -> NumRow(n) { tts.speak(n.reading) } }
-        item { NumHeader("বিশেষ উচ্চারণ (শব্দ বদলে যায়)") }
-        items(irregularNumbers) { n -> NumRow(n) { tts.speak(n.reading) } }
-        item { NumHeader("গোনার ধরন: ～つ (সাধারণ জিনিস, ১০ পর্যন্ত)") }
-        items(tsuCounters) { n -> NumRow(n) { tts.speak(n.reading) } }
-        item { NumHeader("গোনার ধরন: ～人 (মানুষ)") }
-        items(personCounters) { n -> NumRow(n) { tts.speak(n.reading.substringBefore("／")) } }
-        item { NumHeader("গোনার ধরন: ～個 (ছোট জিনিস)") }
-        items(pieceCounters) { n -> NumRow(n) { tts.speak(n.reading) } }
+        sections.forEach { sec ->
+            item(key = "h_${sec.id}") { NumHeader(sec.titleBn) }
+            items(sec.items, key = { "${sec.id}_${it.number}" }) { n ->
+                NumRow(n) { tts.speak(n.reading.substringBefore("／")) }
+            }
+        }
         item {
             Text(
                 "৪, ৭ ও ৯-এর দুটি করে পড়া আছে। সাধারণত ৪ = よん, ৭ = なな, ৯ = きゅう বেশি চলে।",
                 style = MaterialTheme.typography.bodySmall,
-                color = cs.onSurfaceVariant,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = 8.dp)
             )
         }
@@ -396,21 +328,21 @@ private fun NumHeader(text: String) {
 }
 
 @Composable
-private fun NumRow(n: Num, onSpeak: () -> Unit) {
+private fun NumRow(n: NumberItem, onSpeak: () -> Unit) {
     val cs = MaterialTheme.colorScheme
     SoftCard(Modifier.fillMaxWidth(), onClick = onSpeak) {
         Row(Modifier.padding(horizontal = 16.dp, vertical = 12.dp), verticalAlignment = Alignment.CenterVertically) {
-            Text(
-                n.digit,
-                style = MaterialTheme.typography.titleLarge,
-                color = cs.primary,
-                modifier = Modifier.width(72.dp)
-            )
-            BigText(n.kanji, 24.sp, color = cs.onSurface, weight = FontWeight.Medium)
-            Spacer(Modifier.width(16.dp))
-            Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
-                Text(n.reading, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
-                Text(n.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
+            Column(Modifier.weight(1f)) {
+                Text(n.number, style = MaterialTheme.typography.titleLarge, color = cs.primary)
+                BigText(n.kanji, 20.sp, color = cs.onSurface, weight = FontWeight.Medium)
+            }
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1.4f), horizontalAlignment = Alignment.End) {
+                Text(n.reading, style = MaterialTheme.typography.titleMedium, color = cs.onSurface, textAlign = TextAlign.End)
+                Text(n.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline, textAlign = TextAlign.End)
+                if (n.note.isNotBlank()) {
+                    Text(n.note, style = MaterialTheme.typography.labelSmall, color = cs.tertiary, textAlign = TextAlign.End)
+                }
             }
         }
     }
