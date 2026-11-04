@@ -8,6 +8,7 @@ class TtsHelper(context: Context) {
     private var ready: Boolean = false
     private var tts: TextToSpeech? = null
     private var rate: Float = 1.0f
+    private var enabled: Boolean = true
 
     init {
         tts = TextToSpeech(context.applicationContext) { status ->
@@ -28,8 +29,14 @@ class TtsHelper(context: Context) {
         tts?.setSpeechRate(r)
     }
 
+    /** অডিও বন্ধ করলে চলমান উচ্চারণও থামে; speak() কিছুই করে না */
+    fun setEnabled(on: Boolean) {
+        enabled = on
+        if (!on) tts?.stop()
+    }
+
     fun speak(text: String) {
-        if (ready) tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "kana")
+        if (ready && enabled) tts?.speak(text, TextToSpeech.QUEUE_FLUSH, null, "kana")
     }
 
     fun shutdown() {

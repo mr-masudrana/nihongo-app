@@ -9,21 +9,25 @@
      "speaker": "A",
      "jp": "はじめまして。わたしは さとうです。",
      "romaji": "Hajimemashite. Watashi wa Satou desu.",
-     "bn": "প্রথম দেখা হলো। আমি সাতো।"
+     "bn": "প্রথম দেখা হলো। আমি সাতো।",
+     "en": "Nice to meet you. I'm Sato."
     },
     {
      "speaker": "B",
      "jp": "はじめまして。ラヒムです。どうぞ よろしく。",
      "romaji": "Hajimemashite. Rahimu desu. Douzo yoroshiku.",
-     "bn": "প্রথম দেখা হলো। আমি রাহিম। পরিচিত হয়ে ভালো লাগলো।"
+     "bn": "প্রথম দেখা হলো। আমি রাহিম। পরিচিত হয়ে ভালো লাগলো।",
+     "en": "Nice to meet you. I'm Rahim. Pleased to meet you."
     },
     {
      "speaker": "A",
      "jp": "こちらこそ、よろしく おねがいします。",
      "romaji": "Kochira koso, yoroshiku onegaishimasu.",
-     "bn": "আমারও ভালো লাগলো।"
+     "bn": "আমারও ভালো লাগলো।",
+     "en": "Pleased to meet you, too."
     }
-   ]
+   ],
+   "title_en": "First meeting"
   },
   {
    "title": "ক্লাসে",
@@ -32,21 +36,25 @@
      "speaker": "A",
      "jp": "ラヒムさんは がくせいですか。",
      "romaji": "Rahimu-san wa gakusei desu ka.",
-     "bn": "রাহিম, আপনি কি ছাত্র?"
+     "bn": "রাহিম, আপনি কি ছাত্র?",
+     "en": "Rahim, are you a student?"
     },
     {
      "speaker": "B",
      "jp": "はい、がくせいです。さとうさんも がくせいですか。",
      "romaji": "Hai, gakusei desu. Satou-san mo gakusei desu ka.",
-     "bn": "হ্যাঁ, ছাত্র। সাতো, আপনিও কি ছাত্র?"
+     "bn": "হ্যাঁ, ছাত্র। সাতো, আপনিও কি ছাত্র?",
+     "en": "Yes, I'm a student. Are you a student, too, Sato?"
     },
     {
      "speaker": "A",
      "jp": "いいえ、がくせいじゃ ありません。せんせいです。",
      "romaji": "Iie, gakusei ja arimasen. Sensei desu.",
-     "bn": "না, ছাত্র নই। আমি শিক্ষক।"
+     "bn": "না, ছাত্র নই। আমি শিক্ষক।",
+     "en": "No, I'm not a student. I'm a teacher."
     }
-   ]
+   ],
+   "title_en": "In class"
   },
   {
    "title": "ওই ব্যক্তি কে?",
@@ -55,27 +63,32 @@
      "speaker": "A",
      "jp": "あの ひとは だれですか。",
      "romaji": "Ano hito wa dare desu ka.",
-     "bn": "ঐ ব্যক্তি কে?"
+     "bn": "ঐ ব্যক্তি কে?",
+     "en": "Who is that person?"
     },
     {
      "speaker": "B",
      "jp": "やまださんです。いしゃです。",
      "romaji": "Yamada-san desu. Isha desu.",
-     "bn": "ইয়ামাদা। উনি ডাক্তার।"
+     "bn": "ইয়ামাদা। উনি ডাক্তার।",
+     "en": "That's Yamada. A doctor."
     },
     {
      "speaker": "A",
      "jp": "かいしゃいんですか。",
      "romaji": "Kaishain desu ka.",
-     "bn": "অফিস কর্মী নাকি?"
+     "bn": "অফিস কর্মী নাকি?",
+     "en": "Is that person a company employee?"
     },
     {
      "speaker": "B",
      "jp": "いいえ、かいしゃいんじゃ ありません。いしゃです。",
      "romaji": "Iie, kaishain ja arimasen. Isha desu.",
-     "bn": "না, অফিস কর্মী নন। ডাক্তার।"
+     "bn": "না, অফিস কর্মী নন। ডাক্তার।",
+     "en": "No, not a company employee. A doctor."
     }
-   ]
+   ],
+   "title_en": "Who is that person?"
   },
   {
    "title": "কোন দেশের?",
@@ -84,15 +97,19 @@
      "speaker": "A",
      "jp": "ラヒムさんは にほんじんですか。",
      "romaji": "Rahimu-san wa nihonjin desu ka.",
-     "bn": "রাহিম, আপনি কি জাপানি?"
+     "bn": "রাহিম, আপনি কি জাপানি?",
+     "en": "Rahim, are you Japanese?"
     },
     {
      "speaker": "B",
      "jp": "いいえ、にほんじんじゃ ありません。バングラデシュじんです。",
      "romaji": "Iie, nihonjin ja arimasen. Banguradeshu-jin desu.",
-     "bn": "না, জাপানি নই। আমি বাংলাদেশি।"
+     "bn": "না, জাপানি নই। আমি বাংলাদেশি।",
+     "en": "No, I'm not Japanese. I'm Bangladeshi."
     }
-   ]
+   ],
+   "title_en": "Where are you from?"
   }
- ]
+ ],
+ "title_en": "Introducing yourself"
 }

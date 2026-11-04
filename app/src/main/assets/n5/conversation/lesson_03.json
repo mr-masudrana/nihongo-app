@@ -9,21 +9,25 @@
      "speaker": "A",
      "jp": "すみません、えきは どこですか。",
      "romaji": "Sumimasen, eki wa doko desu ka.",
-     "bn": "মাফ করবেন, স্টেশন কোথায়?"
+     "bn": "মাফ করবেন, স্টেশন কোথায়?",
+     "en": "Excuse me, where is the station?"
     },
     {
      "speaker": "B",
      "jp": "あそこです。",
      "romaji": "Asoko desu.",
-     "bn": "ঐ ওখানে।"
+     "bn": "ঐ ওখানে।",
+     "en": "Over there."
     },
     {
      "speaker": "A",
      "jp": "ありがとうございます。",
      "romaji": "Arigatou gozaimasu.",
-     "bn": "ধন্যবাদ।"
+     "bn": "ধন্যবাদ।",
+     "en": "Thank you."
     }
-   ]
+   ],
+   "title_en": "Where is the station?"
   },
   {
    "title": "স্কুলে",
@@ -32,27 +36,32 @@
      "speaker": "A",
      "jp": "ここは がっこうですか。",
      "romaji": "Koko wa gakkou desu ka.",
-     "bn": "এটা কি স্কুল?"
+     "bn": "এটা কি স্কুল?",
+     "en": "Is this a school?"
     },
     {
      "speaker": "B",
      "jp": "はい、そうです。",
      "romaji": "Hai, sou desu.",
-     "bn": "হ্যাঁ, তাই।"
+     "bn": "হ্যাঁ, তাই।",
+     "en": "Yes, it is."
     },
     {
      "speaker": "A",
      "jp": "せんせいは どこですか。",
      "romaji": "Sensei wa doko desu ka.",
-     "bn": "শিক্ষক কোথায়?"
+     "bn": "শিক্ষক কোথায়?",
+     "en": "Where is the teacher?"
     },
     {
      "speaker": "B",
      "jp": "あそこです。",
      "romaji": "Asoko desu.",
-     "bn": "ঐ ওখানে।"
+     "bn": "ঐ ওখানে।",
+     "en": "Over there."
     }
-   ]
+   ],
+   "title_en": "At school"
   },
   {
    "title": "আমার ঘর",
@@ -61,21 +70,26 @@
      "speaker": "A",
      "jp": "ここは わたしの へやです。",
      "romaji": "Koko wa watashi no heya desu.",
-     "bn": "এটা আমার ঘর।"
+     "bn": "এটা আমার ঘর।",
+     "en": "This is my room."
     },
     {
      "speaker": "B",
      "jp": "そこは だれの へやですか。",
      "romaji": "Soko wa dare no heya desu ka.",
-     "bn": "ওখানটা কার ঘর?"
+     "bn": "ওখানটা কার ঘর?",
+     "en": "Whose room is that?"
     },
     {
      "speaker": "A",
      "jp": "そこは さとうさんの へやです。",
      "romaji": "Soko wa Satou-san no heya desu.",
-     "bn": "ওটা সাতোর ঘর।"
+     "bn": "ওটা সাতোর ঘর।",
+     "en": "That is Sato's room."
     }
-   ]
+   ],
+   "title_en": "My room"
   }
- ]
+ ],
+ "title_en": "Places and directions"
 }

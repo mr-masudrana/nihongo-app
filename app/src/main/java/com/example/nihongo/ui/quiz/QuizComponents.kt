@@ -1,5 +1,7 @@
 package com.example.nihongo.ui.quiz
 
+import com.example.nihongo.ui.components.LocalEnglish
+import com.example.nihongo.ui.components.tr
 import androidx.compose.animation.AnimatedVisibility
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.AppIcon
@@ -56,7 +58,8 @@ import com.example.nihongo.ui.components.SpeakButton
 import com.example.nihongo.ui.components.StatPill
 import com.example.nihongo.ui.components.entrance
 
-private val optionLetters = listOf("ক", "খ", "গ", "ঘ", "ঙ")
+private val optionLettersBn = listOf("ক", "খ", "গ", "ঘ", "ঙ")
+private val optionLettersEn = listOf("A", "B", "C", "D", "E")
 
 @Composable
 fun QuizPlay(
@@ -102,9 +105,9 @@ fun QuizPlay(
         ) {
             if (timed) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    StatPill("প্রশ্ন ${ui.index + 1} / ${ui.total}", cs.primaryContainer, cs.onPrimaryContainer)
+                    StatPill(tr("প্রশ্ন ${ui.index + 1} / ${ui.total}", "Question ${ui.index + 1} / ${ui.total}"), cs.primaryContainer, cs.onPrimaryContainer)
                     Spacer(Modifier.weight(1f))
-                    StatPill("সঠিক: ${ui.score}", cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
+                    StatPill(tr("সঠিক: ${ui.score}", "Correct: ${ui.score}"), cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
                 }
                 val fraction = leftMs.toFloat() / totalMs
                 val urgent = leftMs <= 5_000L && !ui.answered
@@ -125,10 +128,10 @@ fun QuizPlay(
                 }
             } else {
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    StatPill("স্কোর: ${ui.score}", cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Check)
+                    StatPill(tr("স্কোর: ${ui.score}", "Score: ${ui.score}"), cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Check)
                     Spacer(Modifier.weight(1f))
                     StatPill(
-                        "হাই স্কোর: ${maxOf(ui.highScore, ui.score)}",
+                        tr("হাই স্কোর: ${maxOf(ui.highScore, ui.score)}", "High score: ${maxOf(ui.highScore, ui.score)}"),
                         cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Trophy
                     )
                 }
@@ -166,7 +169,7 @@ fun QuizPlay(
 
             q.options.forEachIndexed { i, text ->
                 OptionCard(
-                    letter = optionLetters.getOrElse(i) { "•" },
+                    letter = (if (LocalEnglish.current) optionLettersEn else optionLettersBn).getOrElse(i) { "•" },
                     text = text,
                     sp = q.optionSp,
                     answered = ui.answered,
@@ -203,22 +206,22 @@ fun QuizPlay(
                     Spacer(Modifier.width(8.dp))
                     Text(
                         if (correct) {
-                            if (timed) "সঠিক!  +${ui.lastXp} XP" else "সঠিক!"
-                        } else if (ui.timedOut) "সময় শেষ!" else "ভুল হয়েছে",
+                            if (timed) tr("সঠিক!  +${ui.lastXp} XP", "Correct!  +${ui.lastXp} XP") else tr("সঠিক!", "Correct!")
+                        } else if (ui.timedOut) tr("সময় শেষ!", "Time's up!") else tr("ভুল হয়েছে", "Wrong"),
                         style = MaterialTheme.typography.titleLarge,
                         color = if (correct) cs.onTertiaryContainer else cs.onErrorContainer
                     )
                 }
                 if (!correct) {
                     Text(
-                        "সঠিক উত্তর: ${q.options[q.correctIndex]}",
+                        tr("সঠিক উত্তর: ${q.options[q.correctIndex]}", "Correct answer: ${q.options[q.correctIndex]}"),
                         style = MaterialTheme.typography.bodyLarge,
                         color = cs.onErrorContainer
                     )
                 }
                 Spacer(Modifier.height(14.dp))
                 ActionButton(
-                    text = if (ui.finishing) "ফলাফল দেখুন" else "পরবর্তী",
+                    text = if (ui.finishing) tr("ফলাফল দেখুন", "See result") else tr("পরবর্তী", "Next"),
                     onClick = onNext,
                     modifier = Modifier.fillMaxWidth(),
                     container = if (correct) cs.tertiary else cs.error,
@@ -305,9 +308,9 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
-            EmptyState(AppIcons.Help, "প্রশ্ন তৈরি করা যায়নি", "অন্য বিভাগ বা সেটিংস বেছে নিয়ে আবার চেষ্টা করুন।")
+            EmptyState(AppIcons.Help, tr("প্রশ্ন তৈরি করা যায়নি", "Couldn't create questions"), tr("অন্য বিভাগ বা সেটিংস বেছে নিয়ে আবার চেষ্টা করুন।", "Pick another category or setting and try again."))
             Spacer(Modifier.height(8.dp))
-            ActionButton("ফিরে যান", onClick = onBack, modifier = Modifier.fillMaxWidth())
+            ActionButton(tr("ফিরে যান", "Go back"), onClick = onBack, modifier = Modifier.fillMaxWidth())
         }
         return
     }
@@ -316,9 +319,9 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
 
     val ringColor = if (ui.newRecord) cs.tertiary else cs.primary
     val message = when {
-        ui.newRecord -> "নতুন হাই স্কোর!"
-        ui.score == 0 -> "এবার হলো না — আবার চেষ্টা করুন"
-        else -> "ভালো খেলেছেন!"
+        ui.newRecord -> tr("নতুন হাই স্কোর!", "New high score!")
+        ui.score == 0 -> tr("এবার হলো না — আবার চেষ্টা করুন", "Not this time — try again")
+        else -> tr("ভালো খেলেছেন!", "Well played!")
     }
 
     Column(
@@ -339,19 +342,19 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 AppIcon(if (ui.newRecord) AppIcons.Trophy else AppIcons.Star, size = 40.dp, tint = ringColor)
                 BigText("${ui.score}", 40.sp, color = cs.onSurface, weight = FontWeight.Bold)
-                Text("টানা সঠিক", style = MaterialTheme.typography.labelMedium, color = cs.onSurfaceVariant)
+                Text(tr("টানা সঠিক", "In a row"), style = MaterialTheme.typography.labelMedium, color = cs.onSurfaceVariant)
             }
         }
         Spacer(Modifier.height(20.dp))
         Text(message, style = MaterialTheme.typography.titleLarge, color = cs.onSurface, textAlign = TextAlign.Center)
         Spacer(Modifier.height(12.dp))
-        StatPill("হাই স্কোর: ${ui.highScore}", cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Trophy)
+        StatPill(tr("হাই স্কোর: ${ui.highScore}", "High score: ${ui.highScore}"), cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Trophy)
         Spacer(Modifier.height(8.dp))
         Spacer(Modifier.height(28.dp))
-        ActionButton("আবার শুরু করুন", onClick = onRetry, modifier = Modifier.fillMaxWidth())
+        ActionButton(tr("আবার শুরু করুন", "Start again"), onClick = onRetry, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(10.dp))
         ActionButton(
-            "সেটিংসে ফিরুন", onClick = onBack, modifier = Modifier.fillMaxWidth(),
+            tr("সেটিংসে ফিরুন", "Back to settings"), onClick = onBack, modifier = Modifier.fillMaxWidth(),
             container = cs.surfaceContainerHigh, content = cs.onSurface
         )
     }
@@ -363,10 +366,10 @@ private fun ChallengeResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit)
     val total = ui.total
     val pct = if (total > 0) ui.score * 100 / total else 0
     val (resultIcon, message) = when {
-        pct == 100 -> AppIcons.Trophy to "অসাধারণ! সবগুলো সঠিক!"
-        pct >= 70 -> AppIcons.Star to "দারুণ করেছেন!"
-        pct >= 40 -> AppIcons.ThumbUp to "ভালো চেষ্টা — আরেকবার খেলে দেখুন"
-        else -> AppIcons.Fire to "অনুশীলন চালিয়ে যান, পারবেন!"
+        pct == 100 -> AppIcons.Trophy to tr("অসাধারণ! সবগুলো সঠিক!", "Outstanding! All correct!")
+        pct >= 70 -> AppIcons.Star to tr("দারুণ করেছেন!", "Great job!")
+        pct >= 40 -> AppIcons.ThumbUp to tr("ভালো চেষ্টা — আরেকবার খেলে দেখুন", "Good try — play once more")
+        else -> AppIcons.Fire to tr("অনুশীলন চালিয়ে যান, পারবেন!", "Keep practicing — you can do it!")
     }
     val ringColor = if (pct >= 70) cs.tertiary else if (pct >= 40) cs.primary else cs.secondary
     val xpNow = ui.xpAtStart + ui.xpEarned
@@ -394,11 +397,11 @@ private fun ChallengeResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit)
         Spacer(Modifier.height(20.dp))
         Text(message, style = MaterialTheme.typography.titleLarge, color = cs.onSurface, textAlign = TextAlign.Center)
         Spacer(Modifier.height(12.dp))
-        StatPill("এই কুইজে অর্জন: +${ui.xpEarned} XP", cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Star)
+        StatPill(tr("এই কুইজে অর্জন: +${ui.xpEarned} XP", "Earned this quiz: +${ui.xpEarned} XP"), cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Star)
         if (ui.perfectBonus > 0) {
             Spacer(Modifier.height(8.dp))
             Text(
-                "পারফেক্ট বোনাস +${ui.perfectBonus} XP যোগ হয়েছে",
+                tr("পারফেক্ট বোনাস +${ui.perfectBonus} XP যোগ হয়েছে", "Perfect bonus +${ui.perfectBonus} XP added"),
                 style = MaterialTheme.typography.bodyMedium,
                 color = cs.onSurfaceVariant
             )
@@ -408,7 +411,7 @@ private fun ChallengeResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit)
             Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
-                        if (levelUp) "লেভেল আপ! এখন লেভেল $level" else "লেভেল $level",
+                        if (levelUp) tr("লেভেল আপ! এখন লেভেল $level", "Level up! Now level $level") else tr("লেভেল $level", "Level $level"),
                         style = MaterialTheme.typography.titleMedium,
                         color = if (levelUp) cs.tertiary else cs.onSurface,
                         modifier = Modifier.weight(1f)
@@ -423,10 +426,10 @@ private fun ChallengeResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit)
             }
         }
         Spacer(Modifier.height(24.dp))
-        ActionButton("আবার খেলুন", onClick = onRetry, modifier = Modifier.fillMaxWidth())
+        ActionButton(tr("আবার খেলুন", "Play again"), onClick = onRetry, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(10.dp))
         ActionButton(
-            "সেটিংসে ফিরুন", onClick = onBack, modifier = Modifier.fillMaxWidth(),
+            tr("সেটিংসে ফিরুন", "Back to settings"), onClick = onBack, modifier = Modifier.fillMaxWidth(),
             container = cs.surfaceContainerHigh, content = cs.onSurface
         )
     }

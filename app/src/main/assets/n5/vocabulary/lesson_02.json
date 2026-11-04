@@ -6,43 +6,120 @@
    "word": "これ",
    "reading": "これ",
    "romaji": "kore",
-   "bn": "এটা (কাছে)",
-   "en": "this one"
+   "bn": "এটা (কাছের জিনিস)",
+   "en": "this (thing here)"
   },
   {
    "word": "それ",
    "reading": "それ",
    "romaji": "sore",
-   "bn": "ওটা (শ্রোতার কাছে)",
-   "en": "that one"
+   "bn": "ওটা (শ্রোতার কাছের জিনিস)",
+   "en": "that (thing near the listener)"
   },
   {
    "word": "あれ",
    "reading": "あれ",
    "romaji": "are",
-   "bn": "ওটা (দূরে)",
-   "en": "that one over there"
+   "bn": "ঐটা (দূরের জিনিস)",
+   "en": "that (thing over there)"
   },
   {
-   "word": "ほん",
+   "word": "この～",
+   "reading": "この～",
+   "romaji": "kono~",
+   "bn": "এই ~",
+   "en": "this ~"
+  },
+  {
+   "word": "その～",
+   "reading": "その～",
+   "romaji": "sono~",
+   "bn": "ঐ ~ (শ্রোতার কাছের)",
+   "en": "that ~ (near the listener)"
+  },
+  {
+   "word": "あの～",
+   "reading": "あの～",
+   "romaji": "ano~",
+   "bn": "ঐ ~ (দূরের)",
+   "en": "that ~ (over there)"
+  },
+  {
+   "word": "本",
    "reading": "ほん",
    "romaji": "hon",
    "bn": "বই",
    "en": "book"
   },
   {
-   "word": "じしょ",
+   "word": "辞書",
    "reading": "じしょ",
    "romaji": "jisho",
    "bn": "অভিধান",
    "en": "dictionary"
   },
   {
-   "word": "かばん",
-   "reading": "かばん",
-   "romaji": "kaban",
-   "bn": "ব্যাগ",
-   "en": "bag"
+   "word": "雑誌",
+   "reading": "ざっし",
+   "romaji": "zasshi",
+   "bn": "ম্যাগাজিন",
+   "en": "magazine"
+  },
+  {
+   "word": "新聞",
+   "reading": "しんぶん",
+   "romaji": "shinbun",
+   "bn": "সংবাদপত্র",
+   "en": "newspaper"
+  },
+  {
+   "word": "ノート",
+   "reading": "ノート",
+   "romaji": "nōto",
+   "bn": "খাতা",
+   "en": "notebook"
+  },
+  {
+   "word": "手帳",
+   "reading": "てちょう",
+   "romaji": "techou",
+   "bn": "ডায়েরি / নোটবুক",
+   "en": "personal organiser"
+  },
+  {
+   "word": "名刺",
+   "reading": "めいし",
+   "romaji": "meishi",
+   "bn": "ভিজিটিং কার্ড",
+   "en": "business card"
+  },
+  {
+   "word": "カード",
+   "reading": "カード",
+   "romaji": "kādo",
+   "bn": "কার্ড (ক্রেডিট কার্ড)",
+   "en": "(credit) card"
+  },
+  {
+   "word": "鉛筆",
+   "reading": "えんぴつ",
+   "romaji": "enpitsu",
+   "bn": "পেন্সিল",
+   "en": "pencil"
+  },
+  {
+   "word": "ボールペン",
+   "reading": "ボールペン",
+   "romaji": "bōrupen",
+   "bn": "বলপয়েন্ট কলম",
+   "en": "ballpoint pen"
+  },
+  {
+   "word": "シャープペンシル",
+   "reading": "シャープペンシル",
+   "romaji": "shāpupenshiru",
+   "bn": "মেকানিক্যাল পেন্সিল",
+   "en": "mechanical pencil"
   },
   {
    "word": "かぎ",
@@ -52,25 +129,202 @@
    "en": "key"
   },
   {
-   "word": "とけい",
+   "word": "時計",
    "reading": "とけい",
    "romaji": "tokei",
    "bn": "ঘড়ি",
-   "en": "clock, watch"
+   "en": "watch, clock"
   },
   {
-   "word": "くるま",
+   "word": "傘",
+   "reading": "かさ",
+   "romaji": "kasa",
+   "bn": "ছাতা",
+   "en": "umbrella"
+  },
+  {
+   "word": "かばん",
+   "reading": "かばん",
+   "romaji": "kaban",
+   "bn": "ব্যাগ",
+   "en": "bag, briefcase"
+  },
+  {
+   "word": "CD",
+   "reading": "シーディー",
+   "romaji": "shīdī",
+   "bn": "সিডি",
+   "en": "CD, compact disc",
+   "note": "শব্দ উচ্চারণ: shīdī"
+  },
+  {
+   "word": "テレビ",
+   "reading": "テレビ",
+   "romaji": "terebi",
+   "bn": "টেলিভিশন",
+   "en": "television"
+  },
+  {
+   "word": "ラジオ",
+   "reading": "ラジオ",
+   "romaji": "rajio",
+   "bn": "রেডিও",
+   "en": "radio"
+  },
+  {
+   "word": "カメラ",
+   "reading": "カメラ",
+   "romaji": "kamera",
+   "bn": "ক্যামেরা",
+   "en": "camera"
+  },
+  {
+   "word": "コンピューター",
+   "reading": "コンピューター",
+   "romaji": "konpyūtā",
+   "bn": "কম্পিউটার",
+   "en": "computer"
+  },
+  {
+   "word": "車",
    "reading": "くるま",
    "romaji": "kuruma",
    "bn": "গাড়ি",
-   "en": "car"
+   "en": "car, vehicle"
   },
   {
-   "word": "つくえ",
+   "word": "机",
    "reading": "つくえ",
    "romaji": "tsukue",
-   "bn": "টেবিল",
+   "bn": "ডেস্ক",
    "en": "desk"
+  },
+  {
+   "word": "いす",
+   "reading": "いす",
+   "romaji": "isu",
+   "bn": "চেয়ার",
+   "en": "chair"
+  },
+  {
+   "word": "チョコレート",
+   "reading": "チョコレート",
+   "romaji": "chokorēto",
+   "bn": "চকলেট",
+   "en": "chocolate"
+  },
+  {
+   "word": "コーヒー",
+   "reading": "コーヒー",
+   "romaji": "kōhī",
+   "bn": "কফি",
+   "en": "coffee"
+  },
+  {
+   "word": "[お]土産",
+   "reading": "[お]みやげ",
+   "romaji": "[o]miyage",
+   "bn": "স্যুভেনির / উপহার",
+   "en": "souvenir, present"
+  },
+  {
+   "word": "英語",
+   "reading": "えいご",
+   "romaji": "eigo",
+   "bn": "ইংরেজি ভাষা",
+   "en": "the English language"
+  },
+  {
+   "word": "日本語",
+   "reading": "にほんご",
+   "romaji": "nihongo",
+   "bn": "জাপানি ভাষা",
+   "en": "the Japanese language"
+  },
+  {
+   "word": "～語",
+   "reading": "～ご",
+   "romaji": "~go",
+   "bn": "~ ভাষা",
+   "en": "~ language"
+  },
+  {
+   "word": "何",
+   "reading": "なん",
+   "romaji": "nan",
+   "bn": "কী",
+   "en": "what"
+  },
+  {
+   "word": "そう",
+   "reading": "そう",
+   "romaji": "sou",
+   "bn": "তাই / ঐ রকম",
+   "en": "so"
+  },
+  {
+   "word": "あのう",
+   "reading": "あのう",
+   "romaji": "anou",
+   "bn": "ইয়ে... (ইতস্তত করার সময়)",
+   "en": "Er... (hesitation)"
+  },
+  {
+   "word": "えっ",
+   "reading": "えっ",
+   "romaji": "e",
+   "bn": "কী! / ওহ! (অপ্রত্যাশিত কিছু শুনলে)",
+   "en": "Oh? What!"
+  },
+  {
+   "word": "どうぞ",
+   "reading": "どうぞ",
+   "romaji": "douzo",
+   "bn": "নিন (কাউকে কিছু দেওয়ার সময়)",
+   "en": "Here you are"
+  },
+  {
+   "word": "[どうも]ありがとう[ございます]",
+   "reading": "[どうも]ありがとう[ございます]",
+   "romaji": "[doumo] arigatou [gozaimasu]",
+   "bn": "[অনেক] ধন্যবাদ",
+   "en": "Thank you [very much]"
+  },
+  {
+   "word": "そうですか",
+   "reading": "そうですか",
+   "romaji": "sou desu ka",
+   "bn": "আচ্ছা, তাই নাকি",
+   "en": "I see"
+  },
+  {
+   "word": "違います",
+   "reading": "ちがいます",
+   "romaji": "chigaimasu",
+   "bn": "না, ভুল / তা নয়",
+   "en": "No, it isn't. / You are wrong."
+  },
+  {
+   "word": "あ",
+   "reading": "あ",
+   "romaji": "a",
+   "bn": "ও! (কিছু টের পেলে)",
+   "en": "Oh! (becoming aware of something)"
+  },
+  {
+   "word": "これからお世話になります",
+   "reading": "これからおせわになります",
+   "romaji": "kore kara osewa ni narimasu",
+   "bn": "আজ থেকে আপনার সহায়তা চাইছি (আগাম কৃতজ্ঞতা)",
+   "en": "Thank you in advance for your kindness"
+  },
+  {
+   "word": "こちらこそ[どうぞ]よろしく[お願いします]",
+   "reading": "こちらこそ[どうぞ]よろしく[おねがいします]",
+   "romaji": "kochira koso [douzo] yoroshiku [onegaishimasu]",
+   "bn": "আমারও আপনার সাথে পরিচিত হয়ে ভালো লাগলো",
+   "en": "Pleased to meet you, too"
   }
- ]
+ ],
+ "title_en": "Identifying things"
 }

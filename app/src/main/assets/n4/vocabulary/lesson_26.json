@@ -3,39 +3,325 @@
  "title": "কারণ ও ব্যাখ্যা",
  "words": [
   {
-   "word": "探す",
-   "reading": "さがす",
-   "romaji": "sagasu",
+   "word": "見ます、診ます",
+   "reading": "みます",
+   "romaji": "mimasu",
+   "bn": "দেখা / পরীক্ষা করা",
+   "en": "check",
+   "note": "II-গ্রুপ"
+  },
+  {
+   "word": "探します、捜します",
+   "reading": "さがします",
+   "romaji": "sagashimasu",
    "bn": "খোঁজা",
-   "en": "to search"
+   "en": "look for, search",
+   "note": "I-গ্রুপ"
   },
   {
-   "word": "遅れる",
-   "reading": "おくれる",
-   "romaji": "okureru",
+   "word": "遅れます",
+   "reading": "おくれます",
+   "romaji": "okuremasu",
    "bn": "দেরি হওয়া",
-   "en": "to be late"
+   "en": "be late [for an appointment, etc.]",
+   "note": "II-গ্রুপ · [時間に～]"
   },
   {
-   "word": "間に合う",
-   "reading": "まにあう",
-   "romaji": "maniau",
+   "word": "間に合います",
+   "reading": "まにあいます",
+   "romaji": "maniaimasu",
    "bn": "সময়মতো পৌঁছানো",
-   "en": "to be in time"
+   "en": "be in time [for an appointment, etc.]",
+   "note": "I-গ্রুপ · [時間に～]"
   },
   {
-   "word": "片付ける",
-   "reading": "かたづける",
-   "romaji": "katadukeru",
-   "bn": "গুছিয়ে রাখা",
-   "en": "to tidy up"
+   "word": "やります",
+   "reading": "やります",
+   "romaji": "yarimasu",
+   "bn": "করা",
+   "en": "do",
+   "note": "I-গ্রুপ"
   },
   {
-   "word": "捨てる",
-   "reading": "すてる",
-   "romaji": "suteru",
-   "bn": "ফেলে দেওয়া",
-   "en": "to throw away"
+   "word": "参加します",
+   "reading": "さんかします",
+   "romaji": "sankashimasu",
+   "bn": "অংশ নেওয়া",
+   "en": "attend [a party]",
+   "note": "III-গ্রুপ · [パーティーに～]"
+  },
+  {
+   "word": "申し込みます",
+   "reading": "もうしこみます",
+   "romaji": "moushikomimasu",
+   "bn": "আবেদন করা / নাম লেখানো",
+   "en": "apply for, enter for",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "都合がいい",
+   "reading": "つごうがいい",
+   "romaji": "tsugou ga ii",
+   "bn": "সুবিধাজনক (সময়ের দিক থেকে)",
+   "en": "convenient (concerning time)"
+  },
+  {
+   "word": "都合が悪い",
+   "reading": "つごうがわるい",
+   "romaji": "tsugou ga warui",
+   "bn": "অসুবিধাজনক (সময়ের দিক থেকে)",
+   "en": "inconvenient (concerning time)"
+  },
+  {
+   "word": "気分がいい",
+   "reading": "きぶんがいい",
+   "romaji": "kibun ga ii",
+   "bn": "ভালো লাগছে",
+   "en": "feel well"
+  },
+  {
+   "word": "気分が悪い",
+   "reading": "きぶんがわるい",
+   "romaji": "kibun ga warui",
+   "bn": "খারাপ লাগছে / অসুস্থ বোধ",
+   "en": "feel ill"
+  },
+  {
+   "word": "新聞社",
+   "reading": "しんぶんしゃ",
+   "romaji": "shinbunsha",
+   "bn": "সংবাদপত্র অফিস",
+   "en": "newspaper publishing company"
+  },
+  {
+   "word": "柔道",
+   "reading": "じゅうどう",
+   "romaji": "juudou",
+   "bn": "জুডো",
+   "en": "judo"
+  },
+  {
+   "word": "運動会",
+   "reading": "うんどうかい",
+   "romaji": "undoukai",
+   "bn": "ক্রীড়া অনুষ্ঠান",
+   "en": "athletic meeting"
+  },
+  {
+   "word": "場所",
+   "reading": "ばしょ",
+   "romaji": "basho",
+   "bn": "জায়গা",
+   "en": "place"
+  },
+  {
+   "word": "ボランティア",
+   "reading": "ボランティア",
+   "romaji": "borantia",
+   "bn": "স্বেচ্ছাসেবক",
+   "en": "volunteer"
+  },
+  {
+   "word": "～弁",
+   "reading": "～べん",
+   "romaji": "~ben",
+   "bn": "~ উপভাষা",
+   "en": "~ dialect"
+  },
+  {
+   "word": "今度",
+   "reading": "こんど",
+   "romaji": "kondo",
+   "bn": "পরের বার",
+   "en": "next time, another time"
+  },
+  {
+   "word": "ずいぶん",
+   "reading": "ずいぶん",
+   "romaji": "zuibun",
+   "bn": "বেশ / অনেকটাই",
+   "en": "pretty, very"
+  },
+  {
+   "word": "直接",
+   "reading": "ちょくせつ",
+   "romaji": "chokusetsu",
+   "bn": "সরাসরি",
+   "en": "directly"
+  },
+  {
+   "word": "いつでも",
+   "reading": "いつでも",
+   "romaji": "itsudemo",
+   "bn": "যেকোনো সময়",
+   "en": "any time"
+  },
+  {
+   "word": "どこでも",
+   "reading": "どこでも",
+   "romaji": "dokodemo",
+   "bn": "যেকোনো জায়গায়",
+   "en": "anywhere"
+  },
+  {
+   "word": "だれでも",
+   "reading": "だれでも",
+   "romaji": "daredemo",
+   "bn": "যে কেউ",
+   "en": "anybody"
+  },
+  {
+   "word": "何でも",
+   "reading": "なんでも",
+   "romaji": "nandemo",
+   "bn": "যেকোনো কিছু",
+   "en": "anything"
+  },
+  {
+   "word": "こんな～",
+   "reading": "こんな～",
+   "romaji": "konna~",
+   "bn": "এই রকম ~",
+   "en": "~ like this"
+  },
+  {
+   "word": "そんな～",
+   "reading": "そんな～",
+   "romaji": "sonna~",
+   "bn": "ঐ রকম ~ (শ্রোতার কাছের)",
+   "en": "~ like that (near the listener)"
+  },
+  {
+   "word": "あんな～",
+   "reading": "あんな～",
+   "romaji": "anna~",
+   "bn": "ঐ রকম ~ (দূরের)",
+   "en": "~ like that (far from both)"
+  },
+  {
+   "word": "NHK",
+   "reading": "エヌエイチケー",
+   "romaji": "NHK",
+   "bn": "জাপানের জাতীয় সম্প্রচার সংস্থা",
+   "en": "Nippon Hoso Kyokai (broadcasting company)",
+   "note": "সংস্থার নাম"
+  },
+  {
+   "word": "こどもの日",
+   "reading": "こどもの ひ",
+   "romaji": "kodomo no hi",
+   "bn": "শিশু দিবস (জাপানের একটি ছুটির দিন)",
+   "en": "Children's Day"
+  },
+  {
+   "word": "エドヤストア",
+   "reading": "エドヤストア",
+   "romaji": "edoyasutoa",
+   "bn": "কাল্পনিক দোকানের নাম",
+   "en": "fictitious store"
+  },
+  {
+   "word": "片づきます",
+   "reading": "かたづきます",
+   "romaji": "katazukimasu",
+   "bn": "গুছিয়ে যাওয়া",
+   "en": "[boxes] be put in order",
+   "note": "I-গ্রুপ · [荷物が～]"
+  },
+  {
+   "word": "ごみ",
+   "reading": "ごみ",
+   "romaji": "gomi",
+   "bn": "আবর্জনা",
+   "en": "garbage, trash, dust"
+  },
+  {
+   "word": "出します",
+   "reading": "だします",
+   "romaji": "dashimasu",
+   "bn": "বের করা / ফেলতে দেওয়া",
+   "en": "put out [the trash]",
+   "note": "I-গ্রুপ · [ごみを～]"
+  },
+  {
+   "word": "燃えます",
+   "reading": "もえます",
+   "romaji": "moemasu",
+   "bn": "পোড়ে (পোড়ানো যায়)",
+   "en": "[trash] burn",
+   "note": "II-গ্রুপ · [ごみが～]"
+  },
+  {
+   "word": "月・水・金",
+   "reading": "げつ・すい・きん",
+   "romaji": "getsu・sui・kin",
+   "bn": "সোম, বুধ ও শুক্রবার",
+   "en": "Monday, Wednesday and Friday"
+  },
+  {
+   "word": "置き場",
+   "reading": "おきば",
+   "romaji": "okiba",
+   "bn": "জিনিস রাখার জায়গা",
+   "en": "place where something is put"
+  },
+  {
+   "word": "横",
+   "reading": "よこ",
+   "romaji": "yoko",
+   "bn": "পাশ",
+   "en": "side"
+  },
+  {
+   "word": "瓶",
+   "reading": "びん",
+   "romaji": "bin",
+   "bn": "বোতল",
+   "en": "bottle"
+  },
+  {
+   "word": "缶",
+   "reading": "かん",
+   "romaji": "kan",
+   "bn": "ক্যান / টিন",
+   "en": "can"
+  },
+  {
+   "word": "[お]湯",
+   "reading": "[お]ゆ",
+   "romaji": "[o]yu",
+   "bn": "গরম পানি",
+   "en": "hot water"
+  },
+  {
+   "word": "ガス",
+   "reading": "ガス",
+   "romaji": "gasu",
+   "bn": "গ্যাস",
+   "en": "gas"
+  },
+  {
+   "word": "～会社",
+   "reading": "～がいしゃ",
+   "romaji": "~gaisha",
+   "bn": "~ কোম্পানি",
+   "en": "~ company"
+  },
+  {
+   "word": "連絡します",
+   "reading": "れんらくします",
+   "romaji": "renrakushimasu",
+   "bn": "যোগাযোগ করা",
+   "en": "contact",
+   "note": "III-গ্রুপ"
+  },
+  {
+   "word": "困ったなあ。",
+   "reading": "こまったなあ。",
+   "romaji": "komatta naa.",
+   "bn": "এখন কী করি!",
+   "en": "What shall I do?"
   }
- ]
+ ],
+ "title_en": "Reasons and explanations"
 }

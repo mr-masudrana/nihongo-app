@@ -9,27 +9,32 @@
      "speaker": "A",
      "jp": "これは なんですか。",
      "romaji": "Kore wa nan desu ka.",
-     "bn": "এটা কী?"
+     "bn": "এটা কী?",
+     "en": "What is this?"
     },
     {
      "speaker": "B",
      "jp": "それは じしょです。",
      "romaji": "Sore wa jisho desu.",
-     "bn": "ওটা অভিধান।"
+     "bn": "ওটা অভিধান।",
+     "en": "That is a dictionary."
     },
     {
      "speaker": "A",
      "jp": "あれは なんですか。",
      "romaji": "Are wa nan desu ka.",
-     "bn": "ঐ দূরেরটা কী?"
+     "bn": "ঐ দূরেরটা কী?",
+     "en": "What is that over there?"
     },
     {
      "speaker": "B",
      "jp": "あれは とけいです。",
      "romaji": "Are wa tokei desu.",
-     "bn": "ওটা ঘড়ি।"
+     "bn": "ওটা ঘড়ি।",
+     "en": "That is a clock."
     }
-   ]
+   ],
+   "title_en": "What is this?"
   },
   {
    "title": "কার ব্যাগ?",
@@ -38,27 +43,32 @@
      "speaker": "A",
      "jp": "それは だれの かばんですか。",
      "romaji": "Sore wa dare no kaban desu ka.",
-     "bn": "ওটা কার ব্যাগ?"
+     "bn": "ওটা কার ব্যাগ?",
+     "en": "Whose bag is that?"
     },
     {
      "speaker": "B",
      "jp": "これは わたしの かばんです。",
      "romaji": "Kore wa watashi no kaban desu.",
-     "bn": "এটা আমার ব্যাগ।"
+     "bn": "এটা আমার ব্যাগ।",
+     "en": "This is my bag."
     },
     {
      "speaker": "A",
      "jp": "あの くるまは だれのですか。",
      "romaji": "Ano kuruma wa dare no desu ka.",
-     "bn": "ঐ গাড়িটা কার?"
+     "bn": "ঐ গাড়িটা কার?",
+     "en": "Whose car is that over there?"
     },
     {
      "speaker": "B",
      "jp": "せんせいのです。",
      "romaji": "Sensei no desu.",
-     "bn": "শিক্ষকের।"
+     "bn": "শিক্ষকের।",
+     "en": "It's the teacher's."
     }
-   ]
+   ],
+   "title_en": "Whose bag?"
   },
   {
    "title": "চাবি কার?",
@@ -67,27 +77,33 @@
      "speaker": "A",
      "jp": "これは あなたの かぎですか。",
      "romaji": "Kore wa anata no kagi desu ka.",
-     "bn": "এটা কি আপনার চাবি?"
+     "bn": "এটা কি আপনার চাবি?",
+     "en": "Is this your key?"
     },
     {
      "speaker": "B",
      "jp": "いいえ、わたしのじゃ ありません。",
      "romaji": "Iie, watashi no ja arimasen.",
-     "bn": "না, আমার নয়।"
+     "bn": "না, আমার নয়।",
+     "en": "No, it's not mine."
     },
     {
      "speaker": "A",
      "jp": "じゃ、だれのですか。",
      "romaji": "Ja, dare no desu ka.",
-     "bn": "তাহলে কার?"
+     "bn": "তাহলে কার?",
+     "en": "Then whose is it?"
     },
     {
      "speaker": "B",
      "jp": "さとうさんのです。",
      "romaji": "Satou-san no desu.",
-     "bn": "সাতোর।"
+     "bn": "সাতোর।",
+     "en": "It's Sato's."
     }
-   ]
+   ],
+   "title_en": "Whose key?"
   }
- ]
+ ],
+ "title_en": "Identifying things"
 }

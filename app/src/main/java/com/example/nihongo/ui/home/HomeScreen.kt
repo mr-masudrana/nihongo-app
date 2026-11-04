@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.home
 
+import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.background
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.AppIcon
@@ -83,36 +84,37 @@ fun HomeScreen(
     }
 }
 
-private data class Tile(val glyph: String, val title: String, val sub: String, val route: String, val isTest: Boolean = false)
+private data class Tile(val glyph: String, val title: String, val sub: String, val subEn: String, val route: String, val isTest: Boolean = false)
 
 private val basicTiles = listOf(
-    Tile("あ", "Hiragana", "চার্ট", ROUTE_HIRAGANA),
-    Tile("ア", "Katakana", "চার্ট", ROUTE_KATAKANA),
-    Tile("数", "Number", "সংখ্যা", ROUTE_NUMBER),
-    Tile("言", "Sentences", "দৈনন্দিন বাক্য", ROUTE_SENTENCES),
-    Tile("問", "Test", "কানা কুইজ", ROUTE_TEST_KANA, isTest = true)
+    Tile("あ", "Hiragana", "চার্ট", "Chart", ROUTE_HIRAGANA),
+    Tile("ア", "Katakana", "চার্ট", "Chart", ROUTE_KATAKANA),
+    Tile("数", "Number", "সংখ্যা", "Numbers", ROUTE_NUMBER),
+    Tile("言", "Sentences", "দৈনন্দিন বাক্য", "Daily phrases", ROUTE_SENTENCES),
+    Tile("問", "Test", "কানা কুইজ", "Kana quiz", ROUTE_TEST_KANA, isTest = true)
 )
 private val n5Tiles = listOf(
-    Tile("語", "Vocabulary", "লেসন ১–২৫", ROUTE_N5_VOCAB),
-    Tile("字", "Kanji", "১২০টি কাঞ্জি", ROUTE_N5_KANJI),
-    Tile("文", "Grammar", "লেসন ১–২৫", ROUTE_N5_GRAMMAR),
-    Tile("話", "Dialogue", "কথোপকথন", ROUTE_N5_CONVO),
-    Tile("問", "Test", "শব্দ কুইজ", ROUTE_TEST_N5, isTest = true)
+    Tile("語", "Vocabulary", "লেসন ১–২৫", "Lessons 1–25", ROUTE_N5_VOCAB),
+    Tile("字", "Kanji", "১২০টি কাঞ্জি", "120 kanji", ROUTE_N5_KANJI),
+    Tile("文", "Grammar", "লেসন ১–২৫", "Lessons 1–25", ROUTE_N5_GRAMMAR),
+    Tile("話", "Dialogue", "কথোপকথন", "Conversations", ROUTE_N5_CONVO),
+    Tile("問", "Test", "শব্দ কুইজ", "Word quiz", ROUTE_TEST_N5, isTest = true)
 )
 private val n4Tiles = listOf(
-    Tile("語", "Vocabulary", "লেসন ২৬–৫০", ROUTE_N4_VOCAB),
-    Tile("字", "Kanji", "কাঞ্জি তালিকা", ROUTE_N4_KANJI),
-    Tile("文", "Grammar", "লেসন ২৬–৫০", ROUTE_N4_GRAMMAR),
-    Tile("話", "Dialogue", "কথোপকথন", ROUTE_N4_CONVO),
-    Tile("問", "Test", "শব্দ কুইজ", ROUTE_TEST_N4, isTest = true)
+    Tile("語", "Vocabulary", "লেসন ২৬–৫০", "Lessons 26–50", ROUTE_N4_VOCAB),
+    Tile("字", "Kanji", "কাঞ্জি তালিকা", "Kanji list", ROUTE_N4_KANJI),
+    Tile("文", "Grammar", "লেসন ২৬–৫০", "Lessons 26–50", ROUTE_N4_GRAMMAR),
+    Tile("話", "Dialogue", "কথোপকথন", "Conversations", ROUTE_N4_CONVO),
+    Tile("問", "Test", "শব্দ কুইজ", "Word quiz", ROUTE_TEST_N4, isTest = true)
 )
 
+@Composable
 private fun greeting(): Triple<String, String, String> {
     val h = Calendar.getInstance().get(Calendar.HOUR_OF_DAY)
     return when {
-        h < 11 -> Triple("おはよう", "Ohayou", "সুপ্রভাত")
-        h < 18 -> Triple("こんにちは", "Konnichiwa", "শুভ দুপুর")
-        else -> Triple("こんばんは", "Konbanwa", "শুভ সন্ধ্যা")
+        h < 11 -> Triple("おはよう", "Ohayou", tr("সুপ্রভাত", "Good morning"))
+        h < 18 -> Triple("こんにちは", "Konnichiwa", tr("শুভ দুপুর", "Good afternoon"))
+        else -> Triple("こんばんは", "Konbanwa", tr("শুভ সন্ধ্যা", "Good evening"))
     }
 }
 
@@ -124,7 +126,7 @@ private fun HomeHub(statsVm: StatsViewModel, onRoute: (String) -> Unit) {
     val today = remember(s) { Gamification.dayOf() }
     val xpToday = Gamification.xpToday(s, today)
     val streak = Gamification.currentStreak(s, today)
-    val greet = remember { greeting() }
+    val greet = greeting()
 
     Column(
         Modifier
@@ -144,15 +146,15 @@ private fun HomeHub(statsVm: StatsViewModel, onRoute: (String) -> Unit) {
         )
 
         LevelSection(
-            "BASIC", "শুরুর ভিত্তি", basicTiles, onRoute,
+            "BASIC", tr("শুরুর ভিত্তি", "Foundations"), basicTiles, onRoute,
             accent = cs.primary, onAccent = cs.onPrimary
         )
         LevelSection(
-            "N5", "প্রাথমিক স্তর", n5Tiles, onRoute,
+            "N5", tr("প্রাথমিক স্তর", "Beginner level"), n5Tiles, onRoute,
             accent = cs.secondary, onAccent = cs.onSecondary
         )
         LevelSection(
-            "N4", "মাধ্যমিক স্তর", n4Tiles, onRoute,
+            "N4", tr("মাধ্যমিক স্তর", "Elementary level"), n4Tiles, onRoute,
             accent = cs.tertiary, onAccent = cs.onTertiary
         )
     }
@@ -222,9 +224,9 @@ private fun HeroCard(
             }
             Spacer(Modifier.width(18.dp))
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text("আজকের লক্ষ্য", style = MaterialTheme.typography.titleMedium, color = Color.White)
+                Text(tr("আজকের লক্ষ্য", "Today's goal"), style = MaterialTheme.typography.titleMedium, color = Color.White)
                 Text(
-                    if (done) "লক্ষ্য পূর্ণ! চমৎকার" else "আর ${goal - xpToday} XP বাকি — চ্যালেঞ্জ কুইজ দিয়ে জিতুন",
+                    if (done) tr("লক্ষ্য পূর্ণ! চমৎকার", "Goal reached! Great job") else tr("আর ${goal - xpToday} XP বাকি — চ্যালেঞ্জ কুইজ দিয়ে জিতুন", "${goal - xpToday} XP to go — win it with the Challenge quiz"),
                     style = MaterialTheme.typography.bodySmall,
                     color = Color.White.copy(alpha = 0.92f)
                 )
@@ -233,7 +235,7 @@ private fun HeroCard(
 
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Row(Modifier.fillMaxWidth()) {
-                Text("লেভেল $level", style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f))
+                Text(tr("লেভেল $level", "Level $level"), style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f))
                 Spacer(Modifier.weight(1f))
                 Text(
                     "${(levelProgress * Gamification.XP_PER_LEVEL).toInt()} / ${Gamification.XP_PER_LEVEL} XP",
@@ -247,9 +249,9 @@ private fun HeroCard(
         }
 
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            HeroStat("Lv $level", "লেভেল", Modifier.weight(1f))
-            HeroStat("$totalXp", "মোট XP", Modifier.weight(1f))
-            HeroStat("$bestScore", "সেরা স্কোর", Modifier.weight(1f))
+            HeroStat("Lv $level", tr("লেভেল", "Level"), Modifier.weight(1f))
+            HeroStat("$totalXp", tr("মোট XP", "Total XP"), Modifier.weight(1f))
+            HeroStat("$bestScore", tr("সেরা স্কোর", "Best score"), Modifier.weight(1f))
         }
     }
 }
@@ -350,7 +352,7 @@ private fun TileCard(
                     maxLines = 1
                 )
                 Text(
-                    t.sub,
+                    tr(t.sub, t.subEn),
                     style = MaterialTheme.typography.labelSmall,
                     color = subColor,
                     maxLines = 1

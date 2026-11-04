@@ -10,14 +10,19 @@
     {
      "jp": "これは ほんです。",
      "romaji": "Kore wa hon desu.",
-     "bn": "এটা একটা বই।"
+     "bn": "এটা একটা বই।",
+     "en": "This is a book."
     },
     {
      "jp": "あれは くるまです。",
      "romaji": "Are wa kuruma desu.",
-     "bn": "ওটা একটা গাড়ি।"
+     "bn": "ওটা একটা গাড়ি।",
+     "en": "That (over there) is a car."
     }
-   ]
+   ],
+   "title_en": "これ・それ・あれ",
+   "pattern_en": "これ／それ／あれ は ～です",
+   "explain_en": "Which word you use depends on who the thing is near: これ is near the speaker, それ near the listener, あれ far from both."
   },
   {
    "title": "この・その・あの + বিশেষ্য",
@@ -27,9 +32,13 @@
     {
      "jp": "この かばんは わたしのです。",
      "romaji": "Kono kaban wa watashi no desu.",
-     "bn": "এই ব্যাগটা আমার।"
+     "bn": "এই ব্যাগটা আমার।",
+     "en": "This bag is mine."
     }
-   ]
+   ],
+   "title_en": "この・その・あの + noun",
+   "pattern_en": "この／その／あの + noun",
+   "explain_en": "これ/それ/あれ stand alone, but この/その/あの must always be followed by a noun."
   },
   {
    "title": "の — মালিকানা",
@@ -39,9 +48,14 @@
     {
      "jp": "それは せんせいの じしょです。",
      "romaji": "Sore wa sensei no jisho desu.",
-     "bn": "ওটা শিক্ষকের অভিধান।"
+     "bn": "ওটা শিক্ষকের অভিধান।",
+     "en": "That is the teacher's dictionary."
     }
-   ]
+   ],
+   "title_en": "の — possession",
+   "pattern_en": "A の B",
+   "explain_en": "B of A. When the noun is left out, の alone can mean “…’s one”."
   }
- ]
+ ],
+ "title_en": "Identifying things"
 }

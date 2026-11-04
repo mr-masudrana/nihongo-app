@@ -8,62 +8,74 @@
     {
      "jp": "おはようございます。",
      "romaji": "Ohayou gozaimasu.",
-     "bn": "সুপ্রভাত।"
+     "bn": "সুপ্রভাত।",
+     "en": "Good morning."
     },
     {
      "jp": "こんにちは。",
      "romaji": "Konnichiwa.",
-     "bn": "শুভ দুপুর / হ্যালো।"
+     "bn": "শুভ দুপুর / হ্যালো।",
+     "en": "Hello / Good afternoon."
     },
     {
      "jp": "こんばんは。",
      "romaji": "Konbanwa.",
-     "bn": "শুভ সন্ধ্যা।"
+     "bn": "শুভ সন্ধ্যা।",
+     "en": "Good evening."
     },
     {
      "jp": "おやすみなさい。",
      "romaji": "Oyasuminasai.",
-     "bn": "শুভ রাত্রি।"
+     "bn": "শুভ রাত্রি।",
+     "en": "Good night."
     },
     {
      "jp": "おげんきですか。",
      "romaji": "O-genki desu ka.",
-     "bn": "কেমন আছেন?"
+     "bn": "কেমন আছেন?",
+     "en": "How are you?"
     },
     {
      "jp": "げんきです。ありがとうございます。",
      "romaji": "Genki desu. Arigatou gozaimasu.",
-     "bn": "ভালো আছি, ধন্যবাদ।"
+     "bn": "ভালো আছি, ধন্যবাদ।",
+     "en": "I'm fine, thank you."
     },
     {
      "jp": "いってきます。",
      "romaji": "Ittekimasu.",
-     "bn": "যাচ্ছি (বাড়ি থেকে বের হওয়ার সময়)।"
+     "bn": "যাচ্ছি (বাড়ি থেকে বের হওয়ার সময়)।",
+     "en": "I'm leaving (said when leaving home)."
     },
     {
      "jp": "いってらっしゃい。",
      "romaji": "Itterasshai.",
-     "bn": "ঘুরে এসো / সাবধানে যেও।"
+     "bn": "ঘুরে এসো / সাবধানে যেও।",
+     "en": "Take care / See you later."
     },
     {
      "jp": "ただいま。",
      "romaji": "Tadaima.",
-     "bn": "ফিরলাম (বাড়ি ফিরে)।"
+     "bn": "ফিরলাম (বাড়ি ফিরে)।",
+     "en": "I'm home."
     },
     {
      "jp": "おかえりなさい。",
      "romaji": "Okaerinasai.",
-     "bn": "ফিরে এলে, স্বাগতম।"
+     "bn": "ফিরে এলে, স্বাগতম।",
+     "en": "Welcome back."
     },
     {
      "jp": "また あした。",
      "romaji": "Mata ashita.",
-     "bn": "কাল আবার দেখা হবে।"
+     "bn": "কাল আবার দেখা হবে।",
+     "en": "See you tomorrow."
     },
     {
      "jp": "さようなら。",
      "romaji": "Sayounara.",
-     "bn": "বিদায়।"
+     "bn": "বিদায়।",
+     "en": "Goodbye."
     }
    ]
   },
@@ -75,42 +87,50 @@
     {
      "jp": "ありがとうございます。",
      "romaji": "Arigatou gozaimasu.",
-     "bn": "ধন্যবাদ।"
+     "bn": "ধন্যবাদ।",
+     "en": "Thank you."
     },
     {
      "jp": "どういたしまして。",
      "romaji": "Douitashimashite.",
-     "bn": "কিছু না / স্বাগতম।"
+     "bn": "কিছু না / স্বাগতম।",
+     "en": "You're welcome."
     },
     {
      "jp": "すみません。",
      "romaji": "Sumimasen.",
-     "bn": "মাফ করবেন / শুনুন (মনোযোগ আকর্ষণে)।"
+     "bn": "মাফ করবেন / শুনুন (মনোযোগ আকর্ষণে)।",
+     "en": "Excuse me / I'm sorry / Thank you."
     },
     {
      "jp": "ごめんなさい。",
      "romaji": "Gomennasai.",
-     "bn": "দুঃখিত।"
+     "bn": "দুঃখিত।",
+     "en": "I'm sorry."
     },
     {
      "jp": "だいじょうぶです。",
      "romaji": "Daijoubu desu.",
-     "bn": "ঠিক আছে / সমস্যা নেই।"
+     "bn": "ঠিক আছে / সমস্যা নেই।",
+     "en": "It's okay / No problem."
     },
     {
      "jp": "おねがいします。",
      "romaji": "Onegaishimasu.",
-     "bn": "অনুগ্রহ করে।"
+     "bn": "অনুগ্রহ করে।",
+     "en": "Please."
     },
     {
      "jp": "どうぞ。",
      "romaji": "Douzo.",
-     "bn": "নিন / আসুন।"
+     "bn": "নিন / আসুন।",
+     "en": "Please go ahead / Here you are."
     },
     {
      "jp": "ちょっと まって ください。",
      "romaji": "Chotto matte kudasai.",
-     "bn": "একটু অপেক্ষা করুন।"
+     "bn": "একটু অপেক্ষা করুন।",
+     "en": "Please wait a moment."
     }
    ]
   },
@@ -122,47 +142,56 @@
     {
      "jp": "はじめまして。どうぞ よろしく おねがいします。",
      "romaji": "Hajimemashite. Douzo yoroshiku onegaishimasu.",
-     "bn": "প্রথম দেখা হলো। পরিচিত হয়ে ভালো লাগলো।"
+     "bn": "প্রথম দেখা হলো। পরিচিত হয়ে ভালো লাগলো।",
+     "en": "Nice to meet you."
     },
     {
      "jp": "わたしの なまえは ラヒムです。",
      "romaji": "Watashi no namae wa Rahimu desu.",
-     "bn": "আমার নাম রাহিম।"
+     "bn": "আমার নাম রাহিম।",
+     "en": "My name is Rahim."
     },
     {
      "jp": "バングラデシュから きました。",
      "romaji": "Banguradeshu kara kimashita.",
-     "bn": "আমি বাংলাদেশ থেকে এসেছি।"
+     "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+     "en": "I came from Bangladesh."
     },
     {
      "jp": "にほんごが すこし わかります。",
      "romaji": "Nihongo ga sukoshi wakarimasu.",
-     "bn": "জাপানি একটু বুঝি।"
+     "bn": "জাপানি একটু বুঝি।",
+     "en": "I understand a little Japanese."
     },
     {
      "jp": "もう いちど おねがいします。",
      "romaji": "Mou ichido onegaishimasu.",
-     "bn": "আরেকবার বলুন, দয়া করে।"
+     "bn": "আরেকবার বলুন, দয়া করে।",
+     "en": "One more time, please."
     },
     {
      "jp": "ゆっくり はなして ください。",
      "romaji": "Yukkuri hanashite kudasai.",
-     "bn": "ধীরে বলুন।"
+     "bn": "ধীরে বলুন।",
+     "en": "Please speak slowly."
     },
     {
      "jp": "わかりました。",
      "romaji": "Wakarimashita.",
-     "bn": "বুঝেছি।"
+     "bn": "বুঝেছি।",
+     "en": "I understand."
     },
     {
      "jp": "わかりません。",
      "romaji": "Wakarimasen.",
-     "bn": "বুঝিনি / জানি না।"
+     "bn": "বুঝিনি / জানি না।",
+     "en": "I don't understand."
     },
     {
      "jp": "これは にほんごで なんと いいますか。",
      "romaji": "Kore wa nihongo de nan to iimasu ka.",
-     "bn": "এটা জাপানি ভাষায় কী বলে?"
+     "bn": "এটা জাপানি ভাষায় কী বলে?",
+     "en": "How do you say this in Japanese?"
     }
    ]
   },
@@ -174,47 +203,56 @@
     {
      "jp": "いただきます。",
      "romaji": "Itadakimasu.",
-     "bn": "(খাওয়ার আগে) শুরু করছি।"
+     "bn": "(খাওয়ার আগে) শুরু করছি।",
+     "en": "Let's eat (said before a meal)."
     },
     {
      "jp": "ごちそうさまでした。",
      "romaji": "Gochisousama deshita.",
-     "bn": "(খাওয়ার পরে) ধন্যবাদ, খুব ভালো খেলাম।"
+     "bn": "(খাওয়ার পরে) ধন্যবাদ, খুব ভালো খেলাম।",
+     "en": "Thank you for the meal."
     },
     {
      "jp": "みずを ください。",
      "romaji": "Mizu o kudasai.",
-     "bn": "পানি দিন।"
+     "bn": "পানি দিন।",
+     "en": "Water, please."
     },
     {
      "jp": "メニューを ください。",
      "romaji": "Menyū o kudasai.",
-     "bn": "মেনু দিন।"
+     "bn": "মেনু দিন।",
+     "en": "Menu, please."
     },
     {
      "jp": "これを ください。",
      "romaji": "Kore o kudasai.",
-     "bn": "এটা দিন।"
+     "bn": "এটা দিন।",
+     "en": "I'll have this, please."
     },
     {
      "jp": "おいしいです。",
      "romaji": "Oishii desu.",
-     "bn": "সুস্বাদু।"
+     "bn": "সুস্বাদু।",
+     "en": "It's delicious."
     },
     {
      "jp": "ぶたにくは たべません。",
      "romaji": "Butaniku wa tabemasen.",
-     "bn": "আমি শুকরের মাংস খাই না।"
+     "bn": "আমি শুকরের মাংস খাই না।",
+     "en": "I don't eat pork."
     },
     {
      "jp": "ハラールの たべものは ありますか。",
      "romaji": "Harāru no tabemono wa arimasu ka.",
-     "bn": "হালাল খাবার আছে কি?"
+     "bn": "হালাল খাবার আছে কি?",
+     "en": "Do you have halal food?"
     },
     {
      "jp": "おかいけいを おねがいします。",
      "romaji": "O-kaikei o onegaishimasu.",
-     "bn": "বিল দিন।"
+     "bn": "বিল দিন।",
+     "en": "The check, please."
     }
    ]
   },
@@ -226,37 +264,44 @@
     {
      "jp": "いくらですか。",
      "romaji": "Ikura desu ka.",
-     "bn": "কত দাম?"
+     "bn": "কত দাম?",
+     "en": "How much is it?"
     },
     {
      "jp": "たかいですね。",
      "romaji": "Takai desu ne.",
-     "bn": "দাম বেশি তো।"
+     "bn": "দাম বেশি তো।",
+     "en": "That's expensive."
     },
     {
      "jp": "すこし やすく なりませんか。",
      "romaji": "Sukoshi yasuku narimasen ka.",
-     "bn": "একটু কমানো যায় না?"
+     "bn": "একটু কমানো যায় না?",
+     "en": "Can you make it a little cheaper?"
     },
     {
      "jp": "これを ひとつ ください。",
      "romaji": "Kore o hitotsu kudasai.",
-     "bn": "এটা একটা দিন।"
+     "bn": "এটা একটা দিন।",
+     "en": "One of these, please."
     },
     {
      "jp": "みても いいですか。",
      "romaji": "Mite mo ii desu ka.",
-     "bn": "দেখতে পারি?"
+     "bn": "দেখতে পারি?",
+     "en": "May I take a look?"
     },
     {
      "jp": "カードで はらえますか。",
      "romaji": "Kādo de haraemasu ka.",
-     "bn": "কার্ডে পরিশোধ করা যায়?"
+     "bn": "কার্ডে পরিশোধ করা যায়?",
+     "en": "Can I pay by card?"
     },
     {
      "jp": "ふくろは いりません。",
      "romaji": "Fukuro wa irimasen.",
-     "bn": "ব্যাগ লাগবে না।"
+     "bn": "ব্যাগ লাগবে না।",
+     "en": "I don't need a bag."
     }
    ]
   },
@@ -268,47 +313,56 @@
     {
      "jp": "えきは どこですか。",
      "romaji": "Eki wa doko desu ka.",
-     "bn": "স্টেশন কোথায়?"
+     "bn": "স্টেশন কোথায়?",
+     "en": "Where is the station?"
     },
     {
      "jp": "きっぷは どこで かいますか。",
      "romaji": "Kippu wa doko de kaimasu ka.",
-     "bn": "টিকিট কোথায় কিনব?"
+     "bn": "টিকিট কোথায় কিনব?",
+     "en": "Where do I buy a ticket?"
     },
     {
      "jp": "この でんしゃは とうきょうえきに いきますか。",
      "romaji": "Kono densha wa Toukyou-eki ni ikimasu ka.",
-     "bn": "এই ট্রেন কি টোকিও স্টেশনে যায়?"
+     "bn": "এই ট্রেন কি টোকিও স্টেশনে যায়?",
+     "en": "Does this train go to Tokyo Station?"
     },
     {
      "jp": "みちに まよいました。",
      "romaji": "Michi ni mayoimashita.",
-     "bn": "পথ হারিয়ে ফেলেছি।"
+     "bn": "পথ হারিয়ে ফেলেছি।",
+     "en": "I'm lost."
     },
     {
      "jp": "まっすぐ いって ください。",
      "romaji": "Massugu itte kudasai.",
-     "bn": "সোজা যান।"
+     "bn": "সোজা যান।",
+     "en": "Please go straight."
     },
     {
      "jp": "みぎに まがって ください。",
      "romaji": "Migi ni magatte kudasai.",
-     "bn": "ডানে ঘুরুন।"
+     "bn": "ডানে ঘুরুন।",
+     "en": "Please turn right."
     },
     {
      "jp": "ひだりに まがって ください。",
      "romaji": "Hidari ni magatte kudasai.",
-     "bn": "বাঁয়ে ঘুরুন।"
+     "bn": "বাঁয়ে ঘুরুন।",
+     "en": "Please turn left."
     },
     {
      "jp": "ここで おろして ください。",
      "romaji": "Koko de oroshite kudasai.",
-     "bn": "এখানে নামিয়ে দিন।"
+     "bn": "এখানে নামিয়ে দিন।",
+     "en": "Please let me off here."
     },
     {
      "jp": "とおいですか。",
      "romaji": "Tooi desu ka.",
-     "bn": "দূরে কি?"
+     "bn": "দূরে কি?",
+     "en": "Is it far?"
     }
    ]
   },
@@ -320,52 +374,62 @@
     {
      "jp": "いま なんじですか。",
      "romaji": "Ima nanji desu ka.",
-     "bn": "এখন কয়টা বাজে?"
+     "bn": "এখন কয়টা বাজে?",
+     "en": "What time is it now?"
     },
     {
      "jp": "まいあさ ろくじに おきます。",
      "romaji": "Maiasa rokuji ni okimasu.",
-     "bn": "প্রতিদিন সকাল ৬টায় উঠি।"
+     "bn": "প্রতিদিন সকাল ৬টায় উঠি।",
+     "en": "I get up at 6 every morning."
     },
     {
      "jp": "しちじに あさごはんを たべます。",
      "romaji": "Shichiji ni asagohan o tabemasu.",
-     "bn": "৭টায় সকালের নাশতা করি।"
+     "bn": "৭টায় সকালের নাশতা করি।",
+     "en": "I eat breakfast at 7."
     },
     {
      "jp": "まいにち がっこうへ いきます。",
      "romaji": "Mainichi gakkou e ikimasu.",
-     "bn": "প্রতিদিন স্কুলে যাই।"
+     "bn": "প্রতিদিন স্কুলে যাই।",
+     "en": "I go to school every day."
     },
     {
      "jp": "きょうは いそがしいです。",
      "romaji": "Kyou wa isogashii desu.",
-     "bn": "আজ আমি ব্যস্ত।"
+     "bn": "আজ আমি ব্যস্ত।",
+     "en": "I'm busy today."
     },
     {
      "jp": "あした ひまですか。",
      "romaji": "Ashita hima desu ka.",
-     "bn": "কাল কি আপনি ফাঁকা আছেন?"
+     "bn": "কাল কি আপনি ফাঁকা আছেন?",
+     "en": "Are you free tomorrow?"
     },
     {
      "jp": "おなかが すきました。",
      "romaji": "Onaka ga sukimashita.",
-     "bn": "খিদে পেয়েছে।"
+     "bn": "খিদে পেয়েছে।",
+     "en": "I'm hungry."
     },
     {
      "jp": "トイレは どこですか。",
      "romaji": "Toire wa doko desu ka.",
-     "bn": "টয়লেট কোথায়?"
+     "bn": "টয়লেট কোথায়?",
+     "en": "Where is the restroom?"
     },
     {
      "jp": "でんわばんごうを おしえて ください。",
      "romaji": "Denwa bangou o oshiete kudasai.",
-     "bn": "ফোন নম্বরটা বলুন।"
+     "bn": "ফোন নম্বরটা বলুন।",
+     "en": "Please tell me your phone number."
     },
     {
      "jp": "きょうは あついですね。",
      "romaji": "Kyou wa atsui desu ne.",
-     "bn": "আজ গরম, তাই না?"
+     "bn": "আজ গরম, তাই না?",
+     "en": "It's hot today, isn't it?"
     }
    ]
   },
@@ -377,42 +441,50 @@
     {
      "jp": "たすけて ください!",
      "romaji": "Tasukete kudasai!",
-     "bn": "সাহায্য করুন!"
+     "bn": "সাহায্য করুন!",
+     "en": "Please help!"
     },
     {
      "jp": "びょういんは どこですか。",
      "romaji": "Byouin wa doko desu ka.",
-     "bn": "হাসপাতাল কোথায়?"
+     "bn": "হাসপাতাল কোথায়?",
+     "en": "Where is the hospital?"
     },
     {
      "jp": "きゅうきゅうしゃを よんで ください。",
      "romaji": "Kyuukyuusha o yonde kudasai.",
-     "bn": "অ্যাম্বুলেন্স ডাকুন।"
+     "bn": "অ্যাম্বুলেন্স ডাকুন।",
+     "en": "Please call an ambulance."
     },
     {
      "jp": "けいさつを よんで ください。",
      "romaji": "Keisatsu o yonde kudasai.",
-     "bn": "পুলিশ ডাকুন।"
+     "bn": "পুলিশ ডাকুন।",
+     "en": "Please call the police."
     },
     {
      "jp": "あたまが いたいです。",
      "romaji": "Atama ga itai desu.",
-     "bn": "মাথা ব্যথা করছে।"
+     "bn": "মাথা ব্যথা করছে।",
+     "en": "I have a headache."
     },
     {
      "jp": "ねつが あります。",
      "romaji": "Netsu ga arimasu.",
-     "bn": "জ্বর আছে।"
+     "bn": "জ্বর আছে।",
+     "en": "I have a fever."
     },
     {
      "jp": "きぶんが わるいです。",
      "romaji": "Kibun ga warui desu.",
-     "bn": "শরীর খারাপ লাগছে।"
+     "bn": "শরীর খারাপ লাগছে।",
+     "en": "I feel sick."
     },
     {
      "jp": "パスポートを なくしました。",
      "romaji": "Pasupōto o nakushimashita.",
-     "bn": "পাসপোর্ট হারিয়ে ফেলেছি।"
+     "bn": "পাসপোর্ট হারিয়ে ফেলেছি।",
+     "en": "I lost my passport."
     }
    ]
   }

@@ -17,46 +17,131 @@
    "en": "you"
   },
   {
-   "word": "せんせい",
+   "word": "あの人",
+   "reading": "あのひと",
+   "romaji": "anohito",
+   "bn": "ঐ ব্যক্তি (সে / উনি)",
+   "en": "that person, he, she",
+   "note": "ভদ্র রূপ: あの方 (あのかた)"
+  },
+  {
+   "word": "～さん",
+   "reading": "～さん",
+   "romaji": "~san",
+   "bn": "জনাব / মিসেস (নামের পরে ভদ্রতাসূচক)",
+   "en": "Mr., Ms.",
+   "note": "নামের পরে বসে"
+  },
+  {
+   "word": "～ちゃん",
+   "reading": "～ちゃん",
+   "romaji": "~chan",
+   "bn": "(শিশুর নামের পরে আদরসূচক শব্দ)",
+   "en": "suffix for a child's name",
+   "note": "～さん-এর বদলে"
+  },
+  {
+   "word": "～人",
+   "reading": "～じん",
+   "romaji": "~jin",
+   "bn": "~ দেশের মানুষ",
+   "en": "a national of ~",
+   "note": "যেমন: アメリカじん"
+  },
+  {
+   "word": "先生",
    "reading": "せんせい",
    "romaji": "sensei",
    "bn": "শিক্ষক",
-   "en": "teacher"
+   "en": "teacher, instructor",
+   "note": "নিজের পেশা বলতে ব্যবহার হয় না"
   },
   {
-   "word": "がくせい",
+   "word": "教師",
+   "reading": "きょうし",
+   "romaji": "kyoushi",
+   "bn": "শিক্ষক / প্রশিক্ষক",
+   "en": "teacher, instructor"
+  },
+  {
+   "word": "学生",
    "reading": "がくせい",
    "romaji": "gakusei",
    "bn": "ছাত্র",
    "en": "student"
   },
   {
-   "word": "かいしゃいん",
+   "word": "会社員",
    "reading": "かいしゃいん",
    "romaji": "kaishain",
    "bn": "অফিস কর্মী",
    "en": "company employee"
   },
   {
-   "word": "いしゃ",
+   "word": "社員",
+   "reading": "しゃいん",
+   "romaji": "shain",
+   "bn": "~ কোম্পানির কর্মচারী",
+   "en": "employee of ~ company",
+   "note": "যেমন: IMCのしゃいん"
+  },
+  {
+   "word": "銀行員",
+   "reading": "ぎんこういん",
+   "romaji": "ginkouin",
+   "bn": "ব্যাংক কর্মী",
+   "en": "bank employee"
+  },
+  {
+   "word": "医者",
    "reading": "いしゃ",
    "romaji": "isha",
    "bn": "ডাক্তার",
    "en": "doctor"
   },
   {
+   "word": "研究者",
+   "reading": "けんきゅうしゃ",
+   "romaji": "kenkyuusha",
+   "bn": "গবেষক",
+   "en": "researcher, scholar"
+  },
+  {
+   "word": "大学",
+   "reading": "だいがく",
+   "romaji": "daigaku",
+   "bn": "বিশ্ববিদ্যালয়",
+   "en": "university"
+  },
+  {
+   "word": "病院",
+   "reading": "びょういん",
+   "romaji": "byouin",
+   "bn": "হাসপাতাল",
+   "en": "hospital"
+  },
+  {
    "word": "だれ",
    "reading": "だれ",
    "romaji": "dare",
    "bn": "কে",
-   "en": "who"
+   "en": "who",
+   "note": "ভদ্র রূপ: どなた"
   },
   {
-   "word": "にほん",
-   "reading": "にほん",
-   "romaji": "nihon",
-   "bn": "জাপান",
-   "en": "Japan"
+   "word": "～歳",
+   "reading": "～さい",
+   "romaji": "~sai",
+   "bn": "~ বছর বয়স",
+   "en": "~ years old"
+  },
+  {
+   "word": "何歳",
+   "reading": "なんさい",
+   "romaji": "nansai",
+   "bn": "কত বছর বয়স",
+   "en": "how old",
+   "note": "ভদ্র রূপ: おいくつ"
   },
   {
    "word": "はい",
@@ -71,6 +156,52 @@
    "romaji": "iie",
    "bn": "না",
    "en": "no"
+  },
+  {
+   "word": "初めまして",
+   "reading": "はじめまして",
+   "romaji": "hajimemashite",
+   "bn": "প্রথম পরিচয়ে বলা হয় (\"প্রথম দেখা হলো\")",
+   "en": "How do you do?",
+   "note": "নিজের পরিচয় দেওয়ার শুরুতে"
+  },
+  {
+   "word": "～から来ました",
+   "reading": "～からきました",
+   "romaji": "~ kara kimashita",
+   "bn": "আমি ~ (দেশ) থেকে এসেছি",
+   "en": "I'm from ~"
+  },
+  {
+   "word": "[どうぞ]よろしく[お願いします]",
+   "reading": "[どうぞ]よろしく[おねがいします]",
+   "romaji": "[douzo] yoroshiku [onegaishimasu]",
+   "bn": "আপনার সাথে পরিচিত হয়ে ভালো লাগলো",
+   "en": "Pleased to meet you",
+   "note": "পরিচয় শেষে বলা হয়"
+  },
+  {
+   "word": "失礼ですが",
+   "reading": "しつれいですが",
+   "romaji": "shitsurei desu ga",
+   "bn": "মাফ করবেন, কিন্তু",
+   "en": "Excuse me, but",
+   "note": "নাম বা ঠিকানা জানতে চাইলে"
+  },
+  {
+   "word": "お名前は?",
+   "reading": "おなまえは?",
+   "romaji": "onamae wa?",
+   "bn": "আপনার নাম কী?",
+   "en": "May I have your name?"
+  },
+  {
+   "word": "こちらは～さんです",
+   "reading": "こちらは～さんです",
+   "romaji": "kochira wa ~san desu",
+   "bn": "ইনি হলেন জনাব/মিসেস ~",
+   "en": "This is Mr./Ms. ~"
   }
- ]
+ ],
+ "title_en": "Introducing yourself"
 }

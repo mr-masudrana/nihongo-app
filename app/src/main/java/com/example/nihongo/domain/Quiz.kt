@@ -74,12 +74,15 @@ object QuizBuilder {
         category: String,
         dir: VocabDir,
         count: Int = DEFAULT_COUNT,
-        rnd: Random = Random.Default
+        rnd: Random = Random.Default,
+        english: Boolean = false   // true হলে অর্থ ইংরেজিতে (ইংরেজি থাকলে), নইলে বাংলায়
     ): List<QuizQuestion> {
+        fun meaning(w: QuizWord) = if (english && w.meaningEn.isNotBlank()) w.meaningEn else w.meaningBn
+        fun other(w: QuizWord) = if (english && w.meaningEn.isNotBlank()) w.meaningBn else w.meaningEn
         val pool = all.filter { category == "all" || it.category == category }
         return pool.shuffled(rnd).take(count).map { v ->
             val others = all
-                .filter { it.id != v.id && !similarMeaning(it.meaningBn, v.meaningBn) }
+                .filter { it.id != v.id && !similarMeaning(meaning(it), meaning(v)) }
                 .shuffled(rnd)
                 .sortedByDescending { it.category == v.category }
             when (dir) {
@@ -87,12 +90,12 @@ object QuizBuilder {
                     prompt = v.word,
                     hint = if (v.reading != v.word) "${v.reading} · ${v.romaji}" else v.romaji,
                     speak = v.reading,
-                    correct = v.meaningBn,
-                    distractors = others.map { it.meaningBn }.distinct().take(3),
+                    correct = meaning(v),
+                    distractors = others.map { meaning(it) }.distinct().take(3),
                     promptSp = 44, optionSp = 18, rnd = rnd
                 )
                 VocabDir.MEANING_TO_WORD -> build(
-                    prompt = v.meaningBn, hint = v.meaningEn, speak = v.reading,
+                    prompt = meaning(v), hint = other(v), speak = v.reading,
                     correct = label(v),
                     distractors = others.map { label(it) }.distinct().take(3),
                     promptSp = 26, optionSp = 20, rnd = rnd

@@ -8,9 +8,11 @@ import android.media.ExifInterface
 import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.example.nihongo.data.AppLang
 import com.example.nihongo.data.AppSettings
 import com.example.nihongo.data.PROFILE_PHOTO
 import com.example.nihongo.data.SettingsRepository
+import com.example.nihongo.data.WordField
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
@@ -24,6 +26,9 @@ class SettingsViewModel(app: Application) : AndroidViewModel(app) {
     fun setDailyGoal(v: Int) = repo.setDailyGoal(v)
     fun setThemeMode(v: Int) = repo.setThemeMode(v)
     fun setTtsRate(v: Float) = repo.setTtsRate(v)
+    fun setLang(v: AppLang) = repo.setLang(v)
+    fun setAudioOn(v: Boolean) = repo.setAudioOn(v)
+    fun setWordField(f: WordField, show: Boolean) = repo.setWordField(f, show)
     fun setUserName(v: String) = repo.setUserName(v.trim().take(24))
 
     private fun photoFile() = File(getApplication<Application>().filesDir, PROFILE_PHOTO)

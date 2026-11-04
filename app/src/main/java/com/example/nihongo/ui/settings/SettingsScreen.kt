@@ -1,5 +1,7 @@
 package com.example.nihongo.ui.settings
 
+import com.example.nihongo.data.AppLang
+import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -18,6 +20,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
@@ -33,6 +36,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.nihongo.data.WordField
 import com.example.nihongo.ui.components.AppIcon
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.BigText
@@ -54,8 +58,13 @@ fun SettingsScreen(vm: SettingsViewModel, onBack: () -> Unit) {
     val cs = MaterialTheme.colorScheme
 
     val rateIndex = RATES.indices.minByOrNull { abs(RATES[it] - s.ttsRate) } ?: 1
-    val rateName = listOf("ধীর", "স্বাভাবিক", "দ্রুত")[rateIndex]
-    val themeName = listOf("অটো", "লাইট", "ডার্ক")[s.themeMode.coerceIn(0, 2)]
+    val rateName = listOf(tr("ধীর", "Slow"), tr("স্বাভাবিক", "Normal"), tr("দ্রুত", "Fast"))[rateIndex]
+    val langName = when (s.lang) {
+        AppLang.SYSTEM -> tr("সিস্টেম", "System")
+        AppLang.BN -> "বাংলা"
+        AppLang.EN -> "English"
+    }
+    val themeName = listOf(tr("অটো", "Auto"), tr("লাইট", "Light"), tr("ডার্ক", "Dark"))[s.themeMode.coerceIn(0, 2)]
 
     Column(Modifier.fillMaxSize()) {
         Row(
@@ -74,8 +83,8 @@ fun SettingsScreen(vm: SettingsViewModel, onBack: () -> Unit) {
             ) { AppIcon(AppIcons.Back, size = 22.dp, tint = cs.onSurface) }
             Spacer(Modifier.width(14.dp))
             Column {
-                Text("সেটিংস", style = MaterialTheme.typography.headlineMedium, color = cs.onBackground)
-                Text("অ্যাপ নিজের মতো সাজান", style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                Text(tr("সেটিংস", "Settings"), style = MaterialTheme.typography.headlineMedium, color = cs.onBackground)
+                Text(tr("অ্যাপ নিজের মতো সাজান", "Customize the app"), style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
             }
         }
         Column(
@@ -85,7 +94,7 @@ fun SettingsScreen(vm: SettingsViewModel, onBack: () -> Unit) {
                 .padding(bottom = 28.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
-            SettingsGroup(AppIcons.Target, cs.primary, "দৈনিক XP লক্ষ্য", "প্রতিদিন ${s.dailyGoal} XP") {
+            SettingsGroup(AppIcons.Target, cs.primary, tr("দৈনিক XP লক্ষ্য", "Daily XP goal"), tr("প্রতিদিন ${s.dailyGoal} XP", "${s.dailyGoal} XP per day")) {
                 ChipRow(
                     options = GOALS.map { it.toString() to "$it XP" },
                     selected = s.dailyGoal.toString(),
@@ -94,18 +103,73 @@ fun SettingsScreen(vm: SettingsViewModel, onBack: () -> Unit) {
                 )
             }
 
-            SettingsGroup(AppIcons.Theme, cs.secondary, "থিম", "এখন: $themeName") {
+            SettingsGroup(
+                AppIcons.Search, cs.primary, tr("শব্দ কার্ডে কী দেখাবেন", "What to show on word cards"),
+                tr("${s.wordShow.size}টি অংশ দেখানো হচ্ছে — লুকিয়ে নিজেকে যাচাই করুন", "${s.wordShow.size} parts shown — hide some to test yourself")
+            ) {
+                WordField.values().forEach { f ->
+                    val on = s.shows(f)
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Column(Modifier.weight(1f)) {
+                            Text(tr(f.label, f.labelEn), style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
+                            Text(tr(f.hint, f.hintEn), style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant)
+                        }
+                        Switch(
+                            checked = on,
+                            onCheckedChange = { vm.setWordField(f, it) },
+                            // শেষ চালু অংশটি বন্ধ করা যায় না, নইলে কার্ড ফাঁকা হয়ে যাবে
+                            enabled = !(on && s.wordShow.size == 1)
+                        )
+                    }
+                }
+                Text(
+                    tr("কমপক্ষে একটি অংশ চালু রাখতে হবে। এটি শব্দ তালিকার কার্ডে প্রযোজ্য।", "Keep at least one part on. This applies to cards in the word list."),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = cs.outline
+                )
+            }
+
+            SettingsGroup(AppIcons.Info, cs.primary, tr("ভাষা", "Language"), tr("বর্তমান: $langName", "Current: $langName")) {
                 SegmentedTabs(
-                    options = listOf("অটো", "লাইট", "ডার্ক"),
+                    options = listOf(tr("সিস্টেম", "System"), "বাংলা", "English"),
+                    selectedIndex = s.lang.ordinal,
+                    onSelect = { vm.setLang(AppLang.values()[it]) },
+                    horizontalPadding = 0.dp
+                )
+                Text(
+                    tr("সিস্টেম মানে ফোনের ভাষা অনুসরণ: ফোন বাংলা হলে বাংলা, নইলে ইংরেজি।",
+                        "System follows your phone's language: Bengali if it is Bengali, otherwise English."),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = cs.outline
+                )
+            }
+
+            SettingsGroup(AppIcons.Theme, cs.secondary, tr("থিম", "Theme"), tr("এখন: $themeName", "Now: $themeName")) {
+                SegmentedTabs(
+                    options = listOf(tr("অটো", "Auto"), tr("লাইট", "Light"), tr("ডার্ক", "Dark")),
                     selectedIndex = s.themeMode,
                     onSelect = { vm.setThemeMode(it) },
                     horizontalPadding = 0.dp
                 )
             }
 
-            SettingsGroup(AppIcons.Speaker, cs.tertiary, "উচ্চারণের গতি", "এখন: $rateName") {
+            SettingsGroup(
+                AppIcons.Speaker, cs.tertiary, tr("অডিও ও উচ্চারণ", "Audio & pronunciation"),
+                if (s.audioOn) tr("চালু · গতি: $rateName", "On · speed: $rateName") else tr("বন্ধ — কোনো শব্দ বাজবে না", "Off — nothing will be played")
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text(tr("উচ্চারণ শোনা", "Play pronunciation"), style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
+                        Text(
+                            tr("বন্ধ করলে স্পিকার বাটন ও কুইজের স্বয়ংক্রিয় উচ্চারণ নীরব থাকবে।", "When off, speaker buttons and the quiz's automatic pronunciation stay silent."),
+                            style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant
+                        )
+                    }
+                    Switch(checked = s.audioOn, onCheckedChange = { vm.setAudioOn(it) })
+                }
+                if (s.audioOn) {
                 SegmentedTabs(
-                    options = listOf("ধীর", "স্বাভাবিক", "দ্রুত"),
+                    options = listOf(tr("ধীর", "Slow"), tr("স্বাভাবিক", "Normal"), tr("দ্রুত", "Fast")),
                     selectedIndex = rateIndex,
                     onSelect = {
                         vm.setTtsRate(RATES[it])
@@ -129,8 +193,9 @@ fun SettingsScreen(vm: SettingsViewModel, onBack: () -> Unit) {
                         Spacer(Modifier.width(10.dp))
                         BigText("こんにちは", 18.sp, color = cs.onPrimaryContainer, weight = FontWeight.Medium)
                         Spacer(Modifier.weight(1f))
-                        Text("নমুনা শুনুন", style = MaterialTheme.typography.labelLarge, color = cs.onPrimaryContainer)
+                        Text(tr("নমুনা শুনুন", "Hear a sample"), style = MaterialTheme.typography.labelLarge, color = cs.onPrimaryContainer)
                     }
+                }
                 }
             }
 
@@ -190,7 +255,7 @@ private fun AboutCard() {
             Column {
                 Text("Nihongo", style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
                 Text(
-                    "সংস্করণ $version · N5 ও N4",
+                    tr("সংস্করণ $version · N5 ও N4", "Version $version · N5 & N4"),
                     style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant
                 )
             }

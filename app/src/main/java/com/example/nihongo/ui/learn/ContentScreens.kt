@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.learn
 
+import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -23,6 +24,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
@@ -36,6 +38,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.data.ContentRepository
+import com.example.nihongo.data.SettingsRepository
+import com.example.nihongo.data.WordField
 import com.example.nihongo.data.ConvoLesson
 import com.example.nihongo.data.Dialogue
 import com.example.nihongo.data.SentenceItem
@@ -60,7 +64,7 @@ private val listPadding = PaddingValues(start = 20.dp, end = 20.dp, top = 8.dp, 
 @Composable
 private fun Loading() {
     Text(
-        "লোড হচ্ছে…",
+        tr("লোড হচ্ছে…", "Loading…"),
         style = MaterialTheme.typography.bodyMedium,
         color = MaterialTheme.colorScheme.onSurfaceVariant,
         modifier = Modifier.padding(20.dp)
@@ -93,9 +97,9 @@ fun LessonListScreen(
         items(list) { info ->
             val count = info.count
             val unit = when (type) {
-                "vocab" -> "টি শব্দ"
-                "convo" -> "টি কথোপকথন"
-                else -> "টি পাঠ"
+                "vocab" -> tr("টি শব্দ", " words")
+                "convo" -> tr("টি কথোপকথন", " dialogues")
+                else -> tr("টি পাঠ", " points")
             }
             val available = info.exists && count > 0
             SoftCard(
@@ -111,12 +115,12 @@ fun LessonListScreen(
                     )
                     Column(Modifier.weight(1f)) {
                         Text(
-                            if (info.title.isNotEmpty()) info.title else "লেসন ${info.no}",
+                            if (info.title.isNotEmpty()) tr(info.title, info.titleEn) else tr("লেসন ${info.no}", "Lesson ${info.no}"),
                             style = MaterialTheme.typography.titleMedium,
                             color = if (available) cs.onSurface else cs.outline
                         )
                         Text(
-                            if (available) "$count$unit" else "ডেটা যোগ হয়নি",
+                            if (available) "$count$unit" else tr("ডেটা যোগ হয়নি", "No data yet"),
                             style = MaterialTheme.typography.bodySmall,
                             color = cs.onSurfaceVariant
                         )
@@ -160,7 +164,7 @@ private fun VocabLessonContent(level: String, no: Int) {
     val lesson = loaded
     if (lesson == null) { Loading(); return }
     Column(Modifier.fillMaxSize()) {
-        LessonTitle(lesson.title)
+        LessonTitle(tr(lesson.title, lesson.titleEn))
         WordList(lesson.words)
     }
 }
@@ -174,14 +178,14 @@ private fun GrammarLessonContent(level: String, no: Int) {
     val lesson = loaded
     if (lesson == null) { Loading(); return }
     Column(Modifier.fillMaxSize()) {
-        LessonTitle(lesson.title)
+        LessonTitle(tr(lesson.title, lesson.titleEn))
         GrammarList(lesson.points)
     }
 }
 
 @Composable
 private fun EmptyLesson() {
-    EmptyState(AppIcons.Inbox, "এই লেসনে এখনো ডেটা নেই", "JSON ফাইলে যোগ করলেই এখানে দেখাবে।")
+    EmptyState(AppIcons.Inbox, tr("এই লেসনে এখনো ডেটা নেই", "No data in this lesson yet"), tr("JSON ফাইলে যোগ করলেই এখানে দেখাবে।", "It will appear here once you add it to the JSON file."))
 }
 
 // ---------------------------------------------------------------- ব্যাকরণ
@@ -207,22 +211,22 @@ private fun GrammarCard(g: GrammarItem) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    g.title,
+                    tr(g.title, g.titleEn),
                     style = MaterialTheme.typography.titleMedium,
                     color = cs.onSurface,
                     modifier = Modifier.weight(1f)
                 )
                 Text(if (open) "▴" else "▾", color = cs.outline)
             }
-            Text(g.pattern, style = MaterialTheme.typography.bodyMedium, color = cs.primary)
+            Text(tr(g.pattern, g.patternEn), style = MaterialTheme.typography.bodyMedium, color = cs.primary)
             if (open) {
-                Text(g.explain, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                Text(tr(g.explain, g.explainEn), style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
                 if (g.note.isNotBlank()) {
                     Row(verticalAlignment = Alignment.Top) {
                         AppIcon(AppIcons.Info, size = 16.dp, tint = cs.tertiary, modifier = Modifier.padding(top = 2.dp))
                         Spacer(Modifier.width(6.dp))
                         Text(
-                            g.note,
+                            tr(g.note, g.noteEn),
                             style = MaterialTheme.typography.bodySmall,
                             color = cs.tertiary
                         )
@@ -238,7 +242,7 @@ private fun GrammarCard(g: GrammarItem) {
                         Column(Modifier.weight(1f)) {
                             Text(e.jp, style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
                             Text(e.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
-                            Text(e.bn, style = MaterialTheme.typography.bodySmall, color = cs.tertiary)
+                            Text(tr(e.bn, e.en), style = MaterialTheme.typography.bodySmall, color = cs.tertiary)
                         }
                         SpeakButton(onClick = { tts.speak(e.jp) }, diameter = 40.dp)
                     }
@@ -253,8 +257,18 @@ private fun GrammarCard(g: GrammarItem) {
 @Composable
 fun WordList(list: List<WordItem>) {
     if (list.isEmpty()) { EmptyLesson(); return }
+    val ctx = LocalContext.current
+    val settings by SettingsRepository.get(ctx).settings.collectAsState()
     val tts = LocalTts.current
     val cs = MaterialTheme.colorScheme
+    val showWord = settings.shows(WordField.WORD)
+    val showReading = settings.shows(WordField.READING)
+    val showRomaji = settings.shows(WordField.ROMAJI)
+    val showBn = settings.shows(WordField.BN)
+    val showEn = settings.shows(WordField.EN)
+    val hasLeft = showWord || showReading || showRomaji
+    val hasRight = showBn || showEn
+
     LazyColumn(
         Modifier.fillMaxSize(),
         contentPadding = listPadding,
@@ -263,34 +277,53 @@ fun WordList(list: List<WordItem>) {
         items(list) { w ->
             SoftCard(Modifier.fillMaxWidth(), onClick = { tts.speak(w.reading) }) {
                 Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        BigText(w.word, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
-                        if (w.reading != w.word) {
-                            Text(w.reading, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                    if (hasLeft) {
+                        Column(Modifier.weight(1f)) {
+                            // কাঞ্জি লুকানো থাকলে কানা বড় করে দেখাই, যাতে বাঁ দিক ফাঁকা না হয়
+                            if (showWord) {
+                                BigText(w.word, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
+                                if (showReading && w.reading != w.word) {
+                                    Text(w.reading, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                                }
+                            } else if (showReading) {
+                                BigText(w.reading, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
+                            }
+                            if (showRomaji) {
+                                Text(w.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
+                            }
                         }
-                        Text(w.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
                     }
-                    Spacer(Modifier.width(12.dp))
-                    Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
-                        Text(
-                            w.bn,
-                            style = MaterialTheme.typography.titleMedium,
-                            color = cs.primary,
-                            textAlign = TextAlign.End
-                        )
-                        Text(
-                            w.en,
-                            style = MaterialTheme.typography.labelMedium,
-                            color = cs.outline,
-                            textAlign = TextAlign.End
-                        )
-                        if (w.note.isNotBlank()) {
-                            Text(
-                                w.note,
-                                style = MaterialTheme.typography.labelSmall,
-                                color = cs.tertiary,
-                                textAlign = TextAlign.End
-                            )
+                    if (hasLeft && hasRight) Spacer(Modifier.width(12.dp))
+                    if (hasRight) {
+                        Column(
+                            Modifier.weight(1f),
+                            horizontalAlignment = if (hasLeft) Alignment.End else Alignment.Start
+                        ) {
+                            val align = if (hasLeft) TextAlign.End else TextAlign.Start
+                            if (showBn) {
+                                Text(
+                                    w.bn,
+                                    style = MaterialTheme.typography.titleMedium,
+                                    color = cs.primary,
+                                    textAlign = align
+                                )
+                            }
+                            if (showEn) {
+                                Text(
+                                    w.en,
+                                    style = if (showBn) MaterialTheme.typography.labelMedium else MaterialTheme.typography.titleMedium,
+                                    color = if (showBn) cs.outline else cs.primary,
+                                    textAlign = align
+                                )
+                            }
+                            if (showBn && w.note.isNotBlank()) {
+                                Text(
+                                    w.note,
+                                    style = MaterialTheme.typography.labelSmall,
+                                    color = cs.tertiary,
+                                    textAlign = align
+                                )
+                            }
                         }
                     }
                 }
@@ -310,7 +343,7 @@ fun NumberScreen() {
     val tts = LocalTts.current
     val sections = loaded ?: return
     if (sections.isEmpty()) {
-        EmptyState(AppIcons.Inbox, "সংখ্যা পাওয়া যায়নি", "assets/number.json ফাইলটি দেখুন।")
+        EmptyState(AppIcons.Inbox, tr("সংখ্যা পাওয়া যায়নি", "Numbers not found"), tr("assets/number.json ফাইলটি দেখুন।", "Check the assets/number.json file."))
         return
     }
     LazyColumn(
@@ -319,14 +352,14 @@ fun NumberScreen() {
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         sections.forEach { sec ->
-            item(key = "h_${sec.id}") { NumHeader(sec.titleBn) }
+            item(key = "h_${sec.id}") { NumHeader(tr(sec.titleBn, sec.titleEn)) }
             items(sec.items, key = { "${sec.id}_${it.number}" }) { n ->
                 NumRow(n) { tts.speak(n.reading.substringBefore("／")) }
             }
         }
         item {
             Text(
-                "৪, ৭ ও ৯-এর দুটি করে পড়া আছে। সাধারণত ৪ = よん, ৭ = なな, ৯ = きゅう বেশি চলে।",
+                tr("৪, ৭ ও ৯-এর দুটি করে পড়া আছে। সাধারণত ৪ = よん, ৭ = なな, ৯ = きゅう বেশি চলে।", "4, 7 and 9 each have two readings. 4 = よん, 7 = なな and 9 = きゅう are used more often."),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = 8.dp)
@@ -377,7 +410,7 @@ private fun ConvoLessonContent(level: String, no: Int) {
     val lesson = loaded
     if (lesson == null) { Loading(); return }
     Column(Modifier.fillMaxSize()) {
-        LessonTitle(lesson.title)
+        LessonTitle(tr(lesson.title, lesson.titleEn))
         if (lesson.dialogues.isEmpty()) {
             EmptyLesson()
         } else {
@@ -400,7 +433,7 @@ private fun DialogueCard(d: Dialogue) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text(
-                    d.title,
+                    tr(d.title, d.titleEn),
                     style = MaterialTheme.typography.titleMedium,
                     color = cs.onSurface,
                     modifier = Modifier.weight(1f)
@@ -427,7 +460,7 @@ private fun DialogueCard(d: Dialogue) {
                     Column(Modifier.weight(1f).clickable { tts.speak(l.jp) }) {
                         Text(l.jp, style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
                         Text(l.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
-                        Text(l.bn, style = MaterialTheme.typography.bodySmall, color = cs.tertiary)
+                        Text(tr(l.bn, l.en), style = MaterialTheme.typography.bodySmall, color = cs.tertiary)
                     }
                 }
             }
@@ -446,7 +479,7 @@ fun SentenceScreen() {
     val tts = LocalTts.current
     val sections = loaded ?: return
     if (sections.isEmpty()) {
-        EmptyState(AppIcons.Inbox, "বাক্য পাওয়া যায়নি", "assets/sentences.json ফাইলটি দেখুন।")
+        EmptyState(AppIcons.Inbox, tr("বাক্য পাওয়া যায়নি", "No sentences found"), tr("assets/sentences.json ফাইলটি দেখুন।", "Check the assets/sentences.json file."))
         return
     }
     LazyColumn(
@@ -455,7 +488,7 @@ fun SentenceScreen() {
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         sections.forEach { sec ->
-            item(key = "h_${sec.id}") { NumHeader(sec.titleBn) }
+            item(key = "h_${sec.id}") { NumHeader(tr(sec.titleBn, sec.titleEn)) }
             items(sec.items, key = { "${sec.id}_${it.jp}" }) { s ->
                 SentenceRow(s) { tts.speak(s.jp) }
             }
@@ -471,7 +504,7 @@ private fun SentenceRow(s: SentenceItem, onSpeak: () -> Unit) {
             Column(Modifier.weight(1f)) {
                 Text(s.jp, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
                 Text(s.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
-                Text(s.bn, style = MaterialTheme.typography.bodyMedium, color = cs.primary)
+                Text(tr(s.bn, s.en), style = MaterialTheme.typography.bodyMedium, color = cs.primary)
             }
             SpeakButton(onClick = onSpeak, diameter = 40.dp)
         }

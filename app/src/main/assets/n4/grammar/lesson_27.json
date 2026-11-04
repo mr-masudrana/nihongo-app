@@ -10,9 +10,14 @@
     {
      "jp": "わたしは にほんごが よめます。",
      "romaji": "Watashi wa nihongo ga yomemasu.",
-     "bn": "আমি জাপানি পড়তে পারি।"
+     "bn": "আমি জাপানি পড়তে পারি।",
+     "en": "I can read Japanese."
     }
-   ]
+   ],
+   "title_en": "Potential form (可能形)",
+   "pattern_en": "potential form of the verb",
+   "explain_en": "The verb changes form to express “can”. For example: かく → かけます, よむ → よめます."
   }
- ]
+ ],
+ "title_en": "Ability and potential"
 }

@@ -4,7 +4,9 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.nihongo.data.ContentRepository
+import com.example.nihongo.data.SettingsRepository
 import com.example.nihongo.data.StatsRepository
+import com.example.nihongo.data.isEnglishUi
 import com.example.nihongo.domain.QuizBuilder
 import com.example.nihongo.domain.QuizWord
 import com.example.nihongo.domain.VocabDir
@@ -70,8 +72,9 @@ class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
             if (loadedLevel != level) load()
             val c = config.value
             val pool = words
+            val english = isEnglishUi(SettingsRepository.get(getApplication()).settings.value.lang)
             runner.start(level, c.mode) {
-                QuizBuilder.vocabQuestions(pool, c.category, c.dir, count = Int.MAX_VALUE)
+                QuizBuilder.vocabQuestions(pool, c.category, c.dir, count = Int.MAX_VALUE, english = english)
             }
         }
     }

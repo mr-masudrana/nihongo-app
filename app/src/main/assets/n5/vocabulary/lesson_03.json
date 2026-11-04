@@ -6,57 +6,303 @@
    "word": "ここ",
    "reading": "ここ",
    "romaji": "koko",
-   "bn": "এখানে",
-   "en": "here"
+   "bn": "এখানে / এই জায়গা",
+   "en": "here, this place"
   },
   {
    "word": "そこ",
    "reading": "そこ",
    "romaji": "soko",
-   "bn": "ওখানে",
-   "en": "there"
+   "bn": "ওখানে (শ্রোতার কাছের জায়গা)",
+   "en": "there, that place near the listener"
   },
   {
    "word": "あそこ",
    "reading": "あそこ",
    "romaji": "asoko",
-   "bn": "ঐ দূরে",
-   "en": "over there"
+   "bn": "ঐ ওখানে (দূরের জায়গা)",
+   "en": "that place over there"
   },
   {
    "word": "どこ",
    "reading": "どこ",
    "romaji": "doko",
    "bn": "কোথায়",
-   "en": "where"
+   "en": "where, what place"
   },
   {
-   "word": "がっこう",
-   "reading": "がっこう",
-   "romaji": "gakkou",
-   "bn": "স্কুল",
-   "en": "school"
+   "word": "こちら",
+   "reading": "こちら",
+   "romaji": "kochira",
+   "bn": "এদিকে / এই জায়গা",
+   "en": "this way, this place",
+   "note": "ভদ্র রূপ: ここ"
   },
   {
-   "word": "えき",
-   "reading": "えき",
-   "romaji": "eki",
-   "bn": "স্টেশন",
-   "en": "station"
+   "word": "そちら",
+   "reading": "そちら",
+   "romaji": "sochira",
+   "bn": "ঐদিকে / ঐ জায়গা (শ্রোতার কাছের)",
+   "en": "that way, that place near the listener",
+   "note": "ভদ্র রূপ: そこ"
+  },
+  {
+   "word": "あちら",
+   "reading": "あちら",
+   "romaji": "achira",
+   "bn": "ঐ দূরের দিকে / জায়গা",
+   "en": "that way, that place over there",
+   "note": "ভদ্র রূপ: あそこ"
+  },
+  {
+   "word": "どちら",
+   "reading": "どちら",
+   "romaji": "dochira",
+   "bn": "কোন দিকে / কোথায়",
+   "en": "which way, where",
+   "note": "ভদ্র রূপ: どこ"
+  },
+  {
+   "word": "教室",
+   "reading": "きょうしつ",
+   "romaji": "kyoushitsu",
+   "bn": "শ্রেণিকক্ষ",
+   "en": "classroom"
+  },
+  {
+   "word": "食堂",
+   "reading": "しょくどう",
+   "romaji": "shokudou",
+   "bn": "ক্যান্টিন / খাবার ঘর",
+   "en": "dining hall, canteen"
+  },
+  {
+   "word": "事務所",
+   "reading": "じむしょ",
+   "romaji": "jimusho",
+   "bn": "অফিস",
+   "en": "office"
+  },
+  {
+   "word": "会議室",
+   "reading": "かいぎしつ",
+   "romaji": "kaigishitsu",
+   "bn": "সভাকক্ষ",
+   "en": "conference room, meeting room"
+  },
+  {
+   "word": "受付",
+   "reading": "うけつけ",
+   "romaji": "uketsuke",
+   "bn": "রিসেপশন ডেস্ক",
+   "en": "reception desk"
+  },
+  {
+   "word": "ロビー",
+   "reading": "ロビー",
+   "romaji": "robī",
+   "bn": "লবি",
+   "en": "lobby"
+  },
+  {
+   "word": "部屋",
+   "reading": "へや",
+   "romaji": "heya",
+   "bn": "ঘর",
+   "en": "room"
+  },
+  {
+   "word": "トイレ",
+   "reading": "トイレ",
+   "romaji": "toire",
+   "bn": "টয়লেট",
+   "en": "toilet, rest room",
+   "note": "ভদ্র রূপ: お手洗い (おてあらい)"
+  },
+  {
+   "word": "階段",
+   "reading": "かいだん",
+   "romaji": "kaidan",
+   "bn": "সিঁড়ি",
+   "en": "staircase"
+  },
+  {
+   "word": "エレベーター",
+   "reading": "エレベーター",
+   "romaji": "erebētā",
+   "bn": "লিফট",
+   "en": "lift, elevator"
+  },
+  {
+   "word": "エスカレーター",
+   "reading": "エスカレーター",
+   "romaji": "esukarētā",
+   "bn": "চলমান সিঁড়ি",
+   "en": "escalator"
+  },
+  {
+   "word": "自動販売機",
+   "reading": "じどうはんばいき",
+   "romaji": "jidouhanbaiki",
+   "bn": "ভেন্ডিং মেশিন",
+   "en": "vending machine"
+  },
+  {
+   "word": "電話",
+   "reading": "でんわ",
+   "romaji": "denwa",
+   "bn": "ফোন / ফোনকল",
+   "en": "telephone handset, telephone call"
+  },
+  {
+   "word": "[お]国",
+   "reading": "[お]くに",
+   "romaji": "[o]kuni",
+   "bn": "দেশ",
+   "en": "country"
+  },
+  {
+   "word": "会社",
+   "reading": "かいしゃ",
+   "romaji": "kaisha",
+   "bn": "কোম্পানি",
+   "en": "company"
   },
   {
    "word": "うち",
    "reading": "うち",
    "romaji": "uchi",
-   "bn": "বাড়ি",
+   "bn": "বাড়ি / ঘর",
    "en": "house, home"
   },
   {
-   "word": "へや",
-   "reading": "へや",
-   "romaji": "heya",
-   "bn": "ঘর",
-   "en": "room"
+   "word": "靴",
+   "reading": "くつ",
+   "romaji": "kutsu",
+   "bn": "জুতা",
+   "en": "shoes"
+  },
+  {
+   "word": "ネクタイ",
+   "reading": "ネクタイ",
+   "romaji": "nekutai",
+   "bn": "টাই",
+   "en": "tie, necktie"
+  },
+  {
+   "word": "ワイン",
+   "reading": "ワイン",
+   "romaji": "wain",
+   "bn": "ওয়াইন",
+   "en": "wine"
+  },
+  {
+   "word": "売り場",
+   "reading": "うりば",
+   "romaji": "uriba",
+   "bn": "বিভাগ / কাউন্টার (ডিপার্টমেন্ট স্টোরে)",
+   "en": "department, counter"
+  },
+  {
+   "word": "地下",
+   "reading": "ちか",
+   "romaji": "chika",
+   "bn": "বেসমেন্ট",
+   "en": "basement"
+  },
+  {
+   "word": "～階(がい)",
+   "reading": "～かい",
+   "romaji": "~kai",
+   "bn": "~ তলা",
+   "en": "-th floor",
+   "note": "ঘোষণায় がい পড়া হয়, যেমন さんがい"
+  },
+  {
+   "word": "何階",
+   "reading": "なんがい",
+   "romaji": "nangai",
+   "bn": "কত তলা",
+   "en": "what floor"
+  },
+  {
+   "word": "～円",
+   "reading": "～えん",
+   "romaji": "~en",
+   "bn": "~ ইয়েন",
+   "en": "~ yen"
+  },
+  {
+   "word": "いくら",
+   "reading": "いくら",
+   "romaji": "ikura",
+   "bn": "কত (দাম)",
+   "en": "how much"
+  },
+  {
+   "word": "百",
+   "reading": "ひゃく",
+   "romaji": "hyaku",
+   "bn": "একশো",
+   "en": "hundred"
+  },
+  {
+   "word": "千",
+   "reading": "せん",
+   "romaji": "sen",
+   "bn": "হাজার",
+   "en": "thousand"
+  },
+  {
+   "word": "万",
+   "reading": "まん",
+   "romaji": "man",
+   "bn": "দশ হাজার",
+   "en": "ten thousand"
+  },
+  {
+   "word": "すみません",
+   "reading": "すみません",
+   "romaji": "sumimasen",
+   "bn": "মাফ করবেন",
+   "en": "Excuse me"
+  },
+  {
+   "word": "どうも",
+   "reading": "どうも",
+   "romaji": "doumo",
+   "bn": "ধন্যবাদ",
+   "en": "Thanks"
+  },
+  {
+   "word": "いらっしゃいませ",
+   "reading": "いらっしゃいませ",
+   "romaji": "irasshaimase",
+   "bn": "স্বাগতম / কীভাবে সাহায্য করতে পারি?",
+   "en": "Welcome. / May I help you?",
+   "note": "দোকানে ক্রেতাকে বলা হয়"
+  },
+  {
+   "word": "[～を]見せてください",
+   "reading": "[～を]みせてください",
+   "romaji": "[~ o] misete kudasai",
+   "bn": "[~] দেখান, দয়া করে",
+   "en": "Please show me [~]"
+  },
+  {
+   "word": "じゃ",
+   "reading": "じゃ",
+   "romaji": "ja",
+   "bn": "তাহলে",
+   "en": "well, then, in that case"
+  },
+  {
+   "word": "[～を]ください",
+   "reading": "[～を]ください",
+   "romaji": "[~ o] kudasai",
+   "bn": "[~] দিন, দয়া করে",
+   "en": "Give me [~], please"
   }
- ]
+ ],
+ "title_en": "Places and directions"
 }

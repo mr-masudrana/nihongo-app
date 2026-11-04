@@ -3,32 +3,282 @@
  "title": "পারা ও সম্ভাবনা",
  "words": [
   {
-   "word": "作る",
-   "reading": "つくる",
-   "romaji": "tsukuru",
-   "bn": "বানানো",
-   "en": "to make"
+   "word": "飼います",
+   "reading": "かいます",
+   "romaji": "kaimasu",
+   "bn": "পোষা / লালন-পালন করা",
+   "en": "keep (a pet), raise (an animal)",
+   "note": "I-গ্রুপ"
   },
   {
-   "word": "飼う",
-   "reading": "かう",
-   "romaji": "kau",
-   "bn": "পোষা",
-   "en": "to keep (a pet)"
+   "word": "建てます",
+   "reading": "たてます",
+   "romaji": "tatemasu",
+   "bn": "নির্মাণ করা",
+   "en": "build",
+   "note": "II-গ্রুপ"
   },
   {
-   "word": "書く",
-   "reading": "かく",
-   "romaji": "kaku",
-   "bn": "লেখা",
-   "en": "to write"
+   "word": "走ります",
+   "reading": "はしります",
+   "romaji": "hashirimasu",
+   "bn": "দৌড়ানো / চলা",
+   "en": "run, drive [along a road]",
+   "note": "I-গ্রুপ · [道を～]"
   },
   {
-   "word": "読む",
-   "reading": "よむ",
-   "romaji": "yomu",
-   "bn": "পড়া",
-   "en": "to read"
+   "word": "取ります",
+   "reading": "とります",
+   "romaji": "torimasu",
+   "bn": "নেওয়া",
+   "en": "take [a holiday]",
+   "note": "I-গ্রুপ · [休みを～]"
+  },
+  {
+   "word": "見えます",
+   "reading": "みえます",
+   "romaji": "miemasu",
+   "bn": "দেখা যায়",
+   "en": "[a mountain] can be seen",
+   "note": "II-গ্রুপ · [山が～]"
+  },
+  {
+   "word": "聞こえます",
+   "reading": "きこえます",
+   "romaji": "kikoemasu",
+   "bn": "শোনা যায়",
+   "en": "[a sound] can be heard",
+   "note": "II-গ্রুপ · [音が～]"
+  },
+  {
+   "word": "できます",
+   "reading": "できます",
+   "romaji": "dekimasu",
+   "bn": "তৈরি হওয়া / চালু হওয়া",
+   "en": "[an airport] be made, come into existence",
+   "note": "II-গ্রুপ · [空港が～]"
+  },
+  {
+   "word": "開きます",
+   "reading": "ひらきます",
+   "romaji": "hirakimasu",
+   "bn": "খোলা / আয়োজন করা",
+   "en": "set up [a class], open, hold",
+   "note": "I-গ্রুপ · [教室を～]"
+  },
+  {
+   "word": "ペット",
+   "reading": "ペット",
+   "romaji": "petto",
+   "bn": "পোষা প্রাণী",
+   "en": "pet"
+  },
+  {
+   "word": "鳥",
+   "reading": "とり",
+   "romaji": "tori",
+   "bn": "পাখি",
+   "en": "bird"
+  },
+  {
+   "word": "声",
+   "reading": "こえ",
+   "romaji": "koe",
+   "bn": "কণ্ঠস্বর",
+   "en": "voice"
+  },
+  {
+   "word": "波",
+   "reading": "なみ",
+   "romaji": "nami",
+   "bn": "ঢেউ",
+   "en": "wave"
+  },
+  {
+   "word": "花火",
+   "reading": "はなび",
+   "romaji": "hanabi",
+   "bn": "আতশবাজি",
+   "en": "fireworks"
+  },
+  {
+   "word": "景色",
+   "reading": "けしき",
+   "romaji": "keshiki",
+   "bn": "দৃশ্য / প্রাকৃতিক দৃশ্য",
+   "en": "scenery, view"
+  },
+  {
+   "word": "昼間",
+   "reading": "ひるま",
+   "romaji": "hiruma",
+   "bn": "দিনের বেলা",
+   "en": "daytime",
+   "note": "বিপরীত: 夜間"
+  },
+  {
+   "word": "昔",
+   "reading": "むかし",
+   "romaji": "mukashi",
+   "bn": "আগেকার দিন / অতীতকাল",
+   "en": "old days, ancient times"
+  },
+  {
+   "word": "道具",
+   "reading": "どうぐ",
+   "romaji": "dougu",
+   "bn": "যন্ত্রপাতি / সরঞ্জাম",
+   "en": "tool, instrument, equipment"
+  },
+  {
+   "word": "自動販売機",
+   "reading": "じどうはんばいき",
+   "romaji": "jidouhanbaiki",
+   "bn": "ভেন্ডিং মেশিন",
+   "en": "vending machine"
+  },
+  {
+   "word": "通信販売",
+   "reading": "つうしんはんばい",
+   "romaji": "tsuushinhanbai",
+   "bn": "মেইল অর্ডার বিক্রি",
+   "en": "mail order, mail-order sales"
+  },
+  {
+   "word": "クリーニング",
+   "reading": "クリーニング",
+   "romaji": "kurīningu",
+   "bn": "ড্রাই ক্লিনিং / লন্ড্রি",
+   "en": "(dry) cleaning, laundry"
+  },
+  {
+   "word": "マンション",
+   "reading": "マンション",
+   "romaji": "manshon",
+   "bn": "অ্যাপার্টমেন্ট ভবন",
+   "en": "condominium, apartment house"
+  },
+  {
+   "word": "台所",
+   "reading": "だいどころ",
+   "romaji": "daidokoro",
+   "bn": "রান্নাঘর",
+   "en": "kitchen"
+  },
+  {
+   "word": "～教室",
+   "reading": "～きょうしつ",
+   "romaji": "~kyoushitsu",
+   "bn": "~ ক্লাস",
+   "en": "~ class"
+  },
+  {
+   "word": "パーティールーム",
+   "reading": "パーティールーム",
+   "romaji": "pātīrūmu",
+   "bn": "পার্টি রুম",
+   "en": "party room"
+  },
+  {
+   "word": "～後",
+   "reading": "～ご",
+   "romaji": "~go",
+   "bn": "~ পরে (সময়কাল)",
+   "en": "after ~ (duration of time)"
+  },
+  {
+   "word": "～しか",
+   "reading": "～しか",
+   "romaji": "~shika",
+   "bn": "শুধু ~ (না-বাচক বাক্যে)",
+   "en": "only ~ (used with negatives)",
+   "note": "～ません / ～ませんでした সহ"
+  },
+  {
+   "word": "ほかの",
+   "reading": "ほかの",
+   "romaji": "hokano",
+   "bn": "অন্য",
+   "en": "other"
+  },
+  {
+   "word": "はっきり",
+   "reading": "はっきり",
+   "romaji": "hakkiri",
+   "bn": "স্পষ্টভাবে",
+   "en": "clearly"
+  },
+  {
+   "word": "ほとんど",
+   "reading": "ほとんど",
+   "romaji": "hotondo",
+   "bn": "প্রায় সব (হ্যাঁ-বাক্যে); প্রায় নয় (না-বাক্যে)",
+   "en": "almost all, hardly"
+  },
+  {
+   "word": "関西空港",
+   "reading": "かんさいくうこう",
+   "romaji": "kansaikuukou",
+   "bn": "কানসাই আন্তর্জাতিক বিমানবন্দর",
+   "en": "Kansai International Airport"
+  },
+  {
+   "word": "秋葉原",
+   "reading": "あきはばら",
+   "romaji": "akihabara",
+   "bn": "টোকিওর ইলেকট্রনিক পণ্যের দোকানের এলাকা",
+   "en": "Akihabara (electrical stores district in Tokyo)"
+  },
+  {
+   "word": "伊豆",
+   "reading": "いず",
+   "romaji": "izu",
+   "bn": "শিজুওকা প্রদেশের একটি উপদ্বীপ",
+   "en": "Izu (peninsula in Shizuoka Prefecture)"
+  },
+  {
+   "word": "日曜大工",
+   "reading": "にちようだいく",
+   "romaji": "nichiyoudaiku",
+   "bn": "রবিবারের কাঠমিস্ত্রি (শখে নিজে বানানো)",
+   "en": "Sunday carpenter"
+  },
+  {
+   "word": "本棚",
+   "reading": "ほんだな",
+   "romaji": "hondana",
+   "bn": "বইয়ের তাক",
+   "en": "bookshelf"
+  },
+  {
+   "word": "夢",
+   "reading": "ゆめ",
+   "romaji": "yume",
+   "bn": "স্বপ্ন",
+   "en": "dream",
+   "note": "～を みます: স্বপ্ন দেখা"
+  },
+  {
+   "word": "いつか",
+   "reading": "いつか",
+   "romaji": "itsuka",
+   "bn": "কোনোদিন",
+   "en": "someday, sometime"
+  },
+  {
+   "word": "家",
+   "reading": "いえ",
+   "romaji": "ie",
+   "bn": "বাড়ি / গৃহ",
+   "en": "house, home"
+  },
+  {
+   "word": "すばらしい",
+   "reading": "すばらしい",
+   "romaji": "subarashii",
+   "bn": "চমৎকার / অপূর্ব",
+   "en": "marvelous, wonderful"
   }
- ]
+ ],
+ "title_en": "Ability and potential"
 }

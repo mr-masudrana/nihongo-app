@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.quiz
 
+import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.ui.Alignment
@@ -71,16 +72,16 @@ private fun KanaQuiz(vm: KanaQuizViewModel, high: Int, xp: Int) {
             mode = cfg.mode, onMode = vm::setMode, highScore = high, xp = xp,
             onStart = { vm.start() }
         ) {
-            SectionLabel("কোন কানা?")
+            SectionLabel(tr("কোন কানা?", "Which kana?"))
             ChipRow(
-                listOf("hiragana" to "হিরাগানা", "katakana" to "কাতাকানা", "both" to "দুটোই"),
+                listOf("hiragana" to tr("হিরাগানা", "Hiragana"), "katakana" to tr("কাতাকানা", "Katakana"), "both" to tr("দুটোই", "Both")),
                 cfg.scripts, vm::setScripts
             )
-            SectionLabel("প্রশ্নের ধরন")
+            SectionLabel(tr("প্রশ্নের ধরন", "Question type"))
             ChipRow(
                 listOf(
-                    KanaDir.KANA_TO_ROMAJI.name to "কানা → রোমাজি",
-                    KanaDir.ROMAJI_TO_KANA.name to "রোমাজি → কানা"
+                    KanaDir.KANA_TO_ROMAJI.name to tr("কানা → রোমাজি", "Kana → Romaji"),
+                    KanaDir.ROMAJI_TO_KANA.name to tr("রোমাজি → কানা", "Romaji → Kana")
                 ),
                 cfg.dir.name, { vm.setDir(KanaDir.valueOf(it)) }
             )
@@ -105,21 +106,21 @@ private fun VocabQuiz(vm: VocabQuizViewModel, high: Int, xp: Int) {
             mode = cfg.mode, onMode = vm::setMode, highScore = high, xp = xp,
             onStart = { vm.start() }
         ) {
-            SectionLabel("লেসন")
-            ChipRow(cats, cfg.category, vm::setCategory)
+            SectionLabel(tr("লেসন", "Lesson"))
+            ChipRow(cats.map { (k, l) -> k to (if (k == "all") tr("সব", "All") else l) }, cfg.category, vm::setCategory)
             if (cats.size <= 1) {
                 Text(
-                    "শব্দ কুইজের জন্য আগে লেসনের JSON-এ শব্দ যোগ করুন।",
+                    tr("শব্দ কুইজের জন্য আগে লেসনের JSON-এ শব্দ যোগ করুন।", "Add words to the lesson JSON files first to use the word quiz."),
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.padding(horizontal = 20.dp)
                 )
             }
-            SectionLabel("প্রশ্নের ধরন")
+            SectionLabel(tr("প্রশ্নের ধরন", "Question type"))
             ChipRow(
                 listOf(
-                    VocabDir.WORD_TO_MEANING.name to "জাপানি → বাংলা",
-                    VocabDir.MEANING_TO_WORD.name to "বাংলা → জাপানি"
+                    VocabDir.WORD_TO_MEANING.name to tr("জাপানি → বাংলা", "Japanese → English"),
+                    VocabDir.MEANING_TO_WORD.name to tr("বাংলা → জাপানি", "English → Japanese")
                 ),
                 cfg.dir.name, { vm.setDir(VocabDir.valueOf(it)) }
             )
@@ -146,7 +147,7 @@ private fun SetupPanel(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(vertical = 8.dp)
     ) {
         SegmentedTabs(
-            options = listOf("আনলিমিটেড", "চ্যালেঞ্জ"),
+            options = listOf(tr("আনলিমিটেড", "Unlimited"), tr("চ্যালেঞ্জ", "Challenge")),
             selectedIndex = mode.ordinal,
             onSelect = { onMode(QuizMode.values()[it]) }
         )
@@ -162,12 +163,12 @@ private fun SetupPanel(
                         AppIcon(AppIcons.Trophy, size = 28.dp, tint = cs.onTertiaryContainer)
                         Spacer(Modifier.width(12.dp))
                         Column {
-                            Text("হাই স্কোর", style = MaterialTheme.typography.labelLarge, color = cs.onTertiaryContainer)
+                            Text(tr("হাই স্কোর", "High score"), style = MaterialTheme.typography.labelLarge, color = cs.onTertiaryContainer)
                             Text("$highScore", style = MaterialTheme.typography.headlineSmall, color = cs.onTertiaryContainer)
                         }
                     }
                     Text(
-                        "প্রশ্ন অসীম। একটি ভুল হলে বা মাঝপথে বের হয়ে গেলে রান শেষ — আবার নতুন করে শুরু। টানা সঠিক উত্তরই আপনার স্কোর। এই মোডে XP নেই, শুধু হাই স্কোর।",
+                        tr("প্রশ্ন অসীম। একটি ভুল হলে বা মাঝপথে বের হয়ে গেলে রান শেষ — আবার নতুন করে শুরু। টানা সঠিক উত্তরই আপনার স্কোর। এই মোডে XP নেই, শুধু হাই স্কোর।", "Questions are endless. One wrong answer, or leaving midway, ends the run — start over from scratch. Your score is your streak of correct answers. No XP in this mode, just the high score."),
                         style = MaterialTheme.typography.bodyMedium,
                         color = cs.onTertiaryContainer
                     )
@@ -184,7 +185,7 @@ private fun SetupPanel(
                         AppIcon(AppIcons.Target, size = 18.dp, tint = cs.onSecondaryContainer)
                         Spacer(Modifier.width(8.dp))
                         Text(
-                            "লেভেল ${Gamification.level(xp)} · $xp XP",
+                            tr("লেভেল ${Gamification.level(xp)} · $xp XP", "Level ${Gamification.level(xp)} · $xp XP"),
                             style = MaterialTheme.typography.titleSmall,
                             color = cs.onSecondaryContainer,
                             modifier = Modifier.weight(1f)
@@ -197,7 +198,7 @@ private fun SetupPanel(
                     }
                     AppProgressBar(progress = Gamification.levelProgress(xp), height = 6.dp)
                     Text(
-                        "${Gamification.CHALLENGE_QUESTIONS}টি প্রশ্ন, প্রতিটিতে ${Gamification.CHALLENGE_SECONDS} সেকেন্ড। সঠিক উত্তরে +${Gamification.XP_CORRECT} XP; প্রথম ৫ সেকেন্ডে দিলে +${Gamification.XP_SPEED_BONUS} বোনাস; সব ঠিক হলে +${Gamification.XP_PERFECT_BONUS}। সময় শেষ হলে উত্তর ভুল ধরা হয়, তবে কুইজ চলতে থাকে।",
+                        tr("${Gamification.CHALLENGE_QUESTIONS}টি প্রশ্ন, প্রতিটিতে ${Gamification.CHALLENGE_SECONDS} সেকেন্ড। সঠিক উত্তরে +${Gamification.XP_CORRECT} XP; প্রথম ৫ সেকেন্ডে দিলে +${Gamification.XP_SPEED_BONUS} বোনাস; সব ঠিক হলে +${Gamification.XP_PERFECT_BONUS}। সময় শেষ হলে উত্তর ভুল ধরা হয়, তবে কুইজ চলতে থাকে।", "${Gamification.CHALLENGE_QUESTIONS} questions, ${Gamification.CHALLENGE_SECONDS} seconds each. +${Gamification.XP_CORRECT} XP per correct answer; +${Gamification.XP_SPEED_BONUS} bonus for answering in the first 5 seconds; +${Gamification.XP_PERFECT_BONUS} if all are correct. When time runs out the answer counts as wrong, but the quiz continues."),
                         style = MaterialTheme.typography.bodyMedium,
                         color = cs.onSecondaryContainer
                     )
@@ -207,7 +208,7 @@ private fun SetupPanel(
         options()
         Spacer(Modifier.height(20.dp))
         ActionButton(
-            text = if (mode == QuizMode.UNLIMITED) "আনলিমিটেড শুরু করুন" else "চ্যালেঞ্জ শুরু করুন",
+            text = if (mode == QuizMode.UNLIMITED) tr("আনলিমিটেড শুরু করুন", "Start Unlimited") else tr("চ্যালেঞ্জ শুরু করুন", "Start Challenge"),
             onClick = onStart,
             modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp)
         )

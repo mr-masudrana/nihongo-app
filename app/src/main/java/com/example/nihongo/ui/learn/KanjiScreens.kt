@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.learn
 
+import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.background
 import com.example.nihongo.ui.components.AppIcons
 import androidx.compose.foundation.layout.Arrangement
@@ -64,7 +65,7 @@ fun KanjiGridScreen(level: String, onOpen: (Int) -> Unit) {
     val list = rememberKanji(level)
     if (list == null) {
         Text(
-            "লোড হচ্ছে…",
+            tr("লোড হচ্ছে…", "Loading…"),
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(20.dp)
@@ -72,7 +73,7 @@ fun KanjiGridScreen(level: String, onOpen: (Int) -> Unit) {
         return
     }
     if (list.isEmpty()) {
-        EmptyState(AppIcons.Inbox, "এখনো কাঞ্জি নেই", "assets/${level}/kanji_${level}.json ফাইলে কাঞ্জি যোগ করুন।")
+        EmptyState(AppIcons.Inbox, tr("এখনো কাঞ্জি নেই", "No kanji yet"), tr("assets/${level}/kanji_${level}.json ফাইলে কাঞ্জি যোগ করুন।", "Add kanji to the assets/${level}/kanji_${level}.json file."))
         return
     }
     val cs = MaterialTheme.colorScheme
@@ -92,7 +93,7 @@ fun KanjiGridScreen(level: String, onOpen: (Int) -> Unit) {
                         .padding(horizontal = 14.dp, vertical = 6.dp)
                 ) {
                     Text(
-                        "${list.size} টি কাঞ্জি",
+                        tr("${list.size} টি কাঞ্জি", "${list.size} kanji"),
                         style = MaterialTheme.typography.labelLarge,
                         color = cs.onPrimaryContainer
                     )
@@ -119,7 +120,7 @@ private fun KanjiTile(k: KanjiItem, onClick: () -> Unit) {
             BigText(k.kanji, 42.sp, color = cs.onSurface, weight = FontWeight.Bold)
             Spacer(Modifier.height(6.dp))
             Text(
-                k.bn,
+                tr(k.bn, k.en),
                 style = MaterialTheme.typography.labelMedium,
                 color = cs.primary,
                 maxLines = 1,
@@ -137,7 +138,7 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
     val list = rememberKanji(level)
     val k = list?.getOrNull(index)
     if (list == null || k == null) {
-        EmptyState(AppIcons.Inbox, "কাঞ্জি পাওয়া যায়নি", "তালিকায় ফিরে গিয়ে আবার চেষ্টা করুন।")
+        EmptyState(AppIcons.Inbox, tr("কাঞ্জি পাওয়া যায়নি", "Kanji not found"), tr("তালিকায় ফিরে গিয়ে আবার চেষ্টা করুন।", "Go back to the list and try again."))
         return
     }
     val cs = MaterialTheme.colorScheme
@@ -168,11 +169,11 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
                     }
                     Spacer(Modifier.width(18.dp))
                     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        Text(k.bn, style = MaterialTheme.typography.titleLarge, color = cs.onSurface)
-                        Text(k.en, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                        Text(tr(k.bn, k.en), style = MaterialTheme.typography.titleLarge, color = cs.onSurface)
+                        Text(tr(k.en, k.bn), style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
                         if (k.strokes > 0) {
                             Text(
-                                "${k.strokes}টি স্ট্রোক",
+                                tr("${k.strokes}টি স্ট্রোক", "${k.strokes} strokes"),
                                 style = MaterialTheme.typography.labelLarge,
                                 color = cs.tertiary
                             )
@@ -184,14 +185,14 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
             // পড়া
             SoftCard(Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    ReadingRow("訓 কুন", k.kunyomi)
-                    ReadingRow("音 অন", k.onyomi)
+                    ReadingRow(tr("訓 কুন", "訓 Kun"), k.kunyomi)
+                    ReadingRow(tr("音 অন", "音 On"), k.onyomi)
                 }
             }
 
             // শব্দের উদাহরণ
             if (k.words.isNotEmpty()) {
-                Text("শব্দের উদাহরণ", style = MaterialTheme.typography.titleSmall, color = cs.onSurfaceVariant)
+                Text(tr("শব্দের উদাহরণ", "Example words"), style = MaterialTheme.typography.titleSmall, color = cs.onSurfaceVariant)
                 k.words.forEach { w ->
                     SoftCard(Modifier.fillMaxWidth(), onClick = { tts.speak(w.reading) }) {
                         Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -222,7 +223,7 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
                     onClick = { tts.speak(k.sentenceJp) }
                 ) {
                     Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        Text("উদাহরণ বাক্য", style = MaterialTheme.typography.labelMedium, color = cs.onSecondaryContainer)
+                        Text(tr("উদাহরণ বাক্য", "Example sentence"), style = MaterialTheme.typography.labelMedium, color = cs.onSecondaryContainer)
                         Text(k.sentenceJp, style = MaterialTheme.typography.titleMedium, color = cs.onSecondaryContainer)
                         Text(k.sentenceBn, style = MaterialTheme.typography.bodyMedium, color = cs.onSecondaryContainer)
                     }
@@ -236,7 +237,7 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
             horizontalArrangement = Arrangement.spacedBy(12.dp)
         ) {
             ActionButton(
-                text = "‹ আগের",
+                text = tr("‹ আগের", "‹ Previous"),
                 onClick = { onNavigate(index - 1) },
                 modifier = Modifier.weight(1f),
                 container = cs.surfaceContainerHigh,
@@ -244,7 +245,7 @@ fun KanjiDetailScreen(level: String, index: Int, onNavigate: (Int) -> Unit) {
                 enabled = index > 0
             )
             ActionButton(
-                text = "পরের ›",
+                text = tr("পরের ›", "Next ›"),
                 onClick = { onNavigate(index + 1) },
                 modifier = Modifier.weight(1f),
                 enabled = index < list.lastIndex

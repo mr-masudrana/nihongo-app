@@ -10,9 +10,13 @@
     {
      "jp": "わたしは がくせいです。",
      "romaji": "Watashi wa gakusei desu.",
-     "bn": "আমি ছাত্র।"
+     "bn": "আমি ছাত্র।",
+     "en": "I am a student."
     }
-   ]
+   ],
+   "title_en": "A は B です",
+   "pattern_en": "A は B です",
+   "explain_en": "Says that A is B. は is pronounced “wa” here."
   },
   {
    "title": "A は B じゃ ありません",
@@ -22,9 +26,13 @@
     {
      "jp": "わたしは せんせいじゃ ありません。",
      "romaji": "Watashi wa sensei ja arimasen.",
-     "bn": "আমি শিক্ষক নই।"
+     "bn": "আমি শিক্ষক নই।",
+     "en": "I am not a teacher."
     }
-   ]
+   ],
+   "title_en": "A は B じゃ ありません",
+   "pattern_en": "A は B じゃ ありません",
+   "explain_en": "Negative form. じゃ ありません takes the place of です."
   },
   {
    "title": "か — প্রশ্ন",
@@ -34,9 +42,13 @@
     {
      "jp": "あなたは がくせいですか。",
      "romaji": "Anata wa gakusei desu ka.",
-     "bn": "আপনি কি ছাত্র?"
+     "bn": "আপনি কি ছাত্র?",
+     "en": "Are you a student?"
     }
-   ]
+   ],
+   "title_en": "か — question",
+   "pattern_en": "～ですか",
+   "explain_en": "Put か at the end of a sentence to make it a question."
   },
   {
    "title": "も — ও (সমান)",
@@ -46,9 +58,14 @@
     {
      "jp": "わたしも がくせいです。",
      "romaji": "Watashi mo gakusei desu.",
-     "bn": "আমিও ছাত্র।"
+     "bn": "আমিও ছাত্র।",
+     "en": "I am a student, too."
     }
-   ]
+   ],
+   "title_en": "も — also",
+   "pattern_en": "A も B です",
+   "explain_en": "も replaces は to say the same thing is true of another topic."
   }
- ]
+ ],
+ "title_en": "Introducing yourself"
 }

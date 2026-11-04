@@ -9,21 +9,25 @@
      "speaker": "A",
      "jp": "どうしたんですか。",
      "romaji": "Doushita n desu ka.",
-     "bn": "কী হয়েছে?"
+     "bn": "কী হয়েছে?",
+     "en": "What happened?"
     },
     {
      "speaker": "B",
      "jp": "かぎを なくしたんです。",
      "romaji": "Kagi o nakushita n desu.",
-     "bn": "চাবি হারিয়ে ফেলেছি।"
+     "bn": "চাবি হারিয়ে ফেলেছি।",
+     "en": "I lost my key."
     },
     {
      "speaker": "A",
      "jp": "いっしょに さがしましょう。",
      "romaji": "Issho ni sagashimashou.",
-     "bn": "একসাথে খুঁজি।"
+     "bn": "একসাথে খুঁজি।",
+     "en": "Let's look for it together."
     }
-   ]
+   ],
+   "title_en": "A lost key"
   },
   {
    "title": "দেরি হওয়া",
@@ -32,21 +36,25 @@
      "speaker": "A",
      "jp": "どうして おくれたんですか。",
      "romaji": "Doushite okureta n desu ka.",
-     "bn": "দেরি হলো কেন?"
+     "bn": "দেরি হলো কেন?",
+     "en": "Why were you late?"
     },
     {
      "speaker": "B",
      "jp": "でんしゃが おくれたんです。",
      "romaji": "Densha ga okureta n desu.",
-     "bn": "ট্রেন দেরি করেছিল।"
+     "bn": "ট্রেন দেরি করেছিল।",
+     "en": "The train was late."
     },
     {
      "speaker": "A",
      "jp": "そうですか。ミーティングに まにあいましたよ。",
      "romaji": "Sou desu ka. Mītingu ni maniaimashita yo.",
-     "bn": "আচ্ছা। মিটিংয়ে কিন্তু সময়মতো পৌঁছেছেন।"
+     "bn": "আচ্ছা। মিটিংয়ে কিন্তু সময়মতো পৌঁছেছেন।",
+     "en": "I see. You made it to the meeting in time, though."
     }
-   ]
+   ],
+   "title_en": "Being late"
   },
   {
    "title": "ঘর গুছানো",
@@ -55,27 +63,33 @@
      "speaker": "A",
      "jp": "へやが きたないですね。",
      "romaji": "Heya ga kitanai desu ne.",
-     "bn": "ঘরটা নোংরা তো।"
+     "bn": "ঘরটা নোংরা তো।",
+     "en": "The room is messy, isn't it?"
     },
     {
      "speaker": "B",
      "jp": "ええ、あした ともだちが くるんです。だから かたづけているんです。",
      "romaji": "Ee, ashita tomodachi ga kuru n desu. Dakara katazukete iru n desu.",
-     "bn": "হ্যাঁ, কাল বন্ধু আসবে। তাই গুছিয়ে রাখছি।"
+     "bn": "হ্যাঁ, কাল বন্ধু আসবে। তাই গুছিয়ে রাখছি।",
+     "en": "Yes, a friend is coming tomorrow. That's why I'm tidying up."
     },
     {
      "speaker": "A",
      "jp": "この はこは すてますか。",
      "romaji": "Kono hako wa sutemasu ka.",
-     "bn": "এই বাক্সটা কি ফেলে দেবেন?"
+     "bn": "এই বাক্সটা কি ফেলে দেবেন?",
+     "en": "Shall I throw this box away?"
     },
     {
      "speaker": "B",
      "jp": "はい、すてて ください。",
      "romaji": "Hai, sutete kudasai.",
-     "bn": "হ্যাঁ, ফেলে দিন।"
+     "bn": "হ্যাঁ, ফেলে দিন।",
+     "en": "Yes, please throw it away."
     }
-   ]
+   ],
+   "title_en": "Tidying the room"
   }
- ]
+ ],
+ "title_en": "Reasons and explanations"
 }

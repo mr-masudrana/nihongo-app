@@ -10,14 +10,20 @@
     {
      "jp": "えきは どこですか。",
      "romaji": "Eki wa doko desu ka.",
-     "bn": "স্টেশন কোথায়?"
+     "bn": "স্টেশন কোথায়?",
+     "en": "Where is the station?"
     },
     {
      "jp": "えきは あそこです。",
      "romaji": "Eki wa asoko desu.",
-     "bn": "স্টেশন ঐ যে ওখানে।"
+     "bn": "স্টেশন ঐ যে ওখানে।",
+     "en": "The station is over there."
     }
-   ]
+   ],
+   "title_en": "ここ・そこ・あそこ・どこ",
+   "pattern_en": "ここ／そこ／あそこ は ～です",
+   "explain_en": "Words for places. Use どこ to ask where something is."
   }
- ]
+ ],
+ "title_en": "Places and directions"
 }

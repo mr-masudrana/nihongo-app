@@ -37,6 +37,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.data.SettingsRepository
+import com.example.nihongo.data.isEnglishUi
+import com.example.nihongo.ui.components.LocalEnglish
 import com.example.nihongo.ui.components.LocalTts
 import com.example.nihongo.ui.kana.KanaViewModel
 import com.example.nihongo.ui.kana.TtsHelper
@@ -77,8 +79,10 @@ class MainActivity : ComponentActivity() {
                 val tts = remember { TtsHelper(context) }
                 DisposableEffect(Unit) { onDispose { tts.shutdown() } }
                 LaunchedEffect(settings.ttsRate) { tts.setRate(settings.ttsRate) }
+                LaunchedEffect(settings.audioOn) { tts.setEnabled(settings.audioOn) }
+                val english = isEnglishUi(settings.lang)
 
-                CompositionLocalProvider(LocalTts provides tts) {
+                CompositionLocalProvider(LocalTts provides tts, LocalEnglish provides english) {
                     NihongoApp()
                 }
             }

@@ -9,21 +9,25 @@
      "speaker": "A",
      "jp": "ラヒムさんは にほんごが はなせますか。",
      "romaji": "Rahimu-san wa nihongo ga hanasemasu ka.",
-     "bn": "রাহিম, আপনি কি জাপানি বলতে পারেন?"
+     "bn": "রাহিম, আপনি কি জাপানি বলতে পারেন?",
+     "en": "Rahim, can you speak Japanese?"
     },
     {
      "speaker": "B",
      "jp": "すこし はなせます。でも、かんじは よめません。",
      "romaji": "Sukoshi hanasemasu. Demo, kanji wa yomemasen.",
-     "bn": "একটু পারি। কিন্তু কাঞ্জি পড়তে পারি না।"
+     "bn": "একটু পারি। কিন্তু কাঞ্জি পড়তে পারি না।",
+     "en": "A little. But I can't read kanji."
     },
     {
      "speaker": "A",
      "jp": "じゃ、いっしょに れんしゅうしましょう。",
      "romaji": "Ja, issho ni renshuu shimashou.",
-     "bn": "তাহলে একসাথে অনুশীলন করি।"
+     "bn": "তাহলে একসাথে অনুশীলন করি।",
+     "en": "Then let's practice together."
     }
-   ]
+   ],
+   "title_en": "Japanese language"
   },
   {
    "title": "রান্না",
@@ -32,21 +36,25 @@
      "speaker": "A",
      "jp": "りょうりが つくれますか。",
      "romaji": "Ryouri ga tsukuremasu ka.",
-     "bn": "আপনি কি রান্না করতে পারেন?"
+     "bn": "আপনি কি রান্না করতে পারেন?",
+     "en": "Can you cook?"
     },
     {
      "speaker": "B",
      "jp": "はい、カレーが つくれます。",
      "romaji": "Hai, karē ga tsukuremasu.",
-     "bn": "হ্যাঁ, কারি বানাতে পারি।"
+     "bn": "হ্যাঁ, কারি বানাতে পারি।",
+     "en": "Yes, I can make curry."
     },
     {
      "speaker": "A",
      "jp": "すごいですね。こんど たべたいです。",
      "romaji": "Sugoi desu ne. Kondo tabetai desu.",
-     "bn": "দারুণ তো! পরের বার খেতে চাই।"
+     "bn": "দারুণ তো! পরের বার খেতে চাই।",
+     "en": "That's great. I'd like to try it next time."
     }
-   ]
+   ],
+   "title_en": "Cooking"
   },
   {
    "title": "পোষা প্রাণী",
@@ -55,21 +63,26 @@
      "speaker": "A",
      "jp": "この アパートで いぬを かえますか。",
      "romaji": "Kono apāto de inu o kaemasu ka.",
-     "bn": "এই অ্যাপার্টমেন্টে কি কুকুর পোষা যায়?"
+     "bn": "এই অ্যাপার্টমেন্টে কি কুকুর পোষা যায়?",
+     "en": "Can you keep a dog in this apartment?"
     },
     {
      "speaker": "B",
      "jp": "いいえ、かえません。",
      "romaji": "Iie, kaemasen.",
-     "bn": "না, যায় না।"
+     "bn": "না, যায় না।",
+     "en": "No, you can't."
     },
     {
      "speaker": "A",
      "jp": "そうですか。ざんねんですね。",
      "romaji": "Sou desu ka. Zannen desu ne.",
-     "bn": "তাই? দুঃখজনক।"
+     "bn": "তাই? দুঃখজনক।",
+     "en": "I see. That's too bad."
     }
-   ]
+   ],
+   "title_en": "Pets"
   }
- ]
+ ],
+ "title_en": "Ability and potential"
 }

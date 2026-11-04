@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.search
 
+import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.clickable
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.AppIcon
@@ -46,12 +47,12 @@ fun SearchScreen(vm: SearchViewModel) {
     val cs = MaterialTheme.colorScheme
 
     Column(Modifier.fillMaxSize()) {
-        ScreenHeader("Search", "লেসনের শব্দে খুঁজুন ও উচ্চারণ শুনুন")
+        ScreenHeader("Search", tr("লেসনের শব্দে খুঁজুন ও উচ্চারণ শুনুন", "Search lesson words and hear pronunciation"))
         TextField(
             value = query,
             onValueChange = vm::setQuery,
             singleLine = true,
-            placeholder = { Text("খুঁজুন — জাপানি / romaji / বাংলা / English") },
+            placeholder = { Text(tr("খুঁজুন — জাপানি / romaji / বাংলা / English", "Search — Japanese / romaji / Bengali / English")) },
             leadingIcon = { AppIcon(AppIcons.Search, size = 22.dp, tint = cs.onSurfaceVariant) },
             trailingIcon = {
                 if (query.isNotEmpty()) {
@@ -73,7 +74,7 @@ fun SearchScreen(vm: SearchViewModel) {
             modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp)
         )
         Text(
-            "${results.size}টি শব্দ",
+            tr("${results.size}টি শব্দ", "${results.size} words"),
             style = MaterialTheme.typography.labelMedium,
             color = cs.onSurfaceVariant,
             modifier = Modifier.padding(horizontal = 20.dp, vertical = 10.dp)
@@ -81,11 +82,11 @@ fun SearchScreen(vm: SearchViewModel) {
 
         when {
             loaded && total == 0 -> EmptyState(
-                AppIcons.Inbox, "এখনো কোনো শব্দ নেই",
-                "লেসনের JSON ফাইলে শব্দ যোগ করলে এখানে খোঁজা যাবে।"
+                AppIcons.Inbox, tr("এখনো কোনো শব্দ নেই", "No words yet"),
+                tr("লেসনের JSON ফাইলে শব্দ যোগ করলে এখানে খোঁজা যাবে।", "Add words to the lesson JSON files to search them here.")
             )
             results.isEmpty() && loaded -> EmptyState(
-                AppIcons.Search, "কোনো শব্দ পাওয়া যায়নি", "অন্য কিছু লিখে খুঁজে দেখুন।"
+                AppIcons.Search, tr("কোনো শব্দ পাওয়া যায়নি", "No words found"), tr("অন্য কিছু লিখে খুঁজে দেখুন।", "Try searching for something else.")
             )
             else -> LazyColumn(
                 modifier = Modifier.fillMaxSize(),

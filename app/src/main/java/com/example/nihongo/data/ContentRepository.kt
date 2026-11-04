@@ -16,27 +16,29 @@ data class KanjiItem(
 )
 
 /** কথোপকথনের একটি লাইন। speaker = "A" | "B" */
-data class ConvoLine(val speaker: String, val jp: String, val romaji: String, val bn: String)
-data class Dialogue(val title: String, val lines: List<ConvoLine>)
+data class ConvoLine(val speaker: String, val jp: String, val romaji: String, val bn: String, val en: String = "")
+data class Dialogue(val title: String, val lines: List<ConvoLine>, val titleEn: String = "")
 
 /** assets/<level>/conversation/lesson_NN.json */
-data class ConvoLesson(val no: Int, val title: String, val dialogues: List<Dialogue>)
+data class ConvoLesson(val no: Int, val title: String, val dialogues: List<Dialogue>, val titleEn: String = "")
 
 /** দৈনন্দিন বাক্য (assets/sentences.json) */
-data class SentenceItem(val jp: String, val romaji: String, val bn: String)
+data class SentenceItem(val jp: String, val romaji: String, val bn: String, val en: String = "")
 data class SentenceSection(val id: String, val titleBn: String, val titleEn: String, val items: List<SentenceItem>)
 
 /** সংখ্যা (assets/number.json) */
 data class NumberItem(val number: String, val kanji: String, val reading: String, val romaji: String, val note: String)
 data class NumberSection(val id: String, val titleBn: String, val titleEn: String, val items: List<NumberItem>)
 
-data class GrammarExample(val jp: String, val romaji: String, val bn: String)
+data class GrammarExample(val jp: String, val romaji: String, val bn: String, val en: String = "")
 
 /** ব্যাকরণের একটি পয়েন্ট (বইয়ের "1. N1 は N2 です"-এর মতো)। note ঐচ্ছিক */
 data class GrammarItem(
     val title: String, val pattern: String, val explain: String,
     val examples: List<GrammarExample>,
-    val note: String = ""
+    val note: String = "",
+    val titleEn: String = "", val patternEn: String = "",
+    val explainEn: String = "", val noteEn: String = ""
 )
 
 /** একটি শব্দ। word = কাঞ্জি/লেখার রূপ, reading = কানা পড়া। note ঐচ্ছিক (ব্যবহারের টীকা) */
@@ -47,13 +49,13 @@ data class WordItem(
 )
 
 /** assets/<level>/vocabulary/lesson_NN.json */
-data class VocabLesson(val no: Int, val title: String, val words: List<WordItem>)
+data class VocabLesson(val no: Int, val title: String, val words: List<WordItem>, val titleEn: String = "")
 
 /** assets/<level>/grammar/lesson_NN.json */
-data class GrammarLesson(val no: Int, val title: String, val points: List<GrammarItem>)
+data class GrammarLesson(val no: Int, val title: String, val points: List<GrammarItem>, val titleEn: String = "")
 
 /** লেসন তালিকার জন্য সারাংশ। exists = false মানে ফাইলটি এখনো যোগ হয়নি */
-data class LessonInfo(val no: Int, val title: String, val count: Int, val exists: Boolean)
+data class LessonInfo(val no: Int, val title: String, val count: Int, val exists: Boolean, val titleEn: String = "")
 
 /** সার্চ ও কুইজের জন্য: কোন লেভেল/লেসনের শব্দ */
 data class LessonWord(val level: String, val lessonNo: Int, val word: WordItem)
@@ -92,7 +94,8 @@ class ContentRepository private constructor(private val context: Context) {
                         w.optString("word"), w.optString("reading"), w.optString("romaji"),
                         w.optString("bn"), w.optString("en"), w.optString("note")
                     )
-                }
+                },
+                o.optString("title_en")
             )
         }
 
@@ -106,11 +109,14 @@ class ContentRepository private constructor(private val context: Context) {
                     GrammarItem(
                         g.optString("title"), g.optString("pattern"), g.optString("explain"),
                         list(g.optJSONArray("examples")) { e ->
-                            GrammarExample(e.optString("jp"), e.optString("romaji"), e.optString("bn"))
+                            GrammarExample(e.optString("jp"), e.optString("romaji"), e.optString("bn"), e.optString("en"))
                         },
-                        g.optString("note")
+                        g.optString("note"),
+                        g.optString("title_en"), g.optString("pattern_en"),
+                        g.optString("explain_en"), g.optString("note_en")
                     )
-                }
+                },
+                o.optString("title_en")
             )
         }
 
@@ -124,19 +130,21 @@ class ContentRepository private constructor(private val context: Context) {
                     Dialogue(
                         d.optString("title"),
                         list(d.optJSONArray("lines")) { l ->
-                            ConvoLine(l.optString("speaker"), l.optString("jp"), l.optString("romaji"), l.optString("bn"))
-                        }
+                            ConvoLine(l.optString("speaker"), l.optString("jp"), l.optString("romaji"), l.optString("bn"), l.optString("en"))
+                        },
+                        d.optString("title_en")
                     )
-                }
+                },
+                o.optString("title_en")
             )
         }
 
     /** type = "vocab" | "grammar" | "convo" — লেসন তালিকার সারাংশ (ফাইল না থাকলে exists = false) */
     fun lessonInfos(level: String, type: String): List<LessonInfo> = lessonRange(level).map { no ->
         when (type) {
-            "vocab" -> vocabLesson(level, no)?.let { LessonInfo(no, it.title, it.words.size, true) }
-            "convo" -> convoLesson(level, no)?.let { LessonInfo(no, it.title, it.dialogues.size, true) }
-            else -> grammarLesson(level, no)?.let { LessonInfo(no, it.title, it.points.size, true) }
+            "vocab" -> vocabLesson(level, no)?.let { LessonInfo(no, it.title, it.words.size, true, it.titleEn) }
+            "convo" -> convoLesson(level, no)?.let { LessonInfo(no, it.title, it.dialogues.size, true, it.titleEn) }
+            else -> grammarLesson(level, no)?.let { LessonInfo(no, it.title, it.points.size, true, it.titleEn) }
         } ?: LessonInfo(no, "", 0, false)
     }
 
@@ -183,7 +191,7 @@ class ContentRepository private constructor(private val context: Context) {
             SentenceSection(
                 sec.optString("id"), sec.optString("title_bn"), sec.optString("title_en"),
                 list(sec.optJSONArray("items")) { n ->
-                    SentenceItem(n.optString("jp"), n.optString("romaji"), n.optString("bn"))
+                    SentenceItem(n.optString("jp"), n.optString("romaji"), n.optString("bn"), n.optString("en"))
                 }
             )
         }

@@ -1,0 +1,326 @@
+{
+ "lesson": 28,
+ "title": "অভ্যাস, পছন্দ ও কারণ",
+ "words": [
+  {
+   "word": "売れます",
+   "reading": "うれます",
+   "romaji": "uremasu",
+   "bn": "বিক্রি হওয়া",
+   "en": "sell, be sold",
+   "note": "II-গ্রুপ · [パンが～]"
+  },
+  {
+   "word": "踊ります",
+   "reading": "おどります",
+   "romaji": "odorimasu",
+   "bn": "নাচা",
+   "en": "dance",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "かみます",
+   "reading": "かみます",
+   "romaji": "kamimasu",
+   "bn": "চিবানো / কামড়ানো",
+   "en": "chew, bite",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "選びます",
+   "reading": "えらびます",
+   "romaji": "erabimasu",
+   "bn": "বেছে নেওয়া",
+   "en": "choose",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "違います",
+   "reading": "ちがいます",
+   "romaji": "chigaimasu",
+   "bn": "আলাদা হওয়া / ভিন্ন হওয়া",
+   "en": "be different",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "通います",
+   "reading": "かよいます",
+   "romaji": "kayoimasu",
+   "bn": "যাতায়াত করা",
+   "en": "go to and from [university]",
+   "note": "I-গ্রুপ · [大学に～]"
+  },
+  {
+   "word": "メモします",
+   "reading": "メモします",
+   "romaji": "memoshimasu",
+   "bn": "নোট করা",
+   "en": "take a memo",
+   "note": "III-গ্রুপ"
+  },
+  {
+   "word": "まじめ[な]",
+   "reading": "まじめ[な]",
+   "romaji": "majime[na]",
+   "bn": "আন্তরিক / গম্ভীর স্বভাবের",
+   "en": "serious",
+   "note": "な-বিশেষণ"
+  },
+  {
+   "word": "熱心[な]",
+   "reading": "ねっしん[な]",
+   "romaji": "nesshin[na]",
+   "bn": "উৎসাহী / নিষ্ঠাবান",
+   "en": "earnest",
+   "note": "な-বিশেষণ"
+  },
+  {
+   "word": "優しい",
+   "reading": "やさしい",
+   "romaji": "yasashii",
+   "bn": "দয়ালু / কোমল",
+   "en": "gentle, kind"
+  },
+  {
+   "word": "偉い",
+   "reading": "えらい",
+   "romaji": "erai",
+   "bn": "মহৎ / শ্রদ্ধেয়",
+   "en": "great, admirable"
+  },
+  {
+   "word": "ちょうどいい",
+   "reading": "ちょうどいい",
+   "romaji": "choudo ii",
+   "bn": "ঠিক যথাযথ",
+   "en": "proper, just right"
+  },
+  {
+   "word": "習慣",
+   "reading": "しゅうかん",
+   "romaji": "shuukan",
+   "bn": "অভ্যাস / রীতি",
+   "en": "custom"
+  },
+  {
+   "word": "経験",
+   "reading": "けいけん",
+   "romaji": "keiken",
+   "bn": "অভিজ্ঞতা",
+   "en": "experience"
+  },
+  {
+   "word": "力",
+   "reading": "ちから",
+   "romaji": "chikara",
+   "bn": "শক্তি",
+   "en": "power"
+  },
+  {
+   "word": "人気",
+   "reading": "にんき",
+   "romaji": "ninki",
+   "bn": "জনপ্রিয়তা",
+   "en": "popularity",
+   "note": "[学生に～]が あります: শিক্ষার্থীদের কাছে জনপ্রিয় হওয়া"
+  },
+  {
+   "word": "形",
+   "reading": "かたち",
+   "romaji": "katachi",
+   "bn": "আকৃতি",
+   "en": "form, shape"
+  },
+  {
+   "word": "色",
+   "reading": "いろ",
+   "romaji": "iro",
+   "bn": "রং",
+   "en": "color"
+  },
+  {
+   "word": "味",
+   "reading": "あじ",
+   "romaji": "aji",
+   "bn": "স্বাদ",
+   "en": "taste"
+  },
+  {
+   "word": "ガム",
+   "reading": "ガム",
+   "romaji": "gamu",
+   "bn": "চুইংগাম",
+   "en": "chewing gum"
+  },
+  {
+   "word": "品物",
+   "reading": "しなもの",
+   "romaji": "shinamono",
+   "bn": "পণ্য",
+   "en": "goods"
+  },
+  {
+   "word": "値段",
+   "reading": "ねだん",
+   "romaji": "nedan",
+   "bn": "দাম",
+   "en": "price"
+  },
+  {
+   "word": "給料",
+   "reading": "きゅうりょう",
+   "romaji": "kyuuryou",
+   "bn": "বেতন",
+   "en": "salary"
+  },
+  {
+   "word": "ボーナス",
+   "reading": "ボーナス",
+   "romaji": "bōnasu",
+   "bn": "বোনাস",
+   "en": "bonus"
+  },
+  {
+   "word": "番組",
+   "reading": "ばんぐみ",
+   "romaji": "bangumi",
+   "bn": "অনুষ্ঠান (টিভি / রেডিও)",
+   "en": "program"
+  },
+  {
+   "word": "ドラマ",
+   "reading": "ドラマ",
+   "romaji": "dorama",
+   "bn": "নাটক",
+   "en": "drama"
+  },
+  {
+   "word": "小説",
+   "reading": "しょうせつ",
+   "romaji": "shousetsu",
+   "bn": "উপন্যাস",
+   "en": "novel"
+  },
+  {
+   "word": "小説家",
+   "reading": "しょうせつか",
+   "romaji": "shousetsuka",
+   "bn": "ঔপন্যাসিক",
+   "en": "novelist"
+  },
+  {
+   "word": "歌手",
+   "reading": "かしゅ",
+   "romaji": "kashu",
+   "bn": "গায়ক",
+   "en": "singer"
+  },
+  {
+   "word": "管理人",
+   "reading": "かんりにん",
+   "romaji": "kanrinin",
+   "bn": "তত্ত্বাবধায়ক / ম্যানেজার",
+   "en": "janitor"
+  },
+  {
+   "word": "息子",
+   "reading": "むすこ",
+   "romaji": "musuko",
+   "bn": "(আমার) ছেলে",
+   "en": "(my) son"
+  },
+  {
+   "word": "息子さん",
+   "reading": "むすこさん",
+   "romaji": "musukosan",
+   "bn": "(অন্যের) ছেলে",
+   "en": "(someone else's) son"
+  },
+  {
+   "word": "娘",
+   "reading": "むすめ",
+   "romaji": "musume",
+   "bn": "(আমার) মেয়ে",
+   "en": "(my) daughter"
+  },
+  {
+   "word": "娘さん",
+   "reading": "むすめさん",
+   "romaji": "musumesan",
+   "bn": "(অন্যের) মেয়ে",
+   "en": "(someone else's) daughter"
+  },
+  {
+   "word": "自分",
+   "reading": "じぶん",
+   "romaji": "jibun",
+   "bn": "নিজে",
+   "en": "oneself"
+  },
+  {
+   "word": "将来",
+   "reading": "しょうらい",
+   "romaji": "shourai",
+   "bn": "ভবিষ্যৎ",
+   "en": "future"
+  },
+  {
+   "word": "しばらく",
+   "reading": "しばらく",
+   "romaji": "shibaraku",
+   "bn": "কিছুক্ষণ",
+   "en": "a little while"
+  },
+  {
+   "word": "たいてい",
+   "reading": "たいてい",
+   "romaji": "taitei",
+   "bn": "সাধারণত / প্রায়ই",
+   "en": "usually, mostly"
+  },
+  {
+   "word": "それに",
+   "reading": "それに",
+   "romaji": "soreni",
+   "bn": "তাছাড়া",
+   "en": "in addition"
+  },
+  {
+   "word": "それで",
+   "reading": "それで",
+   "romaji": "sorede",
+   "bn": "তাই / সেজন্য",
+   "en": "and so"
+  },
+  {
+   "word": "[ちょっと]お願いがあるんですが。",
+   "reading": "[ちょっと]おねがいがあるんですが。",
+   "romaji": "[chotto] onegai ga arun desu ga.",
+   "bn": "একটু অনুরোধ ছিল",
+   "en": "I have a favor to ask."
+  },
+  {
+   "word": "ホームステイ",
+   "reading": "ホームステイ",
+   "romaji": "hōmusutei",
+   "bn": "হোমস্টে (স্থানীয় পরিবারের সাথে থাকা)",
+   "en": "homestay"
+  },
+  {
+   "word": "会話",
+   "reading": "かいわ",
+   "romaji": "kaiwa",
+   "bn": "কথোপকথন",
+   "en": "conversation"
+  },
+  {
+   "word": "おしゃべりします",
+   "reading": "おしゃべりします",
+   "romaji": "oshaberishimasu",
+   "bn": "আড্ডা দেওয়া / গল্প করা",
+   "en": "chat",
+   "note": "III-গ্রুপ"
+  }
+ ],
+ "title_en": "Habits, preferences and reasons"
+}

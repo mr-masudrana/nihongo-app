@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.profile
 
+import com.example.nihongo.ui.components.tr
 import android.graphics.BitmapFactory
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.PickVisualMediaRequest
@@ -127,8 +128,8 @@ fun ProfileScreen(vm: SettingsViewModel, statsVm: StatsViewModel, onOpenSettings
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(Modifier.weight(1f)) {
-                Text("প্রোফাইল", style = MaterialTheme.typography.headlineMedium, color = cs.onBackground)
-                Text("আপনার অগ্রগতি ও পরিচয়", style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                Text(tr("প্রোফাইল", "Profile"), style = MaterialTheme.typography.headlineMedium, color = cs.onBackground)
+                Text(tr("আপনার অগ্রগতি ও পরিচয়", "Your progress and identity"), style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
             }
             Box(
                 Modifier
@@ -209,7 +210,7 @@ private fun IdentityCard(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        name.ifBlank { "আপনার নাম যোগ করুন" },
+                        name.ifBlank { tr("আপনার নাম যোগ করুন", "Add your name") },
                         style = MaterialTheme.typography.titleLarge,
                         color = Color.White.copy(alpha = if (name.isBlank()) 0.8f else 1f),
                         maxLines = 1,
@@ -219,12 +220,12 @@ private fun IdentityCard(
                     AppIcon(AppIcons.Edit, size = 18.dp, tint = Color.White.copy(alpha = 0.9f))
                 }
                 Text(
-                    "লেভেল ${Gamification.level(xp)} · $xp XP",
+                    tr("লেভেল ${Gamification.level(xp)} · $xp XP", "Level ${Gamification.level(xp)} · $xp XP"),
                     style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.92f)
                 )
                 if (hasPhoto) {
                     Text(
-                        "ছবি মুছুন",
+                        tr("ছবি মুছুন", "Remove photo"),
                         style = MaterialTheme.typography.labelLarge,
                         color = Color.White.copy(alpha = 0.85f),
                         modifier = Modifier.clickable(onClick = onRemovePhoto)
@@ -235,7 +236,7 @@ private fun IdentityCard(
 
         Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             Row(Modifier.fillMaxWidth()) {
-                Text("পরের লেভেল", style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f))
+                Text(tr("পরের লেভেল", "Next level"), style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f))
                 Spacer(Modifier.weight(1f))
                 Text(
                     "${(progress * Gamification.XP_PER_LEVEL).toInt()} / ${Gamification.XP_PER_LEVEL} XP",
@@ -246,9 +247,9 @@ private fun IdentityCard(
         }
 
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-            ProfileStat(AppIcons.Fire, "$streak দিন", "স্ট্রিক", Modifier.weight(1f))
-            ProfileStat(AppIcons.Trophy, "$bestStreak দিন", "সর্বোচ্চ স্ট্রিক", Modifier.weight(1f))
-            ProfileStat(AppIcons.Check, "$quizzes", "কুইজ", Modifier.weight(1f))
+            ProfileStat(AppIcons.Fire, tr("$streak দিন", "$streak days"), tr("স্ট্রিক", "Streak"), Modifier.weight(1f))
+            ProfileStat(AppIcons.Trophy, tr("$bestStreak দিন", "$bestStreak days"), tr("সর্বোচ্চ স্ট্রিক", "Best streak"), Modifier.weight(1f))
+            ProfileStat(AppIcons.Check, "$quizzes", tr("কুইজ", "Quizzes"), Modifier.weight(1f))
         }
     }
 }
@@ -284,9 +285,9 @@ private fun GoalCard(xpToday: Int, goal: Int) {
                 ) { AppIcon(AppIcons.Target, size = 22.dp, tint = cs.primary) }
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
-                    Text("আজকের লক্ষ্য", style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
+                    Text(tr("আজকের লক্ষ্য", "Today's goal"), style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
                     Text(
-                        if (xpToday >= goal) "লক্ষ্য পূর্ণ হয়েছে" else "আর ${goal - xpToday} XP বাকি",
+                        if (xpToday >= goal) tr("লক্ষ্য পূর্ণ হয়েছে", "Goal reached") else tr("আর ${goal - xpToday} XP বাকি", "${goal - xpToday} XP to go"),
                         style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant
                     )
                 }
@@ -302,17 +303,17 @@ private fun NameDialog(initial: String, onDismiss: () -> Unit, onSave: (String) 
     var text by remember { mutableStateOf(initial) }
     AlertDialog(
         onDismissRequest = onDismiss,
-        title = { Text("আপনার নাম") },
+        title = { Text(tr("আপনার নাম", "Your name")) },
         text = {
             OutlinedTextField(
                 value = text,
                 onValueChange = { if (it.length <= 24) text = it },
                 singleLine = true,
-                placeholder = { Text("নাম লিখুন") },
+                placeholder = { Text(tr("নাম লিখুন", "Enter your name")) },
                 shape = RoundedCornerShape(14.dp)
             )
         },
-        confirmButton = { TextButton(onClick = { onSave(text.trim()) }) { Text("সংরক্ষণ") } },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("বাতিল") } }
+        confirmButton = { TextButton(onClick = { onSave(text.trim()) }) { Text(tr("সংরক্ষণ", "Save")) } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text(tr("বাতিল", "Cancel")) } }
     )
 }

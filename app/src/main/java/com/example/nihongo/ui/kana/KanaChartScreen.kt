@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.kana
 
+import com.example.nihongo.ui.components.tr
 import androidx.compose.animation.animateColorAsState
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.AppIcon
@@ -40,7 +41,7 @@ import com.example.nihongo.ui.components.SegmentedTabs
 import com.example.nihongo.ui.components.SoftCard
 
 /** ট্যাবের ক্রম: মূল | দাকুতেন | যৌগিক */
-private val GROUPS = listOf("basic" to "মূল", "dakuten" to "দাকুতেন", "yoon" to "যৌগিক")
+private val GROUPS = listOf(Triple("basic", "মূল", "Basic"), Triple("dakuten", "দাকুতেন", "Dakuten"), Triple("yoon", "যৌগিক", "Combined"))
 
 /** গ্রিডে কানার কলাম: মূল/দাকুতেনে ৫টি (a i u e o), যৌগিকে ৩টি (ya yu yo)। না-থাকা অক্ষরের ঘর ফাঁকা থাকে। */
 private fun slotOf(k: KanaEntity, group: String): Int {
@@ -80,7 +81,7 @@ fun KanaChartScreen(vm: KanaViewModel, type: String) {
     Column(Modifier.fillMaxSize()) {
         Spacer(Modifier.height(8.dp))
         SegmentedTabs(
-            options = GROUPS.map { it.second },
+            options = GROUPS.map { tr(it.second, it.third) },
             selectedIndex = GROUPS.indexOfFirst { it.first == group },
             onSelect = { vm.selectGroup(GROUPS[it].first) }
         )
@@ -123,7 +124,7 @@ private fun PreviewCard(k: KanaEntity?, onSpeak: () -> Unit) {
     ) {
         if (k == null) {
             Text(
-                "যেকোনো কানায় ট্যাপ করুন",
+                tr("যেকোনো কানায় ট্যাপ করুন", "Tap any kana"),
                 modifier = Modifier.align(Alignment.Center),
                 style = MaterialTheme.typography.bodyLarge,
                 color = cs.onPrimaryContainer.copy(alpha = 0.7f)
@@ -138,7 +139,7 @@ private fun PreviewCard(k: KanaEntity?, onSpeak: () -> Unit) {
                 Column(Modifier.weight(1f)) {
                     Text(k.romaji, style = MaterialTheme.typography.titleLarge, color = cs.onPrimaryContainer)
                     Text(
-                        "বাংলায়: ${k.bn}",
+                        tr("বাংলায়: ${k.bn}", "In Bengali: ${k.bn}"),
                         style = MaterialTheme.typography.bodyMedium,
                         color = cs.onPrimaryContainer.copy(alpha = 0.8f)
                     )

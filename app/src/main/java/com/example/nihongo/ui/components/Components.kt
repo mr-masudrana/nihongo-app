@@ -391,13 +391,13 @@ fun SessionDone(known: Int, again: Int, onRestart: () -> Unit, modifier: Modifie
             contentAlignment = Alignment.Center
         ) { AppIcon(AppIcons.Trophy, size = 52.dp, tint = cs.onTertiaryContainer) }
         Spacer(Modifier.height(20.dp))
-        Text("সেশন শেষ!", style = MaterialTheme.typography.headlineSmall, color = cs.onSurface)
+        Text(tr("সেশন শেষ!", "Session complete!"), style = MaterialTheme.typography.headlineSmall, color = cs.onSurface)
         Spacer(Modifier.height(16.dp))
         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-            StatPill("জানি: $known", cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
-            StatPill("জানি না: $again", cs.errorContainer, cs.onErrorContainer, icon = AppIcons.Refresh)
+            StatPill(tr("জানি: $known", "Known: $known"), cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
+            StatPill(tr("জানি না: $again", "Don't know: $again"), cs.errorContainer, cs.onErrorContainer, icon = AppIcons.Refresh)
         }
         Spacer(Modifier.height(28.dp))
-        ActionButton("আবার শুরু করুন", onClick = onRestart, modifier = Modifier.fillMaxWidth())
+        ActionButton(tr("আবার শুরু করুন", "Start again"), onClick = onRestart, modifier = Modifier.fillMaxWidth())
     }
 }

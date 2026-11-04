@@ -10,14 +10,20 @@
     {
      "jp": "どうして おくれたんですか。",
      "romaji": "Doushite okureta n desu ka.",
-     "bn": "দেরি হলো কেন?"
+     "bn": "দেরি হলো কেন?",
+     "en": "Why were you late?"
     },
     {
      "jp": "バスが こなかったんです。",
      "romaji": "Basu ga konakatta n desu.",
-     "bn": "বাস আসেনি তাই।"
+     "bn": "বাস আসেনি তাই।",
+     "en": "Because the bus didn't come."
     }
-   ]
+   ],
+   "title_en": "～んです — reason / explanation",
+   "pattern_en": "plain form + んです",
+   "explain_en": "Used to explain the reason or background of something, or to ask for the reason."
   }
- ]
+ ],
+ "title_en": "Reasons and explanations"
 }
