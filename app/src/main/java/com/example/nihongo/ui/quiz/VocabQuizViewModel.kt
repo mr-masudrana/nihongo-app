@@ -17,7 +17,8 @@ import kotlinx.coroutines.withContext
 
 data class VocabQuizConfig(
     val category: String = "all",
-    val dir: VocabDir = VocabDir.WORD_TO_MEANING
+    val dir: VocabDir = VocabDir.WORD_TO_MEANING,
+    val mode: QuizMode = QuizMode.UNLIMITED
 )
 
 /** শব্দ কুইজ — প্রশ্ন আসে লেসনের শব্দ (assets/<level>/vocabulary/...) থেকে; বিভাগ = লেসন */
@@ -62,16 +63,21 @@ class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
 
     fun setCategory(c: String) { config.update { it.copy(category = c) } }
     fun setDir(d: VocabDir) { config.update { it.copy(dir = d) } }
+    fun setMode(m: QuizMode) { config.update { it.copy(mode = m) } }
 
     fun start() {
         viewModelScope.launch {
             if (loadedLevel != level) load()
             val c = config.value
-            runner.start(QuizBuilder.vocabQuestions(words, c.category, c.dir))
+            val pool = words
+            runner.start(level, c.mode) {
+                QuizBuilder.vocabQuestions(pool, c.category, c.dir, count = Int.MAX_VALUE)
+            }
         }
     }
 
-    fun select(i: Int) { runner.select(i) }
+    fun select(i: Int, fractionLeft: Float) { runner.select(i, fractionLeft) }
+    fun timeout() { runner.timeout() }
     fun next() { runner.next() }
     fun back() { runner.backToSetup() }
 }

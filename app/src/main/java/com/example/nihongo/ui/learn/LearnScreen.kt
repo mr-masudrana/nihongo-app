@@ -41,19 +41,23 @@ const val ROUTE_HUB = "hub"
 const val ROUTE_HIRAGANA = "hiragana"
 const val ROUTE_KATAKANA = "katakana"
 const val ROUTE_NUMBER = "number"
+const val ROUTE_SENTENCES = "sentences"
 const val ROUTE_TEST_KANA = "test_kana"
 const val ROUTE_TEST_N5 = "test_n5"
 const val ROUTE_TEST_N4 = "test_n4"
 const val ROUTE_N5_VOCAB = "n5_vocab"
 const val ROUTE_N5_GRAMMAR = "n5_grammar"
 const val ROUTE_N5_KANJI = "n5_kanji"
+const val ROUTE_N5_CONVO = "n5_convo"
 const val ROUTE_N4_VOCAB = "n4_vocab"
 const val ROUTE_N4_GRAMMAR = "n4_grammar"
 const val ROUTE_N4_KANJI = "n4_kanji"
+const val ROUTE_N4_CONVO = "n4_convo"
 
 private fun typeName(t: String) = when (t) {
     "vocab" -> "Vocabulary"
     "grammar" -> "Grammar"
+    "convo" -> "Dialogue"
     else -> "Kanji"
 }
 
@@ -64,6 +68,7 @@ private fun crumb(route: String): Pair<String, String> {
         ROUTE_HIRAGANA -> "Basic" to "Hiragana"
         ROUTE_KATAKANA -> "Basic" to "Katakana"
         ROUTE_NUMBER -> "Basic" to "Number"
+        ROUTE_SENTENCES -> "Basic" to "Sentences"
         ROUTE_TEST_KANA -> "Basic" to "Test"
         ROUTE_TEST_N5 -> "N5" to "Test"
         ROUTE_TEST_N4 -> "N4" to "Test"
@@ -107,6 +112,7 @@ fun LearnScreen(
             base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
             base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
             base == ROUTE_NUMBER -> NumberScreen()
+            base == ROUTE_SENTENCES -> SentenceScreen()
             base == ROUTE_TEST_KANA -> TestScreen("kana", kanaQuizVm, vocabQuizVm)
             base == ROUTE_TEST_N5 -> TestScreen("n5", kanaQuizVm, vocabQuizVm)
             base == ROUTE_TEST_N4 -> TestScreen("n4", kanaQuizVm, vocabQuizVm)

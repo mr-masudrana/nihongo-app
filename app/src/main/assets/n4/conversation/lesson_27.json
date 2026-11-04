@@ -1,0 +1,75 @@
+{
+ "lesson": 27,
+ "title": "পারা ও সম্ভাবনা",
+ "dialogues": [
+  {
+   "title": "জাপানি ভাষা",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "ラヒムさんは にほんごが はなせますか。",
+     "romaji": "Rahimu-san wa nihongo ga hanasemasu ka.",
+     "bn": "রাহিম, আপনি কি জাপানি বলতে পারেন?"
+    },
+    {
+     "speaker": "B",
+     "jp": "すこし はなせます。でも、かんじは よめません。",
+     "romaji": "Sukoshi hanasemasu. Demo, kanji wa yomemasen.",
+     "bn": "একটু পারি। কিন্তু কাঞ্জি পড়তে পারি না।"
+    },
+    {
+     "speaker": "A",
+     "jp": "じゃ、いっしょに れんしゅうしましょう。",
+     "romaji": "Ja, issho ni renshuu shimashou.",
+     "bn": "তাহলে একসাথে অনুশীলন করি।"
+    }
+   ]
+  },
+  {
+   "title": "রান্না",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "りょうりが つくれますか。",
+     "romaji": "Ryouri ga tsukuremasu ka.",
+     "bn": "আপনি কি রান্না করতে পারেন?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、カレーが つくれます。",
+     "romaji": "Hai, karē ga tsukuremasu.",
+     "bn": "হ্যাঁ, কারি বানাতে পারি।"
+    },
+    {
+     "speaker": "A",
+     "jp": "すごいですね。こんど たべたいです。",
+     "romaji": "Sugoi desu ne. Kondo tabetai desu.",
+     "bn": "দারুণ তো! পরের বার খেতে চাই।"
+    }
+   ]
+  },
+  {
+   "title": "পোষা প্রাণী",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "この アパートで いぬを かえますか。",
+     "romaji": "Kono apāto de inu o kaemasu ka.",
+     "bn": "এই অ্যাপার্টমেন্টে কি কুকুর পোষা যায়?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、かえません。",
+     "romaji": "Iie, kaemasen.",
+     "bn": "না, যায় না।"
+    },
+    {
+     "speaker": "A",
+     "jp": "そうですか。ざんねんですね。",
+     "romaji": "Sou desu ka. Zannen desu ne.",
+     "bn": "তাই? দুঃখজনক।"
+    }
+   ]
+  }
+ ]
+}

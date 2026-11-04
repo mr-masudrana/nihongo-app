@@ -9,14 +9,22 @@ data class Stats(
     val lastDay: Long = -1L,   // সর্বশেষ যেদিন শেখা হয়েছে (epoch day, লোকাল টাইম)
     val todayXp: Int = 0,
     val todayDay: Long = -1L,  // todayXp যে দিনের
-    val quizzes: Int = 0
-)
+    val quizzes: Int = 0,
+    /** প্রতিটি সেকশনের হাই স্কোর (সর্বোচ্চ টানা সঠিক উত্তর): "kana" | "n5" | "n4" */
+    val highScores: Map<String, Int> = emptyMap()
+) {
+    fun highScore(kind: String): Int = highScores[kind] ?: 0
+}
 
 object Gamification {
-    const val XP_CORRECT = 10          // কুইজে সঠিক উত্তর
-    const val XP_PERFECT_BONUS = 20    // সব উত্তর সঠিক হলে বোনাস
-    const val DAILY_GOAL = 50
+    // চ্যালেঞ্জ মোড (আনলিমিটেড মোডে XP নেই — সেখানে শুধু হাই স্কোর)
+    const val XP_CORRECT = 10          // চ্যালেঞ্জে সঠিক উত্তর
+    const val XP_SPEED_BONUS = 5       // প্রথম ৫ সেকেন্ডে সঠিক উত্তর দিলে
+    const val XP_PERFECT_BONUS = 20    // ১০টিই সঠিক হলে
     const val XP_PER_LEVEL = 100
+    const val CHALLENGE_QUESTIONS = 10
+    const val CHALLENGE_SECONDS = 15
+    const val DAILY_GOAL = 50
 
     private const val DAY_MS = 86_400_000L
 

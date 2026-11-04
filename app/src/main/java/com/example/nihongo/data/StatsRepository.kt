@@ -20,11 +20,12 @@ class StatsRepository private constructor(context: Context) {
         lastDay = prefs.getLong("lastDay", -1L),
         todayXp = prefs.getInt("todayXp", 0),
         todayDay = prefs.getLong("todayDay", -1L),
-        quizzes = prefs.getInt("quizzes", 0)
+        quizzes = prefs.getInt("quizzes", 0),
+        highScores = HIGH_KEYS.associateWith { prefs.getInt("high_$it", 0) }
     )
 
     private fun save(s: Stats) {
-        prefs.edit()
+        val e = prefs.edit()
             .putInt("xp", s.xp)
             .putInt("streak", s.streak)
             .putInt("bestStreak", s.bestStreak)
@@ -32,7 +33,8 @@ class StatsRepository private constructor(context: Context) {
             .putInt("todayXp", s.todayXp)
             .putLong("todayDay", s.todayDay)
             .putInt("quizzes", s.quizzes)
-            .apply()
+        s.highScores.forEach { (k, v) -> e.putInt("high_$k", v) }
+        e.apply()
     }
 
     /** XP যোগ করে এবং আজকের অ্যাক্টিভিটি/স্ট্রিক আপডেট করে। amount = ০ হলেও স্ট্রিক গণ্য হয়। */
@@ -43,6 +45,7 @@ class StatsRepository private constructor(context: Context) {
         _stats.value = updated
     }
 
+    /** চ্যালেঞ্জ কুইজ শেষ — কুইজ সংখ্যা বাড়ায় */
     @Synchronized
     fun recordQuiz() {
         val updated = _stats.value.copy(quizzes = _stats.value.quizzes + 1)
@@ -50,7 +53,22 @@ class StatsRepository private constructor(context: Context) {
         _stats.value = updated
     }
 
+    /** আনলিমিটেড মোডের একটি রান শেষ (ভুল উত্তর) — কুইজ সংখ্যা বাড়ায় ও হাই স্কোর আপডেট করে। নতুন রেকর্ড হলে true */
+    @Synchronized
+    fun recordRun(kind: String, score: Int): Boolean {
+        val cur = _stats.value
+        val newRecord = score > cur.highScore(kind)
+        val updated = cur.copy(
+            quizzes = cur.quizzes + 1,
+            highScores = if (newRecord) cur.highScores + (kind to score) else cur.highScores
+        )
+        save(updated)
+        _stats.value = updated
+        return newRecord
+    }
+
     companion object {
+        private val HIGH_KEYS = listOf("kana", "n5", "n4")
         @Volatile private var INSTANCE: StatsRepository? = null
 
         fun get(context: Context): StatsRepository =

@@ -1,0 +1,81 @@
+{
+ "lesson": 26,
+ "title": "কারণ ও ব্যাখ্যা",
+ "dialogues": [
+  {
+   "title": "চাবি হারিয়েছে",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "どうしたんですか。",
+     "romaji": "Doushita n desu ka.",
+     "bn": "কী হয়েছে?"
+    },
+    {
+     "speaker": "B",
+     "jp": "かぎを なくしたんです。",
+     "romaji": "Kagi o nakushita n desu.",
+     "bn": "চাবি হারিয়ে ফেলেছি।"
+    },
+    {
+     "speaker": "A",
+     "jp": "いっしょに さがしましょう。",
+     "romaji": "Issho ni sagashimashou.",
+     "bn": "একসাথে খুঁজি।"
+    }
+   ]
+  },
+  {
+   "title": "দেরি হওয়া",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "どうして おくれたんですか。",
+     "romaji": "Doushite okureta n desu ka.",
+     "bn": "দেরি হলো কেন?"
+    },
+    {
+     "speaker": "B",
+     "jp": "でんしゃが おくれたんです。",
+     "romaji": "Densha ga okureta n desu.",
+     "bn": "ট্রেন দেরি করেছিল।"
+    },
+    {
+     "speaker": "A",
+     "jp": "そうですか。ミーティングに まにあいましたよ。",
+     "romaji": "Sou desu ka. Mītingu ni maniaimashita yo.",
+     "bn": "আচ্ছা। মিটিংয়ে কিন্তু সময়মতো পৌঁছেছেন।"
+    }
+   ]
+  },
+  {
+   "title": "ঘর গুছানো",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "へやが きたないですね。",
+     "romaji": "Heya ga kitanai desu ne.",
+     "bn": "ঘরটা নোংরা তো।"
+    },
+    {
+     "speaker": "B",
+     "jp": "ええ、あした ともだちが くるんです。だから かたづけているんです。",
+     "romaji": "Ee, ashita tomodachi ga kuru n desu. Dakara katazukete iru n desu.",
+     "bn": "হ্যাঁ, কাল বন্ধু আসবে। তাই গুছিয়ে রাখছি।"
+    },
+    {
+     "speaker": "A",
+     "jp": "この はこは すてますか。",
+     "romaji": "Kono hako wa sutemasu ka.",
+     "bn": "এই বাক্সটা কি ফেলে দেবেন?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、すてて ください。",
+     "romaji": "Hai, sutete kudasai.",
+     "bn": "হ্যাঁ, ফেলে দিন।"
+    }
+   ]
+  }
+ ]
+}

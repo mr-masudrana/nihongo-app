@@ -1,0 +1,93 @@
+{
+ "lesson": 2,
+ "title": "জিনিস চেনানো",
+ "dialogues": [
+  {
+   "title": "এটা কী?",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "これは なんですか。",
+     "romaji": "Kore wa nan desu ka.",
+     "bn": "এটা কী?"
+    },
+    {
+     "speaker": "B",
+     "jp": "それは じしょです。",
+     "romaji": "Sore wa jisho desu.",
+     "bn": "ওটা অভিধান।"
+    },
+    {
+     "speaker": "A",
+     "jp": "あれは なんですか。",
+     "romaji": "Are wa nan desu ka.",
+     "bn": "ঐ দূরেরটা কী?"
+    },
+    {
+     "speaker": "B",
+     "jp": "あれは とけいです。",
+     "romaji": "Are wa tokei desu.",
+     "bn": "ওটা ঘড়ি।"
+    }
+   ]
+  },
+  {
+   "title": "কার ব্যাগ?",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "それは だれの かばんですか。",
+     "romaji": "Sore wa dare no kaban desu ka.",
+     "bn": "ওটা কার ব্যাগ?"
+    },
+    {
+     "speaker": "B",
+     "jp": "これは わたしの かばんです。",
+     "romaji": "Kore wa watashi no kaban desu.",
+     "bn": "এটা আমার ব্যাগ।"
+    },
+    {
+     "speaker": "A",
+     "jp": "あの くるまは だれのですか。",
+     "romaji": "Ano kuruma wa dare no desu ka.",
+     "bn": "ঐ গাড়িটা কার?"
+    },
+    {
+     "speaker": "B",
+     "jp": "せんせいのです。",
+     "romaji": "Sensei no desu.",
+     "bn": "শিক্ষকের।"
+    }
+   ]
+  },
+  {
+   "title": "চাবি কার?",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "これは あなたの かぎですか。",
+     "romaji": "Kore wa anata no kagi desu ka.",
+     "bn": "এটা কি আপনার চাবি?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、わたしのじゃ ありません。",
+     "romaji": "Iie, watashi no ja arimasen.",
+     "bn": "না, আমার নয়।"
+    },
+    {
+     "speaker": "A",
+     "jp": "じゃ、だれのですか。",
+     "romaji": "Ja, dare no desu ka.",
+     "bn": "তাহলে কার?"
+    },
+    {
+     "speaker": "B",
+     "jp": "さとうさんのです。",
+     "romaji": "Satou-san no desu.",
+     "bn": "সাতোর।"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,12 @@
 package com.example.nihongo.ui.learn
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.AppIcon
 import androidx.compose.foundation.layout.Column
@@ -30,6 +36,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.data.ContentRepository
+import com.example.nihongo.data.ConvoLesson
+import com.example.nihongo.data.Dialogue
+import com.example.nihongo.data.SentenceItem
+import com.example.nihongo.data.SentenceSection
 import com.example.nihongo.data.GrammarItem
 import com.example.nihongo.data.GrammarLesson
 import com.example.nihongo.data.LessonInfo
@@ -59,7 +69,7 @@ private fun Loading() {
 
 // ---------------------------------------------------------------- লেসন তালিকা
 
-/** type: "vocab" | "grammar"; ডেটা না থাকা লেসন ধূসর দেখায় ও চাপা যায় না */
+/** type: "vocab" | "grammar" | "convo"; ডেটা না থাকা লেসন ধূসর দেখায় ও চাপা যায় না */
 @Composable
 fun LessonListScreen(
     level: String,
@@ -82,7 +92,11 @@ fun LessonListScreen(
         if (top != null) item { top() }
         items(list) { info ->
             val count = info.count
-            val unit = if (type == "vocab") "টি শব্দ" else "টি পাঠ"
+            val unit = when (type) {
+                "vocab" -> "টি শব্দ"
+                "convo" -> "টি কথোপকথন"
+                else -> "টি পাঠ"
+            }
             val available = info.exists && count > 0
             SoftCard(
                 Modifier.fillMaxWidth(),
@@ -118,7 +132,11 @@ fun LessonListScreen(
 
 @Composable
 fun LessonContent(level: String, type: String, no: Int) {
-    if (type == "vocab") VocabLessonContent(level, no) else GrammarLessonContent(level, no)
+    when (type) {
+        "vocab" -> VocabLessonContent(level, no)
+        "convo" -> ConvoLessonContent(level, no)
+        else -> GrammarLessonContent(level, no)
+    }
 }
 
 @Composable
@@ -344,6 +362,118 @@ private fun NumRow(n: NumberItem, onSpeak: () -> Unit) {
                     Text(n.note, style = MaterialTheme.typography.labelSmall, color = cs.tertiary, textAlign = TextAlign.End)
                 }
             }
+        }
+    }
+}
+
+// ---------------------------------------------------------------- কথোপকথন
+
+@Composable
+private fun ConvoLessonContent(level: String, no: Int) {
+    val ctx = LocalContext.current
+    val loaded by produceState<ConvoLesson?>(null, level, no) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).convoLesson(level, no) }
+    }
+    val lesson = loaded
+    if (lesson == null) { Loading(); return }
+    Column(Modifier.fillMaxSize()) {
+        LessonTitle(lesson.title)
+        if (lesson.dialogues.isEmpty()) {
+            EmptyLesson()
+        } else {
+            LazyColumn(
+                Modifier.fillMaxSize(),
+                contentPadding = listPadding,
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                items(lesson.dialogues) { d -> DialogueCard(d) }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DialogueCard(d: Dialogue) {
+    val cs = MaterialTheme.colorScheme
+    val tts = LocalTts.current
+    SoftCard(Modifier.fillMaxWidth()) {
+        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    d.title,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = cs.onSurface,
+                    modifier = Modifier.weight(1f)
+                )
+                SpeakButton(
+                    onClick = { tts.speak(d.lines.joinToString("\n") { it.jp }) },
+                    diameter = 40.dp
+                )
+            }
+            d.lines.forEach { l ->
+                val isA = l.speaker == "A"
+                val chip = if (isA) cs.primary else cs.tertiary
+                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
+                    Box(
+                        Modifier
+                            .size(28.dp)
+                            .clip(CircleShape)
+                            .background(chip.copy(alpha = 0.15f)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        Text(l.speaker, style = MaterialTheme.typography.labelLarge, color = chip)
+                    }
+                    Spacer(Modifier.width(10.dp))
+                    Column(Modifier.weight(1f).clickable { tts.speak(l.jp) }) {
+                        Text(l.jp, style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
+                        Text(l.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
+                        Text(l.bn, style = MaterialTheme.typography.bodySmall, color = cs.tertiary)
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---------------------------------------------------------------- দৈনন্দিন বাক্য
+
+@Composable
+fun SentenceScreen() {
+    val context = LocalContext.current
+    val loaded by produceState<List<SentenceSection>?>(null) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(context).sentences() }
+    }
+    val tts = LocalTts.current
+    val sections = loaded ?: return
+    if (sections.isEmpty()) {
+        EmptyState(AppIcons.Inbox, "বাক্য পাওয়া যায়নি", "assets/sentences.json ফাইলটি দেখুন।")
+        return
+    }
+    LazyColumn(
+        Modifier.fillMaxSize(),
+        contentPadding = listPadding,
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        sections.forEach { sec ->
+            item(key = "h_${sec.id}") { NumHeader(sec.titleBn) }
+            items(sec.items, key = { "${sec.id}_${it.jp}" }) { s ->
+                SentenceRow(s) { tts.speak(s.jp) }
+            }
+        }
+    }
+}
+
+@Composable
+private fun SentenceRow(s: SentenceItem, onSpeak: () -> Unit) {
+    val cs = MaterialTheme.colorScheme
+    SoftCard(Modifier.fillMaxWidth(), onClick = onSpeak) {
+        Row(Modifier.padding(start = 16.dp, top = 12.dp, bottom = 12.dp, end = 8.dp), verticalAlignment = Alignment.CenterVertically) {
+            Column(Modifier.weight(1f)) {
+                Text(s.jp, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
+                Text(s.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
+                Text(s.bn, style = MaterialTheme.typography.bodyMedium, color = cs.primary)
+            }
+            SpeakButton(onClick = onSpeak, diameter = 40.dp)
         }
     }
 }

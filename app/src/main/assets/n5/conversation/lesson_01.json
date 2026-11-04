@@ -1,0 +1,98 @@
+{
+ "lesson": 1,
+ "title": "নিজের পরিচয়",
+ "dialogues": [
+  {
+   "title": "প্রথম পরিচয়",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "はじめまして。わたしは さとうです。",
+     "romaji": "Hajimemashite. Watashi wa Satou desu.",
+     "bn": "প্রথম দেখা হলো। আমি সাতো।"
+    },
+    {
+     "speaker": "B",
+     "jp": "はじめまして。ラヒムです。どうぞ よろしく。",
+     "romaji": "Hajimemashite. Rahimu desu. Douzo yoroshiku.",
+     "bn": "প্রথম দেখা হলো। আমি রাহিম। পরিচিত হয়ে ভালো লাগলো।"
+    },
+    {
+     "speaker": "A",
+     "jp": "こちらこそ、よろしく おねがいします。",
+     "romaji": "Kochira koso, yoroshiku onegaishimasu.",
+     "bn": "আমারও ভালো লাগলো।"
+    }
+   ]
+  },
+  {
+   "title": "ক্লাসে",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "ラヒムさんは がくせいですか。",
+     "romaji": "Rahimu-san wa gakusei desu ka.",
+     "bn": "রাহিম, আপনি কি ছাত্র?"
+    },
+    {
+     "speaker": "B",
+     "jp": "はい、がくせいです。さとうさんも がくせいですか。",
+     "romaji": "Hai, gakusei desu. Satou-san mo gakusei desu ka.",
+     "bn": "হ্যাঁ, ছাত্র। সাতো, আপনিও কি ছাত্র?"
+    },
+    {
+     "speaker": "A",
+     "jp": "いいえ、がくせいじゃ ありません。せんせいです。",
+     "romaji": "Iie, gakusei ja arimasen. Sensei desu.",
+     "bn": "না, ছাত্র নই। আমি শিক্ষক।"
+    }
+   ]
+  },
+  {
+   "title": "ওই ব্যক্তি কে?",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "あの ひとは だれですか。",
+     "romaji": "Ano hito wa dare desu ka.",
+     "bn": "ঐ ব্যক্তি কে?"
+    },
+    {
+     "speaker": "B",
+     "jp": "やまださんです。いしゃです。",
+     "romaji": "Yamada-san desu. Isha desu.",
+     "bn": "ইয়ামাদা। উনি ডাক্তার।"
+    },
+    {
+     "speaker": "A",
+     "jp": "かいしゃいんですか。",
+     "romaji": "Kaishain desu ka.",
+     "bn": "অফিস কর্মী নাকি?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、かいしゃいんじゃ ありません。いしゃです。",
+     "romaji": "Iie, kaishain ja arimasen. Isha desu.",
+     "bn": "না, অফিস কর্মী নন। ডাক্তার।"
+    }
+   ]
+  },
+  {
+   "title": "কোন দেশের?",
+   "lines": [
+    {
+     "speaker": "A",
+     "jp": "ラヒムさんは にほんじんですか。",
+     "romaji": "Rahimu-san wa nihonjin desu ka.",
+     "bn": "রাহিম, আপনি কি জাপানি?"
+    },
+    {
+     "speaker": "B",
+     "jp": "いいえ、にほんじんじゃ ありません。バングラデシュじんです。",
+     "romaji": "Iie, nihonjin ja arimasen. Banguradeshu-jin desu.",
+     "bn": "না, জাপানি নই। আমি বাংলাদেশি।"
+    }
+   ]
+  }
+ ]
+}

@@ -43,6 +43,9 @@ import com.example.nihongo.ui.components.entrance
 import com.example.nihongo.ui.kana.KanaViewModel
 import com.example.nihongo.ui.learn.LearnScreen
 import com.example.nihongo.ui.learn.ROUTE_NUMBER
+import com.example.nihongo.ui.learn.ROUTE_SENTENCES
+import com.example.nihongo.ui.learn.ROUTE_N4_CONVO
+import com.example.nihongo.ui.learn.ROUTE_N5_CONVO
 import com.example.nihongo.ui.learn.ROUTE_HIRAGANA
 import com.example.nihongo.ui.learn.ROUTE_HUB
 import com.example.nihongo.ui.learn.ROUTE_KATAKANA
@@ -83,21 +86,24 @@ fun HomeScreen(
 private data class Tile(val glyph: String, val title: String, val sub: String, val route: String, val isTest: Boolean = false)
 
 private val basicTiles = listOf(
-    Tile("あ", "Hiragana", "চার্ট ও উচ্চারণ", ROUTE_HIRAGANA),
-    Tile("ア", "Katakana", "চার্ট ও উচ্চারণ", ROUTE_KATAKANA),
-    Tile("数", "Number", "সংখ্যা (০–১০ কোটি)", ROUTE_NUMBER),
+    Tile("あ", "Hiragana", "চার্ট", ROUTE_HIRAGANA),
+    Tile("ア", "Katakana", "চার্ট", ROUTE_KATAKANA),
+    Tile("数", "Number", "সংখ্যা", ROUTE_NUMBER),
+    Tile("言", "Sentences", "দৈনন্দিন বাক্য", ROUTE_SENTENCES),
     Tile("問", "Test", "কানা কুইজ", ROUTE_TEST_KANA, isTest = true)
 )
 private val n5Tiles = listOf(
     Tile("語", "Vocabulary", "লেসন ১–২৫", ROUTE_N5_VOCAB),
     Tile("字", "Kanji", "১২০টি কাঞ্জি", ROUTE_N5_KANJI),
     Tile("文", "Grammar", "লেসন ১–২৫", ROUTE_N5_GRAMMAR),
+    Tile("話", "Dialogue", "কথোপকথন", ROUTE_N5_CONVO),
     Tile("問", "Test", "শব্দ কুইজ", ROUTE_TEST_N5, isTest = true)
 )
 private val n4Tiles = listOf(
     Tile("語", "Vocabulary", "লেসন ২৬–৫০", ROUTE_N4_VOCAB),
     Tile("字", "Kanji", "কাঞ্জি তালিকা", ROUTE_N4_KANJI),
     Tile("文", "Grammar", "লেসন ২৬–৫০", ROUTE_N4_GRAMMAR),
+    Tile("話", "Dialogue", "কথোপকথন", ROUTE_N4_CONVO),
     Tile("問", "Test", "শব্দ কুইজ", ROUTE_TEST_N4, isTest = true)
 )
 
@@ -133,7 +139,8 @@ private fun HomeHub(statsVm: StatsViewModel, onRoute: (String) -> Unit) {
             xpToday = xpToday, goal = goal,
             level = Gamification.level(s.xp),
             levelProgress = Gamification.levelProgress(s.xp),
-            totalXp = s.xp, streak = streak
+            totalXp = s.xp,
+            bestScore = s.highScores.values.maxOrNull() ?: 0
         )
 
         LevelSection(
@@ -184,7 +191,7 @@ private fun HomeHeader(greet: Triple<String, String, String>, streak: Int) {
 
 @Composable
 private fun HeroCard(
-    xpToday: Int, goal: Int, level: Int, levelProgress: Float, totalXp: Int, streak: Int
+    xpToday: Int, goal: Int, level: Int, levelProgress: Float, totalXp: Int, bestScore: Int
 ) {
     val done = xpToday >= goal
     val brand = Brush.linearGradient(listOf(Color(0xFF3F51B5), Color(0xFF7E57C2), Color(0xFFD86C9A)))
@@ -217,7 +224,7 @@ private fun HeroCard(
             Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
                 Text("আজকের লক্ষ্য", style = MaterialTheme.typography.titleMedium, color = Color.White)
                 Text(
-                    if (done) "লক্ষ্য পূর্ণ! চমৎকার" else "আর ${goal - xpToday} XP বাকি — কুইজ দিয়ে জিতুন",
+                    if (done) "লক্ষ্য পূর্ণ! চমৎকার" else "আর ${goal - xpToday} XP বাকি — চ্যালেঞ্জ কুইজ দিয়ে জিতুন",
                     style = MaterialTheme.typography.bodySmall,
                     color = Color.White.copy(alpha = 0.92f)
                 )
@@ -241,8 +248,8 @@ private fun HeroCard(
 
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
             HeroStat("Lv $level", "লেভেল", Modifier.weight(1f))
-            HeroStat("$streak দিন", "স্ট্রিক", Modifier.weight(1f))
             HeroStat("$totalXp", "মোট XP", Modifier.weight(1f))
+            HeroStat("$bestScore", "সেরা স্কোর", Modifier.weight(1f))
         }
     }
 }
@@ -287,15 +294,17 @@ private fun LevelSection(
             Spacer(Modifier.width(10.dp))
             Text(subtitle, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
         }
-        tiles.chunked(2).forEach { pair ->
-            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                pair.forEach { t ->
+        tiles.chunked(3).forEach { rowTiles ->
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                rowTiles.forEach { t ->
                     TileCard(
                         t, accent = accent, onAccent = onAccent,
                         modifier = Modifier.weight(1f),
                         onClick = { onRoute(t.route) }
                     )
                 }
+                // শেষ সারিতে কার্ড কম হলে ফাঁকা জায়গা রেখে প্রতিটি কার্ডের মাপ সমান রাখি
+                repeat(3 - rowTiles.size) { Spacer(Modifier.weight(1f)) }
             }
         }
     }
@@ -314,32 +323,38 @@ private fun TileCard(
     val titleColor = if (solid) onAccent else cs.onSurface
     val subColor = if (solid) onAccent.copy(alpha = 0.85f) else cs.onSurfaceVariant
     SoftCard(
-        modifier.height(124.dp),
+        modifier.height(104.dp),
         color = if (solid) accent else cs.surfaceContainerLow,
         borderColor = if (solid) accent else cs.outlineVariant.copy(alpha = 0.6f),
-        shape = RoundedCornerShape(24.dp),
+        shape = RoundedCornerShape(18.dp),
         onClick = onClick
     ) {
         Column(
-            Modifier.fillMaxSize().padding(14.dp),
+            Modifier.fillMaxSize().padding(10.dp),
             verticalArrangement = Arrangement.SpaceBetween
         ) {
-            Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
-                Box(
-                    Modifier
-                        .size(44.dp)
-                        .clip(RoundedCornerShape(14.dp))
-                        .background(if (solid) onAccent.copy(alpha = 0.2f) else accent.copy(alpha = 0.14f)),
-                    contentAlignment = Alignment.Center
-                ) {
-                    BigText(t.glyph, 24.sp, color = if (solid) onAccent else accent, weight = FontWeight.Bold)
-                }
-                Spacer(Modifier.weight(1f))
-                AppIcon(AppIcons.ChevronRight, size = 22.dp, tint = subColor)
+            Box(
+                Modifier
+                    .size(36.dp)
+                    .clip(RoundedCornerShape(11.dp))
+                    .background(if (solid) onAccent.copy(alpha = 0.2f) else accent.copy(alpha = 0.14f)),
+                contentAlignment = Alignment.Center
+            ) {
+                BigText(t.glyph, 20.sp, color = if (solid) onAccent else accent, weight = FontWeight.Bold)
             }
             Column {
-                Text(t.title, style = MaterialTheme.typography.titleMedium, color = titleColor)
-                Text(t.sub, style = MaterialTheme.typography.bodySmall, color = subColor, maxLines = 1)
+                Text(
+                    t.title,
+                    style = MaterialTheme.typography.titleSmall,
+                    color = titleColor,
+                    maxLines = 1
+                )
+                Text(
+                    t.sub,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = subColor,
+                    maxLines = 1
+                )
             }
         }
     }
