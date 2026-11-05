@@ -30,7 +30,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import com.example.nihongo.data.StatsRepository
 import androidx.compose.ui.unit.dp
-import com.example.nihongo.domain.Gamification
 import com.example.nihongo.domain.KanaDir
 import com.example.nihongo.domain.VocabDir
 import com.example.nihongo.ui.components.ActionButton
@@ -50,26 +49,25 @@ fun TestScreen(kind: String, kanaVm: KanaQuizViewModel, vocabVm: VocabQuizViewMo
     val ctx = LocalContext.current
     val stats by StatsRepository.get(ctx).stats.collectAsState()
     val high = stats.highScore(kind)
-    val xp = stats.xp
     LaunchedEffect(kind) { if (kind != "kana") vocabVm.setLevel(kind) }
     DisposableEffect(kind) {
         onDispose { if (kind == "kana") kanaVm.back() else vocabVm.back() }
     }
     Column(Modifier.fillMaxSize()) {
-        if (kind == "kana") KanaQuiz(kanaVm, high, xp) else VocabQuiz(vocabVm, high, xp)
+        if (kind == "kana") KanaQuiz(kanaVm, high) else VocabQuiz(vocabVm, high)
     }
 }
 
 // ---------------- কানা কুইজ ----------------
 
 @Composable
-private fun KanaQuiz(vm: KanaQuizViewModel, high: Int, xp: Int) {
+private fun KanaQuiz(vm: KanaQuizViewModel, high: Int) {
     val ui by vm.ui.collectAsState()
     val cfg by vm.config.collectAsState()
 
     when (ui.phase) {
         QuizPhase.SETUP -> SetupPanel(
-            mode = cfg.mode, onMode = vm::setMode, highScore = high, xp = xp,
+            highScore = high,
             onStart = { vm.start() }
         ) {
             SectionLabel(tr("কোন কানা?", "Which kana?"))
@@ -87,7 +85,7 @@ private fun KanaQuiz(vm: KanaQuizViewModel, high: Int, xp: Int) {
             )
         }
 
-        QuizPhase.PLAYING -> QuizPlay(ui, onSelect = vm::select, onTimeout = vm::timeout, onNext = vm::next)
+        QuizPhase.PLAYING -> QuizPlay(ui, onSelect = vm::select, onNext = vm::next)
 
         QuizPhase.FINISHED -> QuizResult(ui, onRetry = vm::start, onBack = vm::back)
     }
@@ -96,14 +94,14 @@ private fun KanaQuiz(vm: KanaQuizViewModel, high: Int, xp: Int) {
 // ---------------- শব্দ কুইজ ----------------
 
 @Composable
-private fun VocabQuiz(vm: VocabQuizViewModel, high: Int, xp: Int) {
+private fun VocabQuiz(vm: VocabQuizViewModel, high: Int) {
     val ui by vm.ui.collectAsState()
     val cfg by vm.config.collectAsState()
     val cats by vm.categories.collectAsState()
 
     when (ui.phase) {
         QuizPhase.SETUP -> SetupPanel(
-            mode = cfg.mode, onMode = vm::setMode, highScore = high, xp = xp,
+            highScore = high,
             onStart = { vm.start() }
         ) {
             SectionLabel(tr("লেসন", "Lesson"))
@@ -126,7 +124,7 @@ private fun VocabQuiz(vm: VocabQuizViewModel, high: Int, xp: Int) {
             )
         }
 
-        QuizPhase.PLAYING -> QuizPlay(ui, onSelect = vm::select, onTimeout = vm::timeout, onNext = vm::next)
+        QuizPhase.PLAYING -> QuizPlay(ui, onSelect = vm::select, onNext = vm::next)
 
         QuizPhase.FINISHED -> QuizResult(ui, onRetry = vm::start, onBack = vm::back)
     }
@@ -135,10 +133,7 @@ private fun VocabQuiz(vm: VocabQuizViewModel, high: Int, xp: Int) {
 /** কুইজ শুরুর আগের সেটিংস প্যানেল — দুই কুইজেই একই চেহারা */
 @Composable
 private fun SetupPanel(
-    mode: QuizMode,
-    onMode: (QuizMode) -> Unit,
     highScore: Int,
-    xp: Int,
     onStart: () -> Unit,
     options: @Composable ColumnScope.() -> Unit
 ) {
@@ -146,69 +141,32 @@ private fun SetupPanel(
     Column(
         Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(vertical = 8.dp)
     ) {
-        SegmentedTabs(
-            options = listOf(tr("আনলিমিটেড", "Unlimited"), tr("চ্যালেঞ্জ", "Challenge")),
-            selectedIndex = mode.ordinal,
-            onSelect = { onMode(QuizMode.values()[it]) }
-        )
-        Spacer(Modifier.height(12.dp))
-        if (mode == QuizMode.UNLIMITED) {
-            SoftCard(
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp),
-                color = cs.tertiaryContainer,
-                borderColor = cs.tertiaryContainer
-            ) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        AppIcon(AppIcons.Trophy, size = 28.dp, tint = cs.onTertiaryContainer)
-                        Spacer(Modifier.width(12.dp))
-                        Column {
-                            Text(tr("হাই স্কোর", "High score"), style = MaterialTheme.typography.labelLarge, color = cs.onTertiaryContainer)
-                            Text("$highScore", style = MaterialTheme.typography.headlineSmall, color = cs.onTertiaryContainer)
-                        }
+        SoftCard(
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp),
+            color = cs.tertiaryContainer,
+            borderColor = cs.tertiaryContainer
+        ) {
+            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    AppIcon(AppIcons.Trophy, size = 28.dp, tint = cs.onTertiaryContainer)
+                    Spacer(Modifier.width(12.dp))
+                    Column {
+                        Text(tr("হাই স্কোর", "High score"), style = MaterialTheme.typography.labelLarge, color = cs.onTertiaryContainer)
+                        Text("$highScore", style = MaterialTheme.typography.headlineSmall, color = cs.onTertiaryContainer)
                     }
-                    Text(
-                        tr("প্রশ্ন অসীম। একটি ভুল হলে বা মাঝপথে বের হয়ে গেলে রান শেষ — আবার নতুন করে শুরু। টানা সঠিক উত্তরই আপনার স্কোর। এই মোডে XP নেই, শুধু হাই স্কোর।", "Questions are endless. One wrong answer, or leaving midway, ends the run — start over from scratch. Your score is your streak of correct answers. No XP in this mode, just the high score."),
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = cs.onTertiaryContainer
-                    )
                 }
-            }
-        } else {
-            SoftCard(
-                modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp),
-                color = cs.secondaryContainer,
-                borderColor = cs.secondaryContainer
-            ) {
-                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        AppIcon(AppIcons.Target, size = 18.dp, tint = cs.onSecondaryContainer)
-                        Spacer(Modifier.width(8.dp))
-                        Text(
-                            tr("লেভেল ${Gamification.level(xp)} · $xp XP", "Level ${Gamification.level(xp)} · $xp XP"),
-                            style = MaterialTheme.typography.titleSmall,
-                            color = cs.onSecondaryContainer,
-                            modifier = Modifier.weight(1f)
-                        )
-                        Text(
-                            "${xp % Gamification.XP_PER_LEVEL} / ${Gamification.XP_PER_LEVEL}",
-                            style = MaterialTheme.typography.labelMedium,
-                            color = cs.onSecondaryContainer
-                        )
-                    }
-                    AppProgressBar(progress = Gamification.levelProgress(xp), height = 6.dp)
-                    Text(
-                        tr("${Gamification.CHALLENGE_QUESTIONS}টি প্রশ্ন, প্রতিটিতে ${Gamification.CHALLENGE_SECONDS} সেকেন্ড। সঠিক উত্তরে +${Gamification.XP_CORRECT} XP; প্রথম ৫ সেকেন্ডে দিলে +${Gamification.XP_SPEED_BONUS} বোনাস; সব ঠিক হলে +${Gamification.XP_PERFECT_BONUS}। সময় শেষ হলে উত্তর ভুল ধরা হয়, তবে কুইজ চলতে থাকে।", "${Gamification.CHALLENGE_QUESTIONS} questions, ${Gamification.CHALLENGE_SECONDS} seconds each. +${Gamification.XP_CORRECT} XP per correct answer; +${Gamification.XP_SPEED_BONUS} bonus for answering in the first 5 seconds; +${Gamification.XP_PERFECT_BONUS} if all are correct. When time runs out the answer counts as wrong, but the quiz continues."),
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = cs.onSecondaryContainer
-                    )
-                }
+                Text(
+                    tr("প্রশ্ন অসীম। শুরু হলেই সময় চলতে থাকে ও প্রশ্ন গোনা হয়। একটি ভুল হলে বা মাঝপথে বের হয়ে গেলে রান শেষ — আবার নতুন করে শুরু। টানা সঠিক উত্তরই আপনার স্কোর।",
+                        "Questions are endless. The clock starts and questions are counted as soon as you begin. One wrong answer, or leaving midway, ends the run — start over from scratch. Your score is your streak of correct answers."),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = cs.onTertiaryContainer
+                )
             }
         }
         options()
         Spacer(Modifier.height(20.dp))
         ActionButton(
-            text = if (mode == QuizMode.UNLIMITED) tr("আনলিমিটেড শুরু করুন", "Start Unlimited") else tr("চ্যালেঞ্জ শুরু করুন", "Start Challenge"),
+            text = tr("কুইজ শুরু করুন", "Start quiz"),
             onClick = onStart,
             modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp)
         )

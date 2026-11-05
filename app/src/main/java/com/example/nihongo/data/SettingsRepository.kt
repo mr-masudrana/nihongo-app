@@ -1,7 +1,6 @@
 package com.example.nihongo.data
 
 import android.content.Context
-import com.example.nihongo.domain.Gamification
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -21,7 +20,7 @@ fun isEnglishUi(lang: AppLang): Boolean = when (lang) {
 /** শব্দ কার্ডের যে অংশগুলো দেখানো/লুকানো যায় */
 enum class WordField(val label: String, val labelEn: String, val hint: String, val hintEn: String) {
     WORD("কাঞ্জি / লেখা", "Kanji / writing", "শব্দের মূল লেখার রূপ", "The word as written"),
-    READING("কানা পড়া", "Kana reading", "হিরাগানা / কাতাকানায় উচ্চারণ", "Pronunciation in hiragana / katakana"),
+    READING("কানা পড়া", "Kana reading", "মূল অংশ — সবসময় চালু", "Main part — always on"),
     ROMAJI("রোমাজি", "Romaji", "ইংরেজি হরফে উচ্চারণ", "Pronunciation in Latin letters"),
     BN("বাংলা অর্থ", "Bengali meaning", "বাংলা অর্থ ও ব্যবহারের টীকা", "Bengali meaning and usage notes"),
     EN("ইংরেজি অর্থ", "English meaning", "ইংরেজি অর্থ", "English meaning")
@@ -29,17 +28,24 @@ enum class WordField(val label: String, val labelEn: String, val hint: String, v
 
 /** themeMode: 0 = সিস্টেম অনুযায়ী, 1 = লাইট, 2 = ডার্ক */
 data class AppSettings(
-    val dailyGoal: Int = Gamification.DAILY_GOAL,
     val themeMode: Int = 0,
     val ttsRate: Float = 1.0f,
     val userName: String = "",
     val lang: AppLang = AppLang.SYSTEM,
     val audioOn: Boolean = true,
     val photoVersion: Long = 0L,  // ছবি বদলালে বাড়ে — UI নতুন করে লোড করে
-    /** শব্দ কার্ডে যেগুলো দেখানো হবে (কমপক্ষে একটি সবসময় চালু থাকে) */
+    /** ব্যবহারকারীর বাছা অংশ (কানা পড়া ও অ্যাপের ভাষার অর্থ এখানে যা-ই থাকুক, সবসময় দেখানো হয়) */
     val wordShow: Set<WordField> = WordField.values().toSet()
 ) {
-    fun shows(f: WordField) = f in wordShow
+    /** কানা পড়া সবসময় চালু; অ্যাপের ভাষার অর্থও (বাংলা UI-তে BN, ইংরেজিতে EN) সবসময় চালু */
+    fun locked(f: WordField): Boolean {
+        val english = isEnglishUi(lang)
+        return f == WordField.READING ||
+            (f == WordField.BN && !english) ||
+            (f == WordField.EN && english)
+    }
+
+    fun shows(f: WordField) = locked(f) || f in wordShow
 }
 
 /** সেটিংস SharedPreferences-এ থাকে (Room রিসেট হলেও মুছবে না) */
@@ -49,7 +55,6 @@ class SettingsRepository private constructor(context: Context) {
     val settings: StateFlow<AppSettings> = _settings.asStateFlow()
 
     private fun load() = AppSettings(
-        dailyGoal = prefs.getInt("dailyGoal", Gamification.DAILY_GOAL),
         themeMode = prefs.getInt("themeMode", 0),
         ttsRate = prefs.getFloat("ttsRate", 1.0f),
         userName = prefs.getString("userName", "").orEmpty(),
@@ -57,14 +62,7 @@ class SettingsRepository private constructor(context: Context) {
         audioOn = prefs.getBoolean("audioOn", true),
         photoVersion = prefs.getLong("photoVersion", 0L),
         wordShow = WordField.values().filter { prefs.getBoolean("show_${it.name}", true) }.toSet()
-            .ifEmpty { WordField.values().toSet() }
     )
-
-    @Synchronized
-    fun setDailyGoal(v: Int) {
-        prefs.edit().putInt("dailyGoal", v).apply()
-        _settings.value = _settings.value.copy(dailyGoal = v)
-    }
 
     @Synchronized
     fun setThemeMode(v: Int) {
@@ -96,12 +94,12 @@ class SettingsRepository private constructor(context: Context) {
         _settings.value = _settings.value.copy(userName = v)
     }
 
-    /** শব্দ কার্ডের একটি অংশ দেখানো/লুকানো। সব লুকানো যায় না — শেষ চালুটি বন্ধ করা যাবে না */
+    /** শব্দ কার্ডের একটি ঐচ্ছিক অংশ দেখানো/লুকানো (কানা পড়া ও মূল অর্থ বাদে) */
     @Synchronized
     fun setWordField(f: WordField, show: Boolean) {
+        if (_settings.value.locked(f)) return // মূল অংশ বন্ধ করা যায় না
         val cur = _settings.value.wordShow
         val next = if (show) cur + f else cur - f
-        if (next.isEmpty()) return
         prefs.edit().putBoolean("show_${f.name}", show).apply()
         _settings.value = _settings.value.copy(wordShow = next)
     }

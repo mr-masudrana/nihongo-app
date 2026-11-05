@@ -14,8 +14,7 @@ import kotlinx.coroutines.launch
 
 data class KanaQuizConfig(
     val scripts: String = "hiragana",   // "hiragana" | "katakana" | "both"
-    val dir: KanaDir = KanaDir.KANA_TO_ROMAJI,
-    val mode: QuizMode = QuizMode.UNLIMITED
+    val dir: KanaDir = KanaDir.KANA_TO_ROMAJI
 )
 
 class KanaQuizViewModel(app: Application) : AndroidViewModel(app) {
@@ -27,7 +26,6 @@ class KanaQuizViewModel(app: Application) : AndroidViewModel(app) {
 
     fun setScripts(s: String) { config.update { it.copy(scripts = s) } }
     fun setDir(d: KanaDir) { config.update { it.copy(dir = d) } }
-    fun setMode(m: QuizMode) { config.update { it.copy(mode = m) } }
 
     fun start() {
         viewModelScope.launch {
@@ -35,15 +33,14 @@ class KanaQuizViewModel(app: Application) : AndroidViewModel(app) {
             val c = config.value
             val scripts = if (c.scripts == "both") setOf("hiragana", "katakana") else setOf(c.scripts)
             val all = repo.allKana()
-            runner.start("kana", c.mode) {
+            runner.start("kana") {
                 // পুরো পুল শাফল করে দেওয়া হয়; আনলিমিটেডে শেষ হলে আবার নতুন শাফল
                 QuizBuilder.kanaQuestions(all, scripts, c.dir, count = Int.MAX_VALUE)
             }
         }
     }
 
-    fun select(i: Int, fractionLeft: Float) { runner.select(i, fractionLeft) }
-    fun timeout() { runner.timeout() }
+    fun select(i: Int) { runner.select(i) }
     fun next() { runner.next() }
     fun back() { runner.backToSetup() }
 }

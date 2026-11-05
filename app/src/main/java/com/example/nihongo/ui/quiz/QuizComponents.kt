@@ -46,7 +46,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.nihongo.domain.Gamification
+import android.os.SystemClock
+import kotlinx.coroutines.delay
 import com.example.nihongo.ui.components.ActionButton
 import com.example.nihongo.ui.components.AppProgressBar
 import com.example.nihongo.ui.components.BigText
@@ -64,8 +65,7 @@ private val optionLettersEn = listOf("A", "B", "C", "D", "E")
 @Composable
 fun QuizPlay(
     ui: QuizUi,
-    onSelect: (Int, Float) -> Unit,
-    onTimeout: () -> Unit,
+    onSelect: (Int) -> Unit,
     onNext: () -> Unit
 ) {
     val q = ui.current ?: return
@@ -73,22 +73,15 @@ fun QuizPlay(
     val tts = LocalTts.current
     val haptic = LocalHapticFeedback.current
 
-    // চ্যালেঞ্জ মোডের কাউন্টডাউন: প্রতি প্রশ্নে ১৫ সেকেন্ড; উত্তর দিলে থেমে যায়
-    val totalMs = Gamification.CHALLENGE_SECONDS * 1000L
-    val timed = ui.mode == QuizMode.CHALLENGE
-    var leftMs by remember(q) { mutableStateOf(totalMs) }
-    val onTimeoutNow by rememberUpdatedState(onTimeout)
-    LaunchedEffect(q, ui.answered) {
-        if (!timed || ui.answered) return@LaunchedEffect
-        val start = withFrameNanos { it }
-        while (leftMs > 0) {
-            withFrameNanos { now ->
-                val left = (totalMs - (now - start) / 1_000_000L).coerceAtLeast(0L)
-                if (leftMs - left >= 50L || left == 0L) leftMs = left
-            }
+    // স্টপওয়াচ: কুইজ শুরু থেকে চলে, ভুল উত্তরে থামে
+    var nowMs by remember { mutableStateOf(SystemClock.elapsedRealtime()) }
+    LaunchedEffect(ui.over) {
+        while (!ui.over) {
+            nowMs = SystemClock.elapsedRealtime()
+            delay(250)
         }
-        onTimeoutNow()
     }
+    val elapsed = (if (ui.finishedAt > 0L) ui.finishedAt else nowMs) - ui.startedAt
 
     // উত্তর দেওয়ার পর সঠিক উচ্চারণ বাজাও
     LaunchedEffect(q, ui.selected) {
@@ -103,38 +96,18 @@ fun QuizPlay(
                 .padding(horizontal = 20.dp, vertical = 8.dp),
             verticalArrangement = Arrangement.spacedBy(12.dp)
         ) {
-            if (timed) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    StatPill(tr("প্রশ্ন ${ui.index + 1} / ${ui.total}", "Question ${ui.index + 1} / ${ui.total}"), cs.primaryContainer, cs.onPrimaryContainer)
-                    Spacer(Modifier.weight(1f))
-                    StatPill(tr("সঠিক: ${ui.score}", "Correct: ${ui.score}"), cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
-                }
-                val fraction = leftMs.toFloat() / totalMs
-                val urgent = leftMs <= 5_000L && !ui.answered
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    AppProgressBar(
-                        progress = fraction,
-                        modifier = Modifier.weight(1f),
-                        color = if (urgent) cs.error else cs.primary
-                    )
-                    Spacer(Modifier.width(12.dp))
-                    Text(
-                        "${(leftMs + 999L) / 1000L}s",
-                        style = MaterialTheme.typography.labelLarge,
-                        color = if (urgent) cs.error else cs.onSurfaceVariant,
-                        modifier = Modifier.width(36.dp),
-                        textAlign = TextAlign.End
-                    )
-                }
-            } else {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    StatPill(tr("স্কোর: ${ui.score}", "Score: ${ui.score}"), cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Check)
-                    Spacer(Modifier.weight(1f))
-                    StatPill(
-                        tr("হাই স্কোর: ${maxOf(ui.highScore, ui.score)}", "High score: ${maxOf(ui.highScore, ui.score)}"),
-                        cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Trophy
-                    )
-                }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                StatPill(tr("প্রশ্ন ${ui.index + 1}", "Question ${ui.index + 1}"), cs.primaryContainer, cs.onPrimaryContainer)
+                Spacer(Modifier.weight(1f))
+                StatPill(tr("সময় ${formatTime(elapsed)}", "Time ${formatTime(elapsed)}"), cs.secondaryContainer, cs.onSecondaryContainer)
+            }
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                StatPill(tr("স্কোর: ${ui.score}", "Score: ${ui.score}"), cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Check)
+                Spacer(Modifier.weight(1f))
+                StatPill(
+                    tr("হাই স্কোর: ${maxOf(ui.highScore, ui.score)}", "High score: ${maxOf(ui.highScore, ui.score)}"),
+                    cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Trophy
+                )
             }
 
             // প্রশ্ন কার্ড
@@ -177,7 +150,7 @@ fun QuizPlay(
                     isSelected = i == ui.selected,
                     onClick = {
                         haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
-                        onSelect(i, leftMs.toFloat() / totalMs)
+                        onSelect(i)
                     }
                 )
             }
@@ -205,9 +178,7 @@ fun QuizPlay(
                     )
                     Spacer(Modifier.width(8.dp))
                     Text(
-                        if (correct) {
-                            if (timed) tr("সঠিক!  +${ui.lastXp} XP", "Correct!  +${ui.lastXp} XP") else tr("সঠিক!", "Correct!")
-                        } else if (ui.timedOut) tr("সময় শেষ!", "Time's up!") else tr("ভুল হয়েছে", "Wrong"),
+                        if (correct) tr("সঠিক!", "Correct!") else tr("ভুল হয়েছে", "Wrong"),
                         style = MaterialTheme.typography.titleLarge,
                         color = if (correct) cs.onTertiaryContainer else cs.onErrorContainer
                     )
@@ -315,8 +286,6 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
         return
     }
 
-    if (ui.mode == QuizMode.CHALLENGE) { ChallengeResult(ui, onRetry, onBack); return }
-
     val ringColor = if (ui.newRecord) cs.tertiary else cs.primary
     val message = when {
         ui.newRecord -> tr("নতুন হাই স্কোর!", "New high score!")
@@ -350,6 +319,11 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
         Spacer(Modifier.height(12.dp))
         StatPill(tr("হাই স্কোর: ${ui.highScore}", "High score: ${ui.highScore}"), cs.tertiaryContainer, cs.onTertiaryContainer, icon = AppIcons.Trophy)
         Spacer(Modifier.height(8.dp))
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            StatPill(tr("সময়: ${formatTime(ui.totalMs)}", "Time: ${formatTime(ui.totalMs)}"), cs.secondaryContainer, cs.onSecondaryContainer)
+            StatPill(tr("প্রশ্ন: ${ui.answeredCount}", "Questions: ${ui.answeredCount}"), cs.primaryContainer, cs.onPrimaryContainer)
+        }
+        Spacer(Modifier.height(8.dp))
         Spacer(Modifier.height(28.dp))
         ActionButton(tr("আবার শুরু করুন", "Start again"), onClick = onRetry, modifier = Modifier.fillMaxWidth())
         Spacer(Modifier.height(10.dp))
@@ -360,77 +334,8 @@ fun QuizResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
     }
 }
 
-@Composable
-private fun ChallengeResult(ui: QuizUi, onRetry: () -> Unit, onBack: () -> Unit) {
-    val cs = MaterialTheme.colorScheme
-    val total = ui.total
-    val pct = if (total > 0) ui.score * 100 / total else 0
-    val (resultIcon, message) = when {
-        pct == 100 -> AppIcons.Trophy to tr("অসাধারণ! সবগুলো সঠিক!", "Outstanding! All correct!")
-        pct >= 70 -> AppIcons.Star to tr("দারুণ করেছেন!", "Great job!")
-        pct >= 40 -> AppIcons.ThumbUp to tr("ভালো চেষ্টা — আরেকবার খেলে দেখুন", "Good try — play once more")
-        else -> AppIcons.Fire to tr("অনুশীলন চালিয়ে যান, পারবেন!", "Keep practicing — you can do it!")
-    }
-    val ringColor = if (pct >= 70) cs.tertiary else if (pct >= 40) cs.primary else cs.secondary
-    val xpNow = ui.xpAtStart + ui.xpEarned
-    val level = Gamification.level(xpNow)
-    val levelUp = level > Gamification.level(ui.xpAtStart)
-
-    Column(
-        Modifier
-            .fillMaxSize()
-            .verticalScroll(rememberScrollState())
-            .padding(24.dp)
-            .entrance(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        ProgressRing(
-            progress = if (total > 0) ui.score.toFloat() / total else 0f,
-            diameter = 190.dp, strokeWidth = 16.dp, color = ringColor
-        ) {
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                AppIcon(resultIcon, size = 40.dp, tint = ringColor)
-                BigText("${ui.score} / $total", 30.sp, color = cs.onSurface, weight = FontWeight.Bold)
-            }
-        }
-        Spacer(Modifier.height(20.dp))
-        Text(message, style = MaterialTheme.typography.titleLarge, color = cs.onSurface, textAlign = TextAlign.Center)
-        Spacer(Modifier.height(12.dp))
-        StatPill(tr("এই কুইজে অর্জন: +${ui.xpEarned} XP", "Earned this quiz: +${ui.xpEarned} XP"), cs.primaryContainer, cs.onPrimaryContainer, icon = AppIcons.Star)
-        if (ui.perfectBonus > 0) {
-            Spacer(Modifier.height(8.dp))
-            Text(
-                tr("পারফেক্ট বোনাস +${ui.perfectBonus} XP যোগ হয়েছে", "Perfect bonus +${ui.perfectBonus} XP added"),
-                style = MaterialTheme.typography.bodyMedium,
-                color = cs.onSurfaceVariant
-            )
-        }
-        Spacer(Modifier.height(20.dp))
-        SoftCard(Modifier.fillMaxWidth()) {
-            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(
-                        if (levelUp) tr("লেভেল আপ! এখন লেভেল $level", "Level up! Now level $level") else tr("লেভেল $level", "Level $level"),
-                        style = MaterialTheme.typography.titleMedium,
-                        color = if (levelUp) cs.tertiary else cs.onSurface,
-                        modifier = Modifier.weight(1f)
-                    )
-                    Text(
-                        "${xpNow % Gamification.XP_PER_LEVEL} / ${Gamification.XP_PER_LEVEL} XP",
-                        style = MaterialTheme.typography.labelMedium,
-                        color = cs.onSurfaceVariant
-                    )
-                }
-                AppProgressBar(progress = Gamification.levelProgress(xpNow))
-            }
-        }
-        Spacer(Modifier.height(24.dp))
-        ActionButton(tr("আবার খেলুন", "Play again"), onClick = onRetry, modifier = Modifier.fillMaxWidth())
-        Spacer(Modifier.height(10.dp))
-        ActionButton(
-            tr("সেটিংসে ফিরুন", "Back to settings"), onClick = onBack, modifier = Modifier.fillMaxWidth(),
-            container = cs.surfaceContainerHigh, content = cs.onSurface
-        )
-    }
+/** মিলিসেকেন্ড → mm:ss */
+private fun formatTime(ms: Long): String {
+    val total = (ms / 1000).coerceAtLeast(0)
+    return "%02d:%02d".format(total / 60, total % 60)
 }

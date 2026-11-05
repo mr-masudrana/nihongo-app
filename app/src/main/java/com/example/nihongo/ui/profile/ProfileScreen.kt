@@ -103,11 +103,9 @@ fun ProfileAvatar(version: Long, name: String, size: Dp, modifier: Modifier = Mo
 fun ProfileScreen(vm: SettingsViewModel, statsVm: StatsViewModel, onOpenSettings: () -> Unit) {
     val s by vm.settings.collectAsState()
     val st by statsVm.stats.collectAsState()
-    val goal by statsVm.dailyGoal.collectAsState()
     val cs = MaterialTheme.colorScheme
 
     val today = remember(st) { Gamification.dayOf() }
-    val xpToday = Gamification.xpToday(st, today)
     val streak = Gamification.currentStreak(st, today)
     val hasPhoto = remember(s.photoVersion) { vm.hasPhoto() }
     var editName by rememberSaveable { mutableStateOf(false) }
@@ -150,12 +148,12 @@ fun ProfileScreen(vm: SettingsViewModel, statsVm: StatsViewModel, onOpenSettings
         ) {
             IdentityCard(
                 name = s.userName, photoVersion = s.photoVersion, hasPhoto = hasPhoto,
-                xp = st.xp, streak = streak, bestStreak = st.bestStreak, quizzes = st.quizzes,
+                streak = streak, bestStreak = st.bestStreak, quizzes = st.quizzes,
                 onPickPhoto = { pickPhoto() },
                 onRemovePhoto = vm::removePhoto,
                 onEditName = { editName = true }
             )
-            GoalCard(xpToday, goal)
+            HighScoreCard(st)
         }
     }
 
@@ -171,12 +169,11 @@ fun ProfileScreen(vm: SettingsViewModel, statsVm: StatsViewModel, onOpenSettings
 @Composable
 private fun IdentityCard(
     name: String, photoVersion: Long, hasPhoto: Boolean,
-    xp: Int, streak: Int, bestStreak: Int, quizzes: Int,
+    streak: Int, bestStreak: Int, quizzes: Int,
     onPickPhoto: () -> Unit, onRemovePhoto: () -> Unit, onEditName: () -> Unit
 ) {
     val cs = MaterialTheme.colorScheme
     val brand = Brush.linearGradient(listOf(Color(0xFF3F51B5), Color(0xFF7E57C2), Color(0xFFD86C9A)))
-    val progress = Gamification.levelProgress(xp)
     Column(
         Modifier
             .padding(horizontal = 20.dp)
@@ -219,10 +216,6 @@ private fun IdentityCard(
                     Spacer(Modifier.width(8.dp))
                     AppIcon(AppIcons.Edit, size = 18.dp, tint = Color.White.copy(alpha = 0.9f))
                 }
-                Text(
-                    tr("লেভেল ${Gamification.level(xp)} · $xp XP", "Level ${Gamification.level(xp)} · $xp XP"),
-                    style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.92f)
-                )
                 if (hasPhoto) {
                     Text(
                         tr("ছবি মুছুন", "Remove photo"),
@@ -232,18 +225,6 @@ private fun IdentityCard(
                     )
                 }
             }
-        }
-
-        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            Row(Modifier.fillMaxWidth()) {
-                Text(tr("পরের লেভেল", "Next level"), style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f))
-                Spacer(Modifier.weight(1f))
-                Text(
-                    "${(progress * Gamification.XP_PER_LEVEL).toInt()} / ${Gamification.XP_PER_LEVEL} XP",
-                    style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.9f)
-                )
-            }
-            AppProgressBar(progress = progress, height = 6.dp, color = Color.White, track = Color.White.copy(alpha = 0.25f))
         }
 
         Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -270,9 +251,15 @@ private fun ProfileStat(icon: androidx.compose.ui.graphics.vector.ImageVector, v
     }
 }
 
+/** তিন সেকশনের হাই স্কোর (টানা সঠিক উত্তর) */
 @Composable
-private fun GoalCard(xpToday: Int, goal: Int) {
+private fun HighScoreCard(st: com.example.nihongo.domain.Stats) {
     val cs = MaterialTheme.colorScheme
+    val rows = listOf(
+        Triple("kana", tr("Basic (কানা)", "Basic (Kana)"), cs.primary),
+        Triple("n5", "N5", cs.secondary),
+        Triple("n4", "N4", cs.tertiary)
+    )
     SoftCard(Modifier.fillMaxWidth().padding(horizontal = 20.dp), shape = RoundedCornerShape(24.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -280,20 +267,26 @@ private fun GoalCard(xpToday: Int, goal: Int) {
                     Modifier
                         .size(42.dp)
                         .clip(RoundedCornerShape(13.dp))
-                        .background(cs.primary.copy(alpha = 0.14f)),
+                        .background(cs.tertiary.copy(alpha = 0.14f)),
                     contentAlignment = Alignment.Center
-                ) { AppIcon(AppIcons.Target, size = 22.dp, tint = cs.primary) }
+                ) { AppIcon(AppIcons.Trophy, size = 22.dp, tint = cs.tertiary) }
                 Spacer(Modifier.width(12.dp))
                 Column(Modifier.weight(1f)) {
-                    Text(tr("আজকের লক্ষ্য", "Today's goal"), style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
+                    Text(tr("হাই স্কোর", "High scores"), style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
                     Text(
-                        if (xpToday >= goal) tr("লক্ষ্য পূর্ণ হয়েছে", "Goal reached") else tr("আর ${goal - xpToday} XP বাকি", "${goal - xpToday} XP to go"),
+                        tr("আনলিমিটেড কুইজে সর্বোচ্চ টানা সঠিক উত্তর", "Longest streak of correct answers in the quiz"),
                         style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant
                     )
                 }
-                Text("$xpToday / $goal XP", style = MaterialTheme.typography.titleSmall, color = cs.primary)
             }
-            AppProgressBar(progress = if (goal > 0) xpToday.toFloat() / goal else 0f)
+            rows.forEach { (kind, label, color) ->
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Box(Modifier.size(width = 4.dp, height = 20.dp).clip(CircleShape).background(color))
+                    Spacer(Modifier.width(10.dp))
+                    Text(label, style = MaterialTheme.typography.titleSmall, color = cs.onSurface, modifier = Modifier.weight(1f))
+                    Text("${st.highScore(kind)}", style = MaterialTheme.typography.titleLarge, color = color)
+                }
+            }
         }
     }
 }

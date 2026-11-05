@@ -1,5 +1,6 @@
 package com.example.nihongo.ui.learn
 
+import com.example.nihongo.ui.components.LocalEnglish
 import com.example.nihongo.ui.components.tr
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -261,13 +262,11 @@ fun WordList(list: List<WordItem>) {
     val settings by SettingsRepository.get(ctx).settings.collectAsState()
     val tts = LocalTts.current
     val cs = MaterialTheme.colorScheme
+    val english = LocalEnglish.current
     val showWord = settings.shows(WordField.WORD)
-    val showReading = settings.shows(WordField.READING)
     val showRomaji = settings.shows(WordField.ROMAJI)
     val showBn = settings.shows(WordField.BN)
     val showEn = settings.shows(WordField.EN)
-    val hasLeft = showWord || showReading || showRomaji
-    val hasRight = showBn || showEn
 
     LazyColumn(
         Modifier.fillMaxSize(),
@@ -275,55 +274,48 @@ fun WordList(list: List<WordItem>) {
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         items(list) { w ->
+            // মূল অর্থ = অ্যাপের ভাষা অনুযায়ী (ইংরেজি না থাকলে বাংলা)
+            val mainMeaning = if (english && w.en.isNotBlank()) w.en else w.bn
+            val otherMeaning = when {
+                english && showBn -> w.bn
+                !english && showEn -> w.en
+                else -> ""
+            }
             SoftCard(Modifier.fillMaxWidth(), onClick = { tts.speak(w.reading) }) {
                 Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-                    if (hasLeft) {
-                        Column(Modifier.weight(1f)) {
-                            // কাঞ্জি লুকানো থাকলে কানা বড় করে দেখাই, যাতে বাঁ দিক ফাঁকা না হয়
-                            if (showWord) {
-                                BigText(w.word, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
-                                if (showReading && w.reading != w.word) {
-                                    Text(w.reading, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
-                                }
-                            } else if (showReading) {
-                                BigText(w.reading, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
-                            }
-                            if (showRomaji) {
-                                Text(w.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
-                            }
+                    Column(Modifier.weight(1f)) {
+                        // কানা পড়া — মূল অংশ, সবসময় বড় করে
+                        BigText(w.reading, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
+                        if (showWord && w.word != w.reading) {
+                            Text(w.word, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
+                        }
+                        if (showRomaji) {
+                            Text(w.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
                         }
                     }
-                    if (hasLeft && hasRight) Spacer(Modifier.width(12.dp))
-                    if (hasRight) {
-                        Column(
-                            Modifier.weight(1f),
-                            horizontalAlignment = if (hasLeft) Alignment.End else Alignment.Start
-                        ) {
-                            val align = if (hasLeft) TextAlign.End else TextAlign.Start
-                            if (showBn) {
-                                Text(
-                                    w.bn,
-                                    style = MaterialTheme.typography.titleMedium,
-                                    color = cs.primary,
-                                    textAlign = align
-                                )
-                            }
-                            if (showEn) {
-                                Text(
-                                    w.en,
-                                    style = if (showBn) MaterialTheme.typography.labelMedium else MaterialTheme.typography.titleMedium,
-                                    color = if (showBn) cs.outline else cs.primary,
-                                    textAlign = align
-                                )
-                            }
-                            if (showBn && w.note.isNotBlank()) {
-                                Text(
-                                    w.note,
-                                    style = MaterialTheme.typography.labelSmall,
-                                    color = cs.tertiary,
-                                    textAlign = align
-                                )
-                            }
+                    Spacer(Modifier.width(12.dp))
+                    Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
+                        Text(
+                            mainMeaning,
+                            style = MaterialTheme.typography.titleMedium,
+                            color = cs.primary,
+                            textAlign = TextAlign.End
+                        )
+                        if (otherMeaning.isNotBlank() && otherMeaning != mainMeaning) {
+                            Text(
+                                otherMeaning,
+                                style = MaterialTheme.typography.labelMedium,
+                                color = cs.outline,
+                                textAlign = TextAlign.End
+                            )
+                        }
+                        if (showBn && w.note.isNotBlank()) {
+                            Text(
+                                w.note,
+                                style = MaterialTheme.typography.labelSmall,
+                                color = cs.tertiary,
+                                textAlign = TextAlign.End
+                            )
                         }
                     }
                 }

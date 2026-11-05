@@ -47,7 +47,6 @@ import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.components.bounceClick
 import kotlin.math.abs
 
-private val GOALS = listOf(20, 30, 50, 100, 150)
 private val RATES = listOf(0.7f, 1.0f, 1.3f)
 
 /** প্রোফাইল পেজের উপরের ডানের সেটিংস আইকন থেকে খোলে; onBack চাপলে প্রোফাইলে ফেরে */
@@ -94,36 +93,31 @@ fun SettingsScreen(vm: SettingsViewModel, onBack: () -> Unit) {
                 .padding(bottom = 28.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp)
         ) {
-            SettingsGroup(AppIcons.Target, cs.primary, tr("দৈনিক XP লক্ষ্য", "Daily XP goal"), tr("প্রতিদিন ${s.dailyGoal} XP", "${s.dailyGoal} XP per day")) {
-                ChipRow(
-                    options = GOALS.map { it.toString() to "$it XP" },
-                    selected = s.dailyGoal.toString(),
-                    onSelect = { vm.setDailyGoal(it.toInt()) },
-                    contentPadding = PaddingValues(0.dp)
-                )
-            }
-
             SettingsGroup(
                 AppIcons.Search, cs.primary, tr("শব্দ কার্ডে কী দেখাবেন", "What to show on word cards"),
-                tr("${s.wordShow.size}টি অংশ দেখানো হচ্ছে — লুকিয়ে নিজেকে যাচাই করুন", "${s.wordShow.size} parts shown — hide some to test yourself")
+                tr("${WordField.values().count { s.shows(it) }}টি অংশ দেখানো হচ্ছে", "${WordField.values().count { s.shows(it) }} parts shown")
             ) {
                 WordField.values().forEach { f ->
-                    val on = s.shows(f)
+                    val locked = s.locked(f)
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
                             Text(tr(f.label, f.labelEn), style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
-                            Text(tr(f.hint, f.hintEn), style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant)
+                            Text(
+                                if (locked && f != WordField.READING) tr("অ্যাপের ভাষা অনুযায়ী মূল অর্থ — সবসময় চালু", "Main meaning for the app language — always on")
+                                else tr(f.hint, f.hintEn),
+                                style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant
+                            )
                         }
                         Switch(
-                            checked = on,
+                            checked = s.shows(f),
                             onCheckedChange = { vm.setWordField(f, it) },
-                            // শেষ চালু অংশটি বন্ধ করা যায় না, নইলে কার্ড ফাঁকা হয়ে যাবে
-                            enabled = !(on && s.wordShow.size == 1)
+                            enabled = !locked
                         )
                     }
                 }
                 Text(
-                    tr("কমপক্ষে একটি অংশ চালু রাখতে হবে। এটি শব্দ তালিকার কার্ডে প্রযোজ্য।", "Keep at least one part on. This applies to cards in the word list."),
+                    tr("কানা পড়া ও অ্যাপের ভাষার অর্থ সবসময় থাকবে; বাকিগুলো ইচ্ছেমতো চালু/বন্ধ করুন। এটি শব্দ তালিকার কার্ডে প্রযোজ্য।",
+                        "The kana reading and the meaning in your app language are always shown; toggle the rest as you like. This applies to cards in the word list."),
                     style = MaterialTheme.typography.labelMedium,
                     color = cs.outline
                 )
