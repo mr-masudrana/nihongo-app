@@ -283,9 +283,10 @@ fun WordList(list: List<WordItem>) {
             }
             SoftCard(Modifier.fillMaxWidth(), onClick = { tts.speak(w.reading) }) {
                 Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
-                    Column(Modifier.weight(1f)) {
-                        // কানা পড়া — মূল অংশ, সবসময় বড় করে
-                        BigText(w.reading, 26.sp, color = cs.onSurface, weight = FontWeight.Medium)
+                    Column(Modifier.weight(1.15f)) {
+                        // কানা পড়া — মূল অংশ। লম্বা শব্দে অক্ষর ছোট হয়, যাতে লাইন না ভাঙে
+                        val readingSize = (140f / w.reading.length.coerceAtLeast(1)).coerceIn(14f, 26f)
+                        BigText(w.reading, readingSize.sp, color = cs.onSurface, weight = FontWeight.Medium)
                         if (showWord && w.word != w.reading) {
                             Text(w.word, style = MaterialTheme.typography.bodyMedium, color = cs.onSurfaceVariant)
                         }
@@ -294,7 +295,7 @@ fun WordList(list: List<WordItem>) {
                         }
                     }
                     Spacer(Modifier.width(12.dp))
-                    Column(Modifier.weight(1f), horizontalAlignment = Alignment.End) {
+                    Column(Modifier.weight(0.85f), horizontalAlignment = Alignment.End) {
                         Text(
                             mainMeaning,
                             style = MaterialTheme.typography.titleMedium,

@@ -1,0 +1,205 @@
+{
+  "lesson": 8,
+  "title": "বিশেষণ: な ও い",
+  "title_en": "Adjectives: な-adjectives and い-adjectives",
+  "points": [
+    {
+      "title": "বিশেষণ কীভাবে ব্যবহৃত হয়",
+      "pattern": "な-adjective／い-adjective",
+      "explain": "জাপানি বিশেষণ দুই ধরনের: な-adjective এবং い-adjective। বিশেষণ বাক্যের শেষে এসে কোনো ব্যক্তি বা বস্তুর অবস্থা/গুণ জানাতে পারে, আবার বিশেষ্যকে বর্ণনা করতেও পারে।",
+      "title_en": "Two types of Japanese adjectives",
+      "pattern_en": "な-adjective／い-adjective",
+      "explain_en": "Japanese adjectives are divided into な-adjectives and い-adjectives. They can describe a subject in a sentence or modify a noun.",
+      "examples": [
+        {
+          "jp": "ワット先生は 親切です。",
+          "romaji": "Watto-sensei wa shinsetsu desu.",
+          "bn": "ওয়াট-সেন্সেই দয়ালু।",
+          "en": "Mr. Watt is kind."
+        },
+        {
+          "jp": "富士山は 高いです。",
+          "romaji": "Fujisan wa takai desu.",
+          "bn": "মাউন্ট ফুজি উঁচু।",
+          "en": "Mt. Fuji is high."
+        }
+      ]
+    },
+    {
+      "title": "N は な-adj／い-adj です — বিশেষণ দিয়ে বর্ণনা",
+      "pattern": "N は な-adj です／N は い-adj です",
+      "explain": "な-adjective-এর পরে です বসে; い-adjective-এর い অক্ষর রেখে です যোগ হয়। না-বাচক রূপে な-adjective-এর সঙ্গে じゃありません এবং い-adjective-এর শেষ い বদলে くないです হয়।",
+      "title_en": "Adjectives as predicates — affirmative and negative",
+      "pattern_en": "N は な-adj です／N は い-adj です",
+      "explain_en": "な-adjectives take です. い-adjectives retain their final い before です. For the negative, use じゃありません with な-adjectives and replace final い with くないです for い-adjectives.",
+      "examples": [
+        {
+          "jp": "ワット先生は 親切です。",
+          "romaji": "Watto-sensei wa shinsetsu desu.",
+          "bn": "ওয়াট-সেন্সেই দয়ালু।",
+          "en": "Mr. Watt is kind."
+        },
+        {
+          "jp": "この 本は おもしろくないです。",
+          "romaji": "Kono hon wa omoshirokunai desu.",
+          "bn": "এই বইটি মজার নয়।",
+          "en": "This book is not interesting."
+        },
+        {
+          "jp": "あそこは 静かじゃありません。",
+          "romaji": "Asoko wa shizuka ja arimasen.",
+          "bn": "ওই জায়গাটি শান্ত নয়।",
+          "en": "It is not quiet there."
+        }
+      ]
+    },
+    {
+      "title": "বিশেষণের প্রশ্ন ও উত্তর",
+      "pattern": "な-adj／い-adj + ですか",
+      "explain": "বিশেষণযুক্ত বাক্যের শেষে か বসিয়ে প্রশ্ন করা হয়। উত্তরে একই বিশেষণ পুনরাবৃত্তি না করে はい／いいえ-এর সঙ্গে সংক্ষিপ্তভাবে বলা যায়।",
+      "title_en": "Questions and answers with adjectives",
+      "pattern_en": "な-adj／い-adj + ですか",
+      "explain_en": "Add か to an adjective sentence to form a question. In the answer, the adjective can be repeated after はい or いいえ.",
+      "examples": [
+        {
+          "jp": "北京は 寒いですか。",
+          "romaji": "Pekin wa samui desu ka.",
+          "bn": "বেইজিং কি ঠান্ডা?",
+          "en": "Is it cold in Beijing?"
+        },
+        {
+          "jp": "はい、寒いです。",
+          "romaji": "Hai, samui desu.",
+          "bn": "হ্যাঁ, ঠান্ডা।",
+          "en": "Yes, it is cold."
+        }
+      ]
+    },
+    {
+      "title": "な-adj な N／い-adj N — বিশেষ্যকে বর্ণনা",
+      "pattern": "な-adj な N／い-adj N",
+      "explain": "বিশেষণ যখন বিশেষ্যের আগে বসে, な-adjective-এর পরে な যোগ হয়; い-adjective-এর রূপ অপরিবর্তিত থাকে।",
+      "title_en": "Adjectives modifying nouns",
+      "pattern_en": "な-adj な N／い-adj N",
+      "explain_en": "When an adjective modifies a noun, な-adjectives take な before the noun, while い-adjectives keep their usual form.",
+      "examples": [
+        {
+          "jp": "ワット先生は 親切な 先生です。",
+          "romaji": "Watto-sensei wa shinsetsu na sensei desu.",
+          "bn": "ওয়াট-সেন্সেই একজন দয়ালু শিক্ষক।",
+          "en": "Mr. Watt is a considerate teacher."
+        },
+        {
+          "jp": "富士山は 高い 山です。",
+          "romaji": "Fujisan wa takai yama desu.",
+          "bn": "মাউন্ট ফুজি একটি উঁচু পাহাড়।",
+          "en": "Mt. Fuji is a high mountain."
+        }
+      ]
+    },
+    {
+      "title": "～が、～ — বিপরীত/বৈপরীত্য বোঝানো",
+      "pattern": "Sentence 1 が、Sentence 2",
+      "explain": "দুটি বক্তব্যের মধ্যে বৈপরীত্য থাকলে が দিয়ে যুক্ত করা হয়। বাংলায় ‘কিন্তু’ অর্থ প্রকাশ করে।",
+      "title_en": "～が、～ — contrasting statements",
+      "pattern_en": "Sentence 1 が、Sentence 2",
+      "explain_en": "が connects two statements in an opposite or contrasting relationship, similar to “but.”",
+      "examples": [
+        {
+          "jp": "日本の 食べ物は おいしいですが、高いです。",
+          "romaji": "Nihon no tabemono wa oishii desu ga, takai desu.",
+          "bn": "জাপানি খাবার সুস্বাদু, কিন্তু দামি।",
+          "en": "Japanese food is delicious, but it is expensive."
+        }
+      ]
+    },
+    {
+      "title": "とても／あまり — মাত্রা বোঝানো",
+      "pattern": "とても + affirmative／あまり + negative",
+      "explain": "とても ইতিবাচক বাক্যে ‘খুব’ অর্থে ব্যবহৃত হয়। あまり সাধারণত না-বাচক বাক্যের সঙ্গে ব্যবহৃত হয়ে ‘তেমন ... নয়’ বোঝায়।",
+      "title_en": "とても／あまり — degree adverbs",
+      "pattern_en": "とても + affirmative／あまり + negative",
+      "explain_en": "とても means “very” and is used with affirmative sentences. あまり is generally used with a negative sentence to mean “not very.”",
+      "examples": [
+        {
+          "jp": "北京は とても 寒いです。",
+          "romaji": "Pekin wa totemo samui desu.",
+          "bn": "বেইজিং খুব ঠান্ডা।",
+          "en": "Beijing is very cold."
+        },
+        {
+          "jp": "上海は あまり 寒くないです。",
+          "romaji": "Shanhai wa amari samukunai desu.",
+          "bn": "সাংহাই তেমন ঠান্ডা নয়।",
+          "en": "Shanghai is not very cold."
+        }
+      ]
+    },
+    {
+      "title": "N は どうですか — কেমন?",
+      "pattern": "N は どうですか",
+      "explain": "কোনো ব্যক্তি, স্থান বা বিষয় সম্পর্কে শ্রোতার অভিজ্ঞতা, মতামত বা অনুভূতি জানতে どうですか ব্যবহার করা হয়।",
+      "title_en": "N は どうですか — asking for an impression",
+      "pattern_en": "N は どうですか",
+      "explain_en": "Use どうですか to ask the listener's impression, opinion or feelings about a person, place or thing.",
+      "examples": [
+        {
+          "jp": "日本の 生活は どうですか。",
+          "romaji": "Nihon no seikatsu wa dō desu ka.",
+          "bn": "জাপানের জীবনযাপন কেমন?",
+          "en": "How do you find life in Japan?"
+        },
+        {
+          "jp": "楽しいです。",
+          "romaji": "Tanoshii desu.",
+          "bn": "মজার।",
+          "en": "It's fun."
+        }
+      ]
+    },
+    {
+      "title": "N₁ は どんな N₂ ですか — কী ধরনের?",
+      "pattern": "N₁ は どんな N₂ ですか",
+      "explain": "どんな বিশেষ্যের আগে বসে কোনো ব্যক্তি, জায়গা বা জিনিসের ধরন বা বৈশিষ্ট্য জানতে প্রশ্ন তৈরি করে।",
+      "title_en": "N₁ は どんな N₂ ですか — asking what kind",
+      "pattern_en": "N₁ は どんな N₂ ですか",
+      "explain_en": "どんな comes before a noun and asks about the type or nature of a person, place or thing.",
+      "examples": [
+        {
+          "jp": "奈良は どんな 町ですか。",
+          "romaji": "Nara wa donna machi desu ka.",
+          "bn": "নারা কী ধরনের শহর?",
+          "en": "What sort of town is Nara?"
+        },
+        {
+          "jp": "古い 町です。",
+          "romaji": "Furui machi desu.",
+          "bn": "এটি একটি পুরোনো শহর।",
+          "en": "It's an old town."
+        }
+      ]
+    },
+    {
+      "title": "そうですね — ভাবা/সম্মতি প্রকাশ",
+      "pattern": "そうですね。",
+      "explain": "কথোপকথনে কিছুক্ষণ ভেবে উত্তর দেওয়া, সম্মতি জানানো বা সহমর্মিতা প্রকাশ করতে そうですね ব্যবহার করা হয়।",
+      "title_en": "そうですね — agreement or thinking pause",
+      "pattern_en": "そうですね。",
+      "explain_en": "そうですね can express agreement or sympathy, and can also be used while the speaker is thinking before answering.",
+      "examples": [
+        {
+          "jp": "お仕事は どうですか。",
+          "romaji": "Oshigoto wa dō desu ka.",
+          "bn": "আপনার কাজ কেমন চলছে?",
+          "en": "How's your work going?"
+        },
+        {
+          "jp": "そうですね。忙しいですが、おもしろいです。",
+          "romaji": "Sō desu ne. Isogashii desu ga, omoshiroi desu.",
+          "bn": "হুম, ব্যস্ততা আছে, তবে মজার।",
+          "en": "Well, it's busy, but it's interesting."
+        }
+      ]
+    }
+  ]
+}

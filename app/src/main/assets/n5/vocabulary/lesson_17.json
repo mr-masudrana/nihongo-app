@@ -1,0 +1,251 @@
+{
+  "lesson": 17,
+  "title": "স্বাস্থ্য, দৈনন্দিন কাজ ও জরুরি অভিব্যক্তি",
+  "words": [
+    {
+      "word": "おぼえます",
+      "reading": "覚えます",
+      "romaji": "oboemasu",
+      "bn": "মুখস্থ করা; মনে রাখা",
+      "en": "memorise"
+    },
+    {
+      "word": "わすれます",
+      "reading": "忘れます",
+      "romaji": "wasuremasu",
+      "bn": "ভুলে যাওয়া",
+      "en": "forget"
+    },
+    {
+      "word": "なくします",
+      "reading": "なくします",
+      "romaji": "nakushimasu",
+      "bn": "হারিয়ে ফেলা",
+      "en": "lose"
+    },
+    {
+      "word": "はらいます",
+      "reading": "払います",
+      "romaji": "haraimasu",
+      "bn": "টাকা পরিশোধ করা",
+      "en": "pay"
+    },
+    {
+      "word": "かえします",
+      "reading": "返します",
+      "romaji": "kaeshimasu",
+      "bn": "ফেরত দেওয়া",
+      "en": "give back, return"
+    },
+    {
+      "word": "でかけます",
+      "reading": "出かけます",
+      "romaji": "dekakemasu",
+      "bn": "বাইরে যাওয়া; বের হওয়া",
+      "en": "go out"
+    },
+    {
+      "word": "ぬぎます",
+      "reading": "脱ぎます",
+      "romaji": "nugimasu",
+      "bn": "খুলে ফেলা (কাপড়/জুতা)",
+      "en": "take off (clothes, shoes, etc.)"
+    },
+    {
+      "word": "もっていきます",
+      "reading": "持って行きます",
+      "romaji": "motte ikimasu",
+      "bn": "সঙ্গে নিয়ে যাওয়া",
+      "en": "take (something)"
+    },
+    {
+      "word": "もってきます",
+      "reading": "持って来ます",
+      "romaji": "motte kimasu",
+      "bn": "সঙ্গে নিয়ে আসা",
+      "en": "bring (something)"
+    },
+    {
+      "word": "しんぱいします",
+      "reading": "心配します",
+      "romaji": "shinpai shimasu",
+      "bn": "চিন্তা করা",
+      "en": "worry"
+    },
+    {
+      "word": "ざんぎょうします",
+      "reading": "残業します",
+      "romaji": "zangyou shimasu",
+      "bn": "অতিরিক্ত সময় কাজ করা; ওভারটাইম করা",
+      "en": "work overtime"
+    },
+    {
+      "word": "しゅっちょうします",
+      "reading": "出張します",
+      "romaji": "shucchou shimasu",
+      "bn": "ব্যবসায়িক কাজে সফর করা",
+      "en": "go on a business trip"
+    },
+    {
+      "word": "のみます [くすりを～]",
+      "reading": "飲みます [薬を～]",
+      "romaji": "nomimasu [kusuri o ~]",
+      "bn": "ওষুধ খাওয়া",
+      "en": "take [medicine]"
+    },
+    {
+      "word": "はいります [おふろに～]",
+      "reading": "入ります [お風呂に～]",
+      "romaji": "hairimasu [ofuro ni ~]",
+      "bn": "গোসল করা; স্নান করা",
+      "en": "take [a bath]"
+    },
+    {
+      "word": "たいせつ [な]",
+      "reading": "大切 [な]",
+      "romaji": "taisetsu [na]",
+      "bn": "গুরুত্বপূর্ণ; মূল্যবান",
+      "en": "important, precious"
+    },
+    {
+      "word": "だいじょうぶ [な]",
+      "reading": "大丈夫 [な]",
+      "romaji": "daijoubu [na]",
+      "bn": "ঠিক আছে; কোনো সমস্যা নেই",
+      "en": "all right"
+    },
+    {
+      "word": "あぶない",
+      "reading": "危ない",
+      "romaji": "abunai",
+      "bn": "বিপজ্জনক",
+      "en": "dangerous"
+    },
+    {
+      "word": "きんえん",
+      "reading": "禁煙",
+      "romaji": "kin'en",
+      "bn": "ধূমপান নিষেধ",
+      "en": "no smoking"
+    },
+    {
+      "word": "けんこうほけんしょう",
+      "reading": "健康保険証",
+      "romaji": "kenkou hokenshou",
+      "bn": "স্বাস্থ্যবিমা কার্ড",
+      "en": "[health] insurance card"
+    },
+    {
+      "word": "ねつ",
+      "reading": "熱",
+      "romaji": "netsu",
+      "bn": "জ্বর; শরীরের তাপমাত্রা",
+      "en": "temperature, fever"
+    },
+    {
+      "word": "びょうき",
+      "reading": "病気",
+      "romaji": "byouki",
+      "bn": "অসুস্থতা; রোগ",
+      "en": "illness, disease"
+    },
+    {
+      "word": "くすり",
+      "reading": "薬",
+      "romaji": "kusuri",
+      "bn": "ওষুধ",
+      "en": "medicine"
+    },
+    {
+      "word": "[お]ふろ",
+      "reading": "[お]風呂",
+      "romaji": "[o]furo",
+      "bn": "গোসল; স্নান",
+      "en": "bath"
+    },
+    {
+      "word": "うわぎ",
+      "reading": "上着",
+      "romaji": "uwagi",
+      "bn": "বাইরের জামা; জ্যাকেট",
+      "en": "jacket, outerwear"
+    },
+    {
+      "word": "したぎ",
+      "reading": "下着",
+      "romaji": "shitagi",
+      "bn": "অন্তর্বাস",
+      "en": "underwear"
+    },
+    {
+      "word": "2、3にち",
+      "reading": "2、3日",
+      "romaji": "ni-san nichi",
+      "bn": "দুই-তিন দিন",
+      "en": "two or three days"
+    },
+    {
+      "word": "2、3～",
+      "reading": "2、3～",
+      "romaji": "ni-san ~",
+      "bn": "দুই-তিনটি/দুই-তিন জন (গণনাসূচক শব্দ অনুযায়ী)",
+      "en": "two or three ~ (with a counter suffix)"
+    },
+    {
+      "word": "～までに",
+      "reading": "～までに",
+      "romaji": "~ made ni",
+      "bn": "～-এর মধ্যে; নির্দিষ্ট সময়সীমার আগে",
+      "en": "before ~, by ~ (time limit)"
+    },
+    {
+      "word": "ですから",
+      "reading": "ですから",
+      "romaji": "desukara",
+      "bn": "তাই; সুতরাং",
+      "en": "therefore, so"
+    },
+    {
+      "word": "どうしましたか",
+      "reading": "どうしましたか",
+      "romaji": "dou shimashita ka",
+      "bn": "কী হয়েছে?",
+      "en": "What's the matter?"
+    },
+    {
+      "word": "のど",
+      "reading": "喉",
+      "romaji": "nodo",
+      "bn": "গলা",
+      "en": "throat"
+    },
+    {
+      "word": "[～が]いたいです",
+      "reading": "[～が]痛いです",
+      "romaji": "[~ ga] itai desu",
+      "bn": "[～] ব্যথা করছে",
+      "en": "(I) have a pain in [my ~]."
+    },
+    {
+      "word": "かぜ",
+      "reading": "風邪",
+      "romaji": "kaze",
+      "bn": "সর্দি-কাশি; ঠান্ডা লাগা",
+      "en": "cold, flu"
+    },
+    {
+      "word": "それから",
+      "reading": "それから",
+      "romaji": "sorekara",
+      "bn": "তারপর; এছাড়াও",
+      "en": "and, furthermore"
+    },
+    {
+      "word": "おだいじに",
+      "reading": "お大事に",
+      "romaji": "odaiji ni",
+      "bn": "তাড়াতাড়ি সুস্থ হয়ে উঠুন; নিজের যত্ন নিন",
+      "en": "Take care of yourself (said to an ill person)"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "lesson": 21,
+  "title": "মতামত, সংবাদ ও দৈনন্দিন কাজ",
+  "words": [
+    {
+      "word": "おもいます",
+      "reading": "思います",
+      "romaji": "omoimasu",
+      "bn": "মনে করা; ভাবা",
+      "en": "think"
+    },
+    {
+      "word": "いいます",
+      "reading": "言います",
+      "romaji": "iimasu",
+      "bn": "বলা",
+      "en": "say"
+    },
+    {
+      "word": "かちます",
+      "reading": "勝ちます",
+      "romaji": "kachimasu",
+      "bn": "জয়ী হওয়া",
+      "en": "win"
+    },
+    {
+      "word": "まけます",
+      "reading": "負けます",
+      "romaji": "makemasu",
+      "bn": "হেরে যাওয়া",
+      "en": "lose, be beaten"
+    },
+    {
+      "word": "あります [おまつりが～]",
+      "reading": "あります [お祭りが～]",
+      "romaji": "arimasu [omatsuri ga ~]",
+      "bn": "(উৎসব) অনুষ্ঠিত হওয়া; আয়োজন করা",
+      "en": "[a festival] be held, take place"
+    },
+    {
+      "word": "やくにたちます",
+      "reading": "役に立ちます",
+      "romaji": "yaku ni tachimasu",
+      "bn": "কাজে লাগা; উপকারী হওয়া",
+      "en": "be useful"
+    },
+    {
+      "word": "うごきます",
+      "reading": "動きます",
+      "romaji": "ugokimasu",
+      "bn": "নড়া; চলা; কাজ করা",
+      "en": "move, work"
+    },
+    {
+      "word": "やめます [かいしゃを～]",
+      "reading": "辞めます [会社を～]",
+      "romaji": "yamemasu [kaisha o ~]",
+      "bn": "চাকরি ছাড়া; কোম্পানি ত্যাগ করা",
+      "en": "quit or retire from a company"
+    },
+    {
+      "word": "きをつけます",
+      "reading": "気をつけます",
+      "romaji": "ki o tsukemasu",
+      "bn": "সতর্ক থাকা; খেয়াল রাখা",
+      "en": "pay attention, take care"
+    },
+    {
+      "word": "りゅうがくします",
+      "reading": "留学します",
+      "romaji": "ryuugaku shimasu",
+      "bn": "বিদেশে পড়াশোনা করা",
+      "en": "study abroad"
+    },
+    {
+      "word": "むだな",
+      "reading": "むだな",
+      "romaji": "muda na",
+      "bn": "অপচয়ী; অর্থহীন",
+      "en": "wasteful"
+    },
+    {
+      "word": "ふべんな",
+      "reading": "不便な",
+      "romaji": "fuben na",
+      "bn": "অসুবিধাজনক",
+      "en": "inconvenient"
+    },
+    {
+      "word": "すごい",
+      "reading": "すごい",
+      "romaji": "sugoi",
+      "bn": "দারুণ; অসাধারণ",
+      "en": "awful, great; amazing"
+    },
+    {
+      "word": "ほんとう",
+      "reading": "本当",
+      "romaji": "hontou",
+      "bn": "সত্য; আসল",
+      "en": "true, truth"
+    },
+    {
+      "word": "うそ",
+      "reading": "うそ",
+      "romaji": "uso",
+      "bn": "মিথ্যা",
+      "en": "lie"
+    },
+    {
+      "word": "じどうしゃ",
+      "reading": "自動車",
+      "romaji": "jidousha",
+      "bn": "মোটরগাড়ি",
+      "en": "car, automobile"
+    },
+    {
+      "word": "こうつう",
+      "reading": "交通",
+      "romaji": "koutsuu",
+      "bn": "যাতায়াত;交通 ব্যবস্থা",
+      "en": "transport, traffic"
+    },
+    {
+      "word": "ぶっか",
+      "reading": "物価",
+      "romaji": "bukka",
+      "bn": "পণ্যের দাম; জীবনযাত্রার ব্যয়",
+      "en": "commodity prices"
+    },
+    {
+      "word": "ほうそう",
+      "reading": "放送",
+      "romaji": "housou",
+      "bn": "সম্প্রচার",
+      "en": "announcement, broadcast"
+    },
+    {
+      "word": "ニュース",
+      "reading": "ニュース",
+      "romaji": "nyuusu",
+      "bn": "খবর; সংবাদ",
+      "en": "news"
+    },
+    {
+      "word": "アニメ",
+      "reading": "アニメ",
+      "romaji": "anime",
+      "bn": "অ্যানিমে; জাপানি অ্যানিমেশন",
+      "en": "anime"
+    },
+    {
+      "word": "マンガ",
+      "reading": "マンガ",
+      "romaji": "manga",
+      "bn": "মাঙ্গা; কমিক বই",
+      "en": "comic book"
+    },
+    {
+      "word": "デザイン",
+      "reading": "デザイン",
+      "romaji": "dezain",
+      "bn": "নকশা; ডিজাইন",
+      "en": "design, artwork"
+    },
+    {
+      "word": "ゆめ",
+      "reading": "夢",
+      "romaji": "yume",
+      "bn": "স্বপ্ন",
+      "en": "dream"
+    },
+    {
+      "word": "てんさい",
+      "reading": "天才",
+      "romaji": "tensai",
+      "bn": "প্রতিভাবান ব্যক্তি; জিনিয়াস",
+      "en": "genius"
+    },
+    {
+      "word": "しあい",
+      "reading": "試合",
+      "romaji": "shiai",
+      "bn": "খেলা; ম্যাচ",
+      "en": "game, match"
+    },
+    {
+      "word": "いけん",
+      "reading": "意見",
+      "romaji": "iken",
+      "bn": "মতামত",
+      "en": "opinion"
+    },
+    {
+      "word": "はなし",
+      "reading": "話",
+      "romaji": "hanashi",
+      "bn": "কথা; বক্তৃতা; গল্প",
+      "en": "talk, speech, story"
+    },
+    {
+      "word": "ちきゅう",
+      "reading": "地球",
+      "romaji": "chikyuu",
+      "bn": "পৃথিবী",
+      "en": "earth"
+    },
+    {
+      "word": "つき",
+      "reading": "月",
+      "romaji": "tsuki",
+      "bn": "চাঁদ",
+      "en": "moon"
+    },
+    {
+      "word": "さいきん",
+      "reading": "最近",
+      "romaji": "saikin",
+      "bn": "সম্প্রতি; আজকাল",
+      "en": "recently, these days"
+    },
+    {
+      "word": "たぶん",
+      "reading": "たぶん",
+      "romaji": "tabun",
+      "bn": "সম্ভবত; হয়তো",
+      "en": "probably, perhaps, maybe"
+    },
+    {
+      "word": "きっと",
+      "reading": "きっと",
+      "romaji": "kitto",
+      "bn": "নিশ্চয়ই; অবশ্যই",
+      "en": "surely, definitely"
+    },
+    {
+      "word": "ほんとうに",
+      "reading": "本当に",
+      "romaji": "hontou ni",
+      "bn": "সত্যিই; আসলেই",
+      "en": "really"
+    },
+    {
+      "word": "そんなに",
+      "reading": "そんなに",
+      "romaji": "sonna ni",
+      "bn": "ততটা (সাধারণত নেতিবাচক বাক্যে)",
+      "en": "not so (used with negatives)"
+    },
+    {
+      "word": "～について",
+      "reading": "～について",
+      "romaji": "~ni tsuite",
+      "bn": "সম্পর্কে; বিষয়ে",
+      "en": "about, concerning"
+    },
+    {
+      "word": "久しぶりですね。",
+      "reading": "久しぶりですね。",
+      "romaji": "hisashiburi desu ne",
+      "bn": "অনেক দিন পর দেখা!",
+      "en": "It's been a long time."
+    },
+    {
+      "word": "～でも飲みませんか。",
+      "reading": "～でも飲みませんか。",
+      "romaji": "~demo nomimasen ka",
+      "bn": "চলুন ~ বা কিছু পান করবেন?",
+      "en": "How about drinking ~ or something?"
+    },
+    {
+      "word": "もちろん",
+      "reading": "もちろん",
+      "romaji": "mochiron",
+      "bn": "অবশ্যই",
+      "en": "of course"
+    },
+    {
+      "word": "もう帰らないと。",
+      "reading": "もう帰らないと。",
+      "romaji": "mou kaeranai to",
+      "bn": "এখন আমাকে ফিরতে হবে",
+      "en": "I have to get home now."
+    }
+  ]
+}

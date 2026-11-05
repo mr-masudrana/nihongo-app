@@ -1,0 +1,151 @@
+{
+  "lesson": 9,
+  "title": "পছন্দ, বোঝা ও কারণ",
+  "title_en": "Likes, understanding and reasons",
+  "points": [
+    {
+      "title": "N が あります／わかります",
+      "pattern": "N が あります／わかります",
+      "explain": "あります (আছে/রয়েছে) এবং わかります (বোঝা) ক্রিয়ার সঙ্গে সংশ্লিষ্ট বস্তু বা বিষয়কে সাধারণত が দিয়ে চিহ্নিত করা হয়।",
+      "title_en": "N が あります／わかります",
+      "pattern_en": "N が あります／わかります",
+      "explain_en": "With あります (have/exist) and わかります (understand), the relevant thing or subject is generally marked by が.",
+      "examples": [
+        {
+          "jp": "わたしは 車が あります。",
+          "romaji": "Watashi wa kuruma ga arimasu.",
+          "bn": "আমার একটি গাড়ি আছে।",
+          "en": "I have a car."
+        },
+        {
+          "jp": "わたしは 日本語が わかります。",
+          "romaji": "Watashi wa nihongo ga wakarimasu.",
+          "bn": "আমি জাপানি বুঝি।",
+          "en": "I understand Japanese."
+        }
+      ]
+    },
+    {
+      "title": "N が 好き／嫌い／上手／下手です",
+      "pattern": "N が 好きです／嫌いです／上手です／下手です",
+      "explain": "পছন্দ, অপছন্দ, দক্ষতা বা অদক্ষতা বোঝাতে 好き, 嫌い, 上手 ও 下手-এর আগে বিষয়বস্তুর পরে が বসে।",
+      "title_en": "N が with likes, dislikes and ability",
+      "pattern_en": "N が 好きです／嫌いです／上手です／下手です",
+      "explain_en": "With 好き (like), 嫌い (dislike), 上手 (good at) and 下手 (poor at), が marks the thing being liked, disliked or the skill being discussed.",
+      "examples": [
+        {
+          "jp": "わたしは イタリア料理が 好きです。",
+          "romaji": "Watashi wa Itaria ryōri ga suki desu.",
+          "bn": "আমি ইতালীয় খাবার পছন্দ করি।",
+          "en": "I like Italian food."
+        },
+        {
+          "jp": "わたしは 日本語が 好きです。",
+          "romaji": "Watashi wa nihongo ga suki desu.",
+          "bn": "আমি জাপানি ভাষা পছন্দ করি।",
+          "en": "I like Japanese."
+        }
+      ]
+    },
+    {
+      "title": "どんな N — কী ধরনের?",
+      "pattern": "どんな N が 好きですか",
+      "explain": "কোনো শ্রেণির মধ্যে কী ধরনের জিনিস পছন্দ তা জানতে どんな N ব্যবহার করা হয়। উত্তরে নির্দিষ্ট নাম বা ধরন বলা যায়।",
+      "title_en": "どんな N — asking what kind",
+      "pattern_en": "どんな N が 好きですか",
+      "explain_en": "Use どんな N to ask what kind of thing someone likes within a category. The answer can name a specific type.",
+      "examples": [
+        {
+          "jp": "どんな スポーツが 好きですか。",
+          "romaji": "Donna supōtsu ga suki desu ka.",
+          "bn": "আপনি কী ধরনের খেলা পছন্দ করেন?",
+          "en": "What sports do you like?"
+        },
+        {
+          "jp": "サッカーが 好きです。",
+          "romaji": "Sakkā ga suki desu.",
+          "bn": "ফুটবল পছন্দ করি।",
+          "en": "I like soccer."
+        }
+      ]
+    },
+    {
+      "title": "よく／だいたい／たくさん／少し／あまり／全然",
+      "pattern": "Adverb + verb/adjective",
+      "explain": "এই ক্রিয়া বিশেষণগুলো ক্রিয়া বা বিশেষণের আগে বসে। ইতিবাচক বাক্যে よく (ভালোভাবে/প্রায়ই), だいたい (মোটামুটি), たくさん (অনেক), 少し (অল্প) ব্যবহার হয়। あまり ও 全然 সাধারণত না-বাচক বাক্যে ‘তেমন নয়’ ও ‘একেবারেই নয়’ বোঝায়।",
+      "title_en": "Adverbs of degree and quantity",
+      "pattern_en": "よく／だいたい／たくさん／少し／あまり／全然 + verb/adjective",
+      "explain_en": "These adverbs appear before verbs or adjectives. In affirmative sentences, よく (well/often), だいたい (mostly), たくさん (a lot) and 少し (a little) are used. あまり and 全然 are generally used with negatives to mean “not very” and “not at all.”",
+      "examples": [
+        {
+          "jp": "英語が よく わかります。",
+          "romaji": "Eigo ga yoku wakarimasu.",
+          "bn": "আমি ইংরেজি ভালো বুঝি।",
+          "en": "I understand English well."
+        },
+        {
+          "jp": "英語が 少し わかります。",
+          "romaji": "Eigo ga sukoshi wakarimasu.",
+          "bn": "আমি অল্প ইংরেজি বুঝি।",
+          "en": "I understand a little English."
+        },
+        {
+          "jp": "英語が あまり わかりません。",
+          "romaji": "Eigo ga amari wakarimasen.",
+          "bn": "আমি ইংরেজি তেমন বুঝি না।",
+          "en": "I don't understand English very well."
+        },
+        {
+          "jp": "お金が 全然 ありません。",
+          "romaji": "Okane ga zenzen arimasen.",
+          "bn": "আমার একেবারেই টাকা নেই।",
+          "en": "I don't have any money at all."
+        }
+      ]
+    },
+    {
+      "title": "～から、～ — কারণ জানানো",
+      "pattern": "Reason から、Result",
+      "explain": "যে বাক্যে কারণ বলা হয় তার শেষে から বসে; এরপর ফলাফল বা সিদ্ধান্ত বলা হয়। উত্তরেও কারণের শেষে から ব্যবহার করা যায়।",
+      "title_en": "～から — giving a reason",
+      "pattern_en": "Reason から、Result",
+      "explain_en": "から follows a statement giving the reason, which is followed by the result or decision. It can also be used at the end of a reply giving a reason.",
+      "examples": [
+        {
+          "jp": "時間が ありませんから、新聞を 読みません。",
+          "romaji": "Jikan ga arimasen kara, shinbun o yomimasen.",
+          "bn": "সময় নেই বলে সংবাদপত্র পড়ি না।",
+          "en": "I don't read newspapers because I don't have time."
+        },
+        {
+          "jp": "時間が ありませんから。",
+          "romaji": "Jikan ga arimasen kara.",
+          "bn": "কারণ আমার সময় নেই।",
+          "en": "Because I don't have time."
+        }
+      ]
+    },
+    {
+      "title": "どうして — কেন?",
+      "pattern": "どうして + sentence ですか／か",
+      "explain": "কোনো কাজ বা ঘটনার কারণ জানতে どうして ব্যবহার করা হয়। উত্তরে কারণের বাক্যের শেষে から বসে।",
+      "title_en": "どうして — asking why",
+      "pattern_en": "どうして + sentence question",
+      "explain_en": "どうして asks the reason for an action or situation. In the reply, から can be placed at the end of the reason.",
+      "examples": [
+        {
+          "jp": "どうして 朝 新聞を 読みませんか。",
+          "romaji": "Dōshite asa shinbun o yomimasen ka.",
+          "bn": "সকালে সংবাদপত্র পড়েন না কেন?",
+          "en": "Why don't you read a newspaper in the morning?"
+        },
+        {
+          "jp": "時間が ありませんから。",
+          "romaji": "Jikan ga arimasen kara.",
+          "bn": "কারণ আমার সময় নেই।",
+          "en": "Because I don't have time."
+        }
+      ]
+    }
+  ]
+}

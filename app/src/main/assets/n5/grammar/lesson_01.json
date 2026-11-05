@@ -1,71 +1,115 @@
 {
- "lesson": 1,
- "title": "নিজের পরিচয়",
- "points": [
-  {
-   "title": "A は B です",
-   "pattern": "A は B です",
-   "explain": "A নিয়ে কথা বলছি এবং A-ই B, এটা বোঝায়। は উচ্চারণ হয় “ওয়া”।",
-   "examples": [
+  "lesson": 1,
+  "title": "নিজের পরিচয় ও পরিচিতি",
+  "title_en": "Introductions and basic sentence patterns",
+  "points": [
     {
-     "jp": "わたしは がくせいです。",
-     "romaji": "Watashi wa gakusei desu.",
-     "bn": "আমি ছাত্র।",
-     "en": "I am a student."
-    }
-   ],
-   "title_en": "A は B です",
-   "pattern_en": "A は B です",
-   "explain_en": "Says that A is B. は is pronounced “wa” here."
-  },
-  {
-   "title": "A は B じゃ ありません",
-   "pattern": "A は B じゃ ありません",
-   "explain": "না-বাচক রূপ। です-এর জায়গায় じゃ ありません বসে।",
-   "examples": [
+      "title": "N₁ は N₂ です — পরিচয় বা শ্রেণি",
+      "pattern": "N₁ は N₂ です",
+      "explain": "は বাক্যের Topic চিহ্নিত করে; এখানে は-এর উচ্চারণ ‘ওয়া’। です বাক্যকে ভদ্র ও সম্পূর্ণ করে।",
+      "title_en": "N₁ は N₂ です — identifying someone or something",
+      "pattern_en": "N₁ は N₂ です",
+      "explain_en": "は marks the topic and is pronounced wa in this use. です makes the statement polite.",
+      "examples": [
+        {
+          "jp": "わたしは マイク・ミラーです。",
+          "romaji": "Watashi wa Maiku Mirā desu.",
+          "bn": "আমি মাইক মিলার।",
+          "en": "I am Mike Miller."
+        },
+        {
+          "jp": "わたしは かいしゃいんです。",
+          "romaji": "Watashi wa kaishain desu.",
+          "bn": "আমি কোম্পানির কর্মচারী।",
+          "en": "I am a company employee."
+        }
+      ]
+    },
     {
-     "jp": "わたしは せんせいじゃ ありません。",
-     "romaji": "Watashi wa sensei ja arimasen.",
-     "bn": "আমি শিক্ষক নই।",
-     "en": "I am not a teacher."
-    }
-   ],
-   "title_en": "A は B じゃ ありません",
-   "pattern_en": "A は B じゃ ありません",
-   "explain_en": "Negative form. じゃ ありません takes the place of です."
-  },
-  {
-   "title": "か — প্রশ্ন",
-   "pattern": "～ですか",
-   "explain": "বাক্যের শেষে か বসালে প্রশ্ন হয়।",
-   "examples": [
+      "title": "N₁ は N₂ じゃありません — না-বাচক বাক্য",
+      "pattern": "N₁ は N₂ じゃありません",
+      "explain": "です-এর না-বাচক রূপ হলো じゃありません। আরও আনুষ্ঠানিকভাবে ではありません ব্যবহার করা যায়।",
+      "title_en": "N₁ は N₂ じゃありません — negative statement",
+      "pattern_en": "N₁ は N₂ じゃありません",
+      "explain_en": "じゃありません is the negative form of です. The more formal alternative is ではありません.",
+      "examples": [
+        {
+          "jp": "サントスさんは がくせいじゃありません。",
+          "romaji": "Santosu-san wa gakusei ja arimasen.",
+          "bn": "মি. সান্তোস ছাত্র নন।",
+          "en": "Mr. Santos is not a student."
+        }
+      ]
+    },
     {
-     "jp": "あなたは がくせいですか。",
-     "romaji": "Anata wa gakusei desu ka.",
-     "bn": "আপনি কি ছাত্র?",
-     "en": "Are you a student?"
-    }
-   ],
-   "title_en": "か — question",
-   "pattern_en": "～ですか",
-   "explain_en": "Put か at the end of a sentence to make it a question."
-  },
-  {
-   "title": "も — ও (সমান)",
-   "pattern": "A も B です",
-   "explain": "আগের বাক্যের মতো একই ব্যাপার বোঝাতে は-এর জায়গায় も বসে।",
-   "examples": [
+      "title": "N₁ は N₂ ですか — হ্যাঁ/না প্রশ্ন",
+      "pattern": "N₁ は N₂ ですか",
+      "explain": "বিবৃতির শেষে か যোগ করলে প্রশ্ন হয়। সাধারণত উত্তরে はい (হ্যাঁ) বা いいえ (না) বলা হয়।",
+      "title_en": "N₁ は N₂ ですか — yes/no questions",
+      "pattern_en": "N₁ は N₂ ですか",
+      "explain_en": "Add か to the end of a statement to form a question. Replies commonly begin with はい or いいえ.",
+      "examples": [
+        {
+          "jp": "ミラーさんは アメリカじんですか。",
+          "romaji": "Mirā-san wa Amerikajin desu ka.",
+          "bn": "মি. মিলার কি আমেরিকান?",
+          "en": "Is Mr. Miller American?"
+        },
+        {
+          "jp": "はい、アメリカじんです。",
+          "romaji": "Hai, Amerikajin desu.",
+          "bn": "হ্যাঁ, তিনি আমেরিকান।",
+          "en": "Yes, he is American."
+        }
+      ]
+    },
     {
-     "jp": "わたしも がくせいです。",
-     "romaji": "Watashi mo gakusei desu.",
-     "bn": "আমিও ছাত্র।",
-     "en": "I am a student, too."
+      "title": "N₁ も — ‘এছাড়াও’",
+      "pattern": "N₁ も N₂ です",
+      "explain": "আগের কথার মতো একই তথ্য অন্য কারও ক্ষেত্রেও প্রযোজ্য হলে は-এর বদলে も ব্যবহার করা হয়।",
+      "title_en": "N₁ も — also, too",
+      "pattern_en": "N₁ も N₂ です",
+      "explain_en": "Use も instead of は when the same information also applies to another person or thing.",
+      "examples": [
+        {
+          "jp": "グプタさんも かいしゃいんです。",
+          "romaji": "Guputa-san mo kaishain desu.",
+          "bn": "মি. গুপ্তাও কোম্পানির কর্মচারী।",
+          "en": "Mr. Gupta is also a company employee."
+        }
+      ]
+    },
+    {
+      "title": "N₁ の N₂ — সম্পর্ক বা所属",
+      "pattern": "N₁ の N₂",
+      "explain": "の দুটি বিশেষ্যকে যুক্ত করে। প্রথম বিশেষ্যটি দ্বিতীয়টির প্রতিষ্ঠান, দল বা所属 বোঝাতে পারে; প্রসঙ্গভেদে মালিকানাও বোঝায়।",
+      "title_en": "N₁ の N₂ — affiliation or relationship",
+      "pattern_en": "N₁ の N₂",
+      "explain_en": "の connects two nouns. The first noun can identify the organization or group associated with the second; it can also show possession depending on context.",
+      "examples": [
+        {
+          "jp": "ミラーさんは IMC の しゃいんです。",
+          "romaji": "Mirā-san wa IMC no shain desu.",
+          "bn": "মি. মিলার IMC-এর কর্মচারী।",
+          "en": "Mr. Miller is an employee of IMC."
+        }
+      ]
+    },
+    {
+      "title": "～さん — ভদ্র সম্বোধন",
+      "pattern": "নাম + さん",
+      "explain": "অন্য ব্যক্তির নাম বা পদবির পরে さん যোগ করে ভদ্রভাবে সম্বোধন করা হয়। নিজের নামের সঙ্গে さん ব্যবহার করা হয় না।",
+      "title_en": "～さん — polite name suffix",
+      "pattern_en": "name + さん",
+      "explain_en": "さん is added to another person's given or family name as a polite form of address. Do not use it with your own name.",
+      "examples": [
+        {
+          "jp": "あの 方は ミラーさんです。",
+          "romaji": "Ano kata wa Mirā-san desu.",
+          "bn": "ওই ব্যক্তি মি. মিলার।",
+          "en": "That person is Mr. Miller."
+        }
+      ]
     }
-   ],
-   "title_en": "も — also",
-   "pattern_en": "A も B です",
-   "explain_en": "も replaces は to say the same thing is true of another topic."
-  }
- ],
- "title_en": "Introducing yourself"
+  ]
 }

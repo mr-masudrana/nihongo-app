@@ -1,29 +1,105 @@
 {
- "lesson": 3,
- "title": "জায়গা ও দিক",
- "points": [
-  {
-   "title": "ここ・そこ・あそこ・どこ",
-   "pattern": "ここ／そこ／あそこ は ～です",
-   "explain": "জায়গা বোঝানোর শব্দ। どこ দিয়ে জায়গা জিজ্ঞেস করা হয়।",
-   "examples": [
+  "lesson": 3,
+  "title": "স্থান ও দিক নির্দেশ",
+  "title_en": "Places and directions",
+  "points": [
     {
-     "jp": "えきは どこですか。",
-     "romaji": "Eki wa doko desu ka.",
-     "bn": "স্টেশন কোথায়?",
-     "en": "Where is the station?"
+      "title": "ここ・そこ・あそこ・どこ — স্থানের নির্দেশক",
+      "pattern": "ここ／そこ／あそこ／どこ",
+      "explain": "ここ বক্তার কাছে, そこ শ্রোতার কাছে এবং あそこ দুজনের থেকে দূরের স্থান বোঝায়। どこ দিয়ে স্থান জানতে চাওয়া হয়।",
+      "title_en": "ここ・そこ・あそこ・どこ — place demonstratives",
+      "pattern_en": "ここ／そこ／あそこ／どこ",
+      "explain_en": "ここ indicates a place near the speaker, そこ near the listener, and あそこ far from both. どこ asks where.",
+      "examples": [
+        {
+          "jp": "トイレは どこですか。",
+          "romaji": "Toire wa doko desu ka.",
+          "bn": "টয়লেট কোথায়?",
+          "en": "Where is the toilet?"
+        },
+        {
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ওই যে ওখানে।",
+          "en": "It's over there."
+        }
+      ]
     },
     {
-     "jp": "えきは あそこです。",
-     "romaji": "Eki wa asoko desu.",
-     "bn": "স্টেশন ঐ যে ওখানে।",
-     "en": "The station is over there."
+      "title": "N は place です — অবস্থান",
+      "pattern": "N は place です",
+      "explain": "কোনো ব্যক্তি বা বস্তু কোথায় আছে তা জানাতে এই বাক্যরীতি ব্যবহার করা হয়।",
+      "title_en": "N は place です — stating a location",
+      "pattern_en": "N は place です",
+      "explain_en": "Use this pattern to state the location of a person, place, or thing.",
+      "examples": [
+        {
+          "jp": "でんわは ２かいです。",
+          "romaji": "Denwa wa nikai desu.",
+          "bn": "টেলিফোন দ্বিতীয় তলায়।",
+          "en": "The telephone is on the second floor."
+        }
+      ]
+    },
+    {
+      "title": "どこ・どちら — কোথায়/কোন দিকে",
+      "pattern": "N は どこ／どちらですか",
+      "explain": "どこ দিয়ে ‘কোথায়’ জিজ্ঞেস করা হয়। どちら ভদ্রতর; এটি ‘কোন দিকে’ বা প্রসঙ্গভেদে কোনো প্রতিষ্ঠান/দেশের পরিচয় জানতে ব্যবহার করা যায়।",
+      "title_en": "どこ・どちら — where or which direction",
+      "pattern_en": "N は どこ／どちらですか",
+      "explain_en": "どこ asks where. どちら is more polite and can ask which direction or, depending on context, which organization or country.",
+      "examples": [
+        {
+          "jp": "おてあらいは どこですか。",
+          "romaji": "Otearai wa doko desu ka.",
+          "bn": "শৌচাগার কোথায়?",
+          "en": "Where is the restroom?"
+        },
+        {
+          "jp": "エレベーターは どちらですか。",
+          "romaji": "Erebētā wa dochira desu ka.",
+          "bn": "লিফট কোন দিকে?",
+          "en": "Which way is the elevator?"
+        }
+      ]
+    },
+    {
+      "title": "N₁ の N₂ — কোথায় তৈরি",
+      "pattern": "N₁ の N₂",
+      "explain": "দেশের নামের পরে পণ্যের নাম বা কোম্পানির নামের পরে পণ্যের নাম বসালে যথাক্রমে উৎপত্তির দেশ বা প্রস্তুতকারক কোম্পানি বোঝায়।",
+      "title_en": "N₁ の N₂ — country or company of origin",
+      "pattern_en": "N₁ の N₂",
+      "explain_en": "A country name before a product can show its country of origin; a company name before a product can identify its manufacturer.",
+      "examples": [
+        {
+          "jp": "これは どこの コンピューターですか。",
+          "romaji": "Kore wa doko no konpyūtā desu ka.",
+          "bn": "এটি কোন দেশের/কোম্পানির কম্পিউটার?",
+          "en": "Where is this computer from?"
+        },
+        {
+          "jp": "日本の コンピューターです。",
+          "romaji": "Nihon no konpyūtā desu.",
+          "bn": "এটি জাপানের কম্পিউটার।",
+          "en": "It's a Japanese computer."
+        }
+      ]
+    },
+    {
+      "title": "こ・そ・あ・ど — নির্দেশক শব্দের ধারা",
+      "pattern": "こ系列／そ系列／あ系列／ど系列",
+      "explain": "জিনিস, স্থান ও দিক বোঝাতে একই ধারার শব্দ ব্যবহৃত হয়: これ・それ・あれ・どれ; ここ・そこ・あそこ・どこ; こちら・そちら・あちら・どちら।",
+      "title_en": "こ・そ・あ・ど — demonstrative word groups",
+      "pattern_en": "こ-series / そ-series / あ-series / ど-series",
+      "explain_en": "Related demonstratives form groups for things, places, and directions: これ・それ・あれ・どれ; ここ・そこ・あそこ・どこ; こちら・そちら・あちら・どちら.",
+      "examples": [
+        {
+          "jp": "おくには どちらですか。",
+          "romaji": "Okuni wa dochira desu ka.",
+          "bn": "আপনার দেশ কোনটি?",
+          "en": "Which country are you from?"
+        }
+      ]
     }
-   ],
-   "title_en": "ここ・そこ・あそこ・どこ",
-   "pattern_en": "ここ／そこ／あそこ は ～です",
-   "explain_en": "Words for places. Use どこ to ask where something is."
-  }
- ],
- "title_en": "Places and directions"
+  ]
 }

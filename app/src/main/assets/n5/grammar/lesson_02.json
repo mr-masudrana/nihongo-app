@@ -1,61 +1,165 @@
 {
- "lesson": 2,
- "title": "জিনিস চেনানো",
- "points": [
-  {
-   "title": "これ・それ・あれ",
-   "pattern": "これ／それ／あれ は ～です",
-   "explain": "জিনিস কার কাছে তার ওপর নির্ভর করে: これ বক্তার কাছে, それ শ্রোতার কাছে, あれ দুজনেরই দূরে।",
-   "examples": [
+  "lesson": 2,
+  "title": "জিনিস নির্দেশ ও পরিচয়",
+  "title_en": "Identifying and referring to things",
+  "points": [
     {
-     "jp": "これは ほんです。",
-     "romaji": "Kore wa hon desu.",
-     "bn": "এটা একটা বই।",
-     "en": "This is a book."
+      "title": "これ・それ・あれ — নির্দেশক সর্বনাম",
+      "pattern": "これ／それ／あれ は N です",
+      "explain": "これ বক্তার কাছে থাকা জিনিস, それ শ্রোতার কাছে থাকা জিনিস এবং あれ বক্তা ও শ্রোতা উভয়ের থেকে দূরের জিনিস বোঝায়।",
+      "title_en": "これ・それ・あれ — demonstrative pronouns",
+      "pattern_en": "これ／それ／あれ は N です",
+      "explain_en": "これ refers to something near the speaker, それ to something near the listener, and あれ to something far from both.",
+      "examples": [
+        {
+          "jp": "これは じしょです。",
+          "romaji": "Kore wa jisho desu.",
+          "bn": "এটি একটি অভিধান।",
+          "en": "This is a dictionary."
+        },
+        {
+          "jp": "それは だれの かさですか。",
+          "romaji": "Sore wa dare no kasa desu ka.",
+          "bn": "ওটি কার ছাতা?",
+          "en": "Whose umbrella is that?"
+        }
+      ]
     },
     {
-     "jp": "あれは くるまです。",
-     "romaji": "Are wa kuruma desu.",
-     "bn": "ওটা একটা গাড়ি।",
-     "en": "That (over there) is a car."
-    }
-   ],
-   "title_en": "これ・それ・あれ",
-   "pattern_en": "これ／それ／あれ は ～です",
-   "explain_en": "Which word you use depends on who the thing is near: これ is near the speaker, それ near the listener, あれ far from both."
-  },
-  {
-   "title": "この・その・あの + বিশেষ্য",
-   "pattern": "この／その／あの + 名詞",
-   "explain": "これ/それ/あれ একা বসে, কিন্তু この/その/あの-এর পর সবসময় বিশেষ্য আসে।",
-   "examples": [
+      "title": "この・その・あの + বিশেষ্য",
+      "pattern": "この／その／あの + N",
+      "explain": "এই শব্দগুলোর পরে অবশ্যই একটি বিশেষ্য বসে। この বক্তার কাছের, その শ্রোতার কাছের এবং あの দুজনের থেকে দূরের জিনিস নির্দেশ করে।",
+      "title_en": "この・その・あの + noun",
+      "pattern_en": "この／その／あの + N",
+      "explain_en": "These words must be followed by a noun. この indicates something near the speaker, その near the listener, and あの far from both.",
+      "examples": [
+        {
+          "jp": "この ほんは わたしのです。",
+          "romaji": "Kono hon wa watashi no desu.",
+          "bn": "এই বইটি আমার।",
+          "en": "This book is mine."
+        }
+      ]
+    },
     {
-     "jp": "この かばんは わたしのです。",
-     "romaji": "Kono kaban wa watashi no desu.",
-     "bn": "এই ব্যাগটা আমার।",
-     "en": "This bag is mine."
-    }
-   ],
-   "title_en": "この・その・あの + noun",
-   "pattern_en": "この／その／あの + noun",
-   "explain_en": "これ/それ/あれ stand alone, but この/その/あの must always be followed by a noun."
-  },
-  {
-   "title": "の — মালিকানা",
-   "pattern": "A の B",
-   "explain": "A-এর B। বিশেষ্যের জায়গায় の একা বসেও “…র টা” বোঝায়।",
-   "examples": [
+      "title": "そうです — সম্মতিসূচক উত্তর",
+      "pattern": "はい、そうです。／いいえ、そうじゃありません。",
+      "explain": "কোনো পরিচয় বা তথ্য সঠিক হলে はい、そうです বলা যায়। ভুল হলে いいえ、そうじゃありません বা ちがいます বলা যায়।",
+      "title_en": "そうです — confirming or correcting",
+      "pattern_en": "はい、そうです。／いいえ、そうじゃありません。",
+      "explain_en": "Use はい、そうです to confirm information. To correct it, use いいえ、そうじゃありません or ちがいます.",
+      "examples": [
+        {
+          "jp": "それは ミラーさんの かさですか。",
+          "romaji": "Sore wa Mirā-san no kasa desu ka.",
+          "bn": "ওটি কি মি. মিলারের ছাতা?",
+          "en": "Is that Mr. Miller's umbrella?"
+        },
+        {
+          "jp": "いいえ、ちがいます。",
+          "romaji": "Iie, chigaimasu.",
+          "bn": "না, তা নয়।",
+          "en": "No, it isn't."
+        }
+      ]
+    },
     {
-     "jp": "それは せんせいの じしょです。",
-     "romaji": "Sore wa sensei no jisho desu.",
-     "bn": "ওটা শিক্ষকের অভিধান।",
-     "en": "That is the teacher's dictionary."
+      "title": "N₁ か、N₂ か — বিকল্প প্রশ্ন",
+      "pattern": "N₁ ですか、N₂ ですか",
+      "explain": "দুই বা তার বেশি বিকল্পের মধ্যে কোনটি সঠিক তা জানতে か দিয়ে বিকল্পগুলো যুক্ত করা হয়। উত্তরে পছন্দের বিকল্পটি সরাসরি বলা হয়।",
+      "title_en": "N₁ か、N₂ か — alternative questions",
+      "pattern_en": "N₁ ですか、N₂ ですか",
+      "explain_en": "Connect alternatives with か to ask the listener to choose. The reply states the selected option.",
+      "examples": [
+        {
+          "jp": "これは ９ですか、７ですか。",
+          "romaji": "Kore wa kyū desu ka, nana desu ka.",
+          "bn": "এটি কি ৯, নাকি ৭?",
+          "en": "Is this a 9 or a 7?"
+        },
+        {
+          "jp": "９です。",
+          "romaji": "Kyū desu.",
+          "bn": "এটি ৯।",
+          "en": "It's a 9."
+        }
+      ]
+    },
+    {
+      "title": "N₁ の N₂ — বিষয় বা মালিকানা",
+      "pattern": "N₁ は N₂ の N₃ です",
+      "explain": "の দিয়ে দুটি বিশেষ্য যুক্ত হয়। প্রসঙ্গ অনুযায়ী এটি কোনো বিষয়, মালিক বা所属 বোঝাতে পারে।",
+      "title_en": "N₁ の N₂ — topic or possession",
+      "pattern_en": "N₁ は N₂ の N₃ です",
+      "explain_en": "の links nouns and can indicate a topic, owner, or affiliation depending on context.",
+      "examples": [
+        {
+          "jp": "これは コンピューターの ほんです。",
+          "romaji": "Kore wa konpyūtā no hon desu.",
+          "bn": "এটি কম্পিউটার-বিষয়ক বই।",
+          "en": "This is a book about computers."
+        },
+        {
+          "jp": "これは わたしの ほんです。",
+          "romaji": "Kore wa watashi no hon desu.",
+          "bn": "এটি আমার বই।",
+          "en": "This is my book."
+        }
+      ]
+    },
+    {
+      "title": "の — বিশেষ্যের পরিবর্তে",
+      "pattern": "N₁ のです",
+      "explain": "আগে উল্লেখ করা বিশেষ্য পুনরাবৃত্তি না করে の দিয়ে তার পরিবর্তে বলা যায়। সাধারণত জিনিস বা মালিকানা বোঝাতে ব্যবহৃত হয়; মানুষের ক্ষেত্রে ব্যবহার আলাদা হতে পারে।",
+      "title_en": "の — replacing a repeated noun",
+      "pattern_en": "N₁ のです",
+      "explain_en": "の can replace a noun already mentioned, avoiding repetition. It is commonly used for things and possession; usage with people differs.",
+      "examples": [
+        {
+          "jp": "この かばんは あなたのですか。",
+          "romaji": "Kono kaban wa anata no desu ka.",
+          "bn": "এই ব্যাগটি কি আপনার?",
+          "en": "Is this bag yours?"
+        },
+        {
+          "jp": "いいえ、わたしのじゃありません。",
+          "romaji": "Iie, watashi no ja arimasen.",
+          "bn": "না, এটি আমার নয়।",
+          "en": "No, it isn't mine."
+        }
+      ]
+    },
+    {
+      "title": "お～ — সম্মানসূচক উপসর্গ",
+      "pattern": "お + N",
+      "explain": "কিছু শব্দের আগে お যোগ করলে ভদ্রতা বা সম্মান প্রকাশ পায়। যেমন おかね、 おさけ।",
+      "title_en": "お～ — polite prefix",
+      "pattern_en": "お + N",
+      "explain_en": "The prefix お is attached to certain words to add politeness or respect, for example おかね and おさけ.",
+      "examples": [
+        {
+          "jp": "おさけですか。",
+          "romaji": "Osake desu ka.",
+          "bn": "এটি কি সাকে/মদ?",
+          "en": "Is it sake?"
+        }
+      ]
+    },
+    {
+      "title": "そうですか — বুঝতে পারা/প্রতিক্রিয়া",
+      "pattern": "そうですか。",
+      "explain": "নতুন তথ্য শুনে তা বুঝেছি বা গ্রহণ করেছি বোঝাতে そうですか বলা হয়।",
+      "title_en": "そうですか — acknowledging information",
+      "pattern_en": "そうですか。",
+      "explain_en": "Use そうですか to acknowledge or react to information you have just heard.",
+      "examples": [
+        {
+          "jp": "そうですか。",
+          "romaji": "Sō desu ka.",
+          "bn": "ও আচ্ছা, বুঝলাম।",
+          "en": "Oh, I see."
+        }
+      ]
     }
-   ],
-   "title_en": "の — possession",
-   "pattern_en": "A の B",
-   "explain_en": "B of A. When the noun is left out, の alone can mean “…’s one”."
-  }
- ],
- "title_en": "Identifying things"
+  ]
 }

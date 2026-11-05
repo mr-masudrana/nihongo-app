@@ -1,0 +1,143 @@
+{
+  "lesson": 21,
+  "title": "মতামত, উদ্ধৃতি ও অনুমান",
+  "title_en": "Opinions, quotations and conjecture",
+  "points": [
+    {
+      "title": "～と思います — আমি মনে করি",
+      "pattern": "Plain form + と思います",
+      "explain": "নিজের ধারণা, অনুমান বা মতামত প্রকাশ করতে Plain Form-এর পরে と思います বসে। Negative ধারণা প্রকাশে clause-টি negative হয়। Noun/な-adjective-এর ক্ষেত্রে সাধারণত だ বাদ দিয়ে と思います বসে।",
+      "title_en": "I think that…",
+      "pattern_en": "Plain form + と思います",
+      "explain_en": "Use this pattern to express a thought, conjecture, or opinion. Make the clause negative to express a negative opinion. With nouns and な-adjectives, だ is generally omitted before と思います.",
+      "examples": [
+        {
+          "jp": "明日は雨が降ると思います。",
+          "romaji": "Ashita wa ame ga furu to omoimasu.",
+          "bn": "আমার মনে হয় আগামীকাল বৃষ্টি হবে।",
+          "en": "I think it will rain tomorrow."
+        },
+        {
+          "jp": "日本は物価が高いと思います。",
+          "romaji": "Nihon wa bukka ga takai to omoimasu.",
+          "bn": "আমার মনে হয় জাপানে জিনিসপত্রের দাম বেশি।",
+          "en": "I think prices in Japan are high."
+        }
+      ]
+    },
+    {
+      "title": "～と言います — বলা / উদ্ধৃতি দেওয়া",
+      "pattern": "Sentence + と言います／と言いました",
+      "explain": "কারও বলা কথা উদ্ধৃত করতে quotation-এর পরে と言います বা অতীত হলে と言いました বসে। সরাসরি উদ্ধৃতিতে কথাটি 「 」-এর মধ্যে লেখা যায়। পরোক্ষ উদ্ধৃতিতে Plain Form ব্যবহার হয়।",
+      "title_en": "Say / quote something",
+      "pattern_en": "Sentence + と言います／と言いました",
+      "explain_en": "Use と言います or と言いました after quoted words. Direct quotations may be enclosed in 「 」. Indirect quotations use the plain form.",
+      "examples": [
+        {
+          "jp": "「お休みなさい」と言います。",
+          "romaji": "'Oyasuminasai' to iimasu.",
+          "bn": "‘শুভরাত্রি’ বলা হয়।",
+          "en": "We say, 'Good night.'"
+        },
+        {
+          "jp": "ミラーさんは「東京へ出張します」と言いました。",
+          "romaji": "Miraa-san wa 'Toukyou e shutchou shimasu' to iimashita.",
+          "bn": "মিলার সাহেব বলেছিলেন, ‘টোকিওতে ব্যবসার কাজে যাচ্ছি।’",
+          "en": "Mr. Miller said, 'I'm going to Tokyo on business.'"
+        }
+      ]
+    },
+    {
+      "title": "～でしょう？ — তাই তো? / তাই নয় কি?",
+      "pattern": "Plain form + でしょう？",
+      "explain": "শ্রোতার কাছ থেকে সম্মতি বা নিশ্চিতকরণ চাইতে でしょう ব্যবহার হয়। সাধারণত বাক্যের শেষে rising intonation থাকে। Noun ও な-adjective-এর আগে だ বসে না।",
+      "title_en": "Seeking confirmation",
+      "pattern_en": "Plain form + でしょう？",
+      "explain_en": "Use でしょう at the end of a sentence to seek agreement or confirmation. It is usually spoken with rising intonation. Do not use だ before it with nouns or な-adjectives.",
+      "examples": [
+        {
+          "jp": "あした、パーティーに行くでしょう？",
+          "romaji": "Ashita, paatii ni iku deshou?",
+          "bn": "আগামীকাল পার্টিতে যাবে, তাই তো?",
+          "en": "You're going to the party tomorrow, right?"
+        },
+        {
+          "jp": "北海道は寒かったでしょう？",
+          "romaji": "Hokkaidou wa samukatta deshou?",
+          "bn": "হোক্কাইদো ঠান্ডা ছিল, তাই না?",
+          "en": "It was cold in Hokkaido, wasn't it?"
+        }
+      ]
+    },
+    {
+      "title": "স্থান + に + ঘটনাがあります — কোনো অনুষ্ঠান/ঘটনা হবে",
+      "pattern": "N(place) で N(event) が あります",
+      "explain": "কোনো স্থানে অনুষ্ঠান, খেলা, কনসার্ট, উৎসব বা ঘটনা অনুষ্ঠিত হবে বোঝাতে স্থানের পরে で ব্যবহার হয়। এখানে あります-এর অর্থ ‘অনুষ্ঠিত হওয়া/ঘটা’।",
+      "title_en": "An event takes place",
+      "pattern_en": "N(place) で N(event) が あります",
+      "explain_en": "Use で after the location for an event such as a party, concert, festival, or match taking place there. Here あります means 'to take place' or 'to occur'.",
+      "examples": [
+        {
+          "jp": "東京で日本とブラジルのサッカーの試合があります。",
+          "romaji": "Toukyou de Nihon to Burajiru no sakkaa no shiai ga arimasu.",
+          "bn": "টোকিওতে জাপান ও ব্রাজিলের ফুটবল ম্যাচ আছে।",
+          "en": "There is a soccer match between Japan and Brazil in Tokyo."
+        }
+      ]
+    },
+    {
+      "title": "N(occasion)で — কোনো উপলক্ষে/অনুষ্ঠানে",
+      "pattern": "N(occasion) + で + V",
+      "explain": "কোনো কাজ যে অনুষ্ঠান, উপলক্ষ বা ঘটনার সময়ে হচ্ছে তা বোঝাতে で ব্যবহার হয়।",
+      "title_en": "At an occasion / event",
+      "pattern_en": "N(occasion) + で + V",
+      "explain_en": "Use で to mark the occasion or event at which an action takes place.",
+      "examples": [
+        {
+          "jp": "会議で何か意見を言いましたか。",
+          "romaji": "Kaigi de nanika iken o iimashita ka.",
+          "bn": "মিটিংয়ে কি কোনো মতামত বলেছিলেন?",
+          "en": "Did you say anything at the meeting?"
+        }
+      ]
+    },
+    {
+      "title": "NでもV — যেমন কিছু / বা এরকম কিছু",
+      "pattern": "Nでも + V",
+      "explain": "কাউকে কোনো পরামর্শ, প্রস্তাব বা অনানুষ্ঠানিক আমন্ত্রণ দিতে でも ব্যবহার হয়। অর্থ হয় ‘কিছু একটা, যেমন…’।",
+      "title_en": "Suggesting something with でも",
+      "pattern_en": "Nでも + V",
+      "explain_en": "Use でも when making a suggestion or casual invitation, meaning something like '…or something'.",
+      "examples": [
+        {
+          "jp": "ちょっとビールでも飲みませんか。",
+          "romaji": "Chotto biiru demo nomimasen ka.",
+          "bn": "একটু বিয়ার-টিয়ার পান করবেন?",
+          "en": "How about having a beer or something?"
+        }
+      ]
+    },
+    {
+      "title": "～ないといけません — করতে হবে",
+      "pattern": "Vない-form (drop ない) + ないといけません",
+      "explain": "কোনো কাজ করা প্রয়োজন বা বাধ্যতামূলক বোঝাতে ない-form থেকে ない বাদ দিয়ে ないといけません যোগ করা হয়। এটি ～なければなりません-এর কথ্য ও সংক্ষিপ্ত রূপ।",
+      "title_en": "Have to do something",
+      "pattern_en": "Vない-form (drop ない) + ないといけません",
+      "explain_en": "This conversational expression means that something must be done. It is a shorter alternative to ～なければなりません.",
+      "examples": [
+        {
+          "jp": "もう帰らないといけません。",
+          "romaji": "Mou kaeranai to ikemasen.",
+          "bn": "এখন আমাকে বাড়ি ফিরতেই হবে।",
+          "en": "I have to be getting home now."
+        },
+        {
+          "jp": "薬を飲まないといけません。",
+          "romaji": "Kusuri o nomanai to ikemasen.",
+          "bn": "ওষুধ খেতে হবে।",
+          "en": "I have to take medicine."
+        }
+      ]
+    }
+  ]
+}

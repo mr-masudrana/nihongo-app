@@ -1,0 +1,202 @@
+{
+  "lesson": 22,
+  "title": "পোশাক, বাসস্থান ও অভিব্যক্তি",
+  "words": [
+    {
+      "word": "きます",
+      "reading": "着ます",
+      "romaji": "kimasu",
+      "bn": "পরা (শার্ট, কোট ইত্যাদি)",
+      "en": "put on, wear (a shirt, etc.)"
+    },
+    {
+      "word": "はきます",
+      "reading": "はきます",
+      "romaji": "hakimasu",
+      "bn": "পরা (জুতা, প্যান্ট ইত্যাদি)",
+      "en": "put on (shoes, trousers, etc.)"
+    },
+    {
+      "word": "かぶります",
+      "reading": "かぶります",
+      "romaji": "kaburimasu",
+      "bn": "মাথায় পরা (টুপি)",
+      "en": "put on (a hat, etc.)"
+    },
+    {
+      "word": "かけます [めがねを～]",
+      "reading": "かけます [眼鏡を～]",
+      "romaji": "kakemasu [megane o ~]",
+      "bn": "চোখে চশমা পরা",
+      "en": "put on [glasses]"
+    },
+    {
+      "word": "します [ネクタイを～]",
+      "reading": "します [ネクタイを～]",
+      "romaji": "shimasu [nekutai o ~]",
+      "bn": "টাই পরা",
+      "en": "put on [a tie]"
+    },
+    {
+      "word": "うまれます",
+      "reading": "生まれます",
+      "romaji": "umaremasu",
+      "bn": "জন্মগ্রহণ করা",
+      "en": "be born"
+    },
+    {
+      "word": "わたしたち",
+      "reading": "私たち",
+      "romaji": "watashitachi",
+      "bn": "আমরা",
+      "en": "we"
+    },
+    {
+      "word": "コート",
+      "reading": "コート",
+      "romaji": "kooto",
+      "bn": "কোট",
+      "en": "coat"
+    },
+    {
+      "word": "セーター",
+      "reading": "セーター",
+      "romaji": "seetaa",
+      "bn": "সোয়েটার",
+      "en": "sweater"
+    },
+    {
+      "word": "スーツ",
+      "reading": "スーツ",
+      "romaji": "suutsu",
+      "bn": "স্যুট",
+      "en": "suit"
+    },
+    {
+      "word": "ぼうし",
+      "reading": "帽子",
+      "romaji": "boushi",
+      "bn": "টুপি",
+      "en": "hat, cap"
+    },
+    {
+      "word": "めがね",
+      "reading": "眼鏡",
+      "romaji": "megane",
+      "bn": "চশমা",
+      "en": "glasses"
+    },
+    {
+      "word": "ケーキ",
+      "reading": "ケーキ",
+      "romaji": "keeki",
+      "bn": "কেক",
+      "en": "cake"
+    },
+    {
+      "word": "おべんとう",
+      "reading": "お弁当",
+      "romaji": "obentou",
+      "bn": "বেন্টো; খাবারের বাক্স",
+      "en": "box lunch"
+    },
+    {
+      "word": "ロボット",
+      "reading": "ロボット",
+      "romaji": "robotto",
+      "bn": "রোবট",
+      "en": "robot"
+    },
+    {
+      "word": "ユーモア",
+      "reading": "ユーモア",
+      "romaji": "yuumoa",
+      "bn": "রসবোধ; হাস্যরস",
+      "en": "humor"
+    },
+    {
+      "word": "つごう",
+      "reading": "都合",
+      "romaji": "tsugou",
+      "bn": "সুবিধা-অসুবিধা; সময়ের সুবিধা",
+      "en": "convenience, circumstances"
+    },
+    {
+      "word": "よく",
+      "reading": "よく",
+      "romaji": "yoku",
+      "bn": "প্রায়ই; ঘন ঘন",
+      "en": "often"
+    },
+    {
+      "word": "えーと",
+      "reading": "えーと",
+      "romaji": "eeto",
+      "bn": "আচ্ছা; কী যেন (ভাবার সময়)",
+      "en": "well, let me see"
+    },
+    {
+      "word": "おめでとうございます。",
+      "reading": "おめでとうございます。",
+      "romaji": "omedetou gozaimasu",
+      "bn": "অভিনন্দন",
+      "en": "congratulations"
+    },
+    {
+      "word": "お探しですか。",
+      "reading": "お探しですか。",
+      "romaji": "osagashi desu ka",
+      "bn": "আপনি কি খুঁজছেন?",
+      "en": "Are you looking for ~?"
+    },
+    {
+      "word": "では",
+      "reading": "では",
+      "romaji": "dewa",
+      "bn": "তাহলে; আচ্ছা",
+      "en": "well then"
+    },
+    {
+      "word": "こちら",
+      "reading": "こちら",
+      "romaji": "kochira",
+      "bn": "এদিকে; এটি (ভদ্রভাবে)",
+      "en": "this way; this (polite)"
+    },
+    {
+      "word": "家賃",
+      "reading": "家賃",
+      "romaji": "yachin",
+      "bn": "বাড়িভাড়া",
+      "en": "rent"
+    },
+    {
+      "word": "ダイニングキッチン",
+      "reading": "ダイニングキッチン",
+      "romaji": "dainingu kicchin",
+      "bn": "খাওয়ার জায়গাসহ রান্নাঘর",
+      "en": "kitchen with a dining area"
+    },
+    {
+      "word": "和室",
+      "reading": "和室",
+      "romaji": "washitsu",
+      "bn": "জাপানি ধাঁচের ঘর",
+      "en": "Japanese-style room"
+    },
+    {
+      "word": "押し入れ",
+      "reading": "押し入れ",
+      "romaji": "oshiire",
+      "bn": "জাপানি দেয়াল-আলমারি",
+      "en": "Japanese-style closet"
+    },
+    {
+      "word": "布団",
+      "reading": "布団",
+      "romaji": "futon",
+      "bn": "জাপানি বিছানার তোশক ও লেপ",
+      "en": "Japanese-style mattress and quilt"
+    }
+  ]
+}

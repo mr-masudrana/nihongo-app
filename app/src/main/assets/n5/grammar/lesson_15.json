@@ -1,0 +1,135 @@
+{
+  "lesson": 15,
+  "title": "অনুমতি, নিষেধ ও অবস্থা",
+  "title_en": "Permission, prohibition and states",
+  "points": [
+    {
+      "title": "Vて-form + も いいですか — অনুমতি চাওয়া",
+      "pattern": "Vて-form + も いいですか",
+      "explain": "কোনো কাজ করার অনুমতি চাইতে Verb-এর て-form-এর পরে もいいですか বসে। অনুমতি দিতে ～てもいいです／～てもいいですよ বলা যায়। অনুমতি না দিতে বা নিরুৎসাহিত করতে すみません、ちょっと… বলা যেতে পারে।",
+      "title_en": "Vて-form + も いいですか — asking permission",
+      "pattern_en": "Vて-form + も いいですか",
+      "explain_en": "Add もいいですか after the て-form to ask permission to do something. Grant permission with ～てもいいです／～てもいいですよ. To withhold permission politely, you may say すみません、ちょっと…",
+      "examples": [
+        {
+          "jp": "写真を 撮っても いいですか。",
+          "romaji": "Shashin o totte mo ii desu ka.",
+          "bn": "আমি কি ছবি তুলতে পারি?",
+          "en": "May I take a photo?"
+        },
+        {
+          "jp": "ここで たばこを 吸っても いいですか。",
+          "romaji": "Koko de tabako o sutte mo ii desu ka.",
+          "bn": "আমি কি এখানে ধূমপান করতে পারি?",
+          "en": "May I smoke here?"
+        },
+        {
+          "jp": "ええ、吸っても いいですよ。",
+          "romaji": "Ee, sutte mo ii desu yo.",
+          "bn": "হ্যাঁ, ধূমপান করতে পারেন।",
+          "en": "Yes, you may smoke."
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + は いけません — নিষেধ",
+      "pattern": "Vて-form + は いけません",
+      "explain": "কোনো কাজ করা যাবে না বা নিষিদ্ধ বোঝাতে Verb-এর て-form-এর পরে はいけません বসে। এটি নিষেধ প্রকাশ করে।",
+      "title_en": "Vて-form + は いけません — must not",
+      "pattern_en": "Vて-form + は いけません",
+      "explain_en": "Add はいけません after the て-form to express prohibition: something must not be done or is not allowed.",
+      "examples": [
+        {
+          "jp": "ここで たばこを 吸っては いけません。",
+          "romaji": "Koko de tabako o sutte wa ikemasen.",
+          "bn": "এখানে ধূমপান করা যাবে না।",
+          "en": "You must not smoke here."
+        },
+        {
+          "jp": "ここに 入っては いけません。",
+          "romaji": "Koko ni haitte wa ikemasen.",
+          "bn": "এখানে প্রবেশ করা নিষেধ।",
+          "en": "You must not enter here."
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + います — চলমান কাজের বাইরে অবস্থা/অভ্যাস",
+      "pattern": "Vて-form + います",
+      "explain": "Lesson 14-এ শেখা চলমান কাজ ছাড়াও ています দিয়ে কোনো কাজের ফলে তৈরি হওয়া বর্তমান অবস্থা, দীর্ঘদিনের অভ্যাস, পেশা বা ব্যক্তিগত পরিস্থিতি বোঝানো যায়। যেমন 知っています (জানি), 結婚しています (বিবাহিত), 住んでいます (বাস করি), 持っています (আছে/সঙ্গে আছে)। 知っています-এর Negative হলো 知りません; 知っていません নয়।",
+      "title_en": "Vて-form + います — state, habit or occupation",
+      "pattern_en": "Vて-form + います",
+      "explain_en": "Besides an action in progress, ています can describe a present state resulting from an action, a long-term habit, occupation or personal status. Examples include 知っています (know), 結婚しています (be married), 住んでいます (live) and 持っています (have/carry). The negative of 知っています is 知りません, not 知っていません.",
+      "examples": [
+        {
+          "jp": "わたしは 結婚しています。",
+          "romaji": "Watashi wa kekkon shite imasu.",
+          "bn": "আমি বিবাহিত।",
+          "en": "I am married."
+        },
+        {
+          "jp": "わたしは 田中さんを 知っています。",
+          "romaji": "Watashi wa Tanaka-san o shitte imasu.",
+          "bn": "আমি তানাকা-সানকে চিনি।",
+          "en": "I know Mr. Tanaka."
+        },
+        {
+          "jp": "わたしは 大阪に 住んでいます。",
+          "romaji": "Watashi wa Ōsaka ni sunde imasu.",
+          "bn": "আমি ওসাকায় থাকি।",
+          "en": "I live in Osaka."
+        },
+        {
+          "jp": "スーパーで 働いています。",
+          "romaji": "Sūpā de hataraite imasu.",
+          "bn": "সুপারমার্কেটে কাজ করি।",
+          "en": "I work at a supermarket."
+        }
+      ]
+    },
+    {
+      "title": "N に V — অবস্থান/গন্তব্য চিহ্নিত করা",
+      "pattern": "N に + います／座ります／乗ります／入ります／置きます ...",
+      "explain": "কিছু Verb-এর সঙ্গে に ব্যবহার করে ব্যক্তি বা বস্তুর অবস্থান, গন্তব্য বা যে স্থানে কোনো ক্রিয়ার ফল তৈরি হয়েছে তা বোঝানো হয়। যেমন ここに座ってもいいですか (এখানে বসতে পারি?), 京都駅から16番のバスに乗ってください (কিয়োটো স্টেশন থেকে ১৬ নম্বর বাসে উঠুন)।",
+      "title_en": "N に V — marking location or destination",
+      "pattern_en": "N に + います／座ります／乗ります／入ります／置きます ...",
+      "explain_en": "With certain verbs, に marks a location, destination or the place where the result of an action is situated. Examples include sitting in a place, boarding a vehicle or entering a place.",
+      "examples": [
+        {
+          "jp": "ここに 座っても いいですか。",
+          "romaji": "Koko ni suwatte mo ii desu ka.",
+          "bn": "আমি কি এখানে বসতে পারি?",
+          "en": "May I sit here?"
+        },
+        {
+          "jp": "京都駅から 16番の バスに 乗ってください。",
+          "romaji": "Kyōto-eki kara jūroku-ban no basu ni notte kudasai.",
+          "bn": "কিয়োটো স্টেশন থেকে ১৬ নম্বর বাসে উঠুন।",
+          "en": "Please take the number 16 bus from Kyoto Station."
+        }
+      ]
+    },
+    {
+      "title": "N₁ に N₂ を V — কোনো স্থানে কিছু স্থাপন/লেখা",
+      "pattern": "N₁ に N₂ を V",
+      "explain": "কোনো কাজের ফলে N₂ বস্তুটি N₁ স্থানে রাখা, লেখা বা স্থাপন করা হলে N₁-এর পরে に এবং N₂-এর পরে を বসে। এখানে に কাজের ফলের অবস্থান নির্দেশ করে।",
+      "title_en": "N₁ に N₂ を V — placing or writing something at a location",
+      "pattern_en": "N₁ に N₂ を V",
+      "explain_en": "When an action places, writes or positions N₂ at location N₁, mark the location with に and the object with を. に indicates where the result of the action is located.",
+      "examples": [
+        {
+          "jp": "ここに 車を 止めてください。",
+          "romaji": "Koko ni kuruma o tomete kudasai.",
+          "bn": "গাড়িটি এখানে থামান/পার্ক করুন, দয়া করে।",
+          "en": "Stop the car here, please."
+        },
+        {
+          "jp": "ここに 住所を 書いてください。",
+          "romaji": "Koko ni jūsho o kaite kudasai.",
+          "bn": "এখানে ঠিকানা লিখুন, দয়া করে।",
+          "en": "Write your address here, please."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "lesson": 6,
+  "title": "খাবার ও দৈনন্দিন কাজ",
+  "words": [
+    {
+      "word": "食べます",
+      "reading": "たべます",
+      "romaji": "tabemasu",
+      "bn": "খাওয়া",
+      "en": "eat",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "飲みます",
+      "reading": "のみます",
+      "romaji": "nomimasu",
+      "bn": "পান করা",
+      "en": "drink",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "吸います",
+      "reading": "すいます",
+      "romaji": "suimasu",
+      "bn": "ধূমপান করা",
+      "en": "smoke (a cigarette)",
+      "note": "I-গ্রুপ; ～を吸います"
+    },
+    {
+      "word": "見ます",
+      "reading": "みます",
+      "romaji": "mimasu",
+      "bn": "দেখা",
+      "en": "see, look at, watch",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "聞きます",
+      "reading": "ききます",
+      "romaji": "kikimasu",
+      "bn": "শোনা",
+      "en": "hear, listen",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "読みます",
+      "reading": "よみます",
+      "romaji": "yomimasu",
+      "bn": "পড়া",
+      "en": "read",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "書きます",
+      "reading": "かきます",
+      "romaji": "kakimasu",
+      "bn": "লেখা",
+      "en": "write",
+      "note": "I-গ্রুপ; আঁকা অর্থেও ব্যবহৃত হয়"
+    },
+    {
+      "word": "買います",
+      "reading": "かいます",
+      "romaji": "kaimasu",
+      "bn": "কেনা",
+      "en": "buy",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "撮ります",
+      "reading": "とります",
+      "romaji": "torimasu",
+      "bn": "ছবি তোলা",
+      "en": "take a photograph",
+      "note": "I-গ্রুপ; 写真を撮ります"
+    },
+    {
+      "word": "します",
+      "reading": "します",
+      "romaji": "shimasu",
+      "bn": "করা / খেলা",
+      "en": "do, play",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "会います",
+      "reading": "あいます",
+      "romaji": "aimasu",
+      "bn": "সাক্ষাৎ করা / দেখা করা",
+      "en": "meet",
+      "note": "I-গ্রুপ; 友達に会います"
+    },
+    {
+      "word": "ごはん",
+      "reading": "ごはん",
+      "romaji": "gohan",
+      "bn": "ভাত / খাবার",
+      "en": "a meal, cooked rice"
+    },
+    {
+      "word": "朝ごはん",
+      "reading": "あさごはん",
+      "romaji": "asagohan",
+      "bn": "সকালের নাশতা",
+      "en": "breakfast"
+    },
+    {
+      "word": "昼ごはん",
+      "reading": "ひるごはん",
+      "romaji": "hirugohan",
+      "bn": "দুপুরের খাবার",
+      "en": "lunch"
+    },
+    {
+      "word": "晩ごはん",
+      "reading": "ばんごはん",
+      "romaji": "bangohan",
+      "bn": "রাতের খাবার",
+      "en": "supper, dinner"
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "romaji": "pan",
+      "bn": "পাউরুটি / রুটি",
+      "en": "bread"
+    },
+    {
+      "word": "卵",
+      "reading": "たまご",
+      "romaji": "tamago",
+      "bn": "ডিম",
+      "en": "egg"
+    },
+    {
+      "word": "肉",
+      "reading": "にく",
+      "romaji": "niku",
+      "bn": "মাংস",
+      "en": "meat"
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "romaji": "sakana",
+      "bn": "মাছ",
+      "en": "fish"
+    },
+    {
+      "word": "野菜",
+      "reading": "やさい",
+      "romaji": "yasai",
+      "bn": "শাকসবজি",
+      "en": "vegetable"
+    },
+    {
+      "word": "果物",
+      "reading": "くだもの",
+      "romaji": "kudamono",
+      "bn": "ফল",
+      "en": "fruit"
+    },
+    {
+      "word": "水",
+      "reading": "みず",
+      "romaji": "mizu",
+      "bn": "পানি",
+      "en": "water"
+    },
+    {
+      "word": "お茶",
+      "reading": "おちゃ",
+      "romaji": "ocha",
+      "bn": "চা / গ্রিন টি",
+      "en": "tea, green tea"
+    },
+    {
+      "word": "紅茶",
+      "reading": "こうちゃ",
+      "romaji": "koucha",
+      "bn": "কালো চা",
+      "en": "black tea"
+    },
+    {
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "romaji": "gyuunyuu",
+      "bn": "দুধ",
+      "en": "milk"
+    },
+    {
+      "word": "ジュース",
+      "reading": "ジュース",
+      "romaji": "jūsu",
+      "bn": "জুস",
+      "en": "juice"
+    },
+    {
+      "word": "ビール",
+      "reading": "ビール",
+      "romaji": "bīru",
+      "bn": "বিয়ার",
+      "en": "beer"
+    },
+    {
+      "word": "お酒",
+      "reading": "おさけ",
+      "romaji": "osake",
+      "bn": "মদ / জাপানি সাকে",
+      "en": "alcohol, Japanese rice wine"
+    },
+    {
+      "word": "たばこ",
+      "reading": "たばこ",
+      "romaji": "tabako",
+      "bn": "তামাক / সিগারেট",
+      "en": "tobacco, cigarette"
+    },
+    {
+      "word": "手紙",
+      "reading": "てがみ",
+      "romaji": "tegami",
+      "bn": "চিঠি",
+      "en": "letter"
+    },
+    {
+      "word": "レポート",
+      "reading": "レポート",
+      "romaji": "repōto",
+      "bn": "রিপোর্ট / প্রতিবেদন",
+      "en": "report"
+    },
+    {
+      "word": "写真",
+      "reading": "しゃしん",
+      "romaji": "shashin",
+      "bn": "ছবি / ফটোগ্রাফ",
+      "en": "photograph"
+    },
+    {
+      "word": "ビデオ",
+      "reading": "ビデオ",
+      "romaji": "bideo",
+      "bn": "ভিডিও",
+      "en": "video tape, video deck"
+    },
+    {
+      "word": "店",
+      "reading": "みせ",
+      "romaji": "mise",
+      "bn": "দোকান",
+      "en": "shop, store"
+    },
+    {
+      "word": "庭",
+      "reading": "にわ",
+      "romaji": "niwa",
+      "bn": "বাগান / উঠান",
+      "en": "garden"
+    },
+    {
+      "word": "宿題",
+      "reading": "しゅくだい",
+      "romaji": "shukudai",
+      "bn": "বাড়ির কাজ",
+      "en": "homework",
+      "note": "宿題をします = বাড়ির কাজ করা"
+    },
+    {
+      "word": "テニス",
+      "reading": "テニス",
+      "romaji": "tenisu",
+      "bn": "টেনিস",
+      "en": "tennis",
+      "note": "テニスをします = টেনিস খেলা"
+    },
+    {
+      "word": "サッカー",
+      "reading": "サッカー",
+      "romaji": "sakkā",
+      "bn": "ফুটবল",
+      "en": "soccer, football",
+      "note": "サッカーをします = ফুটবল খেলা"
+    },
+    {
+      "word": "お花見",
+      "reading": "おはなみ",
+      "romaji": "ohanami",
+      "bn": "চেরি ফুল দেখা / ফুল উপভোগ",
+      "en": "cherry-blossom viewing",
+      "note": "お花見をします"
+    },
+    {
+      "word": "何",
+      "reading": "なに",
+      "romaji": "nani",
+      "bn": "কি",
+      "en": "what"
+    },
+    {
+      "word": "いっしょに",
+      "reading": "いっしょに",
+      "romaji": "issho ni",
+      "bn": "একসাথে",
+      "en": "together"
+    },
+    {
+      "word": "ちょっと",
+      "reading": "ちょっと",
+      "romaji": "chotto",
+      "bn": "একটু / অল্প সময়",
+      "en": "a little while, a little bit"
+    },
+    {
+      "word": "いつも",
+      "reading": "いつも",
+      "romaji": "itsumo",
+      "bn": "সবসময় / সাধারণত",
+      "en": "always, usually"
+    },
+    {
+      "word": "時々",
+      "reading": "ときどき",
+      "romaji": "tokidoki",
+      "bn": "মাঝে মাঝে",
+      "en": "sometimes"
+    },
+    {
+      "word": "それから",
+      "reading": "それから",
+      "romaji": "sorekara",
+      "bn": "তারপর",
+      "en": "after that, and then"
+    },
+    {
+      "word": "ええ",
+      "reading": "ええ",
+      "romaji": "ee",
+      "bn": "হ্যাঁ",
+      "en": "yes"
+    },
+    {
+      "word": "いいですね。",
+      "reading": "いいですね",
+      "romaji": "ii desu ne",
+      "bn": "বেশ ভালো! / চমৎকার!",
+      "en": "That's good."
+    },
+    {
+      "word": "わかりました。",
+      "reading": "わかりました",
+      "romaji": "wakarimashita",
+      "bn": "বুঝেছি।",
+      "en": "I see."
+    },
+    {
+      "word": "何ですか。",
+      "reading": "なんですか",
+      "romaji": "nan desu ka",
+      "bn": "কী? / কী বললেন?",
+      "en": "Yes? (lit. What is it?)"
+    },
+    {
+      "word": "じゃ、また [あした]。",
+      "reading": "じゃ、また [あした]",
+      "romaji": "ja, mata [ashita]",
+      "bn": "তাহলে আবার দেখা হবে [আগামীকাল]।",
+      "en": "See you [tomorrow]."
+    }
+  ],
+  "title_en": "Food and daily activities"
+}

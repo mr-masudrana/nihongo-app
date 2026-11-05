@@ -1,0 +1,94 @@
+{
+  "lesson": 25,
+  "title": "শর্ত: ～たら ও ～ても",
+  "title_en": "Conditional expressions",
+  "points": [
+    {
+      "title": "Plain past + ら — যদি",
+      "pattern": "Vた／い-adjかった／な-adjだった／Nだった + ら",
+      "explain": "কোনো শর্ত পূরণ হলে কী হবে, কী করতে চাই বা কী অনুরোধ—তা বোঝাতে অতীত Plain Form-এর সঙ্গে ら যোগ করা হয়। এখানে たら-এর অর্থ ‘যদি’।",
+      "title_en": "たら — if",
+      "pattern_en": "Plain past form + ら",
+      "examples": [
+        {
+          "jp": "お金があったら、旅行します。",
+          "romaji": "Okane ga attara, ryokou shimasu.",
+          "bn": "টাকা থাকলে ভ্রমণে যাব।",
+          "en": "If I had money, I would travel."
+        },
+        {
+          "jp": "安かったら、パソコンを買いたいです。",
+          "romaji": "Yasukattara, pasokon o kaitai desu.",
+          "bn": "দাম কম হলে কম্পিউটার কিনতে চাই।",
+          "en": "I'd like to buy a PC if I can find a cheap one."
+        }
+      ]
+    },
+    {
+      "title": "Vた-form + ら — যখন/করার পর",
+      "pattern": "Vた-form + ら、～",
+      "explain": "কোনো কাজ সম্পন্ন হওয়ার পর পরবর্তী কাজ হবে—এমন সময়গত অর্থে ～たら ব্যবহার হয়। অনেক সময় ‘যখন’, ‘করার পর’ বা ‘যেই...অমনি’ অর্থ দেয়।",
+      "title_en": "たら — when/after",
+      "pattern_en": "Vた-form + ら",
+      "examples": [
+        {
+          "jp": "うちへ帰ったら、すぐシャワーを浴びます。",
+          "romaji": "Uchi e kaettara, sugu shawaa o abimasu.",
+          "bn": "বাড়ি ফিরেই সঙ্গে সঙ্গে গোসল করব।",
+          "en": "As soon as I get home, I'll take a shower."
+        }
+      ]
+    },
+    {
+      "title": "～ても — এমনকি হলেও",
+      "pattern": "Vて + も／い-adjくても／な-adjでも／Nでも",
+      "explain": "একটি শর্ত ঘটলেও মূল বাক্যের ফল পরিবর্তিত হবে না—এমন বিপরীত বা প্রত্যাশাবিরোধী শর্ত বোঝাতে ～ても ব্যবহার হয়।",
+      "title_en": "ても — even if",
+      "pattern_en": "Vて-form + も",
+      "examples": [
+        {
+          "jp": "雨が降っても、洗濯します。",
+          "romaji": "Ame ga futte mo, sentaku shimasu.",
+          "bn": "বৃষ্টি হলেও কাপড় ধোব।",
+          "en": "I'll do the laundry even if it rains."
+        },
+        {
+          "jp": "日曜日でも、働きます。",
+          "romaji": "Nichiyoubi demo, hatarakimasu.",
+          "bn": "রবিবার হলেও কাজ করি।",
+          "en": "I work even on Sundays."
+        }
+      ]
+    },
+    {
+      "title": "もし — যদি (শর্তের ওপর জোর)",
+      "pattern": "もし + ～たら",
+      "explain": "もし শর্তের বিষয়টিকে আরও জোর দিয়ে ‘যদি এমন হয়’ অর্থ প্রকাশ করে। সাধারণত ～たら-এর সঙ্গে ব্যবহৃত হয়।",
+      "title_en": "もし — if (emphasis)",
+      "pattern_en": "もし + ～たら",
+      "examples": [
+        {
+          "jp": "もし１億円あったら、いろいろな国を旅行したいです。",
+          "romaji": "Moshi ichiokuen attara, iroiro na kuni o ryokou shitai desu.",
+          "bn": "যদি ১০ কোটি ইয়েন থাকত, বিভিন্ন দেশে ভ্রমণ করতে চাইতাম।",
+          "en": "If I had 100 million yen, I'd like to travel to various countries."
+        }
+      ]
+    },
+    {
+      "title": "Subordinate clause-এর subject-এ が",
+      "pattern": "[Subordinate clause] が + ～たら／～ても",
+      "explain": "～たら বা ～ても-সহ subordinate clause-এ subject চিহ্নিত করতে が ব্যবহার হয়।",
+      "title_en": "が in a subordinate clause",
+      "pattern_en": "[Subordinate clause] が + ～たら／～ても",
+      "examples": [
+        {
+          "jp": "友達が約束の時間に来なかったら、どうしますか。",
+          "romaji": "Tomodachi ga yakusoku no jikan ni konakattara, dou shimasu ka.",
+          "bn": "বন্ধু নির্ধারিত সময়ে না এলে কী করবেন?",
+          "en": "What will you do if your friend doesn't arrive at the agreed time?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "lesson": 13,
+  "title": "দৈনন্দিন জাপানি শব্দভান্ডার – Lesson 13",
+  "words": [
+    {
+      "word": "あそびます",
+      "reading": "遊びます",
+      "romaji": "asobimasu",
+      "bn": "খেলাধুলা করা; আনন্দ করা",
+      "en": "enjoy oneself, play"
+    },
+    {
+      "word": "およぎます",
+      "reading": "泳ぎます",
+      "romaji": "oyogimasu",
+      "bn": "সাঁতার কাটা",
+      "en": "swim"
+    },
+    {
+      "word": "むかえます",
+      "reading": "迎えます",
+      "romaji": "mukaemasu",
+      "bn": "অভ্যর্থনা করা; নিতে যাওয়া",
+      "en": "go to meet, welcome"
+    },
+    {
+      "word": "つかれます",
+      "reading": "疲れます",
+      "romaji": "tsukaremasu",
+      "bn": "ক্লান্ত হওয়া",
+      "en": "get tired"
+    },
+    {
+      "word": "けっこんします",
+      "reading": "結婚します",
+      "romaji": "kekkon shimasu",
+      "bn": "বিয়ে করা",
+      "en": "marry, get married"
+    },
+    {
+      "word": "かいものします",
+      "reading": "買い物します",
+      "romaji": "kaimono shimasu",
+      "bn": "কেনাকাটা করা",
+      "en": "do shopping"
+    },
+    {
+      "word": "しょくじします",
+      "reading": "食事します",
+      "romaji": "shokuji shimasu",
+      "bn": "খাবার খাওয়া; আহার করা",
+      "en": "have a meal, dine"
+    },
+    {
+      "word": "さんぽします [こうえんを～]",
+      "reading": "散歩します [公園を～]",
+      "romaji": "sanpo shimasu [kouen o ~]",
+      "bn": "হাঁটতে বের হওয়া; বেড়ানো [পার্কে]",
+      "en": "take a walk [in a park]"
+    },
+    {
+      "word": "たいへん [な]",
+      "reading": "大変 [な]",
+      "romaji": "taihen [na]",
+      "bn": "কঠিন; ভয়াবহ; খুব",
+      "en": "hard, tough, severe, awful"
+    },
+    {
+      "word": "ほしい",
+      "reading": "欲しい",
+      "romaji": "hoshii",
+      "bn": "চাই; কাঙ্ক্ষিত",
+      "en": "want (something)"
+    },
+    {
+      "word": "ひろい",
+      "reading": "広い",
+      "romaji": "hiroi",
+      "bn": "প্রশস্ত; বড়",
+      "en": "wide, spacious"
+    },
+    {
+      "word": "せまい",
+      "reading": "狭い",
+      "romaji": "semai",
+      "bn": "সরু; ছোট (ঘর ইত্যাদি)",
+      "en": "narrow, small (room, etc.)"
+    },
+    {
+      "word": "プール",
+      "reading": "プール",
+      "romaji": "puuru",
+      "bn": "সুইমিং পুল",
+      "en": "swimming pool"
+    },
+    {
+      "word": "かわ",
+      "reading": "川",
+      "romaji": "kawa",
+      "bn": "নদী",
+      "en": "river"
+    },
+    {
+      "word": "びじゅつ",
+      "reading": "美術",
+      "romaji": "bijutsu",
+      "bn": "চারুকলা; শিল্পকলা",
+      "en": "fine arts"
+    },
+    {
+      "word": "つり",
+      "reading": "釣り",
+      "romaji": "tsuri",
+      "bn": "মাছ ধরা",
+      "en": "fishing"
+    },
+    {
+      "word": "スキー",
+      "reading": "スキー",
+      "romaji": "sukii",
+      "bn": "স্কিইং",
+      "en": "skiing"
+    },
+    {
+      "word": "しゅうまつ",
+      "reading": "週末",
+      "romaji": "shuumatsu",
+      "bn": "সপ্তাহান্ত",
+      "en": "weekend"
+    },
+    {
+      "word": "[お]しょうがつ",
+      "reading": "[お]正月",
+      "romaji": "[o] shougatsu",
+      "bn": "নববর্ষ; জাপানি নববর্ষের ছুটি",
+      "en": "New Year’s Day"
+    },
+    {
+      "word": "～ごろ",
+      "reading": "～ごろ",
+      "romaji": "~goro",
+      "bn": "প্রায় ～টা (সময়)",
+      "en": "about ~ (time)"
+    },
+    {
+      "word": "なにか",
+      "reading": "何か",
+      "romaji": "nanika",
+      "bn": "কিছু একটা",
+      "en": "something"
+    },
+    {
+      "word": "どこか",
+      "reading": "どこか",
+      "romaji": "dokoka",
+      "bn": "কোথাও; কোনো জায়গায়",
+      "en": "somewhere, some place"
+    },
+    {
+      "word": "のどがかわきます",
+      "reading": "のどがかわきます",
+      "romaji": "nodo ga kawakimasu",
+      "bn": "তৃষ্ণা পাওয়া",
+      "en": "get thirsty"
+    },
+    {
+      "word": "おなかがすきます",
+      "reading": "おなかがすきます",
+      "romaji": "onaka ga sukimasu",
+      "bn": "ক্ষুধা পাওয়া",
+      "en": "get hungry"
+    },
+    {
+      "word": "そうしましょう",
+      "reading": "そうしましょう",
+      "romaji": "sou shimashou",
+      "bn": "তাই করা যাক",
+      "en": "Let’s do that."
+    },
+    {
+      "word": "ごちゅうもんは？",
+      "reading": "ご注文は？",
+      "romaji": "gochuumon wa?",
+      "bn": "আপনি কী অর্ডার করবেন?",
+      "en": "May I take your order?"
+    },
+    {
+      "word": "ていしょく",
+      "reading": "定食",
+      "romaji": "teishoku",
+      "bn": "সেট মেনু; নির্ধারিত খাবারের সেট",
+      "en": "set meal"
+    },
+    {
+      "word": "ぎゅうどん",
+      "reading": "牛どん",
+      "romaji": "gyuudon",
+      "bn": "গরুর মাংসের ওপর ভাত (গিউডন)",
+      "en": "bowl of rice topped with beef"
+    },
+    {
+      "word": "[しょうしょう]おまちください",
+      "reading": "[少々]お待ちください",
+      "romaji": "[shoushou] omachi kudasai",
+      "bn": "একটু অপেক্ষা করুন",
+      "en": "Please wait [a moment]."
+    },
+    {
+      "word": "～でございます",
+      "reading": "～でございます",
+      "romaji": "~de gozaimasu",
+      "bn": "～です-এর বিনয়ী/সম্মানসূচক রূপ",
+      "en": "polite equivalent of です"
+    },
+    {
+      "word": "べつべつに",
+      "reading": "別々に",
+      "romaji": "betsubetsu ni",
+      "bn": "আলাদা আলাদা; পৃথকভাবে",
+      "en": "separately"
+    }
+  ]
+}

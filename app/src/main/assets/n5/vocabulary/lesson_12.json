@@ -1,0 +1,342 @@
+{
+  "lesson": 12,
+  "title": "দৈনন্দিন জাপানি শব্দভান্ডার – Lesson 12",
+  "words": [
+    {
+      "word": "かんたん [な]",
+      "reading": "簡単 [な]",
+      "romaji": "kantan [na]",
+      "bn": "সহজ; সরল",
+      "en": "easy, simple"
+    },
+    {
+      "word": "ちかい",
+      "reading": "近い",
+      "romaji": "chikai",
+      "bn": "কাছের; নিকটবর্তী",
+      "en": "near"
+    },
+    {
+      "word": "とおい",
+      "reading": "遠い",
+      "romaji": "tooi",
+      "bn": "দূরের",
+      "en": "far"
+    },
+    {
+      "word": "はやい",
+      "reading": "速い、早い",
+      "romaji": "hayai",
+      "bn": "দ্রুত; তাড়াতাড়ি",
+      "en": "fast, early"
+    },
+    {
+      "word": "おそい",
+      "reading": "遅い",
+      "romaji": "osoi",
+      "bn": "ধীর; দেরি",
+      "en": "slow, late"
+    },
+    {
+      "word": "おおい [ひとが～]",
+      "reading": "多い [人が～]",
+      "romaji": "ooi [hito ga ~]",
+      "bn": "অনেক [লোকজন]",
+      "en": "many [people], much"
+    },
+    {
+      "word": "すくない [ひとが～]",
+      "reading": "少ない [人が～]",
+      "romaji": "sukunai [hito ga ~]",
+      "bn": "কম [লোকজন]",
+      "en": "few [people], a little"
+    },
+    {
+      "word": "あたたかい",
+      "reading": "暖かい、温かい",
+      "romaji": "atatakai",
+      "bn": "উষ্ণ; গরম",
+      "en": "warm"
+    },
+    {
+      "word": "すずしい",
+      "reading": "涼しい",
+      "romaji": "suzushii",
+      "bn": "শীতল; ঠান্ডা আরামদায়ক",
+      "en": "cool"
+    },
+    {
+      "word": "あまい",
+      "reading": "甘い",
+      "romaji": "amai",
+      "bn": "মিষ্টি",
+      "en": "sweet"
+    },
+    {
+      "word": "からい",
+      "reading": "辛い",
+      "romaji": "karai",
+      "bn": "ঝাল",
+      "en": "hot (taste), spicy"
+    },
+    {
+      "word": "おもい",
+      "reading": "重い",
+      "romaji": "omoi",
+      "bn": "ভারী",
+      "en": "heavy"
+    },
+    {
+      "word": "かるい",
+      "reading": "軽い",
+      "romaji": "karui",
+      "bn": "হালকা",
+      "en": "light"
+    },
+    {
+      "word": "いい [コーヒーが～]",
+      "reading": "いい [コーヒーが～]",
+      "romaji": "ii [koohii ga ~]",
+      "bn": "পছন্দ করা [কফি]",
+      "en": "prefer [coffee]"
+    },
+    {
+      "word": "きせつ",
+      "reading": "季節",
+      "romaji": "kisetsu",
+      "bn": "ঋতু",
+      "en": "season"
+    },
+    {
+      "word": "はる",
+      "reading": "春",
+      "romaji": "haru",
+      "bn": "বসন্ত",
+      "en": "spring"
+    },
+    {
+      "word": "なつ",
+      "reading": "夏",
+      "romaji": "natsu",
+      "bn": "গ্রীষ্ম",
+      "en": "summer"
+    },
+    {
+      "word": "あき",
+      "reading": "秋",
+      "romaji": "aki",
+      "bn": "শরৎ",
+      "en": "autumn, fall"
+    },
+    {
+      "word": "ふゆ",
+      "reading": "冬",
+      "romaji": "fuyu",
+      "bn": "শীত",
+      "en": "winter"
+    },
+    {
+      "word": "てんき",
+      "reading": "天気",
+      "romaji": "tenki",
+      "bn": "আবহাওয়া",
+      "en": "weather"
+    },
+    {
+      "word": "あめ",
+      "reading": "雨",
+      "romaji": "ame",
+      "bn": "বৃষ্টি",
+      "en": "rain, rainy"
+    },
+    {
+      "word": "ゆき",
+      "reading": "雪",
+      "romaji": "yuki",
+      "bn": "তুষার; বরফ",
+      "en": "snow, snowy"
+    },
+    {
+      "word": "くもり",
+      "reading": "曇り",
+      "romaji": "kumori",
+      "bn": "মেঘলা আবহাওয়া",
+      "en": "cloudy"
+    },
+    {
+      "word": "ホテル",
+      "reading": "ホテル",
+      "romaji": "hoteru",
+      "bn": "হোটেল",
+      "en": "hotel"
+    },
+    {
+      "word": "くうこう",
+      "reading": "空港",
+      "romaji": "kuukou",
+      "bn": "বিমানবন্দর",
+      "en": "airport"
+    },
+    {
+      "word": "うみ",
+      "reading": "海",
+      "romaji": "umi",
+      "bn": "সমুদ্র; সাগর",
+      "en": "sea, ocean"
+    },
+    {
+      "word": "せかい",
+      "reading": "世界",
+      "romaji": "sekai",
+      "bn": "পৃথিবী; বিশ্ব",
+      "en": "world"
+    },
+    {
+      "word": "パーティー",
+      "reading": "パーティー",
+      "romaji": "paatii",
+      "bn": "পার্টি; অনুষ্ঠান",
+      "en": "party"
+    },
+    {
+      "word": "[お]まつり",
+      "reading": "[お]祭り",
+      "romaji": "[o] matsuri",
+      "bn": "উৎসব",
+      "en": "festival"
+    },
+    {
+      "word": "すきやき",
+      "reading": "すき焼き",
+      "romaji": "sukiyaki",
+      "bn": "সুকিয়াকি (মাংস ও সবজির গরম পাত্রের খাবার)",
+      "en": "sukiyaki (beef and vegetable hot pot)"
+    },
+    {
+      "word": "さしみ",
+      "reading": "刺身",
+      "romaji": "sashimi",
+      "bn": "সাশিমি; কাঁচা মাছের পাতলা টুকরা",
+      "en": "sashimi (sliced raw fish)"
+    },
+    {
+      "word": "[お]すし",
+      "reading": "[お]すし",
+      "romaji": "[o] sushi",
+      "bn": "সুশি",
+      "en": "sushi (vinegared rice topped with raw fish)"
+    },
+    {
+      "word": "てんぷら",
+      "reading": "てんぷら",
+      "romaji": "tenpura",
+      "bn": "টেম্পুরা; তেলে ভাজা খাবার",
+      "en": "tempura (seafood and vegetables deep fried in batter)"
+    },
+    {
+      "word": "ぶたにく",
+      "reading": "豚肉",
+      "romaji": "butaniku",
+      "bn": "শূকরের মাংস",
+      "en": "pork"
+    },
+    {
+      "word": "とりにく",
+      "reading": "とり肉",
+      "romaji": "toriniku",
+      "bn": "মুরগির মাংস",
+      "en": "chicken"
+    },
+    {
+      "word": "ぎゅうにく",
+      "reading": "牛肉",
+      "romaji": "gyuuniku",
+      "bn": "গরুর মাংস",
+      "en": "beef"
+    },
+    {
+      "word": "レモン",
+      "reading": "レモン",
+      "romaji": "remon",
+      "bn": "লেবু",
+      "en": "lemon"
+    },
+    {
+      "word": "いけばな",
+      "reading": "生け花",
+      "romaji": "ikebana",
+      "bn": "ইকেবানা; ফুল সাজানোর জাপানি শিল্প",
+      "en": "flower arrangement"
+    },
+    {
+      "word": "もみじ",
+      "reading": "紅葉",
+      "romaji": "momiji",
+      "bn": "ম্যাপল পাতা; শরতের লাল পাতা",
+      "en": "maple; red leaves of autumn"
+    },
+    {
+      "word": "どちら",
+      "reading": "どちら",
+      "romaji": "dochira",
+      "bn": "কোনটি (দুটির মধ্যে)",
+      "en": "which one (of two things)"
+    },
+    {
+      "word": "どちらも",
+      "reading": "どちらも",
+      "romaji": "dochira mo",
+      "bn": "দুটিই; উভয়ই",
+      "en": "both"
+    },
+    {
+      "word": "いちばん",
+      "reading": "一番",
+      "romaji": "ichiban",
+      "bn": "সবচেয়ে; সর্বাধিক",
+      "en": "the most"
+    },
+    {
+      "word": "ずっと",
+      "reading": "ずっと",
+      "romaji": "zutto",
+      "bn": "অনেক বেশি; তুলনায় অনেক",
+      "en": "by far"
+    },
+    {
+      "word": "はじめて",
+      "reading": "初めて",
+      "romaji": "hajimete",
+      "bn": "প্রথমবার",
+      "en": "for the first time"
+    },
+    {
+      "word": "ただいま",
+      "reading": "ただいま",
+      "romaji": "tadaima",
+      "bn": "আমি ফিরে এসেছি",
+      "en": "I’m home."
+    },
+    {
+      "word": "おかえりなさい",
+      "reading": "お帰りなさい",
+      "romaji": "okaerinasai",
+      "bn": "ফিরে আসায় স্বাগতম",
+      "en": "Welcome home."
+    },
+    {
+      "word": "わあ、すごいひとですね",
+      "reading": "わあ、すごい人ですね",
+      "romaji": "waa, sugoi hito desu ne",
+      "bn": "বাহ, কী প্রচুর মানুষ!",
+      "en": "Wow! Look at all those people!"
+    },
+    {
+      "word": "つかれました",
+      "reading": "疲れました",
+      "romaji": "tsukaremashita",
+      "bn": "ক্লান্ত হয়ে পড়েছি",
+      "en": "I’m tired."
+    }
+  ]
+}

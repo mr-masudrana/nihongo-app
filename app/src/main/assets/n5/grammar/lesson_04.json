@@ -1,0 +1,133 @@
+{
+  "lesson": 4,
+  "title": "সময়, ক্রিয়া ও সময়সীমা",
+  "title_en": "Time, verbs and time expressions",
+  "points": [
+    {
+      "title": "সময় বলা — ঘণ্টা ও মিনিট",
+      "pattern": "いま ～時 ～分です",
+      "explain": "সময় বলার সময় ঘণ্টার পরে 時 এবং মিনিটের পরে 分 বসে। কিছু সংখ্যার সঙ্গে 分-এর উচ্চারণ পরিবর্তিত হয়। সময় জানতে 何時ですか ব্যবহার করা হয়।",
+      "title_en": "Telling the time — hours and minutes",
+      "pattern_en": "いま ～時 ～分です",
+      "explain_en": "Use 時 after the hour and 分 after the minutes. The pronunciation of 分 changes with some numbers. Ask 何時ですか to find out the time.",
+      "examples": [
+        {
+          "jp": "いま ７時１０分です。",
+          "romaji": "Ima shichi-ji juppun desu.",
+          "bn": "এখন ৭টা ১০ মিনিট।",
+          "en": "It is 7:10 now."
+        },
+        {
+          "jp": "いま 何時ですか。",
+          "romaji": "Ima nan-ji desu ka.",
+          "bn": "এখন কয়টা বাজে?",
+          "en": "What time is it now?"
+        }
+      ]
+    },
+    {
+      "title": "Vます・Vません・Vました・Vませんでした — ভদ্র ক্রিয়ার রূপ",
+      "pattern": "Vます／Vません／Vました／Vませんでした",
+      "explain": "ます বর্তমান/ভবিষ্যৎ ভদ্র ইতিবাচক রূপ; ません বর্তমান/ভবিষ্যৎ না-বাচক; ました অতীত ইতিবাচক; ませんでした অতীত না-বাচক রূপ। অভ্যাস, সত্য বা ভবিষ্যৎ পরিকল্পনাতেও ます ব্যবহৃত হয়।",
+      "title_en": "Polite verb forms — affirmative, negative and past",
+      "pattern_en": "Vます／Vません／Vました／Vませんでした",
+      "explain_en": "ます is the polite non-past affirmative; ません the non-past negative; ました the past affirmative; and ませんでした the past negative. The non-past form can describe habits, facts or future plans.",
+      "examples": [
+        {
+          "jp": "わたしは 毎日 勉強します。",
+          "romaji": "Watashi wa mainichi benkyō shimasu.",
+          "bn": "আমি প্রতিদিন পড়াশোনা করি।",
+          "en": "I study every day."
+        },
+        {
+          "jp": "きのう 勉強しました。",
+          "romaji": "Kinō benkyō shimashita.",
+          "bn": "গতকাল পড়াশোনা করেছি।",
+          "en": "I studied yesterday."
+        },
+        {
+          "jp": "きのう 勉強しませんでした。",
+          "romaji": "Kinō benkyō shimasen deshita.",
+          "bn": "গতকাল পড়াশোনা করিনি।",
+          "en": "I did not study yesterday."
+        }
+      ]
+    },
+    {
+      "title": "N (সময়) に V — নির্দিষ্ট সময়ে কাজ",
+      "pattern": "N (time) に V",
+      "explain": "নির্দিষ্ট সময় বোঝানো বিশেষ্যের পরে に বসে কাজটি কখন হয় তা জানায়। きょう、あした、毎日 ইত্যাদি কিছু সময়-শব্দের পরে সাধারণত に বসে না; সপ্তাহের দিনের পরে に ঐচ্ছিক হতে পারে।",
+      "title_en": "N (time) に V — action at a specific time",
+      "pattern_en": "N (time) に V",
+      "explain_en": "に follows a noun expressing a specific time to indicate when an action occurs. It is generally not used after words such as きょう, あした and 毎日; after days of the week it may be optional.",
+      "examples": [
+        {
+          "jp": "６時半に 起きます。",
+          "romaji": "Roku-ji han ni okimasu.",
+          "bn": "সাড়ে ছয়টায় উঠি।",
+          "en": "I get up at 6:30."
+        },
+        {
+          "jp": "７月２日に 日本へ 来ました。",
+          "romaji": "Shichi-gatsu futsuka ni Nihon e kimashita.",
+          "bn": "২ জুলাই জাপানে এসেছিলাম।",
+          "en": "I came to Japan on July 2."
+        }
+      ]
+    },
+    {
+      "title": "N₁ から N₂ まで — থেকে ... পর্যন্ত",
+      "pattern": "N₁ から N₂ まで",
+      "explain": "から শুরুর সময় বা স্থান এবং まで শেষের সময় বা স্থান বোঝায়। দুটি particle একসঙ্গেও ব্যবহার করা যায়, আবার আলাদাভাবেও ব্যবহার করা যায়।",
+      "title_en": "N₁ から N₂ まで — from ... to/until",
+      "pattern_en": "N₁ から N₂ まで",
+      "explain_en": "から marks the starting time or place, while まで marks the finishing time or place. They can be used together or independently.",
+      "examples": [
+        {
+          "jp": "９時から ５時まで 勉強します。",
+          "romaji": "Ku-ji kara go-ji made benkyō shimasu.",
+          "bn": "৯টা থেকে ৫টা পর্যন্ত পড়াশোনা করি।",
+          "en": "I study from 9 to 5."
+        },
+        {
+          "jp": "大阪から 東京まで ３時間 かかります。",
+          "romaji": "Ōsaka kara Tōkyō made san-jikan kakarimasu.",
+          "bn": "ওসাকা থেকে টোকিও যেতে ৩ ঘণ্টা লাগে।",
+          "en": "It takes three hours from Osaka to Tokyo."
+        }
+      ]
+    },
+    {
+      "title": "N₁ と N₂ — এবং",
+      "pattern": "N₁ と N₂",
+      "explain": "と দুটি বিশেষ্যকে সমন্বয় করে ‘এবং’ অর্থ প্রকাশ করে।",
+      "title_en": "N₁ と N₂ — and",
+      "pattern_en": "N₁ と N₂",
+      "explain_en": "と connects two nouns in a coordinate relationship, meaning “and.”",
+      "examples": [
+        {
+          "jp": "銀行の 休みは 土曜日と 日曜日です。",
+          "romaji": "Ginkō no yasumi wa doyōbi to nichiyōbi desu.",
+          "bn": "ব্যাংক শনিবার ও রবিবার বন্ধ থাকে।",
+          "en": "The bank is closed on Saturdays and Sundays."
+        }
+      ]
+    },
+    {
+      "title": "～ね — সম্মতি চাওয়া",
+      "pattern": "Sentence + ね",
+      "explain": "বাক্যের শেষে ね বসিয়ে শ্রোতার কাছ থেকে সম্মতি বা বোঝাপড়া চাওয়া হয়।",
+      "title_en": "～ね — seeking agreement",
+      "pattern_en": "Sentence + ね",
+      "explain_en": "ね is placed at the end of a sentence to invite agreement or confirmation from the listener.",
+      "examples": [
+        {
+          "jp": "毎日 １０時まで 勉強します。大変ですね。",
+          "romaji": "Mainichi jū-ji made benkyō shimasu. Taihen desu ne.",
+          "bn": "প্রতিদিন ১০টা পর্যন্ত পড়াশোনা করি। বেশ কষ্টকর, তাই না?",
+          "en": "I study until ten every day. That's tough, isn't it?"
+        }
+      ]
+    }
+  ]
+}

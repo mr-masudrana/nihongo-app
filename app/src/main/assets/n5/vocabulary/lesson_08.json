@@ -1,0 +1,397 @@
+{
+  "lesson": 8,
+  "title": "দৈনন্দিন জাপানি শব্দভান্ডার – Lesson 8",
+  "words": [
+    {
+      "word": "ハンサム[な]",
+      "reading": "ハンサム[な]",
+      "romaji": "hansamu",
+      "bn": "সুদর্শন",
+      "en": "handsome"
+    },
+    {
+      "word": "きれい[な]",
+      "reading": "きれい[な]",
+      "romaji": "kirei",
+      "bn": "সুন্দর; পরিষ্কার",
+      "en": "beautiful; clean"
+    },
+    {
+      "word": "しずか[な]",
+      "reading": "静か[な]",
+      "romaji": "shizuka",
+      "bn": "শান্ত; নিরিবিলি",
+      "en": "quiet"
+    },
+    {
+      "word": "にぎやか[な]",
+      "reading": "にぎやか[な]",
+      "romaji": "nigiyaka",
+      "bn": "জমজমাট; প্রাণবন্ত",
+      "en": "lively; bustling"
+    },
+    {
+      "word": "ゆうめい[な]",
+      "reading": "有名[な]",
+      "romaji": "yuumei",
+      "bn": "বিখ্যাত",
+      "en": "famous"
+    },
+    {
+      "word": "しんせつ[な]",
+      "reading": "親切[な]",
+      "romaji": "shinsetsu",
+      "bn": "দয়ালু; সহায়ক",
+      "en": "helpful; kind; considerate",
+      "note": "নিজের পরিবারের সদস্যদের সম্পর্কে সাধারণত ব্যবহার করা হয় না"
+    },
+    {
+      "word": "げんき[な]",
+      "reading": "元気[な]",
+      "romaji": "genki",
+      "bn": "সুস্থ; প্রাণবন্ত; চনমনে",
+      "en": "healthy; energetic; cheerful"
+    },
+    {
+      "word": "ひま[な]",
+      "reading": "暇[な]",
+      "romaji": "hima",
+      "bn": "অবসর আছে এমন; ফাঁকা",
+      "en": "free (time)"
+    },
+    {
+      "word": "べんり[な]",
+      "reading": "便利[な]",
+      "romaji": "benri",
+      "bn": "সুবিধাজনক",
+      "en": "convenient"
+    },
+    {
+      "word": "すてき[な]",
+      "reading": "すてき[な]",
+      "romaji": "suteki",
+      "bn": "চমৎকার; দারুণ",
+      "en": "fine; nice; wonderful"
+    },
+    {
+      "word": "おおきい",
+      "reading": "大きい",
+      "romaji": "ookii",
+      "bn": "বড়",
+      "en": "big; large"
+    },
+    {
+      "word": "ちいさい",
+      "reading": "小さい",
+      "romaji": "chiisai",
+      "bn": "ছোট",
+      "en": "small; little"
+    },
+    {
+      "word": "あたらしい",
+      "reading": "新しい",
+      "romaji": "atarashii",
+      "bn": "নতুন; টাটকা",
+      "en": "new; fresh"
+    },
+    {
+      "word": "ふるい",
+      "reading": "古い",
+      "romaji": "furui",
+      "bn": "পুরোনো",
+      "en": "old",
+      "note": "মানুষের বয়স বোঝাতে ব্যবহার করা হয় না"
+    },
+    {
+      "word": "いい（よい）",
+      "reading": "いい（よい）",
+      "romaji": "ii (yoi)",
+      "bn": "ভালো",
+      "en": "good"
+    },
+    {
+      "word": "わるい",
+      "reading": "悪い",
+      "romaji": "warui",
+      "bn": "খারাপ",
+      "en": "bad"
+    },
+    {
+      "word": "あつい",
+      "reading": "暑い／熱い",
+      "romaji": "atsui",
+      "bn": "গরম",
+      "en": "hot",
+      "note": "আবহাওয়া বা স্পর্শের গরম—প্রসঙ্গ অনুযায়ী"
+    },
+    {
+      "word": "さむい",
+      "reading": "寒い",
+      "romaji": "samui",
+      "bn": "ঠান্ডা",
+      "en": "cold",
+      "note": "আবহাওয়ার ঠান্ডা"
+    },
+    {
+      "word": "つめたい",
+      "reading": "冷たい",
+      "romaji": "tsumetai",
+      "bn": "ঠান্ডা; শীতল",
+      "en": "cold",
+      "note": "স্পর্শে ঠান্ডা"
+    },
+    {
+      "word": "むずかしい",
+      "reading": "難しい",
+      "romaji": "muzukashii",
+      "bn": "কঠিন",
+      "en": "difficult"
+    },
+    {
+      "word": "やさしい",
+      "reading": "易しい",
+      "romaji": "yasashii",
+      "bn": "সহজ",
+      "en": "easy"
+    },
+    {
+      "word": "たかい",
+      "reading": "高い",
+      "romaji": "takai",
+      "bn": "দামি; উঁচু; লম্বা",
+      "en": "expensive; tall; high"
+    },
+    {
+      "word": "やすい",
+      "reading": "安い",
+      "romaji": "yasui",
+      "bn": "সস্তা",
+      "en": "inexpensive; cheap"
+    },
+    {
+      "word": "ひくい",
+      "reading": "低い",
+      "romaji": "hikui",
+      "bn": "নিচু; কম",
+      "en": "low"
+    },
+    {
+      "word": "おもしろい",
+      "reading": "おもしろい",
+      "romaji": "omoshiroi",
+      "bn": "মজার; আকর্ষণীয়",
+      "en": "interesting"
+    },
+    {
+      "word": "おいしい",
+      "reading": "おいしい",
+      "romaji": "oishii",
+      "bn": "সুস্বাদু",
+      "en": "delicious; tasty"
+    },
+    {
+      "word": "いそがしい",
+      "reading": "忙しい",
+      "romaji": "isogashii",
+      "bn": "ব্যস্ত",
+      "en": "busy"
+    },
+    {
+      "word": "たのしい",
+      "reading": "楽しい",
+      "romaji": "tanoshii",
+      "bn": "আনন্দদায়ক; মজার",
+      "en": "enjoyable; fun"
+    },
+    {
+      "word": "しろい",
+      "reading": "白い",
+      "romaji": "shiroi",
+      "bn": "সাদা",
+      "en": "white"
+    },
+    {
+      "word": "くろい",
+      "reading": "黒い",
+      "romaji": "kuroi",
+      "bn": "কালো",
+      "en": "black"
+    },
+    {
+      "word": "あかい",
+      "reading": "赤い",
+      "romaji": "akai",
+      "bn": "লাল",
+      "en": "red"
+    },
+    {
+      "word": "あおい",
+      "reading": "青い",
+      "romaji": "aoi",
+      "bn": "নীল",
+      "en": "blue"
+    },
+    {
+      "word": "さくら",
+      "reading": "桜",
+      "romaji": "sakura",
+      "bn": "চেরি ফুল",
+      "en": "cherry blossom"
+    },
+    {
+      "word": "やま",
+      "reading": "山",
+      "romaji": "yama",
+      "bn": "পাহাড়",
+      "en": "mountain"
+    },
+    {
+      "word": "まち",
+      "reading": "町",
+      "romaji": "machi",
+      "bn": "শহর; নগর",
+      "en": "town; city"
+    },
+    {
+      "word": "たべもの",
+      "reading": "食べ物",
+      "romaji": "tabemono",
+      "bn": "খাবার",
+      "en": "food"
+    },
+    {
+      "word": "ところ",
+      "reading": "所",
+      "romaji": "tokoro",
+      "bn": "জায়গা; স্থান",
+      "en": "place"
+    },
+    {
+      "word": "りょう",
+      "reading": "寮",
+      "romaji": "ryou",
+      "bn": "ছাত্রাবাস; ডরমিটরি",
+      "en": "dormitory"
+    },
+    {
+      "word": "レストラン",
+      "reading": "レストラン",
+      "romaji": "resutoran",
+      "bn": "রেস্তোরাঁ",
+      "en": "restaurant"
+    },
+    {
+      "word": "せいかつ",
+      "reading": "生活",
+      "romaji": "seikatsu",
+      "bn": "জীবনযাপন; জীবন",
+      "en": "life"
+    },
+    {
+      "word": "[お]しごと",
+      "reading": "[お]仕事",
+      "romaji": "[o]shigoto",
+      "bn": "কাজ; চাকরি",
+      "en": "work; business",
+      "note": "～をします: কাজ করা"
+    },
+    {
+      "word": "どう",
+      "reading": "どう",
+      "romaji": "dou",
+      "bn": "কেমন; কীভাবে",
+      "en": "how"
+    },
+    {
+      "word": "どんな～",
+      "reading": "どんな～",
+      "romaji": "donna~",
+      "bn": "কেমন ধরনের ~",
+      "en": "what kind of ~"
+    },
+    {
+      "word": "とても",
+      "reading": "とても",
+      "romaji": "totemo",
+      "bn": "খুব; অত্যন্ত",
+      "en": "very"
+    },
+    {
+      "word": "あまり",
+      "reading": "あまり",
+      "romaji": "amari",
+      "bn": "তেমন...না; খুব একটা...না",
+      "en": "not so (used with negatives)"
+    },
+    {
+      "word": "そして",
+      "reading": "そして",
+      "romaji": "soshite",
+      "bn": "এবং; তারপর",
+      "en": "and; used to connect sentences"
+    },
+    {
+      "word": "～が、～",
+      "reading": "～が、～",
+      "romaji": "~ga, ~",
+      "bn": "~, কিন্তু ~",
+      "en": "~, but ~"
+    },
+    {
+      "word": "おげんきですか。",
+      "reading": "お元気ですか。",
+      "romaji": "ogenki desu ka",
+      "bn": "আপনি কেমন আছেন?",
+      "en": "How are you?"
+    },
+    {
+      "word": "そうですね。",
+      "reading": "そうですね。",
+      "romaji": "sou desu ne",
+      "bn": "হ্যাঁ, তাই তো; দেখি",
+      "en": "Well, let me see (pausing)"
+    },
+    {
+      "word": "～、もういっぱい いかがですか。",
+      "reading": "～、もう一杯いかがですか。",
+      "romaji": "~ mou ippai ikaga desu ka",
+      "bn": "আরেক কাপ ~ নেবেন?",
+      "en": "Won't you have another cup of ~?"
+    },
+    {
+      "word": "いいえ、けっこうです。",
+      "reading": "いいえ、けっこうです。",
+      "romaji": "iie, kekkou desu",
+      "bn": "না, ধন্যবাদ; আর লাগবে না",
+      "en": "No, thank you."
+    },
+    {
+      "word": "もう～ですね。",
+      "reading": "もう～ですね。",
+      "romaji": "mou ~ desu ne",
+      "bn": "ইতিমধ্যে ~ হয়ে গেছে, তাই না?",
+      "en": "It's already ~, isn't it?"
+    },
+    {
+      "word": "そろそろ しつれいします。",
+      "reading": "そろそろ失礼します。",
+      "romaji": "sorosoro shitsurei shimasu",
+      "bn": "এবার তাহলে বিদায় নিচ্ছি",
+      "en": "It's time I was going."
+    },
+    {
+      "word": "いいえ。",
+      "reading": "いいえ。",
+      "romaji": "iie",
+      "bn": "না; আরে না",
+      "en": "Not at all."
+    },
+    {
+      "word": "また いらっしゃってください。",
+      "reading": "またいらっしゃってください。",
+      "romaji": "mata irasshatte kudasai",
+      "bn": "আবার আসবেন",
+      "en": "Please come again."
+    }
+  ]
+}

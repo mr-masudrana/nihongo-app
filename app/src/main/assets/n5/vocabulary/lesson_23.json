@@ -1,0 +1,177 @@
+{
+  "lesson": 23,
+  "title": "Minna no Nihongo N5 - Lesson 23",
+  "words": [
+    {
+      "word": "聞きます",
+      "reading": "ききます",
+      "romaji": "kikimasu",
+      "bn": "জিজ্ঞাসা করা (শিক্ষককে)",
+      "en": "ask (the teacher)",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "回します",
+      "reading": "まわします",
+      "romaji": "mawashimasu",
+      "bn": "ঘোরানো",
+      "en": "turn",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "引きます",
+      "reading": "ひきます",
+      "romaji": "hikimasu",
+      "bn": "টানা",
+      "en": "pull",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "変えます",
+      "reading": "かえます",
+      "romaji": "kaemasu",
+      "bn": "পরিবর্তন করা",
+      "en": "change",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "触ります",
+      "reading": "さわります",
+      "romaji": "sawarimasu",
+      "bn": "স্পর্শ করা",
+      "en": "touch (a door)",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "出ます",
+      "reading": "でます",
+      "romaji": "demasu",
+      "bn": "বের হওয়া",
+      "en": "[change] come out",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "歩きます",
+      "reading": "あるきます",
+      "romaji": "arukimasu",
+      "bn": "হেঁটে চলা",
+      "en": "walk",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "渡ります",
+      "reading": "わたります",
+      "romaji": "watarimasu",
+      "bn": "পার হওয়া",
+      "en": "cross (a bridge)",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "曲がります",
+      "reading": "まがります",
+      "romaji": "magarimasu",
+      "bn": "মোড় নেওয়া",
+      "en": "turn (to the right)",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "寂しい",
+      "reading": "さびしい",
+      "romaji": "sabishii",
+      "bn": "একাকী / নিঃসঙ্গ",
+      "en": "lonely",
+      "note": "い-adjective"
+    },
+    {
+      "word": "お湯",
+      "reading": "おゆ",
+      "romaji": "oyu",
+      "bn": "গরম পানি",
+      "en": "hot water"
+    },
+    {
+      "word": "音",
+      "reading": "おと",
+      "romaji": "oto",
+      "bn": "শব্দ",
+      "en": "sound"
+    },
+    {
+      "word": "サイズ",
+      "reading": "サイズ",
+      "romaji": "saizu",
+      "bn": "আকার / মাপ",
+      "en": "size"
+    },
+    {
+      "word": "故障",
+      "reading": "こしょう",
+      "romaji": "koshou",
+      "bn": "বিকল / নষ্ট হওয়া",
+      "en": "breakdown"
+    },
+    {
+      "word": "道",
+      "reading": "みち",
+      "romaji": "michi",
+      "bn": "রাস্তা / পথ",
+      "en": "road, way"
+    },
+    {
+      "word": "交差点",
+      "reading": "こうさてん",
+      "romaji": "kousaten",
+      "bn": "চৌরাস্তা / রাস্তার মোড়",
+      "en": "crossroads"
+    },
+    {
+      "word": "信号",
+      "reading": "しんごう",
+      "romaji": "shingou",
+      "bn": "ট্রাফিক সিগন্যাল",
+      "en": "traffic lights"
+    },
+    {
+      "word": "角",
+      "reading": "かど",
+      "romaji": "kado",
+      "bn": "কোণা / মোড়",
+      "en": "corner"
+    },
+    {
+      "word": "橋",
+      "reading": "はし",
+      "romaji": "hashi",
+      "bn": "সেতু",
+      "en": "bridge"
+    },
+    {
+      "word": "駐車場",
+      "reading": "ちゅうしゃじょう",
+      "romaji": "chuushajou",
+      "bn": "গাড়ি পার্কিংয়ের জায়গা",
+      "en": "car park, parking lot"
+    },
+    {
+      "word": "建物",
+      "reading": "たてもの",
+      "romaji": "tatemono",
+      "bn": "ভবন / দালান",
+      "en": "building"
+    },
+    {
+      "word": "何回も",
+      "reading": "なんかいも",
+      "romaji": "nankaimo",
+      "bn": "অনেকবার",
+      "en": "many times"
+    },
+    {
+      "word": "～目",
+      "reading": "～め",
+      "romaji": "~me",
+      "bn": "ক্রম নির্দেশক প্রত্যয় (যেমন: প্রথম, দ্বিতীয়)",
+      "en": "the -th (indicating order)"
+    }
+  ]
+}

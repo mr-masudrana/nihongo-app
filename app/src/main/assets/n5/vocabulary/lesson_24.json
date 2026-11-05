@@ -1,0 +1,147 @@
+{
+  "lesson": 24,
+  "title": "Minna no Nihongo N5 - Lesson 24",
+  "words": [
+    {
+      "word": "くれます",
+      "reading": "くれます",
+      "romaji": "kuremasu",
+      "bn": "আমাকে / আমাদের দেয়",
+      "en": "give (me)",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "直します",
+      "reading": "なおします",
+      "romaji": "naoshimasu",
+      "bn": "মেরামত / সংশোধন করা",
+      "en": "repair, correct",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "連れて行きます",
+      "reading": "つれていきます",
+      "romaji": "tsureteikimasu",
+      "bn": "কাউকে সঙ্গে নিয়ে যাওয়া",
+      "en": "take (someone)",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "連れて来ます",
+      "reading": "つれてきます",
+      "romaji": "tsuretekimasu",
+      "bn": "কাউকে সঙ্গে করে নিয়ে আসা",
+      "en": "bring (someone)",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "送ります",
+      "reading": "おくります",
+      "romaji": "okurimasu",
+      "bn": "পৌঁছে দেওয়া / সঙ্গে যাওয়া",
+      "en": "escort [someone], go with",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "紹介します",
+      "reading": "しょうかいします",
+      "romaji": "shoukaishimasu",
+      "bn": "পরিচয় করিয়ে দেওয়া",
+      "en": "introduce",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "案内します",
+      "reading": "あんないします",
+      "romaji": "annaishimasu",
+      "bn": "পথ দেখানো / ঘুরিয়ে দেখানো",
+      "en": "show around, show the way",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "説明します",
+      "reading": "せつめいします",
+      "romaji": "setsumeishimasu",
+      "bn": "ব্যাখ্যা করা",
+      "en": "explain",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "おじいさん",
+      "reading": "おじいさん",
+      "romaji": "ojiisan",
+      "bn": "দাদু / নানা; বৃদ্ধ ব্যক্তি",
+      "en": "grandfather, old man"
+    },
+    {
+      "word": "おじいちゃん",
+      "reading": "おじいちゃん",
+      "romaji": "ojiichan",
+      "bn": "দাদু / নানা (স্নেহসূচক)",
+      "en": "grandfather (affectionate)"
+    },
+    {
+      "word": "おばあさん",
+      "reading": "おばあさん",
+      "romaji": "obaasan",
+      "bn": "দাদি / নানি; বৃদ্ধা মহিলা",
+      "en": "grandmother, old woman"
+    },
+    {
+      "word": "おばあちゃん",
+      "reading": "おばあちゃん",
+      "romaji": "obaachan",
+      "bn": "দাদি / নানি (স্নেহসূচক)",
+      "en": "grandmother (affectionate)"
+    },
+    {
+      "word": "準備",
+      "reading": "じゅんび",
+      "romaji": "junbi",
+      "bn": "প্রস্তুতি",
+      "en": "preparation"
+    },
+    {
+      "word": "引っ越し",
+      "reading": "ひっこし",
+      "romaji": "hikkoshi",
+      "bn": "বাসা বদল / স্থানান্তর",
+      "en": "moving out, moving house"
+    },
+    {
+      "word": "お菓子",
+      "reading": "おかし",
+      "romaji": "okashi",
+      "bn": "মিষ্টি / নাশতা",
+      "en": "sweets, snacks"
+    },
+    {
+      "word": "ホームステイ",
+      "reading": "ホームステイ",
+      "romaji": "hōmusutei",
+      "bn": "হোমস্টে; কারও বাড়িতে থাকা",
+      "en": "homestay"
+    },
+    {
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "romaji": "zenbu",
+      "bn": "সব /全部",
+      "en": "all"
+    },
+    {
+      "word": "自分で",
+      "reading": "じぶんで",
+      "romaji": "jibun de",
+      "bn": "নিজে নিজে",
+      "en": "by oneself"
+    },
+    {
+      "word": "ほかに",
+      "reading": "ほかに",
+      "romaji": "hokani",
+      "bn": "এছাড়া / অন্য কিছু",
+      "en": "besides"
+    }
+  ]
+}
