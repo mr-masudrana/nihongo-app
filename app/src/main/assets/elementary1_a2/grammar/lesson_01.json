@@ -1,0 +1,23 @@
+{
+  "lesson": 1,
+  "title": "নতুন শহরে জীবন শুরু",
+  "title_en": "Starting Life in a New Town",
+  "points": [
+    {
+      "title": "নতুন শহরে জীবন শুরু — ব্যাকরণ প্যাটার্ন",
+      "pattern": "まち について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 1-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Starting Life in a New Town — Grammar Pattern",
+      "pattern_en": "About machi",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 1.",
+      "examples": [
+        {
+          "jp": "まちが わかりますか。",
+          "romaji": "machi ga wakarimasu ka.",
+          "bn": "আপনি কি শহর বোঝেন?",
+          "en": "Do you understand town?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "title": "প্রযুক্তি ও দৈনন্দিন জীবন",
+  "title_en": "Technology and Daily Life",
+  "points": [
+    {
+      "title": "প্রযুক্তি ও দৈনন্দিন জীবন — ব্যাকরণ প্যাটার্ন",
+      "pattern": "べんり ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 12-এর মূল ব্যাকরণ।",
+      "title_en": "Technology and Daily Life — Grammar Pattern",
+      "pattern_en": "Can do benri",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 12.",
+      "examples": [
+        {
+          "jp": "じぶんで べんり を することができます。",
+          "romaji": "Jibun de benri o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে সুবিধাজনক করতে পারি।",
+          "en": "I can do convenient by myself."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "lesson": 4,
+  "title": "পরিবার ও বাসস্থান",
+  "title_en": "Family and Home",
+  "words": [
+    {
+      "word": "かぞく",
+      "reading": "かぞく",
+      "romaji": "kazoku",
+      "bn": "পরিবার",
+      "en": "family"
+    },
+    {
+      "word": "ちち",
+      "reading": "ちち",
+      "romaji": "chichi",
+      "bn": "আমার বাবা",
+      "en": "my father"
+    },
+    {
+      "word": "はは",
+      "reading": "はは",
+      "romaji": "haha",
+      "bn": "আমার মা",
+      "en": "my mother"
+    },
+    {
+      "word": "あに",
+      "reading": "あに",
+      "romaji": "ani",
+      "bn": "আমার বড় ভাই",
+      "en": "my older brother"
+    },
+    {
+      "word": "あね",
+      "reading": "あね",
+      "romaji": "ane",
+      "bn": "আমার বড় বোন",
+      "en": "my older sister"
+    },
+    {
+      "word": "すんでいます",
+      "reading": "すんでいます",
+      "romaji": "sunde imasu",
+      "bn": "বসবাস করি",
+      "en": "live / reside"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "lesson": 6,
+  "title": "রেস্তোরাঁয় খাবার অর্ডার করা",
+  "title_en": "Ordering at a Restaurant",
+  "words": [
+    {
+      "word": "メニュー",
+      "reading": "メニュー",
+      "romaji": "menyuu",
+      "bn": "মেনু",
+      "en": "menu"
+    },
+    {
+      "word": "ちゅうもん",
+      "reading": "ちゅうもん",
+      "romaji": "chuumon",
+      "bn": "অর্ডার",
+      "en": "order"
+    },
+    {
+      "word": "カレー",
+      "reading": "カレー",
+      "romaji": "karee",
+      "bn": "কারি",
+      "en": "curry"
+    },
+    {
+      "word": "ラーメン",
+      "reading": "ラーメン",
+      "romaji": "raamen",
+      "bn": "রামেন নুডলস",
+      "en": "ramen"
+    },
+    {
+      "word": "ひとつ",
+      "reading": "ひとつ",
+      "romaji": "hitotsu",
+      "bn": "একটি",
+      "en": "one (thing)"
+    },
+    {
+      "word": "ふたつ",
+      "reading": "ふたつ",
+      "romaji": "futatsu",
+      "bn": "দুইটি",
+      "en": "two (things)"
+    },
+    {
+      "word": "ください",
+      "reading": "ください",
+      "romaji": "kudasai",
+      "bn": "দিন / অনুরোধ করছি",
+      "en": "please give me"
+    }
+  ]
+}

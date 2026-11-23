@@ -1,0 +1,27 @@
+{
+  "lesson": 18,
+  "title": "জীবনের স্মৃতি ও ভবিষ্যৎ",
+  "title_en": "Life Memories and Future",
+  "dialogues": [
+    {
+      "title": "জীবনের স্মৃতি ও ভবিষ্যৎ ডায়ালগ",
+      "title_en": "Life Memories and Future Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、おもいでについて おしえてください。",
+          "romaji": "Sumimasen, omoide ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে স্মৃতি সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about memories."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

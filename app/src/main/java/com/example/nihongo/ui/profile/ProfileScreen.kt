@@ -257,8 +257,9 @@ private fun HighScoreCard(st: com.example.nihongo.domain.Stats) {
     val cs = MaterialTheme.colorScheme
     val rows = listOf(
         Triple("kana", tr("Basic (কানা)", "Basic (Kana)"), cs.primary),
-        Triple("n5", "N5", cs.secondary),
-        Triple("n4", "N4", cs.tertiary)
+        Triple("starter_a1", "Irodori Starter A1", cs.secondary),
+        Triple("elementary1_a2", "Irodori Elementary 1 (A2)", cs.tertiary),
+        Triple("elementary2_a2", "Irodori Elementary 2 (A2)", cs.primary)
     )
     SoftCard(Modifier.fillMaxWidth().padding(horizontal = 20.dp), shape = RoundedCornerShape(24.dp)) {
         Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {

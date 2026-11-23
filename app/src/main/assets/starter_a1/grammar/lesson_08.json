@@ -1,0 +1,23 @@
+{
+  "lesson": 8,
+  "title": "দৈনন্দিন জীবন ও রুটিন",
+  "title_en": "Daily Life and Routine",
+  "points": [
+    {
+      "title": "দৈনন্দিন জীবন ও রুটিন — মৌলিক বাক্য",
+      "pattern": "まいにち です。",
+      "explain": "Irodori Starter A1 লেসন 8-এর মূল বাক্য গঠন।",
+      "title_en": "Daily Life and Routine — Basic Pattern",
+      "pattern_en": "mainichi desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 8.",
+      "examples": [
+        {
+          "jp": "これは まいにち です。",
+          "romaji": "Kore wa mainichi desu.",
+          "bn": "এটি প্রতিদিন।",
+          "en": "This is every day."
+        }
+      ]
+    }
+  ]
+}

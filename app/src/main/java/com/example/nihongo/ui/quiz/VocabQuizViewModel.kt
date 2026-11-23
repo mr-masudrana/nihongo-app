@@ -33,10 +33,10 @@ class VocabQuizViewModel(app: Application) : AndroidViewModel(app) {
     /** (key, লেবেল) — প্রথমটি সবসময় "all" */
     val categories = MutableStateFlow(listOf("all" to "সব"))
     private var words: List<QuizWord> = emptyList()
-    private var level = "n5"
+    private var level = "starter_a1"
     private var loadedLevel: String? = null
 
-    /** "n5" বা "n4" — শুধু ওই লেভেলের লেসনের শব্দ কুইজে আসবে */
+    /** "starter_a1", "elementary1_a2", বা "elementary2_a2" — শুধু ওই বইয়ের লেসনের শব্দ কুইজে আসবে */
     fun setLevel(l: String) {
         if (l == level && loadedLevel == l) return
         level = l

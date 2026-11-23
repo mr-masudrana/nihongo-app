@@ -1,0 +1,23 @@
+{
+  "lesson": 16,
+  "title": "স্বাস্থ্য ও শরীরের অবস্থা",
+  "title_en": "Health and Condition",
+  "points": [
+    {
+      "title": "স্বাস্থ্য ও শরীরের অবস্থা — মৌলিক বাক্য",
+      "pattern": "げんき です。",
+      "explain": "Irodori Starter A1 লেসন 16-এর মূল বাক্য গঠন।",
+      "title_en": "Health and Condition — Basic Pattern",
+      "pattern_en": "genki desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 16.",
+      "examples": [
+        {
+          "jp": "これは げんき です。",
+          "romaji": "Kore wa genki desu.",
+          "bn": "এটি সুস্থ / প্রাণবন্ত।",
+          "en": "This is healthy / fine."
+        }
+      ]
+    }
+  ]
+}

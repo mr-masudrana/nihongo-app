@@ -1,0 +1,27 @@
+{
+  "lesson": 1,
+  "title": "জাপানি ভাষায় শুভেচ্ছা ও পরিচিতি",
+  "title_en": "Greetings and Introductions",
+  "dialogues": [
+    {
+      "title": "প্রথম সাক্ষাৎ (Can-do: নিজের পরিচয় দেওয়া)",
+      "title_en": "First Meeting",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "はじめまして。わたしは マスドです。よろしくおねがいします。",
+          "romaji": "Hajimemashite. Watashi wa Masudo desu. Yoroshiku onegaishimasu.",
+          "bn": "প্রথম দেখা হলো। আমি মাসুদ। পরিচিত হয়ে ভালো লাগলো।",
+          "en": "Nice to meet you. I am Masud. Pleased to meet you."
+        },
+        {
+          "speaker": "B",
+          "jp": "はじめまして。さとうです。こちらこそ よろしくおねがいします。",
+          "romaji": "Hajimemashite. Satou desu. Kochira koso yoroshiku onegaishimasu.",
+          "bn": "প্রথম দেখা হলো। আমি সাতো। আমারও ভালো লাগলো।",
+          "en": "Nice to meet you. I am Sato. Pleased to meet you too."
+        }
+      ]
+    }
+  ]
+}

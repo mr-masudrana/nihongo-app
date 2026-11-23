@@ -1,0 +1,27 @@
+{
+  "lesson": 15,
+  "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম",
+  "title_en": "Environment and Garbage Rules",
+  "dialogues": [
+    {
+      "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম ডায়ালগ",
+      "title_en": "Environment and Garbage Rules Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、ごみについて おしえてください。",
+          "romaji": "Sumimasen, gomi ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে আবর্জনা সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about garbage."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

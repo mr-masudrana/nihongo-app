@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "title": "পরিবারের অনুষ্ঠান",
+  "title_en": "Family Celebrations",
+  "points": [
+    {
+      "title": "পরিবারের অনুষ্ঠান — ব্যাকরণ প্যাটার্ন",
+      "pattern": "おいわい ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 10-এর মূল ব্যাকরণ।",
+      "title_en": "Family Celebrations — Grammar Pattern",
+      "pattern_en": "Can do oiwai",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 10.",
+      "examples": [
+        {
+          "jp": "じぶんで おいわい を することができます。",
+          "romaji": "Jibun de oiwai o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে উদযাপন / অভিনন্দন করতে পারি।",
+          "en": "I can do celebration by myself."
+        }
+      ]
+    }
+  ]
+}

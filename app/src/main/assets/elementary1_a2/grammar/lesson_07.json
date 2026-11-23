@@ -1,0 +1,23 @@
+{
+  "lesson": 7,
+  "title": "বন্ধুদের সাথে দেখা করা",
+  "title_en": "Meeting Up with Friends",
+  "points": [
+    {
+      "title": "বন্ধুদের সাথে দেখা করা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "やくそく について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 7-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Meeting Up with Friends — Grammar Pattern",
+      "pattern_en": "About yakusoku",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 7.",
+      "examples": [
+        {
+          "jp": "やくそくが わかりますか。",
+          "romaji": "yakusoku ga wakarimasu ka.",
+          "bn": "আপনি কি প্রতিশ্রুতি / অ্যাপয়েন্টমেন্ট বোঝেন?",
+          "en": "Do you understand promise / appointment?"
+        }
+      ]
+    }
+  ]
+}

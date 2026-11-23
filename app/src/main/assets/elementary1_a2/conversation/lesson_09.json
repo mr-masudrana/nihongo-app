@@ -1,0 +1,27 @@
+{
+  "lesson": 9,
+  "title": "কাজের পরিবেশ ও সহকর্মী",
+  "title_en": "Workplace and Colleagues",
+  "dialogues": [
+    {
+      "title": "কাজের পরিবেশ ও সহকর্মী ডায়ালগ",
+      "title_en": "Workplace and Colleagues Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、かいしゃについて おしえてください。",
+          "romaji": "Sumimasen, kaisha ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে কোম্পানি সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about company."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

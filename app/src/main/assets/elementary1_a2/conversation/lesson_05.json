@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "title": "উৎসব ও অনুষ্ঠান",
+  "title_en": "Festivals and Events",
+  "dialogues": [
+    {
+      "title": "উৎসব ও অনুষ্ঠান ডায়ালগ",
+      "title_en": "Festivals and Events Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、おまつりについて おしえてください。",
+          "romaji": "Sumimasen, omatsuri ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে উৎসব সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about festival."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

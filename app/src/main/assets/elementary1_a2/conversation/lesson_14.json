@@ -1,0 +1,27 @@
+{
+  "lesson": 14,
+  "title": "হাসপাতাল ও ওষুধ",
+  "title_en": "Hospital and Medicine",
+  "dialogues": [
+    {
+      "title": "হাসপাতাল ও ওষুধ ডায়ালগ",
+      "title_en": "Hospital and Medicine Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、くすりについて おしえてください。",
+          "romaji": "Sumimasen, kusuri ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে ওষুধ সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about medicine."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

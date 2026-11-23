@@ -1,0 +1,27 @@
+{
+  "lesson": 17,
+  "title": "জাপানে বসবাসের পরামর্শ",
+  "title_en": "Advice for Living in Japan",
+  "dialogues": [
+    {
+      "title": "জাপানে বসবাসের পরামর্শ ডায়ালগ",
+      "title_en": "Advice for Living in Japan Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "せいかつについて どう おもいますか。",
+          "romaji": "seikatsu ni tsuite dou omoimasu ka.",
+          "bn": "জীবনযাপন সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about daily life?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

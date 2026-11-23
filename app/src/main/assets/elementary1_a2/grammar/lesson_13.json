@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "title": "আবহাওয়া ও পোশাক",
+  "title_en": "Weather and Clothing",
+  "points": [
+    {
+      "title": "আবহাওয়া ও পোশাক — ব্যাকরণ প্যাটার্ন",
+      "pattern": "ふく について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 13-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Weather and Clothing — Grammar Pattern",
+      "pattern_en": "About fuku",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 13.",
+      "examples": [
+        {
+          "jp": "ふくが わかりますか。",
+          "romaji": "fuku ga wakarimasu ka.",
+          "bn": "আপনি কি পোশাক বোঝেন?",
+          "en": "Do you understand clothes?"
+        }
+      ]
+    }
+  ]
+}

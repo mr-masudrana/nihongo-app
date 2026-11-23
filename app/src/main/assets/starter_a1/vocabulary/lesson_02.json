@@ -1,0 +1,56 @@
+{
+  "lesson": 2,
+  "title": "শখ ও পছন্দের বিষয়",
+  "title_en": "Hobbies and Interests",
+  "words": [
+    {
+      "word": "しゅみ",
+      "reading": "しゅみ",
+      "romaji": "shumi",
+      "bn": "শখ",
+      "en": "hobby"
+    },
+    {
+      "word": "スポーツ",
+      "reading": "スポーツ",
+      "romaji": "supootsu",
+      "bn": "খেলাধুলা",
+      "en": "sports"
+    },
+    {
+      "word": "サッカー",
+      "reading": "サッカー",
+      "romaji": "sakkaa",
+      "bn": "ফুটবল",
+      "en": "football / soccer"
+    },
+    {
+      "word": "おんがく",
+      "reading": "おんがく",
+      "romaji": "ongaku",
+      "bn": "গান / সংগীত",
+      "en": "music"
+    },
+    {
+      "word": "えいが",
+      "reading": "えいが",
+      "romaji": "eiga",
+      "bn": "সিনেমা",
+      "en": "movie"
+    },
+    {
+      "word": "りょこう",
+      "reading": "りょこう",
+      "romaji": "ryokou",
+      "bn": "ভ্রমণ",
+      "en": "travel"
+    },
+    {
+      "word": "すき",
+      "reading": "すき",
+      "romaji": "suki",
+      "bn": "পছন্দ",
+      "en": "like / favorite"
+    }
+  ]
+}

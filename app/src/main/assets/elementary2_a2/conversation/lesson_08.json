@@ -1,0 +1,27 @@
+{
+  "lesson": 8,
+  "title": "সমস্যা ও সমাধানের উপায়",
+  "title_en": "Problems and Solutions",
+  "dialogues": [
+    {
+      "title": "সমস্যা ও সমাধানের উপায় ডায়ালগ",
+      "title_en": "Problems and Solutions Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "こしょうについて どう おもいますか。",
+          "romaji": "koshou ni tsuite dou omoimasu ka.",
+          "bn": "নষ্ট / বিকল সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about breakdown?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 6,
+  "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য",
+  "title_en": "Asking Directions",
+  "dialogues": [
+    {
+      "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য ডায়ালগ",
+      "title_en": "Asking Directions Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、まっすぐについて おしえてください。",
+          "romaji": "Sumimasen, massugu ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে সোজা সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about straight."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

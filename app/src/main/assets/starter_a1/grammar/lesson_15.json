@@ -1,0 +1,23 @@
+{
+  "lesson": 15,
+  "title": "অভিজ্ঞতা ও ভ্রমণ",
+  "title_en": "Experiences and Travel",
+  "points": [
+    {
+      "title": "অভিজ্ঞতা ও ভ্রমণ — মৌলিক বাক্য",
+      "pattern": "りょこう です。",
+      "explain": "Irodori Starter A1 লেসন 15-এর মূল বাক্য গঠন।",
+      "title_en": "Experiences and Travel — Basic Pattern",
+      "pattern_en": "ryokou desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 15.",
+      "examples": [
+        {
+          "jp": "これは りょこう です。",
+          "romaji": "Kore wa ryokou desu.",
+          "bn": "এটি ভ্রমণ।",
+          "en": "This is trip."
+        }
+      ]
+    }
+  ]
+}

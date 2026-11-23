@@ -30,6 +30,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.nihongo.data.ContentRepository
 import com.example.nihongo.data.LessonWord
 import com.example.nihongo.ui.components.BigText
 import com.example.nihongo.ui.components.EmptyState
@@ -127,7 +128,7 @@ private fun SearchRow(lw: LessonWord, onSpeak: () -> Unit) {
                     textAlign = TextAlign.End
                 )
                 Text(
-                    "${lw.level.uppercase()} · L${lw.lessonNo}",
+                    "${ContentRepository.levelShortName(lw.level)} · L${lw.lessonNo}",
                     style = MaterialTheme.typography.labelSmall,
                     color = cs.tertiary,
                     textAlign = TextAlign.End

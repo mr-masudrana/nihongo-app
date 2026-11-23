@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "title": "প্রতিবেশীদের সাথে পরিচয়",
+  "title_en": "Meeting Neighbors",
+  "points": [
+    {
+      "title": "প্রতিবেশীদের সাথে পরিচয় — ব্যাকরণ প্যাটার্ন",
+      "pattern": "となり について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 2-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Meeting Neighbors — Grammar Pattern",
+      "pattern_en": "About tonari",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 2.",
+      "examples": [
+        {
+          "jp": "となりが わかりますか。",
+          "romaji": "tonari ga wakarimasu ka.",
+          "bn": "আপনি কি পাশের বাসা বোঝেন?",
+          "en": "Do you understand next door?"
+        }
+      ]
+    }
+  ]
+}

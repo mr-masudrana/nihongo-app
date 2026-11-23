@@ -1,0 +1,27 @@
+{
+  "lesson": 11,
+  "title": "কাজের পরিবেশে মতামত",
+  "title_en": "Opinions at the Workplace",
+  "dialogues": [
+    {
+      "title": "কাজের পরিবেশে মতামত ডায়ালগ",
+      "title_en": "Opinions at the Workplace Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "いけんについて どう おもいますか。",
+          "romaji": "iken ni tsuite dou omoimasu ka.",
+          "bn": "মতামত সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about opinion?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

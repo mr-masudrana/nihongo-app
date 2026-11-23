@@ -3,33 +3,24 @@ package com.example.nihongo.ui.learn
 import androidx.compose.foundation.background
 import com.example.nihongo.ui.components.AppIcons
 import com.example.nihongo.ui.components.AppIcon
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import com.example.nihongo.ui.components.BigText
-import com.example.nihongo.ui.components.ScreenHeader
-import com.example.nihongo.ui.components.SoftCard
+import com.example.nihongo.data.ContentRepository
 import com.example.nihongo.ui.components.bounceClick
 import com.example.nihongo.ui.kana.KanaChartScreen
 import com.example.nihongo.ui.kana.KanaViewModel
@@ -43,16 +34,26 @@ const val ROUTE_KATAKANA = "katakana"
 const val ROUTE_NUMBER = "number"
 const val ROUTE_SENTENCES = "sentences"
 const val ROUTE_TEST_KANA = "test_kana"
-const val ROUTE_TEST_N5 = "test_n5"
-const val ROUTE_TEST_N4 = "test_n4"
-const val ROUTE_N5_VOCAB = "n5_vocab"
-const val ROUTE_N5_GRAMMAR = "n5_grammar"
-const val ROUTE_N5_KANJI = "n5_kanji"
-const val ROUTE_N5_CONVO = "n5_convo"
-const val ROUTE_N4_VOCAB = "n4_vocab"
-const val ROUTE_N4_GRAMMAR = "n4_grammar"
-const val ROUTE_N4_KANJI = "n4_kanji"
-const val ROUTE_N4_CONVO = "n4_convo"
+
+// Irodori JFT-Basic Routes
+const val ROUTE_TEST_A1 = "test/starter_a1"
+const val ROUTE_TEST_A2_1 = "test/elementary1_a2"
+const val ROUTE_TEST_A2_2 = "test/elementary2_a2"
+
+const val ROUTE_A1_VOCAB = "starter_a1/vocab"
+const val ROUTE_A1_GRAMMAR = "starter_a1/grammar"
+const val ROUTE_A1_KANJI = "starter_a1/kanji"
+const val ROUTE_A1_CONVO = "starter_a1/convo"
+
+const val ROUTE_A2_1_VOCAB = "elementary1_a2/vocab"
+const val ROUTE_A2_1_GRAMMAR = "elementary1_a2/grammar"
+const val ROUTE_A2_1_KANJI = "elementary1_a2/kanji"
+const val ROUTE_A2_1_CONVO = "elementary1_a2/convo"
+
+const val ROUTE_A2_2_VOCAB = "elementary2_a2/vocab"
+const val ROUTE_A2_2_GRAMMAR = "elementary2_a2/grammar"
+const val ROUTE_A2_2_KANJI = "elementary2_a2/kanji"
+const val ROUTE_A2_2_CONVO = "elementary2_a2/convo"
 
 private fun typeName(t: String) = when (t) {
     "vocab" -> "Vocabulary"
@@ -70,16 +71,19 @@ private fun crumb(route: String): Pair<String, String> {
         ROUTE_NUMBER -> "Basic" to "Number"
         ROUTE_SENTENCES -> "Basic" to "Sentences"
         ROUTE_TEST_KANA -> "Basic" to "Test"
-        ROUTE_TEST_N5 -> "N5" to "Test"
-        ROUTE_TEST_N4 -> "N4" to "Test"
         else -> {
-            val parts = base.split("_")
-            val level = parts[0].uppercase()
-            val type = typeName(parts.getOrElse(1) { "" })
-            when {
-                no == null -> level to type
-                parts.getOrNull(1) == "kanji" -> "$level · $type" to "${no + 1}"
-                else -> "$level · $type" to "Lesson $no"
+            val parts = base.split("/")
+            if (parts[0] == "test") {
+                val lvlName = ContentRepository.levelDisplayName(parts.getOrElse(1) { "starter_a1" })
+                lvlName to "Test"
+            } else {
+                val level = ContentRepository.levelDisplayName(parts[0])
+                val type = typeName(parts.getOrElse(1) { "" })
+                when {
+                    no == null -> level to type
+                    parts.getOrNull(1) == "kanji" -> "$level · $type" to "${no + 1}"
+                    else -> "$level · $type" to "Lesson $no"
+                }
             }
         }
     }
@@ -107,15 +111,14 @@ fun LearnScreen(
         SectionBar(level, name, onBack = { onRoute(parentRoute(route)) })
         val base = route.substringBefore(':')
         val no = route.substringAfter(':', "").toIntOrNull()
-        val parts = base.split("_")
+        val parts = base.split("/")
         when {
             base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
             base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
             base == ROUTE_NUMBER -> NumberScreen()
             base == ROUTE_SENTENCES -> SentenceScreen()
             base == ROUTE_TEST_KANA -> TestScreen("kana", kanaQuizVm, vocabQuizVm)
-            base == ROUTE_TEST_N5 -> TestScreen("n5", kanaQuizVm, vocabQuizVm)
-            base == ROUTE_TEST_N4 -> TestScreen("n4", kanaQuizVm, vocabQuizVm)
+            parts[0] == "test" -> TestScreen(parts.getOrElse(1) { "starter_a1" }, kanaQuizVm, vocabQuizVm)
             parts.getOrNull(1) == "kanji" && no != null ->
                 KanjiDetailScreen(parts[0], no, onNavigate = { onRoute("$base:$it") })
             parts.getOrNull(1) == "kanji" ->

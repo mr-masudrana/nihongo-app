@@ -1,0 +1,27 @@
+{
+  "lesson": 3,
+  "title": "আবহাওয়া ও ঋতু",
+  "title_en": "Weather and Seasons",
+  "dialogues": [
+    {
+      "title": "আবহাওয়া নিয়ে কথোপকথন",
+      "title_en": "Chatting about Weather",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "きょうは さむいですね。",
+          "romaji": "Kyou wa samui desu ne.",
+          "bn": "আজ বেশ ঠান্ডা পড়েছে, তাই না?",
+          "en": "It's cold today, isn't it?"
+        },
+        {
+          "speaker": "B",
+          "jp": "そうですね。ふゆですからね。",
+          "romaji": "Sou desu ne. Fuyu desu kara ne.",
+          "bn": "হ্যাঁ, ঠিক বলেছেন। শীতকাল তো।",
+          "en": "Yes, it is. Because it's winter."
+        }
+      ]
+    }
+  ]
+}

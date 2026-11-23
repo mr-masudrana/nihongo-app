@@ -1,0 +1,27 @@
+{
+  "lesson": 3,
+  "title": "সুপারমার্কেটে কেনাকাটা",
+  "title_en": "Shopping at the Supermarket",
+  "dialogues": [
+    {
+      "title": "সুপারমার্কেটে কেনাকাটা ডায়ালগ",
+      "title_en": "Shopping at the Supermarket Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、ねだんについて おしえてください。",
+          "romaji": "Sumimasen, nedan ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে দাম সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about price."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

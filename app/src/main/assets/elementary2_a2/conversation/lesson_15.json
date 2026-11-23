@@ -1,0 +1,27 @@
+{
+  "lesson": 15,
+  "title": "খাবারের সংস্কৃতি ও রান্না",
+  "title_en": "Food Culture and Cooking",
+  "dialogues": [
+    {
+      "title": "খাবারের সংস্কৃতি ও রান্না ডায়ালগ",
+      "title_en": "Food Culture and Cooking Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "りょうりについて どう おもいますか。",
+          "romaji": "ryouri ni tsuite dou omoimasu ka.",
+          "bn": "রান্না / খাবার সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about cooking / dish?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 6,
+  "title": "ইভেন্টে অংশগ্রহণ",
+  "title_en": "Participating in Events",
+  "dialogues": [
+    {
+      "title": "ইভেন্টে অংশগ্রহণ ডায়ালগ",
+      "title_en": "Participating in Events Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "さんかについて どう おもいますか。",
+          "romaji": "sanka ni tsuite dou omoimasu ka.",
+          "bn": "অংশগ্রহণ সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about participation?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

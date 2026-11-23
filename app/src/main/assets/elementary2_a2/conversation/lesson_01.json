@@ -1,0 +1,27 @@
+{
+  "lesson": 1,
+  "title": "নিজের দক্ষতা ও অভিজ্ঞতা",
+  "title_en": "Skills and Experiences",
+  "dialogues": [
+    {
+      "title": "নিজের দক্ষতা ও অভিজ্ঞতা ডায়ালগ",
+      "title_en": "Skills and Experiences Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "けいけんについて どう おもいますか。",
+          "romaji": "keiken ni tsuite dou omoimasu ka.",
+          "bn": "অভিজ্ঞতা সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about experience?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

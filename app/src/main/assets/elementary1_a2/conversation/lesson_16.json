@@ -1,0 +1,27 @@
+{
+  "lesson": 16,
+  "title": "দুর্যোগ ও জরুরি প্রস্তুতি",
+  "title_en": "Disasters and Emergency Prep",
+  "dialogues": [
+    {
+      "title": "দুর্যোগ ও জরুরি প্রস্তুতি ডায়ালগ",
+      "title_en": "Disasters and Emergency Prep Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、じしんについて おしえてください。",
+          "romaji": "Sumimasen, jishin ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে ভূমিকম্প সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about earthquake."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 9,
+  "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা",
+  "title_en": "Describing Travel Experiences",
+  "dialogues": [
+    {
+      "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা ডায়ালগ",
+      "title_en": "Describing Travel Experiences Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "けしきについて どう おもいますか。",
+          "romaji": "keshiki ni tsuite dou omoimasu ka.",
+          "bn": "দৃশ্য সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about scenery?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

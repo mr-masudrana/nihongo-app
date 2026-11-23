@@ -28,44 +28,23 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.drawBehind
-import androidx.compose.ui.geometry.Offset
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.domain.Gamification
-import com.example.nihongo.ui.components.AppProgressBar
 import com.example.nihongo.ui.components.BigText
-import com.example.nihongo.ui.components.ProgressRing
 import com.example.nihongo.ui.components.SoftCard
 import com.example.nihongo.ui.components.entrance
 import com.example.nihongo.ui.kana.KanaViewModel
-import com.example.nihongo.ui.learn.LearnScreen
-import com.example.nihongo.ui.learn.ROUTE_NUMBER
-import com.example.nihongo.ui.learn.ROUTE_SENTENCES
-import com.example.nihongo.ui.learn.ROUTE_N4_CONVO
-import com.example.nihongo.ui.learn.ROUTE_N5_CONVO
-import com.example.nihongo.ui.learn.ROUTE_HIRAGANA
-import com.example.nihongo.ui.learn.ROUTE_HUB
-import com.example.nihongo.ui.learn.ROUTE_KATAKANA
-import com.example.nihongo.ui.learn.ROUTE_N4_GRAMMAR
-import com.example.nihongo.ui.learn.ROUTE_N4_KANJI
-import com.example.nihongo.ui.learn.ROUTE_N4_VOCAB
-import com.example.nihongo.ui.learn.ROUTE_N5_GRAMMAR
-import com.example.nihongo.ui.learn.ROUTE_N5_KANJI
-import com.example.nihongo.ui.learn.ROUTE_N5_VOCAB
-import com.example.nihongo.ui.learn.ROUTE_TEST_KANA
-import com.example.nihongo.ui.learn.ROUTE_TEST_N4
-import com.example.nihongo.ui.learn.ROUTE_TEST_N5
+import com.example.nihongo.ui.learn.*
 import com.example.nihongo.ui.quiz.KanaQuizViewModel
 import com.example.nihongo.ui.quiz.VocabQuizViewModel
 import com.example.nihongo.ui.stats.StatsViewModel
 import java.util.Calendar
 
 /**
- * Home ট্যাব: route == ROUTE_HUB হলে নতুন হোম (তিন লেভেলের সেকশন);
+ * Home ট্যাব: route == ROUTE_HUB হলে নতুন হোম (Irodori JFT-Basic সেকশনসমূহ);
  * নইলে নির্বাচিত সেকশন/পাতা (LearnScreen)।
  */
 @Composable
@@ -93,19 +72,29 @@ private val basicTiles = listOf(
     Tile("言", "Sentences", ROUTE_SENTENCES),
     Tile("問", "Test", ROUTE_TEST_KANA)
 )
-private val n5Tiles = listOf(
-    Tile("語", "Vocabulary", ROUTE_N5_VOCAB),
-    Tile("字", "Kanji", ROUTE_N5_KANJI),
-    Tile("文", "Grammar", ROUTE_N5_GRAMMAR),
-    Tile("話", "Dialogue", ROUTE_N5_CONVO),
-    Tile("問", "Test", ROUTE_TEST_N5)
+
+private val starterA1Tiles = listOf(
+    Tile("語", "Vocabulary", ROUTE_A1_VOCAB),
+    Tile("字", "Kanji", ROUTE_A1_KANJI),
+    Tile("文", "Grammar", ROUTE_A1_GRAMMAR),
+    Tile("話", "Dialogue", ROUTE_A1_CONVO),
+    Tile("問", "Test", ROUTE_TEST_A1)
 )
-private val n4Tiles = listOf(
-    Tile("語", "Vocabulary", ROUTE_N4_VOCAB),
-    Tile("字", "Kanji", ROUTE_N4_KANJI),
-    Tile("文", "Grammar", ROUTE_N4_GRAMMAR),
-    Tile("話", "Dialogue", ROUTE_N4_CONVO),
-    Tile("問", "Test", ROUTE_TEST_N4)
+
+private val elementary1A2Tiles = listOf(
+    Tile("語", "Vocabulary", ROUTE_A2_1_VOCAB),
+    Tile("字", "Kanji", ROUTE_A2_1_KANJI),
+    Tile("文", "Grammar", ROUTE_A2_1_GRAMMAR),
+    Tile("話", "Dialogue", ROUTE_A2_1_CONVO),
+    Tile("問", "Test", ROUTE_TEST_A2_1)
+)
+
+private val elementary2A2Tiles = listOf(
+    Tile("語", "Vocabulary", ROUTE_A2_2_VOCAB),
+    Tile("字", "Kanji", ROUTE_A2_2_KANJI),
+    Tile("文", "Grammar", ROUTE_A2_2_GRAMMAR),
+    Tile("話", "Dialogue", ROUTE_A2_2_CONVO),
+    Tile("問", "Test", ROUTE_TEST_A2_2)
 )
 
 @Composable
@@ -131,21 +120,25 @@ private fun HomeHub(statsVm: StatsViewModel, onRoute: (String) -> Unit) {
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .padding(bottom = 32.dp),
-        verticalArrangement = Arrangement.spacedBy(26.dp)
+        verticalArrangement = Arrangement.spacedBy(24.dp)
     ) {
         HomeHeader(greet, streak)
 
         LevelSection(
-            "BASIC", basicTiles, onRoute,
+            "BASIC (কানা ও সংখ্যা)", basicTiles, onRoute,
             accent = cs.primary, onAccent = cs.onPrimary
         )
         LevelSection(
-            "N5", n5Tiles, onRoute,
+            "IRODORI · STARTER A1", starterA1Tiles, onRoute,
             accent = cs.secondary, onAccent = cs.onSecondary
         )
         LevelSection(
-            "N4", n4Tiles, onRoute,
+            "IRODORI · ELEMENTARY 1 (A2)", elementary1A2Tiles, onRoute,
             accent = cs.tertiary, onAccent = cs.onTertiary
+        )
+        LevelSection(
+            "IRODORI · ELEMENTARY 2 (A2)", elementary2A2Tiles, onRoute,
+            accent = cs.primary, onAccent = cs.onPrimary
         )
     }
 }
@@ -166,6 +159,11 @@ private fun HomeHeader(greet: Triple<String, String, String>, streak: Int) {
                 color = cs.onSurfaceVariant
             )
             BigText(greet.first, 32.sp, color = cs.onBackground, weight = FontWeight.Bold)
+            Text(
+                tr("JFT-Basic · Irodori সিলেবাস (A1 - A2)", "JFT-Basic · Irodori Syllabus (A1 - A2)"),
+                style = MaterialTheme.typography.labelMedium,
+                color = cs.primary
+            )
         }
         Row(
             Modifier
@@ -202,7 +200,7 @@ private fun LevelSection(
                     .background(accent)
             )
             Spacer(Modifier.width(10.dp))
-            Text(label, style = MaterialTheme.typography.titleLarge, color = cs.onSurface)
+            Text(label, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
         }
         tiles.chunked(3).forEach { rowTiles ->
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
@@ -213,7 +211,6 @@ private fun LevelSection(
                         onClick = { onRoute(t.route) }
                     )
                 }
-                // শেষ সারিতে কার্ড কম হলে ফাঁকা জায়গা রেখে প্রতিটি কার্ডের মাপ সমান রাখি
                 repeat(3 - rowTiles.size) { Spacer(Modifier.weight(1f)) }
             }
         }

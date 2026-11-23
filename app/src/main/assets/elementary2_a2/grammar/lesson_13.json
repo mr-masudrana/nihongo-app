@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং",
+  "title_en": "Environmental Protection",
+  "points": [
+    {
+      "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং — ব্যাকরণ প্যাটার্ন",
+      "pattern": "リサイクル ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 13-এর মূল ব্যাকরণ।",
+      "title_en": "Environmental Protection — Grammar Pattern",
+      "pattern_en": "Can do risaikuru",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 13.",
+      "examples": [
+        {
+          "jp": "じぶんで リサイクル を することができます。",
+          "romaji": "Jibun de risaikuru o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে রিসাইক্লিং করতে পারি।",
+          "en": "I can do recycling by myself."
+        }
+      ]
+    }
+  ]
+}

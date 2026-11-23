@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "title": "হোটেল ও থাকার ব্যবস্থা",
+  "title_en": "Hotels and Accommodation",
+  "points": [
+    {
+      "title": "হোটেল ও থাকার ব্যবস্থা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "よやく について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 12-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Hotels and Accommodation — Grammar Pattern",
+      "pattern_en": "About yoyaku",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 12.",
+      "examples": [
+        {
+          "jp": "よやくが わかりますか。",
+          "romaji": "yoyaku ga wakarimasu ka.",
+          "bn": "আপনি কি বুকিং / রিজার্ভেশন বোঝেন?",
+          "en": "Do you understand reservation?"
+        }
+      ]
+    }
+  ]
+}

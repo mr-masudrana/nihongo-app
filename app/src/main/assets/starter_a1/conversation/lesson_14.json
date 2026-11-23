@@ -1,0 +1,27 @@
+{
+  "lesson": 14,
+  "title": "আমন্ত্রণ ও পরিকল্পনা",
+  "title_en": "Invitations and Plans",
+  "dialogues": [
+    {
+      "title": "আমন্ত্রণ ও পরিকল্পনা কথোপকথন",
+      "title_en": "Invitations and Plans Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "いっしょには どこですか。",
+          "romaji": "issho ni wa doko desu ka.",
+          "bn": "একসাথে কোথায়?",
+          "en": "Where is together?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

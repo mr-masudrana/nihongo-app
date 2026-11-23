@@ -1,0 +1,63 @@
+{
+  "lesson": 3,
+  "title": "আবহাওয়া ও ঋতু",
+  "title_en": "Weather and Seasons",
+  "words": [
+    {
+      "word": "てんき",
+      "reading": "てんき",
+      "romaji": "tenki",
+      "bn": "আবহাওয়া",
+      "en": "weather"
+    },
+    {
+      "word": "あつい",
+      "reading": "あつい",
+      "romaji": "atsui",
+      "bn": "গরম",
+      "en": "hot"
+    },
+    {
+      "word": "さむい",
+      "reading": "さむい",
+      "romaji": "samui",
+      "bn": "ঠান্ডা",
+      "en": "cold"
+    },
+    {
+      "word": "あめ",
+      "reading": "あめ",
+      "romaji": "ame",
+      "bn": "বৃষ্টি",
+      "en": "rain"
+    },
+    {
+      "word": "はる",
+      "reading": "はる",
+      "romaji": "haru",
+      "bn": "বসন্তকাল",
+      "en": "spring"
+    },
+    {
+      "word": "なつ",
+      "reading": "なつ",
+      "romaji": "natsu",
+      "bn": "গ্রীষ্মকাল",
+      "en": "summer"
+    },
+    {
+      "word": "あき",
+      "reading": "あき",
+      "romaji": "aki",
+      "bn": "শরৎকাল",
+      "en": "autumn"
+    },
+    {
+      "word": "ふゆ",
+      "reading": "ふゆ",
+      "romaji": "fuyu",
+      "bn": "শীতকাল",
+      "en": "winter"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 2,
+  "title": "কাজের নিয়ম ও নির্দেশনা",
+  "title_en": "Work Rules and Instructions",
+  "dialogues": [
+    {
+      "title": "কাজের নিয়ম ও নির্দেশনা ডায়ালগ",
+      "title_en": "Work Rules and Instructions Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ちゅういについて どう おもいますか。",
+          "romaji": "chuui ni tsuite dou omoimasu ka.",
+          "bn": "সতর্কতা / মনোযোগ সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about caution / attention?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "title": "রেস্তোরাঁর খাবার ও স্বাদ",
+  "title_en": "Restaurant Food and Taste",
+  "points": [
+    {
+      "title": "রেস্তোরাঁর খাবার ও স্বাদ — ব্যাকরণ প্যাটার্ন",
+      "pattern": "おいしい について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 4-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Restaurant Food and Taste — Grammar Pattern",
+      "pattern_en": "About oishii",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 4.",
+      "examples": [
+        {
+          "jp": "おいしいが わかりますか。",
+          "romaji": "oishii ga wakarimasu ka.",
+          "bn": "আপনি কি সুস্বাদু বোঝেন?",
+          "en": "Do you understand delicious?"
+        }
+      ]
+    }
+  ]
+}

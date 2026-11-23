@@ -1,0 +1,23 @@
+{
+  "lesson": 6,
+  "title": "ইভেন্টে অংশগ্রহণ",
+  "title_en": "Participating in Events",
+  "points": [
+    {
+      "title": "ইভেন্টে অংশগ্রহণ — ব্যাকরণ প্যাটার্ন",
+      "pattern": "さんか ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 6-এর মূল ব্যাকরণ।",
+      "title_en": "Participating in Events — Grammar Pattern",
+      "pattern_en": "Can do sanka",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 6.",
+      "examples": [
+        {
+          "jp": "じぶんで さんか を することができます。",
+          "romaji": "Jibun de sanka o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে অংশগ্রহণ করতে পারি।",
+          "en": "I can do participation by myself."
+        }
+      ]
+    }
+  ]
+}

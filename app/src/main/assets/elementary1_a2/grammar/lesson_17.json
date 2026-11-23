@@ -1,0 +1,23 @@
+{
+  "lesson": 17,
+  "title": "উপহার ও কৃতজ্ঞতা প্রকাশ",
+  "title_en": "Gifts and Gratitude",
+  "points": [
+    {
+      "title": "উপহার ও কৃতজ্ঞতা প্রকাশ — ব্যাকরণ প্যাটার্ন",
+      "pattern": "おみやげ について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 17-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Gifts and Gratitude — Grammar Pattern",
+      "pattern_en": "About omiyage",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 17.",
+      "examples": [
+        {
+          "jp": "おみやげが わかりますか。",
+          "romaji": "omiyage ga wakarimasu ka.",
+          "bn": "আপনি কি স্যুভেনির / উপহার বোঝেন?",
+          "en": "Do you understand souvenir?"
+        }
+      ]
+    }
+  ]
+}

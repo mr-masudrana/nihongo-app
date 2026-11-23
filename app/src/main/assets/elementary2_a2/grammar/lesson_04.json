@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "title": "ব্যাংক ও পোস্ট অফিস",
+  "title_en": "Bank and Post Office",
+  "points": [
+    {
+      "title": "ব্যাংক ও পোস্ট অফিস — ব্যাকরণ প্যাটার্ন",
+      "pattern": "ぎんこう ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 4-এর মূল ব্যাকরণ।",
+      "title_en": "Bank and Post Office — Grammar Pattern",
+      "pattern_en": "Can do ginkou",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 4.",
+      "examples": [
+        {
+          "jp": "じぶんで ぎんこう を することができます。",
+          "romaji": "Jibun de ginkou o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে ব্যাংক করতে পারি।",
+          "en": "I can do bank by myself."
+        }
+      ]
+    }
+  ]
+}

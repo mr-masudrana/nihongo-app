@@ -1,0 +1,27 @@
+{
+  "lesson": 4,
+  "title": "ব্যাংক ও পোস্ট অফিস",
+  "title_en": "Bank and Post Office",
+  "dialogues": [
+    {
+      "title": "ব্যাংক ও পোস্ট অফিস ডায়ালগ",
+      "title_en": "Bank and Post Office Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ぎんこうについて どう おもいますか。",
+          "romaji": "ginkou ni tsuite dou omoimasu ka.",
+          "bn": "ব্যাংক সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about bank?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

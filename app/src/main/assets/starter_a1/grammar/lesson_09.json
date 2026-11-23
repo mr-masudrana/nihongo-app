@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "title": "সময় ও সময়সূচি",
+  "title_en": "Time and Schedule",
+  "points": [
+    {
+      "title": "সময় ও সময়সূচি — মৌলিক বাক্য",
+      "pattern": "なんじ です。",
+      "explain": "Irodori Starter A1 লেসন 9-এর মূল বাক্য গঠন।",
+      "title_en": "Time and Schedule — Basic Pattern",
+      "pattern_en": "nanji desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 9.",
+      "examples": [
+        {
+          "jp": "これは なんじ です。",
+          "romaji": "Kore wa nanji desu.",
+          "bn": "এটি কয়টা বাজে।",
+          "en": "This is what time."
+        }
+      ]
+    }
+  ]
+}

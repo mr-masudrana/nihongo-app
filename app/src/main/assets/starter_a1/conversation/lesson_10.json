@@ -1,0 +1,27 @@
+{
+  "lesson": 10,
+  "title": "কেনাকাটা ও দাম জিজ্ঞাসা",
+  "title_en": "Shopping and Prices",
+  "dialogues": [
+    {
+      "title": "কেনাকাটা ও দাম জিজ্ঞাসা কথোপকথন",
+      "title_en": "Shopping and Prices Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "いくらは どこですか。",
+          "romaji": "ikura wa doko desu ka.",
+          "bn": "কত দাম কোথায়?",
+          "en": "Where is how much?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 11,
+  "title": "কাজের পরিবেশে মতামত",
+  "title_en": "Opinions at the Workplace",
+  "points": [
+    {
+      "title": "কাজের পরিবেশে মতামত — ব্যাকরণ প্যাটার্ন",
+      "pattern": "いけん ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 11-এর মূল ব্যাকরণ।",
+      "title_en": "Opinions at the Workplace — Grammar Pattern",
+      "pattern_en": "Can do iken",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 11.",
+      "examples": [
+        {
+          "jp": "じぶんで いけん を することができます。",
+          "romaji": "Jibun de iken o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে মতামত করতে পারি।",
+          "en": "I can do opinion by myself."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 5,
+  "title": "পছন্দের খাবার ও পানীয়",
+  "title_en": "Favorite Foods and Drinks",
+  "points": [
+    {
+      "title": "N を たべます / のみます — খাওয়া ও পান করা",
+      "pattern": "さかなを たべます。",
+      "explain": "কর্ম বা অবজেক্টের পরে を (ও) পার্টিকেল বসে।",
+      "title_en": "Eating and Drinking",
+      "pattern_en": "Sakana o tabemasu.",
+      "explain_en": "Particle を marks the direct object of an action.",
+      "examples": [
+        {
+          "jp": "まいにち やさいを たべます。",
+          "romaji": "Mainichi yasai o tabemasu.",
+          "bn": "প্রতিদিন শাকসবজি খাই।",
+          "en": "I eat vegetables every day."
+        }
+      ]
+    }
+  ]
+}

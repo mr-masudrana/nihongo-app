@@ -1,0 +1,27 @@
+{
+  "lesson": 4,
+  "title": "রেস্তোরাঁর খাবার ও স্বাদ",
+  "title_en": "Restaurant Food and Taste",
+  "dialogues": [
+    {
+      "title": "রেস্তোরাঁর খাবার ও স্বাদ ডায়ালগ",
+      "title_en": "Restaurant Food and Taste Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、おいしいについて おしえてください。",
+          "romaji": "Sumimasen, oishii ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে সুস্বাদু সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about delicious."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

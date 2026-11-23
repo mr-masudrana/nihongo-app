@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "title": "কেনাকাটা ও দাম জিজ্ঞাসা",
+  "title_en": "Shopping and Prices",
+  "points": [
+    {
+      "title": "কেনাকাটা ও দাম জিজ্ঞাসা — মৌলিক বাক্য",
+      "pattern": "いくら です。",
+      "explain": "Irodori Starter A1 লেসন 10-এর মূল বাক্য গঠন।",
+      "title_en": "Shopping and Prices — Basic Pattern",
+      "pattern_en": "ikura desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 10.",
+      "examples": [
+        {
+          "jp": "これは いくら です。",
+          "romaji": "Kore wa ikura desu.",
+          "bn": "এটি কত দাম।",
+          "en": "This is how much."
+        }
+      ]
+    }
+  ]
+}

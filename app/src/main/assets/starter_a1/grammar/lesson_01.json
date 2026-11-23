@@ -1,0 +1,29 @@
+{
+  "lesson": 1,
+  "title": "জাপানি ভাষায় শুভেচ্ছা ও পরিচিতি",
+  "title_en": "Greetings and Introductions",
+  "points": [
+    {
+      "title": "N₁ は N₂ です — নিজের পরিচয়",
+      "pattern": "わたしは [নাম/দেশ] です。",
+      "explain": "নিজের নাম, দেশ বা পেশা বলতে এই বাক্য গঠন ব্যবহৃত হয়। は (ওয়া) টপিক নির্দেশ করে।",
+      "title_en": "N₁ は N₂ です — Self Introduction",
+      "pattern_en": "Watashi wa [Name/Country] desu.",
+      "explain_en": "Used to state your name, nationality, or occupation.",
+      "examples": [
+        {
+          "jp": "わたしは マスドです。",
+          "romaji": "Watashi wa Masudo desu.",
+          "bn": "আমি মাসুদ।",
+          "en": "I am Masud."
+        },
+        {
+          "jp": "バングラデシュから きました。",
+          "romaji": "Banguradeshu kara kimashita.",
+          "bn": "আমি বাংলাদেশ থেকে এসেছি।",
+          "en": "I came from Bangladesh."
+        }
+      ]
+    }
+  ]
+}

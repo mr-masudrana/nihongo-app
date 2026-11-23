@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "title": "কাজের পরিবেশ ও সহকর্মী",
+  "title_en": "Workplace and Colleagues",
+  "points": [
+    {
+      "title": "কাজের পরিবেশ ও সহকর্মী — ব্যাকরণ প্যাটার্ন",
+      "pattern": "かいしゃ について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 9-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Workplace and Colleagues — Grammar Pattern",
+      "pattern_en": "About kaisha",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 9.",
+      "examples": [
+        {
+          "jp": "かいしゃが わかりますか。",
+          "romaji": "kaisha ga wakarimasu ka.",
+          "bn": "আপনি কি কোম্পানি বোঝেন?",
+          "en": "Do you understand company?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 8,
+  "title": "ভাষা ও সংস্কৃতি শেখা",
+  "title_en": "Learning Language and Culture",
+  "dialogues": [
+    {
+      "title": "ভাষা ও সংস্কৃতি শেখা ডায়ালগ",
+      "title_en": "Learning Language and Culture Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、ぶんかについて おしえてください。",
+          "romaji": "Sumimasen, bunka ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে সংস্কৃতি সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about culture."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

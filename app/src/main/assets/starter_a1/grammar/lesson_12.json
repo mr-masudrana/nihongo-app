@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "title": "যাতায়াত ও দিকনির্দেশনা",
+  "title_en": "Transportation and Directions",
+  "points": [
+    {
+      "title": "যাতায়াত ও দিকনির্দেশনা — মৌলিক বাক্য",
+      "pattern": "えき です。",
+      "explain": "Irodori Starter A1 লেসন 12-এর মূল বাক্য গঠন।",
+      "title_en": "Transportation and Directions — Basic Pattern",
+      "pattern_en": "eki desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 12.",
+      "examples": [
+        {
+          "jp": "これは えき です。",
+          "romaji": "Kore wa eki desu.",
+          "bn": "এটি স্টেশন।",
+          "en": "This is station."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 4,
+  "title": "পরিবার ও বাসস্থান",
+  "title_en": "Family and Home",
+  "dialogues": [
+    {
+      "title": "পরিবার সম্পর্কে বলা",
+      "title_en": "Talking about Family",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "かぞくは どこに すんでいますか。",
+          "romaji": "Kazoku wa doko ni sunde imasu ka.",
+          "bn": "আপনার পরিবার কোথায় থাকে?",
+          "en": "Where does your family live?"
+        },
+        {
+          "speaker": "B",
+          "jp": "くにに すんでいます。ちちと ははが います。",
+          "romaji": "Kuni ni sunde imasu. Chichi to haha ga imasu.",
+          "bn": "দেশে থাকে। বাবা আর মা আছেন।",
+          "en": "They live in my home country. I have my father and mother."
+        }
+      ]
+    }
+  ]
+}

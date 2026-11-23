@@ -1,0 +1,23 @@
+{
+  "lesson": 8,
+  "title": "ভাষা ও সংস্কৃতি শেখা",
+  "title_en": "Learning Language and Culture",
+  "points": [
+    {
+      "title": "ভাষা ও সংস্কৃতি শেখা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "ぶんか について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 8-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Learning Language and Culture — Grammar Pattern",
+      "pattern_en": "About bunka",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 8.",
+      "examples": [
+        {
+          "jp": "ぶんかが わかりますか。",
+          "romaji": "bunka ga wakarimasu ka.",
+          "bn": "আপনি কি সংস্কৃতি বোঝেন?",
+          "en": "Do you understand culture?"
+        }
+      ]
+    }
+  ]
+}

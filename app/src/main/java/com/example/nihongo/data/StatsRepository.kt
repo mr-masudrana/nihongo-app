@@ -54,7 +54,7 @@ class StatsRepository private constructor(context: Context) {
     }
 
     companion object {
-        private val HIGH_KEYS = listOf("kana", "n5", "n4")
+        private val HIGH_KEYS = listOf("kana", "starter_a1", "elementary1_a2", "elementary2_a2")
         @Volatile private var INSTANCE: StatsRepository? = null
 
         fun get(context: Context): StatsRepository =

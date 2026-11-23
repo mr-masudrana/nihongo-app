@@ -1,0 +1,23 @@
+{
+  "lesson": 18,
+  "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা",
+  "title_en": "Farewell Greetings and Gratitude",
+  "points": [
+    {
+      "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "おせわ ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 18-এর মূল ব্যাকরণ।",
+      "title_en": "Farewell Greetings and Gratitude — Grammar Pattern",
+      "pattern_en": "Can do osewa",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 18.",
+      "examples": [
+        {
+          "jp": "じぶんで おせわ を することができます。",
+          "romaji": "Jibun de osewa o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে সাহায্য / যত্ন করতে পারি।",
+          "en": "I can do help / care by myself."
+        }
+      ]
+    }
+  ]
+}

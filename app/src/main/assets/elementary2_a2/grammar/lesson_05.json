@@ -1,0 +1,23 @@
+{
+  "lesson": 5,
+  "title": "জাপানি সংস্কৃতি ও রীতিনীতি",
+  "title_en": "Japanese Culture and Customs",
+  "points": [
+    {
+      "title": "জাপানি সংস্কৃতি ও রীতিনীতি — ব্যাকরণ প্যাটার্ন",
+      "pattern": "しゅうかん ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 5-এর মূল ব্যাকরণ।",
+      "title_en": "Japanese Culture and Customs — Grammar Pattern",
+      "pattern_en": "Can do shuukan",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 5.",
+      "examples": [
+        {
+          "jp": "じぶんで しゅうかん を することができます。",
+          "romaji": "Jibun de shuukan o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে রীতিনীতি / অভ্যাস করতে পারি।",
+          "en": "I can do custom / habit by myself."
+        }
+      ]
+    }
+  ]
+}

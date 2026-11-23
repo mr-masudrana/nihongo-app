@@ -1,0 +1,27 @@
+{
+  "lesson": 12,
+  "title": "হোটেল ও থাকার ব্যবস্থা",
+  "title_en": "Hotels and Accommodation",
+  "dialogues": [
+    {
+      "title": "হোটেল ও থাকার ব্যবস্থা ডায়ালগ",
+      "title_en": "Hotels and Accommodation Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、よやくについて おしえてください。",
+          "romaji": "Sumimasen, yoyaku ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে বুকিং / রিজার্ভেশন সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about reservation."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

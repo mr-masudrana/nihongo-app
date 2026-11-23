@@ -1,0 +1,27 @@
+{
+  "lesson": 12,
+  "title": "প্রযুক্তি ও দৈনন্দিন জীবন",
+  "title_en": "Technology and Daily Life",
+  "dialogues": [
+    {
+      "title": "প্রযুক্তি ও দৈনন্দিন জীবন ডায়ালগ",
+      "title_en": "Technology and Daily Life Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "べんりについて どう おもいますか。",
+          "romaji": "benri ni tsuite dou omoimasu ka.",
+          "bn": "সুবিধাজনক সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about convenient?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

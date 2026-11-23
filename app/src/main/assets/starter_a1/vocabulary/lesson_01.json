@@ -1,0 +1,63 @@
+{
+  "lesson": 1,
+  "title": "জাপানি ভাষায় শুভেচ্ছা ও পরিচিতি",
+  "title_en": "Greetings and Introductions",
+  "words": [
+    {
+      "word": "はじめまして",
+      "reading": "はじめまして",
+      "romaji": "hajimemashite",
+      "bn": "প্রথম দেখা হলো (শুভেচ্ছা)",
+      "en": "Nice to meet you"
+    },
+    {
+      "word": "わたし",
+      "reading": "わたし",
+      "romaji": "watashi",
+      "bn": "আমি",
+      "en": "I / me"
+    },
+    {
+      "word": "なまえ",
+      "reading": "なまえ",
+      "romaji": "namae",
+      "bn": "নাম",
+      "en": "name"
+    },
+    {
+      "word": "くに",
+      "reading": "くに",
+      "romaji": "kuni",
+      "bn": "দেশ",
+      "en": "country"
+    },
+    {
+      "word": "しごと",
+      "reading": "しごと",
+      "romaji": "shigoto",
+      "bn": "কাজ / পেশা",
+      "en": "job / work"
+    },
+    {
+      "word": "にほん",
+      "reading": "にほん",
+      "romaji": "nihon",
+      "bn": "জাপান",
+      "en": "Japan"
+    },
+    {
+      "word": "バングラデシュ",
+      "reading": "バングラデシュ",
+      "romaji": "banguradeshu",
+      "bn": "বাংলাদেশ",
+      "en": "Bangladesh"
+    },
+    {
+      "word": "よろしくおねがいします",
+      "reading": "よろしくおねがいします",
+      "romaji": "yoroshiku onegaishimasu",
+      "bn": "দয়া করে ভালো সম্পর্ক রাখবেন / ধন্যবাদ",
+      "en": "Pleased to meet you"
+    }
+  ]
+}

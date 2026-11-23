@@ -1,0 +1,27 @@
+{
+  "lesson": 2,
+  "title": "প্রতিবেশীদের সাথে পরিচয়",
+  "title_en": "Meeting Neighbors",
+  "dialogues": [
+    {
+      "title": "প্রতিবেশীদের সাথে পরিচয় ডায়ালগ",
+      "title_en": "Meeting Neighbors Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、となりについて おしえてください。",
+          "romaji": "Sumimasen, tonari ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে পাশের বাসা সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about next door."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

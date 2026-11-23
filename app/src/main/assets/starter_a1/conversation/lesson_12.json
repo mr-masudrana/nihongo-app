@@ -1,0 +1,27 @@
+{
+  "lesson": 12,
+  "title": "যাতায়াত ও দিকনির্দেশনা",
+  "title_en": "Transportation and Directions",
+  "dialogues": [
+    {
+      "title": "যাতায়াত ও দিকনির্দেশনা কথোপকথন",
+      "title_en": "Transportation and Directions Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "えきは どこですか。",
+          "romaji": "eki wa doko desu ka.",
+          "bn": "স্টেশন কোথায়?",
+          "en": "Where is station?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

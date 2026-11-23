@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "title": "শহরের দর্শনীয় স্থান",
+  "title_en": "Places in Town",
+  "points": [
+    {
+      "title": "শহরের দর্শনীয় স্থান — মৌলিক বাক্য",
+      "pattern": "びょういん です。",
+      "explain": "Irodori Starter A1 লেসন 13-এর মূল বাক্য গঠন।",
+      "title_en": "Places in Town — Basic Pattern",
+      "pattern_en": "byouin desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 13.",
+      "examples": [
+        {
+          "jp": "これは びょういん です。",
+          "romaji": "Kore wa byouin desu.",
+          "bn": "এটি হাসপাতাল।",
+          "en": "This is hospital."
+        }
+      ]
+    }
+  ]
+}

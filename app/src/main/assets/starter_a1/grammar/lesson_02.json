@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "title": "শখ ও পছন্দের বিষয়",
+  "title_en": "Hobbies and Interests",
+  "points": [
+    {
+      "title": "N が すきです — পছন্দ প্রকাশ করা",
+      "pattern": "[বিষয়] が すきです。",
+      "explain": "নিজের শখ বা পছন্দের জিনিস বলতে が すきです ব্যবহার করা হয়।",
+      "title_en": "N が すきです — Expressing Likes",
+      "pattern_en": "[Noun] ga suki desu.",
+      "explain_en": "Used to express what you like or enjoy.",
+      "examples": [
+        {
+          "jp": "わたしは サッカーが すきです。",
+          "romaji": "Watashi wa sakkaa ga suki desu.",
+          "bn": "আমি ফুটবল পছন্দ করি।",
+          "en": "I like soccer."
+        }
+      ]
+    }
+  ]
+}

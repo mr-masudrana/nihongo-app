@@ -1,0 +1,23 @@
+{
+  "lesson": 3,
+  "title": "আবহাওয়া ও ঋতু",
+  "title_en": "Weather and Seasons",
+  "points": [
+    {
+      "title": "きょうは [বিশেষণ] ですね — আবহাওয়া নিয়ে মন্তব্য",
+      "pattern": "きょうは あついですね。",
+      "explain": "কথোপকথনের শুরুতে আবহাওয়া নিয়ে কথা বলতে বাক্যের শেষে ですね যোগ করা হয়।",
+      "title_en": "Weather Comment with ですね",
+      "pattern_en": "Kyou wa atsui desu ne.",
+      "explain_en": "Used to seek agreement when talking about the weather.",
+      "examples": [
+        {
+          "jp": "きょうは いい てんきですね。",
+          "romaji": "Kyou wa ii tenki desu ne.",
+          "bn": "আজ আবহাওয়াটা বেশ ভালো, তাই না?",
+          "en": "Nice weather today, isn't it?"
+        }
+      ]
+    }
+  ]
+}

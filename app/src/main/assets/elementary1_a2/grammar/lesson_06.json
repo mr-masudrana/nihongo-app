@@ -1,0 +1,23 @@
+{
+  "lesson": 6,
+  "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য",
+  "title_en": "Asking Directions",
+  "points": [
+    {
+      "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য — ব্যাকরণ প্যাটার্ন",
+      "pattern": "まっすぐ について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 6-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Asking Directions — Grammar Pattern",
+      "pattern_en": "About massugu",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 6.",
+      "examples": [
+        {
+          "jp": "まっすぐが わかりますか。",
+          "romaji": "massugu ga wakarimasu ka.",
+          "bn": "আপনি কি সোজা বোঝেন?",
+          "en": "Do you understand straight?"
+        }
+      ]
+    }
+  ]
+}

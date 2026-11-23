@@ -1,0 +1,27 @@
+{
+  "lesson": 17,
+  "title": "উপহার ও কৃতজ্ঞতা প্রকাশ",
+  "title_en": "Gifts and Gratitude",
+  "dialogues": [
+    {
+      "title": "উপহার ও কৃতজ্ঞতা প্রকাশ ডায়ালগ",
+      "title_en": "Gifts and Gratitude Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、おみやげについて おしえてください。",
+          "romaji": "Sumimasen, omiyage ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে স্যুভেনির / উপহার সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about souvenir."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

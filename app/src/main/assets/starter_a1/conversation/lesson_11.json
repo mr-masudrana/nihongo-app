@@ -1,0 +1,27 @@
+{
+  "lesson": 11,
+  "title": "ছুটির দিন ও অবসর",
+  "title_en": "Holidays and Free Time",
+  "dialogues": [
+    {
+      "title": "ছুটির দিন ও অবসর কথোপকথন",
+      "title_en": "Holidays and Free Time Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "やすみは どこですか。",
+          "romaji": "yasumi wa doko desu ka.",
+          "bn": "ছুটি কোথায়?",
+          "en": "Where is holiday / rest?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

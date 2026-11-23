@@ -1,0 +1,23 @@
+{
+  "lesson": 7,
+  "title": "ঘর ও আসবাবপত্র",
+  "title_en": "Rooms and Furniture",
+  "points": [
+    {
+      "title": "ঘর ও আসবাবপত্র — মৌলিক বাক্য",
+      "pattern": "へや です。",
+      "explain": "Irodori Starter A1 লেসন 7-এর মূল বাক্য গঠন।",
+      "title_en": "Rooms and Furniture — Basic Pattern",
+      "pattern_en": "heya desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 7.",
+      "examples": [
+        {
+          "jp": "これは へや です。",
+          "romaji": "Kore wa heya desu.",
+          "bn": "এটি রুম / ঘর।",
+          "en": "This is room."
+        }
+      ]
+    }
+  ]
+}

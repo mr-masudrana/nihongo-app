@@ -1,0 +1,27 @@
+{
+  "lesson": 1,
+  "title": "নতুন শহরে জীবন শুরু",
+  "title_en": "Starting Life in a New Town",
+  "dialogues": [
+    {
+      "title": "নতুন শহরে জীবন শুরু ডায়ালগ",
+      "title_en": "Starting Life in a New Town Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、まちについて おしえてください。",
+          "romaji": "Sumimasen, machi ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে শহর সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about town."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

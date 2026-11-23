@@ -1,0 +1,27 @@
+{
+  "lesson": 10,
+  "title": "ফোন ও মেসেজে যোগাযোগ",
+  "title_en": "Communicating by Phone and Message",
+  "dialogues": [
+    {
+      "title": "ফোন ও মেসেজে যোগাযোগ ডায়ালগ",
+      "title_en": "Communicating by Phone and Message Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、でんわについて おしえてください。",
+          "romaji": "Sumimasen, denwa ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে ফোন সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about phone."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

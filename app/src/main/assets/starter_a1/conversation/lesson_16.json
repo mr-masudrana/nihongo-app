@@ -1,0 +1,27 @@
+{
+  "lesson": 16,
+  "title": "স্বাস্থ্য ও শরীরের অবস্থা",
+  "title_en": "Health and Condition",
+  "dialogues": [
+    {
+      "title": "স্বাস্থ্য ও শরীরের অবস্থা কথোপকথন",
+      "title_en": "Health and Condition Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "げんきは どこですか。",
+          "romaji": "genki wa doko desu ka.",
+          "bn": "সুস্থ / প্রাণবন্ত কোথায়?",
+          "en": "Where is healthy / fine?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

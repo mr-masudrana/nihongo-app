@@ -1,0 +1,23 @@
+{
+  "lesson": 14,
+  "title": "হাসপাতাল ও ওষুধ",
+  "title_en": "Hospital and Medicine",
+  "points": [
+    {
+      "title": "হাসপাতাল ও ওষুধ — ব্যাকরণ প্যাটার্ন",
+      "pattern": "くすり について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 14-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Hospital and Medicine — Grammar Pattern",
+      "pattern_en": "About kusuri",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 14.",
+      "examples": [
+        {
+          "jp": "くすりが わかりますか。",
+          "romaji": "kusuri ga wakarimasu ka.",
+          "bn": "আপনি কি ওষুধ বোঝেন?",
+          "en": "Do you understand medicine?"
+        }
+      ]
+    }
+  ]
+}

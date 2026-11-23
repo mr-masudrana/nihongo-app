@@ -1,0 +1,23 @@
+{
+  "lesson": 11,
+  "title": "ছুটির দিন ও অবসর",
+  "title_en": "Holidays and Free Time",
+  "points": [
+    {
+      "title": "ছুটির দিন ও অবসর — মৌলিক বাক্য",
+      "pattern": "やすみ です。",
+      "explain": "Irodori Starter A1 লেসন 11-এর মূল বাক্য গঠন।",
+      "title_en": "Holidays and Free Time — Basic Pattern",
+      "pattern_en": "yasumi desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 11.",
+      "examples": [
+        {
+          "jp": "これは やすみ です。",
+          "romaji": "Kore wa yasumi desu.",
+          "bn": "এটি ছুটি।",
+          "en": "This is holiday / rest."
+        }
+      ]
+    }
+  ]
+}

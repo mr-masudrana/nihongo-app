@@ -1,0 +1,23 @@
+{
+  "lesson": 3,
+  "title": "সুপারমার্কেটে কেনাকাটা",
+  "title_en": "Shopping at the Supermarket",
+  "points": [
+    {
+      "title": "সুপারমার্কেটে কেনাকাটা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "ねだん について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 3-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Shopping at the Supermarket — Grammar Pattern",
+      "pattern_en": "About nedan",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 3.",
+      "examples": [
+        {
+          "jp": "ねだんが わかりますか。",
+          "romaji": "nedan ga wakarimasu ka.",
+          "bn": "আপনি কি দাম বোঝেন?",
+          "en": "Do you understand price?"
+        }
+      ]
+    }
+  ]
+}

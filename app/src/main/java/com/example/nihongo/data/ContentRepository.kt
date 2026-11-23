@@ -32,7 +32,7 @@ data class NumberSection(val id: String, val titleBn: String, val titleEn: Strin
 
 data class GrammarExample(val jp: String, val romaji: String, val bn: String, val en: String = "")
 
-/** ব্যাকরণের একটি পয়েন্ট (বইয়ের "1. N1 は N2 です"-এর মতো)। note ঐচ্ছিক */
+/** ব্যাকরণের একটি পয়েন্ট। note ঐচ্ছিক */
 data class GrammarItem(
     val title: String, val pattern: String, val explain: String,
     val examples: List<GrammarExample>,
@@ -61,20 +61,19 @@ data class LessonInfo(val no: Int, val title: String, val count: Int, val exists
 data class LessonWord(val level: String, val lessonNo: Int, val word: WordItem)
 
 /**
- * ডেটার ফোল্ডার (level = n5 | n4):
+ * Irodori (JFT-Basic) ডেটার ফোল্ডার:
+ *   level = "starter_a1" | "elementary1_a2" | "elementary2_a2"
  *   assets/<level>/vocabulary/lesson_NN.json   — লেসনের শব্দ
  *   assets/<level>/grammar/lesson_NN.json      — লেসনের ব্যাকরণ
- *   assets/<level>/conversation/lesson_NN.json — লেসনের কথোপকথন
+ *   assets/<level>/conversation/lesson_NN.json — লেসনের কথোপকথন (Can-do)
  *   assets/<level>/kanji_<level>.json          — কাঞ্জি (লেসন ছাড়া)
  *   assets/sentences.json                      — দৈনন্দিন বাক্য (Basic → Sentences)
  *   assets/number.json                         — সংখ্যা (Basic → Number)
- * নতুন ফাইল রাখলেই অ্যাপে দেখাবে; কোড বা ডেটাবেজ বদলাতে হবে না।
- * Room ব্যবহার করে না, তাই ডেটাবেজ রিসেটে প্রভাব নেই।
  */
 class ContentRepository private constructor(private val context: Context) {
 
-    /** N5 = লেসন ১–২৫, N4 = ২৬–৫০ */
-    fun lessonRange(level: String): IntRange = if (level == "n5") 1..25 else 26..50
+    /** Irodori বইয়ের প্রতিটি খণ্ডে ১ থেকে ১৮ পর্যন্ত মোট ১৮টি লেসন রয়েছে */
+    fun lessonRange(level: String): IntRange = 1..18
 
     private fun lessonPath(level: String, folder: String, no: Int) =
         "$level/$folder/lesson_${"%02d".format(no)}.json"
@@ -148,8 +147,8 @@ class ContentRepository private constructor(private val context: Context) {
         } ?: LessonInfo(no, "", 0, false)
     }
 
-    /** সব লেসনের সব শব্দ (N5 ও N4) — সার্চ ও কুইজের জন্য */
-    fun allWords(): List<LessonWord> = listOf("n5", "n4").flatMap { level ->
+    /** সব লেসনের সব শব্দ (Starter A1, Elementary 1 A2, Elementary 2 A2) — সার্চ ও কুইজের জন্য */
+    fun allWords(): List<LessonWord> = ALL_LEVELS.flatMap { level ->
         lessonRange(level).flatMap { no ->
             vocabLesson(level, no)?.words.orEmpty().map { LessonWord(level, no, it) }
         }
@@ -159,7 +158,7 @@ class ContentRepository private constructor(private val context: Context) {
 
     private val kanjiCache = HashMap<String, List<KanjiItem>>()
 
-    /** level = "n5" | "n4" — assets/<level>/kanji_<level>.json */
+    /** level = "starter_a1" | "elementary1_a2" | "elementary2_a2" — assets/<level>/kanji_<level>.json */
     @Synchronized
     fun kanji(level: String): List<KanjiItem> = kanjiCache.getOrPut(level) {
         runCatching {
@@ -222,6 +221,22 @@ class ContentRepository private constructor(private val context: Context) {
         if (a == null) emptyList() else (0 until a.length()).map { f(a.getJSONObject(it)) }
 
     companion object {
+        val ALL_LEVELS = listOf("starter_a1", "elementary1_a2", "elementary2_a2")
+
+        fun levelDisplayName(level: String): String = when (level) {
+            "starter_a1" -> "Starter A1"
+            "elementary1_a2" -> "Elementary 1 A2"
+            "elementary2_a2" -> "Elementary 2 A2"
+            else -> level.uppercase()
+        }
+
+        fun levelShortName(level: String): String = when (level) {
+            "starter_a1" -> "A1"
+            "elementary1_a2" -> "A2-1"
+            "elementary2_a2" -> "A2-2"
+            else -> level.uppercase()
+        }
+
         @Volatile private var INSTANCE: ContentRepository? = null
 
         fun get(context: Context): ContentRepository =

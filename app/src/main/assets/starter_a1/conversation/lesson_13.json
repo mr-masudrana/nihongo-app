@@ -1,0 +1,27 @@
+{
+  "lesson": 13,
+  "title": "শহরের দর্শনীয় স্থান",
+  "title_en": "Places in Town",
+  "dialogues": [
+    {
+      "title": "শহরের দর্শনীয় স্থান কথোপকথন",
+      "title_en": "Places in Town Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "びょういんは どこですか。",
+          "romaji": "byouin wa doko desu ka.",
+          "bn": "হাসপাতাল কোথায়?",
+          "en": "Where is hospital?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

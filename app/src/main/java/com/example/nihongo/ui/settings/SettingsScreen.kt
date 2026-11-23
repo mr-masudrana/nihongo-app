@@ -249,7 +249,7 @@ private fun AboutCard() {
             Column {
                 Text("Nihongo", style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
                 Text(
-                    tr("সংস্করণ $version · N5 ও N4", "Version $version · N5 & N4"),
+                    tr("সংস্করণ $version · Irodori (JFT-Basic A1 & A2)", "Version $version · Irodori (JFT-Basic A1 & A2)"),
                     style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant
                 )
             }

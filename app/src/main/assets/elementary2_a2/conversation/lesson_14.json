@@ -1,0 +1,27 @@
+{
+  "lesson": 14,
+  "title": "স্থানীয় কমিউনিটি কার্যক্রম",
+  "title_en": "Local Community Activities",
+  "dialogues": [
+    {
+      "title": "স্থানীয় কমিউনিটি কার্যক্রম ডায়ালগ",
+      "title_en": "Local Community Activities Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ちいきについて どう おもいますか。",
+          "romaji": "chiiki ni tsuite dou omoimasu ka.",
+          "bn": "এলাকা / কমিউনিটি সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about community / area?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

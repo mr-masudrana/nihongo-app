@@ -1,0 +1,56 @@
+{
+  "lesson": 5,
+  "title": "পছন্দের খাবার ও পানীয়",
+  "title_en": "Favorite Foods and Drinks",
+  "words": [
+    {
+      "word": "たべもの",
+      "reading": "たべもの",
+      "romaji": "tabemono",
+      "bn": "খাবার",
+      "en": "food"
+    },
+    {
+      "word": "のみもの",
+      "reading": "のみもの",
+      "romaji": "nomimono",
+      "bn": "পানীয়",
+      "en": "drink"
+    },
+    {
+      "word": "さかな",
+      "reading": "さかな",
+      "romaji": "sakana",
+      "bn": "মাছ",
+      "en": "fish"
+    },
+    {
+      "word": "にく",
+      "reading": "にく",
+      "romaji": "niku",
+      "bn": "মাংস",
+      "en": "meat"
+    },
+    {
+      "word": "やさい",
+      "reading": "やさい",
+      "romaji": "yasai",
+      "bn": "শাকসবজি",
+      "en": "vegetables"
+    },
+    {
+      "word": "みず",
+      "reading": "みず",
+      "romaji": "mizu",
+      "bn": "পানি",
+      "en": "water"
+    },
+    {
+      "word": "おちゃ",
+      "reading": "おちゃ",
+      "romaji": "ocha",
+      "bn": "চা (গ্রিন টি)",
+      "en": "tea"
+    }
+  ]
+}

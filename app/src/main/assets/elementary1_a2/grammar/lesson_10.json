@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "title": "ফোন ও মেসেজে যোগাযোগ",
+  "title_en": "Communicating by Phone and Message",
+  "points": [
+    {
+      "title": "ফোন ও মেসেজে যোগাযোগ — ব্যাকরণ প্যাটার্ন",
+      "pattern": "でんわ について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 10-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Communicating by Phone and Message — Grammar Pattern",
+      "pattern_en": "About denwa",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 10.",
+      "examples": [
+        {
+          "jp": "でんわが わかりますか。",
+          "romaji": "denwa ga wakarimasu ka.",
+          "bn": "আপনি কি ফোন বোঝেন?",
+          "en": "Do you understand phone?"
+        }
+      ]
+    }
+  ]
+}

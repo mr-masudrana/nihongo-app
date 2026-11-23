@@ -1,0 +1,27 @@
+{
+  "lesson": 13,
+  "title": "আবহাওয়া ও পোশাক",
+  "title_en": "Weather and Clothing",
+  "dialogues": [
+    {
+      "title": "আবহাওয়া ও পোশাক ডায়ালগ",
+      "title_en": "Weather and Clothing Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、ふくについて おしえてください。",
+          "romaji": "Sumimasen, fuku ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে পোশাক সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about clothes."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

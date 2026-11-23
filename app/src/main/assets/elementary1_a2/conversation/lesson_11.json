@@ -1,0 +1,27 @@
+{
+  "lesson": 11,
+  "title": "ছুটির ভ্রমণ পরিকল্পনা",
+  "title_en": "Planning a Holiday Trip",
+  "dialogues": [
+    {
+      "title": "ছুটির ভ্রমণ পরিকল্পনা ডায়ালগ",
+      "title_en": "Planning a Holiday Trip Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、きっぷについて おしえてください。",
+          "romaji": "Sumimasen, kippu ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে টিকিট সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about ticket."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

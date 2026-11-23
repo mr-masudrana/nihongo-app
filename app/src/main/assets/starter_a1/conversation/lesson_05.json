@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "title": "পছন্দের খাবার ও পানীয়",
+  "title_en": "Favorite Foods and Drinks",
+  "dialogues": [
+    {
+      "title": "খাবারের পছন্দ জিজ্ঞাসা করা",
+      "title_en": "Asking Food Preferences",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "どんな たべものが すきですか。",
+          "romaji": "Donna tabemono ga suki desu ka.",
+          "bn": "কোন ধরনের খাবার পছন্দ করেন?",
+          "en": "What kind of food do you like?"
+        },
+        {
+          "speaker": "B",
+          "jp": "さかなと やさいが すきです。",
+          "romaji": "Sakana to yasai ga suki desu.",
+          "bn": "মাছ আর শাকসবজি পছন্দ করি।",
+          "en": "I like fish and vegetables."
+        }
+      ]
+    }
+  ]
+}

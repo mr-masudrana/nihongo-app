@@ -1,0 +1,27 @@
+{
+  "lesson": 2,
+  "title": "শখ ও পছন্দের বিষয়",
+  "title_en": "Hobbies and Interests",
+  "dialogues": [
+    {
+      "title": "শখ নিয়ে কথা বলা",
+      "title_en": "Talking about Hobbies",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "しゅみは なんですか。",
+          "romaji": "Shumi wa nan desu ka.",
+          "bn": "আপনার শখ কী?",
+          "en": "What is your hobby?"
+        },
+        {
+          "speaker": "B",
+          "jp": "えいがを みることです。サッカーも すきです。",
+          "romaji": "Eiga o miru koto desu. Sakkaa mo suki desu.",
+          "bn": "সিনেমা দেখা। ফুটবলও পছন্দ করি।",
+          "en": "Watching movies. I also like soccer."
+        }
+      ]
+    }
+  ]
+}

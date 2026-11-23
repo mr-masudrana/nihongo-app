@@ -1,0 +1,23 @@
+{
+  "lesson": 15,
+  "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম",
+  "title_en": "Environment and Garbage Rules",
+  "points": [
+    {
+      "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম — ব্যাকরণ প্যাটার্ন",
+      "pattern": "ごみ について",
+      "explain": "Irodori Elementary 1 (A2) লেসন 15-এর ব্যাকরণ আলোচনা।",
+      "title_en": "Environment and Garbage Rules — Grammar Pattern",
+      "pattern_en": "About gomi",
+      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 15.",
+      "examples": [
+        {
+          "jp": "ごみが わかりますか。",
+          "romaji": "gomi ga wakarimasu ka.",
+          "bn": "আপনি কি আবর্জনা বোঝেন?",
+          "en": "Do you understand garbage?"
+        }
+      ]
+    }
+  ]
+}

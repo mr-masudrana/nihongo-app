@@ -1,0 +1,27 @@
+{
+  "lesson": 9,
+  "title": "সময় ও সময়সূচি",
+  "title_en": "Time and Schedule",
+  "dialogues": [
+    {
+      "title": "সময় ও সময়সূচি কথোপকথন",
+      "title_en": "Time and Schedule Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "なんじは どこですか。",
+          "romaji": "nanji wa doko desu ka.",
+          "bn": "কয়টা বাজে কোথায়?",
+          "en": "Where is what time?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 6,
+  "title": "রেস্তোরাঁয় খাবার অর্ডার করা",
+  "title_en": "Ordering at a Restaurant",
+  "dialogues": [
+    {
+      "title": "রেস্তোরাঁয় অর্ডার",
+      "title_en": "Ordering at a Restaurant",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ごちゅうもんは おきまりですか。",
+          "romaji": "Gochuumon wa okimari desu ka.",
+          "bn": "আপনার অর্ডার কি ঠিক করেছেন?",
+          "en": "Are you ready to order?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、カレーを ひとつと おちゃを ください。",
+          "romaji": "Hai, karee o hitotsu to ocha o kudasai.",
+          "bn": "হ্যাঁ, একটি কারি আর চা দিন।",
+          "en": "Yes, one curry and tea please."
+        }
+      ]
+    }
+  ]
+}

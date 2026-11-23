@@ -1,0 +1,27 @@
+{
+  "lesson": 18,
+  "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা",
+  "title_en": "Farewell Greetings and Gratitude",
+  "dialogues": [
+    {
+      "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা ডায়ালগ",
+      "title_en": "Farewell Greetings and Gratitude Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "おせわについて どう おもいますか。",
+          "romaji": "osewa ni tsuite dou omoimasu ka.",
+          "bn": "সাহায্য / যত্ন সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about help / care?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

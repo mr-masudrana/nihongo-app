@@ -1,0 +1,27 @@
+{
+  "lesson": 8,
+  "title": "দৈনন্দিন জীবন ও রুটিন",
+  "title_en": "Daily Life and Routine",
+  "dialogues": [
+    {
+      "title": "দৈনন্দিন জীবন ও রুটিন কথোপকথন",
+      "title_en": "Daily Life and Routine Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "まいにちは どこですか。",
+          "romaji": "mainichi wa doko desu ka.",
+          "bn": "প্রতিদিন কোথায়?",
+          "en": "Where is every day?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

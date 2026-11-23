@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "title": "জাপানি সংস্কৃতি ও রীতিনীতি",
+  "title_en": "Japanese Culture and Customs",
+  "dialogues": [
+    {
+      "title": "জাপানি সংস্কৃতি ও রীতিনীতি ডায়ালগ",
+      "title_en": "Japanese Culture and Customs Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "しゅうかんについて どう おもいますか。",
+          "romaji": "shuukan ni tsuite dou omoimasu ka.",
+          "bn": "রীতিনীতি / অভ্যাস সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about custom / habit?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

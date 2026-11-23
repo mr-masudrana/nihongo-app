@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা",
+  "title_en": "Describing Travel Experiences",
+  "points": [
+    {
+      "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "けしき ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 9-এর মূল ব্যাকরণ।",
+      "title_en": "Describing Travel Experiences — Grammar Pattern",
+      "pattern_en": "Can do keshiki",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 9.",
+      "examples": [
+        {
+          "jp": "じぶんで けしき を することができます。",
+          "romaji": "Jibun de keshiki o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে দৃশ্য করতে পারি।",
+          "en": "I can do scenery by myself."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 14,
+  "title": "আমন্ত্রণ ও পরিকল্পনা",
+  "title_en": "Invitations and Plans",
+  "points": [
+    {
+      "title": "আমন্ত্রণ ও পরিকল্পনা — মৌলিক বাক্য",
+      "pattern": "いっしょに です。",
+      "explain": "Irodori Starter A1 লেসন 14-এর মূল বাক্য গঠন।",
+      "title_en": "Invitations and Plans — Basic Pattern",
+      "pattern_en": "issho ni desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 14.",
+      "examples": [
+        {
+          "jp": "これは いっしょに です。",
+          "romaji": "Kore wa issho ni desu.",
+          "bn": "এটি একসাথে।",
+          "en": "This is together."
+        }
+      ]
+    }
+  ]
+}

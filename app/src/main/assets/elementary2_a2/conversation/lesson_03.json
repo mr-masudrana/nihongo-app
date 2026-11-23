@@ -1,0 +1,27 @@
+{
+  "lesson": 3,
+  "title": "অনলাইন কেনাকাটা ও ডেলিভারি",
+  "title_en": "Online Shopping and Delivery",
+  "dialogues": [
+    {
+      "title": "অনলাইন কেনাকাটা ও ডেলিভারি ডায়ালগ",
+      "title_en": "Online Shopping and Delivery Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "にもつについて どう おもいますか。",
+          "romaji": "nimotsu ni tsuite dou omoimasu ka.",
+          "bn": "পার্সেল / মালামাল সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about parcel / luggage?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

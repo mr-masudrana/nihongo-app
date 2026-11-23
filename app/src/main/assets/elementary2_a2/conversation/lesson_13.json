@@ -1,0 +1,27 @@
+{
+  "lesson": 13,
+  "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং",
+  "title_en": "Environmental Protection",
+  "dialogues": [
+    {
+      "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং ডায়ালগ",
+      "title_en": "Environmental Protection Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "リサイクルについて どう おもいますか。",
+          "romaji": "risaikuru ni tsuite dou omoimasu ka.",
+          "bn": "রিসাইক্লিং সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about recycling?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

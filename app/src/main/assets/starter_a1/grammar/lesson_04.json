@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "title": "পরিবার ও বাসস্থান",
+  "title_en": "Family and Home",
+  "points": [
+    {
+      "title": "[স্থান] に すんでいます — কোথায় থাকেন তা বলা",
+      "pattern": "とうきょうに すんでいます。",
+      "explain": "বর্তমানে যে শহরে বা স্থানে বসবাস করছেন তা বোঝাতে に すんでいます বসে।",
+      "title_en": "Living in a place",
+      "pattern_en": "Toukyou ni sunde imasu.",
+      "explain_en": "Indicates the place where someone lives.",
+      "examples": [
+        {
+          "jp": "かぞくは バングラデシュに すんでいます。",
+          "romaji": "Kazoku wa Banguradeshu ni sunde imasu.",
+          "bn": "আমার পরিবার বাংলাদেশে থাকে।",
+          "en": "My family lives in Bangladesh."
+        }
+      ]
+    }
+  ]
+}

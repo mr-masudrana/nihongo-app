@@ -1,0 +1,23 @@
+{
+  "lesson": 18,
+  "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য",
+  "title_en": "Future Dreams and Goals",
+  "points": [
+    {
+      "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য — মৌলিক বাক্য",
+      "pattern": "ゆめ です。",
+      "explain": "Irodori Starter A1 লেসন 18-এর মূল বাক্য গঠন।",
+      "title_en": "Future Dreams and Goals — Basic Pattern",
+      "pattern_en": "yume desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 18.",
+      "examples": [
+        {
+          "jp": "これは ゆめ です。",
+          "romaji": "Kore wa yume desu.",
+          "bn": "এটি স্বপ্ন।",
+          "en": "This is dream."
+        }
+      ]
+    }
+  ]
+}

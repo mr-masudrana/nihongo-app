@@ -1,0 +1,27 @@
+{
+  "lesson": 16,
+  "title": "ভবিষ্যতের ক্যারিয়ার পরিকল্পনা",
+  "title_en": "Future Career Plans",
+  "dialogues": [
+    {
+      "title": "ভবিষ্যতের ক্যারিয়ার পরিকল্পনা ডায়ালগ",
+      "title_en": "Future Career Plans Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "しょうらいについて どう おもいますか。",
+          "romaji": "shourai ni tsuite dou omoimasu ka.",
+          "bn": "ভবিষ্যৎ সম্পর্কে আপনি কী মনে করেন?",
+          "en": "What do you think about future?"
+        },
+        {
+          "speaker": "B",
+          "jp": "とても たいせつだと おもいます。",
+          "romaji": "Totemo taisetsu da to omoimasu.",
+          "bn": "আমার মনে হয় এটি খুবই গুরুত্বপূর্ণ।",
+          "en": "I think it is very important."
+        }
+      ]
+    }
+  ]
+}

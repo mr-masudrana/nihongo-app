@@ -1,0 +1,27 @@
+{
+  "lesson": 7,
+  "title": "বন্ধুদের সাথে দেখা করা",
+  "title_en": "Meeting Up with Friends",
+  "dialogues": [
+    {
+      "title": "বন্ধুদের সাথে দেখা করা ডায়ালগ",
+      "title_en": "Meeting Up with Friends Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、やくそくについて おしえてください。",
+          "romaji": "Sumimasen, yakusoku ni tsuite oshiete kudasai.",
+          "bn": "মাফ করবেন, দয়া করে প্রতিশ্রুতি / অ্যাপয়েন্টমেন্ট সম্পর্কে বলুন।",
+          "en": "Excuse me, please tell me about promise / appointment."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、いいですよ。",
+          "romaji": "Hai, ii desu yo.",
+          "bn": "হ্যাঁ, অবশ্যই।",
+          "en": "Yes, sure."
+        }
+      ]
+    }
+  ]
+}

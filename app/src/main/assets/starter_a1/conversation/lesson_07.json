@@ -1,0 +1,27 @@
+{
+  "lesson": 7,
+  "title": "ঘর ও আসবাবপত্র",
+  "title_en": "Rooms and Furniture",
+  "dialogues": [
+    {
+      "title": "ঘর ও আসবাবপত্র কথোপকথন",
+      "title_en": "Rooms and Furniture Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "へやは どこですか。",
+          "romaji": "heya wa doko desu ka.",
+          "bn": "রুম / ঘর কোথায়?",
+          "en": "Where is room?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

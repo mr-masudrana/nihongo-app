@@ -1,0 +1,23 @@
+{
+  "lesson": 17,
+  "title": "অনুমতি ও নিয়মকানুন",
+  "title_en": "Permissions and Rules",
+  "points": [
+    {
+      "title": "অনুমতি ও নিয়মকানুন — মৌলিক বাক্য",
+      "pattern": "しゃしん です。",
+      "explain": "Irodori Starter A1 লেসন 17-এর মূল বাক্য গঠন।",
+      "title_en": "Permissions and Rules — Basic Pattern",
+      "pattern_en": "shashin desu.",
+      "explain_en": "Core pattern for Irodori Starter A1 Lesson 17.",
+      "examples": [
+        {
+          "jp": "これは しゃしん です。",
+          "romaji": "Kore wa shashin desu.",
+          "bn": "এটি ছবি।",
+          "en": "This is photo."
+        }
+      ]
+    }
+  ]
+}

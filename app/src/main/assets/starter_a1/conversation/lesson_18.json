@@ -1,0 +1,27 @@
+{
+  "lesson": 18,
+  "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য",
+  "title_en": "Future Dreams and Goals",
+  "dialogues": [
+    {
+      "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য কথোপকথন",
+      "title_en": "Future Dreams and Goals Dialogue",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ゆめは どこですか。",
+          "romaji": "yume wa doko desu ka.",
+          "bn": "স্বপ্ন কোথায়?",
+          "en": "Where is dream?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あそこです。",
+          "romaji": "Asoko desu.",
+          "bn": "ঐখানে।",
+          "en": "Over there."
+        }
+      ]
+    }
+  ]
+}

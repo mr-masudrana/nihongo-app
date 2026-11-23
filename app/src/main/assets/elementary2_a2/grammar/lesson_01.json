@@ -1,0 +1,23 @@
+{
+  "lesson": 1,
+  "title": "নিজের দক্ষতা ও অভিজ্ঞতা",
+  "title_en": "Skills and Experiences",
+  "points": [
+    {
+      "title": "নিজের দক্ষতা ও অভিজ্ঞতা — ব্যাকরণ প্যাটার্ন",
+      "pattern": "けいけん ことができます",
+      "explain": "Irodori Elementary 2 (A2) লেসন 1-এর মূল ব্যাকরণ।",
+      "title_en": "Skills and Experiences — Grammar Pattern",
+      "pattern_en": "Can do keiken",
+      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 1.",
+      "examples": [
+        {
+          "jp": "じぶんで けいけん を することができます。",
+          "romaji": "Jibun de keiken o suru koto ga dekimasu.",
+          "bn": "নিজে নিজে অভিজ্ঞতা করতে পারি।",
+          "en": "I can do experience by myself."
+        }
+      ]
+    }
+  ]
+}
