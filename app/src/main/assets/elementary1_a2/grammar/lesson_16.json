@@ -1,21 +1,37 @@
 {
   "lesson": 16,
-  "title": "দুর্যোগ ও জরুরি প্রস্তুতি",
-  "title_en": "Disasters and Emergency Prep",
+  "title": "বেশি না খাওয়ার চেষ্টা করছি",
+  "title_en": "I try not to eat too much.",
   "points": [
     {
-      "title": "দুর্যোগ ও জরুরি প্রস্তুতি — ব্যাকরণ প্যাটার্ন",
-      "pattern": "じしん について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 16-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Disasters and Emergency Prep — Grammar Pattern",
-      "pattern_en": "About jishin",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 16.",
+      "title": "V-るといいです(よ) (পরামর্শ দেওয়া) ও V-すぎます (অতিরিক্ত করা)",
+      "pattern": "ぬるいお風呂にゆっくり入るといいですよ / 昨日、飲みすぎました",
+      "explain": "শারীরিক সমস্যার ঘরোয়া পরামর্শ দিতে 'V-るといいですよ' এবং কোনো কাজ অতিরিক্ত হয়ে গেছে বোঝাতে ক্রিয়ার ます বাদ দিয়ে 'すぎます' বসে।",
+      "title_en": "Giving health advice & Expressing excess",
+      "pattern_en": "V-ru to ii desu yo / V-sugimasu",
+      "explain_en": "Give wellness tips and talk about overdoing things.",
       "examples": [
         {
-          "jp": "じしんが わかりますか。",
-          "romaji": "jishin ga wakarimasu ka.",
-          "bn": "আপনি কি ভূমিকম্প বোঝেন?",
-          "en": "Do you understand earthquake?"
+          "jp": "よく眠れないときは、ぬるいお風呂にゆっくり入るといいですよ。",
+          "romaji": "Yoku nemurenai toki wa, nurui ofuro ni yukkuri hairu to ii desu yo.",
+          "bn": "ভালো ঘুম না হলে হালকা গরম পানিতে ধীরেসুস্থে গোসল করলে ভালো লাগবে।",
+          "en": "When you can't sleep well, taking a slow lukewarm bath helps."
+        }
+      ]
+    },
+    {
+      "title": "V-るようにしています / V-ないようにしています (স্বাস্থ্যকর অভ্যাস)",
+      "pattern": "できるだけ野菜をたくさん食べるようにしています / 食べすぎないようにしています",
+      "explain": "সুস্থ থাকার জন্য নিয়মিত কোনো কাজ করার চেষ্টা করলে 'V-るようにしています' এবং কোনো বদভ্যাস এড়িয়ে চলার চেষ্টা করলে 'V-ないようにしています' ব্যবহৃত হয়।",
+      "title_en": "Maintaining healthy habits",
+      "pattern_en": "V-ru you ni shite imasu / V-nai you ni shite imasu",
+      "explain_en": "Describe conscious efforts to stay healthy.",
+      "examples": [
+        {
+          "jp": "夜は早く寝るようにしています。",
+          "romaji": "Yoru wa hayaku neru you ni shite imasu.",
+          "bn": "রাতে তাড়াতাড়ি ঘুমানোর চেষ্টা করি।",
+          "en": "I try to go to bed early at night."
         }
       ]
     }

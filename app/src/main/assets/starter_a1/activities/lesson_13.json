@@ -1,0 +1,27 @@
+{
+  "lesson": 13,
+  "title": "এই বাস কি বিমানবন্দরে যায়?",
+  "title_en": "Does this bus go to the airport?",
+  "dialogues": [
+    {
+      "title": "১. গন্তব্যে যাওয়ার পথ জিজ্ঞাসা করা",
+      "title_en": "1. Asking how to get to a destination",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "市役所まで、どうやって行きますか?",
+          "romaji": "Shiyakusho made, dou yatte ikimasu ka?",
+          "bn": "সিটি হলে কীভাবে যাব?",
+          "en": "How do I get to City Hall?"
+        },
+        {
+          "speaker": "B",
+          "jp": "ここから12番のバスに乗ります。バスセンターで降ります。",
+          "romaji": "Koko kara juuniban no basu ni norimasu. Basu sentaa de orimasu.",
+          "bn": "এখান থেকে ১২ নম্বর বাসে উঠবেন। বাস সেন্টারে নামবেন।",
+          "en": "Take bus No. 12 from here and get off at the Bus Center."
+        }
+      ]
+    }
+  ]
+}

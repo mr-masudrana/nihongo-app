@@ -1,0 +1,27 @@
+{
+  "lesson": 11,
+  "title": "মাংস আর সবজি আমি কিনে নিয়ে যাব",
+  "title_en": "I will bring meat and vegetables.",
+  "dialogues": [
+    {
+      "title": "১. দোকানে খাবারের উপকরণ (অ্যালার্জি/হালাল) ও মেয়াদ জিজ্ঞাসা",
+      "title_en": "1. Asking store staff about ingredients and expiration dates",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、この料理、卵を使ってますか?",
+          "romaji": "Sumimasen, kono ryouri, tamago o tsukattemasu ka?",
+          "bn": "মাফ করবেন, এই খাবারে কি ডিম ব্যবহার করা হয়েছে?",
+          "en": "Excuse me, does this dish use eggs?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いいえ、卵は使っていませんよ。",
+          "romaji": "Iie, tamago wa tsukatte imasen yo.",
+          "bn": "না, এতে ডিম ব্যবহার করা হয়নি।",
+          "en": "No, eggs are not used."
+        }
+      ]
+    }
+  ]
+}

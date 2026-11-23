@@ -1,0 +1,424 @@
+{
+  "lesson": 5,
+  "title": "যাতায়াত, সময় ও তারিখ",
+  "words": [
+    {
+      "word": "行きます",
+      "reading": "いきます",
+      "romaji": "ikimasu",
+      "bn": "যাওয়া",
+      "en": "go",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "来ます",
+      "reading": "きます",
+      "romaji": "kimasu",
+      "bn": "আসা",
+      "en": "come",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "帰ります",
+      "reading": "かえります",
+      "romaji": "kaerimasu",
+      "bn": "ফিরে যাওয়া / বাড়ি ফেরা",
+      "en": "go home, return",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "romaji": "gakkou",
+      "bn": "স্কুল",
+      "en": "school"
+    },
+    {
+      "word": "スーパー",
+      "reading": "スーパー",
+      "romaji": "sūpā",
+      "bn": "সুপারমার্কেট",
+      "en": "supermarket"
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "romaji": "eki",
+      "bn": "স্টেশন",
+      "en": "station"
+    },
+    {
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "romaji": "hikouki",
+      "bn": "বিমান",
+      "en": "aeroplane, airplane"
+    },
+    {
+      "word": "船",
+      "reading": "ふね",
+      "romaji": "fune",
+      "bn": "জাহাজ / নৌকা",
+      "en": "ship"
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "romaji": "densha",
+      "bn": "ট্রেন / বৈদ্যুতিক ট্রেন",
+      "en": "electric train"
+    },
+    {
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "romaji": "chikatetsu",
+      "bn": "ভূগর্ভস্থ রেল / মেট্রো",
+      "en": "underground, subway"
+    },
+    {
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "romaji": "shinkansen",
+      "bn": "শিনকানসেন / বুলেট ট্রেন",
+      "en": "the Shinkansen, the bullet train"
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "romaji": "basu",
+      "bn": "বাস",
+      "en": "bus"
+    },
+    {
+      "word": "タクシー",
+      "reading": "タクシー",
+      "romaji": "takushī",
+      "bn": "ট্যাক্সি",
+      "en": "taxi"
+    },
+    {
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "romaji": "jitensha",
+      "bn": "সাইকেল",
+      "en": "bicycle"
+    },
+    {
+      "word": "歩いて",
+      "reading": "あるいて",
+      "romaji": "aruite",
+      "bn": "হেঁটে",
+      "en": "on foot",
+      "note": "歩きます-এরて-রূপ"
+    },
+    {
+      "word": "人",
+      "reading": "ひと",
+      "romaji": "hito",
+      "bn": "মানুষ / ব্যক্তি",
+      "en": "person, people"
+    },
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "romaji": "tomodachi",
+      "bn": "বন্ধু",
+      "en": "friend"
+    },
+    {
+      "word": "彼",
+      "reading": "かれ",
+      "romaji": "kare",
+      "bn": "সে (পুরুষ) / প্রেমিক",
+      "en": "he, boyfriend, lover"
+    },
+    {
+      "word": "彼女",
+      "reading": "かのじょ",
+      "romaji": "kanojo",
+      "bn": "সে (নারী) / প্রেমিকা",
+      "en": "she, girlfriend, lover"
+    },
+    {
+      "word": "家族",
+      "reading": "かぞく",
+      "romaji": "kazoku",
+      "bn": "পরিবার",
+      "en": "family"
+    },
+    {
+      "word": "一人で",
+      "reading": "ひとりで",
+      "romaji": "hitoride",
+      "bn": "একা / নিজে নিজে",
+      "en": "alone, by oneself"
+    },
+    {
+      "word": "先週",
+      "reading": "せんしゅう",
+      "romaji": "senshū",
+      "bn": "গত সপ্তাহে",
+      "en": "last week"
+    },
+    {
+      "word": "今週",
+      "reading": "こんしゅう",
+      "romaji": "konshū",
+      "bn": "এই সপ্তাহে",
+      "en": "this week"
+    },
+    {
+      "word": "来週",
+      "reading": "らいしゅう",
+      "romaji": "raishū",
+      "bn": "আগামী সপ্তাহে",
+      "en": "next week"
+    },
+    {
+      "word": "先月",
+      "reading": "せんげつ",
+      "romaji": "sengetsu",
+      "bn": "গত মাসে",
+      "en": "last month"
+    },
+    {
+      "word": "今月",
+      "reading": "こんげつ",
+      "romaji": "kongetsu",
+      "bn": "এই মাসে",
+      "en": "this month"
+    },
+    {
+      "word": "来月",
+      "reading": "らいげつ",
+      "romaji": "raigetsu",
+      "bn": "আগামী মাসে",
+      "en": "next month"
+    },
+    {
+      "word": "去年",
+      "reading": "きょねん",
+      "romaji": "kyonen",
+      "bn": "গত বছর",
+      "en": "last year"
+    },
+    {
+      "word": "ことし",
+      "reading": "ことし",
+      "romaji": "kotoshi",
+      "bn": "এই বছর",
+      "en": "this year"
+    },
+    {
+      "word": "来年",
+      "reading": "らいねん",
+      "romaji": "rainen",
+      "bn": "আগামী বছর",
+      "en": "next year"
+    },
+    {
+      "word": "～年",
+      "reading": "～ねん",
+      "romaji": "~nen",
+      "bn": "~ সাল / বছর",
+      "en": "-th year"
+    },
+    {
+      "word": "何年",
+      "reading": "なんねん",
+      "romaji": "nannen",
+      "bn": "কোন বছর / কত বছর",
+      "en": "what year"
+    },
+    {
+      "word": "～月",
+      "reading": "～がつ",
+      "romaji": "~gatsu",
+      "bn": "বছরের ~তম মাস",
+      "en": "-th month of the year"
+    },
+    {
+      "word": "何月",
+      "reading": "なんがつ",
+      "romaji": "nangatsu",
+      "bn": "কোন মাস",
+      "en": "what month"
+    },
+    {
+      "word": "1日",
+      "reading": "ついたち",
+      "romaji": "tsuitachi",
+      "bn": "মাসের ১ তারিখ",
+      "en": "first day of the month"
+    },
+    {
+      "word": "2日",
+      "reading": "ふつか",
+      "romaji": "futsuka",
+      "bn": "২ তারিখ / দুই দিন",
+      "en": "second, two days"
+    },
+    {
+      "word": "3日",
+      "reading": "みっか",
+      "romaji": "mikka",
+      "bn": "৩ তারিখ / তিন দিন",
+      "en": "third, three days"
+    },
+    {
+      "word": "4日",
+      "reading": "よっか",
+      "romaji": "yokka",
+      "bn": "৪ তারিখ / চার দিন",
+      "en": "fourth, four days"
+    },
+    {
+      "word": "5日",
+      "reading": "いつか",
+      "romaji": "itsuka",
+      "bn": "৫ তারিখ / পাঁচ দিন",
+      "en": "fifth, five days"
+    },
+    {
+      "word": "6日",
+      "reading": "むいか",
+      "romaji": "muika",
+      "bn": "৬ তারিখ / ছয় দিন",
+      "en": "sixth, six days"
+    },
+    {
+      "word": "7日",
+      "reading": "なのか",
+      "romaji": "nanoka",
+      "bn": "৭ তারিখ / সাত দিন",
+      "en": "seventh, seven days"
+    },
+    {
+      "word": "8日",
+      "reading": "ようか",
+      "romaji": "youka",
+      "bn": "৮ তারিখ / আট দিন",
+      "en": "eighth, eight days"
+    },
+    {
+      "word": "9日",
+      "reading": "ここのか",
+      "romaji": "kokonoka",
+      "bn": "৯ তারিখ / নয় দিন",
+      "en": "ninth, nine days"
+    },
+    {
+      "word": "10日",
+      "reading": "とおか",
+      "romaji": "tooka",
+      "bn": "১০ তারিখ / দশ দিন",
+      "en": "tenth, ten days"
+    },
+    {
+      "word": "14日",
+      "reading": "じゅうよっか",
+      "romaji": "juuyokka",
+      "bn": "১৪ তারিখ",
+      "en": "fourteenth, fourteen days"
+    },
+    {
+      "word": "20日",
+      "reading": "はつか",
+      "romaji": "hatsuka",
+      "bn": "২০ তারিখ / বিশ দিন",
+      "en": "twentieth, twenty days"
+    },
+    {
+      "word": "24日",
+      "reading": "にじゅうよっか",
+      "romaji": "nijūyokka",
+      "bn": "২৪ তারিখ",
+      "en": "twenty-fourth, twenty-four days"
+    },
+    {
+      "word": "～日",
+      "reading": "～にち",
+      "romaji": "~nichi",
+      "bn": "মাসের ~ তারিখ / ~ দিন",
+      "en": "-th day of the month, ~ day(s)"
+    },
+    {
+      "word": "何日",
+      "reading": "なんにち",
+      "romaji": "nannichi",
+      "bn": "কত তারিখ / কত দিন",
+      "en": "which day of the month, how many days"
+    },
+    {
+      "word": "いつ",
+      "reading": "いつ",
+      "romaji": "itsu",
+      "bn": "কখন",
+      "en": "when"
+    },
+    {
+      "word": "誕生日",
+      "reading": "たんじょうび",
+      "romaji": "tanjoubi",
+      "bn": "জন্মদিন",
+      "en": "birthday"
+    },
+    {
+      "word": "そうですね。",
+      "reading": "そうですね",
+      "romaji": "sou desu ne",
+      "bn": "হ্যাঁ, ঠিক বলেছেন / তাই তো।",
+      "en": "Yes, it is."
+    },
+    {
+      "word": "どうもありがとうございました。",
+      "reading": "どうもありがとうございました",
+      "romaji": "doumo arigatou gozaimashita",
+      "bn": "আপনাকে অনেক ধন্যবাদ।",
+      "en": "Thank you very much."
+    },
+    {
+      "word": "どういたしまして。",
+      "reading": "どういたしまして",
+      "romaji": "dou itashimashite",
+      "bn": "আপনাকে স্বাগতম / কোনো কথা নয়।",
+      "en": "You're welcome. Don't mention it."
+    },
+    {
+      "word": "～番線",
+      "reading": "～ばんせん",
+      "romaji": "~bansen",
+      "bn": "~ নম্বর প্ল্যাটফর্ম",
+      "en": "platform number"
+    },
+    {
+      "word": "次の",
+      "reading": "つぎの",
+      "romaji": "tsugi no",
+      "bn": "পরবর্তী / পরের",
+      "en": "next"
+    },
+    {
+      "word": "普通",
+      "reading": "ふつう",
+      "romaji": "futsuu",
+      "bn": "লোকাল ট্রেন / সাধারণ",
+      "en": "local (train)"
+    },
+    {
+      "word": "急行",
+      "reading": "きゅうこう",
+      "romaji": "kyuukou",
+      "bn": "দ্রুতগামী ট্রেন",
+      "en": "rapid (train)"
+    },
+    {
+      "word": "特急",
+      "reading": "とっきゅう",
+      "romaji": "tokkyuu",
+      "bn": "এক্সপ্রেস ট্রেন",
+      "en": "express (train)"
+    }
+  ],
+  "title_en": "Transportation, time and dates"
+}

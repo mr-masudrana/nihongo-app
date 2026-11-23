@@ -1,14 +1,77 @@
 {
   "lesson": 10,
-  "title": "পরিবারের অনুষ্ঠান",
-  "title_en": "Family Celebrations",
+  "title": "কোন ধরনের পোশাক পরে গেলে ভালো হবে?",
+  "title_en": "What kind of clothes should I wear?",
   "words": [
     {
-      "word": "おいわい",
-      "reading": "おいわい",
-      "romaji": "oiwai",
-      "bn": "উদযাপন / অভিনন্দন",
-      "en": "celebration"
+      "word": "お見舞い",
+      "reading": "おみまい",
+      "romaji": "omimai",
+      "bn": "অসুস্থ ব্যক্তিকে দেখতে যাওয়া",
+      "en": "visiting someone in the hospital"
+    },
+    {
+      "word": "結婚式 / お葬式",
+      "reading": "けっこんしき / おそうしき",
+      "romaji": "kekkonshiki / osoushiki",
+      "bn": "বিয়ের অনুষ্ঠান / অন্ত্যেষ্টিক্রিয়া",
+      "en": "wedding ceremony / funeral"
+    },
+    {
+      "word": "ご祝儀 / 香典",
+      "reading": "ごしゅうぎ / こうでん",
+      "romaji": "goshuugi / kouden",
+      "bn": "বিয়ের উপহারের টাকা / শোকানুষ্ঠানের অর্থ",
+      "en": "wedding gift money / condolence money"
+    },
+    {
+      "word": "お通し",
+      "reading": "おとおし",
+      "romaji": "otooshi",
+      "bn": "ইজাকাইয়ায় প্রথমে দেওয়া ছোট অ্যাপেটাইজার",
+      "en": "small appetizer served at izakaya"
+    },
+    {
+      "word": "習慣 / マナー",
+      "reading": "しゅうかん / マナー",
+      "romaji": "shuukan / manaa",
+      "bn": "রীতি-অভ্যাস / শিষ্টাচার",
+      "en": "custom / manners"
+    },
+    {
+      "word": "注意されます",
+      "reading": "ちゅういされます",
+      "romaji": "chuui saremasu",
+      "bn": "সতর্ক করা হয় / বকা খাওয়া",
+      "en": "be warned / cautioned"
+    },
+    {
+      "word": "怒ります",
+      "reading": "おこります",
+      "romaji": "okorimasu",
+      "bn": "রাগ করে",
+      "en": "get angry"
+    },
+    {
+      "word": "入院します",
+      "reading": "にゅういんします",
+      "romaji": "nyuuin shimasu",
+      "bn": "হাসপাতালে ভর্তি হওয়া",
+      "en": "be hospitalized"
+    },
+    {
+      "word": "派手(な) / 地味(な)",
+      "reading": "はで(な) / じみ(な)",
+      "romaji": "hade (na) / jimi (na)",
+      "bn": "জমকালো / সাদামাটা",
+      "en": "flashy / plain or subdued"
+    },
+    {
+      "word": "マナーモード",
+      "reading": "マナーモード",
+      "romaji": "manaa moodo",
+      "bn": "ফোনের সাইলেন্ট/ভাইব্রেশন মোড",
+      "en": "silent/manner mode"
     }
   ]
 }

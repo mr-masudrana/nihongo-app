@@ -1,0 +1,23 @@
+{
+  "lesson": 18,
+  "title": "উষ্ণ প্রস্রবণে (অনসেন) গোসল করতে চাই",
+  "title_en": "I want to go to a hot spring.",
+  "points": [
+    {
+      "title": "গোল্ডেন উইক, শিনকানসেন, অনসেন ও জাপানি অ্যানিমে",
+      "pattern": "ゴールデンウィーク・新幹線・温泉・日本のアニメ",
+      "explain": "এপ্রিলের শেষ থেকে মে মাসের শুরু পর্যন্ত জাপানের লম্বা ছুটিকে 'গোল্ডেন উইক' বলে। অনসেনে (উষ্ণ প্রস্রবণ) প্রবেশের আগে অবশ্যই শরীর ভালোভাবে ধুয়ে নিতে হয় এবং তোয়ালে পানিতে ডোবানো যায় না।",
+      "title_en": "Golden Week, Shinkansen & Hot Spring Etiquette",
+      "pattern_en": "Golden Week, Bullet Train, Onsen rules",
+      "explain_en": "Wash thoroughly before entering an onsen; keep towels out of the bathwater.",
+      "examples": [
+        {
+          "jp": "温泉に入りたいです。",
+          "romaji": "Onsen ni hairitai desu.",
+          "bn": "অনসেনে গোসল করতে চাই।",
+          "en": "I want to bathe in a hot spring."
+        }
+      ]
+    }
+  ]
+}

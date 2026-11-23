@@ -1,14 +1,98 @@
 {
   "lesson": 9,
-  "title": "কাজের পরিবেশ ও সহকর্মী",
-  "title_en": "Workplace and Colleagues",
+  "title": "পড়ার নিয়মটা একটু বলে দেবেন?",
+  "title_en": "Will you tell me how to read this?",
   "words": [
     {
-      "word": "かいしゃ",
-      "reading": "かいしゃ",
-      "romaji": "kaisha",
-      "bn": "কোম্পানি",
-      "en": "company"
+      "word": "高校 / 大学",
+      "reading": "こうこう / だいがく",
+      "romaji": "koukou / daigaku",
+      "bn": "উচ্চ বিদ্যালয় / বিশ্ববিদ্যালয়",
+      "en": "high school / university"
+    },
+    {
+      "word": "練習",
+      "reading": "れんしゅう",
+      "romaji": "renshuu",
+      "bn": "অনুশীলন",
+      "en": "practice"
+    },
+    {
+      "word": "無料",
+      "reading": "むりょう",
+      "romaji": "muryou",
+      "bn": "বিনামূল্যে / ফ্রি",
+      "en": "free of charge"
+    },
+    {
+      "word": "文字",
+      "reading": "もじ",
+      "romaji": "moji",
+      "bn": "অক্ষর / বর্ণ",
+      "en": "character / letter"
+    },
+    {
+      "word": "文法",
+      "reading": "ぶんぽう",
+      "romaji": "bunpou",
+      "bn": "ব্যাকরণ",
+      "en": "grammar"
+    },
+    {
+      "word": "発音",
+      "reading": "はつおん",
+      "romaji": "hatsuon",
+      "bn": "উচ্চারণ",
+      "en": "pronunciation"
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "romaji": "kaiwa",
+      "bn": "কথোপকথন",
+      "en": "conversation"
+    },
+    {
+      "word": "得意(な)",
+      "reading": "とくい(な)",
+      "romaji": "tokui (na)",
+      "bn": "দক্ষ / ভালো পারি এমন",
+      "en": "good at / strong point"
+    },
+    {
+      "word": "似ています",
+      "reading": "にています",
+      "romaji": "nite imasu",
+      "bn": "মিল আছে / সদৃশ",
+      "en": "similar"
+    },
+    {
+      "word": "違います",
+      "reading": "ちがいます",
+      "romaji": "chigaimasu",
+      "bn": "ভিন্ন / আলাদা",
+      "en": "different"
+    },
+    {
+      "word": "教えます",
+      "reading": "おしえます",
+      "romaji": "oshiemasu",
+      "bn": "শেখাই / বলে দিই",
+      "en": "teach / tell"
+    },
+    {
+      "word": "説明します",
+      "reading": "せつめいします",
+      "romaji": "setsumei shimasu",
+      "bn": "ব্যাখ্যা করি",
+      "en": "explain"
+    },
+    {
+      "word": "掲示板",
+      "reading": "けいじばん",
+      "romaji": "keijiban",
+      "bn": "অনলাইন ফোরাম / নোটিশ বোর্ড",
+      "en": "bulletin board / forum"
     }
   ]
 }

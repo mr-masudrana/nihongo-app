@@ -1,0 +1,27 @@
+{
+  "lesson": 12,
+  "title": "বেন্তোটা দেখতে খুব সুস্বাদু মনে হচ্ছে",
+  "title_en": "Your bento looks delicious.",
+  "dialogues": [
+    {
+      "title": "১. খাবারের স্বাদ ও উপকরণ নিয়ে সহকর্মীদের সাথে কথা বলা",
+      "title_en": "1. Talking about food taste and ingredients",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "そのお弁当、おいしそうですね。",
+          "romaji": "Sono obentou, oishisou desu ne.",
+          "bn": "আপনার লাঞ্চ বক্সটা দেখতে খুব সুস্বাদু মনে হচ্ছে!",
+          "en": "Your bento looks delicious!"
+        },
+        {
+          "speaker": "B",
+          "jp": "よかったら、この卵焼き、食べてみてください。",
+          "romaji": "Yokattara, kono tamagoyaki, tabete mite kudasai.",
+          "bn": "চাইলে এই ওমলেটটা একটু খেয়ে দেখুন।",
+          "en": "If you'd like, please try this rolled omelet."
+        }
+      ]
+    }
+  ]
+}

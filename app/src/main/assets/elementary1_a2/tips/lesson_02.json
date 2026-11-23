@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "title": "গেম খেলতে পছন্দ করি",
+  "title_en": "I like playing video games.",
+  "points": [
+    {
+      "title": "ইকেবানা, স্টুডিও জিবলি ও আন্তর্জাতিক বিনিময় সংস্থা",
+      "pattern": "野球・いけばな・スタジオジブリ・国際交流協会",
+      "explain": "ইকেবানা হলো জাপানের ঐতিহ্যবাহী ফুল সাজানোর শিল্প। স্টুডিও জিবলির অ্যানিমে (যেমন টোটোরো) বিশ্ববিখ্যাত। স্থানীয় 'কোকুসাই কোউরিউ কিয়োকাই' (আন্তর্জাতিক বিনিময় সংস্থা) বিদেশিদের জাপানি ভাষা ও সংস্কৃতি শিখতে সহায়তা করে।",
+      "title_en": "Ikebana, Studio Ghibli & International Associations",
+      "pattern_en": "Culture and community support in Japan",
+      "explain_en": "Local international associations support foreign residents with classes and events.",
+      "examples": [
+        {
+          "jp": "特に、ジブリの映画が好きです。",
+          "romaji": "Tokuni, Jiburi no eiga ga suki desu.",
+          "bn": "বিশেষ করে জিবলির সিনেমা পছন্দ করি।",
+          "en": "I especially like Studio Ghibli films."
+        }
+      ]
+    }
+  ]
+}

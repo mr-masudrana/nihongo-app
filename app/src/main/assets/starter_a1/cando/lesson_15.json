@@ -1,0 +1,39 @@
+{
+  "lesson": 15,
+  "title": "ব্যাটারি প্রয়োজন কিন্তু…",
+  "title_en": "I need some batteries.",
+  "points": [
+    {
+      "title": "Can-do 61–63: কোথায় কিনতে পাওয়া যায় ও কত তলায় তা জানা",
+      "pattern": "どこで買えばいいか質問したり、フロアガイドや店員に聞いて場所を探せる。",
+      "explain": "প্রয়োজনীয় জিনিস কোন দোকানে বা শপিং মলের কত তলায় পাওয়া যাবে তা জানতে পারা।",
+      "title_en": "Can-do 61–63",
+      "pattern_en": "Can ask where to buy items and find floors in a store.",
+      "explain_en": "Navigate stores using floor guides and staff assistance.",
+      "examples": [
+        {
+          "jp": "電池がほしいんですが、どこで買えますか?",
+          "romaji": "Denchi ga hoshiin desu ga, doko de kaemasu ka?",
+          "bn": "ব্যাটারি প্রয়োজন, কোথায় কিনতে পারব?",
+          "en": "I need batteries; where can I buy them?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 64–65: পণ্য নিয়ে মন্তব্য ও শপিং মলের সাইনবোর্ড বোঝা",
+      "pattern": "商品についてコメントし合ったり、ショッピングセンターの表示の意味がわかる。",
+      "explain": "বন্ধুর সাথে পণ্যের প্রশংসা করতে এবং দোকানের সাইনবোর্ড (入口, 出口, 押す, 引く) বুঝতে পারা।",
+      "title_en": "Can-do 64–65",
+      "pattern_en": "Can comment on items and understand store signs.",
+      "explain_en": "Exchange comments while shopping and read store signs.",
+      "examples": [
+        {
+          "jp": "わあ、かっこいいですね。",
+          "romaji": "Waa, kakkoii desu ne.",
+          "bn": "বাহ, দারুণ তো!",
+          "en": "Wow, that's cool!"
+        }
+      ]
+    }
+  ]
+}

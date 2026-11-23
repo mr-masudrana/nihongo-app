@@ -1,0 +1,39 @@
+{
+  "lesson": 11,
+  "title": "মাংস আর সবজি আমি কিনে নিয়ে যাব",
+  "title_en": "I will bring meat and vegetables.",
+  "points": [
+    {
+      "title": "Can-do 35–36: বারবিকিউ ও পার্টির কেনাকাটার পরিকল্পনা",
+      "pattern": "バーベキューやパーティーの準備で、だれが何を買うか話し合うことができる。",
+      "explain": "পার্টি বা পিকনিকে কে কী নিয়ে যাবে এবং কী কেনা হবে তা আলোচনা করতে পারা।",
+      "title_en": "Can-do 35–36",
+      "pattern_en": "Can discuss preparations and shopping for parties.",
+      "explain_en": "Divide tasks and choose food/drinks for gatherings.",
+      "examples": [
+        {
+          "jp": "だれが何を持って行きますか?",
+          "romaji": "Dare ga nani o motte ikimasu ka?",
+          "bn": "কে কী নিয়ে যাবে?",
+          "en": "Who will bring what?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 37–38: খাবারের উপকরণ, মেয়াদ ও ফুড লেবেল পরীক্ষা করা",
+      "pattern": "材料や消費期限について質問したり、食品表示を見て確認したりすることができる。",
+      "explain": "প্যাকেটের গায়ে লেখা উপকরণ (অ্যালার্জি বা অখাদ্য উপাদান) এবং মেয়াদোত্তীর্ণের তারিখ (消費期限) যাচাই করতে পারা।",
+      "title_en": "Can-do 37–38",
+      "pattern_en": "Can ask about ingredients/expiration and read food labels.",
+      "explain_en": "Check food packaging for allergens and expiration dates.",
+      "examples": [
+        {
+          "jp": "このお刺身、明日までもちますか?",
+          "romaji": "Kono osashimi, ashita made mochimasu ka?",
+          "bn": "এই সাশিমিটা আগামীকাল পর্যন্ত ভালো থাকবে কি?",
+          "en": "Will this sashimi keep until tomorrow?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "title": "তাড়াতাড়ি বুকিং করে নেওয়াই ভালো",
+  "title_en": "You should make a reservation early.",
+  "dialogues": [
+    {
+      "title": "১. ভ্রমণের পরামর্শ চাওয়া ও দেওয়া",
+      "title_en": "1. Asking for and giving travel advice",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "今度、日光に紅葉を見に行くんですけど、何で行ったらいいですか?",
+          "romaji": "Kondo, Nikkou ni kouyou o mi ni ikun desu kedo, nani de ittara ii desu ka?",
+          "bn": "সামনে নিক্কোতে শরতের পাতা দেখতে যাব, কীসে গেলে ভালো হয়?",
+          "en": "I'm going to Nikko to see autumn leaves soon; how should I get there?"
+        },
+        {
+          "speaker": "B",
+          "jp": "電車で行けますよ。でも、すごく寒いから、厚い上着を持って行ったほうがいいですよ。",
+          "romaji": "Densha de ikemasu yo. Demo, sugoku samui kara, atsui uwagi o motte itta hou ga ii desu yo.",
+          "bn": "ট্রেনে যেতে পারবেন। তবে খুব ঠান্ডা পড়ে, তাই মোটা জ্যাকেট নিয়ে যাওয়া ভালো হবে।",
+          "en": "You can go by train. However, it's very cold, so you should bring a warm jacket."
+        }
+      ]
+    }
+  ]
+}

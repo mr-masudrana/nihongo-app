@@ -1,0 +1,23 @@
+{
+  "lesson": 15,
+  "title": "ব্যাটারি প্রয়োজন কিন্তু…",
+  "title_en": "I need some batteries.",
+  "points": [
+    {
+      "title": "জাপানের বিভিন্ন দোকান (১০০ ইয়েন শপ, ড্রাগস্টোর, হোম সেন্টার)",
+      "pattern": "日本のいろいろな店・階の数え方",
+      "explain": "জাপানে দৈনন্দিন জিনিসপত্রের জন্য ১০০ ইয়েন শপ (Daiso, Seria), ওষুধ ও নিত্যপণ্যের জন্য ড্রাগস্টোর এবং আসবাব ও হার্ডওয়্যারের জন্য হোম সেন্টার খুবই জনপ্রিয়।",
+      "title_en": "Types of Japanese Stores",
+      "pattern_en": "100-yen shops, Drugstores, Home centers",
+      "explain_en": "Know where to buy daily necessities affordably in Japan.",
+      "examples": [
+        {
+          "jp": "100円ショップで買えますよ。",
+          "romaji": "Hyakuen shoppu de kaemasu yo.",
+          "bn": "১০০ ইয়েন শপে কিনতে পারবেন।",
+          "en": "You can buy it at a 100-yen shop."
+        }
+      ]
+    }
+  ]
+}

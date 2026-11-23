@@ -1,0 +1,39 @@
+{
+  "lesson": 5,
+  "title": "খুবই জমজমাট এবং সুবিধাজনক",
+  "title_en": "It is very lively and convenient.",
+  "points": [
+    {
+      "title": "Can-do 14–15: শহরের অনুভূতি ও ভালো জায়গার খোঁজ নেওয়া",
+      "pattern": "住んでいる町の感想を話したり、おすすめの場所について質問したりできる。",
+      "explain": "নিজের শহর কেমন তা বলতে এবং ছুটির দিনে ঘোরার জায়গা সম্পর্কে জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 14–15",
+      "pattern_en": "Can share impressions of town and ask for recommendations.",
+      "explain_en": "Describe your town and ask about local spots.",
+      "examples": [
+        {
+          "jp": "この町はどうですか? とてもにぎやかで便利です。",
+          "romaji": "Kono machi wa dou desu ka? Totemo nigiyaka de benri desu.",
+          "bn": "এই শহর কেমন? খুব জমজমাট ও সুবিধাজনক।",
+          "en": "How is this town? Very lively and convenient."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 16: টাউন ম্যাপ পড়ে তথ্য সংগ্রহ করা",
+      "pattern": "町の案内図を見て、名所やお店などについての情報を読み取ることができる。",
+      "explain": "শহরের গাইড ম্যাপ দেখে দর্শনীয় স্থান, সময়সূচি ও করণীয় সম্পর্কে জানতে পারা।",
+      "title_en": "Can-do 16",
+      "pattern_en": "Can read a town map for tourist spots and shops.",
+      "explain_en": "Extract information from town maps and brochures.",
+      "examples": [
+        {
+          "jp": "名物「いろはそば」を食べることができます。",
+          "romaji": "Meibutsu 'Iroha-soba' o taberu koto ga dekimasu.",
+          "bn": "বিখ্যাত 'ইরোহা সোবা' খেতে পারবেন।",
+          "en": "You can eat the local specialty 'Iroha soba'."
+        }
+      ]
+    }
+  ]
+}

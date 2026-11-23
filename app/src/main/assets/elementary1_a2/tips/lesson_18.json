@@ -1,0 +1,23 @@
+{
+  "lesson": 18,
+  "title": "কোনো উপহার দেব কি?",
+  "title_en": "How about giving something as a gift?",
+  "points": [
+    {
+      "title": "কানপাই (乾杯), কারাওকে ও ইয়োসেগাকি (寄せ書き)",
+      "pattern": "日本人の名前・乾杯・カラオケ・寄せ書き",
+      "explain": "জাপানে বিদায় অনুষ্ঠান বা পার্টিতে সবাই মিলে একটি বড় কার্ডবোর্ডে (色紙) শুভকামনা লিখে উপহার দেয়, যাকে 'ইয়োসেগাকি' (寄せ書き) বলে। এছাড়া পার্টিতে সবাই গ্লাস তুলে 'কানপাই!' (乾杯) বলে পান শুরু করে।",
+      "title_en": "Kanpai, Karaoke & Yosegaki Message Boards",
+      "pattern_en": "Celebration customs in Japan",
+      "explain_en": "Yosegaki is a group farewell card signed by colleagues and friends.",
+      "examples": [
+        {
+          "jp": "乾杯! (Kanpai!)",
+          "romaji": "Kanpai!",
+          "bn": "চিয়ার্স! (পান শুরু করার শুভেচ্ছা)",
+          "en": "Cheers!"
+        }
+      ]
+    }
+  ]
+}

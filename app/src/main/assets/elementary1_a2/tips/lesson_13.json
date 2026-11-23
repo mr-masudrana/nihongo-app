@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "title": "আর ১০ মিনিটের মতো লাগবে বলে মনে হচ্ছে",
+  "title_en": "It will probably end in about ten minutes.",
+  "points": [
+    {
+      "title": "জাপানের আধুনিক টয়লেট (ウォシュレット) ব্যবহারের নিয়ম",
+      "pattern": "日本のトイレ",
+      "explain": "জাপানের টয়লেটে ওয়াশলেট (বিডেট), ফ্লাশ লিভার (大 বড় / 小 ছোট) এবং জরুরি কল বাটন (呼出) থাকে। ফ্লাশ বাটন এবং জরুরি বাটন যেন ভুল করে চাপা না পড়ে সেদিকে খেয়াল রাখতে হয়।",
+      "title_en": "Using Japanese Toilets",
+      "pattern_en": "Washlet, Flush (大/小), Emergency button",
+      "explain_en": "Be careful not to confuse the flush button with the emergency call button.",
+      "examples": [
+        {
+          "jp": "流す (Flush) / 呼出 (Emergency Call)",
+          "romaji": "Nagasu / Yobidashi",
+          "bn": "ফ্লাশ / জরুরি কল বাটন",
+          "en": "Flush / Emergency call"
+        }
+      ]
+    }
+  ]
+}

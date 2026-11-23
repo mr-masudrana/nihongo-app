@@ -1,0 +1,39 @@
+{
+  "lesson": 6,
+  "title": "বিভিন্ন জায়গায় যেতে পেরে খুব ভালো লেগেছে",
+  "title_en": "I am glad that I went to a lot of different places.",
+  "points": [
+    {
+      "title": "Can-do 23 & 25: ট্রেনের টিকিট পড়া ও স্টেশনের ঘোষণা বোঝা",
+      "pattern": "新幹線の切符や駅の掲示を読み、アナウンスから必要な情報を理解することができる。",
+      "explain": "টিকিট দেখে বগি ও সিট নম্বর বুঝতে এবং ট্রেন বিলম্ব বা প্ল্যাটফর্ম পরিবর্তনের ঘোষণা বুঝতে পারা।",
+      "title_en": "Can-do 23 & 25",
+      "pattern_en": "Can read Shinkansen tickets and understand station announcements.",
+      "explain_en": "Read ticket details and handle train delays/transfers.",
+      "examples": [
+        {
+          "jp": "16号車 14番D席 (窓側)",
+          "romaji": "Juuroku-gousha juuyon-ban D-seki",
+          "bn": "১৬ নম্বর বগি, ১৪-ডি সিট (জানালার পাশে)",
+          "en": "Car 16, Seat 14D (Window)"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 24, 26–27: ভ্রমণের পরিকল্পনা, অভিজ্ঞতা বলা ও SNS-এ লেখা",
+      "pattern": "旅行の予定や感想を簡単に話したり、SNSに書き込んだりすることができる。",
+      "explain": "ভ্রমণে কী কী করতে পেরেছেন বা পারেননি তা বলতে এবং ছবিসহ ভ্রমণের পোস্ট লিখতে পারা।",
+      "title_en": "Can-do 24, 26–27",
+      "pattern_en": "Can share travel plans, impressions, and write SNS trip posts.",
+      "explain_en": "Talk about what you could/couldn't do and post trip summaries.",
+      "examples": [
+        {
+          "jp": "自分のカップラーメンを作りました! おもしろかったです。",
+          "romaji": "Jibun no kappu raamen o tsukurimashita! Omoshirokatta desu.",
+          "bn": "নিজের পছন্দমতো কাপ নুডলস বানিয়েছি! খুব মজার ছিল।",
+          "en": "I made my own cup ramen! It was fun."
+        }
+      ]
+    }
+  ]
+}

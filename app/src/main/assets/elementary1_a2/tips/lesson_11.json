@@ -1,0 +1,23 @@
+{
+  "lesson": 11,
+  "title": "মাংস আর সবজি আমি কিনে নিয়ে যাব",
+  "title_en": "I will bring meat and vegetables.",
+  "points": [
+    {
+      "title": "মেয়াদোত্তীর্ণের তারিখ (消費期限 vs 賞味期限) ও অ্যালার্জি লেবেল",
+      "pattern": "賞味期限と消費期限・アレルギー表示",
+      "explain": "'শোউহি-কিগেন' (消費期限) অর্থ নিরাপদে খাওয়ার শেষ তারিখ (দ্রুত পচনশীল খাবারে থাকে), আর 'শোউমি-কিগেন' (賞味期限) অর্থ খাবারের সেরা স্বাদ বজায় থাকার তারিখ।",
+      "title_en": "Expiration Dates & Allergy Labels",
+      "pattern_en": "Shouhikigen vs Shoumikigen",
+      "explain_en": "Shouhikigen is the safety use-by date; shoumikigen is the best-before date.",
+      "examples": [
+        {
+          "jp": "消費期限を確認します。",
+          "romaji": "Shouhikigen o kakunin shimasu.",
+          "bn": "মেয়াদোত্তীর্ণের তারিখ পরীক্ষা করি।",
+          "en": "I check the expiration date."
+        }
+      ]
+    }
+  ]
+}

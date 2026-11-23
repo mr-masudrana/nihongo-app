@@ -1,0 +1,39 @@
+{
+  "lesson": 9,
+  "title": "পড়ার নিয়মটা একটু বলে দেবেন?",
+  "title_en": "Will you tell me how to read this?",
+  "points": [
+    {
+      "title": "Can-do 27–28: জাপানি ভাষা শেখার অভিজ্ঞতা ও মতামত",
+      "pattern": "日本語の学習経験や勉強についての感想・コメントを簡単に話すことができる。",
+      "explain": "কোথায়, কীভাবে জাপানি শিখেছেন এবং কোন বিষয়টি সহজ বা কঠিন তা বলতে পারা।",
+      "title_en": "Can-do 27–28",
+      "pattern_en": "Can discuss Japanese learning experiences and impressions.",
+      "explain_en": "Talk about how you learned Japanese and what you find easy/hard.",
+      "examples": [
+        {
+          "jp": "自分で本で勉強しました。",
+          "romaji": "Jibun de hon de benkyou shimashita.",
+          "bn": "নিজে নিজে বই পড়ে শিখেছি।",
+          "en": "I studied by myself using books."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 29–30: জাপানি ভাষায় সাহায্য চাওয়া ও শেখার উপায় পড়া",
+      "pattern": "日本語で困ったとき手伝いを頼んだり、ネットの掲示板で学習方法を読んだりできる。",
+      "explain": "কাঞ্জির পড়া বা লেখার নিয়ম জানতে সাহায্য চাইতে এবং অনলাইন ফোরাম থেকে শেখার টিপস পড়তে পারা।",
+      "title_en": "Can-do 29–30",
+      "pattern_en": "Can ask for help with Japanese and read study tips online.",
+      "explain_en": "Request help with reading/writing and understand study advice.",
+      "examples": [
+        {
+          "jp": "教科書の会話を何回もシャドーイングしています。",
+          "romaji": "Kyoukasho no kaiwa o nankai mo shadooingu shite imasu.",
+          "bn": "পাঠ্যবইয়ের কথোপকথন বারবার শ্যাডোয়িং করি।",
+          "en": "I shadow the textbook dialogs many times."
+        }
+      ]
+    }
+  ]
+}

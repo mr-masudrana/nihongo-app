@@ -1,0 +1,338 @@
+{
+  "lesson": 7,
+  "title": "দেওয়া-নেওয়া ও উপহার",
+  "words": [
+    {
+      "word": "切ります",
+      "reading": "きります",
+      "romaji": "kirimasu",
+      "bn": "কাটা / টুকরো করা",
+      "en": "cut, slice",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "送ります",
+      "reading": "おくります",
+      "romaji": "okurimasu",
+      "bn": "পাঠানো",
+      "en": "send",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "あげます",
+      "reading": "あげます",
+      "romaji": "agemasu",
+      "bn": "দেওয়া",
+      "en": "give",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "もらいます",
+      "reading": "もらいます",
+      "romaji": "moraimasu",
+      "bn": "পাওয়া / গ্রহণ করা",
+      "en": "receive",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "貸します",
+      "reading": "かします",
+      "romaji": "kashimasu",
+      "bn": "ধার দেওয়া",
+      "en": "lend",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "借ります",
+      "reading": "かります",
+      "romaji": "karimasu",
+      "bn": "ধার নেওয়া",
+      "en": "borrow",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "教えます",
+      "reading": "おしえます",
+      "romaji": "oshiemasu",
+      "bn": "শেখানো / জানানো",
+      "en": "teach",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "習います",
+      "reading": "ならいます",
+      "romaji": "naraimasu",
+      "bn": "শেখা",
+      "en": "learn",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "かけます",
+      "reading": "かけます",
+      "romaji": "kakemasu",
+      "bn": "ফোন করা",
+      "en": "make a telephone call",
+      "note": "電話をかけます"
+    },
+    {
+      "word": "手",
+      "reading": "て",
+      "romaji": "te",
+      "bn": "হাত",
+      "en": "hand, arm"
+    },
+    {
+      "word": "箸",
+      "reading": "はし",
+      "romaji": "hashi",
+      "bn": "চপস্টিক",
+      "en": "chopsticks"
+    },
+    {
+      "word": "スプーン",
+      "reading": "スプーン",
+      "romaji": "supūn",
+      "bn": "চামচ",
+      "en": "spoon"
+    },
+    {
+      "word": "ナイフ",
+      "reading": "ナイフ",
+      "romaji": "naifu",
+      "bn": "ছুরি",
+      "en": "knife"
+    },
+    {
+      "word": "フォーク",
+      "reading": "フォーク",
+      "romaji": "fōku",
+      "bn": "কাঁটা চামচ",
+      "en": "fork"
+    },
+    {
+      "word": "はさみ",
+      "reading": "はさみ",
+      "romaji": "hasami",
+      "bn": "কাঁচি",
+      "en": "scissors"
+    },
+    {
+      "word": "パソコン",
+      "reading": "パソコン",
+      "romaji": "pasokon",
+      "bn": "পার্সোনাল কম্পিউটার",
+      "en": "personal computer"
+    },
+    {
+      "word": "ケータイ",
+      "reading": "ケータイ",
+      "romaji": "kētai",
+      "bn": "মোবাইল ফোন",
+      "en": "mobile phone, cell phone"
+    },
+    {
+      "word": "メール",
+      "reading": "メール",
+      "romaji": "mēru",
+      "bn": "ই-মেইল",
+      "en": "e-mail"
+    },
+    {
+      "word": "年賀状",
+      "reading": "ねんがじょう",
+      "romaji": "nengajou",
+      "bn": "নববর্ষের শুভেচ্ছা কার্ড",
+      "en": "New Year's greeting card"
+    },
+    {
+      "word": "パンチ",
+      "reading": "パンチ",
+      "romaji": "panchi",
+      "bn": "পাঞ্চ / কাগজে ছিদ্র করার যন্ত্র",
+      "en": "punch"
+    },
+    {
+      "word": "ホッチキス",
+      "reading": "ホッチキス",
+      "romaji": "hotchikisu",
+      "bn": "স্ট্যাপলার",
+      "en": "stapler"
+    },
+    {
+      "word": "セロテープ",
+      "reading": "セロテープ",
+      "romaji": "serotēpu",
+      "bn": "স্বচ্ছ আঠালো টেপ",
+      "en": "Sellotape, Scotch tape, clear adhesive tape"
+    },
+    {
+      "word": "消しゴム",
+      "reading": "けしゴム",
+      "romaji": "keshigomu",
+      "bn": "রাবার / ইরেজার",
+      "en": "rubber, eraser"
+    },
+    {
+      "word": "紙",
+      "reading": "かみ",
+      "romaji": "kami",
+      "bn": "কাগজ",
+      "en": "paper"
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "romaji": "hana",
+      "bn": "ফুল",
+      "en": "flower, blossom"
+    },
+    {
+      "word": "シャツ",
+      "reading": "シャツ",
+      "romaji": "shatsu",
+      "bn": "শার্ট",
+      "en": "shirt"
+    },
+    {
+      "word": "プレゼント",
+      "reading": "プレゼント",
+      "romaji": "purezento",
+      "bn": "উপহার",
+      "en": "present, gift"
+    },
+    {
+      "word": "荷物",
+      "reading": "にもつ",
+      "romaji": "nimotsu",
+      "bn": "মালপত্র / লাগেজ / পার্সেল",
+      "en": "luggage, baggage, parcel"
+    },
+    {
+      "word": "お金",
+      "reading": "おかね",
+      "romaji": "okane",
+      "bn": "টাকা / অর্থ",
+      "en": "money"
+    },
+    {
+      "word": "切符",
+      "reading": "きっぷ",
+      "romaji": "kippu",
+      "bn": "টিকিট",
+      "en": "ticket"
+    },
+    {
+      "word": "クリスマス",
+      "reading": "クリスマス",
+      "romaji": "kurisumasu",
+      "bn": "বড়দিন / ক্রিসমাস",
+      "en": "Christmas"
+    },
+    {
+      "word": "父",
+      "reading": "ちち",
+      "romaji": "chichi",
+      "bn": "আমার বাবা",
+      "en": "(my) father",
+      "note": "নিজের পরিবারের সদস্য সম্পর্কে অন্যকে বলার সময়"
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "romaji": "haha",
+      "bn": "আমার মা",
+      "en": "(my) mother",
+      "note": "নিজের পরিবারের সদস্য সম্পর্কে অন্যকে বলার সময়"
+    },
+    {
+      "word": "お父さん",
+      "reading": "おとうさん",
+      "romaji": "otousan",
+      "bn": "অন্যের বাবা / বাবা",
+      "en": "(someone else's) father",
+      "note": "নিজের বাবাকে সম্বোধন করতেও ব্যবহৃত হয়"
+    },
+    {
+      "word": "お母さん",
+      "reading": "おかあさん",
+      "romaji": "okaasan",
+      "bn": "অন্যের মা / মা",
+      "en": "(someone else's) mother",
+      "note": "নিজের মাকে সম্বোধন করতেও ব্যবহৃত হয়"
+    },
+    {
+      "word": "もう",
+      "reading": "もう",
+      "romaji": "mou",
+      "bn": "ইতিমধ্যে / ইতোমধ্যে",
+      "en": "already"
+    },
+    {
+      "word": "まだ",
+      "reading": "まだ",
+      "romaji": "mada",
+      "bn": "এখনো নয়",
+      "en": "not yet"
+    },
+    {
+      "word": "これから",
+      "reading": "これから",
+      "romaji": "korekara",
+      "bn": "এখন থেকে / শিগগিরই",
+      "en": "from now on, soon"
+    },
+    {
+      "word": "～すてきですね。",
+      "reading": "～すてきですね",
+      "romaji": "~ suteki desu ne",
+      "bn": "কী সুন্দর ~!",
+      "en": "What a nice ~!"
+    },
+    {
+      "word": "いらっしゃい。",
+      "reading": "いらっしゃい",
+      "romaji": "irasshai",
+      "bn": "স্বাগতম!",
+      "en": "How nice of you to come. (Welcome.)"
+    },
+    {
+      "word": "どうぞお上がりください。",
+      "reading": "どうぞおあがりください",
+      "romaji": "douzo oagari kudasai",
+      "bn": "ভেতরে আসুন / দয়া করে ঘরে প্রবেশ করুন।",
+      "en": "Do come in."
+    },
+    {
+      "word": "失礼します。",
+      "reading": "しつれいします",
+      "romaji": "shitsurei shimasu",
+      "bn": "মাফ করবেন / অনুমতি নিচ্ছি।",
+      "en": "May I? (lit. I commit an incivility.)"
+    },
+    {
+      "word": "～はいかがですか。",
+      "reading": "～はいかがですか",
+      "romaji": "~ wa ikaga desu ka",
+      "bn": "~ নেবেন কি? / ~ কেমন হবে?",
+      "en": "Won't you have ~? Would you like to have ~?",
+      "note": "কাউকে কিছু অফার করার সময়"
+    },
+    {
+      "word": "いただきます。",
+      "reading": "いただきます",
+      "romaji": "itadakimasu",
+      "bn": "খাওয়া শুরু করার আগে বলা হয়: সাদরে গ্রহণ করছি।",
+      "en": "Thank you. I accept.",
+      "note": "খাওয়া বা পান করা শুরু করার আগে বলা হয়"
+    },
+    {
+      "word": "ごちそうさまでした。",
+      "reading": "ごちそうさまでした",
+      "romaji": "gochisousama deshita",
+      "bn": "খাবারের জন্য ধন্যবাদ / খুব মজা হয়েছে।",
+      "en": "That was delicious.",
+      "note": "খাওয়া বা পান করা শেষে বলা হয়"
+    }
+  ],
+  "title_en": "Giving, receiving and gifts"
+}

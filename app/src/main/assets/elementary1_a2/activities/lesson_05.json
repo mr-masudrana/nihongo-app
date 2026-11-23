@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "title": "খুবই জমজমাট এবং সুবিধাজনক",
+  "title_en": "It is very lively and convenient.",
+  "dialogues": [
+    {
+      "title": "১. শহরের দর্শনীয় ও পছন্দের জায়গা সম্পর্কে জিজ্ঞাসা করা",
+      "title_en": "1. Asking about recommended places in town",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "休みの日にどこか行きたいんですが、いいところがありますか?",
+          "romaji": "Yasumi no hi ni dokoka ikitain desu ga, ii tokoro ga arimasu ka?",
+          "bn": "ছুটির দিনে কোথাও ঘুরতে যেতে চাই, ভালো কোনো জায়গা আছে কি?",
+          "en": "I want to go somewhere on my day off; are there any good places?"
+        },
+        {
+          "speaker": "B",
+          "jp": "「たちばな公園」はどうですか? 場所は不便だけど、きれいですよ。",
+          "romaji": "'Tachibana Kouen' wa dou desu ka? Basho wa fuben da kedo, kirei desu yo.",
+          "bn": "'তাচিবানা পার্ক' কেমন হয়? জায়গাটা একটু যাতায়াতে অসুবিধাজনক, তবে খুব সুন্দর।",
+          "en": "How about Tachibana Park? The location is inconvenient, but it's beautiful."
+        }
+      ]
+    }
+  ]
+}

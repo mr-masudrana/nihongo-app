@@ -1,21 +1,43 @@
 {
   "lesson": 1,
-  "title": "নিজের দক্ষতা ও অভিজ্ঞতা",
-  "title_en": "Skills and Experiences",
+  "title": "গত সপ্তাহে জাপানে এসেছি মাত্র",
+  "title_en": "I just came to Japan last week.",
   "points": [
     {
-      "title": "নিজের দক্ষতা ও অভিজ্ঞতা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "けいけん ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 1-এর মূল ব্যাকরণ।",
-      "title_en": "Skills and Experiences — Grammar Pattern",
-      "pattern_en": "Can do keiken",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 1.",
+      "title": "N1 という N2 (নাম বা অর্থ পরিচয়) ও V-たばかりです (এইমাত্র করা)",
+      "pattern": "ホアは「花」という意味です / 先週、日本に来たばかりです",
+      "explain": "কোনো স্থান বা শব্দের নাম পরিচয় দিতে 'という' এবং কোনো কাজ সদ্য সম্পন্ন হয়েছে বোঝাতে ক্রিয়ার た-form এর সাথে 'ばかりです' বসে।",
+      "title_en": "Naming/defining with という & Recent actions with ばかり",
+      "pattern_en": "N1 to iu N2 / V-ta bakari desu",
+      "explain_en": "Introduce unfamiliar names/meanings and state actions just completed.",
       "examples": [
         {
-          "jp": "じぶんで けいけん を することができます。",
-          "romaji": "Jibun de keiken o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে অভিজ্ঞতা করতে পারি।",
-          "en": "I can do experience by myself."
+          "jp": "ベトナムのダナンという町から来ました。",
+          "romaji": "Betonamu no Danan to iu machi kara kimashita.",
+          "bn": "ভিয়েতনামের দানাং নামক শহর থেকে এসেছি।",
+          "en": "I came from a city called Da Nang in Vietnam."
+        },
+        {
+          "jp": "先月、仕事を始めたばかりです。",
+          "romaji": "Sengetsu, shigoto o hajimeta bakari desu.",
+          "bn": "গত মাসে কাজ শুরু করেছি মাত্র।",
+          "en": "I just started working last month."
+        }
+      ]
+    },
+    {
+      "title": "V-ていました (অতীত পেশা/অবস্থা) ও 文脈指示 (それ / そこ)",
+      "pattern": "ベトナムでは、ホテルで働いていました / そこからバスで4時間です",
+      "explain": "অতীতে দীর্ঘ সময় ধরে কোনো কাজ করতেন তা বোঝাতে 'V-ていました' এবং পূর্বে উল্লিখিত স্থান বা বিষয় নির্দেশ করতে 'そこ / それ' বসে।",
+      "title_en": "Past state V-ていました & Discourse demonstratives",
+      "pattern_en": "V-te imashita / Soko kara",
+      "explain_en": "Describe past work experience and refer back to previously mentioned places.",
+      "examples": [
+        {
+          "jp": "お茶の畑がたくさんあって、のんびりしています。",
+          "romaji": "Ocha no hatake ga takusan atte, nonbiri shite imasu.",
+          "bn": "অনেক চা বাগান আছে এবং পরিবেশটা বেশ শান্ত।",
+          "en": "There are many tea fields, and it's relaxing."
         }
       ]
     }

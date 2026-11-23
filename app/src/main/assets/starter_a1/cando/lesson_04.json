@@ -1,0 +1,39 @@
+{
+  "lesson": 4,
+  "title": "টোকিওতে বসবাস করি",
+  "title_en": "I live in Tokyo.",
+  "points": [
+    {
+      "title": "Can-do 12–13: পরিবার, বয়স ও বাসস্থান",
+      "pattern": "家族のメンバーを理解し、住んでいるところや年齢などを質問・応答できる。",
+      "explain": "পরিবারের সদস্যদের পরিচয় বুঝতে এবং বয়স ও বাসস্থান সম্পর্কে প্রশ্ন ও উত্তর দিতে পারা।",
+      "title_en": "Can-do 12–13",
+      "pattern_en": "Can introduce family and ask/answer about age and residence.",
+      "explain_en": "Understand family introductions and discuss age and location.",
+      "examples": [
+        {
+          "jp": "東京に住んでいます。",
+          "romaji": "Toukyou ni sunde imasu.",
+          "bn": "টোকিওতে থাকি।",
+          "en": "I live in Tokyo."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 14–15: ছবি ও SNS পোস্ট বোঝা",
+      "pattern": "写真を見て質問したり、SNSの短い書き込みを理解したりできる。",
+      "explain": "ছবি দেখে কে বা কী তা জিজ্ঞাসা করতে এবং বন্ধুর SNS পোস্ট বুঝতে পারা।",
+      "title_en": "Can-do 14–15",
+      "pattern_en": "Can ask about photos and read short SNS posts.",
+      "explain_en": "Talk about photos and understand short social media posts.",
+      "examples": [
+        {
+          "jp": "これ、だれですか? 姉の子どもです。",
+          "romaji": "Kore, dare desu ka? Ane no kodomo desu.",
+          "bn": "এটি কে? আমার বড় বোনের সন্তান।",
+          "en": "Who is this? My older sister's child."
+        }
+      ]
+    }
+  ]
+}

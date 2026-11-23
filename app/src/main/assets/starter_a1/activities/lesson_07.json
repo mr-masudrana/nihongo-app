@@ -1,0 +1,41 @@
+{
+  "lesson": 7,
+  "title": "৪টি রুম আছে",
+  "title_en": "There are four rooms.",
+  "dialogues": [
+    {
+      "title": "১. ডরমিটরি বা বাসার আসবাবপত্র সম্পর্কে জিজ্ঞাসা করা",
+      "title_en": "1. Asking about appliances in the dorm",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "あのう、電子レンジはありますか?",
+          "romaji": "Anou, denshi renji wa arimasu ka?",
+          "bn": "শুনুন, মাইক্রোওয়েভ ওভেন আছে কি?",
+          "en": "Excuse me, is there a microwave?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あります。ここです。",
+          "romaji": "Arimasu. Koko desu.",
+          "bn": "আছে। এই যে এখানে।",
+          "en": "Yes, right here."
+        },
+        {
+          "speaker": "A",
+          "jp": "トースターはありますか?",
+          "romaji": "Toosutaa wa arimasu ka?",
+          "bn": "টোস্টার আছে কি?",
+          "en": "Is there a toaster?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、トースターはありません。",
+          "romaji": "A, toosutaa wa arimasen.",
+          "bn": "ওহ, টোস্টার নেই।",
+          "en": "Oh, there is no toaster."
+        }
+      ]
+    }
+  ]
+}

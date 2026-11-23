@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "title": "প্রাপ্তবয়স্ক দিবসে (সেইজিন নো হি) কী করা হয়?",
+  "title_en": "What do people do on Coming-of-Age Day?",
+  "points": [
+    {
+      "title": "জাপানি নববর্ষ (お正月), সেইজিন নো হি ও মোচিৎসুকি",
+      "pattern": "日本のお正月・成人の日・日本の年中行事・餅つき",
+      "explain": "জানুয়ারির ১–৩ তারিখ জাপানে নববর্ষ পালিত হয়। এ সময় ওসেচি খাবার, ওতোশিদামা (উপহারের টাকা) এবং শ্রাইনে প্রথম প্রার্থনা (初詣) করা হয়। জানুয়ারির ২য় সোমবার প্রাপ্তবয়স্ক দিবস পালিত হয়।",
+      "title_en": "Japanese New Year, Coming-of-Age Day & Mochitsuki",
+      "pattern_en": "Annual traditions in Japan",
+      "explain_en": "New Year involves osechi food, otoshidama money, and hatsumoude shrine visits.",
+      "examples": [
+        {
+          "jp": "お雑煮を食べます。",
+          "romaji": "Ozouni o tabemasu.",
+          "bn": "ওজোউনি (রাইস কেক স্যুপ) খাই।",
+          "en": "I eat ozouni soup."
+        }
+      ]
+    }
+  ]
+}

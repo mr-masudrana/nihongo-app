@@ -1,14 +1,77 @@
 {
   "lesson": 16,
-  "title": "দুর্যোগ ও জরুরি প্রস্তুতি",
-  "title_en": "Disasters and Emergency Prep",
+  "title": "বেশি না খাওয়ার চেষ্টা করছি",
+  "title_en": "I try not to eat too much.",
   "words": [
     {
-      "word": "じしん",
-      "reading": "じしん",
-      "romaji": "jishin",
-      "bn": "ভূমিকম্প",
-      "en": "earthquake"
+      "word": "具合が悪い",
+      "reading": "ぐあいがわるい",
+      "romaji": "guai ga warui",
+      "bn": "শরীর খারাপ লাগছে",
+      "en": "not feeling well"
+    },
+    {
+      "word": "顔色が悪い",
+      "reading": "かおいろがわるい",
+      "romaji": "kaoiro ga warui",
+      "bn": "চেহারা ফ্যাকাশে দেখাচ্ছে",
+      "en": "look pale"
+    },
+    {
+      "word": "肩がこります",
+      "reading": "かたがこります",
+      "romaji": "kata ga korimasu",
+      "bn": "ঘাড় ও কাঁধ ব্যথা করছে / জমে গেছে",
+      "en": "have stiff shoulders"
+    },
+    {
+      "word": "ストレッチ",
+      "reading": "ストレッチ",
+      "romaji": "sutorecchi",
+      "bn": "স্ট্রেচিং / শরীর টানটান করা",
+      "en": "stretching"
+    },
+    {
+      "word": "ぬるいお風呂",
+      "reading": "ぬるいおふろ",
+      "romaji": "nurui ofuro",
+      "bn": "হালকা গরম পানির গোসল",
+      "en": "lukewarm bath"
+    },
+    {
+      "word": "食べすぎます / 飲みすぎます",
+      "reading": "たべすぎます / のみすぎます",
+      "romaji": "tabesugimasu / nomisugimasu",
+      "bn": "অতিরিক্ত খেয়ে ফেলি / পান করি",
+      "en": "overeat / overdrink"
+    },
+    {
+      "word": "運動します",
+      "reading": "うんどうします",
+      "romaji": "undou shimasu",
+      "bn": "ব্যায়াম করি",
+      "en": "exercise"
+    },
+    {
+      "word": "食中毒",
+      "reading": "しょくちゅうどく",
+      "romaji": "shokuchuudoku",
+      "bn": "ফুড পয়জনিং / খাদ্যে বিষক্রিয়া",
+      "en": "food poisoning"
+    },
+    {
+      "word": "予防",
+      "reading": "よぼう",
+      "romaji": "yobou",
+      "bn": "প্রতিরোধ",
+      "en": "prevention"
+    },
+    {
+      "word": "うがい / 手洗い",
+      "reading": "うがい / てあらい",
+      "romaji": "ugai / tearai",
+      "bn": "কুলকুচি করা / হাত ধোয়া",
+      "en": "gargling / handwashing"
     }
   ]
 }

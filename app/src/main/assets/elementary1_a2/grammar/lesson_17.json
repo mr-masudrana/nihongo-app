@@ -1,21 +1,37 @@
 {
   "lesson": 17,
-  "title": "উপহার ও কৃতজ্ঞতা প্রকাশ",
-  "title_en": "Gifts and Gratitude",
+  "title": "এটি বড় ভাইয়ের দেওয়া তাবিজ (ওমামোরি)",
+  "title_en": "This is a personal amulet my older brother gave me.",
   "points": [
     {
-      "title": "উপহার ও কৃতজ্ঞতা প্রকাশ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "おみやげ について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 17-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Gifts and Gratitude — Grammar Pattern",
-      "pattern_en": "About omiyage",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 17.",
+      "title": "V(普通形) + N (বিশেষ্যকে বাক্যাংশ দিয়ে বর্ণনা)",
+      "pattern": "ネパールから持って来た飾りです / 兄がくれたお守りです",
+      "explain": "কোনো বস্তু কোথা থেকে আনা হয়েছে বা কে দিয়েছেন তা বোঝাতে ক্রিয়ার সাধারণ রূপ (Plain form) বিশেষ্যের আগে বসে।",
+      "title_en": "Modifying nouns with verb clauses",
+      "pattern_en": "V(plain form) + N",
+      "explain_en": "Describe gifts and belongings using modifying clauses.",
       "examples": [
         {
-          "jp": "おみやげが わかりますか。",
-          "romaji": "omiyage ga wakarimasu ka.",
-          "bn": "আপনি কি স্যুভেনির / উপহার বোঝেন?",
-          "en": "Do you understand souvenir?"
+          "jp": "これは、母が作ってくれたバッグです。",
+          "romaji": "Kore wa, haha ga tsukutte kureta baggu desu.",
+          "bn": "এটি আমার মায়ের বানিয়ে দেওয়া ব্যাগ।",
+          "en": "This is the bag my mother made for me."
+        }
+      ]
+    },
+    {
+      "title": "【ব্যক্তি】に【বস্তু】をもらいます / 【ব্যক্তি】が【বস্তু】をくれます",
+      "pattern": "誕生日に、友だちにもらったんです / 兄がくれたお守りです",
+      "explain": "কারো কাছ থেকে কিছু পেলে '〜にもらいます' এবং কেউ আমাকে কিছু দিয়েছে তা বলতে '〜がくれます' ব্যবহৃত হয়।",
+      "title_en": "Receiving gifts: もらいます vs くれます",
+      "pattern_en": "[Person] ni moraimasu / [Person] ga kuremasu",
+      "explain_en": "Talk about who gave you a present.",
+      "examples": [
+        {
+          "jp": "この時計、誕生日に妻がくれました。",
+          "romaji": "Kono tokei, tanjoubi ni tsuma ga kuremashita.",
+          "bn": "এই ঘড়িটি জন্মদিনে আমার স্ত্রী দিয়েছে।",
+          "en": "My wife gave me this watch for my birthday."
         }
       ]
     }

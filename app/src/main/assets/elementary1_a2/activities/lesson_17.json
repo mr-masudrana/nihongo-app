@@ -1,0 +1,34 @@
+{
+  "lesson": 17,
+  "title": "এটি বড় ভাইয়ের দেওয়া তাবিজ (ওমামোরি)",
+  "title_en": "This is a personal amulet my older brother gave me.",
+  "dialogues": [
+    {
+      "title": "১. কারো বাসায় বেড়াতে যাওয়া ও উপহার দেওয়া",
+      "title_en": "1. Visiting someone's home and presenting a gift",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ごめんください。",
+          "romaji": "Gomen kudasai.",
+          "bn": "কেউ আছেন?",
+          "en": "Hello? Anyone home?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、どうぞお上がりください。",
+          "romaji": "Hai, douzo oagari kudasai.",
+          "bn": "আসুন, ভেতরে আসুন।",
+          "en": "Yes, please come in."
+        },
+        {
+          "speaker": "A",
+          "jp": "お邪魔します。これ、お土産です。国のコーヒーです。",
+          "romaji": "Ojama shimasu. Kore, omiyage desu. Kuni no koohii desu.",
+          "bn": "ভেতরে আসছি। এই যে উপহার। আমার দেশের কফি।",
+          "en": "Excuse me for intruding. Here is a small gift—coffee from my country."
+        }
+      ]
+    }
+  ]
+}

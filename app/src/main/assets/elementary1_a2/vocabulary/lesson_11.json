@@ -1,14 +1,91 @@
 {
   "lesson": 11,
-  "title": "ছুটির ভ্রমণ পরিকল্পনা",
-  "title_en": "Planning a Holiday Trip",
+  "title": "মাংস আর সবজি আমি কিনে নিয়ে যাব",
+  "title_en": "I will bring meat and vegetables.",
   "words": [
     {
-      "word": "きっぷ",
-      "reading": "きっぷ",
-      "romaji": "kippu",
-      "bn": "টিকিট",
-      "en": "ticket"
+      "word": "牛肉 / 豚肉 / 鶏肉",
+      "reading": "ぎゅうにく / ぶたにく / とりにく",
+      "romaji": "gyuuniku / butaniku / toriniku",
+      "bn": "গরুর মাংস / শূকরের মাংস / মুরগির মাংস",
+      "en": "beef / pork / chicken"
+    },
+    {
+      "word": "焼きそば",
+      "reading": "やきそば",
+      "romaji": "yakisoba",
+      "bn": "ভাজা নুডলস (ইয়াকিসোবা)",
+      "en": "fried noodles"
+    },
+    {
+      "word": "おにぎり",
+      "reading": "おにぎり",
+      "romaji": "onigiri",
+      "bn": "ভাতের বল (রাইস বল)",
+      "en": "rice ball"
+    },
+    {
+      "word": "わりばし",
+      "reading": "わりばし",
+      "romaji": "waribashi",
+      "bn": "ডিসপোজেবল কাঠের চপস্টিক",
+      "en": "disposable chopsticks"
+    },
+    {
+      "word": "ごみ袋",
+      "reading": "ごみぶくろ",
+      "romaji": "gomibukuro",
+      "bn": "ময়লা ফেলার ব্যাগ",
+      "en": "garbage bag"
+    },
+    {
+      "word": "持って行きます",
+      "reading": "もっていきます",
+      "romaji": "motte ikimasu",
+      "bn": "নিয়ে যাই",
+      "en": "bring / take (something)"
+    },
+    {
+      "word": "買って行きます",
+      "reading": "かっていきます",
+      "romaji": "katte ikimasu",
+      "bn": "কিনে নিয়ে যাই",
+      "en": "buy and bring"
+    },
+    {
+      "word": "作って行きます",
+      "reading": "つくっていきます",
+      "romaji": "tsukutte ikimasu",
+      "bn": "বানিয়ে নিয়ে যাই",
+      "en": "make and bring"
+    },
+    {
+      "word": "両方",
+      "reading": "りょうほう",
+      "romaji": "ryouhou",
+      "bn": "উভয়ই / দুটোই",
+      "en": "both"
+    },
+    {
+      "word": "材料",
+      "reading": "ざいりょう",
+      "romaji": "zairyou",
+      "bn": "উপকরণ / সামগ্রী",
+      "en": "ingredients"
+    },
+    {
+      "word": "消費期限 / 賞味期限",
+      "reading": "しょうひきげん / しょうみきげん",
+      "romaji": "shouhikigen / shoumikigen",
+      "bn": "মেয়াদোত্তীর্ণের তারিখ / সেরা স্বাদের তারিখ",
+      "en": "expiration date / best-before date"
+    },
+    {
+      "word": "卵 / 乳製品 / 小麦",
+      "reading": "たまご / にゅうせいひん / こむぎ",
+      "romaji": "tamago / nyuuseihin / komugi",
+      "bn": "ডিম / দুগ্ধজাত পণ্য / গম",
+      "en": "egg / dairy / wheat"
     }
   ]
 }

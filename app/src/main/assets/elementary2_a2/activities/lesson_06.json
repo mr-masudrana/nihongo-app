@@ -1,0 +1,27 @@
+{
+  "lesson": 6,
+  "title": "বিভিন্ন জায়গায় যেতে পেরে খুব ভালো লেগেছে",
+  "title_en": "I am glad that I went to a lot of different places.",
+  "dialogues": [
+    {
+      "title": "১. স্টেশনে ট্রেন বিলম্ব বা রুট পরিবর্তনের বিষয়ে স্টাফকে জিজ্ঞাসা",
+      "title_en": "1. Asking station staff about train delays and alternative routes",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、さいたま新都心に行きたいんですけど、京浜東北線、動かないんですか?",
+          "romaji": "Sumimasen, Saitama-Shintoshin ni ikitain desu kedo, Keihin-Touhoku-sen, ugokanain desu ka?",
+          "bn": "মাফ করবেন, সাইতামা-শিন্তোশিনে যেতে চাই, কেইহিন-তোহোকু লাইন কি চলছে না?",
+          "en": "Excuse me, I want to go to Saitama-Shintoshin; is the Keihin-Tohoku Line suspended?"
+        },
+        {
+          "speaker": "B",
+          "jp": "申し訳ありません。埼京線の北与野駅から歩けますよ。8番線から乗ってください。",
+          "romaji": "Moushiwake arimasen. Saikyou-sen no Kita-Yono eki kara arukemasu yo. Hachibansen kara notte kudasai.",
+          "bn": "দুঃখিত। সাইকিও লাইনের কিতা-ইয়োনো স্টেশন থেকে হেঁটে যেতে পারবেন। ৮ নম্বর প্ল্যাটফর্ম থেকে উঠুন।",
+          "en": "I'm sorry. You can walk from Kita-Yono Station on the Saikyo Line. Take it from track 8."
+        }
+      ]
+    }
+  ]
+}

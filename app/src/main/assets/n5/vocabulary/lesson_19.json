@@ -1,0 +1,174 @@
+{
+  "lesson": 19,
+  "title": "অভ্যাস, স্বাস্থ্য ও অবসর",
+  "words": [
+    {
+      "word": "のぼります [やまに～]",
+      "reading": "登ります [山に～]",
+      "romaji": "noborimasu [yama ni ~]",
+      "bn": "পাহাড়ে ওঠা",
+      "en": "climb, go up"
+    },
+    {
+      "word": "とまります [ホテルに～]",
+      "reading": "泊まります [ホテルに～]",
+      "romaji": "tomarimasu [hoteru ni ~]",
+      "bn": "হোটেলে থাকা/রাত্রিযাপন করা",
+      "en": "stay [at a hotel]"
+    },
+    {
+      "word": "そうじします",
+      "reading": "掃除します",
+      "romaji": "souji shimasu",
+      "bn": "পরিষ্কার করা",
+      "en": "clean (a room)"
+    },
+    {
+      "word": "せんたくします",
+      "reading": "洗濯します",
+      "romaji": "sentaku shimasu",
+      "bn": "কাপড় ধোয়া",
+      "en": "wash (clothes)"
+    },
+    {
+      "word": "なります",
+      "reading": "なります",
+      "romaji": "narimasu",
+      "bn": "হয়ে যাওয়া; পরিণত হওয়া",
+      "en": "become"
+    },
+    {
+      "word": "ねむい",
+      "reading": "眠い",
+      "romaji": "nemui",
+      "bn": "ঘুম ঘুম লাগা",
+      "en": "sleepy"
+    },
+    {
+      "word": "つよい",
+      "reading": "強い",
+      "romaji": "tsuyoi",
+      "bn": "শক্তিশালী",
+      "en": "strong"
+    },
+    {
+      "word": "よわい",
+      "reading": "弱い",
+      "romaji": "yowai",
+      "bn": "দুর্বল",
+      "en": "weak"
+    },
+    {
+      "word": "れんしゅう",
+      "reading": "練習",
+      "romaji": "renshuu",
+      "bn": "অনুশীলন",
+      "en": "practice"
+    },
+    {
+      "word": "ゴルフ",
+      "reading": "ゴルフ",
+      "romaji": "gorufu",
+      "bn": "গলফ",
+      "en": "golf"
+    },
+    {
+      "word": "すもう",
+      "reading": "相撲",
+      "romaji": "sumou",
+      "bn": "সুমো কুস্তি",
+      "en": "sumo wrestling"
+    },
+    {
+      "word": "おちゃ",
+      "reading": "お茶",
+      "romaji": "ocha",
+      "bn": "চা অনুষ্ঠান; চা",
+      "en": "tea ceremony"
+    },
+    {
+      "word": "ひ",
+      "reading": "日",
+      "romaji": "hi",
+      "bn": "দিন; তারিখ",
+      "en": "day, date"
+    },
+    {
+      "word": "ちょうし",
+      "reading": "調子",
+      "romaji": "choushi",
+      "bn": "অবস্থা; শারীরিক/মানসিক অবস্থা",
+      "en": "condition"
+    },
+    {
+      "word": "いちど",
+      "reading": "一度",
+      "romaji": "ichido",
+      "bn": "একবার",
+      "en": "once"
+    },
+    {
+      "word": "いちども",
+      "reading": "一度も",
+      "romaji": "ichido mo",
+      "bn": "একবারও না (নেতিবাচক বাক্যে)",
+      "en": "not once, never (used with negatives)"
+    },
+    {
+      "word": "だんだん",
+      "reading": "だんだん",
+      "romaji": "dandan",
+      "bn": "ধীরে ধীরে",
+      "en": "gradually"
+    },
+    {
+      "word": "もうすぐ",
+      "reading": "もうすぐ",
+      "romaji": "mou sugu",
+      "bn": "খুব শিগগিরই",
+      "en": "soon"
+    },
+    {
+      "word": "おかげさまで",
+      "reading": "おかげさまで",
+      "romaji": "okagesama de",
+      "bn": "আপনার/আপনাদের দয়ায়; কৃতজ্ঞতা জানাতে ব্যবহৃত",
+      "en": "Thank you (expressing gratitude for help received)"
+    },
+    {
+      "word": "でも",
+      "reading": "でも",
+      "romaji": "demo",
+      "bn": "কিন্তু",
+      "en": "but"
+    },
+    {
+      "word": "かんぱい",
+      "reading": "乾杯",
+      "romaji": "kanpai",
+      "bn": "চিয়ার্স! পানপাত্র তুলে শুভেচ্ছা",
+      "en": "Bottoms up! / Cheers!"
+    },
+    {
+      "word": "ダイエット",
+      "reading": "ダイエット",
+      "romaji": "daietto",
+      "bn": "ওজন কমানোর ডায়েট",
+      "en": "diet (go on a diet)"
+    },
+    {
+      "word": "むり [な]",
+      "reading": "無理 [な]",
+      "romaji": "muri [na]",
+      "bn": "অসম্ভব; অতিরিক্ত/সামর্থ্যের বাইরে",
+      "en": "excessive, impossible"
+    },
+    {
+      "word": "からだにいい",
+      "reading": "体にいい",
+      "romaji": "karada ni ii",
+      "bn": "স্বাস্থ্যের জন্য ভালো",
+      "en": "good for one's health"
+    }
+  ]
+}

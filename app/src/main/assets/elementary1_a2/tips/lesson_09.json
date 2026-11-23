@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "title": "পড়ার নিয়মটা একটু বলে দেবেন?",
+  "title_en": "Will you tell me how to read this?",
+  "points": [
+    {
+      "title": "অ্যানিমের মাধ্যমে জাপানি শেখা ও স্থানীয় ভলান্টিয়ার ক্লাস",
+      "pattern": "アニメで日本語を勉強する・地域の日本語教室",
+      "explain": "জাপানের প্রতিটি শহরের কমিউনিটি সেন্টার (公民館)-এ স্থানীয় স্বেচ্ছাসেবকদের পরিচালনায় বিনামূল্যে বা নামমাত্র খরচে জাপানি ভাষার ক্লাস অনুষ্ঠিত হয়।",
+      "title_en": "Learning via Anime & Volunteer Japanese Classes",
+      "pattern_en": "Community language support",
+      "explain_en": "Local community centers offer free or low-cost volunteer Japanese classes.",
+      "examples": [
+        {
+          "jp": "市や町のボランティア教室があります。",
+          "romaji": "Shi ya machi no borantia kyoushitsu ga arimasu.",
+          "bn": "শহর বা এলাকার ভলান্টিয়ার ক্লাস আছে।",
+          "en": "There are volunteer classes in the city or town."
+        }
+      ]
+    }
+  ]
+}

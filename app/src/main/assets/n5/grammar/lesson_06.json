@@ -1,0 +1,177 @@
+{
+  "lesson": 6,
+  "title": "কাজ, বস্তু ও আমন্ত্রণ",
+  "title_en": "Actions, objects and invitations",
+  "points": [
+    {
+      "title": "N を V — ক্রিয়ার কর্ম",
+      "pattern": "N を V",
+      "explain": "সকর্মক ক্রিয়ার সরাসরি কর্ম বা object চিহ্নিত করতে を ব্যবহৃত হয়। লিখতে を হলেও উচ্চারণ ‘ও’।",
+      "title_en": "N を V — direct object marker",
+      "pattern_en": "N を V",
+      "explain_en": "を marks the direct object of a transitive verb. It is written を but pronounced o.",
+      "examples": [
+        {
+          "jp": "ジュースを 飲みます。",
+          "romaji": "Jūsu o nomimasu.",
+          "bn": "জুস পান করি।",
+          "en": "I drink juice."
+        }
+      ]
+    },
+    {
+      "title": "N を します — কোনো কাজ/খেলা করা",
+      "pattern": "N を します",
+      "explain": "বিভিন্ন বিশেষ্যের সঙ্গে します যুক্ত করে সেই কাজ করা বোঝানো যায়। যেমন খেলা, অনুষ্ঠান, সভা বা দৈনন্দিন কাজ।",
+      "title_en": "N を します — doing an activity",
+      "pattern_en": "N を します",
+      "explain_en": "します combines with many nouns to express performing an activity, such as a sport, event, meeting or everyday task.",
+      "examples": [
+        {
+          "jp": "サッカーを します。",
+          "romaji": "Sakkā o shimasu.",
+          "bn": "ফুটবল খেলি।",
+          "en": "I play soccer."
+        },
+        {
+          "jp": "パーティーを します。",
+          "romaji": "Pātī o shimasu.",
+          "bn": "পার্টির আয়োজন করি।",
+          "en": "I give a party."
+        },
+        {
+          "jp": "宿題を します。",
+          "romaji": "Shukudai o shimasu.",
+          "bn": "বাড়ির কাজ করি।",
+          "en": "I do homework."
+        }
+      ]
+    },
+    {
+      "title": "何を しますか — কী করবেন/করেছেন",
+      "pattern": "何を しますか",
+      "explain": "কোনো ব্যক্তি কী কাজ করে, করবে বা করেছে তা জানতে 何を しますか ব্যবহার করা হয়।",
+      "title_en": "何をしますか — asking what someone does",
+      "pattern_en": "何を しますか",
+      "explain_en": "Use 何をしますか to ask what someone does, will do or did, depending on context and tense.",
+      "examples": [
+        {
+          "jp": "月曜日 何を しますか。",
+          "romaji": "Getsuyōbi nani o shimasu ka.",
+          "bn": "সোমবার কী করবেন?",
+          "en": "What are you doing on Monday?"
+        },
+        {
+          "jp": "サッカーを しました。",
+          "romaji": "Sakkā o shimashita.",
+          "bn": "ফুটবল খেলেছি।",
+          "en": "I played soccer."
+        }
+      ]
+    },
+    {
+      "title": "なん ও なに — ‘কী’ শব্দের দুই উচ্চারণ",
+      "pattern": "なん／なに",
+      "explain": "দুটির অর্থই ‘কী’। সাধারণত 何-এর পরে ですか বা counter থাকলে なん ব্যবহৃত হয়; particle を-এর আগে এবং অন্যান্য অনেক ক্ষেত্রে なに ব্যবহৃত হয়।",
+      "title_en": "なん and なに — two readings of “what”",
+      "pattern_en": "なん／なに",
+      "explain_en": "Both mean “what.” なん is commonly used before ですか and counters; なに is used before the particle を and in many other contexts.",
+      "examples": [
+        {
+          "jp": "それは 何ですか。",
+          "romaji": "Sore wa nan desu ka.",
+          "bn": "ওটা কী?",
+          "en": "What is that?"
+        },
+        {
+          "jp": "何を 買いますか。",
+          "romaji": "Nani o kaimasu ka.",
+          "bn": "কী কিনবেন?",
+          "en": "What are you going to buy?"
+        }
+      ]
+    },
+    {
+      "title": "N (স্থান) で V — কাজের স্থান",
+      "pattern": "N (place) で V",
+      "explain": "কোনো স্থানে কাজটি সংঘটিত হলে সেই স্থানের পরে で বসে। এটি কাজের স্থান বোঝায়; অবস্থান বোঝানোর বাক্যরীতির সঙ্গে গুলিয়ে ফেলবেন না।",
+      "title_en": "N (place) で V — location of an action",
+      "pattern_en": "N (place) で V",
+      "explain_en": "で follows a place noun to indicate where an action takes place. It marks the location of an activity, not simply where something exists.",
+      "examples": [
+        {
+          "jp": "駅で 新聞を 買います。",
+          "romaji": "Eki de shinbun o kaimasu.",
+          "bn": "স্টেশনে সংবাদপত্র কিনব।",
+          "en": "I will buy a newspaper at the station."
+        }
+      ]
+    },
+    {
+      "title": "Vませんか — ভদ্র আমন্ত্রণ",
+      "pattern": "Vませんか",
+      "explain": "কাউকে কোনো কাজের আমন্ত্রণ জানাতে Vませんか ব্যবহার করা হয়। এটি শ্রোতার ইচ্ছা বা সুবিধার প্রতি বিবেচনা দেখায়।",
+      "title_en": "Vませんか — inviting someone",
+      "pattern_en": "Vませんか",
+      "explain_en": "Use Vませんか to invite someone to do something. It shows consideration for the listener's willingness.",
+      "examples": [
+        {
+          "jp": "いっしょに 京都へ 行きませんか。",
+          "romaji": "Issho ni Kyōto e ikimasen ka.",
+          "bn": "একসঙ্গে কিয়োটো যাবেন?",
+          "en": "Would you like to go to Kyoto together?"
+        },
+        {
+          "jp": "ええ、いいですね。",
+          "romaji": "Ee, ii desu ne.",
+          "bn": "হ্যাঁ, বেশ ভালো হবে।",
+          "en": "Yes, that's a nice idea."
+        }
+      ]
+    },
+    {
+      "title": "Vましょう — একসঙ্গে কিছু করার প্রস্তাব",
+      "pattern": "Vましょう",
+      "explain": "বক্তা শ্রোতাকে সঙ্গে নিয়ে কোনো কাজ করার ইতিবাচক প্রস্তাব বা আমন্ত্রণ জানাতে Vましょう ব্যবহার করেন।",
+      "title_en": "Vましょう — let's do something",
+      "pattern_en": "Vましょう",
+      "explain_en": "Use Vましょう to positively suggest or invite the listener to do something together.",
+      "examples": [
+        {
+          "jp": "ちょっと 休みましょう。",
+          "romaji": "Chotto yasumimashō.",
+          "bn": "চলুন একটু বিশ্রাম নিই।",
+          "en": "Let's take a short break."
+        },
+        {
+          "jp": "いっしょに 昼ごはんを 食べましょう。",
+          "romaji": "Issho ni hirugohan o tabemashō.",
+          "bn": "চলুন একসঙ্গে দুপুরের খাবার খাই।",
+          "en": "Let's have lunch together."
+        }
+      ]
+    },
+    {
+      "title": "～か — শোনা তথ্য গ্রহণ/প্রতিক্রিয়া",
+      "pattern": "Sentence + か",
+      "explain": "কথোপকথনে অন্যের বলা নতুন তথ্য শুনে তা গ্রহণ বা নিশ্চিত করার প্রতিক্রিয়া হিসেবে বাক্যের শেষে か ব্যবহার হতে পারে; প্রায়ই そうですか-র মতো অর্থ দেয়।",
+      "title_en": "～か — acknowledging information",
+      "pattern_en": "Sentence + か",
+      "explain_en": "In conversation, か can appear at the end as a response acknowledging information just received, similar to そうですか.",
+      "examples": [
+        {
+          "jp": "日曜日 京都へ 行きました。",
+          "romaji": "Nichiyōbi Kyōto e ikimashita.",
+          "bn": "রবিবার কিয়োটো গিয়েছিলাম।",
+          "en": "I went to Kyoto on Sunday."
+        },
+        {
+          "jp": "京都ですか。いいですね。",
+          "romaji": "Kyōto desu ka. Ii desu ne.",
+          "bn": "কিয়োটো? বেশ ভালো তো!",
+          "en": "Kyoto, eh? Great!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,21 +1,43 @@
 {
   "lesson": 13,
-  "title": "শহরের দর্শনীয় স্থান",
-  "title_en": "Places in Town",
+  "title": "এই বাস কি বিমানবন্দরে যায়?",
+  "title_en": "Does this bus go to the airport?",
   "points": [
     {
-      "title": "শহরের দর্শনীয় স্থান — মৌলিক বাক্য",
-      "pattern": "びょういん です。",
-      "explain": "Irodori Starter A1 লেসন 13-এর মূল বাক্য গঠন।",
-      "title_en": "Places in Town — Basic Pattern",
-      "pattern_en": "byouin desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 13.",
+      "title": "この【যানবাহন】は【স্থান】に行きますか? / 【যানবাহন】で来ます",
+      "pattern": "このバスは、空港に行きますか? / 電車で来ます",
+      "explain": "কোনো বাস বা ট্রেন নির্দিষ্ট গন্তব্যে যায় কি না তা জানতে এবং যাতায়াতের মাধ্যম বলতে 'で' ব্যবহৃত হয় (হেঁটে গেলে '歩いて')।",
+      "title_en": "Asking destinations & Means of transport",
+      "pattern_en": "Kono [vehicle] wa [place] ni ikimasu ka?",
+      "explain_en": "Ask if a train/bus goes to your destination and state how you commute.",
       "examples": [
         {
-          "jp": "これは びょういん です。",
-          "romaji": "Kore wa byouin desu.",
-          "bn": "এটি হাসপাতাল।",
-          "en": "This is hospital."
+          "jp": "このバスは、空港に行きますか?",
+          "romaji": "Kono basu wa, kuukou ni ikimasu ka?",
+          "bn": "এই বাস কি বিমানবন্দরে যায়?",
+          "en": "Does this bus go to the airport?"
+        },
+        {
+          "jp": "家から会社まで、1時間ぐらいかかります。",
+          "romaji": "Ie kara kaisha made, ichijikan gurai kakarimasu.",
+          "bn": "বাসা থেকে অফিসে যেতে প্রায় ১ ঘণ্টা লাগে।",
+          "en": "It takes about 1 hour from home to work."
+        }
+      ]
+    },
+    {
+      "title": "【স্থান】で【যানবাহন】に乗ります / を降ります",
+      "pattern": "ここから、12番のバスに乗ります / バスセンターで降ります",
+      "explain": "যানবাহনে ওঠার ক্ষেত্রে 'に 乗ります' এবং নামার ক্ষেত্রে 'を 降ります' ব্যবহৃত হয়।",
+      "title_en": "Getting on and off transport",
+      "pattern_en": "[Place] de [Vehicle] ni norimasu / o orimasu",
+      "explain_en": "Explain step-by-step directions using public transit.",
+      "examples": [
+        {
+          "jp": "新みなと駅まで電車に乗って、バスに乗り換えます。",
+          "romaji": "Shin-minato eki made densha ni notte, basu ni norikaemasu.",
+          "bn": "শিন-মিনাতো স্টেশন পর্যন্ত ট্রেনে গিয়ে বাসে উঠবেন।",
+          "en": "Take the train to Shin-minato Station, then transfer to a bus."
         }
       ]
     }

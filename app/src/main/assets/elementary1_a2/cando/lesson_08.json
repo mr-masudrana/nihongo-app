@@ -1,0 +1,39 @@
+{
+  "lesson": 8,
+  "title": "বেসবল কখনো খেলেছেন কি?",
+  "title_en": "Have you ever played baseball?",
+  "points": [
+    {
+      "title": "Can-do 24–25: অভিজ্ঞতা জেনে আমন্ত্রণ ও পরবর্তী পরিকল্পনা",
+      "pattern": "相手の経験をたずねて誘ったり、外出中に次に何をするか話し合ったりできる。",
+      "explain": "কারো অভিজ্ঞতা জিজ্ঞাসা করে কোথাও যাওয়ার আমন্ত্রণ জানাতে এবং ঘোরার সময় পরবর্তী পরিকল্পনা ঠিক করতে পারা।",
+      "title_en": "Can-do 24–25",
+      "pattern_en": "Can invite based on experience and plan next steps.",
+      "explain_en": "Ask about experiences, invite friends, and coordinate outings.",
+      "examples": [
+        {
+          "jp": "このあと、どうしますか?",
+          "romaji": "Kono ato, dou shimasu ka?",
+          "bn": "এরপর কী করব?",
+          "en": "What shall we do after this?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 26: অনুষ্ঠান বা ভ্রমণের অনুভূতি প্রকাশ করা",
+      "pattern": "いっしょに参加したイベントの感想を、相手に伝えることができる。",
+      "explain": "একসাথে কোথাও ঘুরে আসার পর নিজের ভালো লাগা বা অনুভূতি প্রকাশ করতে পারা।",
+      "title_en": "Can-do 26",
+      "pattern_en": "Can share impressions after an event or outing.",
+      "explain_en": "Express feelings and impressions after an activity.",
+      "examples": [
+        {
+          "jp": "動物園、どうでしたか? パンダがかわいかったです。",
+          "romaji": "Doubutsuen, dou deshita ka? Panda ga kawaikatta desu.",
+          "bn": "চিড়িয়াখানা কেমন লাগলো? পান্ডা খুব কিউট ছিল।",
+          "en": "How was the zoo? The pandas were cute."
+        }
+      ]
+    }
+  ]
+}

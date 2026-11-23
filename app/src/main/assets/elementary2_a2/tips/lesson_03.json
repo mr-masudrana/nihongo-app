@@ -1,0 +1,23 @@
+{
+  "lesson": 3,
+  "title": "অ্যালার্জি আছে বলে খেতে পারি না",
+  "title_en": "I cannot eat it because of an allergy.",
+  "points": [
+    {
+      "title": "ওয়ারিকান (বিল ভাগ করা), সাইকেল আইন ও ড্রিঙ্ক বার",
+      "pattern": "定食・割り勘・自転車ルール・ドリンクバー",
+      "explain": "জাপানে বন্ধুদের সাথে খেলে প্রত্যেকে নিজের বিল আলাদাভাবে দেয়, একে 'ওয়ারিকান' (割り勘) বলে। এছাড়া মদ্যপান করে সাইকেল চালানো জাপানে আইনত দণ্ডনীয় অপরাধ।",
+      "title_en": "Splitting Bills (Warikan), Bicycle Laws & Drink Bars",
+      "pattern_en": "Dining and legal etiquette in Japan",
+      "explain_en": "Splitting bills (warikan) is standard; cycling under the influence is illegal.",
+      "examples": [
+        {
+          "jp": "別々でお願いします。",
+          "romaji": "Betsubetsu de onegaishimasu.",
+          "bn": "আলাদাভাবে বিল নেবেন।",
+          "en": "Separate checks, please."
+        }
+      ]
+    }
+  ]
+}

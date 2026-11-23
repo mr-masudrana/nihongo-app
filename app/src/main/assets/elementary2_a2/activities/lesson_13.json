@@ -1,0 +1,27 @@
+{
+  "lesson": 13,
+  "title": "বিভিন্ন নিদর্শন প্রদর্শিত আছে",
+  "title_en": "They display a lot of materials.",
+  "dialogues": [
+    {
+      "title": "১. লাইব্রেরি ব্যবহারের নিয়ম ও কার্ড তৈরির বিষয়ে জিজ্ঞাসা",
+      "title_en": "1. Asking how to use the library and make a card",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。図書館を使いたいんですが、どうすればいいですか?",
+          "romaji": "Sumimasen. Toshokan o tsukaitain desu ga, dou sureba ii desu ka?",
+          "bn": "মাফ করবেন। লাইব্রেরি ব্যবহার করতে চাই, কী করতে হবে?",
+          "en": "Excuse me. I'd like to use the library; what should I do?"
+        },
+        {
+          "speaker": "B",
+          "jp": "まず、利用カードを作ってください。住所がわかるものが必要ですよ。",
+          "romaji": "Mazu, riyou kaado o tsukutte kudasai. Juusho ga wakaru mono ga hitsuyou desu yo.",
+          "bn": "প্রথমে একটি ইউজার কার্ড তৈরি করুন। ঠিকানা লেখা আছে এমন পরিচয়পত্র লাগবে।",
+          "en": "First, please make a user card. You'll need ID showing your address."
+        }
+      ]
+    }
+  ]
+}

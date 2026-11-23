@@ -1,0 +1,39 @@
+{
+  "lesson": 3,
+  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title_en": "Nice to meet you.",
+  "points": [
+    {
+      "title": "Can-do 08: সহজ আত্মপরিচয় দেওয়া",
+      "pattern": "名前や出身などを言って、簡単な自己紹介をすることができる。",
+      "explain": "নাম ও দেশের নাম বলে নিজের পরিচয় দিতে পারা।",
+      "title_en": "Can-do 08",
+      "pattern_en": "Can give a simple self-introduction.",
+      "explain_en": "Introduce yourself with your name and country.",
+      "examples": [
+        {
+          "jp": "はじめまして。よろしくお願いします。",
+          "romaji": "Hajimemashite. Yoroshiku onegaishimasu.",
+          "bn": "প্রথম দেখা হলো। পরিচিত হয়ে ভালো লাগলো।",
+          "en": "Nice to meet you."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 09–11: নেমট্যাগ ও আবেদনপত্র পূরণ",
+      "pattern": "名札や申込書に、氏名、国籍、生年月日などを書き込むことができる。",
+      "explain": "আবেদনপত্রে নাম, জাতীয়তা, জন্মতারিখ ও ঠিকানা লিখতে পারা।",
+      "title_en": "Can-do 09–11",
+      "pattern_en": "Can fill in name tags and application forms.",
+      "explain_en": "Write name, nationality, DOB, and address on forms.",
+      "examples": [
+        {
+          "jp": "国籍・生年月日・住所",
+          "romaji": "Kokuseki / Seinengappi / Juusho",
+          "bn": "জাতীয়তা / জন্মতারিখ / ঠিকানা",
+          "en": "Nationality / Date of birth / Address"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "title": "জাপানি ভাষার ক্লাসে অংশ নিতে চাই কিন্তু…",
+  "title_en": "I would like to take a Japanese-language class.",
+  "points": [
+    {
+      "title": "কোমিনকান (公民館), রান্নার ক্লাস, ক্যালিগ্রাফি ও আইকিদো",
+      "pattern": "公民館・料理教室・書道・合気道",
+      "explain": "জাপানের কোমিনকান (কমিউনিটি সেন্টার)-এ স্থানীয় বাসিন্দাদের জন্য স্বল্প খরচে রান্না, শোদো (ক্যালিগ্রাফি) এবং আইকিদো শেখার দারুণ সুযোগ রয়েছে।",
+      "title_en": "Community Centers & Cultural Lessons",
+      "pattern_en": "Kouminkan activities",
+      "explain_en": "Community centers host affordable cultural and language classes.",
+      "examples": [
+        {
+          "jp": "一度、見学にいらしてください。",
+          "romaji": "Ichido, kengaku ni irasshite kudasai.",
+          "bn": "একবার এসে ক্লাস দেখে যান।",
+          "en": "Please come and observe a class once."
+        }
+      ]
+    }
+  ]
+}

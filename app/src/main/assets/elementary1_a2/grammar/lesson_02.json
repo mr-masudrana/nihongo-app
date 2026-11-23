@@ -1,21 +1,43 @@
 {
   "lesson": 2,
-  "title": "প্রতিবেশীদের সাথে পরিচয়",
-  "title_en": "Meeting Neighbors",
+  "title": "গেম খেলতে পছন্দ করি",
+  "title_en": "I like playing video games.",
   "points": [
     {
-      "title": "প্রতিবেশীদের সাথে পরিচয় — ব্যাকরণ প্যাটার্ন",
-      "pattern": "となり について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 2-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Meeting Neighbors — Grammar Pattern",
-      "pattern_en": "About tonari",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 2.",
+      "title": "V-ることです / V-るのが好きです (ক্রিয়াকে বিশেষ্যে রূপান্তর)",
+      "pattern": "趣味は映画を見ることです / ゲームをするのが好きです",
+      "explain": "ক্রিয়ার অভিধান রূপের (Dictionary form) সাথে 'こと' বা 'の' যুক্ত করে শখ বা পছন্দের কাজ প্রকাশ করা হয়।",
+      "title_en": "Nominalizing verbs with こと and の",
+      "pattern_en": "V-ru koto desu / V-ru no ga suki desu",
+      "explain_en": "Turn verbs into noun phrases to talk about hobbies.",
       "examples": [
         {
-          "jp": "となりが わかりますか。",
-          "romaji": "tonari ga wakarimasu ka.",
-          "bn": "আপনি কি পাশের বাসা বোঝেন?",
-          "en": "Do you understand next door?"
+          "jp": "趣味は料理をすることです。",
+          "romaji": "Shumi wa ryouri o suru koto desu.",
+          "bn": "আমার শখ রান্না করা।",
+          "en": "My hobby is cooking."
+        },
+        {
+          "jp": "出かけるのは、あまり好きじゃありません。",
+          "romaji": "Dekakeru no wa, amari suki ja arimasen.",
+          "bn": "বাইরে ঘুরতে যাওয়া খুব একটা পছন্দ করি না।",
+          "en": "I don't really like going out."
+        }
+      ]
+    },
+    {
+      "title": "V1-て、V2 / V-ています ② (অভ্যাস বা নিয়মিত শেখা)",
+      "pattern": "夕方までバドミントンをして、そのあとご飯を食べます / いけばなを習っています",
+      "explain": "ধারাবাহিক কাজ যুক্ত করতে て-form এবং নিয়মিত কোনো কিছু শেখা বা চর্চা করা বোঝাতে 'V-ています' বসে।",
+      "title_en": "Sequential actions V1-te, V2 & Ongoing learning",
+      "pattern_en": "V1-te, V2 / V-te imasu",
+      "explain_en": "Connect sequential activities and describe ongoing lessons.",
+      "examples": [
+        {
+          "jp": "今、中国語を勉強しています。",
+          "romaji": "Ima, Chuugokugo o benkyou shite imasu.",
+          "bn": "এখন চীনা ভাষা শিখছি।",
+          "en": "I am studying Chinese now."
         }
       ]
     }

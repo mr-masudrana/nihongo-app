@@ -1,0 +1,39 @@
+{
+  "lesson": 4,
+  "title": "সয়া সস না লাগিয়ে খাবেন",
+  "title_en": "Please eat it without soy sauce.",
+  "points": [
+    {
+      "title": "Can-do 14–16: ভালো রেস্তোরাঁর খোঁজ ও খাবার খাওয়ার নিয়ম জানা",
+      "pattern": "おすすめの店の特徴を聞いたり、料理の食べ方について質問・理解したりできる。",
+      "explain": "রেস্তোরাঁর বিশেষত্ব জানতে এবং নতুন জাপানি খাবার কীভাবে খেতে হয় তা জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 14–16",
+      "pattern_en": "Can understand restaurant recommendations and how to eat dishes.",
+      "explain_en": "Ask about local eateries and proper ways to eat dishes.",
+      "examples": [
+        {
+          "jp": "たれをつけて食べてください。",
+          "romaji": "Tare o tsukete tabete kudasai.",
+          "bn": "সস লাগিয়ে খাবেন।",
+          "en": "Please dip it in the sauce and eat."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 17–18: নিজ দেশের খাবারের বর্ণনা ও অনলাইন রিভিউ পড়া",
+      "pattern": "自分の国の料理を紹介したり、飲食店のネットの口コミを読んで情報を読み取れる。",
+      "explain": "নিজ দেশের খাবারের উপকরণ ও রান্নার পদ্ধতি বলতে এবং ফুড রিভিউ সাইট পড়ে স্বাদ ও দাম বুঝতে পারা।",
+      "title_en": "Can-do 17–18",
+      "pattern_en": "Can introduce dishes from your country and read restaurant reviews.",
+      "explain_en": "Describe home recipes and understand online restaurant reviews.",
+      "examples": [
+        {
+          "jp": "餃子に似ています。皮の中に野菜と肉を入れて蒸します。",
+          "romaji": "Gyouza ni nite imasu. Kawa no naka ni yasai to niku o irete mushimasu.",
+          "bn": "এটি গিয়োজার মতো। ভেতরে সবজি ও মাংস দিয়ে ভাপে সেদ্ধ করা হয়।",
+          "en": "It's similar to gyoza. Vegetables and meat are wrapped in dough and steamed."
+        }
+      ]
+    }
+  ]
+}

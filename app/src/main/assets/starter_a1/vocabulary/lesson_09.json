@@ -1,14 +1,98 @@
 {
   "lesson": 9,
-  "title": "সময় ও সময়সূচি",
-  "title_en": "Time and Schedule",
+  "title": "১২টা থেকে ১টা পর্যন্ত দুপুরের বিরতি",
+  "title_en": "Lunch is from noon to 1 o'clock.",
   "words": [
     {
-      "word": "なんじ",
-      "reading": "なんじ",
-      "romaji": "nanji",
-      "bn": "কয়টা বাজে",
-      "en": "what time"
+      "word": "今、何時ですか",
+      "reading": "いま、なんじですか",
+      "romaji": "ima, nanji desu ka",
+      "bn": "এখন কয়টা বাজে?",
+      "en": "What time is it now?"
+    },
+    {
+      "word": "午前 / 午後",
+      "reading": "ごぜん / ごご",
+      "romaji": "gozen / gogo",
+      "bn": "সকাল (AM) / বিকাল (PM)",
+      "en": "a.m. / p.m."
+    },
+    {
+      "word": "〜時 / 〜分 / 〜半",
+      "reading": "〜じ / 〜ふん / 〜はん",
+      "romaji": "~ji / ~fun / ~han",
+      "bn": "~টা / ~মিনিট / সাড়ে ~টা",
+      "en": "o'clock / minute / half past"
+    },
+    {
+      "word": "起きます",
+      "reading": "おきます",
+      "romaji": "okimasu",
+      "bn": "ঘুম থেকে উঠি",
+      "en": "wake up / get up"
+    },
+    {
+      "word": "寝ます",
+      "reading": "ねます",
+      "romaji": "nemasu",
+      "bn": "ঘুমাতে যাই",
+      "en": "go to bed / sleep"
+    },
+    {
+      "word": "働きます",
+      "reading": "はたらきます",
+      "romaji": "hatarakimasu",
+      "bn": "কাজ করি",
+      "en": "work"
+    },
+    {
+      "word": "始まります",
+      "reading": "はじまります",
+      "romaji": "hajimarimasu",
+      "bn": "শুরু হয়",
+      "en": "start / begin"
+    },
+    {
+      "word": "終わります",
+      "reading": "おわります",
+      "romaji": "owarimasu",
+      "bn": "শেষ হয়",
+      "en": "finish / end"
+    },
+    {
+      "word": "朝礼",
+      "reading": "ちょうれい",
+      "romaji": "chourei",
+      "bn": "সকালের সংক্ষিপ্ত সভা / অ্যাসেম্বলি",
+      "en": "morning assembly"
+    },
+    {
+      "word": "昼休み",
+      "reading": "ひるやすみ",
+      "romaji": "hiruyasumi",
+      "bn": "দুপুরের খাবারের বিরতি",
+      "en": "lunch break"
+    },
+    {
+      "word": "月曜日 / 火曜日",
+      "reading": "げつようび / かようび",
+      "romaji": "getsuyoubi / kayoubi",
+      "bn": "সোমবার / মঙ্গলবার",
+      "en": "Monday / Tuesday"
+    },
+    {
+      "word": "水曜日 / 木曜日",
+      "reading": "すいようび / もくようび",
+      "romaji": "suiyoubi / mokuyoubi",
+      "bn": "বুধবার / বৃহস্পতিবার",
+      "en": "Wednesday / Thursday"
+    },
+    {
+      "word": "金曜日 / 土曜日 / 日曜日",
+      "reading": "きんようび / どようび / にちようび",
+      "romaji": "kinyoubi / doyoubi / nichiyoubi",
+      "bn": "শুক্রবার / শনিবার / রবিবার",
+      "en": "Friday / Saturday / Sunday"
     }
   ]
 }

@@ -1,14 +1,77 @@
 {
   "lesson": 8,
-  "title": "ভাষা ও সংস্কৃতি শেখা",
-  "title_en": "Learning Language and Culture",
+  "title": "বেসবল কখনো খেলেছেন কি?",
+  "title_en": "Have you ever played baseball?",
   "words": [
     {
-      "word": "ぶんか",
-      "reading": "ぶんか",
-      "romaji": "bunka",
-      "bn": "সংস্কৃতি",
-      "en": "culture"
+      "word": "お城",
+      "reading": "おしろ",
+      "romaji": "oshiro",
+      "bn": "দুর্গ / কেল্লা",
+      "en": "castle"
+    },
+    {
+      "word": "博物館",
+      "reading": "はくぶつかん",
+      "romaji": "hakubutsukan",
+      "bn": "জাদুঘর",
+      "en": "museum"
+    },
+    {
+      "word": "動物園",
+      "reading": "どうぶつえん",
+      "romaji": "doubutsuen",
+      "bn": "চিড়িয়াখানা",
+      "en": "zoo"
+    },
+    {
+      "word": "試合",
+      "reading": "しあい",
+      "romaji": "shiai",
+      "bn": "খেলা / ম্যাচ",
+      "en": "match / game"
+    },
+    {
+      "word": "登ります",
+      "reading": "のぼります",
+      "romaji": "noborimasu",
+      "bn": "উঠি / আরোহণ করি",
+      "en": "climb / go up"
+    },
+    {
+      "word": "お金をおろします",
+      "reading": "おかねをおろします",
+      "romaji": "okane o oroshimasu",
+      "bn": "টাকা তুলি (ব্যাংক/এটিএম থেকে)",
+      "en": "withdraw money"
+    },
+    {
+      "word": "お腹がすきます",
+      "reading": "おなかがすきます",
+      "romaji": "onaka ga sukimasu",
+      "bn": "খিদে পায়",
+      "en": "get hungry"
+    },
+    {
+      "word": "展覧会",
+      "reading": "てんらんかい",
+      "romaji": "tenrankai",
+      "bn": "প্রদর্শনী",
+      "en": "exhibition"
+    },
+    {
+      "word": "感動しました",
+      "reading": "かんどうしました",
+      "romaji": "kandou shimashita",
+      "bn": "মুগ্ধ / অভিভূত হয়েছি",
+      "en": "was deeply moved / impressed"
+    },
+    {
+      "word": "すばらしかった",
+      "reading": "すばらしかった",
+      "romaji": "subarashikatta",
+      "bn": "অসাধারণ ছিল",
+      "en": "was wonderful"
     }
   ]
 }

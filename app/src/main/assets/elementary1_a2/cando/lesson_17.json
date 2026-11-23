@@ -1,0 +1,39 @@
+{
+  "lesson": 17,
+  "title": "এটি বড় ভাইয়ের দেওয়া তাবিজ (ওমামোরি)",
+  "title_en": "This is a personal amulet my older brother gave me.",
+  "points": [
+    {
+      "title": "Can-do 61–62: কারো বাড়িতে বেড়াতে যাওয়ার অভিবাদন ও উপহার দেওয়া",
+      "pattern": "ほかの人の家を訪問したときのあいさつや、お土産の簡単な説明ができる。",
+      "explain": "কারো বাসায় প্রবেশ ও প্রস্থানের সময় যথাযথ অভিবাদন জানাতে এবং উপহারের পরিচয় দিতে পারা।",
+      "title_en": "Can-do 61–62",
+      "pattern_en": "Can greet hosts when visiting and explain gifts.",
+      "explain_en": "Use proper home-visiting etiquette and present souvenirs.",
+      "examples": [
+        {
+          "jp": "お邪魔しました。今日はありがとうございました。",
+          "romaji": "Ojama shimashita. Kyou wa arigatou gozaimashita.",
+          "bn": "আসি তাহলে। আজকের জন্য অনেক ধন্যবাদ।",
+          "en": "Thank you for having me. Thank you for today."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 63–64: নিজের জিনিসের গল্প বলা ও আতিথেয়তার পর ধন্যবাদ ইমেইল",
+      "pattern": "持ち物についてだれにもらったか話したり、招待のお礼メールを書いたりできる。",
+      "explain": "ব্যবহৃত জিনিস কে দিয়েছেন তা বলতে এবং দাওয়াত খাওয়ার পর কৃতজ্ঞতা জানিয়ে ইমেইল লিখতে পারা।",
+      "title_en": "Can-do 63–64",
+      "pattern_en": "Can talk about belongings and write thank-you emails.",
+      "explain_en": "Explain where gifts came from and thank hosts via email.",
+      "examples": [
+        {
+          "jp": "昨日は楽しい時間をありがとうございました。",
+          "romaji": "Kinou wa tanoshii jikan o arigatou gozaimashita.",
+          "bn": "গতকাল সুন্দর সময় কাটানোর জন্য অনেক ধন্যবাদ।",
+          "en": "Thank you for a wonderful time yesterday."
+        }
+      ]
+    }
+  ]
+}

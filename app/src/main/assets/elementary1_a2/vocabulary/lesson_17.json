@@ -1,14 +1,84 @@
 {
   "lesson": 17,
-  "title": "উপহার ও কৃতজ্ঞতা প্রকাশ",
-  "title_en": "Gifts and Gratitude",
+  "title": "এটি বড় ভাইয়ের দেওয়া তাবিজ (ওমামোরি)",
+  "title_en": "This is a personal amulet my older brother gave me.",
   "words": [
     {
-      "word": "おみやげ",
+      "word": "ごめんください",
+      "reading": "ごめんください",
+      "romaji": "gomen kudasai",
+      "bn": "কেউ আছেন? (কারো বাসায় প্রবেশের সময়)",
+      "en": "Hello? / Excuse me (when visiting a home)"
+    },
+    {
+      "word": "お邪魔します",
+      "reading": "おじゃまします",
+      "romaji": "ojama shimasu",
+      "bn": "ভেতরে আসছি (বিরক্ত করার জন্য ক্ষমাপ্রার্থী)",
+      "en": "Excuse me for intruding (entering a home)"
+    },
+    {
+      "word": "お邪魔しました",
+      "reading": "おじゃましました",
+      "romaji": "ojama shimashita",
+      "bn": "বিদায় নিচ্ছি (আতিথেয়তার জন্য ধন্যবাদ)",
+      "en": "Thank you for having me (leaving a home)"
+    },
+    {
+      "word": "お土産",
       "reading": "おみやげ",
       "romaji": "omiyage",
-      "bn": "স্যুভেনির / উপহার",
-      "en": "souvenir"
+      "bn": "উপহার / স্যুভেনির",
+      "en": "souvenir / gift"
+    },
+    {
+      "word": "つまらないものですが",
+      "reading": "つまらないものですが",
+      "romaji": "tsumaranai mono desu ga",
+      "bn": "সামান্য উপহার, তবুও গ্রহণ করুন",
+      "en": "It's just a small gift, but..."
+    },
+    {
+      "word": "お守り",
+      "reading": "おまもり",
+      "romaji": "omamori",
+      "bn": "শুভকামনার তাবিজ / চার্ম",
+      "en": "protective amulet / charm"
+    },
+    {
+      "word": "飾り",
+      "reading": "かざり",
+      "romaji": "kazari",
+      "bn": "সাজসজ্জার জিনিস",
+      "en": "decoration / ornament"
+    },
+    {
+      "word": "もらいます",
+      "reading": "もらいます",
+      "romaji": "moraimasu",
+      "bn": "পাই / গ্রহণ করি",
+      "en": "receive"
+    },
+    {
+      "word": "くれます",
+      "reading": "くれます",
+      "romaji": "kuremasu",
+      "bn": "আমাকে দেয়",
+      "en": "give (to me)"
+    },
+    {
+      "word": "ご両親",
+      "reading": "ごりょうしん",
+      "romaji": "goryoushin",
+      "bn": "আপনার বাবা-মা",
+      "en": "your parents"
+    },
+    {
+      "word": "ご主人 / 奥さん",
+      "reading": "ごしゅじん / おくさん",
+      "romaji": "goshujin / okusan",
+      "bn": "আপনার স্বামী / আপনার স্ত্রী",
+      "en": "your husband / your wife"
     }
   ]
 }

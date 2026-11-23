@@ -1,0 +1,23 @@
+{
+  "lesson": 5,
+  "title": "আমি উদোন পছন্দ করি",
+  "title_en": "I like udon.",
+  "points": [
+    {
+      "title": "জাপানি খাবার ও নাশতার সংস্কৃতি",
+      "pattern": "日本の食べ物・日本の朝食",
+      "explain": "সাশিমি, সুশি, টেম্পুরা, উদোন, সোবা এবং কারি জাপানের জনপ্রিয় খাবার। উদোন বা সোবা খাওয়ার সময় শব্দ করে টেনে খাওয়া জাপানে স্বাভাবিক ও সুস্বাদু হওয়ার প্রশংসা হিসেবে দেখা হয়।",
+      "title_en": "Japanese Food & Breakfast Culture",
+      "pattern_en": "Udon, Soba, Curry, Donburi, Natto",
+      "explain_en": "Slurping noodles is normal in Japan and shows enjoyment.",
+      "examples": [
+        {
+          "jp": "うどんが好きです。",
+          "romaji": "Udon ga suki desu.",
+          "bn": "উদোন পছন্দ করি।",
+          "en": "I like udon."
+        }
+      ]
+    }
+  ]
+}

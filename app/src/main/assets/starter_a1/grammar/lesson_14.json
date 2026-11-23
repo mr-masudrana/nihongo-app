@@ -1,21 +1,43 @@
 {
   "lesson": 14,
-  "title": "আমন্ত্রণ ও পরিকল্পনা",
-  "title_en": "Invitations and Plans",
+  "title": "অনেক বড় ভবন, তাই না!",
+  "title_en": "It's a big building, isn't it.",
   "points": [
     {
-      "title": "আমন্ত্রণ ও পরিকল্পনা — মৌলিক বাক্য",
-      "pattern": "いっしょに です。",
-      "explain": "Irodori Starter A1 লেসন 14-এর মূল বাক্য গঠন।",
-      "title_en": "Invitations and Plans — Basic Pattern",
-      "pattern_en": "issho ni desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 14.",
+      "title": "【স্থান】に N(は)ありますか? / N の【অবস্থান】にいます",
+      "pattern": "この近くに、コンビニはありますか? / 今、改札の前にいます",
+      "explain": "আশেপাশে কোনো দোকান বা এটিএম আছে কি না তা জানতে এবং ফোনে নিজের অবস্থান জানাতে এই গঠন ব্যবহৃত হয়।",
+      "title_en": "Asking for nearby places & Stating your location",
+      "pattern_en": "[Place] ni N arimasu ka? / N no [location] ni imasu",
+      "explain_en": "Ask about facilities and tell someone where you are waiting.",
       "examples": [
         {
-          "jp": "これは いっしょに です。",
-          "romaji": "Kore wa issho ni desu.",
-          "bn": "এটি একসাথে।",
-          "en": "This is together."
+          "jp": "この近くに、ATMはありますか?",
+          "romaji": "Kono chikaku ni, ATM wa arimasu ka?",
+          "bn": "এই আশেপাশে এটিএম আছে কি?",
+          "en": "Is there an ATM near here?"
+        },
+        {
+          "jp": "今、改札の前にいます。",
+          "romaji": "Ima, kaisatsu no mae ni imasu.",
+          "bn": "এখন টিকিট গেটের সামনে আছি।",
+          "en": "I'm in front of the ticket gate now."
+        }
+      ]
+    },
+    {
+      "title": "বিশেষ্যকে বিশেষায়িত করা: ナA-な N / イA-い N",
+      "pattern": "にぎやかな通りですね / 広い公園ですね",
+      "explain": "কোনো স্থান বা শহরের প্রশংসা বা অনুভূতি জানাতে な-বিশেষণের সাথে 'な' এবং い-বিশেষণের সাথে 'い' রেখে বিশেষ্যের আগে বসানো হয়।",
+      "title_en": "Adjectives modifying nouns",
+      "pattern_en": "Na-adj na N / I-adj i N",
+      "explain_en": "Express impressions about places in town.",
+      "examples": [
+        {
+          "jp": "大きな建物ですね。",
+          "romaji": "Ooki na tatemono desu ne.",
+          "bn": "অনেক বড় ভবন, তাই না!",
+          "en": "It's a big building, isn't it!"
         }
       ]
     }

@@ -1,27 +1,49 @@
 {
   "lesson": 1,
-  "title": "জাপানি ভাষায় শুভেচ্ছা ও পরিচিতি",
-  "title_en": "Greetings and Introductions",
+  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
+  "title_en": "Good morning! (Greetings)",
   "points": [
     {
-      "title": "N₁ は N₂ です — নিজের পরিচয়",
-      "pattern": "わたしは [নাম/দেশ] です。",
-      "explain": "নিজের নাম, দেশ বা পেশা বলতে এই বাক্য গঠন ব্যবহৃত হয়। は (ওয়া) টপিক নির্দেশ করে।",
-      "title_en": "N₁ は N₂ です — Self Introduction",
-      "pattern_en": "Watashi wa [Name/Country] desu.",
-      "explain_en": "Used to state your name, nationality, or occupation.",
+      "title": "সময় অনুযায়ী অভিবাদন (Greetings)",
+      "pattern": "おはようございます / こんにちは / こんばんは",
+      "explain": "সকালে 'ওহাইয়ো গোজাইমাসু', দুপুরে 'কোন্নিচিওয়া' এবং সন্ধ্যায় 'কোনবানওয়া' বলে অভিবাদন জানানো হয়।",
+      "title_en": "Time-based Greetings",
+      "pattern_en": "Ohayou gozaimasu / Konnichiwa / Konbanwa",
+      "explain_en": "Use different greetings depending on the time of day.",
       "examples": [
         {
-          "jp": "わたしは マスドです。",
-          "romaji": "Watashi wa Masudo desu.",
-          "bn": "আমি মাসুদ।",
-          "en": "I am Masud."
+          "jp": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "bn": "শুভ সকাল।",
+          "en": "Good morning."
         },
         {
-          "jp": "バングラデシュから きました。",
-          "romaji": "Banguradeshu kara kimashita.",
-          "bn": "আমি বাংলাদেশ থেকে এসেছি।",
-          "en": "I came from Bangladesh."
+          "jp": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "bn": "শুভ দুপুর।",
+          "en": "Hello."
+        }
+      ]
+    },
+    {
+      "title": "কর্মক্ষেত্র ও দৈনন্দিন বিদায় সম্ভাষণ",
+      "pattern": "お先に失礼します / お疲れさまでした",
+      "explain": "অফিস বা কর্মক্ষেত্র থেকে আগে বের হওয়ার সময় 'ওসাকি নি শিৎসুরেইশিমাসু' এবং সহকর্মীরা উত্তরে 'ওৎসুকারেসামা দেশিতা' বলেন।",
+      "title_en": "Workplace Farewell Greetings",
+      "pattern_en": "Osaki ni shitsureeshimasu / Otsukaresama deshita",
+      "explain_en": "Standard greetings when leaving work before colleagues.",
+      "examples": [
+        {
+          "jp": "お先に失礼します。",
+          "romaji": "Osaki ni shitsureeshimasu.",
+          "bn": "আমি আগে আসছি।",
+          "en": "Excuse me for leaving first."
+        },
+        {
+          "jp": "お疲れさまでした。",
+          "romaji": "Otsukaresama deshita.",
+          "bn": "ধন্যবাদ, ভালোভাবে কাজ শেষ করেছেন।",
+          "en": "Thank you for your hard work."
         }
       ]
     }

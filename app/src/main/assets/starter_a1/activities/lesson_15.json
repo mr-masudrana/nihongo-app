@@ -1,0 +1,27 @@
+{
+  "lesson": 15,
+  "title": "ব্যাটারি প্রয়োজন কিন্তু…",
+  "title_en": "I need some batteries.",
+  "dialogues": [
+    {
+      "title": "১. শপিং মলে প্রয়োজনীয় জিনিসের তলা জিজ্ঞাসা করা",
+      "title_en": "1. Asking which floor a product is on",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。カメラは何階ですか?",
+          "romaji": "Sumimasen. Kamera wa nangai desu ka?",
+          "bn": "মাফ করবেন। ক্যামেরা কত তলায়?",
+          "en": "Excuse me. What floor are cameras on?"
+        },
+        {
+          "speaker": "B",
+          "jp": "カメラは4階です。",
+          "romaji": "Kamera wa yonkai desu.",
+          "bn": "ক্যামেরা ৪ তলায়।",
+          "en": "Cameras are on the 4th floor."
+        }
+      ]
+    }
+  ]
+}

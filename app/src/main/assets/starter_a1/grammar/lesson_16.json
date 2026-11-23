@@ -1,21 +1,43 @@
 {
   "lesson": 16,
-  "title": "স্বাস্থ্য ও শরীরের অবস্থা",
-  "title_en": "Health and Condition",
+  "title": "এটার দাম কত?",
+  "title_en": "How much is this?",
   "points": [
     {
-      "title": "স্বাস্থ্য ও শরীরের অবস্থা — মৌলিক বাক্য",
-      "pattern": "げんき です。",
-      "explain": "Irodori Starter A1 লেসন 16-এর মূল বাক্য গঠন।",
-      "title_en": "Health and Condition — Basic Pattern",
-      "pattern_en": "genki desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 16.",
+      "title": "【これ/それ/あれ】はいくらですか? / 【この/その/あの】N",
+      "pattern": "これ、いくらですか? / あのTシャツ、いくらですか?",
+      "explain": "কোনো কিছুর দাম জানতে 'いくらですか?' এবং নির্দিষ্ট পণ্যের নাম বললে 'この/その/あの + বিশেষ্য' ব্যবহৃত হয়।",
+      "title_en": "Asking prices with demonstratives",
+      "pattern_en": "Kore ikura desu ka? / Ano T-shatsu ikura desu ka?",
+      "explain_en": "Ask prices of items near or far from you.",
       "examples": [
         {
-          "jp": "これは げんき です。",
-          "romaji": "Kore wa genki desu.",
-          "bn": "এটি সুস্থ / প্রাণবন্ত।",
-          "en": "This is healthy / fine."
+          "jp": "そのカレンダー、いくらですか?",
+          "romaji": "Sono karendaa, ikura desu ka?",
+          "bn": "ঐ ক্যালেন্ডারটার দাম কত?",
+          "en": "How much is that calendar?"
+        },
+        {
+          "jp": "1,980円です。",
+          "romaji": "Sen kyuuhyaku hachijuu-en desu.",
+          "bn": "১,৯৮০ ইয়েন।",
+          "en": "It's 1,980 yen."
+        }
+      ]
+    },
+    {
+      "title": "【পরিমাণ】ずつ (প্রতিটি ~টি করে)",
+      "pattern": "チョコレートケーキとチーズケーキ、2個ずつお願いします",
+      "explain": "একাধিক আইটেমের প্রত্যেকটি সমান সংখ্যায় কিনতে সংখ্যার পরে 'ずつ' বসে।",
+      "title_en": "Ordering equal quantities with ずつ",
+      "pattern_en": "[Amount] zutsu",
+      "explain_en": "Specify 'each' when ordering multiple items.",
+      "examples": [
+        {
+          "jp": "りんご と みかん、3個ずつください。",
+          "romaji": "Ringo to mikan, sanko zutsu kudasai.",
+          "bn": "আপেল আর কমলা ৩টি করে দিন।",
+          "en": "Three each of apples and oranges, please."
         }
       ]
     }

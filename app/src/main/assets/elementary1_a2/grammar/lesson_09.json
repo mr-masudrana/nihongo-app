@@ -1,21 +1,37 @@
 {
   "lesson": 9,
-  "title": "কাজের পরিবেশ ও সহকর্মী",
-  "title_en": "Workplace and Colleagues",
+  "title": "পড়ার নিয়মটা একটু বলে দেবেন?",
+  "title_en": "Will you tell me how to read this?",
   "points": [
     {
-      "title": "কাজের পরিবেশ ও সহকর্মী — ব্যাকরণ প্যাটার্ন",
-      "pattern": "かいしゃ について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 9-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Workplace and Colleagues — Grammar Pattern",
-      "pattern_en": "About kaisha",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 9.",
+      "title": "Nで (মাধ্যম) ও N1 は N2 が adj (বৈশিষ্ট্য ও তুলনা)",
+      "pattern": "アニメで日本語を勉強しました / 日本語は、読むのは難しいです。でも、会話は得意です",
+      "explain": "কোনো মাধ্যম বোঝাতে 'で' এবং কোনো বিষয়ের নির্দিষ্ট অংশের ভালো-মন্দ দিক তুলনা করতে 'は〜が' ব্যবহৃত হয়।",
+      "title_en": "Means with で & Contrasting features",
+      "pattern_en": "N de benkyou shimashita / N1 wa N2 ga adj",
+      "explain_en": "Describe how you studied Japanese and which parts are easy or hard.",
       "examples": [
         {
-          "jp": "かいしゃが わかりますか。",
-          "romaji": "kaisha ga wakarimasu ka.",
-          "bn": "আপনি কি কোম্পানি বোঝেন?",
-          "en": "Do you understand company?"
+          "jp": "日本語は文字が難しいです。でも、発音は簡単です。",
+          "romaji": "Nihongo wa moji ga muzukashii desu. Demo, hatsuon wa kantan desu.",
+          "bn": "জাপানি ভাষার অক্ষর কঠিন। তবে উচ্চারণ সহজ।",
+          "en": "Japanese characters are hard, but pronunciation is easy."
+        }
+      ]
+    },
+    {
+      "title": "V-てもらえませんか? (ভদ্র অনুরোধ) ও V-方 (পদ্ধতি)",
+      "pattern": "この漢字の読み方を教えてもらえませんか? / この書類の書き方がわかりません",
+      "explain": "কাউকে ভদ্রভাবে সাহায্যের অনুরোধ করতে 'V-てもらえませんか?' এবং কোনো কাজ করার পদ্ধতি বোঝাতে ক্রিয়ার ます বাদ দিয়ে '方' যোগ করা হয়।",
+      "title_en": "Polite requests & 'How to' with 〜方",
+      "pattern_en": "V-te moraemasen ka? / V-kata",
+      "explain_en": "Ask for help politely and talk about how to do something.",
+      "examples": [
+        {
+          "jp": "私のメール、日本語をチェックしてもらえませんか?",
+          "romaji": "Watashi no meeru, nihongo o chekku shite moraemasen ka?",
+          "bn": "আমার ইমেইলের জাপানি ভাষাটা একটু দেখে দেবেন?",
+          "en": "Could you check the Japanese in my email?"
         }
       ]
     }

@@ -1,14 +1,105 @@
 {
   "lesson": 8,
-  "title": "দৈনন্দিন জীবন ও রুটিন",
-  "title_en": "Daily Life and Routine",
+  "title": "ইয়ামাদা-সান কোথায় আছেন?",
+  "title_en": "Where is Yamada-san?",
   "words": [
     {
-      "word": "まいにち",
-      "reading": "まいにち",
-      "romaji": "mainichi",
-      "bn": "প্রতিদিন",
-      "en": "every day"
+      "word": "更衣室",
+      "reading": "こういしつ",
+      "romaji": "kouishitsu",
+      "bn": "চেঞ্জিং রুম",
+      "en": "changing room"
+    },
+    {
+      "word": "食堂",
+      "reading": "しょくどう",
+      "romaji": "shokudou",
+      "bn": "ক্যান্টিন / ডাইনিং হল",
+      "en": "cafeteria"
+    },
+    {
+      "word": "給湯室",
+      "reading": "きゅうとうしつ",
+      "romaji": "kyuutoushitsu",
+      "bn": "প্যান্ট্রি / চা তৈরির কক্ষ",
+      "en": "kitchenette / pantry"
+    },
+    {
+      "word": "会議室",
+      "reading": "かいぎしつ",
+      "romaji": "kaigishitsu",
+      "bn": "মিটিং রুম",
+      "en": "meeting room"
+    },
+    {
+      "word": "喫煙所",
+      "reading": "きつえんじょ",
+      "romaji": "kitsuenjo",
+      "bn": "ধূমপানের স্থান",
+      "en": "smoking area"
+    },
+    {
+      "word": "倉庫",
+      "reading": "そうこ",
+      "romaji": "souko",
+      "bn": "গুদাম ঘর / স্টোররুম",
+      "en": "warehouse"
+    },
+    {
+      "word": "着替えます",
+      "reading": "きがえます",
+      "romaji": "kigaemasu",
+      "bn": "পোশাক পরিবর্তন করি",
+      "en": "change clothes"
+    },
+    {
+      "word": "打ち合わせをします",
+      "reading": "うちあわせをします",
+      "romaji": "uchiawase o shimasu",
+      "bn": "মিটিং / আলোচনা করি",
+      "en": "have a meeting"
+    },
+    {
+      "word": "上 / 下",
+      "reading": "うえ / した",
+      "romaji": "ue / shita",
+      "bn": "উপরে / নিচে",
+      "en": "on / under"
+    },
+    {
+      "word": "中 / 横",
+      "reading": "なか / よこ",
+      "romaji": "naka / yoko",
+      "bn": "ভেতরে / পাশে",
+      "en": "inside / next to"
+    },
+    {
+      "word": "引き出し",
+      "reading": "ひきだし",
+      "romaji": "hikidashi",
+      "bn": "ড্রয়ার",
+      "en": "drawer"
+    },
+    {
+      "word": "コピー機",
+      "reading": "コピーき",
+      "romaji": "kopiiki",
+      "bn": "ফটোকপি মেশিন",
+      "en": "photocopier"
+    },
+    {
+      "word": "はさみ",
+      "reading": "はさみ",
+      "romaji": "hasami",
+      "bn": "কাঁচি",
+      "en": "scissors"
+    },
+    {
+      "word": "のり",
+      "reading": "のり",
+      "romaji": "nori",
+      "bn": "আঠা / গ্লু",
+      "en": "glue"
     }
   ]
 }

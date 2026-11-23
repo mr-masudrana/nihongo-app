@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "title": "স্ট্যাপলারটা একটু দিন",
+  "title_en": "Please lend me the stapler.",
+  "points": [
+    {
+      "title": "ওয়াসেই-এইগো (জাপানি ইংরেজি শব্দ) ও ২৪ ঘণ্টার সময়",
+      "pattern": "和製英語・スマホの充電・24時間制",
+      "explain": "জাপানে এমন অনেক ইংরেজি শব্দ আছে যা জাপানেই তৈরি হয়েছে, যেমন: ホチキス (স্ট্যাপলার), コンセント (পাওয়ার সকেট), ペットボトル (প্লাস্টিক বোতল)। এছাড়া ট্রেন ও অফিসের সময়সূচিতে ২৪ ঘণ্টার ঘড়ি (যেমন ১৪:৩০) ব্যবহৃত হয়।",
+      "title_en": "Wasei-eigo & 24-hour Clock",
+      "pattern_en": "Hochikisu, Konsento, 24-hour time",
+      "explain_en": "Japanese uses unique English-derived words and the 24-hour clock.",
+      "examples": [
+        {
+          "jp": "コンセント (Power outlet)",
+          "romaji": "Konsento",
+          "bn": "বৈদ্যুতিক সকেট",
+          "en": "Electrical outlet"
+        }
+      ]
+    }
+  ]
+}

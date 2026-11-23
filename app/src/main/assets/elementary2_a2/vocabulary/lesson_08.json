@@ -1,14 +1,70 @@
 {
   "lesson": 8,
-  "title": "সমস্যা ও সমাধানের উপায়",
-  "title_en": "Problems and Solutions",
+  "title": "খাবারের স্টলগুলো কোথায় আছে জানেন কি?",
+  "title_en": "Do you know where the food stands are?",
   "words": [
     {
-      "word": "こしょう",
-      "reading": "こしょう",
-      "romaji": "koshou",
-      "bn": "নষ্ট / বিকল",
-      "en": "breakdown"
+      "word": "国際交流フェスティバル",
+      "reading": "こくさいこうりゅうフェスティバル",
+      "romaji": "kokusai kouryuu fesutibaru",
+      "bn": "আন্তর্জাতিক সাংস্কৃতিক উৎসব",
+      "en": "international exchange festival"
+    },
+    {
+      "word": "屋台",
+      "reading": "やたい",
+      "romaji": "yatai",
+      "bn": "খাবারের অস্থায়ী দোকান / স্টল",
+      "en": "food stand / stall"
+    },
+    {
+      "word": "会場",
+      "reading": "かいじょう",
+      "romaji": "kaijou",
+      "bn": "অনুষ্ঠানস্থল / ভেন্যু",
+      "en": "event venue"
+    },
+    {
+      "word": "出し物",
+      "reading": "だしもの",
+      "romaji": "dashimono",
+      "bn": "অনুষ্ঠানের পরিবেশনা / পারফরম্যান্স",
+      "en": "performance / show"
+    },
+    {
+      "word": "参加条件",
+      "reading": "さんかじょうけん",
+      "romaji": "sanka jouken",
+      "bn": "অংশগ্রহণের শর্তাবলি",
+      "en": "participation requirements"
+    },
+    {
+      "word": "申し込みます",
+      "reading": "もうしこみます",
+      "romaji": "moushikomimasu",
+      "bn": "আবেদন করি / নাম লেখাই",
+      "en": "apply / sign up"
+    },
+    {
+      "word": "体験",
+      "reading": "たいけん",
+      "romaji": "taiken",
+      "bn": "বাস্তব অভিজ্ঞতা লাভ / হাতে-কলমে শেখা",
+      "en": "hands-on experience"
+    },
+    {
+      "word": "禁止",
+      "reading": "きんし",
+      "romaji": "kinshi",
+      "bn": "নিষিদ্ধ",
+      "en": "prohibited / banned"
+    },
+    {
+      "word": "皆様",
+      "reading": "みなさま",
+      "romaji": "minasama",
+      "bn": "উপস্থিত সুধীবৃন্দ / সবাই",
+      "en": "everyone / ladies and gentlemen"
     }
   ]
 }

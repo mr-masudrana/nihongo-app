@@ -1,0 +1,335 @@
+{
+  "lesson": 10,
+  "title": "দৈনন্দিন জাপানি শব্দভান্ডার – Lesson 10",
+  "words": [
+    {
+      "word": "あります",
+      "reading": "あります",
+      "romaji": "arimasu",
+      "bn": "আছে; অবস্থান করা",
+      "en": "exist; be (inanimate things)"
+    },
+    {
+      "word": "います",
+      "reading": "います",
+      "romaji": "imasu",
+      "bn": "আছে; অবস্থান করা",
+      "en": "exist; be (animate things)"
+    },
+    {
+      "word": "いろいろ[な]",
+      "reading": "いろいろ[な]",
+      "romaji": "iroiro",
+      "bn": "বিভিন্ন; নানারকম",
+      "en": "various"
+    },
+    {
+      "word": "おとこの ひと",
+      "reading": "男の人",
+      "romaji": "otoko no hito",
+      "bn": "পুরুষ; লোক",
+      "en": "man"
+    },
+    {
+      "word": "おんなの ひと",
+      "reading": "女の人",
+      "romaji": "onna no hito",
+      "bn": "নারী; মহিলা",
+      "en": "woman"
+    },
+    {
+      "word": "おとこの こ",
+      "reading": "男の子",
+      "romaji": "otoko no ko",
+      "bn": "ছেলে; বালক",
+      "en": "boy"
+    },
+    {
+      "word": "おんなの こ",
+      "reading": "女の子",
+      "romaji": "onna no ko",
+      "bn": "মেয়ে; বালিকা",
+      "en": "girl"
+    },
+    {
+      "word": "いぬ",
+      "reading": "犬",
+      "romaji": "inu",
+      "bn": "কুকুর",
+      "en": "dog"
+    },
+    {
+      "word": "ねこ",
+      "reading": "猫",
+      "romaji": "neko",
+      "bn": "বিড়াল",
+      "en": "cat"
+    },
+    {
+      "word": "パンダ",
+      "reading": "パンダ",
+      "romaji": "panda",
+      "bn": "পান্ডা",
+      "en": "panda"
+    },
+    {
+      "word": "ぞう",
+      "reading": "象",
+      "romaji": "zou",
+      "bn": "হাতি",
+      "en": "elephant"
+    },
+    {
+      "word": "き",
+      "reading": "木",
+      "romaji": "ki",
+      "bn": "গাছ; কাঠ",
+      "en": "tree; wood"
+    },
+    {
+      "word": "もの",
+      "reading": "物",
+      "romaji": "mono",
+      "bn": "জিনিস; বস্তু",
+      "en": "thing"
+    },
+    {
+      "word": "でんち",
+      "reading": "電池",
+      "romaji": "denchi",
+      "bn": "ব্যাটারি",
+      "en": "battery"
+    },
+    {
+      "word": "はこ",
+      "reading": "箱",
+      "romaji": "hako",
+      "bn": "বাক্স",
+      "en": "box"
+    },
+    {
+      "word": "スイッチ",
+      "reading": "スイッチ",
+      "romaji": "suicchi",
+      "bn": "সুইচ",
+      "en": "switch"
+    },
+    {
+      "word": "れいぞうこ",
+      "reading": "冷蔵庫",
+      "romaji": "reizouko",
+      "bn": "ফ্রিজ; রেফ্রিজারেটর",
+      "en": "refrigerator"
+    },
+    {
+      "word": "テーブル",
+      "reading": "テーブル",
+      "romaji": "teeburu",
+      "bn": "টেবিল",
+      "en": "table"
+    },
+    {
+      "word": "ベッド",
+      "reading": "ベッド",
+      "romaji": "beddo",
+      "bn": "বিছানা",
+      "en": "bed"
+    },
+    {
+      "word": "たな",
+      "reading": "棚",
+      "romaji": "tana",
+      "bn": "তাক",
+      "en": "shelf"
+    },
+    {
+      "word": "ドア",
+      "reading": "ドア",
+      "romaji": "doa",
+      "bn": "দরজা",
+      "en": "door"
+    },
+    {
+      "word": "まど",
+      "reading": "窓",
+      "romaji": "mado",
+      "bn": "জানালা",
+      "en": "window"
+    },
+    {
+      "word": "ポスト",
+      "reading": "ポスト",
+      "romaji": "posuto",
+      "bn": "ডাকবাক্স; পোস্টবক্স",
+      "en": "postbox; mailbox"
+    },
+    {
+      "word": "ビル",
+      "reading": "ビル",
+      "romaji": "biru",
+      "bn": "বহুতল ভবন",
+      "en": "building"
+    },
+    {
+      "word": "ATM",
+      "reading": "ATM",
+      "romaji": "ee tii emu",
+      "bn": "এটিএম; টাকা তোলার মেশিন",
+      "en": "cash machine; ATM"
+    },
+    {
+      "word": "コンビニ",
+      "reading": "コンビニ",
+      "romaji": "konbini",
+      "bn": "কনভিনিয়েন্স স্টোর",
+      "en": "convenience store"
+    },
+    {
+      "word": "こうえん",
+      "reading": "公園",
+      "romaji": "kouen",
+      "bn": "পার্ক; উদ্যান",
+      "en": "park"
+    },
+    {
+      "word": "きっさてん",
+      "reading": "喫茶店",
+      "romaji": "kissaten",
+      "bn": "ক্যাফে; কফি শপ",
+      "en": "café; coffee shop"
+    },
+    {
+      "word": "～や",
+      "reading": "～屋",
+      "romaji": "~ya",
+      "bn": "~এর দোকান; ~শপ",
+      "en": "~ shop; ~ store"
+    },
+    {
+      "word": "のりば",
+      "reading": "乗り場",
+      "romaji": "noriba",
+      "bn": "যানবাহনে ওঠার স্থান; স্ট্যান্ড",
+      "en": "a fixed place to catch taxis, trains, etc."
+    },
+    {
+      "word": "けん",
+      "reading": "県",
+      "romaji": "ken",
+      "bn": "প্রিফেকচার; জাপানের প্রশাসনিক অঞ্চল",
+      "en": "prefecture"
+    },
+    {
+      "word": "うえ",
+      "reading": "上",
+      "romaji": "ue",
+      "bn": "উপরে; ওপর",
+      "en": "on; above; over"
+    },
+    {
+      "word": "した",
+      "reading": "下",
+      "romaji": "shita",
+      "bn": "নিচে; তলায়",
+      "en": "under; below; beneath"
+    },
+    {
+      "word": "まえ",
+      "reading": "前",
+      "romaji": "mae",
+      "bn": "সামনে; আগে",
+      "en": "front; before"
+    },
+    {
+      "word": "うしろ",
+      "reading": "後ろ",
+      "romaji": "ushiro",
+      "bn": "পেছনে",
+      "en": "back; behind"
+    },
+    {
+      "word": "みぎ",
+      "reading": "右",
+      "romaji": "migi",
+      "bn": "ডান দিক",
+      "en": "right [side]"
+    },
+    {
+      "word": "ひだり",
+      "reading": "左",
+      "romaji": "hidari",
+      "bn": "বাম দিক",
+      "en": "left [side]"
+    },
+    {
+      "word": "なか",
+      "reading": "中",
+      "romaji": "naka",
+      "bn": "ভেতরে; মধ্যে",
+      "en": "in; inside"
+    },
+    {
+      "word": "そと",
+      "reading": "外",
+      "romaji": "soto",
+      "bn": "বাইরে",
+      "en": "outside"
+    },
+    {
+      "word": "となり",
+      "reading": "隣",
+      "romaji": "tonari",
+      "bn": "পাশে; সংলগ্ন",
+      "en": "next; next door"
+    },
+    {
+      "word": "ちかく",
+      "reading": "近く",
+      "romaji": "chikaku",
+      "bn": "কাছাকাছি",
+      "en": "near; vicinity"
+    },
+    {
+      "word": "あいだ",
+      "reading": "間",
+      "romaji": "aida",
+      "bn": "মাঝখানে; মধ্যে",
+      "en": "between; among"
+    },
+    {
+      "word": "～や～[など]",
+      "reading": "～や～[など]",
+      "romaji": "~ya ~ [nado]",
+      "bn": "~ এবং ~ ইত্যাদি",
+      "en": "~, ~, and so on"
+    },
+    {
+      "word": "[どうも]すみません。",
+      "reading": "[どうも]すみません。",
+      "romaji": "[doumo] sumimasen",
+      "bn": "ধন্যবাদ; অনেক ধন্যবাদ",
+      "en": "Thank you."
+    },
+    {
+      "word": "ナンプラー",
+      "reading": "ナンプラー",
+      "romaji": "nanpuraa",
+      "bn": "নাম প্লা (মাছের সস)",
+      "en": "nam pla (fish sauce)"
+    },
+    {
+      "word": "コーナー",
+      "reading": "コーナー",
+      "romaji": "koonaa",
+      "bn": "কোণা; বিভাগ; সেকশন",
+      "en": "corner; section"
+    },
+    {
+      "word": "いちばん した",
+      "reading": "一番下",
+      "romaji": "ichiban shita",
+      "bn": "সবচেয়ে নিচে",
+      "en": "the bottom"
+    }
+  ]
+}

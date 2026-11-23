@@ -1,21 +1,37 @@
 {
   "lesson": 12,
-  "title": "প্রযুক্তি ও দৈনন্দিন জীবন",
-  "title_en": "Technology and Daily Life",
+  "title": "এই ভ্যাকুয়াম ক্লিনারটি হালকা এবং চালানো সহজ",
+  "title_en": "This vacuum cleaner is light and easy to move around.",
   "points": [
     {
-      "title": "প্রযুক্তি ও দৈনন্দিন জীবন — ব্যাকরণ প্যাটার্ন",
-      "pattern": "べんり ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 12-এর মূল ব্যাকরণ।",
-      "title_en": "Technology and Daily Life — Grammar Pattern",
-      "pattern_en": "Can do benri",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 12.",
+      "title": "V-やすいです (সহজ) / V-にくいです (কঠিন)",
+      "pattern": "この掃除機は軽くて動かしやすいですよ / 重くて、使いにくいですね",
+      "explain": "কোনো যন্ত্র বা জিনিস ব্যবহার করা সহজ বোঝাতে ক্রিয়ার ます বাদ দিয়ে 'やすいです' এবং কঠিন বোঝাতে 'にくいです' বসে।",
+      "title_en": "Easy to do / Hard to do: 〜やすい and 〜にくい",
+      "pattern_en": "Tsukaiyasui / Tsukainikui",
+      "explain_en": "Compare the usability of appliances.",
       "examples": [
         {
-          "jp": "じぶんで べんり を することができます。",
-          "romaji": "Jibun de benri o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে সুবিধাজনক করতে পারি।",
-          "en": "I can do convenient by myself."
+          "jp": "ボタンが大きくて、押しやすいです。",
+          "romaji": "Botan ga ookikute, oshiyasui desu.",
+          "bn": "বোতামগুলো বড় হওয়ায় চাপা সহজ।",
+          "en": "The buttons are large and easy to press."
+        }
+      ]
+    },
+    {
+      "title": "N1 と N2、どちらが〜か? / (N1 より) N2 のほうが、〜",
+      "pattern": "セーシバの掃除機のほうがスギシタより軽くて、動かしやすいですよ",
+      "explain": "দুটি পণ্যের মধ্যে তুলনা করে কোনটি বেশি ভালো তা জানাতে '〜のほうが〜より〜' গঠন ব্যবহৃত হয়।",
+      "title_en": "Comparing products: のほうが and より",
+      "pattern_en": "N2 no hou ga N1 yori ~",
+      "explain_en": "Compare two appliances based on weight, price, and features.",
+      "examples": [
+        {
+          "jp": "手元に届くまで、2日しかかかりませんでした。",
+          "romaji": "Temoto ni todoku made, futsuka shika kakarimasen deshita.",
+          "bn": "হাতে পৌঁছাতে মাত্র ২ দিন সময় লেগেছিল।",
+          "en": "It only took two days to arrive."
         }
       ]
     }

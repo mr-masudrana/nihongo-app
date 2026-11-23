@@ -1,0 +1,97 @@
+{
+  "lesson": 22,
+  "title": "বিশেষ্যকে বাক্যাংশ দিয়ে বর্ণনা",
+  "title_en": "Noun modification",
+  "points": [
+    {
+      "title": "Plain form + N — Noun modification",
+      "pattern": "Plain-form clause + N",
+      "explain": "কোনো বিশেষ্যকে আরও নির্দিষ্টভাবে বর্ণনা করতে তার আগে একটি clause বসে। Verb, い-adjective, な-adjective ও Noun—সবই Plain Form-এ থাকবে। な-adjective-এর পরে な এবং Noun-এর পরে の বসে।",
+      "title_en": "Modifying a noun with a clause",
+      "pattern_en": "Plain-form clause + N",
+      "examples": [
+        {
+          "jp": "京都へ行く人",
+          "romaji": "Kyouto e iku hito",
+          "bn": "যে ব্যক্তি কিয়োটো যায়",
+          "en": "A person who goes to Kyoto"
+        },
+        {
+          "jp": "京都へ行った人",
+          "romaji": "Kyouto e itta hito",
+          "bn": "যে ব্যক্তি কিয়োটো গিয়েছিল",
+          "en": "A person who went to Kyoto"
+        },
+        {
+          "jp": "静かで、きれいな町",
+          "romaji": "Shizuka de, kirei na machi",
+          "bn": "শান্ত ও সুন্দর শহর",
+          "en": "A quiet, beautiful town"
+        },
+        {
+          "jp": "６５歳の人",
+          "romaji": "Rokujuugo-sai no hito",
+          "bn": "৬৫ বছর বয়সী ব্যক্তি",
+          "en": "A 65-year-old person"
+        }
+      ]
+    },
+    {
+      "title": "Noun-modifying clause-এর subject-এ が",
+      "pattern": "[Clause] が + N",
+      "explain": "বিশেষ্যকে বর্ণনা করা clause-এর ভেতরে subject চিহ্নিত করতে সাধারণত が ব্যবহার হয়। পুরো clause-টি পরের noun-কে বর্ণনা করে।",
+      "title_en": "が inside a noun-modifying clause",
+      "pattern_en": "[Clause] が + N",
+      "examples": [
+        {
+          "jp": "これはミラーさんが作ったケーキです。",
+          "romaji": "Kore wa Miraa-san ga tsukutta keeki desu.",
+          "bn": "এটি মি. মিলারের তৈরি করা কেক।",
+          "en": "This is the cake Mr. Miller made."
+        },
+        {
+          "jp": "私が撮った写真",
+          "romaji": "Watashi ga totta shashin",
+          "bn": "আমার তোলা ছবি",
+          "en": "A photo that I took"
+        }
+      ]
+    },
+    {
+      "title": "V dictionary form + 時間／約束／用事",
+      "pattern": "V-dictionary form + 時間／約束／用事 + が あります",
+      "explain": "কোনো কাজ করার সময়, ব্যবস্থা/অ্যাপয়েন্টমেন্ট বা প্রয়োজনীয় কাজ আছে বোঝাতে Verb-এর dictionary form noun-এর আগে বসে।",
+      "title_en": "Time, arrangements and errands",
+      "pattern_en": "V-dictionary form + 時間／約束／用事 + が あります",
+      "examples": [
+        {
+          "jp": "朝ごはんを食べる時間がありません。",
+          "romaji": "Asagohan o taberu jikan ga arimasen.",
+          "bn": "সকালের নাশতা খাওয়ার সময় নেই।",
+          "en": "I don't have time to eat breakfast."
+        },
+        {
+          "jp": "友達と映画を見る約束があります。",
+          "romaji": "Tomodachi to eiga o miru yakusoku ga arimasu.",
+          "bn": "বন্ধুর সঙ্গে সিনেমা দেখার afspraak/ব্যবস্থা আছে।",
+          "en": "I have arranged to see a movie with a friend."
+        }
+      ]
+    },
+    {
+      "title": "Vます-form + ましょうか — একসঙ্গে করার প্রস্তাব",
+      "pattern": "Vます-stem + ましょうか",
+      "explain": "কাউকে সঙ্গে নিয়ে কোনো কাজ করার প্রস্তাব দিতে ～ましょうか ব্যবহার হয়। এটি সাহায্য করার প্রস্তাবের ～ましょうか থেকে প্রসঙ্গ অনুযায়ী আলাদা হতে পারে।",
+      "title_en": "Shall we…?",
+      "pattern_en": "Vます-stem + ましょうか",
+      "examples": [
+        {
+          "jp": "今から行きましょうか。",
+          "romaji": "Ima kara ikimashou ka.",
+          "bn": "তাহলে কি এখনই যাব?",
+          "en": "Shall we go now?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,98 @@
 {
   "lesson": 15,
-  "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম",
-  "title_en": "Environment and Garbage Rules",
+  "title": "জ্বর এসেছে এবং গলা ব্যথা করছে",
+  "title_en": "I have a fever, and my throat is sore.",
   "words": [
     {
-      "word": "ごみ",
-      "reading": "ごみ",
-      "romaji": "gomi",
-      "bn": "আবর্জনা",
-      "en": "garbage"
+      "word": "熱",
+      "reading": "ねつ",
+      "romaji": "netsu",
+      "bn": "জ্বর",
+      "en": "fever"
+    },
+    {
+      "word": "のどが痛い",
+      "reading": "のどがいたい",
+      "romaji": "nodo ga itai",
+      "bn": "গলা ব্যথা করছে",
+      "en": "sore throat"
+    },
+    {
+      "word": "頭が痛い",
+      "reading": "あたまがいたい",
+      "romaji": "atama ga itai",
+      "bn": "মাথা ব্যথা করছে",
+      "en": "headache"
+    },
+    {
+      "word": "お腹が痛い",
+      "reading": "おなかがいたい",
+      "romaji": "onaka ga itai",
+      "bn": "পেট ব্যথা করছে",
+      "en": "stomachache"
+    },
+    {
+      "word": "せきが出ます",
+      "reading": "せきがでます",
+      "romaji": "seki ga demasu",
+      "bn": "কাশি হচ্ছে",
+      "en": "have a cough"
+    },
+    {
+      "word": "鼻水が出ます",
+      "reading": "はなみずがでます",
+      "romaji": "hanamizu ga demasu",
+      "bn": "সর্দি ঝরছে",
+      "en": "have a runny nose"
+    },
+    {
+      "word": "めまいがします",
+      "reading": "めまいがします",
+      "romaji": "memai ga shimasu",
+      "bn": "মাথা ঘুরছে",
+      "en": "feel dizzy"
+    },
+    {
+      "word": "吐き気がします",
+      "reading": "はきけがします",
+      "romaji": "hakike ga shimasu",
+      "bn": "বমি বমি ভাব হচ্ছে",
+      "en": "feel nauseous"
+    },
+    {
+      "word": "問診票",
+      "reading": "もんしんひょう",
+      "romaji": "monshinhyou",
+      "bn": "রোগীর প্রাথমিক তথ্য ফরম",
+      "en": "medical questionnaire"
+    },
+    {
+      "word": "健康保険証",
+      "reading": "けんこうほけんしょう",
+      "romaji": "kenkou hokenshou",
+      "bn": "স্বাস্থ্য বীমা কার্ড",
+      "en": "health insurance card"
+    },
+    {
+      "word": "処方箋",
+      "reading": "しょほうせん",
+      "romaji": "shohousen",
+      "bn": "ডাক্তারের প্রেসক্রিপশন",
+      "en": "prescription"
+    },
+    {
+      "word": "食前 / 食後",
+      "reading": "しょくぜん / しょくご",
+      "romaji": "shokuzen / shokugo",
+      "bn": "খাওয়ার আগে / খাওয়ার পরে",
+      "en": "before meals / after meals"
+    },
+    {
+      "word": "眠くなります",
+      "reading": "ねむくなります",
+      "romaji": "nemuku narimasu",
+      "bn": "ঘুম ঘুম ভাব হয়",
+      "en": "get sleepy"
     }
   ]
 }

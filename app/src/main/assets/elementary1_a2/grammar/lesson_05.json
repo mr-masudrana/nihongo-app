@@ -1,21 +1,37 @@
 {
   "lesson": 5,
-  "title": "উৎসব ও অনুষ্ঠান",
-  "title_en": "Festivals and Events",
+  "title": "খুবই জমজমাট এবং সুবিধাজনক",
+  "title_en": "It is very lively and convenient.",
   "points": [
     {
-      "title": "উৎসব ও অনুষ্ঠান — ব্যাকরণ প্যাটার্ন",
-      "pattern": "おまつり について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 5-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Festivals and Events — Grammar Pattern",
-      "pattern_en": "About omatsuri",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 5.",
+      "title": "Nで / ナA-で / イA-くて (একাধিক বৈশিষ্ট্য যুক্ত করা)",
+      "pattern": "この町は、とてもにぎやかで、便利です / 人がやさしくて、住みやすいです",
+      "explain": "একই দিকের দুটি ইতিবাচক বা নেতিবাচক বৈশিষ্ট্য যুক্ত করতে な-বিশেষণ/বিশেষ্যে 'で' এবং い-বিশেষণে 'くて' বসে।",
+      "title_en": "Connecting adjectives with で and くて",
+      "pattern_en": "Na-adj de / I-adj kute",
+      "explain_en": "Combine multiple descriptions of a town or place.",
       "examples": [
         {
-          "jp": "おまつりが わかりますか。",
-          "romaji": "omatsuri ga wakarimasu ka.",
-          "bn": "আপনি কি উৎসব বোঝেন?",
-          "en": "Do you understand festival?"
+          "jp": "緑が多くて、静かでいいですね。",
+          "romaji": "Midori ga ookute, shizuka de ii desu ne.",
+          "bn": "সবুজ গাছপালা বেশি আর নিরিবিলি, বেশ ভালো!",
+          "en": "It's lush and quiet, which is nice."
+        }
+      ]
+    },
+    {
+      "title": "〜けど (বিপরীত বৈশিষ্ট্য) ও V-ることができます (সম্ভাবনা)",
+      "pattern": "場所は不便だけど、きれいですよ / 一年中、花を見ることができます",
+      "explain": "বিপরীত বৈশিষ্ট্য যুক্ত করতে 'けど' এবং কোনো স্থানে কী কী করা সম্ভব তা জানাতে 'V-ることができます' ব্যবহৃত হয়।",
+      "title_en": "Contrasting with けど & Possibility with ことができます",
+      "pattern_en": "A kedo B / V-ru koto ga dekimasu",
+      "explain_en": "Contrast pros and cons of a place and describe activities possible there.",
+      "examples": [
+        {
+          "jp": "丘の上から海と町を見渡すことができます。",
+          "romaji": "Oka no ue kara umi to machi o miwatasu koto ga dekimasu.",
+          "bn": "পাহাড়ের উপর থেকে সমুদ্র ও শহর দেখা যায়।",
+          "en": "You can overlook the sea and town from the top of the hill."
         }
       ]
     }

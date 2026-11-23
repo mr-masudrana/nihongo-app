@@ -1,0 +1,39 @@
+{
+  "lesson": 18,
+  "title": "কোনো উপহার দেব কি?",
+  "title_en": "How about giving something as a gift?",
+  "points": [
+    {
+      "title": "Can-do 65–67: অভিনন্দন জানানো, উপহার বাছাই ও কৃতজ্ঞতা প্রকাশ",
+      "pattern": "お祝いを言ったり、贈り物を話し合って選んだり、お礼を言ったりすることができる。",
+      "explain": "জন্মদিন, বিয়ে বা পরীক্ষায় পাসের অভিনন্দন জানাতে এবং বিদায়ের সময় উপহার গ্রহণ করে কৃতজ্ঞতা জানাতে পারা।",
+      "title_en": "Can-do 65–67",
+      "pattern_en": "Can offer congratulations, choose gifts, and thank givers.",
+      "explain_en": "Celebrate milestones and exchange farewell gifts.",
+      "examples": [
+        {
+          "jp": "いろいろお世話になりました。大切に使います。",
+          "romaji": "Iroiro osewa ni narimashita. Taisetsu ni tsukaimasu.",
+          "bn": "অনেক সহযোগিতার জন্য ধন্যবাদ। যত্ন করে ব্যবহার করব।",
+          "en": "Thank you for everything. I will treasure and use it."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 68–69: জন্মদিনের SNS পোস্ট পড়া ও শুভেচ্ছা কার্ড (色紙) লেখা",
+      "pattern": "誕生日のSNS書き込みを理解し、カードや色紙にお祝いや送別のメッセージを書ける。",
+      "explain": "কার্ড বা শিকিশি (色紙) বোর্ডে বিদায় বা জন্মদিনের শুভেচ্ছা বার্তা লিখতে পারা।",
+      "title_en": "Can-do 68–69",
+      "pattern_en": "Can read birthday posts and write greeting/farewell cards.",
+      "explain_en": "Write heartfelt messages on cards and yosegaki boards.",
+      "examples": [
+        {
+          "jp": "お誕生日おめでとうございます。幸せな1年になりますように。",
+          "romaji": "Otanjoubi omedetou gozaimasu. Shiawase na ichinen ni narimasu you ni.",
+          "bn": "শুভ জন্মদিন! আপনার বছরটি সুখময় হোক।",
+          "en": "Happy birthday! Wishing you a happy year."
+        }
+      ]
+    }
+  ]
+}

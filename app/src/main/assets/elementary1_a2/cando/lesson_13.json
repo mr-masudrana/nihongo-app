@@ -1,0 +1,39 @@
+{
+  "lesson": 13,
+  "title": "আর ১০ মিনিটের মতো লাগবে বলে মনে হচ্ছে",
+  "title_en": "It will probably end in about ten minutes.",
+  "points": [
+    {
+      "title": "Can-do 43–44: কর্মক্ষেত্রের সমস্যা ও কাজের অগ্রগতি জানানো",
+      "pattern": "職場で困った状況を伝えたり、作業状況の質問に答えたりすることができる。",
+      "explain": "কম্পিউটার বা মেশিন নষ্ট হলে ঊর্ধ্বতনকে জানাতে এবং কাজ কতদূর এগিয়েছে তা বলতে পারা।",
+      "title_en": "Can-do 43–44",
+      "pattern_en": "Can report problems and work status at work.",
+      "explain_en": "Communicate equipment issues and progress updates.",
+      "examples": [
+        {
+          "jp": "どのぐらいかかりそうですか? あと10分ぐらいです。",
+          "romaji": "Dono gurai kakarisou desu ka? Ato juppun gurai desu.",
+          "bn": "আর কতক্ষণ লাগতে পারে? প্রায় ১০ মিনিট।",
+          "en": "How much longer will it take? About 10 more minutes."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 45–47: মেশিনের ব্যবহার জানা, নির্দেশনা ও অফিস ইমেইল পড়া",
+      "pattern": "機械の使い方を質問したり、指示を聞いたり、お知らせのメールを理解できる。",
+      "explain": "ফটোকপি বা অফিসের যন্ত্র চালানোর নিয়ম জানতে এবং অফিসের নোটিশ ইমেইল পড়ে বুঝতে পারা।",
+      "title_en": "Can-do 45–47",
+      "pattern_en": "Can ask how to use machines and read workplace emails.",
+      "explain_en": "Understand machine operations, task instructions, and work emails.",
+      "examples": [
+        {
+          "jp": "コピー機の使い方を教えてもらえませんか?",
+          "romaji": "Kopiiki no tsukaikata o oshiete moraemasen ka?",
+          "bn": "ফটোকপি মেশিনের ব্যবহারটা একটু শিখিয়ে দেবেন?",
+          "en": "Could you teach me how to use the photocopier?"
+        }
+      ]
+    }
+  ]
+}

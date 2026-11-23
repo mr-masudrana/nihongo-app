@@ -1,21 +1,49 @@
 {
   "lesson": 5,
-  "title": "পছন্দের খাবার ও পানীয়",
-  "title_en": "Favorite Foods and Drinks",
+  "title": "আমি উদোন পছন্দ করি",
+  "title_en": "I like udon.",
   "points": [
     {
-      "title": "N を たべます / のみます — খাওয়া ও পান করা",
-      "pattern": "さかなを たべます。",
-      "explain": "কর্ম বা অবজেক্টের পরে を (ও) পার্টিকেল বসে।",
-      "title_en": "Eating and Drinking",
-      "pattern_en": "Sakana o tabemasu.",
-      "explain_en": "Particle を marks the direct object of an action.",
+      "title": "Nが好きです / Nは好きじゃないです / Nはちょっと…",
+      "pattern": "肉と野菜が好きです / わさびは、ちょっと…",
+      "explain": "পছন্দ বোঝাতে 'が好きです', অপছন্দ বোঝাতে 'は好きじゃないです' এবং ভদ্রভাবে অপছন্দ বোঝাতে 'はちょっと…' ব্যবহৃত হয়।",
+      "title_en": "Expressing food likes and dislikes",
+      "pattern_en": "N ga suki desu / N wa chotto...",
+      "explain_en": "Express preferences politely.",
       "examples": [
         {
-          "jp": "まいにち やさいを たべます。",
-          "romaji": "Mainichi yasai o tabemasu.",
-          "bn": "প্রতিদিন শাকসবজি খাই।",
-          "en": "I eat vegetables every day."
+          "jp": "私は、魚が好きです。肉は好きじゃないです。",
+          "romaji": "Watashi wa, sakana ga suki desu. Niku wa suki ja nai desu.",
+          "bn": "আমি মাছ পছন্দ করি। মাংস পছন্দ করি না।",
+          "en": "I like fish. I don't like meat."
+        },
+        {
+          "jp": "わさびは、ちょっと…。",
+          "romaji": "Wasabi wa, chotto...",
+          "bn": "ওয়াসাবিটা একটু (অপছন্দ)...",
+          "en": "I don't really like wasabi."
+        }
+      ]
+    },
+    {
+      "title": "NをV-ます ও কাজের পৌনঃপুনিকতা (いつも / よく / あまり)",
+      "pattern": "パンをよく食べます / 朝ご飯は、あまり食べません",
+      "explain": "অবজেক্টের পরে 'を' বসে। সবসময় বোঝাতে 'いつも', প্রায়ই বোঝাতে 'よく' এবং খুব কম বোঝাতে না-বাচক ক্রিয়ার আগে 'あまり' বসে।",
+      "title_en": "Object marker を and Frequency adverbs",
+      "pattern_en": "Itsumo / Yoku / Amari ~masen",
+      "explain_en": "Talk about eating habits and frequency.",
+      "examples": [
+        {
+          "jp": "卵とヨーグルトをよく食べます。",
+          "romaji": "Tamago to yooguruto o yoku tabemasu.",
+          "bn": "ডিম আর দই প্রায়ই খাই।",
+          "en": "I often eat eggs and yogurt."
+        },
+        {
+          "jp": "朝ご飯は、あまり食べません。",
+          "romaji": "Asagohan wa, amari tabemasen.",
+          "bn": "সকালের নাশতা খুব একটা খাই না।",
+          "en": "I rarely eat breakfast."
         }
       ]
     }

@@ -1,21 +1,37 @@
 {
   "lesson": 4,
-  "title": "রেস্তোরাঁর খাবার ও স্বাদ",
-  "title_en": "Restaurant Food and Taste",
+  "title": "গতকাল প্রচণ্ড বৃষ্টি হয়েছিল, তাই না!",
+  "title_en": "It rained heavily yesterday.",
   "points": [
     {
-      "title": "রেস্তোরাঁর খাবার ও স্বাদ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "おいしい について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 4-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Restaurant Food and Taste — Grammar Pattern",
-      "pattern_en": "About oishii",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 4.",
+      "title": "Sね (সহানুভূতি/একমত হওয়া) ও বর্তমান/অতীত আবহাওয়া",
+      "pattern": "今日はいい天気ですね / 昨日はすごい雨でしたね",
+      "explain": "আবহাওয়া নিয়ে কথা বলার সময় শ্রোতার সাথে একমত হতে বাক্যের শেষে 'ね' এবং গতকালের আবহাওয়া বলতে অতীত কাল (でした / 〜かったです) বসে।",
+      "title_en": "Particle ね & Present vs Past weather",
+      "pattern_en": "Kyou wa ii tenki desu ne / Kinou wa sugoi ame deshita ne",
+      "explain_en": "Use ね for shared agreement and past tense for yesterday's weather.",
       "examples": [
         {
-          "jp": "おいしいが わかりますか。",
-          "romaji": "oishii ga wakarimasu ka.",
-          "bn": "আপনি কি সুস্বাদু বোঝেন?",
-          "en": "Do you understand delicious?"
+          "jp": "朝から暑いですね。ゆうべも暑かったですね。",
+          "romaji": "Asa kara atsui desu ne. Yuube mo atsukatta desu ne.",
+          "bn": "সকাল থেকেই গরম, তাই না? গত রাতেও গরম ছিল।",
+          "en": "It's hot since morning. It was hot last night too."
+        }
+      ]
+    },
+    {
+      "title": "V-ています ③ (চলমান আবহাওয়া) ও 〜でしょう (পূর্বাভাস)",
+      "pattern": "今も少し雨が降っています / 明日は晴れるでしょう",
+      "explain": "বর্তমানে বৃষ্টি বা তুষারপাত হচ্ছে বোঝাতে '降っています' এবং আবহাওয়ার পূর্বাভাস দিতে '〜でしょう' ব্যবহৃত হয়।",
+      "title_en": "Ongoing weather & Forecast predictions",
+      "pattern_en": "Ame ga futte imasu / Ashita wa hareru deshou",
+      "explain_en": "Describe current weather and understand weather forecasts.",
+      "examples": [
+        {
+          "jp": "明日は1日、風が強くなるでしょう。",
+          "romaji": "Ashita wa ichinichi, kaze ga tsuyoku naru deshou.",
+          "bn": "আগামীকাল সারাদিন বাতাস প্রবল থাকবে।",
+          "en": "It will probably be windy all day tomorrow."
         }
       ]
     }

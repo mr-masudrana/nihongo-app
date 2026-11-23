@@ -1,0 +1,23 @@
+{
+  "lesson": 15,
+  "title": "জ্বর এসেছে এবং গলা ব্যথা করছে",
+  "title_en": "I have a fever, and my throat is sore.",
+  "points": [
+    {
+      "title": "জাপানের হাসপাতালে যাওয়ার নিয়ম ও পরাগরেণু অ্যালার্জি (花粉症)",
+      "pattern": "日本の病院に行く・花粉症",
+      "explain": "হাসপাতালে যাওয়ার সময় অবশ্যই স্বাস্থ্য বীমা কার্ড (健康保険証) সাথে নিতে হবে, এতে চিকিৎসা খরচের মাত্র ৩০% দিতে হয়। বসন্তকালে জাপানে 'কাফুনশো' (পরাগরেণু অ্যালার্জি) খুব সাধারণ একটি সমস্যা।",
+      "title_en": "Visiting a Hospital in Japan & Hay Fever",
+      "pattern_en": "Health Insurance Card & Kafunshou",
+      "explain_en": "Bring your health insurance card to pay only 30% of medical costs.",
+      "examples": [
+        {
+          "jp": "保険証をお持ちですか?",
+          "romaji": "Hokenshou o omochi desu ka?",
+          "bn": "স্বাস্থ্য বীমা কার্ড সাথে এনেছেন কি?",
+          "en": "Do you have your insurance card?"
+        }
+      ]
+    }
+  ]
+}

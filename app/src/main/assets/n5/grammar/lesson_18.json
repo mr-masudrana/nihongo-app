@@ -1,0 +1,145 @@
+{
+  "lesson": 18,
+  "title": "Dictionary Form ও সক্ষমতা",
+  "title_en": "Dictionary form and ability",
+  "points": [
+    {
+      "title": "Verb-এর Dictionary Form তৈরি",
+      "pattern": "Vます → Dictionary Form",
+      "explain": "Dictionary Form হলো Verb-এর অভিধানে থাকা plain form। Group I-তে ます-এর আগের い-column ধ্বনি う-column-এ বদলায়। Group II-তে ます বাদ দিয়ে る যোগ হয়। Group III: します→する, 来ます→来る।",
+      "title_en": "Forming the dictionary form",
+      "pattern_en": "Vます → Dictionary Form",
+      "explain_en": "The dictionary form is the plain form found in dictionaries. Group I changes the final i-row sound to the corresponding u-row sound. Group II drops ます and adds る. Group III: します→する, 来ます→来る.",
+      "examples": [
+        {
+          "jp": "書きます → 書く",
+          "romaji": "Kakimasu → kaku",
+          "bn": "লিখি → লেখা",
+          "en": "write"
+        },
+        {
+          "jp": "食べます → 食べる",
+          "romaji": "Tabemasu → taberu",
+          "bn": "খাই → খাওয়া",
+          "en": "eat"
+        },
+        {
+          "jp": "します → する",
+          "romaji": "Shimasu → suru",
+          "bn": "করি → করা",
+          "en": "do"
+        }
+      ]
+    },
+    {
+      "title": "～ことができます — কিছু করতে পারা",
+      "pattern": "V-dictionary form + ことができます",
+      "explain": "কোনো কাজ করার সামর্থ্য বা সুযোগ আছে বোঝায়। Verb-এর Dictionary Form-এর পরে ことができます বসে। Noun হলে Nができます ব্যবহার করা যায়।",
+      "title_en": "Can / be able to do something",
+      "pattern_en": "V-dictionary form + ことができます",
+      "explain_en": "This pattern expresses ability or possibility. Add ことができます after the dictionary form of a verb. With a noun, Nができます may be used.",
+      "examples": [
+        {
+          "jp": "ミラーさんは日本語を話すことができます。",
+          "romaji": "Miraa-san wa Nihongo o hanasu koto ga dekimasu.",
+          "bn": "মিলার সাহেব জাপানি বলতে পারেন।",
+          "en": "Mr. Miller can speak Japanese."
+        },
+        {
+          "jp": "カードで払うことができます。",
+          "romaji": "Kaado de harau koto ga dekimasu.",
+          "bn": "কার্ড দিয়ে টাকা দেওয়া যায়।",
+          "en": "You can pay by card."
+        }
+      ]
+    },
+    {
+      "title": "শখ প্রকাশ করা",
+      "pattern": "わたしの趣味は + V-dictionary form + ことです",
+      "explain": "নিজের শখ বা hobby কোনো কাজ হিসেবে প্রকাশ করতে Verb-এর Dictionary Form-এর পরে ことです বসে।",
+      "title_en": "Talking about hobbies",
+      "pattern_en": "わたしの趣味は + V-dictionary form + ことです",
+      "explain_en": "Use this pattern to describe a hobby as an activity. Put the dictionary form of the verb before ことです.",
+      "examples": [
+        {
+          "jp": "わたしの趣味は音楽を聞くことです。",
+          "romaji": "Watashi no shumi wa ongaku o kiku koto desu.",
+          "bn": "আমার শখ গান শোনা।",
+          "en": "My hobby is listening to music."
+        },
+        {
+          "jp": "趣味は本を読むことです。",
+          "romaji": "Shumi wa hon o yomu koto desu.",
+          "bn": "শখ হলো বই পড়া।",
+          "en": "My hobby is reading books."
+        }
+      ]
+    },
+    {
+      "title": "～まえに — আগে",
+      "pattern": "V-dictionary form + まえに / Nのまえに",
+      "explain": "একটি কাজের আগে অন্য কাজ করা বোঝায়। Verb-এর Dictionary Form-এর পরে まえに বসে। Noun-এর পরে のまえに বসে। সময়ের পরিমাণ হলে の লাগে না।",
+      "title_en": "Before doing something",
+      "pattern_en": "V-dictionary form + まえに / Nのまえに",
+      "explain_en": "Use まえに to say that an action occurs before another. Add it to a verb's dictionary form, or use のまえに after a noun. No の is added after a time period.",
+      "examples": [
+        {
+          "jp": "日本へ来るまえに、日本語を勉強しました。",
+          "romaji": "Nihon e kuru mae ni, Nihongo o benkyou shimashita.",
+          "bn": "জাপানে আসার আগে জাপানি পড়েছি।",
+          "en": "I studied Japanese before coming to Japan."
+        },
+        {
+          "jp": "食事のまえに、手を洗います。",
+          "romaji": "Shokuji no mae ni, te o araimasu.",
+          "bn": "খাবারের আগে হাত ধুই।",
+          "en": "I wash my hands before eating."
+        }
+      ]
+    },
+    {
+      "title": "なかなか + Negative — সহজে নয়",
+      "pattern": "なかなか + negative expression",
+      "explain": "Negative বাক্যের সঙ্গে なかなか ব্যবহার করলে ‘সহজে হয় না’ বা ‘প্রত্যাশামতো হয় না’ বোঝায়।",
+      "title_en": "Not easily / not as expected",
+      "pattern_en": "なかなか + negative expression",
+      "explain_en": "When followed by a negative expression, なかなか means 'not easily' or 'not as expected'.",
+      "examples": [
+        {
+          "jp": "日本ではなかなか馬を見ることができません。",
+          "romaji": "Nihon de wa nakanaka uma o miru koto ga dekimasen.",
+          "bn": "জাপানে সহজে ঘোড়া দেখা যায় না।",
+          "en": "You cannot easily see horses in Japan."
+        },
+        {
+          "jp": "漢字はなかなか覚えられません。",
+          "romaji": "Kanji wa nakanaka oboeraremasen.",
+          "bn": "কাঞ্জি সহজে মনে রাখতে পারি না।",
+          "en": "I can't memorize kanji easily."
+        }
+      ]
+    },
+    {
+      "title": "ぜひ — অবশ্যই / খুব ইচ্ছা",
+      "pattern": "ぜひ + request / desire expression",
+      "explain": "নিজের প্রবল ইচ্ছা প্রকাশ করতে বা কাউকে আন্তরিকভাবে কিছু করতে অনুরোধ করতে ぜひ ব্যবহার হয়। সাধারণত ～たいです বা ～てください-এর সঙ্গে আসে।",
+      "title_en": "By all means / really",
+      "pattern_en": "ぜひ + request / desire expression",
+      "explain_en": "ぜひ intensifies an expression of hope or desire, or makes an invitation/request enthusiastic.",
+      "examples": [
+        {
+          "jp": "ぜひ北海道へ行きたいです。",
+          "romaji": "Zehi Hokkaidou e ikitai desu.",
+          "bn": "আমি অবশ্যই হোক্কাইদো যেতে চাই।",
+          "en": "I really want to go to Hokkaido."
+        },
+        {
+          "jp": "ぜひ遊びに来てください。",
+          "romaji": "Zehi asobi ni kite kudasai.",
+          "bn": "অবশ্যই বেড়াতে আসবেন।",
+          "en": "Please do come and visit."
+        }
+      ]
+    }
+  ]
+}

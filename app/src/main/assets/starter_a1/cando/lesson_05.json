@@ -1,0 +1,39 @@
+{
+  "lesson": 5,
+  "title": "আমি উদোন পছন্দ করি",
+  "title_en": "I like udon.",
+  "points": [
+    {
+      "title": "Can-do 16–18: খাবার ও পানীয়ের পছন্দ",
+      "pattern": "食べ物や飲み物の好き嫌いを質問したり、答えたりすることができる。",
+      "explain": "জাপানি খাবার ও পানীয়ের পছন্দ-অপছন্দ নিয়ে কথা বলতে পারা।",
+      "title_en": "Can-do 16–18",
+      "pattern_en": "Can discuss likes and dislikes for food and drinks.",
+      "explain_en": "Respond when offered drinks and discuss food preferences.",
+      "examples": [
+        {
+          "jp": "お茶、飲みますか? はい、お願いします。",
+          "romaji": "Ocha, nomimasu ka? Hai, onegaishimasu.",
+          "bn": "চা খাবেন? হ্যাঁ, দিন।",
+          "en": "Would you like tea? Yes, please."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 19–20: সকালের নাশতা ও SNS পোস্ট",
+      "pattern": "朝ご飯に何を食べるか話したり、食事の写真をSNSに投稿したりできる。",
+      "explain": "সকালের নাশতার অভ্যাস বলতে এবং খাবারের ছবিসহ পোস্ট লিখতে পারা।",
+      "title_en": "Can-do 19–20",
+      "pattern_en": "Can talk about breakfast and post food photos on SNS.",
+      "explain_en": "Discuss breakfast habits and write simple social media captions.",
+      "examples": [
+        {
+          "jp": "今日の朝ご飯。いただきます!",
+          "romaji": "Kyou no asagohan. Itadakimasu!",
+          "bn": "আজকের সকালের নাশতা। খাওয়া শুরু করছি!",
+          "en": "Today's breakfast. Let's eat!"
+        }
+      ]
+    }
+  ]
+}

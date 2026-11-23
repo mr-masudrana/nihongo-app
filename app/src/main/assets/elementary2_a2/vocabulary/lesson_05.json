@@ -1,14 +1,77 @@
 {
   "lesson": 5,
-  "title": "জাপানি সংস্কৃতি ও রীতিনীতি",
-  "title_en": "Japanese Culture and Customs",
+  "title": "তাড়াতাড়ি বুকিং করে নেওয়াই ভালো",
+  "title_en": "You should make a reservation early.",
   "words": [
     {
-      "word": "しゅうかん",
-      "reading": "しゅうかん",
-      "romaji": "shuukan",
-      "bn": "রীতিনীতি / অভ্যাস",
-      "en": "custom / habit"
+      "word": "自然が豊か(な)",
+      "reading": "しぜんがゆたか(な)",
+      "romaji": "shizen ga yutaka (na)",
+      "bn": "প্রাকৃতিক সৌন্দর্যে ভরপুর",
+      "en": "rich in nature"
+    },
+    {
+      "word": "新鮮(な)",
+      "reading": "しんせん(な)",
+      "romaji": "shinsen (na)",
+      "bn": "টাটকা / সতেজ",
+      "en": "fresh"
+    },
+    {
+      "word": "カニ / ウニ",
+      "reading": "カニ / ウニ",
+      "romaji": "kani / uni",
+      "bn": "কাঁকড়া / সি-আর্চিন",
+      "en": "crab / sea urchin"
+    },
+    {
+      "word": "1泊2日",
+      "reading": "いっぱくふつか",
+      "romaji": "ippaku futsuka",
+      "bn": "১ রাত ২ দিন",
+      "en": "one night and two days"
+    },
+    {
+      "word": "遊園地",
+      "reading": "ゆうえんち",
+      "romaji": "yuuenchi",
+      "bn": "অ্যামিউজমেন্ট পার্ক",
+      "en": "amusement park"
+    },
+    {
+      "word": "旅館 / 民宿",
+      "reading": "りょかん / みんしゅく",
+      "romaji": "ryokan / minshuku",
+      "bn": "ঐতিহ্যবাহী জাপানি সরাইখানা / পারিবারিক গেস্টহাউস",
+      "en": "traditional inn / family-run guesthouse"
+    },
+    {
+      "word": "スキー板 / 手袋",
+      "reading": "スキーいた / てぶくろ",
+      "romaji": "sukii ita / tebukuro",
+      "bn": "স্কি বোর্ড / হাতমোজা (গ্লাভস)",
+      "en": "skis / gloves"
+    },
+    {
+      "word": "日帰り",
+      "reading": "ひがえり",
+      "romaji": "higairi",
+      "bn": "দিনে গিয়ে দিনে ফিরে আসা (ডে-ট্রিপ)",
+      "en": "day trip"
+    },
+    {
+      "word": "ロープウェイ",
+      "reading": "ロープウェイ",
+      "romaji": "roopuwei",
+      "bn": "কেবল কার / রোপওয়ে",
+      "en": "ropeway / cable car"
+    },
+    {
+      "word": "意外に",
+      "reading": "いがいに",
+      "romaji": "igai ni",
+      "bn": "অপ্রত্যাশিতভাবে / ভাবনার চেয়েও বেশি",
+      "en": "surprisingly / unexpectedly"
     }
   ]
 }

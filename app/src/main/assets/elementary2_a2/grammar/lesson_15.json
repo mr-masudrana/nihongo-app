@@ -1,21 +1,37 @@
 {
   "lesson": 15,
-  "title": "খাবারের সংস্কৃতি ও রান্না",
-  "title_en": "Food Culture and Cooking",
+  "title": "মিটিং রুমের লাইট জ্বালানো অবস্থায় ছিল",
+  "title_en": "The lights in the meeting room were left on.",
   "points": [
     {
-      "title": "খাবারের সংস্কৃতি ও রান্না — ব্যাকরণ প্যাটার্ন",
-      "pattern": "りょうり ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 15-এর মূল ব্যাকরণ।",
-      "title_en": "Food Culture and Cooking — Grammar Pattern",
-      "pattern_en": "Can do ryouri",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 15.",
+      "title": "V-たままです (কোনো অবস্থা অপরিবর্তিত থাকা)",
+      "pattern": "会議室の電気がついたままでしたよ / 窓が開いたままです",
+      "explain": "কোনো কিছু বন্ধ না করে চালু বা খোলা অবস্থায় রেখে দেওয়া হয়েছে বোঝাতে ক্রিয়ার た-form এর সাথে 'ままです' ব্যবহৃত হয়।",
+      "title_en": "Unchanged state: V-たままです",
+      "pattern_en": "Denki ga tsuita mama desu / Aita mama desu",
+      "explain_en": "Point out when lights, water, or doors are left on/open.",
       "examples": [
         {
-          "jp": "じぶんで りょうり を することができます。",
-          "romaji": "Jibun de ryouri o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে রান্না / খাবার করতে পারি।",
-          "en": "I can do cooking / dish by myself."
+          "jp": "水が出たままですよ。止めてください。",
+          "romaji": "Mizu ga deta mama desu yo. Tomete kudasai.",
+          "bn": "পানি ছাড়া অবস্থায় আছে। বন্ধ করুন।",
+          "en": "The water is left running. Please turn it off."
+        }
+      ]
+    },
+    {
+      "title": "V-るのにいいです (কোনো কাজের জন্য উপকারী)",
+      "pattern": "マイストローは、ごみを減らすのにいいんですよ",
+      "explain": "কোনো জিনিস কী কাজের জন্য ভালো বা সহায়ক তা বোঝাতে ক্রিয়ার অভিধান রূপের সাথে 'のにいいです' বসে।",
+      "title_en": "Expressing usefulness: V-るのにいいです",
+      "pattern_en": "Gomi o herasu noni ii desu",
+      "explain_en": "Explain how eco-friendly habits help protect the environment.",
+      "examples": [
+        {
+          "jp": "マイバッグは、プラスチックごみを減らすのにいいです。",
+          "romaji": "Mai baggu wa, purasuchikku gomi o herasu noni ii desu.",
+          "bn": "নিজস্ব ব্যাগ প্লাস্টিক বর্জ্য কমানোর জন্য খুব ভালো।",
+          "en": "Reusable bags are great for reducing plastic waste."
         }
       ]
     }

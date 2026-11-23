@@ -1,0 +1,39 @@
+{
+  "lesson": 6,
+  "title": "একটি চিজবার্গার দিন",
+  "title_en": "I'd like a cheeseburger, please.",
+  "points": [
+    {
+      "title": "Can-do 21–23: ফাস্টফুড ও ক্যান্টিনে অর্ডার",
+      "pattern": "メニューを見て、注文したり、何を食べるか話し合ったりすることができる。",
+      "explain": "মেনু বুঝে অর্ডার করতে এবং সহকর্মীদের সাথে কী খাবেন তা ঠিক করতে পারা।",
+      "title_en": "Can-do 21–23",
+      "pattern_en": "Can read menus and order at fast food restaurants.",
+      "explain_en": "Understand menus and place orders.",
+      "examples": [
+        {
+          "jp": "私はカレーにします。",
+          "romaji": "Watashi wa karee ni shimasu.",
+          "bn": "আমি কারি নেব।",
+          "en": "I'll have curry."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 24–25: রেস্তোরাঁয় অর্ডার ও সাইনবোর্ড বোঝা",
+      "pattern": "飲食店で料理やほしいものを頼んだり、看板を見て何の店かわかる。",
+      "explain": "রেস্তোরাঁয় খাবার, প্লেট বা পানি চাইতে এবং সাইনবোর্ড দেখে দোকানের ধরন বুঝতে পারা।",
+      "title_en": "Can-do 24–25",
+      "pattern_en": "Can order at restaurants and read shop signs.",
+      "explain_en": "Order dishes, request items, and identify restaurants.",
+      "examples": [
+        {
+          "jp": "枝豆2つください。",
+          "romaji": "Edamame futatsu kudasai.",
+          "bn": "২টি এদামামে দিন।",
+          "en": "Two edamame, please."
+        }
+      ]
+    }
+  ]
+}

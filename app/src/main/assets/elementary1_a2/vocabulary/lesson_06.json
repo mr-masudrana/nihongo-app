@@ -1,14 +1,91 @@
 {
   "lesson": 6,
-  "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য",
-  "title_en": "Asking Directions",
+  "title": "পোস্ট অফিসে কীভাবে গেলে ভালো হয়?",
+  "title_en": "Please tell me how to get to the post office.",
   "words": [
     {
-      "word": "まっすぐ",
-      "reading": "まっすぐ",
-      "romaji": "massugu",
-      "bn": "সোজা",
-      "en": "straight"
+      "word": "信号",
+      "reading": "しんごう",
+      "romaji": "shingou",
+      "bn": "ট্রাফিক সিগন্যাল",
+      "en": "traffic light"
+    },
+    {
+      "word": "横断歩道",
+      "reading": "おうだんほどう",
+      "romaji": "oudanhodou",
+      "bn": "জেব্রা ক্রসিং / পথচারী পারাপার",
+      "en": "crosswalk"
+    },
+    {
+      "word": "角",
+      "reading": "かど",
+      "romaji": "kado",
+      "bn": "রাস্তার মোড় / কোণা",
+      "en": "corner"
+    },
+    {
+      "word": "交差点",
+      "reading": "こうさてん",
+      "romaji": "kousaten",
+      "bn": "চৌরাস্তা",
+      "en": "intersection"
+    },
+    {
+      "word": "橋",
+      "reading": "はし",
+      "romaji": "hashi",
+      "bn": "সেতু / ব্রিজ",
+      "en": "bridge"
+    },
+    {
+      "word": "まっすぐ行きます",
+      "reading": "まっすぐいきます",
+      "romaji": "massugu ikimasu",
+      "bn": "সোজা যাই",
+      "en": "go straight"
+    },
+    {
+      "word": "右 / 左に曲がります",
+      "reading": "みぎ / ひだりにまがります",
+      "romaji": "migi / hidari ni magarimasu",
+      "bn": "ডানে / বামে ঘুরি",
+      "en": "turn right / left"
+    },
+    {
+      "word": "渡ります",
+      "reading": "わたります",
+      "romaji": "watarimasu",
+      "bn": "পার হই (রাস্তা বা সেতু)",
+      "en": "cross"
+    },
+    {
+      "word": "1つ目 / 2つ目",
+      "reading": "ひとつめ / ふたつめ",
+      "romaji": "hitotsume / futatsume",
+      "bn": "প্রথমটি / দ্বিতীয়টি",
+      "en": "the first / the second"
+    },
+    {
+      "word": "交番",
+      "reading": "こうばん",
+      "romaji": "kouban",
+      "bn": "পুলিশ বক্স (কোবান)",
+      "en": "police box"
+    },
+    {
+      "word": "駐車場",
+      "reading": "ちゅうしゃじょう",
+      "romaji": "chuushajou",
+      "bn": "পার্কিং লট",
+      "en": "parking lot"
+    },
+    {
+      "word": "お寺 / 神社",
+      "reading": "おてら / じんじゃ",
+      "romaji": "otera / jinja",
+      "bn": "বৌদ্ধ মন্দির / শিন্তো উপাসনালয়",
+      "en": "temple / shrine"
     }
   ]
 }

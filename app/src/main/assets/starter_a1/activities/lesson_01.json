@@ -1,0 +1,74 @@
+{
+  "lesson": 1,
+  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
+  "title_en": "Good morning! (Greetings)",
+  "dialogues": [
+    {
+      "title": "১. কারো সাথে দেখা হলে শুভেচ্ছা বিনিময়",
+      "title_en": "1. Greeting people when meeting",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "bn": "শুভ সকাল।",
+          "en": "Good morning."
+        },
+        {
+          "speaker": "B",
+          "jp": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "bn": "শুভ সকাল।",
+          "en": "Good morning."
+        }
+      ]
+    },
+    {
+      "title": "২. কর্মক্ষেত্র থেকে বিদায় নেওয়া",
+      "title_en": "2. Saying goodbye at work",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "お先に失礼します。",
+          "romaji": "Osaki ni shitsureeshimasu.",
+          "bn": "আমি আগে যাচ্ছি।",
+          "en": "Excuse me for leaving ahead of you."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、お疲れさまでした。",
+          "romaji": "A, otsukaresama deshita.",
+          "bn": "আচ্ছা, ধন্যবাদ।",
+          "en": "Oh, thank you for your hard work."
+        }
+      ]
+    },
+    {
+      "title": "৩. ধন্যবাদ ও দুঃখ প্রকাশ করা",
+      "title_en": "3. Thanking and apologizing",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "これ、落としましたよ。",
+          "romaji": "Kore, otoshimashita yo.",
+          "bn": "এটা পড়ে গিয়েছিল।",
+          "en": "You dropped this."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、すみません。ありがとうございます。",
+          "romaji": "A, sumimasen. Arigatou gozaimasu.",
+          "bn": "ওহ, মাফ করবেন। অনেক ধন্যবাদ।",
+          "en": "Oh, sorry. Thank you very much."
+        },
+        {
+          "speaker": "A",
+          "jp": "いいえ。",
+          "romaji": "Iie.",
+          "bn": "কিছু না।",
+          "en": "You're welcome."
+        }
+      ]
+    }
+  ]
+}

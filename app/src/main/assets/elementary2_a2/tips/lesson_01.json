@@ -1,0 +1,23 @@
+{
+  "lesson": 1,
+  "title": "গত সপ্তাহে জাপানে এসেছি মাত্র",
+  "title_en": "I just came to Japan last week.",
+  "points": [
+    {
+      "title": "J-POP, তাবে-আরুকি (食べ歩き) ও SNS ভাষা শিক্ষা গ্রুপ",
+      "pattern": "J-POP・食べ歩き・アニソン・SNSの日本語学習グループ",
+      "explain": "বিভিন্ন রেস্তোরাঁ ঘুরে স্থানীয় খাবার উপভোগ করাকে জাপানে 'তাবে-আরুকি' (食べ歩き) বলে। এছাড়া HiNative বা SNS গ্রুপের মাধ্যমে জাপানিদের সাথে ভাষা চর্চা করা যায়।",
+      "title_en": "J-POP, Tabe-aruki & SNS Language Groups",
+      "pattern_en": "Music, Food tours, and Online study communities",
+      "explain_en": "Tabe-aruki means hopping between eateries to sample local dishes.",
+      "examples": [
+        {
+          "jp": "趣味は食べ歩きです。",
+          "romaji": "Shumi wa tabearuki desu.",
+          "bn": "আমার শখ বিভিন্ন দোকানে ঘুরে খাবার খাওয়া।",
+          "en": "My hobby is trying food at different restaurants."
+        }
+      ]
+    }
+  ]
+}

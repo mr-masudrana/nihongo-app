@@ -1,14 +1,98 @@
 {
   "lesson": 4,
-  "title": "রেস্তোরাঁর খাবার ও স্বাদ",
-  "title_en": "Restaurant Food and Taste",
+  "title": "গতকাল প্রচণ্ড বৃষ্টি হয়েছিল, তাই না!",
+  "title_en": "It rained heavily yesterday.",
   "words": [
     {
-      "word": "おいしい",
-      "reading": "おいしい",
-      "romaji": "oishii",
-      "bn": "সুস্বাদু",
-      "en": "delicious"
+      "word": "晴れ / 晴れます",
+      "reading": "はれ / はれます",
+      "romaji": "hare / haremasu",
+      "bn": "রৌদ্রোজ্জ্বল / আকাশ পরিষ্কার হওয়া",
+      "en": "sunny / clear up"
+    },
+    {
+      "word": "くもり / くもります",
+      "reading": "くもり / くもります",
+      "romaji": "kumori / kumorimasu",
+      "bn": "মেঘলা / মেঘাচ্ছন্ন হওয়া",
+      "en": "cloudy"
+    },
+    {
+      "word": "雨が降ります",
+      "reading": "あめがふります",
+      "romaji": "ame ga furimasu",
+      "bn": "বৃষ্টি পড়ে",
+      "en": "rain falls"
+    },
+    {
+      "word": "雪が降ります",
+      "reading": "ゆきがふります",
+      "romaji": "yuki ga furimasu",
+      "bn": "তুষারপাত হয়",
+      "en": "snow falls"
+    },
+    {
+      "word": "風が吹きます",
+      "reading": "かぜがふきます",
+      "romaji": "kaze ga fukimasu",
+      "bn": "বাতাস বয়",
+      "en": "wind blows"
+    },
+    {
+      "word": "雷が鳴ります",
+      "reading": "かみなりがなります",
+      "romaji": "kaminari ga narimasu",
+      "bn": "বজ্রপাত হয় / মেঘ ডাকে",
+      "en": "thunder rumbles"
+    },
+    {
+      "word": "天気予報",
+      "reading": "てんきよほう",
+      "romaji": "tenki yohou",
+      "bn": "আবহাওয়ার পূর্বাভাস",
+      "en": "weather forecast"
+    },
+    {
+      "word": "夜中",
+      "reading": "よなか",
+      "romaji": "yonaka",
+      "bn": "মাঝরাত",
+      "en": "midnight"
+    },
+    {
+      "word": "やみます",
+      "reading": "やみます",
+      "romaji": "yamimasu",
+      "bn": "থেমে যায় (বৃষ্টি/তুষার)",
+      "en": "stop (rain/snow)"
+    },
+    {
+      "word": "強い",
+      "reading": "つよい",
+      "romaji": "tsuyoi",
+      "bn": "শক্তিশালী / প্রবল",
+      "en": "strong"
+    },
+    {
+      "word": "台風",
+      "reading": "たいふう",
+      "romaji": "taifuu",
+      "bn": "টাইফুন / ঘূর্ণিঝড়",
+      "en": "typhoon"
+    },
+    {
+      "word": "気温",
+      "reading": "きおん",
+      "romaji": "kion",
+      "bn": "তাপমাত্রা",
+      "en": "temperature"
+    },
+    {
+      "word": "真っ白",
+      "reading": "まっしろ",
+      "romaji": "masshiro",
+      "bn": "ধবধবে সাদা",
+      "en": "pure white"
     }
   ]
 }

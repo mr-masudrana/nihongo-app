@@ -1,0 +1,23 @@
+{
+  "lesson": 5,
+  "title": "খুবই জমজমাট এবং সুবিধাজনক",
+  "title_en": "It is very lively and convenient.",
+  "points": [
+    {
+      "title": "স্পোর্টস ক্লাব, শপিং মল ও পাবলিক বাথহাউস (銭湯・スーパー銭湯)",
+      "pattern": "スポーツクラブ・ショッピングモール・入浴施設",
+      "explain": "জাপানে কম খরচে গোসল ও বিশ্রামের জন্য 'সেন্তো' (銭湯) এবং বড় পরিসরে 'সুপার সেন্তো' বা 'কেনকো ল্যান্ড' রয়েছে।",
+      "title_en": "Sports Clubs, Shopping Malls & Bathing Facilities",
+      "pattern_en": "Sentoo, Super Sentoo, Kenkoo-land",
+      "explain_en": "Public bathhouses (sentoo) are affordable places to relax.",
+      "examples": [
+        {
+          "jp": "1日ゆっくりできますよ。",
+          "romaji": "Ichinichi yukkuri dekimasu yo.",
+          "bn": "সারাদিন আরামে সময় কাটাতে পারবেন।",
+          "en": "You can relax all day."
+        }
+      ]
+    }
+  ]
+}

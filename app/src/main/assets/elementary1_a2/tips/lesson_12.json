@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "title": "বেন্তোটা দেখতে খুব সুস্বাদু মনে হচ্ছে",
+  "title_en": "Your bento looks delicious.",
+  "points": [
+    {
+      "title": "জাপানি বেন্তো, দাশি (だし) ও ইনস্ট্যান্ট কাপ ইয়াকিসোবা",
+      "pattern": "お弁当・卵焼き・だし・カップ焼きそば",
+      "explain": "জাপানি খাবারের মূল স্বাদ আসে 'দাশি' (কম্বু ও কাতসুওবুশি থেকে তৈরি স্টক) থেকে। কাপ ইয়াকিসোবা বানানোর সময় গরম পানি ঢেলে ৩ মিনিট পর পানি ঝরিয়ে তারপর সস মেশাতে হয়।",
+      "title_en": "Obento, Dashi & Cup Yakisoba",
+      "pattern_en": "Japanese culinary basics",
+      "explain_en": "Dashi is the foundational soup stock in Japanese cooking.",
+      "examples": [
+        {
+          "jp": "お湯を捨てて、ソースを混ぜます。",
+          "romaji": "Oyu o sutete, soosu o mazemasu.",
+          "bn": "গরম পানি ফেলে দিয়ে সস মেশান।",
+          "en": "Drain the hot water and mix in the sauce."
+        }
+      ]
+    }
+  ]
+}

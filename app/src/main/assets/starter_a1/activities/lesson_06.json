@@ -1,0 +1,41 @@
+{
+  "lesson": 6,
+  "title": "একটি চিজবার্গার দিন",
+  "title_en": "I'd like a cheeseburger, please.",
+  "dialogues": [
+    {
+      "title": "১. ফাস্টফুড দোকানে অর্ডার করা",
+      "title_en": "1. Ordering at a fast food restaurant",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "いらっしゃいませ。おうかがいします。",
+          "romaji": "Irasshaimase. Oukagai shimasu.",
+          "bn": "স্বাগতম। কী অর্ডার করবেন?",
+          "en": "Welcome. May I take your order?"
+        },
+        {
+          "speaker": "B",
+          "jp": "チキンバーガーのセット、ください。",
+          "romaji": "Chikin baagaa no setto, kudasai.",
+          "bn": "চিকেন বার্গার সেট দিন।",
+          "en": "A chicken burger set, please."
+        },
+        {
+          "speaker": "A",
+          "jp": "こちらでおめしあがりですか?",
+          "romaji": "Kochira de omeshiagari desu ka?",
+          "bn": "এখানেই খাবেন কি?",
+          "en": "Eat in?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いえ、テイクアウトで。",
+          "romaji": "Iie, teikuauto de.",
+          "bn": "না, পার্সেল নেব।",
+          "en": "No, takeout please."
+        }
+      ]
+    }
+  ]
+}

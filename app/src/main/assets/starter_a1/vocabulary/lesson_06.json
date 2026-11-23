@@ -1,56 +1,105 @@
 {
   "lesson": 6,
-  "title": "রেস্তোরাঁয় খাবার অর্ডার করা",
-  "title_en": "Ordering at a Restaurant",
+  "title": "একটি চিজবার্গার দিন",
+  "title_en": "I'd like a cheeseburger, please.",
   "words": [
     {
-      "word": "メニュー",
-      "reading": "メニュー",
-      "romaji": "menyuu",
-      "bn": "মেনু",
-      "en": "menu"
+      "word": "単品",
+      "reading": "たんぴん",
+      "romaji": "tanpin",
+      "bn": "সিঙ্গেল আইটেম",
+      "en": "single item"
     },
     {
-      "word": "ちゅうもん",
-      "reading": "ちゅうもん",
-      "romaji": "chuumon",
-      "bn": "অর্ডার",
-      "en": "order"
+      "word": "セット",
+      "reading": "セット",
+      "romaji": "setto",
+      "bn": "সেট মেনু",
+      "en": "set menu"
     },
     {
-      "word": "カレー",
-      "reading": "カレー",
-      "romaji": "karee",
-      "bn": "কারি",
-      "en": "curry"
+      "word": "お持ち帰り",
+      "reading": "おもちかえり",
+      "romaji": "omochikaeri",
+      "bn": "টেকআউট / পার্সেল",
+      "en": "takeout"
     },
     {
-      "word": "ラーメン",
-      "reading": "ラーメン",
-      "romaji": "raamen",
-      "bn": "রামেন নুডলস",
-      "en": "ramen"
+      "word": "こちらでおめしあがりですか",
+      "reading": "こちらでおめしあがりですか",
+      "romaji": "kochira de omeshiagari desu ka",
+      "bn": "এখানেই খাবেন কি?",
+      "en": "Would you like to eat in?"
     },
     {
-      "word": "ひとつ",
+      "word": "何になさいますか",
+      "reading": "なにになさいますか",
+      "romaji": "nani ni nasaimasu ka",
+      "bn": "কী নেবেন?",
+      "en": "What would you like?"
+    },
+    {
+      "word": "唐揚げ",
+      "reading": "からあげ",
+      "romaji": "karaage",
+      "bn": "জাপানি ফ্রাইড চিকেন",
+      "en": "fried chicken"
+    },
+    {
+      "word": "焼き鳥",
+      "reading": "やきとり",
+      "romaji": "yakitori",
+      "bn": "গ্রিলড চিকেন স্কিউয়ার",
+      "en": "grilled chicken skewers"
+    },
+    {
+      "word": "枝豆",
+      "reading": "えだまめ",
+      "romaji": "edamame",
+      "bn": "সেদ্ধ সয়াবিন শুঁটি",
+      "en": "edamame"
+    },
+    {
+      "word": "一つ",
       "reading": "ひとつ",
       "romaji": "hitotsu",
       "bn": "একটি",
-      "en": "one (thing)"
+      "en": "one"
     },
     {
-      "word": "ふたつ",
+      "word": "二つ",
       "reading": "ふたつ",
       "romaji": "futatsu",
       "bn": "দুইটি",
-      "en": "two (things)"
+      "en": "two"
     },
     {
-      "word": "ください",
-      "reading": "ください",
-      "romaji": "kudasai",
-      "bn": "দিন / অনুরোধ করছি",
-      "en": "please give me"
+      "word": "三つ",
+      "reading": "みっつ",
+      "romaji": "mittsu",
+      "bn": "তিনটি",
+      "en": "three"
+    },
+    {
+      "word": "取り皿",
+      "reading": "とりざら",
+      "romaji": "torizara",
+      "bn": "ছোট প্লেট (শেয়ার করার জন্য)",
+      "en": "individual sharing plate"
+    },
+    {
+      "word": "おしぼり",
+      "reading": "おしぼり",
+      "romaji": "oshibori",
+      "bn": "হাত মোছার ভেজা তোয়ালে",
+      "en": "wet hand towel"
+    },
+    {
+      "word": "居酒屋",
+      "reading": "いざかや",
+      "romaji": "izakaya",
+      "bn": "ইজাকাইয়া (জাপানি রেস্তোরাঁ ও পাব)",
+      "en": "Japanese-style pub"
     }
   ]
 }

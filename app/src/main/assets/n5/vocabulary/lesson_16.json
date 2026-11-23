@@ -1,0 +1,377 @@
+{
+  "lesson": 16,
+  "title": "যাতায়াত, শরীর ও অবস্থান",
+  "words": [
+    {
+      "word": "乗ります [電車に～]",
+      "reading": "のります [でんしゃに～]",
+      "romaji": "norimasu [densha ni ~]",
+      "bn": "চড়া [ট্রেনে]",
+      "en": "ride, get on [a train]",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "降ります [電車を～]",
+      "reading": "おります [でんしゃを～]",
+      "romaji": "orimasu [densha o ~]",
+      "bn": "নামা [ট্রেন থেকে]",
+      "en": "get off [a train]",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "乗り換えます",
+      "reading": "のりかえます",
+      "romaji": "norikaemasu",
+      "bn": "যানবাহন পরিবর্তন করা",
+      "en": "change (train, etc.)",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "浴びます [シャワーを～]",
+      "reading": "あびます [シャワーを～]",
+      "romaji": "abimasu [shawaa o ~]",
+      "bn": "গোসল করা / শাওয়ার নেওয়া",
+      "en": "take [a shower]",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "入れます",
+      "reading": "いれます",
+      "romaji": "iremasu",
+      "bn": "ভেতরে রাখা / ঢোকানো",
+      "en": "put in, insert",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "出します [お金を～]",
+      "reading": "だします [おかねを～]",
+      "romaji": "dashimasu [okane o ~]",
+      "bn": "বের করা / জমা বা প্রদান করা [টাকা]",
+      "en": "take out, hand in, send",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "下ろします [お金を～]",
+      "reading": "おろします [おかねを～]",
+      "romaji": "oroshimasu [okane o ~]",
+      "bn": "টাকা তোলা",
+      "en": "withdraw [money]",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "入ります [大学に～]",
+      "reading": "はいります [だいがくに～]",
+      "romaji": "hairimasu [daigaku ni ~]",
+      "bn": "ভর্তি হওয়া [বিশ্ববিদ্যালয়ে]",
+      "en": "enter [university]",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "出ます [大学を～]",
+      "reading": "でます [だいがくを～]",
+      "romaji": "demasu [daigaku o ~]",
+      "bn": "স্নাতক হওয়া / বের হওয়া [বিশ্ববিদ্যালয় থেকে]",
+      "en": "graduate from [university]",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "押します",
+      "reading": "おします",
+      "romaji": "oshimasu",
+      "bn": "চাপ দেওয়া",
+      "en": "push, press",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "飲みます",
+      "reading": "のみます",
+      "romaji": "nomimasu",
+      "bn": "পান করা",
+      "en": "drink alcohol",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "始めます",
+      "reading": "はじめます",
+      "romaji": "hajimemasu",
+      "bn": "শুরু করা",
+      "en": "start, begin",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "見学します",
+      "reading": "けんがくします",
+      "romaji": "kengaku shimasu",
+      "bn": "পরিদর্শন করা / ঘুরে দেখা",
+      "en": "visit a place to study it",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "電話します",
+      "reading": "でんわします",
+      "romaji": "denwa shimasu",
+      "bn": "ফোন করা",
+      "en": "phone",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "若い",
+      "reading": "わかい",
+      "romaji": "wakai",
+      "bn": "তরুণ / যুবক",
+      "en": "young"
+    },
+    {
+      "word": "長い",
+      "reading": "ながい",
+      "romaji": "nagai",
+      "bn": "লম্বা / দীর্ঘ",
+      "en": "long"
+    },
+    {
+      "word": "短い",
+      "reading": "みじかい",
+      "romaji": "mijikai",
+      "bn": "খাটো / সংক্ষিপ্ত",
+      "en": "short"
+    },
+    {
+      "word": "明るい",
+      "reading": "あかるい",
+      "romaji": "akarui",
+      "bn": "উজ্জ্বল / আলোকিত",
+      "en": "bright, light"
+    },
+    {
+      "word": "暗い",
+      "reading": "くらい",
+      "romaji": "kurai",
+      "bn": "অন্ধকার",
+      "en": "dark"
+    },
+    {
+      "word": "体",
+      "reading": "からだ",
+      "romaji": "karada",
+      "bn": "শরীর / স্বাস্থ্য",
+      "en": "body, health"
+    },
+    {
+      "word": "頭",
+      "reading": "あたま",
+      "romaji": "atama",
+      "bn": "মাথা",
+      "en": "head, brain"
+    },
+    {
+      "word": "髪",
+      "reading": "かみ",
+      "romaji": "kami",
+      "bn": "চুল",
+      "en": "hair"
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "romaji": "kao",
+      "bn": "মুখমণ্ডল",
+      "en": "face"
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "romaji": "me",
+      "bn": "চোখ",
+      "en": "eye"
+    },
+    {
+      "word": "耳",
+      "reading": "みみ",
+      "romaji": "mimi",
+      "bn": "কান",
+      "en": "ear"
+    },
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "romaji": "hana",
+      "bn": "নাক",
+      "en": "nose"
+    },
+    {
+      "word": "口",
+      "reading": "くち",
+      "romaji": "kuchi",
+      "bn": "মুখ",
+      "en": "mouth"
+    },
+    {
+      "word": "歯",
+      "reading": "は",
+      "romaji": "ha",
+      "bn": "দাঁত",
+      "en": "tooth"
+    },
+    {
+      "word": "おなか",
+      "reading": "おなか",
+      "romaji": "onaka",
+      "bn": "পেট",
+      "en": "stomach"
+    },
+    {
+      "word": "足",
+      "reading": "あし",
+      "romaji": "ashi",
+      "bn": "পা",
+      "en": "leg, foot"
+    },
+    {
+      "word": "背",
+      "reading": "せ",
+      "romaji": "se",
+      "bn": "উচ্চতা / পিঠ",
+      "en": "height, back"
+    },
+    {
+      "word": "サービス",
+      "reading": "サービス",
+      "romaji": "saabisu",
+      "bn": "সেবা / সার্ভিস",
+      "en": "service"
+    },
+    {
+      "word": "ジョギング",
+      "reading": "ジョギング",
+      "romaji": "jogingu",
+      "bn": "জগিং",
+      "en": "jogging"
+    },
+    {
+      "word": "シャワー",
+      "reading": "シャワー",
+      "romaji": "shawaa",
+      "bn": "শাওয়ার",
+      "en": "shower"
+    },
+    {
+      "word": "緑",
+      "reading": "みどり",
+      "romaji": "midori",
+      "bn": "সবুজ / সবুজ প্রকৃতি",
+      "en": "green, greenery"
+    },
+    {
+      "word": "お寺",
+      "reading": "おてら",
+      "romaji": "otera",
+      "bn": "বৌদ্ধ মন্দির",
+      "en": "Buddhist temple"
+    },
+    {
+      "word": "神社",
+      "reading": "じんじゃ",
+      "romaji": "jinja",
+      "bn": "শিন্তো মন্দির",
+      "en": "Shinto shrine"
+    },
+    {
+      "word": "～番",
+      "reading": "～ばん",
+      "romaji": "~ban",
+      "bn": "নম্বর ～",
+      "en": "number ~"
+    },
+    {
+      "word": "どうやって",
+      "reading": "どうやって",
+      "romaji": "dou yatte",
+      "bn": "কীভাবে",
+      "en": "in what way, how"
+    },
+    {
+      "word": "どの～",
+      "reading": "どの～",
+      "romaji": "dono ~",
+      "bn": "কোন ～ (তিন বা তার বেশি থেকে)",
+      "en": "which ~ (three or more)"
+    },
+    {
+      "word": "どれ",
+      "reading": "どれ",
+      "romaji": "dore",
+      "bn": "কোনটি (তিন বা তার বেশি থেকে)",
+      "en": "which one (of three or more)"
+    },
+    {
+      "word": "すごいですね",
+      "reading": "すごいですね",
+      "romaji": "sugoi desu ne",
+      "bn": "দারুণ! / অসাধারণ!",
+      "en": "That's amazing!"
+    },
+    {
+      "word": "まだまだです",
+      "reading": "まだまだです",
+      "romaji": "mada mada desu",
+      "bn": "এখনো অনেক বাকি / এখনো শিখছি",
+      "en": "I still have a long way to go"
+    },
+    {
+      "word": "お引き出し",
+      "reading": "おひきだし",
+      "romaji": "ohikidashi",
+      "bn": "টাকা উত্তোলন",
+      "en": "withdrawal"
+    },
+    {
+      "word": "まず",
+      "reading": "まず",
+      "romaji": "mazu",
+      "bn": "প্রথমে",
+      "en": "first of all"
+    },
+    {
+      "word": "次に",
+      "reading": "つぎに",
+      "romaji": "tsugi ni",
+      "bn": "এরপর",
+      "en": "next"
+    },
+    {
+      "word": "キャッシュカード",
+      "reading": "キャッシュカード",
+      "romaji": "kyasshu kaado",
+      "bn": "ক্যাশ কার্ড",
+      "en": "cash card"
+    },
+    {
+      "word": "暗証番号",
+      "reading": "あんしょうばんごう",
+      "romaji": "anshou bangou",
+      "bn": "পিন নম্বর",
+      "en": "personal identification number, PIN"
+    },
+    {
+      "word": "金額",
+      "reading": "きんがく",
+      "romaji": "kingaku",
+      "bn": "টাকার পরিমাণ",
+      "en": "amount of money"
+    },
+    {
+      "word": "確認",
+      "reading": "かくにん",
+      "romaji": "kakunin",
+      "bn": "নিশ্চিতকরণ / যাচাই",
+      "en": "confirmation"
+    },
+    {
+      "word": "ボタン",
+      "reading": "ボタン",
+      "romaji": "botan",
+      "bn": "বোতাম",
+      "en": "button"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": 9,
+  "title": "১২টা থেকে ১টা পর্যন্ত দুপুরের বিরতি",
+  "title_en": "Lunch is from noon to 1 o'clock.",
+  "points": [
+    {
+      "title": "Can-do 35–37: দৈনন্দিন রুটিন ও কাজের সময়সূচি",
+      "pattern": "起きる時間や1日のスケジュールを理解し、説明することができる。",
+      "explain": "দৈনন্দিন সময়সূচি এবং অফিসের হোয়াইটবোর্ডে লেখা শিডিউল বুঝতে পারা।",
+      "title_en": "Can-do 35–37",
+      "pattern_en": "Can understand and explain daily schedules.",
+      "explain_en": "Discuss wake/sleep times and workplace schedules.",
+      "examples": [
+        {
+          "jp": "12時から1時まで昼休みです。",
+          "romaji": "Juuniji kara ichiji made hiruyasumi desu.",
+          "bn": "১২টা থেকে ১টা পর্যন্ত দুপুরের বিরতি।",
+          "en": "Lunch break is from 12 to 1."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 38: সুবিধাজনক দিন ও সময় ঠিক করা",
+      "pattern": "日程を決めるために、都合をたずね合うことができる。",
+      "explain": "কোন দিনটি সুবিধাজনক তা একে অপরকে জিজ্ঞাসা করে সময় ঠিক করতে পারা।",
+      "title_en": "Can-do 38",
+      "pattern_en": "Can ask about availability to decide a schedule.",
+      "explain_en": "Negotiate schedules and preferred days.",
+      "examples": [
+        {
+          "jp": "私は日曜日がいいです。",
+          "romaji": "Watashi wa nichiyoubi ga ii desu.",
+          "bn": "আমার জন্য রবিবার ভালো হবে।",
+          "en": "Sunday is good for me."
+        }
+      ]
+    }
+  ]
+}

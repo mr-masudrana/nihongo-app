@@ -1,0 +1,27 @@
+{
+  "lesson": 9,
+  "title": "পড়ার নিয়মটা একটু বলে দেবেন?",
+  "title_en": "Will you tell me how to read this?",
+  "dialogues": [
+    {
+      "title": "১. জাপানি ভাষা শেখার অভিজ্ঞতা ও সাহায্য চাওয়া",
+      "title_en": "1. Talking about studying Japanese and asking for help",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "どこで日本語を勉強しましたか?",
+          "romaji": "Doko de nihongo o benkyou shimashita ka?",
+          "bn": "কোথায় জাপানি ভাষা শিখেছেন?",
+          "en": "Where did you study Japanese?"
+        },
+        {
+          "speaker": "B",
+          "jp": "アニメやアプリで勉強しました。会話は得意ですが、漢字が難しいです。",
+          "romaji": "Anime ya apuri de benkyou shimashita. Kaiwa wa tokui desu ga, kanji ga muzukashii desu.",
+          "bn": "অ্যানিমে আর অ্যাপ দিয়ে শিখেছি। কথোপকথনে ভালো, তবে কাঞ্জি কঠিন।",
+          "en": "I studied with anime and apps. I'm good at speaking, but kanji is hard."
+        }
+      ]
+    }
+  ]
+}

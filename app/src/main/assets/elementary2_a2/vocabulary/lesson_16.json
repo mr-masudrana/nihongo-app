@@ -1,14 +1,77 @@
 {
   "lesson": 16,
-  "title": "ভবিষ্যতের ক্যারিয়ার পরিকল্পনা",
-  "title_en": "Future Career Plans",
+  "title": "ভূমিকম্প হলেও আতঙ্কিত হয়ে ছোটাছুটি করবেন না",
+  "title_en": "Do not panic in case of an earthquake.",
   "words": [
     {
-      "word": "しょうらい",
-      "reading": "しょうらい",
-      "romaji": "shourai",
-      "bn": "ভবিষ্যৎ",
-      "en": "future"
+      "word": "地震 / 緊急地震速報",
+      "reading": "じしん / きんきゅうじしんそくほう",
+      "romaji": "jishin / kinkyuujishin sokuhou",
+      "bn": "ভূমিকম্প / জরুরি ভূমিকম্প সতর্কবার্তা",
+      "en": "earthquake / Earthquake Early Warning"
+    },
+    {
+      "word": "津波 / 洪水",
+      "reading": "つなみ / こうずい",
+      "romaji": "tsunami / kouzui",
+      "bn": "সুনামি / বন্যা",
+      "en": "tsunami / flood"
+    },
+    {
+      "word": "避難訓練",
+      "reading": "ひなんくんれん",
+      "romaji": "hinan kunren",
+      "bn": "দুর্যোগকালীন নিরাপদ আশ্রয় মহড়া",
+      "en": "evacuation drill"
+    },
+    {
+      "word": "避難所",
+      "reading": "ひなんじょ",
+      "romaji": "hinanjo",
+      "bn": "নিরাপদ আশ্রয়কেন্দ্র",
+      "en": "evacuation shelter"
+    },
+    {
+      "word": "あわてます",
+      "reading": "あわてます",
+      "romaji": "awatemasu",
+      "bn": "আতঙ্কিত হওয়া / তাড়াহুড়ো করা",
+      "en": "panic / rush"
+    },
+    {
+      "word": "煙",
+      "reading": "けむり",
+      "romaji": "kemuri",
+      "bn": "ধোঁয়া",
+      "en": "smoke"
+    },
+    {
+      "word": "消火器",
+      "reading": "しょうかき",
+      "romaji": "shoukaki",
+      "bn": "অগ্নিনির্বাপক যন্ত্র",
+      "en": "fire extinguisher"
+    },
+    {
+      "word": "非常持ち出し袋",
+      "reading": "ひじょうもちだしぶくろ",
+      "romaji": "hijou mochidashi bukuro",
+      "bn": "জরুরি দুর্যোগ ব্যাগ",
+      "en": "emergency grab bag"
+    },
+    {
+      "word": "懐中電灯",
+      "reading": "かいちゅうでんとう",
+      "romaji": "kaichuudentou",
+      "bn": "টর্চলাইট",
+      "en": "flashlight"
+    },
+    {
+      "word": "震度",
+      "reading": "しんど",
+      "romaji": "shindo",
+      "bn": "ভূমিকম্পের তীব্রতা (জাপানি স্কেল)",
+      "en": "seismic intensity"
     }
   ]
 }

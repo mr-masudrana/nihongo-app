@@ -1,0 +1,27 @@
+{
+  "lesson": 7,
+  "title": "রাস্তা হারিয়ে ফেলেছি, একটু দেরি হবে",
+  "title_en": "I will be a bit late because I got lost.",
+  "dialogues": [
+    {
+      "title": "১. দেখা করার সময় ও স্থান ঠিক করা",
+      "title_en": "1. Deciding when and where to meet",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "明日、何時にしますか? 6時はどうですか?",
+          "romaji": "Ashita, nanji ni shimasu ka? Rokuji wa dou desu ka?",
+          "bn": "আগামীকাল কয়টায় দেখা করব? ৬টা কেমন হয়?",
+          "en": "What time tomorrow? How about 6:00?"
+        },
+        {
+          "speaker": "B",
+          "jp": "6時半でもいいですか? 駅の改札集合で。",
+          "romaji": "Rokujihan demo ii desu ka? Eki no kaisatsu shuugou de.",
+          "bn": "সাড়ে ৬টা হলে ভালো হয়। স্টেশনের টিকিট গেটে দেখা হবে।",
+          "en": "Is 6:30 okay? Let's meet at the station ticket gate."
+        }
+      ]
+    }
+  ]
+}

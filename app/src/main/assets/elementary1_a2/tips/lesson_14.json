@@ -1,0 +1,23 @@
+{
+  "lesson": 14,
+  "title": "ছুটি নিলেও কি চলবে?",
+  "title_en": "May I take a day off?",
+  "points": [
+    {
+      "title": "সিলমোহর (印鑑・ハンコ) ও সবেতন ছুটি (有給休暇)",
+      "pattern": "印鑑/ハンコ・有給休暇",
+      "explain": "জাপানে স্বাক্ষরের পরিবর্তে ব্যক্তিগত সিলমোহর বা 'হাঙ্কো' (ハンコ) ব্যবহৃত হয়। এছাড়া টানা ৬ মাস কাজ করার পর কর্মীরা সবেতন ছুটি (有給休暇) পাওয়ার যোগ্য হন।",
+      "title_en": "Personal Seals (Hanko) & Paid Leave",
+      "pattern_en": "Inkan, Hanko, Yuukyuu Kyuuka",
+      "explain_en": "Personal stamps (hanko) are used on official forms; paid leave starts after 6 months.",
+      "examples": [
+        {
+          "jp": "ここにハンコを押してください。",
+          "romaji": "Koko ni hanko o oshite kudasai.",
+          "bn": "এখানে সিলমোহর দিন।",
+          "en": "Please stamp your seal here."
+        }
+      ]
+    }
+  ]
+}

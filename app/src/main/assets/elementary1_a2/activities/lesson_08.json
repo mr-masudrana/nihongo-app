@@ -1,0 +1,34 @@
+{
+  "lesson": 8,
+  "title": "বেসবল কখনো খেলেছেন কি?",
+  "title_en": "Have you ever played baseball?",
+  "dialogues": [
+    {
+      "title": "১. অভিজ্ঞতা জিজ্ঞাসা করে ঘুরতে যাওয়ার আমন্ত্রণ",
+      "title_en": "1. Asking about experience and inviting someone out",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "新しいアウトレットモール、もう行きましたか?",
+          "romaji": "Atarashii autoretto mooru, mou ikimashita ka?",
+          "bn": "নতুন আউটলেট মলে কি ইতিমধ্যে গিয়েছেন?",
+          "en": "Have you been to the new outlet mall yet?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いえ、まだです。",
+          "romaji": "Iie, mada desu.",
+          "bn": "না, এখনো যাইনি।",
+          "en": "No, not yet."
+        },
+        {
+          "speaker": "A",
+          "jp": "じゃあ、今度、いっしょに行きませんか?",
+          "romaji": "Jaa, kondo, issho ni ikimasen ka?",
+          "bn": "তাহলে পরের বার একসাথে যাবেন?",
+          "en": "Then, would you like to go together next time?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": 17,
+  "title": "সিনেমা দেখতে গিয়েছিলাম",
+  "title_en": "I went to see a movie.",
+  "points": [
+    {
+      "title": "Can-do 71–72: ছুটির দিনের কাজ ও অনুভূতি বলা",
+      "pattern": "休みの日にしたことやその感想を質問したり、質問に答えたりすることができる。",
+      "explain": "ছুটির দিনে কী করেছেন এবং কেমন লেগেছে তা বলতে পারা।",
+      "title_en": "Can-do 71–72",
+      "pattern_en": "Can talk about what you did on days off and your impressions.",
+      "explain_en": "Discuss weekend activities and share impressions.",
+      "examples": [
+        {
+          "jp": "楽しかったです。",
+          "romaji": "Tanoshikatta desu.",
+          "bn": "খুব মজা হয়েছে।",
+          "en": "It was fun."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 73–75: ফি চার্ট পড়া ও ভ্রমণ শেষে মেসেজ পাঠানো",
+      "pattern": "料金表を見ていくら払えばいいかわかり、出かけたあと感想のメッセージを送れる。",
+      "explain": "বিভিন্ন স্থানের প্রবেশ ফি চার্ট (大人/子ども) বুঝতে এবং ঘুরতে যাওয়ার পর বন্ধুকে ধন্যবাদ মেসেজ পাঠাতে পারা।",
+      "title_en": "Can-do 73–75",
+      "pattern_en": "Can read price lists and send follow-up messages.",
+      "explain_en": "Check facility admission fees and send thank-you messages.",
+      "examples": [
+        {
+          "jp": "今、家に着きました。今日はありがとうございました。",
+          "romaji": "Ima, ie ni tsukimashita. Kyou wa arigatou gozaimashita.",
+          "bn": "এইমাত্র বাসায় পৌঁছালাম। আজকের জন্য অনেক ধন্যবাদ।",
+          "en": "I just got home. Thank you for today."
+        }
+      ]
+    }
+  ]
+}

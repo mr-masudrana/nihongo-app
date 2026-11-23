@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "title": "বিভিন্ন নিদর্শন প্রদর্শিত আছে",
+  "title_en": "They display a lot of materials.",
+  "points": [
+    {
+      "title": "জাপানের লাইব্রেরি ও ইয়াসাশি নিহোঙ্গো (やさしい日本語)",
+      "pattern": "公共の文化施設/体育施設・図書館・やさしい日本語",
+      "explain": "জাপানের পাবলিক লাইব্রেরিগুলোতে বিনামূল্যে বই, সিডি, ডিভিডি এবং জাপানি শেখার বই পড়া ও ধার নেওয়া যায়। এছাড়া বিদেশি বাসিন্দাদের বোঝার সুবিধার্থে সরকারি অফিস ও লাইব্রেরিতে 'ইয়াসাশি নিহোঙ্গো' (সহজ জাপানি ভাষা) ব্যবহৃত হয়।",
+      "title_en": "Public Libraries & Yasashii Nihongo (Easy Japanese)",
+      "pattern_en": "Community resources for foreign residents",
+      "explain_en": "Libraries are free; Yasashii Nihongo makes public information accessible.",
+      "examples": [
+        {
+          "jp": "やさしい日本語の案内",
+          "romaji": "Yasashii nihongo no annai",
+          "bn": "সহজ জাপানি ভাষায় নির্দেশিকা",
+          "en": "Guide in Easy Japanese"
+        }
+      ]
+    }
+  ]
+}

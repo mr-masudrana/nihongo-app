@@ -1,21 +1,49 @@
 {
   "lesson": 1,
-  "title": "নতুন শহরে জীবন শুরু",
-  "title_en": "Starting Life in a New Town",
+  "title": "রেস্তোরাঁয় কাজ করছি",
+  "title_en": "I work in a restaurant.",
   "points": [
     {
-      "title": "নতুন শহরে জীবন শুরু — ব্যাকরণ প্যাটার্ন",
-      "pattern": "まち について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 1-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Starting Life in a New Town — Grammar Pattern",
-      "pattern_en": "About machi",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 1.",
+      "title": "丁寧体 (ভদ্র রূপ) ও 普通体 (সাধারণ রূপ)",
+      "pattern": "お久しぶりです。お元気ですか? / 久しぶり。元気?",
+      "explain": "বয়োজ্যেষ্ঠ বা অপরিচিতদের সাথে ভদ্র রূপ (です/ます) এবং ঘনিষ্ঠ বন্ধুদের সাথে সাধারণ রূপ ব্যবহৃত হয়।",
+      "title_en": "Polite style vs Plain style",
+      "pattern_en": "Ohisashiburi desu / Hisashiburi",
+      "explain_en": "Use polite style with superiors/strangers and plain style with close friends.",
       "examples": [
         {
-          "jp": "まちが わかりますか。",
-          "romaji": "machi ga wakarimasu ka.",
-          "bn": "আপনি কি শহর বোঝেন?",
-          "en": "Do you understand town?"
+          "jp": "お久しぶりです。お元気ですか?",
+          "romaji": "Ohisashiburi desu. Ogenki desu ka?",
+          "bn": "অনেক দিন পর দেখা। কেমন আছেন?",
+          "en": "Long time no see. How have you been?"
+        },
+        {
+          "jp": "久しぶり。元気?",
+          "romaji": "Hisashiburi. Genki?",
+          "bn": "অনেক দিন পর দেখা। কেমন আছিস?",
+          "en": "Long time no see. How are you?"
+        }
+      ]
+    },
+    {
+      "title": "【সময়কাল】になります ও V-ています ① (বর্তমান পেশা/অবস্থা)",
+      "pattern": "日本に来て1年になります / レストランで働いています",
+      "explain": "কত সময় অতিবাহিত হয়েছে তা বলতে '〜になります' এবং বর্তমান কাজ বা পেশা বোঝাতে 'V-ています' ব্যবহৃত হয়।",
+      "title_en": "Duration with になります & Present state V-ています",
+      "pattern_en": "[Duration] ni narimasu / V-te imasu",
+      "explain_en": "State how long you have been in Japan and your current job.",
+      "examples": [
+        {
+          "jp": "去年の9月に来ました。ちょうど半年になります。",
+          "romaji": "Kyonen no kugatsu ni kimashita. Choudo hantoshi ni narimasu.",
+          "bn": "গত বছরের সেপ্টেম্বরে এসেছি। ঠিক ছয় মাস হলো।",
+          "en": "I came last September. It's been exactly half a year."
+        },
+        {
+          "jp": "日本では、介護の仕事をしています。",
+          "romaji": "Nihon de wa, kaigo no shigoto o shite imasu.",
+          "bn": "জাপানে কেয়ারগিভিংয়ের কাজ করছি।",
+          "en": "I work as a caregiver in Japan."
         }
       ]
     }

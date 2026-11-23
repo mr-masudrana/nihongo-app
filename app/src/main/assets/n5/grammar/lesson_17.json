@@ -1,0 +1,145 @@
+{
+  "lesson": 17,
+  "title": "ない-form, বাধ্যবাধকতা ও প্রয়োজনীয়তা",
+  "title_en": "ない-form, obligation and lack of necessity",
+  "points": [
+    {
+      "title": "Verb-এর ない-form তৈরি",
+      "pattern": "Vます → Vない",
+      "explain": "ない-form হলো Verb-এর negative plain form। Group I-তে ます-এর আগের い-column ধ্বনি あ-column-এ বদলে ない যোগ হয়; います/あります ব্যতিক্রম: いない／ない। Group II-তে ます বাদ দিয়ে ない যোগ হয়। Group III: します→しない, 来ます→来ない।",
+      "title_en": "Forming the ない-form",
+      "pattern_en": "Vます → Vない",
+      "explain_en": "The ない-form is the plain negative form. Group I verbs change the final i-row sound to the corresponding a-row sound and add ない (います and あります are exceptions: いない and ない). Group II drops ます and adds ない. Group III: します→しない, 来ます→来ない.",
+      "examples": [
+        {
+          "jp": "書きます → 書かない",
+          "romaji": "Kakimasu → kakanai",
+          "bn": "লিখি → লিখি না",
+          "en": "write → do not write"
+        },
+        {
+          "jp": "食べます → 食べない",
+          "romaji": "Tabemasu → tabenai",
+          "bn": "খাই → খাই না",
+          "en": "eat → do not eat"
+        },
+        {
+          "jp": "します → しない",
+          "romaji": "Shimasu → shinai",
+          "bn": "করি → করি না",
+          "en": "do → do not do"
+        }
+      ]
+    },
+    {
+      "title": "～ないでください — অনুরোধ করে নিষেধ",
+      "pattern": "Vない-form + でください",
+      "explain": "কাউকে ভদ্রভাবে কোনো কাজ না করতে অনুরোধ বা নিষেধ করতে Verb-এর ない-form-এর পরে でください বসে।",
+      "title_en": "Please do not do something",
+      "pattern_en": "Vない-form + でください",
+      "explain_en": "Use this pattern to politely ask or tell someone not to do something.",
+      "examples": [
+        {
+          "jp": "ここで写真を撮らないでください。",
+          "romaji": "Koko de shashin o toranaide kudasai.",
+          "bn": "দয়া করে এখানে ছবি তুলবেন না।",
+          "en": "Please do not take photographs here."
+        },
+        {
+          "jp": "心配しないでください。",
+          "romaji": "Shinpai shinaide kudasai.",
+          "bn": "দয়া করে চিন্তা করবেন না।",
+          "en": "Please don't worry."
+        }
+      ]
+    },
+    {
+      "title": "～なければなりません — অবশ্যই করতে হবে",
+      "pattern": "Vない-form (ない বাদ) + なければなりません",
+      "explain": "কোনো কাজ করা বাধ্যতামূলক বোঝায়। ない বাদ দিয়ে なければなりません যোগ করা হয়। কথ্য ভাষায় ～なければいけません বা ～なくちゃいけませんও শোনা যায়।",
+      "title_en": "Must do something",
+      "pattern_en": "Vない-form (drop ない) + なければなりません",
+      "explain_en": "This pattern expresses obligation or necessity. Remove ない from the ない-form and add なければなりません.",
+      "examples": [
+        {
+          "jp": "薬を飲まなければなりません。",
+          "romaji": "Kusuri o nomanakereba narimasen.",
+          "bn": "আমাকে ওষুধ খেতেই হবে।",
+          "en": "I must take medicine."
+        },
+        {
+          "jp": "毎日勉強しなければなりません。",
+          "romaji": "Mainichi benkyou shinakereba narimasen.",
+          "bn": "আমাকে প্রতিদিন পড়াশোনা করতে হবে।",
+          "en": "I have to study every day."
+        }
+      ]
+    },
+    {
+      "title": "～なくてもいいです — না করলেও চলবে",
+      "pattern": "Vない-form (ない বাদ) + なくてもいいです",
+      "explain": "কোনো কাজ করা প্রয়োজন নেই বা না করলেও সমস্যা নেই বোঝায়। ない বাদ দিয়ে なくてもいいです যোগ করা হয়।",
+      "title_en": "Need not do something",
+      "pattern_en": "Vない-form (drop ない) + なくてもいいです",
+      "explain_en": "Use this pattern to say that an action is not necessary or that someone does not have to do it.",
+      "examples": [
+        {
+          "jp": "明日来なくてもいいです。",
+          "romaji": "Ashita konakute mo ii desu.",
+          "bn": "আগামীকাল না এলেও চলবে।",
+          "en": "You don't have to come tomorrow."
+        },
+        {
+          "jp": "全部食べなくてもいいです。",
+          "romaji": "Zenbu tabenakute mo ii desu.",
+          "bn": "সবটুকু না খেলেও চলবে।",
+          "en": "You don't have to eat everything."
+        }
+      ]
+    },
+    {
+      "title": "Object-কে বাক্যের topic করা",
+      "pattern": "Nを + V → Nは + V",
+      "explain": "কর্মবাচক object-কে বাক্যের topic করলে শুরুতে এনে particle を-এর বদলে は বসে। জোর দিয়ে contrast বোঝাতে は ব্যবহার হতে পারে।",
+      "title_en": "Making the object the topic",
+      "pattern_en": "Nを + V → Nは + V",
+      "explain_en": "When the direct object is made the topic of a sentence, move it to the beginning and replace を with は.",
+      "examples": [
+        {
+          "jp": "荷物はここに置かないでください。",
+          "romaji": "Nimotsu wa koko ni okanaide kudasai.",
+          "bn": "ব্যাগ এখানে রাখবেন না।",
+          "en": "Please don't put your bags here."
+        },
+        {
+          "jp": "昼ごはんは会社の食堂で食べます。",
+          "romaji": "Hirugohan wa kaisha no shokudou de tabemasu.",
+          "bn": "দুপুরের খাবার কোম্পানির ক্যান্টিনে খাই।",
+          "en": "I have lunch in the company cafeteria."
+        }
+      ]
+    },
+    {
+      "title": "～までに — নির্দিষ্ট সময়ের মধ্যে",
+      "pattern": "N(time) + までに + V",
+      "explain": "কোনো কাজ কখনের মধ্যে শেষ করতে হবে তা বোঝায়। までに হলো deadline; まで একা কোনো কাজ বা অবস্থা কখন পর্যন্ত চলবে তা বোঝাতে পারে।",
+      "title_en": "By a time / deadline",
+      "pattern_en": "N(time) + までに + V",
+      "explain_en": "Use までに to indicate the deadline by which an action must be completed. Distinguish it from まで, which marks the endpoint of an ongoing action.",
+      "examples": [
+        {
+          "jp": "会議は5時までに終わります。",
+          "romaji": "Kaigi wa go-ji made ni owarimasu.",
+          "bn": "মিটিং পাঁচটার মধ্যে শেষ হবে।",
+          "en": "The meeting will end by five."
+        },
+        {
+          "jp": "土曜日までに本を返さなければなりません。",
+          "romaji": "Doyoubi made ni hon o kaesanakereba narimasen.",
+          "bn": "শনিবারের মধ্যে বইটি ফেরত দিতে হবে।",
+          "en": "I have to return the book by Saturday."
+        }
+      ]
+    }
+  ]
+}

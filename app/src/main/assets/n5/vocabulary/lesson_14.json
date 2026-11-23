@@ -1,0 +1,335 @@
+{
+  "lesson": 14,
+  "title": "দৈনন্দিন নির্দেশনা ও কাজ",
+  "words": [
+    {
+      "word": "つけます",
+      "reading": "つけます",
+      "romaji": "tsukemasu",
+      "bn": "চালু করা",
+      "en": "turn on",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "消します",
+      "reading": "けします",
+      "romaji": "keshimasu",
+      "bn": "বন্ধ করা / নিভিয়ে দেওয়া",
+      "en": "turn off",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "開けます",
+      "reading": "あけます",
+      "romaji": "akemasu",
+      "bn": "খোলা",
+      "en": "open",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "閉めます",
+      "reading": "しめます",
+      "romaji": "shimemasu",
+      "bn": "বন্ধ করা",
+      "en": "close, shut",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "急ぎます",
+      "reading": "いそぎます",
+      "romaji": "isogimasu",
+      "bn": "তাড়াহুড়া করা",
+      "en": "hurry",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "待ちます",
+      "reading": "まちます",
+      "romaji": "machimasu",
+      "bn": "অপেক্ষা করা",
+      "en": "wait",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "持ちます",
+      "reading": "もちます",
+      "romaji": "mochimasu",
+      "bn": "ধরে রাখা / সঙ্গে রাখা",
+      "en": "hold",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "取ります",
+      "reading": "とります",
+      "romaji": "torimasu",
+      "bn": "নেওয়া / হাতে নেওয়া",
+      "en": "take, pass",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "手伝います",
+      "reading": "てつだいます",
+      "romaji": "tetsudaimasu",
+      "bn": "সাহায্য করা",
+      "en": "help (with a task)",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "呼びます",
+      "reading": "よびます",
+      "romaji": "yobimasu",
+      "bn": "ডাকা",
+      "en": "call",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "話します",
+      "reading": "はなします",
+      "romaji": "hanashimasu",
+      "bn": "কথা বলা",
+      "en": "speak, talk",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "使います",
+      "reading": "つかいます",
+      "romaji": "tsukaimasu",
+      "bn": "ব্যবহার করা",
+      "en": "use",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "止めます",
+      "reading": "とめます",
+      "romaji": "tomemasu",
+      "bn": "থামানো / পার্ক করা",
+      "en": "stop, park",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "見せます",
+      "reading": "みせます",
+      "romaji": "misemasu",
+      "bn": "দেখানো",
+      "en": "show",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "教えます [住所を～]",
+      "reading": "おしえます [じゅうしょを～]",
+      "romaji": "oshiemasu [juusho o ~]",
+      "bn": "জানানো / বলে দেওয়া [ঠিকানা]",
+      "en": "tell [an address]",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "座ります",
+      "reading": "すわります",
+      "romaji": "suwarimasu",
+      "bn": "বসা",
+      "en": "sit down",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "立ちます",
+      "reading": "たちます",
+      "romaji": "tachimasu",
+      "bn": "দাঁড়ানো",
+      "en": "stand up",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "入ります [喫茶店に～]",
+      "reading": "はいります [きっさてんに～]",
+      "romaji": "hairimasu [kissaten ni ~]",
+      "bn": "প্রবেশ করা [ক্যাফেতে]",
+      "en": "enter [a café]",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "出ます [喫茶店を～]",
+      "reading": "でます [きっさてんを～]",
+      "romaji": "demasu [kissaten o ~]",
+      "bn": "বের হওয়া [ক্যাফে থেকে]",
+      "en": "go out [of a café]",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "降ります [雨が～]",
+      "reading": "ふります [あめが～]",
+      "romaji": "furimasu [ame ga ~]",
+      "bn": "পড়া [বৃষ্টি]",
+      "en": "rain",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "コピーします",
+      "reading": "コピーします",
+      "romaji": "kopii shimasu",
+      "bn": "ফটোকপি করা",
+      "en": "copy",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "電気",
+      "reading": "でんき",
+      "romaji": "denki",
+      "bn": "বিদ্যুৎ / বাতি",
+      "en": "electricity, light"
+    },
+    {
+      "word": "エアコン",
+      "reading": "エアコン",
+      "romaji": "eakon",
+      "bn": "এয়ার কন্ডিশনার",
+      "en": "air conditioner"
+    },
+    {
+      "word": "パスポート",
+      "reading": "パスポート",
+      "romaji": "pasupooto",
+      "bn": "পাসপোর্ট",
+      "en": "passport"
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "romaji": "namae",
+      "bn": "নাম",
+      "en": "name"
+    },
+    {
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "romaji": "juusho",
+      "bn": "ঠিকানা",
+      "en": "address"
+    },
+    {
+      "word": "地図",
+      "reading": "ちず",
+      "romaji": "chizu",
+      "bn": "মানচিত্র",
+      "en": "map"
+    },
+    {
+      "word": "塩",
+      "reading": "しお",
+      "romaji": "shio",
+      "bn": "লবণ",
+      "en": "salt"
+    },
+    {
+      "word": "砂糖",
+      "reading": "さとう",
+      "romaji": "satou",
+      "bn": "চিনি",
+      "en": "sugar"
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "romaji": "mondai",
+      "bn": "প্রশ্ন / সমস্যা",
+      "en": "question, problem, trouble"
+    },
+    {
+      "word": "答え",
+      "reading": "こたえ",
+      "romaji": "kotae",
+      "bn": "উত্তর",
+      "en": "answer"
+    },
+    {
+      "word": "読み方",
+      "reading": "よみかた",
+      "romaji": "yomikata",
+      "bn": "পড়ার পদ্ধতি / উচ্চারণ",
+      "en": "how to read, way of reading"
+    },
+    {
+      "word": "～方",
+      "reading": "～かた",
+      "romaji": "~kata",
+      "bn": "～ করার পদ্ধতি",
+      "en": "how to ~, way of ~ing"
+    },
+    {
+      "word": "まっすぐ",
+      "reading": "まっすぐ",
+      "romaji": "massugu",
+      "bn": "সোজা",
+      "en": "straight"
+    },
+    {
+      "word": "ゆっくり",
+      "reading": "ゆっくり",
+      "romaji": "yukkuri",
+      "bn": "ধীরে ধীরে",
+      "en": "slowly, leisurely"
+    },
+    {
+      "word": "すぐ",
+      "reading": "すぐ",
+      "romaji": "sugu",
+      "bn": "অবিলম্বে / এখনই",
+      "en": "immediately"
+    },
+    {
+      "word": "また",
+      "reading": "また",
+      "romaji": "mata",
+      "bn": "আবার",
+      "en": "again"
+    },
+    {
+      "word": "あとで",
+      "reading": "あとで",
+      "romaji": "atode",
+      "bn": "পরে",
+      "en": "later"
+    },
+    {
+      "word": "もう少し",
+      "reading": "もうすこし",
+      "romaji": "mou sukoshi",
+      "bn": "আরেকটু",
+      "en": "a little more"
+    },
+    {
+      "word": "もう～",
+      "reading": "もう～",
+      "romaji": "mou ~",
+      "bn": "আরও ～ / আরেকটি ～",
+      "en": "~ more, another ~"
+    },
+    {
+      "word": "さあ",
+      "reading": "さあ",
+      "romaji": "saa",
+      "bn": "আচ্ছা, তাহলে / চলুন",
+      "en": "right (encouraging action)"
+    },
+    {
+      "word": "あれ？",
+      "reading": "あれ？",
+      "romaji": "are?",
+      "bn": "আরে? / কী ব্যাপার?",
+      "en": "Oh? Eh? (surprise or wonder)"
+    },
+    {
+      "word": "信号",
+      "reading": "しんごう",
+      "romaji": "shingou",
+      "bn": "ট্রাফিক সিগন্যাল",
+      "en": "traffic light"
+    },
+    {
+      "word": "お釣り",
+      "reading": "おつり",
+      "romaji": "otsuri",
+      "bn": "ফেরত টাকা",
+      "en": "change"
+    }
+  ]
+}

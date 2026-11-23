@@ -1,0 +1,23 @@
+{
+  "lesson": 17,
+  "title": "সিনেমা দেখতে গিয়েছিলাম",
+  "title_en": "I went to see a movie.",
+  "points": [
+    {
+      "title": "অ্যাকুয়ারিয়াম, গডজিলা ও মাঙ্গা ক্যাফে",
+      "pattern": "ゴジラ・水族館・マンガ喫茶",
+      "explain": "জাপানে অনেক বড় ও আধুনিক অ্যাকুয়ারিয়াম রয়েছে। এছাড়া কম খরচে বিশ্রাম নেওয়া, মাঙ্গা পড়া ও ইন্টারনেট ব্যবহারের জন্য 'মাঙ্গা কিসসা' (ইন্টারনেট ক্যাফে) বেশ জনপ্রিয়।",
+      "title_en": "Aquariums, Godzilla & Manga Cafes",
+      "pattern_en": "Suizokukan & Manga-kissa",
+      "explain_en": "Manga cafes offer comics, internet, and private booths.",
+      "examples": [
+        {
+          "jp": "家族で水族館に行きました。",
+          "romaji": "Kazoku de suizokukan ni ikimashita.",
+          "bn": "পরিবারের সাথে অ্যাকুয়ারিয়ামে গিয়েছিলাম।",
+          "en": "I went to the aquarium with my family."
+        }
+      ]
+    }
+  ]
+}

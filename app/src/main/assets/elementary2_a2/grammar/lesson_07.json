@@ -1,21 +1,37 @@
 {
   "lesson": 7,
-  "title": "স্বাস্থ্যকর জীবনযাপন",
-  "title_en": "Healthy Lifestyle",
+  "title": "বৃষ্টি হলে হলে (অডিটোরিয়ামে) অনুষ্ঠান হবে",
+  "title_en": "If it rains, it will be held at the hall.",
   "points": [
     {
-      "title": "স্বাস্থ্যকর জীবনযাপন — ব্যাকরণ প্যাটার্ন",
-      "pattern": "うんどう ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 7-এর মূল ব্যাকরণ।",
-      "title_en": "Healthy Lifestyle — Grammar Pattern",
-      "pattern_en": "Can do undou",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 7.",
+      "title": "〜たら、〜 (শর্ত ও সময় প্রকাশ)",
+      "pattern": "雨が降ったら、ホールでやります / 盆踊りが終わったら、居酒屋に行きましょう",
+      "explain": "কোনো শর্ত ঘটলে কী হবে তা বলতে ক্রিয়া বা বিশেষণের অতীত রূপের সাথে 'ら' যোগ করা হয়। (降った→降ったら, 終わりました→終わったら)",
+      "title_en": "Conditionals and 'When/After' with 〜たら",
+      "pattern_en": "Ame ga futtara / Owattara",
+      "explain_en": "Express conditions ('if it rains') and sequences ('after it ends').",
       "examples": [
         {
-          "jp": "じぶんで うんどう を することができます。",
-          "romaji": "Jibun de undou o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে ব্যায়াম করতে পারি।",
-          "en": "I can do exercise by myself."
+          "jp": "終わったら、ジュースとおかしがあります。",
+          "romaji": "Owattara, juusu to okashi ga arimasu.",
+          "bn": "কাজ শেষ হলে জুস আর নাশতা দেওয়া হবে।",
+          "en": "When it's over, there will be juice and snacks."
+        }
+      ]
+    },
+    {
+      "title": "V-(ら)れます (কর্মবাচ্য / Passive) ও V-(られ)ます (সম্ভাব্য রূপ)",
+      "pattern": "コンサートが開催されます / 盆踊りは簡単だから、だれでも踊れますよ",
+      "explain": "আনুষ্ঠানিক ঘোষণায় কর্মবাচ্য ('開催されます' = অনুষ্ঠিত হবে) এবং সক্ষমতা বোঝাতে সম্ভাব্য রূপ ('踊れます' = নাচতে পারে) ব্যবহৃত হয়।",
+      "title_en": "Passive voice in announcements & Potential form",
+      "pattern_en": "Kaisai saremasu / Dare demo odoremasu",
+      "explain_en": "Understand formal announcements and encourage participation.",
+      "examples": [
+        {
+          "jp": "7月14日、ひかりホールにおいて、コンサートが開催されます。",
+          "romaji": "Shichigatsu juuyokka, Hikari Hooru ni oite, konsaato ga kaisai saremasu.",
+          "bn": "১৪ জুলাই হিকারি হলে কনসার্ট অনুষ্ঠিত হবে।",
+          "en": "On July 14, a concert will be held at Hikari Hall."
         }
       ]
     }

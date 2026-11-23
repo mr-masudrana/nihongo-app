@@ -1,0 +1,157 @@
+{
+  "lesson": 7,
+  "title": "উপায়, দেওয়া-নেওয়া ও ইতিমধ্যে",
+  "title_en": "Means, giving and receiving",
+  "points": [
+    {
+      "title": "N (উপায়/মাধ্যম) で V",
+      "pattern": "N (tool/means) で V",
+      "explain": "কোনো কাজ কী দিয়ে বা কোন ভাষায় করা হয় তা বোঝাতে উপকরণ বা মাধ্যমের পরে で বসে।",
+      "title_en": "N (tool/means) で V",
+      "pattern_en": "N (tool/means) で V",
+      "explain_en": "で follows a tool, means or language to show how an action is performed.",
+      "examples": [
+        {
+          "jp": "はしで 食べます。",
+          "romaji": "Hashi de tabemasu.",
+          "bn": "চপস্টিক দিয়ে খাই।",
+          "en": "I eat with chopsticks."
+        },
+        {
+          "jp": "日本語で レポートを 書きます。",
+          "romaji": "Nihongo de repōto o kakimasu.",
+          "bn": "জাপানি ভাষায় রিপোর্ট লিখব।",
+          "en": "I will write the report in Japanese."
+        }
+      ]
+    },
+    {
+      "title": "「শব্দ/বাক্য」 は ～語で 何ですか — অন্য ভাষায় কীভাবে বলে",
+      "pattern": "「Word/Sentence」は ～語で 何ですか",
+      "explain": "কোনো শব্দ বা বাক্য অন্য ভাষায় কীভাবে বলা হয় তা জানতে এই প্রশ্ন ব্যবহার করা হয়। উত্তরে সংশ্লিষ্ট ভাষায় শব্দটি বলা হয়।",
+      "title_en": "Asking how to say something in another language",
+      "pattern_en": "「Word/Sentence」は ～語で 何ですか",
+      "explain_en": "Use this question to ask how a word or sentence is said in another language.",
+      "examples": [
+        {
+          "jp": "「ありがとう」は 英語で 何ですか。",
+          "romaji": "Arigatō wa eigo de nan desu ka.",
+          "bn": "‘আরিগাতো’ ইংরেজিতে কী?",
+          "en": "What's “arigatō” in English?"
+        },
+        {
+          "jp": "「Thank you」は 日本語で 何ですか。",
+          "romaji": "“Thank you” wa nihongo de nan desu ka.",
+          "bn": "‘Thank you’ জাপানিতে কী?",
+          "en": "What's “thank you” in Japanese?"
+        }
+      ]
+    },
+    {
+      "title": "N₁ (ব্যক্তি) に N₂ を あげます — কাউকে কিছু দেওয়া",
+      "pattern": "N₁ (giver) は N₂ (recipient) に N₃ を あげます／貸します／教えます",
+      "explain": "あげます (দেওয়া), 貸します (ধার দেওয়া) ও 教えます (শেখানো/জানানো)-এর ক্ষেত্রে に দিয়ে প্রাপককে চিহ্নিত করা হয়।",
+      "title_en": "Giving something to someone",
+      "pattern_en": "N₁ (giver) は N₂ (recipient) に N₃ を あげます／貸します／教えます",
+      "explain_en": "With verbs such as あげます (give), 貸します (lend) and 教えます (teach/tell), に marks the recipient.",
+      "examples": [
+        {
+          "jp": "わたしは 木村さんに 花を あげました。",
+          "romaji": "Watashi wa Kimura-san ni hana o agemashita.",
+          "bn": "আমি কিমুরা-সানকে ফুল দিয়েছি।",
+          "en": "I gave Ms. Kimura some flowers."
+        },
+        {
+          "jp": "わたしは イーさんに 本を 貸しました。",
+          "romaji": "Watashi wa Ī-san ni hon o kashimashita.",
+          "bn": "আমি মি. ই-কে একটি বই ধার দিয়েছি।",
+          "en": "I lent Mr. Lee a book."
+        },
+        {
+          "jp": "わたしは 山田さんに 英語を 教えます。",
+          "romaji": "Watashi wa Yamada-san ni eigo o oshiemasu.",
+          "bn": "আমি ইয়ামাদা-সানকে ইংরেজি শেখাই।",
+          "en": "I teach Mr. Yamada English."
+        }
+      ]
+    },
+    {
+      "title": "N₁ (প্রাপক) に N₂ を もらいます — কারও কাছ থেকে কিছু পাওয়া",
+      "pattern": "N₁ (receiver) は N₂ (giver) に／から N₃ を もらいます／借ります／習います",
+      "explain": "もらいます (পাওয়া), 借ります (ধার নেওয়া) ও 習います (শেখা)-এর ক্ষেত্রে に দিয়ে যাঁর কাছ থেকে পাওয়া হচ্ছে তাঁকে চিহ্নিত করা হয়। প্রতিষ্ঠান বা সংস্থার কাছ থেকে পেলে から ব্যবহার করা হয়।",
+      "title_en": "Receiving something from someone",
+      "pattern_en": "N₁ (receiver) は N₂ (giver) に／から N₃ を もらいます／借ります／習います",
+      "explain_en": "With もらいます (receive), 借ります (borrow) and 習います (learn), に marks the source person. から is used when the source is an organization or institution.",
+      "examples": [
+        {
+          "jp": "わたしは 山田さんに 花を もらいました。",
+          "romaji": "Watashi wa Yamada-san ni hana o moraimashita.",
+          "bn": "আমি ইয়ামাদা-সানের কাছ থেকে ফুল পেয়েছি।",
+          "en": "I received flowers from Mr. Yamada."
+        },
+        {
+          "jp": "わたしは カリナさんに CDを 借りました。",
+          "romaji": "Watashi wa Karina-san ni shīdī o karimashita.",
+          "bn": "আমি কারিনার কাছ থেকে সিডি ধার নিয়েছি।",
+          "en": "I borrowed a CD from Karina."
+        },
+        {
+          "jp": "銀行から お金を 借りました。",
+          "romaji": "Ginkō kara okane o karimashita.",
+          "bn": "ব্যাংক থেকে টাকা ধার নিয়েছি।",
+          "en": "I borrowed money from the bank."
+        }
+      ]
+    },
+    {
+      "title": "もう Vました — ইতিমধ্যে কাজ সম্পন্ন হয়েছে",
+      "pattern": "もう Vました",
+      "explain": "もう অর্থ ‘ইতিমধ্যে’। Vました-এর সঙ্গে ব্যবহার করলে কাজটি সম্পন্ন হয়েছে বোঝায়। কাজটি হয়েছে কি না জানতে もう Vましたか জিজ্ঞেস করা হয়।",
+      "title_en": "もう Vました — an action is already completed",
+      "pattern_en": "もう Vました",
+      "explain_en": "もう means “already.” With Vました it indicates that an action has been completed. Ask もう Vましたか to check whether it is done.",
+      "examples": [
+        {
+          "jp": "もう 荷物を 送りましたか。",
+          "romaji": "Mō nimotsu o okurimashita ka.",
+          "bn": "আপনি কি ইতিমধ্যে মালপত্র পাঠিয়েছেন?",
+          "en": "Have you sent the baggage yet?"
+        },
+        {
+          "jp": "はい、もう 送りました。",
+          "romaji": "Hai, mō okurimashita.",
+          "bn": "হ্যাঁ, ইতিমধ্যে পাঠিয়েছি।",
+          "en": "Yes, I have sent it."
+        },
+        {
+          "jp": "いいえ、まだです。",
+          "romaji": "Iie, mada desu.",
+          "bn": "না, এখনও নয়।",
+          "en": "No, not yet."
+        }
+      ]
+    },
+    {
+      "title": "কথ্য ভাষায় Particle বাদ দেওয়া",
+      "pattern": "Particle omission in informal speech",
+      "explain": "কথ্য ভাষায় বাক্যের অংশগুলোর সম্পর্ক স্পষ্ট থাকলে কিছু particle—যেমন は, を—বাদ পড়তে পারে। তবে শেখার সময় particle-সহ পূর্ণ বাক্য ব্যবহার করাই ভালো।",
+      "title_en": "Omission of particles in informal speech",
+      "pattern_en": "Particle omission in informal speech",
+      "explain_en": "In informal speech, particles such as は and を are sometimes omitted when the relationship between sentence parts is obvious. While learning, practise the complete forms with particles.",
+      "examples": [
+        {
+          "jp": "この スプーン、すてきですね。",
+          "romaji": "Kono supūn, suteki desu ne.",
+          "bn": "এই চামচটি সুন্দর, তাই না?",
+          "en": "This is a lovely spoon, isn't it?"
+        },
+        {
+          "jp": "コーヒー、もう 一杯 いかがですか。",
+          "romaji": "Kōhī, mō ippai ikaga desu ka.",
+          "bn": "আর এক কাপ কফি নেবেন?",
+          "en": "Would you like another cup of coffee?"
+        }
+      ]
+    }
+  ]
+}

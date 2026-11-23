@@ -1,0 +1,39 @@
+{
+  "lesson": 7,
+  "title": "৪টি রুম আছে",
+  "title_en": "There are four rooms.",
+  "points": [
+    {
+      "title": "Can-do 26–27: বাসার গঠন ও আসবাবপত্র",
+      "pattern": "家の間取りを理解し、必要なものがそろっているか質問して確認できる。",
+      "explain": "বাসা ঘুরিয়ে দেখানোর সময় রুমগুলোর বর্ণনা বুঝতে এবং প্রয়োজনীয় জিনিস আছে কি না তা জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 26–27",
+      "pattern_en": "Can understand house layouts and ask about appliances.",
+      "explain_en": "Understand room layouts and check available equipment.",
+      "examples": [
+        {
+          "jp": "ここは台所です。",
+          "romaji": "Koko wa daidokoro desu.",
+          "bn": "এটি রান্নাঘর।",
+          "en": "This is the kitchen."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 28–30: বাসার বর্ণনা ও ইলেকট্রনিক বাটন বোঝা",
+      "pattern": "どんな家に住んでいるか話したり、洗濯機・エアコンの操作ボタンを理解できる。",
+      "explain": "নিজের বাসার বর্ণনা দিতে এবং ওয়াশিং মেশিন বা এসির রিমোটের বাটন (入/切, 冷房/暖房) বুঝতে পারা।",
+      "title_en": "Can-do 28–30",
+      "pattern_en": "Can describe your home and read appliance buttons.",
+      "explain_en": "Describe your housing and operate appliances.",
+      "examples": [
+        {
+          "jp": "アパートに住んでいます。",
+          "romaji": "Apaato ni sunde imasu.",
+          "bn": "অ্যাপার্টমেন্টে থাকি।",
+          "en": "I live in an apartment."
+        }
+      ]
+    }
+  ]
+}

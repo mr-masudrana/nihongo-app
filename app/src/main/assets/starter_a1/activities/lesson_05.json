@@ -1,0 +1,27 @@
+{
+  "lesson": 5,
+  "title": "আমি উদোন পছন্দ করি",
+  "title_en": "I like udon.",
+  "dialogues": [
+    {
+      "title": "১. সকালের নাশতা নিয়ে কথোপকথন",
+      "title_en": "1. Talking about breakfast",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "朝ご飯、いつも、何、食べますか?",
+          "romaji": "Asagohan, itsumo, nani, tabemasu ka?",
+          "bn": "সকালের নাশতায় সবসময় কী খান?",
+          "en": "What do you usually eat for breakfast?"
+        },
+        {
+          "speaker": "B",
+          "jp": "パンと卵を食べます。牛乳を飲みます。",
+          "romaji": "Pan to tamago o tabemasu. Gyuunyuu o nomimasu.",
+          "bn": "রুটি আর ডিম খাই। দুধ পান করি।",
+          "en": "I eat bread and eggs. I drink milk."
+        }
+      ]
+    }
+  ]
+}

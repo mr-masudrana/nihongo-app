@@ -1,0 +1,39 @@
+{
+  "lesson": 18,
+  "title": "ভবিষ্যতে নিজের কোম্পানি গড়ব বলে ভাবছি",
+  "title_en": "I am thinking about starting my own company in the future.",
+  "points": [
+    {
+      "title": "Can-do 76–77: ভবিষ্যতের স্বপ্ন ও অভিজ্ঞ ব্যক্তিদের পরামর্শ বোঝা",
+      "pattern": "自分の将来の夢や希望を話したり、日本で長く暮らす人のアドバイスを理解したりできる。",
+      "explain": "ভবিষ্যৎ ক্যারিয়ার ও পরিবারের জন্য কী করতে চান তা বলতে এবং অভিজ্ঞদের পরামর্শ বুঝতে পারা।",
+      "title_en": "Can-do 76–77",
+      "pattern_en": "Can share future dreams and understand advice from experienced residents.",
+      "explain_en": "Discuss long-term goals and learn from seniors' experiences.",
+      "examples": [
+        {
+          "jp": "最初はすごく苦労したけど、続けてよかったです。",
+          "romaji": "Saisho wa sugoku kurou shita kedo, tsuzukete yokatta desu.",
+          "bn": "শুরুতে অনেক কষ্ট হয়েছিল, তবে চালিয়ে গিয়ে ভালো হয়েছে।",
+          "en": "I struggled a lot at first, but I'm glad I kept going."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 78: বিদায় অনুষ্ঠানে কৃতজ্ঞতা জানিয়ে বক্তৃতা দেওয়া",
+      "pattern": "送別会などで、簡単なエピソードを入れながら、お礼のあいさつをすることができる。",
+      "explain": "সহকর্মী ও শিক্ষকদের প্রতি কৃতজ্ঞতা জানিয়ে ছোট গল্পসহ বিদায় সম্ভাষণ দিতে পারা।",
+      "title_en": "Can-do 78",
+      "pattern_en": "Can give a farewell thank-you speech with short episodes.",
+      "explain_en": "Deliver a warm thank-you speech at a farewell party.",
+      "examples": [
+        {
+          "jp": "JF工業のみなさんには、とても親切にしてもらいました。",
+          "romaji": "JF Kougyou no minasan ni wa, totemo shinsetsu ni shite moraimashita.",
+          "bn": "জেএফ ইন্ডাস্ট্রির সবাই আমাকে অনেক আন্তরিকভাবে সাহায্য করেছেন।",
+          "en": "Everyone at JF Industry treated me very kindly."
+        }
+      ]
+    }
+  ]
+}

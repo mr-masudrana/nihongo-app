@@ -1,21 +1,43 @@
 {
   "lesson": 3,
-  "title": "আবহাওয়া ও ঋতু",
-  "title_en": "Weather and Seasons",
+  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title_en": "Nice to meet you.",
   "points": [
     {
-      "title": "きょうは [বিশেষণ] ですね — আবহাওয়া নিয়ে মন্তব্য",
-      "pattern": "きょうは あついですね。",
-      "explain": "কথোপকথনের শুরুতে আবহাওয়া নিয়ে কথা বলতে বাক্যের শেষে ですね যোগ করা হয়।",
-      "title_en": "Weather Comment with ですね",
-      "pattern_en": "Kyou wa atsui desu ne.",
-      "explain_en": "Used to seek agreement when talking about the weather.",
+      "title": "N₁ は N₂ です / 【স্থান】から来ました",
+      "pattern": "私は [নাম] です。[দেশ] から来ました。",
+      "explain": "নিজের নাম ও কোন দেশ থেকে এসেছেন তা জানাতে এই বাক্য দুটি ব্যবহৃত হয়।",
+      "title_en": "Self-introduction patterns",
+      "pattern_en": "N1 wa N2 desu / [Place] kara kimashita",
+      "explain_en": "Used to state your name and where you come from.",
       "examples": [
         {
-          "jp": "きょうは いい てんきですね。",
-          "romaji": "Kyou wa ii tenki desu ne.",
-          "bn": "আজ আবহাওয়াটা বেশ ভালো, তাই না?",
-          "en": "Nice weather today, isn't it?"
+          "jp": "はじめまして。トンです。タイから来ました。",
+          "romaji": "Hajimemashite. Ton desu. Tai kara kimashita.",
+          "bn": "প্রথম দেখা হলো। আমি টন। থাইল্যান্ড থেকে এসেছি।",
+          "en": "Nice to meet you. I'm Ton. I'm from Thailand."
+        }
+      ]
+    },
+    {
+      "title": "Nも (ও / আরও) এবং Nじゃないです (নয়)",
+      "pattern": "私もベトナムです / ベトナムじゃないです",
+      "explain": "আগের ব্যক্তির মতো একই তথ্য হলে 'も' এবং না-বাচক বোঝাতে 'じゃないです' বসে।",
+      "title_en": "Particle も and Negative じゃないです",
+      "pattern_en": "N mo / N ja nai desu",
+      "explain_en": "Use も for 'also' and じゃないです for negative noun sentences.",
+      "examples": [
+        {
+          "jp": "私もベトナムです。",
+          "romaji": "Watashi mo Betonamu desu.",
+          "bn": "আমিও ভিয়েতনামের।",
+          "en": "I am from Vietnam too."
+        },
+        {
+          "jp": "いいえ、ベトナムじゃないです。",
+          "romaji": "Iie, Betonamu ja nai desu.",
+          "bn": "না, ভিয়েতনাম নয়।",
+          "en": "No, I'm not from Vietnam."
         }
       ]
     }

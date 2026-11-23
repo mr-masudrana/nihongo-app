@@ -1,0 +1,27 @@
+{
+  "lesson": 17,
+  "title": "আগের চেয়ে ভালো জাপানি বলতে পারি",
+  "title_en": "I can speak Japanese better than before.",
+  "dialogues": [
+    {
+      "title": "১. জাপানে আসার পর জীবনের পরিবর্তন ও কাজের অগ্রগতি নিয়ে কথা বলা",
+      "title_en": "1. Talking about life changes and progress at work",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "日本の生活には慣れましたか?",
+          "romaji": "Nihon no seikatsu ni wa naremashita ka?",
+          "bn": "জাপানের জীবনযাত্রায় কি অভ্যস্ত হয়েছেন?",
+          "en": "Have you gotten used to life in Japan?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい。最初は知らないことばが多くて大変でしたが、最近は前より話せるようになりました。",
+          "romaji": "Hai. Saisho wa shiranai kotoba ga ookute taihen deshita ga, saikin wa mae yori hanaseru you ni narimashita.",
+          "bn": "জি। শুরুতে অজানা শব্দ বেশি থাকায় কষ্ট হয়েছিল, তবে ইদানীং আগের চেয়ে ভালো বলতে পারি।",
+          "en": "Yes. At first there were many unfamiliar words and it was tough, but lately I can speak better than before."
+        }
+      ]
+    }
+  ]
+}

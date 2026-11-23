@@ -1,14 +1,98 @@
 {
   "lesson": 14,
-  "title": "আমন্ত্রণ ও পরিকল্পনা",
-  "title_en": "Invitations and Plans",
+  "title": "অনেক বড় ভবন, তাই না!",
+  "title_en": "It's a big building, isn't it.",
   "words": [
     {
-      "word": "いっしょに",
-      "reading": "いっしょに",
-      "romaji": "issho ni",
-      "bn": "একসাথে",
-      "en": "together"
+      "word": "建物",
+      "reading": "たてもの",
+      "romaji": "tatemono",
+      "bn": "ভবন / দালান",
+      "en": "building"
+    },
+    {
+      "word": "改札",
+      "reading": "かいさつ",
+      "romaji": "kaisatsu",
+      "bn": "টিকিট গেট",
+      "en": "ticket gate"
+    },
+    {
+      "word": "商店街",
+      "reading": "しょうてんがい",
+      "romaji": "shoutengai",
+      "bn": "শপিং স্ট্রিট / বাজার এলাকা",
+      "en": "shopping street"
+    },
+    {
+      "word": "コンビニ",
+      "reading": "コンビニ",
+      "romaji": "konbini",
+      "bn": "কনভিনিয়েন্স স্টোর",
+      "en": "convenience store"
+    },
+    {
+      "word": "郵便局",
+      "reading": "ゆうびんきょく",
+      "romaji": "yuubinkyoku",
+      "bn": "পোস্ট অফিস",
+      "en": "post office"
+    },
+    {
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "romaji": "ginkou",
+      "bn": "ব্যাংক",
+      "en": "bank"
+    },
+    {
+      "word": "病院",
+      "reading": "びょういん",
+      "romaji": "byouin",
+      "bn": "হাসপাতাল",
+      "en": "hospital"
+    },
+    {
+      "word": "前 / 後ろ / 横",
+      "reading": "まえ / うしろ / よこ",
+      "romaji": "mae / ushiro / yoko",
+      "bn": "সামনে / পেছনে / পাশে",
+      "en": "in front / behind / next to"
+    },
+    {
+      "word": "大きい / 小さい",
+      "reading": "おおきい / ちいさい",
+      "romaji": "ookii / chiisai",
+      "bn": "বড় / ছোট",
+      "en": "big / small"
+    },
+    {
+      "word": "高い / 低い",
+      "reading": "たかい / ひくい",
+      "romaji": "takai / hikui",
+      "bn": "উঁচু / নিচু",
+      "en": "tall / low"
+    },
+    {
+      "word": "にぎやか(な)",
+      "reading": "にぎやか(な)",
+      "romaji": "nigiyaka (na)",
+      "bn": "জমজমাট / কোলাহলপূর্ণ",
+      "en": "lively / bustling"
+    },
+    {
+      "word": "営業時間",
+      "reading": "えいぎょうじかん",
+      "romaji": "eigyou jikan",
+      "bn": "খোলা থাকার সময়",
+      "en": "business hours"
+    },
+    {
+      "word": "定休日",
+      "reading": "ていきゅうび",
+      "romaji": "teikyuubi",
+      "bn": "সাপ্তাহিক বন্ধের দিন",
+      "en": "regular holiday"
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "lesson": 2,
+  "title": "গেম খেলতে পছন্দ করি",
+  "title_en": "I like playing video games.",
+  "points": [
+    {
+      "title": "Can-do 04–05: শখ ও ছুটির দিনের কাজ নিয়ে প্রশ্ন ও উত্তর",
+      "pattern": "趣味や好きなこと、休みの日の過ごし方について質問したり答えたりできる。",
+      "explain": "নিজের শখ এবং ছুটির দিনে কোথায়, কার সাথে কী করেন তা বলতে পারা।",
+      "title_en": "Can-do 04–05",
+      "pattern_en": "Can ask and answer about hobbies and days off.",
+      "explain_en": "Talk about hobbies and weekend routines.",
+      "examples": [
+        {
+          "jp": "ゲームをするのが好きです。",
+          "romaji": "Geemu o suru no ga suki desu.",
+          "bn": "গেম খেলতে পছন্দ করি।",
+          "en": "I like playing video games."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 06–07: স্টাফ পরিচিতি পড়া ও লেখা",
+      "pattern": "スタッフ紹介を読んで理解し、自分の趣味や休日のことを簡単に書くことができる。",
+      "explain": "দোকান বা অফিসের বোর্ডে থাকা স্টাফ পরিচিতি পড়তে এবং নিজের পরিচিতি লিখতে পারা।",
+      "title_en": "Can-do 06–07",
+      "pattern_en": "Can read and write staff introduction profiles.",
+      "explain_en": "Understand and write short staff bio cards.",
+      "examples": [
+        {
+          "jp": "日本語、英語、フィリピノ語ができます。",
+          "romaji": "Nihongo, Eigo, Firipinogo ga dekimasu.",
+          "bn": "জাপানি, ইংরেজি ও ফিলিপিনো ভাষা পারি।",
+          "en": "I can speak Japanese, English, and Filipino."
+        }
+      ]
+    }
+  ]
+}

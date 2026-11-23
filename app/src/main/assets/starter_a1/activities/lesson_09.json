@@ -1,0 +1,27 @@
+{
+  "lesson": 9,
+  "title": "১২টা থেকে ১টা পর্যন্ত দুপুরের বিরতি",
+  "title_en": "Lunch is from noon to 1 o'clock.",
+  "dialogues": [
+    {
+      "title": "১. ঘুম থেকে ওঠা ও ঘুমানোর সময় জিজ্ঞাসা",
+      "title_en": "1. Asking about wake-up and bedtime",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "毎日、何時に起きますか?",
+          "romaji": "Mainichi, nanji ni okimasu ka?",
+          "bn": "প্রতিদিন কয়টায় ঘুম থেকে ওঠেন?",
+          "en": "What time do you wake up every day?"
+        },
+        {
+          "speaker": "B",
+          "jp": "6時に起きます。11時ごろ寝ます。",
+          "romaji": "Rokuji ni okimasu. Juuichiji goro nemasu.",
+          "bn": "৬টায় উঠি। ১১টার দিকে ঘুমাই।",
+          "en": "I wake up at 6. I go to bed around 11."
+        }
+      ]
+    }
+  ]
+}

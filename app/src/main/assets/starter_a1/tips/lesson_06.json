@@ -1,0 +1,23 @@
+{
+  "lesson": 6,
+  "title": "একটি চিজবার্গার দিন",
+  "title_en": "I'd like a cheeseburger, please.",
+  "points": [
+    {
+      "title": "মিল টিকিট মেশিন (食券) ও ওশিবোরি",
+      "pattern": "食券・おしぼりと水",
+      "explain": "জাপানের অনেক রেস্তোরাঁয় প্রবেশমুখে ভেন্ডিং মেশিন থেকে খাবারের টিকিট (食券) কিনে কাউন্টারে দিতে হয়। এছাড়া রেস্তোরাঁয় বসলে প্রথমেই হাত মোছার ভেজা তোয়ালে (おしぼり) ও বিনামূল্যে পানি দেওয়া হয়।",
+      "title_en": "Meal Ticket Machines & Oshibori",
+      "pattern_en": "Shokken & Free Water",
+      "explain_en": "Many eateries use ticket machines; water and wet towels are free.",
+      "examples": [
+        {
+          "jp": "お水、ください。",
+          "romaji": "Omizu, kudasai.",
+          "bn": "পানি দিন।",
+          "en": "Water, please."
+        }
+      ]
+    }
+  ]
+}

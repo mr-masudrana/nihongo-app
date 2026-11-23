@@ -1,21 +1,21 @@
 {
   "lesson": 17,
-  "title": "জাপানে বসবাসের পরামর্শ",
-  "title_en": "Advice for Living in Japan",
+  "title": "আগের চেয়ে ভালো জাপানি বলতে পারি",
+  "title_en": "I can speak Japanese better than before.",
   "points": [
     {
-      "title": "জাপানে বসবাসের পরামর্শ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "せいかつ ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 17-এর মূল ব্যাকরণ।",
-      "title_en": "Advice for Living in Japan — Grammar Pattern",
-      "pattern_en": "Can do seikatsu",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 17.",
+      "title": "V-(られ)るようになりました (নতুন সক্ষমতা অর্জন)",
+      "pattern": "日本語が前より話せるようになりました / お店の情報を教えられるようになりました",
+      "explain": "আগে পারতেন না কিন্তু এখন শিখে বা অভ্যস্ত হয়ে করতে পারছেন—এমন পরিবর্তন বোঝাতে সম্ভাব্য রূপের সাথে 'ようになりました' বসে।",
+      "title_en": "Describing newly acquired abilities: 〜ようになりました",
+      "pattern_en": "V-(rare)ru you ni narimashita",
+      "explain_en": "Express progress in Japanese or daily life skills.",
       "examples": [
         {
-          "jp": "じぶんで せいかつ を することができます。",
-          "romaji": "Jibun de seikatsu o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে জীবনযাপন করতে পারি।",
-          "en": "I can do daily life by myself."
+          "jp": "漢字が少しずつ読めるようになりました。",
+          "romaji": "Kanji ga sukoshi zutsu yomeru you ni narimashita.",
+          "bn": "অল্প অল্প করে কাঞ্জি পড়তে পারছি।",
+          "en": "I've become able to read kanji little by little."
         }
       ]
     }

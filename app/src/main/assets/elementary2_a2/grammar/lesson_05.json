@@ -1,21 +1,37 @@
 {
   "lesson": 5,
-  "title": "জাপানি সংস্কৃতি ও রীতিনীতি",
-  "title_en": "Japanese Culture and Customs",
+  "title": "তাড়াতাড়ি বুকিং করে নেওয়াই ভালো",
+  "title_en": "You should make a reservation early.",
   "points": [
     {
-      "title": "জাপানি সংস্কৃতি ও রীতিনীতি — ব্যাকরণ প্যাটার্ন",
-      "pattern": "しゅうかん ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 5-এর মূল ব্যাকরণ।",
-      "title_en": "Japanese Culture and Customs — Grammar Pattern",
-      "pattern_en": "Can do shuukan",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 5.",
+      "title": "V-(られ)ます (সম্ভাব্য রূপ / Potential Form)",
+      "pattern": "新鮮なカニとかウニとか食べられますよ / 湖でボートに乗れますよ",
+      "explain": "কোনো পর্যটন কেন্দ্রে কী কী করা বা খাওয়া সম্ভব তা বোঝাতে ক্রিয়ার সম্ভাব্য রূপ (Potential form) ব্যবহৃত হয়। (食べます→食べられます, 乗ります→乗れます)",
+      "title_en": "Potential form of verbs: V-(rare)masu",
+      "pattern_en": "Taberaremasu / Noremasu / Miraremasu",
+      "explain_en": "Describe activities and foods available at a destination.",
       "examples": [
         {
-          "jp": "じぶんで しゅうかん を することができます。",
-          "romaji": "Jibun de shuukan o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে রীতিনীতি / অভ্যাস করতে পারি।",
-          "en": "I can do custom / habit by myself."
+          "jp": "お寺とか神社がたくさん見られますよ。",
+          "romaji": "Otera toka jinja ga takusan miraremasu yo.",
+          "bn": "অনেক মন্দির ও শ্রাইন দেখতে পারবেন।",
+          "en": "You can see many temples and shrines."
+        }
+      ]
+    },
+    {
+      "title": "V-たほうがいいです / V-ないほうがいいです (ভ্রমণ পরামর্শ)",
+      "pattern": "早く予約したほうがいいですよ / 日曜日は行かないほうがいいですよ",
+      "explain": "কোনো কিছু করার পরামর্শ দিতে 'V-たほうがいいです' এবং না করার পরামর্শ দিতে 'V-ないほうがいいです' ব্যবহৃত হয়।",
+      "title_en": "Giving travel advice: 〜たほうがいい / 〜ないほうがいい",
+      "pattern_en": "V-ta hou ga ii desu / V-nai hou ga ii desu",
+      "explain_en": "Advise someone on what to bring, book, or avoid when traveling.",
+      "examples": [
+        {
+          "jp": "厚い上着を持って行ったほうがいいですよ。",
+          "romaji": "Atsui uwagi o motte itta hou ga ii desu yo.",
+          "bn": "মোটা জ্যাকেট সাথে নিয়ে যাওয়াই ভালো হবে।",
+          "en": "You should bring a warm jacket."
         }
       ]
     }

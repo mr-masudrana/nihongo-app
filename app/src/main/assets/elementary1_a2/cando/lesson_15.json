@@ -1,0 +1,39 @@
+{
+  "lesson": 15,
+  "title": "জ্বর এসেছে এবং গলা ব্যথা করছে",
+  "title_en": "I have a fever, and my throat is sore.",
+  "points": [
+    {
+      "title": "Can-do 52–54: হাসপাতালে লক্ষণ বলা, ডাক্তারের কথা বোঝা ও ফরম পূরণ",
+      "pattern": "病院で症状を伝えたり、医者の指示を理解したり、問診票に記入したりできる。",
+      "explain": "হাসপাতালে নিজের কষ্টের কথা বলতে, ডাক্তারের পরামর্শ বুঝতে এবং মনশিনহিয়ো (問診票) পূরণ করতে পারা।",
+      "title_en": "Can-do 52–54",
+      "pattern_en": "Can explain symptoms, follow doctor's advice, and fill out intake forms.",
+      "explain_en": "Communicate effectively during a clinic visit.",
+      "examples": [
+        {
+          "jp": "インフルエンザですね。",
+          "romaji": "Infuruenza desu ne.",
+          "bn": "আপনার ইনফ্লুয়েঞ্জা (ফ্লু) হয়েছে।",
+          "en": "You have the flu."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 55–56: ওষুধ খাওয়ার নিয়ম ও সতর্কতা বোঝা",
+      "pattern": "薬の説明を聞いたり読んだりして、用法や用量、注意点を理解することができる。",
+      "explain": "ফার্মেসিতে ওষুধের ব্যবহারবিধি (দিনে কতবার, খাওয়ার আগে না পরে) বুঝতে পারা।",
+      "title_en": "Can-do 55–56",
+      "pattern_en": "Can understand spoken and written medicine instructions.",
+      "explain_en": "Follow dosage and precaution guidelines.",
+      "examples": [
+        {
+          "jp": "1日3回、毎食後に飲んでください。",
+          "romaji": "Ichinichi sankai, maishokugo ni nonde kudasai.",
+          "bn": "দিনে ৩ বার, প্রতিবার খাওয়ার পর খাবেন।",
+          "en": "Take three times a day after each meal."
+        }
+      ]
+    }
+  ]
+}

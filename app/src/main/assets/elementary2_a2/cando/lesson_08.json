@@ -1,0 +1,39 @@
+{
+  "lesson": 8,
+  "title": "খাবারের স্টলগুলো কোথায় আছে জানেন কি?",
+  "title_en": "Do you know where the food stands are?",
+  "points": [
+    {
+      "title": "Can-do 32–34: অনুষ্ঠানের সূচি পড়া, স্থান জিজ্ঞাসা ও অংশগ্রহণের নিয়ম জানা",
+      "pattern": "イベントのプログラムを読み、時間や場所、参加条件などを質問することができる。",
+      "explain": "উৎসবের প্রোগ্রাম দেখে ইভেন্টের সময় জানতে এবং অংশগ্রহণের শর্ত ও আবেদন প্রক্রিয়া জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 32–34",
+      "pattern_en": "Can read event programs and ask about times, venues, and sign-ups.",
+      "explain_en": "Navigate festival schedules and registration procedures.",
+      "examples": [
+        {
+          "jp": "だれでも参加できますか?",
+          "romaji": "Dare demo sanka dekimasu ka?",
+          "bn": "সবাই কি অংশগ্রহণ করতে পারবে?",
+          "en": "Can anyone participate?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 35–37: অনুষ্ঠানের ঘোষণা শোনা ও অভিজ্ঞতা SNS-এ লেখা",
+      "pattern": "会場のアナウンスを聞いて理解し、参加したイベントの感想をSNSに書き込める。",
+      "explain": "অনুষ্ঠানস্থলের সতর্কতামূলক ঘোষণা বুঝতে এবং উৎসবের অভিজ্ঞতা নিয়ে SNS-এ লিখতে পারা।",
+      "title_en": "Can-do 35–37",
+      "pattern_en": "Can understand venue announcements and post event reviews.",
+      "explain_en": "Follow venue rules and share festival highlights online.",
+      "examples": [
+        {
+          "jp": "いろいろな国の料理が食べられて、楽しかったです。",
+          "romaji": "Iroiro na kuni no ryouri ga taberarete, tanoshikatta desu.",
+          "bn": "বিভিন্ন দেশের খাবার খেতে পেরে খুব মজা হয়েছে।",
+          "en": "It was fun being able to eat food from various countries."
+        }
+      ]
+    }
+  ]
+}

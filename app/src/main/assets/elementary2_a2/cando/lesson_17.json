@@ -1,0 +1,39 @@
+{
+  "lesson": 17,
+  "title": "আগের চেয়ে ভালো জাপানি বলতে পারি",
+  "title_en": "I can speak Japanese better than before.",
+  "points": [
+    {
+      "title": "Can-do 73–74: জাপানে জীবনের পরিবর্তন ও কাজের অভিজ্ঞতা বলা",
+      "pattern": "日本に来てからの生活の変化や、最近の仕事の様子について簡単に話すことができる。",
+      "explain": "শুরুর দিকের অসুবিধা কাটিয়ে এখন কী কী কাজ নিজে করতে পারছেন তা সহকর্মীদের বলতে পারা।",
+      "title_en": "Can-do 73–74",
+      "pattern_en": "Can talk about life changes and recent work progress.",
+      "explain_en": "Share how your Japanese and work skills have improved.",
+      "examples": [
+        {
+          "jp": "日本人の友だちも増えました。",
+          "romaji": "Nihonjin no tomodachi mo fuemashita.",
+          "bn": "জাপানি বন্ধুর সংখ্যাও বেড়েছে।",
+          "en": "I've also made more Japanese friends."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 75: শিক্ষক বা শুভাকাঙ্ক্ষীকে বর্তমান অবস্থার খবর জানিয়ে মেসেজ লেখা",
+      "pattern": "日本語を教えてくれた先生などに、簡単な近況報告のメッセージを書くことができる。",
+      "explain": "জাপানি ভাষার শিক্ষককে নিজের বর্তমান কাজ ও ভালো থাকার খবর জানিয়ে কৃতজ্ঞতাপূর্ণ মেসেজ লিখতে পারা।",
+      "title_en": "Can-do 75",
+      "pattern_en": "Can write a status update message to a former teacher.",
+      "explain_en": "Send a thoughtful update message to your Japanese teacher.",
+      "examples": [
+        {
+          "jp": "先生、お元気ですか? 私は毎日楽しく働いています。",
+          "romaji": "Sensei, ogenki desu ka? Watashi wa mainichi tanoshiku hataraite imasu.",
+          "bn": "শিক্ষক, কেমন আছেন? আমি প্রতিদিন আনন্দের সাথে কাজ করছি।",
+          "en": "Teacher, how are you? I am working happily every day."
+        }
+      ]
+    }
+  ]
+}

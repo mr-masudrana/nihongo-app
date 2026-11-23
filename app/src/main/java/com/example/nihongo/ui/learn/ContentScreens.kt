@@ -99,7 +99,9 @@ fun LessonListScreen(
             val count = info.count
             val unit = when (type) {
                 "vocab" -> tr("টি শব্দ", " words")
-                "convo" -> tr("টি কথোপকথন", " dialogues")
+                "activities", "convo" -> tr("টি অ্যাক্টিভিটি", " activities")
+                "cando" -> tr("টি Can-do", " Can-do items")
+                "tips" -> tr("টি টিপস", " tips")
                 else -> tr("টি পাঠ", " points")
             }
             val available = info.exists && count > 0
@@ -139,8 +141,10 @@ fun LessonListScreen(
 fun LessonContent(level: String, type: String, no: Int) {
     when (type) {
         "vocab" -> VocabLessonContent(level, no)
-        "convo" -> ConvoLessonContent(level, no)
-        else -> GrammarLessonContent(level, no)
+        "activities", "convo" -> ConvoLessonContent(level, no)
+        "cando" -> PointsLessonContent(level, "cando", no)
+        "tips" -> PointsLessonContent(level, "tips", no)
+        else -> PointsLessonContent(level, "grammar", no)
     }
 }
 
@@ -171,10 +175,10 @@ private fun VocabLessonContent(level: String, no: Int) {
 }
 
 @Composable
-private fun GrammarLessonContent(level: String, no: Int) {
+private fun PointsLessonContent(level: String, folder: String, no: Int) {
     val ctx = LocalContext.current
-    val loaded by produceState<GrammarLesson?>(null, level, no) {
-        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).grammarLesson(level, no) }
+    val loaded by produceState<GrammarLesson?>(null, level, folder, no) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).pointsLesson(level, folder, no) }
     }
     val lesson = loaded
     if (lesson == null) { Loading(); return }

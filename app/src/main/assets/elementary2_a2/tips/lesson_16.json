@@ -1,0 +1,23 @@
+{
+  "lesson": 16,
+  "title": "ভূমিকম্প হলেও আতঙ্কিত হয়ে ছোটাছুটি করবেন না",
+  "title_en": "Do not panic in case of an earthquake.",
+  "points": [
+    {
+      "title": "হ্যাজার্ড ম্যাপ, জরুরি ব্যাগ (非常持ち出し袋) ও সিসমিক ইনটেনসিটি (震度)",
+      "pattern": "自然災害とハザードマップ・非常持ち出し袋・マグニチュードと震度・防災訓練",
+      "explain": "জাপানে প্রতিটি এলাকার নিরাপদ আশ্রয়কেন্দ্র ও ঝুঁকিপূর্ণ স্থান দেখানো 'হ্যাজার্ড ম্যাপ' থাকে। বাসায় অন্তত ৩ দিনের খাবার, পানি, টর্চলাইট ও রেডিওসহ একটি জরুরি ব্যাগ রাখা উচিত।",
+      "title_en": "Hazard Maps, Emergency Bags & Shindo Scale",
+      "pattern_en": "Disaster preparedness in Japan",
+      "explain_en": "Keep a 3-day emergency kit and know your local evacuation shelter on the hazard map.",
+      "examples": [
+        {
+          "jp": "水と非常食を準備します。",
+          "romaji": "Mizu to hijoushoku o junbi shimasu.",
+          "bn": "পানি ও শুকনো জরুরি খাবার প্রস্তুত রাখি।",
+          "en": "I prepare water and emergency food."
+        }
+      ]
+    }
+  ]
+}

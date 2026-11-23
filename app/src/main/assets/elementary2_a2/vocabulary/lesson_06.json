@@ -1,14 +1,84 @@
 {
   "lesson": 6,
-  "title": "ইভেন্টে অংশগ্রহণ",
-  "title_en": "Participating in Events",
+  "title": "বিভিন্ন জায়গায় যেতে পেরে খুব ভালো লেগেছে",
+  "title_en": "I am glad that I went to a lot of different places.",
   "words": [
     {
-      "word": "さんか",
-      "reading": "さんか",
-      "romaji": "sanka",
-      "bn": "অংশগ্রহণ",
-      "en": "participation"
+      "word": "〜発 / 〜着",
+      "reading": "〜はつ / 〜ちゃく",
+      "romaji": "~hatsu / ~chaku",
+      "bn": "~টায় ছাড়বে / ~টায় পৌঁছাবে",
+      "en": "departing at ~ / arriving at ~"
+    },
+    {
+      "word": "〜号 / 〜号車 / 〜番席",
+      "reading": "〜ごう / 〜ごうしゃ / 〜ばんせき",
+      "romaji": "~gou / ~gousha / ~banseki",
+      "bn": "~ নম্বর ট্রেন / ~ নম্বর বগি / ~ নম্বর সিট",
+      "en": "train No. ~ / car No. ~ / seat No. ~"
+    },
+    {
+      "word": "指定席 / 自由席",
+      "reading": "していせき / じゆうせき",
+      "romaji": "shiteiseki / jiyuuseki",
+      "bn": "সংরক্ষিত আসন / অসংরক্ষিত আসন",
+      "en": "reserved seat / non-reserved seat"
+    },
+    {
+      "word": "窓側 / 通路側",
+      "reading": "まどがわ / つうろがわ",
+      "romaji": "madogawa / tsuurogawa",
+      "bn": "জানালার পাশ / চলাচলের পথের পাশ",
+      "en": "window side / aisle side"
+    },
+    {
+      "word": "運転見合わせ",
+      "reading": "うんてんみあわせ",
+      "romaji": "unten miawase",
+      "bn": "ট্রেন চলাচল সাময়িক স্থগিত",
+      "en": "train operation suspended"
+    },
+    {
+      "word": "信号故障 / 人身事故",
+      "reading": "しんごうこしょう / じんしんじこ",
+      "romaji": "shingou koshou / jinshin jiko",
+      "bn": "সিগন্যাল ত্রুটি / রেল দুর্ঘটনা",
+      "en": "signal failure / passenger injury accident"
+    },
+    {
+      "word": "中禅寺湖",
+      "reading": "ちゅうぜんじこ",
+      "romaji": "Chuuzenjiko",
+      "bn": "চুজেনজি হ্রদ (নিক্কো)",
+      "en": "Lake Chuzenji"
+    },
+    {
+      "word": "残念でした",
+      "reading": "ざんねんでした",
+      "romaji": "zannen deshita",
+      "bn": "দুঃখজনক / আফসোস লেগেছে",
+      "en": "was disappointing / a pity"
+    },
+    {
+      "word": "あきらめます",
+      "reading": "あきらめます",
+      "romaji": "akiramemasu",
+      "bn": "আশা ছেড়ে দিই / বাদ দিই",
+      "en": "give up"
+    },
+    {
+      "word": "町並み",
+      "reading": "まちなみ",
+      "romaji": "machinami",
+      "bn": "শহরের দৃশ্য ও সারিবদ্ধ বাড়িঘর",
+      "en": "townscape"
+    },
+    {
+      "word": "きらきら光ります",
+      "reading": "きらきらひかります",
+      "romaji": "kirakira hikarimasu",
+      "bn": "ঝলমল করে জ্বলে",
+      "en": "sparkle / shine brightly"
     }
   ]
 }

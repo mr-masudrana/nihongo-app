@@ -1,14 +1,91 @@
 {
   "lesson": 12,
-  "title": "হোটেল ও থাকার ব্যবস্থা",
-  "title_en": "Hotels and Accommodation",
+  "title": "বেন্তোটা দেখতে খুব সুস্বাদু মনে হচ্ছে",
+  "title_en": "Your bento looks delicious.",
   "words": [
     {
-      "word": "よやく",
-      "reading": "よやく",
-      "romaji": "yoyaku",
-      "bn": "বুকিং / রিজার্ভেশন",
-      "en": "reservation"
+      "word": "お弁当",
+      "reading": "おべんとう",
+      "romaji": "obentou",
+      "bn": "লাঞ্চ বক্স / বেন্তো",
+      "en": "lunch box"
+    },
+    {
+      "word": "卵焼き",
+      "reading": "たまごやき",
+      "romaji": "tamagoyaki",
+      "bn": "জাপানি মিষ্টি ওমলেট",
+      "en": "Japanese rolled omelet"
+    },
+    {
+      "word": "茶碗蒸し",
+      "reading": "ちゃわんむし",
+      "romaji": "chawanmushi",
+      "bn": "ভাপে সেদ্ধ ডিমের পুডিং (নোনতা)",
+      "en": "savory steamed egg custard"
+    },
+    {
+      "word": "味",
+      "reading": "あじ",
+      "romaji": "aji",
+      "bn": "স্বাদ",
+      "en": "taste / flavor"
+    },
+    {
+      "word": "甘い / 辛い",
+      "reading": "あまい / からい",
+      "romaji": "amai / karai",
+      "bn": "মিষ্টি / ঝাল",
+      "en": "sweet / spicy"
+    },
+    {
+      "word": "しょっぱい / すっぱい",
+      "reading": "しょっぱい / すっぱい",
+      "romaji": "shoppai / suppai",
+      "bn": "নোনতা / টক",
+      "en": "salty / sour"
+    },
+    {
+      "word": "苦い",
+      "reading": "にがい",
+      "romaji": "nigai",
+      "bn": "তেতো",
+      "en": "bitter"
+    },
+    {
+      "word": "濃い / うすい",
+      "reading": "こい / うすい",
+      "romaji": "koi / usui",
+      "bn": "কড়া স্বাদ / হালকা স্বাদ",
+      "en": "strong / light (taste)"
+    },
+    {
+      "word": "お湯",
+      "reading": "おゆ",
+      "romaji": "oyu",
+      "bn": "গরম পানি",
+      "en": "hot water"
+    },
+    {
+      "word": "注ぎます",
+      "reading": "そそぎます",
+      "romaji": "sosogimasu",
+      "bn": "ঢালি (পানি)",
+      "en": "pour"
+    },
+    {
+      "word": "混ぜます",
+      "reading": "まぜます",
+      "romaji": "mazemasu",
+      "bn": "মিশাই / নাড়ি",
+      "en": "mix"
+    },
+    {
+      "word": "調理方法",
+      "reading": "ちょうりほうほう",
+      "romaji": "chouri houhou",
+      "bn": "রান্নার পদ্ধতি",
+      "en": "cooking instructions"
     }
   ]
 }

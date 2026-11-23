@@ -1,0 +1,145 @@
+{
+  "lesson": 12,
+  "title": "অতীত কাল ও তুলনা",
+  "title_en": "Past tense and comparisons",
+  "points": [
+    {
+      "title": "N／な-adjective — অতীত Affirmative ও Negative",
+      "pattern": "N／な-adj でした／じゃありませんでした",
+      "explain": "বিশেষ্য বাক্য ও な-adjective বাক্যের অতীত ইতিবাচক রূপে です বদলে でした হয়। অতীত না-বাচক রূপে じゃありませんでした (কথ্য রূপে じゃなかったです) ব্যবহার হয়।",
+      "title_en": "Past affirmative and negative: nouns and な-adjectives",
+      "pattern_en": "N／な-adj でした／じゃありませんでした",
+      "explain_en": "For past affirmative noun and な-adjective sentences, replace です with でした. The past negative is じゃありませんでした (conversationally, じゃなかったです).",
+      "examples": [
+        {
+          "jp": "きのうは 雨でした。",
+          "romaji": "Kinō wa ame deshita.",
+          "bn": "গতকাল বৃষ্টি ছিল।",
+          "en": "It was rainy yesterday."
+        },
+        {
+          "jp": "きのうの 試験は 簡単じゃありませんでした。",
+          "romaji": "Kinō no shiken wa kantan ja arimasen deshita.",
+          "bn": "গতকালের পরীক্ষা সহজ ছিল না।",
+          "en": "Yesterday's exam wasn't easy."
+        }
+      ]
+    },
+    {
+      "title": "い-adjective — অতীত Affirmative ও Negative",
+      "pattern": "い-adj → かったです／くなかったです",
+      "explain": "い-adjective-এর অতীত ইতিবাচক রূপ করতে শেষের い বাদ দিয়ে かったです যোগ হয়। অতীত না-বাচক রূপে শেষের い বাদ দিয়ে くなかったです যোগ হয়।",
+      "title_en": "Past affirmative and negative: い-adjectives",
+      "pattern_en": "い-adj → かったです／くなかったです",
+      "explain_en": "To form the past affirmative of an い-adjective, remove the final い and add かったです. For the past negative, remove final い and add くなかったです.",
+      "examples": [
+        {
+          "jp": "きのうは 暑かったです。",
+          "romaji": "Kinō wa atsukatta desu.",
+          "bn": "গতকাল গরম ছিল।",
+          "en": "It was hot yesterday."
+        },
+        {
+          "jp": "きのうの パーティーは あまり 楽しくなかったです。",
+          "romaji": "Kinō no pātī wa amari tanoshikunakatta desu.",
+          "bn": "গতকালের পার্টি খুব একটা উপভোগ্য ছিল না।",
+          "en": "I didn't enjoy yesterday's party very much."
+        }
+      ]
+    },
+    {
+      "title": "N₁ は N₂ より adj です — তুলনা করা",
+      "pattern": "N₁ は N₂ より adj です",
+      "explain": "দুটি ব্যক্তি বা বস্তুর মধ্যে তুলনা করে N₁-এর গুণ N₂-এর চেয়ে বেশি/কম বোঝাতে N₂-এর পরে より বসে। বাক্যের বিষয় N₁ হয়।",
+      "title_en": "N₁ は N₂ より adj です — comparing two things",
+      "pattern_en": "N₁ は N₂ より adj です",
+      "explain_en": "To compare two things and say that N₁ has a quality to a greater or lesser degree than N₂, place より after N₂. N₁ is the topic being described.",
+      "examples": [
+        {
+          "jp": "この 車は あの 車より 大きいです。",
+          "romaji": "Kono kuruma wa ano kuruma yori ōkii desu.",
+          "bn": "এই গাড়িটি ওই গাড়ির চেয়ে বড়।",
+          "en": "This car is bigger than that one."
+        }
+      ]
+    },
+    {
+      "title": "N₁ と N₂ と どちらが adj ですか — দুটির মধ্যে কোনটি?",
+      "pattern": "N₁ と N₂ と どちらが adj ですか。— N₁／N₂ の ほうが adj です。",
+      "explain": "দুটি জিনিসের মধ্যে কোনটি বেশি কোনো গুণসম্পন্ন তা জানতে どちらが ব্যবহার হয়। উত্তরে যে জিনিসটি বেছে নেওয়া হয় তার পরে のほうが বসে।",
+      "title_en": "N₁ と N₂ と どちらが adj ですか — choosing between two",
+      "pattern_en": "N₁ と N₂ と どちらが adj ですか。— N₁／N₂ の ほうが adj です。",
+      "explain_en": "Use どちらが to ask which of two things has a quality to a greater degree. In the answer, place のほうが after the chosen item.",
+      "examples": [
+        {
+          "jp": "サッカーと 野球と どちらが おもしろいですか。",
+          "romaji": "Sakkā to yakyū to dochira ga omoshiroi desu ka.",
+          "bn": "ফুটবল ও বেসবলের মধ্যে কোনটি বেশি মজার?",
+          "en": "Which is more interesting, soccer or baseball?"
+        },
+        {
+          "jp": "サッカーの ほうが おもしろいです。",
+          "romaji": "Sakkā no hō ga omoshiroi desu.",
+          "bn": "ফুটবলই বেশি মজার।",
+          "en": "Soccer is more interesting."
+        },
+        {
+          "jp": "春と 秋と どちらが 好きですか。",
+          "romaji": "Haru to aki to dochira ga suki desu ka.",
+          "bn": "বসন্ত ও শরতের মধ্যে কোনটি পছন্দ?",
+          "en": "Which do you prefer, spring or autumn?"
+        }
+      ]
+    },
+    {
+      "title": "N₁ の中で — কোনো দলের মধ্যে সবচেয়ে",
+      "pattern": "N₁ の中で + 何／どこ／だれ／いつ が いちばん adj ですか",
+      "explain": "কোনো দল, স্থান বা শ্রেণির মধ্যে সবচেয়ে বেশি কোনো গুণ কোথায়/কী/কে/কখন আছে তা জানতে এই Pattern ব্যবহার হয়। いちばん অর্থ ‘সবচেয়ে’। উত্তরে সেই শ্রেণির মধ্যে সেরা/সবচেয়ে উপযুক্ত বিষয়টি বলা হয়।",
+      "title_en": "N₁ の中で — asking for the most within a group",
+      "pattern_en": "N₁ の中で + 何／どこ／だれ／いつ が いちばん adj ですか",
+      "explain_en": "Use this pattern to ask which thing, place, person or time has the highest degree of a quality within a group or category. いちばん means “the most.”",
+      "examples": [
+        {
+          "jp": "日本料理の 中で 何が いちばん おいしいですか。",
+          "romaji": "Nihon ryōri no naka de nani ga ichiban oishii desu ka.",
+          "bn": "জাপানি খাবারের মধ্যে কোনটি সবচেয়ে সুস্বাদু?",
+          "en": "Which of all Japanese dishes is the most delicious?"
+        },
+        {
+          "jp": "天ぷらが いちばん おいしいです。",
+          "romaji": "Tenpura ga ichiban oishii desu.",
+          "bn": "টেম্পুরা সবচেয়ে সুস্বাদু।",
+          "en": "Tempura is the most delicious."
+        },
+        {
+          "jp": "家族で だれが いちばん 背が 高いですか。",
+          "romaji": "Kazoku de dare ga ichiban se ga takai desu ka.",
+          "bn": "পরিবারে কে সবচেয়ে লম্বা?",
+          "en": "Who is the tallest in your family?"
+        }
+      ]
+    },
+    {
+      "title": "Adjective の — বিশেষ্যের পরিবর্তে ব্যবহার",
+      "pattern": "Adjective + の",
+      "explain": "আগে উল্লেখ করা কোনো বিশেষ্য আবার না বলে তার পরিবর্তে Adjective + の ব্যবহার করা যায়। এতে একই বিশেষ্য বারবার বলা এড়ানো যায়।",
+      "title_en": "Adjective の — substituting for a noun",
+      "pattern_en": "Adjective + の",
+      "explain_en": "Adjective + の can replace a noun that has already been mentioned, avoiding repetition of the same noun.",
+      "examples": [
+        {
+          "jp": "カリナさんの かばんは どれですか。",
+          "romaji": "Karina-san no kaban wa dore desu ka.",
+          "bn": "কারিনার ব্যাগ কোনটি?",
+          "en": "Which is Karina's bag?"
+        },
+        {
+          "jp": "あの 赤くて、大きいのです。",
+          "romaji": "Ano akakute, ōkii no desu.",
+          "bn": "ওই লাল ও বড়টিই।",
+          "en": "That big red one."
+        }
+      ]
+    }
+  ]
+}

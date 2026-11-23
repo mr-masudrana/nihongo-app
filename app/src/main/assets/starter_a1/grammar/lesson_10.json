@@ -1,21 +1,43 @@
 {
   "lesson": 10,
-  "title": "কেনাকাটা ও দাম জিজ্ঞাসা",
-  "title_en": "Shopping and Prices",
+  "title": "স্ট্যাপলারটা একটু দিন",
+  "title_en": "Please lend me the stapler.",
   "points": [
     {
-      "title": "কেনাকাটা ও দাম জিজ্ঞাসা — মৌলিক বাক্য",
-      "pattern": "いくら です。",
-      "explain": "Irodori Starter A1 লেসন 10-এর মূল বাক্য গঠন।",
-      "title_en": "Shopping and Prices — Basic Pattern",
-      "pattern_en": "ikura desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 10.",
+      "title": "V-てください / V-てくれる? (কাজের অনুরোধ করা)",
+      "pattern": "ちょっと、手伝ってください / 窓、閉めてくれる?",
+      "explain": "কাউকে কোনো কাজ করার অনুরোধ করতে ক্রিয়ার て-form এর সাথে 'ください' (ভদ্র) বা 'くれる?' (বন্ধুসুলভ) ব্যবহৃত হয়।",
+      "title_en": "Making requests with V-te kudasai",
+      "pattern_en": "V-te kudasai / V-te kureru?",
+      "explain_en": "Ask someone to do a task politely or casually.",
       "examples": [
         {
-          "jp": "これは いくら です。",
-          "romaji": "Kore wa ikura desu.",
-          "bn": "এটি কত দাম।",
-          "en": "This is how much."
+          "jp": "ちょっと、手伝ってください。",
+          "romaji": "Chotto, tetsudatte kudasai.",
+          "bn": "একটু সাহায্য করুন, দয়া করে।",
+          "en": "Please help me for a moment."
+        },
+        {
+          "jp": "そこのドライバー、取って。",
+          "romaji": "Soko no doraibaa, totte.",
+          "bn": "ঐ স্ক্রু-ড্রাইভারটা একটু দাও।",
+          "en": "Pass me that screwdriver."
+        }
+      ]
+    },
+    {
+      "title": "N、貸してください / N、借りてもいいですか?",
+      "pattern": "ホチキス、貸してください / これ、いいですか?",
+      "explain": "কোনো জিনিস ধার চাইতে '貸してください' এবং অনুমতি নিয়ে ধার নিতে '借りてもいいですか?' ব্যবহৃত হয়।",
+      "title_en": "Asking to borrow things",
+      "pattern_en": "N kashite kudasai / N karitemo ii desu ka?",
+      "explain_en": "Politely ask to borrow items at work.",
+      "examples": [
+        {
+          "jp": "すみません。ホチキス、借りてもいいですか?",
+          "romaji": "Sumimasen. Hochikisu, karitemo ii desu ka?",
+          "bn": "মাফ করবেন। স্ট্যাপলারটা কি ধার নিতে পারি?",
+          "en": "Excuse me. May I borrow the stapler?"
         }
       ]
     }

@@ -1,0 +1,41 @@
+{
+  "lesson": 8,
+  "title": "ইয়ামাদা-সান কোথায় আছেন?",
+  "title_en": "Where is Yamada-san?",
+  "dialogues": [
+    {
+      "title": "১. কর্মক্ষেত্রে সহকর্মী ও জিনিসপত্র খোঁজা",
+      "title_en": "1. Looking for colleagues and office supplies",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。山田さんは、どこにいますか?",
+          "romaji": "Sumimasen. Yamada-san wa, doko ni imasu ka?",
+          "bn": "মাফ করবেন। ইয়ামাদা-সান কোথায় আছেন?",
+          "en": "Excuse me. Where is Yamada-san?"
+        },
+        {
+          "speaker": "B",
+          "jp": "食堂にいます。",
+          "romaji": "Shokudou ni imasu.",
+          "bn": "ক্যান্টিনে আছেন।",
+          "en": "He is in the cafeteria."
+        },
+        {
+          "speaker": "A",
+          "jp": "はさみは、どこにありますか?",
+          "romaji": "Hasami wa, doko ni arimasu ka?",
+          "bn": "কাঁচি কোথায় আছে?",
+          "en": "Where are the scissors?"
+        },
+        {
+          "speaker": "B",
+          "jp": "そこにあります。机の上です。",
+          "romaji": "Soko ni arimasu. Tsukue no ue desu.",
+          "bn": "ঐখানে আছে। টেবিলের উপরে।",
+          "en": "Right there, on the desk."
+        }
+      ]
+    }
+  ]
+}

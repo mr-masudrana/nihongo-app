@@ -1,0 +1,23 @@
+{
+  "lesson": 7,
+  "title": "৪টি রুম আছে",
+  "title_en": "There are four rooms.",
+  "points": [
+    {
+      "title": "জাপানি বাড়ি, ফুতন ও ঠিকানার নিয়ম",
+      "pattern": "日本の家・ふとん・住所のシステム",
+      "explain": "জাপানি বাড়িতে প্রবেশের সময় 'গেনকান' (玄関)-এ জুতা খুলে ঢুকতে হয়। বাথটাবের বাইরে শরীর ধুয়ে তারপর গরম পানিতে নামতে হয়। জাপানের ঠিকানা বড় থেকে ছোট ক্রমে লেখা হয় (পোস্টাল কোড → জেলা → শহর → এলাকা → ব্লক)।",
+      "title_en": "Japanese Houses, Futon & Address System",
+      "pattern_en": "Genkan, Washitsu, Futon, Address order",
+      "explain_en": "Remove shoes at genkan; addresses go from largest to smallest unit.",
+      "examples": [
+        {
+          "jp": "くつを脱いでください。",
+          "romaji": "Kutsu o nuide kudasai.",
+          "bn": "জুতা খুলুন, দয়া করে।",
+          "en": "Please take off your shoes."
+        }
+      ]
+    }
+  ]
+}

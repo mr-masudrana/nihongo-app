@@ -1,21 +1,37 @@
 {
   "lesson": 4,
-  "title": "ব্যাংক ও পোস্ট অফিস",
-  "title_en": "Bank and Post Office",
+  "title": "সয়া সস না লাগিয়ে খাবেন",
+  "title_en": "Please eat it without soy sauce.",
   "points": [
     {
-      "title": "ব্যাংক ও পোস্ট অফিস — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ぎんこう ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 4-এর মূল ব্যাকরণ।",
-      "title_en": "Bank and Post Office — Grammar Pattern",
-      "pattern_en": "Can do ginkou",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 4.",
+      "title": "V-て、〜 / V-ないで、〜 (খাবার খাওয়ার পদ্ধতি)",
+      "pattern": "つゆにつけて食べてください / しょうゆをつけないで食べてください",
+      "explain": "কোনো সস লাগিয়ে বা মিশিয়ে খেতে বলতে 'V-て' এবং না লাগিয়ে খেতে বলতে 'V-ないで' ব্যবহৃত হয়।",
+      "title_en": "Explaining how to eat: V-te vs V-naide",
+      "pattern_en": "Tsukete tabete kudasai / Tsukenaide tabete kudasai",
+      "explain_en": "Give instructions on how to eat specific dishes.",
       "examples": [
         {
-          "jp": "じぶんで ぎんこう を することができます。",
-          "romaji": "Jibun de ginkou o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে ব্যাংক করতে পারি।",
-          "en": "I can do bank by myself."
+          "jp": "よく混ぜて食べてください。",
+          "romaji": "Yoku mazete tabete kudasai.",
+          "bn": "ভালোভাবে মিশিয়ে খাবেন।",
+          "en": "Please mix well before eating."
+        }
+      ]
+    },
+    {
+      "title": "V-ちゃだめです (নিষেধ) ও V-てから、〜 (ধারাবাহিকতা)",
+      "pattern": "一度にたくさん入れちゃだめですよ / お肉と野菜を食べてから、入れましょう",
+      "explain": "কথ্য ভাষায় নিষেধ করতে 'V-ちゃだめです' এবং একটি কাজ শেষ করে পরেরটি করতে 'V-てから' বসে।",
+      "title_en": "Casual prohibition & Sequence with てから",
+      "pattern_en": "V-cha dame desu / V-te kara",
+      "explain_en": "Tell someone what not to do and the proper order of steps.",
+      "examples": [
+        {
+          "jp": "エビはつゆにつけないで、塩をかけて食べてください。",
+          "romaji": "Ebi wa tsuyu ni tsukenaide, shio o kakete tabete kudasai.",
+          "bn": "চিংড়ি স্যুপে না ডুবিয়ে লবণ ছিটিয়ে খাবেন।",
+          "en": "Don't dip the shrimp in sauce; sprinkle salt on it."
         }
       ]
     }

@@ -1,0 +1,39 @@
+{
+  "lesson": 13,
+  "title": "বিভিন্ন নিদর্শন প্রদর্শিত আছে",
+  "title_en": "They display a lot of materials.",
+  "points": [
+    {
+      "title": "Can-do 55–57: সরকারি স্থাপনা, জিম ও লাইব্রেরি ব্যবহারের নিয়ম জানা",
+      "pattern": "施設やジム、図書館の利用方法や規則について、説明を聞いたり質問したりできる。",
+      "explain": "লাইব্রেরি কার্ড বানানো, বই ধার নেওয়া ও ফেরত দেওয়ার নিয়ম এবং জিম ব্যবহারের শর্ত বুঝতে পারা।",
+      "title_en": "Can-do 55–57",
+      "pattern_en": "Can understand rules and ask questions at public facilities and libraries.",
+      "explain_en": "Learn how to register and use libraries and sports centers.",
+      "examples": [
+        {
+          "jp": "2週間借りられます。",
+          "romaji": "Nishuukan kariraremasu.",
+          "bn": "২ সপ্তাহের জন্য ধার নেওয়া যাবে।",
+          "en": "You can borrow them for two weeks."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 58–59: সহজ জাপানিতে লেখা নির্দেশিকা ও নিষেধাজ্ঞার চিহ্ন বোঝা",
+      "pattern": "やさしい日本語の案内を読んだり、「撮影禁止」などの表示を見て理解したりできる。",
+      "explain": "বিদেশিদের জন্য সহজ জাপানিতে লেখা গাইড এবং '撮影禁止' (ছবি তোলা নিষেধ) বা '飲食禁止' (খাওয়া নিষেধ) সাইনবোর্ড বুঝতে পারা।",
+      "title_en": "Can-do 58–59",
+      "pattern_en": "Can read Easy Japanese guides and prohibition signs.",
+      "explain_en": "Understand facility signage and Easy Japanese brochures.",
+      "examples": [
+        {
+          "jp": "館内飲食禁止 (No eating or drinking inside)",
+          "romaji": "Kannai inshoku kinshi",
+          "bn": "ভবনের ভেতরে খাওয়া ও পান করা নিষেধ",
+          "en": "No eating or drinking inside the building"
+        }
+      ]
+    }
+  ]
+}

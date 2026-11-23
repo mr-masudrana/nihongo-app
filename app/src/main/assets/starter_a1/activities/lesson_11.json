@@ -1,0 +1,27 @@
+{
+  "lesson": 11,
+  "title": "কোন ধরনের মাঙ্গা পছন্দ করেন?",
+  "title_en": "What kind of manga do you like?",
+  "dialogues": [
+    {
+      "title": "১. শখ এবং পছন্দের বিষয় নিয়ে আলোচনা",
+      "title_en": "1. Talking about hobbies and favorites",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "趣味は何ですか?",
+          "romaji": "Shumi wa nan desu ka?",
+          "bn": "আপনার শখ কী?",
+          "en": "What is your hobby?"
+        },
+        {
+          "speaker": "B",
+          "jp": "マンガを読むことです。「ドラゴンボール」が大好きです。",
+          "romaji": "Manga o yomu koto desu. 'Doragon Booru' ga daisuki desu.",
+          "bn": "মাঙ্গা পড়া। 'ড্রাগন বল' খুব পছন্দ করি।",
+          "en": "Reading manga. I love 'Dragon Ball'."
+        }
+      ]
+    }
+  ]
+}

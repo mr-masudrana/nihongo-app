@@ -1,0 +1,39 @@
+{
+  "lesson": 3,
+  "title": "অ্যালার্জি আছে বলে খেতে পারি না",
+  "title_en": "I cannot eat it because of an allergy.",
+  "points": [
+    {
+      "title": "Can-do 09–11: মেনু পড়া, অখাদ্য উপাদান জানানো ও আসন/অর্ডার পছন্দ করা",
+      "pattern": "メニューを読み、食べられない理由を伝え、座席や注文の希望を伝えることができる。",
+      "explain": "অ্যালার্জি বা ধর্মীয় কারণে কোন খাবার খাবেন না তা জানাতে এবং টেবিল বা আলাদা বিলের অনুরোধ করতে পারা।",
+      "title_en": "Can-do 09–11",
+      "pattern_en": "Can read menus, state dietary restrictions, and request seating/orders.",
+      "explain_en": "Communicate allergies, halal/vegetarian needs, and order preferences.",
+      "examples": [
+        {
+          "jp": "テーブルでお願いします。別々でお願いします。",
+          "romaji": "Teeburu de onegaishimasu. Betsubetsu de onegaishimasu.",
+          "bn": "টেবিল সিট দিন। আলাদা আলাদা বিল করবেন।",
+          "en": "Table seating, please. Separate bills, please."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 12–13: ফোনে রেস্তোরাঁ বুকিং ও কুপন ব্যবহার",
+      "pattern": "電話で飲食店の予約をしたり、クーポンを見て有効期限などを読み取ったりできる。",
+      "explain": "ফোনে তারিখ, সময় ও জনসংখ্যা বলে টেবিল বুক করতে এবং ডিসকাউন্ট কুপনের শর্ত বুঝতে পারা।",
+      "title_en": "Can-do 12–13",
+      "pattern_en": "Can reserve a restaurant by phone and read coupons.",
+      "explain_en": "Make phone reservations and check coupon terms.",
+      "examples": [
+        {
+          "jp": "ご飲食代 10%OFF (会計時にお見せください)",
+          "romaji": "Goinshokudai juppaasento ofu",
+          "bn": "খাবারের বিলে ১০% ছাড় (বিল দেওয়ার সময় দেখান)",
+          "en": "10% off food and drink (show at checkout)"
+        }
+      ]
+    }
+  ]
+}

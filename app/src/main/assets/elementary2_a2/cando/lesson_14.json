@@ -1,0 +1,39 @@
+{
+  "lesson": 14,
+  "title": "সামনের চুলগুলো আরেকটু ছোট করে কেটে দেবেন?",
+  "title_en": "Will you cut my bangs a little shorter?",
+  "points": [
+    {
+      "title": "Can-do 60–61: কুরিয়ার, লন্ড্রি সেবা ও মিসড ডেলিভারি স্লিপ বোঝা",
+      "pattern": "宅配便やクリーニングの利用方法を理解し、不在連絡票を見て再配達を頼める。",
+      "explain": "বাসায় না থাকলে পোস্টবক্সে রাখা ডেলিভারি স্লিপ (不在連絡票) পড়ে পুনরায় পার্সেল আনার (再配達) আবেদন করতে পারা।",
+      "title_en": "Can-do 60–61",
+      "pattern_en": "Can use delivery/cleaning services and request parcel redelivery.",
+      "explain_en": "Read missed delivery slips and arrange redelivery.",
+      "examples": [
+        {
+          "jp": "再配達の申し込みをします。",
+          "romaji": "Saihaitatsu no moushikomi o shimasu.",
+          "bn": "পুনরায় ডেলিভারির জন্য আবেদন করি।",
+          "en": "I apply for redelivery."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 62–63: সেলুনে চুল কাটার পছন্দ বলা ও বিদেশিদের সরকারি সেবা জানা",
+      "pattern": "美容院で髪型の希望を伝えたり、外国人向けの公共サービスについて理解したりできる。",
+      "explain": "সেলুনে চুল কাটার নির্দেশনা দিতে এবং সিটি হল বা আন্তর্জাতিক সংস্থার সহায়তা সেবা সম্পর্কে জানতে পারা।",
+      "title_en": "Can-do 62–63",
+      "pattern_en": "Can explain desired haircuts and learn about public services for foreigners.",
+      "explain_en": "Communicate with hairstylists and find multilingual support desks.",
+      "examples": [
+        {
+          "jp": "通訳のサービスがあります。",
+          "romaji": "Tsuuyaku no saabisu ga arimasu.",
+          "bn": "দোভাষী সেবা রয়েছে।",
+          "en": "There is an interpreter service."
+        }
+      ]
+    }
+  ]
+}

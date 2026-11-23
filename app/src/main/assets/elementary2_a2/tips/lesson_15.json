@@ -1,0 +1,23 @@
+{
+  "lesson": 15,
+  "title": "মিটিং রুমের লাইট জ্বালানো অবস্থায় ছিল",
+  "title_en": "The lights in the meeting room were left on.",
+  "points": [
+    {
+      "title": "কুল-বিজ (クールビズ), মাই-ব্যাগ ও ময়লা পৃথকীকরণ (ごみの分別)",
+      "pattern": "クールビズ・レジ袋とマイバッグ・ごみの分別",
+      "explain": "গ্রীষ্মকালে বিদ্যুৎ সাশ্রয়ের জন্য অফিসে টাই ও জ্যাকেট ছাড়া হালকা পোশাক পরার ক্যাম্পেইনকে 'কুল-বিজ' (Cool Biz) বলে। জাপানে এলাকাভেদে ময়লা ফেলার দিন ও নিয়ম অত্যন্ত কঠোরভাবে মানা হয়।",
+      "title_en": "Cool Biz, Reusable Bags & Strict Trash Sorting",
+      "pattern_en": "Environmental practices in Japan",
+      "explain_en": "Cool Biz promotes lighter office wear in summer; trash sorting rules are strict.",
+      "examples": [
+        {
+          "jp": "プラスチックごみ・ビン・カン・ペットボトル",
+          "romaji": "Purasuchikku gomi / Bin / Kan / Petto botoru",
+          "bn": "প্লাস্টিক / কাঁচের বোতল / ক্যান / পেট বোতল",
+          "en": "Plastics / Glass bottles / Cans / PET bottles"
+        }
+      ]
+    }
+  ]
+}

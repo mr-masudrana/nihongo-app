@@ -1,0 +1,23 @@
+{
+  "lesson": 14,
+  "title": "অনেক বড় ভবন, তাই না!",
+  "title_en": "It's a big building, isn't it.",
+  "points": [
+    {
+      "title": "কয়েন লকার, ভেন্ডিং মেশিন ও এটিএম",
+      "pattern": "コインロッカー・自動販売機・ATM",
+      "explain": "জাপানের স্টেশনগুলোতে ব্যাগ রাখার জন্য কয়েন লকার এবং রাস্তার মোড়ে মোড়ে পানীয়ের ভেন্ডিং মেশিন (自動販売機) থাকে। কনভিনিয়েন্স স্টোরের এটিএম ২৪ ঘণ্টা খোলা থাকে।",
+      "title_en": "Coin Lockers, Vending Machines & ATMs",
+      "pattern_en": "Koin rokkaa, Jidouhanbaiki, ATM",
+      "explain_en": "Convenience store ATMs and street vending machines are everywhere.",
+      "examples": [
+        {
+          "jp": "コンビニのATM",
+          "romaji": "Konbini no ATM",
+          "bn": "কনভিনিয়েন্স স্টোরের এটিএম",
+          "en": "Convenience store ATM"
+        }
+      ]
+    }
+  ]
+}

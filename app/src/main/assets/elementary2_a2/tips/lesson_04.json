@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "title": "সয়া সস না লাগিয়ে খাবেন",
+  "title_en": "Please eat it without soy sauce.",
+  "points": [
+    {
+      "title": "শোইউ, সস, সুইউ, তারে এবং শাবু-শাবু ও তেমাকি-জুশি",
+      "pattern": "ラーメン・しょうゆ/ソース/つゆ/たれ・しゃぶしゃぶ",
+      "explain": "জাপানি খাবারে ৪ ধরনের তরল মসলা ব্যবহৃত হয়: শোইউ (সয়া সস), সস (ভাজাপোড়ার ঘন সস), সুইউ (নুডলস/টেম্পুরার ঝোল) এবং তারে (মাংস ডোবানোর ঘন সস)।",
+      "title_en": "Japanese Sauces (Shoyu, Sauce, Tsuyu, Tare) & Hot Pots",
+      "pattern_en": "Condiments and group dining in Japan",
+      "explain_en": "Understand the difference between shoyu, sauce, tsuyu, and tare.",
+      "examples": [
+        {
+          "jp": "ポン酢とごまだれがあります。",
+          "romaji": "Ponzu to gomadare ga arimasu.",
+          "bn": "পোনজু সস আর তিলের সস আছে।",
+          "en": "There is ponzu sauce and sesame sauce."
+        }
+      ]
+    }
+  ]
+}

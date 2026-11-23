@@ -1,14 +1,98 @@
 {
   "lesson": 15,
-  "title": "অভিজ্ঞতা ও ভ্রমণ",
-  "title_en": "Experiences and Travel",
+  "title": "ব্যাটারি প্রয়োজন কিন্তু…",
+  "title_en": "I need some batteries.",
   "words": [
     {
-      "word": "りょこう",
-      "reading": "りょこう",
-      "romaji": "ryokou",
-      "bn": "ভ্রমণ",
-      "en": "trip"
+      "word": "電池",
+      "reading": "でんち",
+      "romaji": "denchi",
+      "bn": "ব্যাটারি",
+      "en": "battery"
+    },
+    {
+      "word": "延長コード",
+      "reading": "えんちょうコード",
+      "romaji": "enchou koodo",
+      "bn": "এক্সটেনশন কর্ড / মাল্টিপ্লাগ",
+      "en": "extension cord"
+    },
+    {
+      "word": "ほしいんです",
+      "reading": "ほしいんです",
+      "romaji": "hoshiin desu",
+      "bn": "প্রয়োজন / চাই",
+      "en": "want / need"
+    },
+    {
+      "word": "どこで買えますか",
+      "reading": "どこでかえますか",
+      "romaji": "doko de kaemasu ka",
+      "bn": "কোথায় কিনতে পারব?",
+      "en": "Where can I buy it?"
+    },
+    {
+      "word": "100円ショップ",
+      "reading": "ひゃくえんショップ",
+      "romaji": "hyakuen shoppu",
+      "bn": "১০০ ইয়েন শপ",
+      "en": "100-yen shop"
+    },
+    {
+      "word": "ドラッグストア",
+      "reading": "ドラッグストア",
+      "romaji": "doraggu sutoa",
+      "bn": "ড্রাগস্টোর (ওষুধ ও প্রসাধনীর দোকান)",
+      "en": "drugstore"
+    },
+    {
+      "word": "フロアガイド",
+      "reading": "フロアガイド",
+      "romaji": "furoa gaido",
+      "bn": "ফ্লোর গাইড",
+      "en": "floor guide"
+    },
+    {
+      "word": "入口 / 出口",
+      "reading": "いりぐち / でぐち",
+      "romaji": "iriguchi / deguchi",
+      "bn": "প্রবেশপথ / বাহির পথ",
+      "en": "entrance / exit"
+    },
+    {
+      "word": "押す / 引く",
+      "reading": "おす / ひく",
+      "romaji": "osu / hiku",
+      "bn": "ধাক্কা দিন / টানুন",
+      "en": "push / pull"
+    },
+    {
+      "word": "安い / 高い",
+      "reading": "やすい / たかい",
+      "romaji": "yasui / takai",
+      "bn": "সস্তা / দামি",
+      "en": "cheap / expensive"
+    },
+    {
+      "word": "おしゃれ(な)",
+      "reading": "おしゃれ(な)",
+      "romaji": "oshare (na)",
+      "bn": "ফ্যাশনেবল / স্টাইলিশ",
+      "en": "stylish / fashionable"
+    },
+    {
+      "word": "すてき(な)",
+      "reading": "すてき(な)",
+      "romaji": "suteki (na)",
+      "bn": "চমৎকার / দারুণ",
+      "en": "lovely / wonderful"
+    },
+    {
+      "word": "かわいい",
+      "reading": "かわいい",
+      "romaji": "kawaii",
+      "bn": "সুন্দর / কিউট",
+      "en": "cute"
     }
   ]
 }

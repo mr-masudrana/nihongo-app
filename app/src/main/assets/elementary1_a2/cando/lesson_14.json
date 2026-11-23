@@ -1,0 +1,39 @@
+{
+  "lesson": 14,
+  "title": "ছুটি নিলেও কি চলবে?",
+  "title_en": "May I take a day off?",
+  "points": [
+    {
+      "title": "Can-do 48–49: ফোনে দেরি/ছুটির খবর ও কাজের জায়গা ছাড়ার অনুমতি",
+      "pattern": "電話で休みや遅刻の連絡をしたり、持ち場を離れるとき許可を求めたりできる。",
+      "explain": "ফোনে অনুপস্থিতি জানাতে এবং সহকর্মীকে বলে সাময়িকভাবে কাজের স্থান ত্যাগ করতে পারা।",
+      "title_en": "Can-do 48–49",
+      "pattern_en": "Can call in sick/late and ask to step away from work.",
+      "explain_en": "Report absence by phone and ask permission to step out.",
+      "examples": [
+        {
+          "jp": "道が混んでいて、少し遅くなります。",
+          "romaji": "Michi ga konde ite, sukoshi osoku narimasu.",
+          "bn": "রাস্তায় জ্যাম থাকায় একটু দেরি হবে।",
+          "en": "The road is congested, so I'll be a bit late."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 50–51: আগাম ছুটির অনুমতি ও ছুটির ফরম পূরণ",
+      "pattern": "事前に休暇の許可を求めたり、休暇届の記入方法について質問できる。",
+      "explain": "আগে থেকে ছুটি বা আর্লি লিভের অনুমতি নিতে এবং ছুটির ফরম (休暇届) পূরণের নিয়ম বুঝতে পারা।",
+      "title_en": "Can-do 50–51",
+      "pattern_en": "Can request leave in advance and ask how to fill out forms.",
+      "explain_en": "Request time off and complete leave application forms.",
+      "examples": [
+        {
+          "jp": "休暇届を出してください。",
+          "romaji": "Kyuuka todoke o dashite kudasai.",
+          "bn": "ছুটির আবেদনপত্র জমা দিন।",
+          "en": "Please submit the leave request form."
+        }
+      ]
+    }
+  ]
+}

@@ -1,21 +1,43 @@
 {
   "lesson": 8,
-  "title": "দৈনন্দিন জীবন ও রুটিন",
-  "title_en": "Daily Life and Routine",
+  "title": "ইয়ামাদা-সান কোথায় আছেন?",
+  "title_en": "Where is Yamada-san?",
   "points": [
     {
-      "title": "দৈনন্দিন জীবন ও রুটিন — মৌলিক বাক্য",
-      "pattern": "まいにち です。",
-      "explain": "Irodori Starter A1 লেসন 8-এর মূল বাক্য গঠন।",
-      "title_en": "Daily Life and Routine — Basic Pattern",
-      "pattern_en": "mainichi desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 8.",
+      "title": "【স্থান】で V-ます ও 【ব্যক্তি】は【স্থান】にいます",
+      "pattern": "ここで着替えます / 山田さんは、食堂にいます",
+      "explain": "কোনো স্থানে কাজ করা বোঝাতে 'で' এবং কোনো ব্যক্তি কোথায় আছেন তা বোঝাতে 'にいます' (না থাকলে 'いません') বসে।",
+      "title_en": "Action location で & Person location にいます",
+      "pattern_en": "[Place] de V-masu / [Person] wa [Place] ni imasu",
+      "explain_en": "Distinguish between where an action occurs and where someone is located.",
       "examples": [
         {
-          "jp": "これは まいにち です。",
-          "romaji": "Kore wa mainichi desu.",
-          "bn": "এটি প্রতিদিন।",
-          "en": "This is every day."
+          "jp": "ここは会議室です。ここで打ち合わせをします。",
+          "romaji": "Koko wa kaigishitsu desu. Koko de uchiawase o shimasu.",
+          "bn": "এটি মিটিং রুম। এখানে মিটিং করা হয়।",
+          "en": "This is the meeting room. We hold meetings here."
+        },
+        {
+          "jp": "山田さんは、食堂にいます。",
+          "romaji": "Yamada-san wa, shokudou ni imasu.",
+          "bn": "ইয়ামাদা-সান ক্যান্টিনে আছেন।",
+          "en": "Yamada-san is in the cafeteria."
+        }
+      ]
+    },
+    {
+      "title": "বস্তুর অবস্থান: 【বস্তু】は N の【অবস্থান】にあります",
+      "pattern": "はさみは、机の上にあります / 引き出しの中にあります",
+      "explain": "জড় বস্তুর অবস্থান বোঝাতে 'にあります' এবং নির্দিষ্ট অবস্থান বোঝাতে 'の 上/下/中/横' ব্যবহৃত হয়।",
+      "title_en": "Location of objects: 上 / 下 / 中 / 横",
+      "pattern_en": "[Thing] wa N no [Position] ni arimasu",
+      "explain_en": "Specify exact positions using ue, shita, naka, yoko.",
+      "examples": [
+        {
+          "jp": "のりは、引き出しの中にあります。",
+          "romaji": "Nori wa, hikidashi no naka ni arimasu.",
+          "bn": "আঠা ড্রয়ারের ভেতরে আছে।",
+          "en": "The glue is inside the drawer."
         }
       ]
     }

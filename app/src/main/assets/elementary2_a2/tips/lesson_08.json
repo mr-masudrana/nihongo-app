@@ -1,0 +1,23 @@
+{
+  "lesson": 8,
+  "title": "খাবারের স্টলগুলো কোথায় আছে জানেন কি?",
+  "title_en": "Do you know where the food stands are?",
+  "points": [
+    {
+      "title": "আন্তর্জাতিক বিনিময় উৎসব, জাপানি বক্তৃতা প্রতিযোগিতা ও কারাওকে",
+      "pattern": "国際交流フェスティバル・日本語スピーチコンテスト・カラオケ大会",
+      "explain": "জাপানের বিভিন্ন শহরে আয়োজিত আন্তর্জাতিক উৎসবে বিদেশি বাসিন্দারা নিজ দেশের খাবার ও সংস্কৃতি তুলে ধরেন এবং জাপানি স্পিচ কনটেস্টে অংশ নেন।",
+      "title_en": "International Festivals & Speech Contests",
+      "pattern_en": "Community cultural exchange in Japan",
+      "explain_en": "Local festivals showcase international food, speeches, and karaoke.",
+      "examples": [
+        {
+          "jp": "スピーチコンテストに参加します。",
+          "romaji": "Supiichi kontesuto ni sanka shimasu.",
+          "bn": "বক্তৃতা প্রতিযোগিতায় অংশ নিচ্ছি।",
+          "en": "I will participate in the speech contest."
+        }
+      ]
+    }
+  ]
+}

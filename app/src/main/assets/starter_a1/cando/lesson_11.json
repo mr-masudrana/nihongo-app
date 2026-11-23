@@ -1,0 +1,39 @@
+{
+  "lesson": 11,
+  "title": "কোন ধরনের মাঙ্গা পছন্দ করেন?",
+  "title_en": "What kind of manga do you like?",
+  "points": [
+    {
+      "title": "Can-do 44–45: শখ ও পছন্দের বিষয় নিয়ে কথা বলা",
+      "pattern": "趣味や好きなことを質問したり、質問に答えたりすることができる。",
+      "explain": "নিজের শখ এবং প্রিয় বই, সিনেমা বা খেলা নিয়ে কথা বলতে পারা।",
+      "title_en": "Can-do 44–45",
+      "pattern_en": "Can ask and answer about hobbies and favorite things.",
+      "explain_en": "Discuss hobbies and specific interests.",
+      "examples": [
+        {
+          "jp": "音楽を聞くことです。",
+          "romaji": "Ongaku o kiku koto desu.",
+          "bn": "গান শোনা।",
+          "en": "Listening to music."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 46–47: ছুটির দিনের কাজ ও SNS প্রোফাইল",
+      "pattern": "休みの日に何をするか話したり、SNSのプロフィールを読んで理解できる。",
+      "explain": "ছুটির দিনে কী করেন তা বলতে এবং কারো প্রোফাইল পড়ে তার পছন্দ বুঝতে পারা।",
+      "title_en": "Can-do 46–47",
+      "pattern_en": "Can discuss days off and read SNS profiles.",
+      "explain_en": "Talk about weekend routines and understand profiles.",
+      "examples": [
+        {
+          "jp": "うちでゆっくりします。",
+          "romaji": "Uchi de yukkuri shimasu.",
+          "bn": "বাসায় বিশ্রাম নিই।",
+          "en": "I relax at home."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 6,
+  "title": "পোস্ট অফিসে কীভাবে গেলে ভালো হয়?",
+  "title_en": "Please tell me how to get to the post office.",
+  "points": [
+    {
+      "title": "ট্রাফিক সিগন্যাল (青信号) এবং মন্দির ও শ্রাইন (お寺・神社)",
+      "pattern": "信号・お寺と神社",
+      "explain": "জাপানে সবুজ ট্রাফিক লাইটকে 'আও-শিঙ্গো' (নীল সিগন্যাল) বলা হয়। জাপানে বৌদ্ধ মন্দিরে (お寺) বুদ্ধমূর্তি ও ঘণ্টা থাকে, আর শিন্তো শ্রাইনে (神社) প্রবেশমুখে 'তোরিই' (鳥居) গেট থাকে।",
+      "title_en": "Traffic Lights & Temples vs Shrines",
+      "pattern_en": "Ao-shingou, Otera, Jinja",
+      "explain_en": "Green lights are called 'blue'; shrines have torii gates while temples have Buddhist statues.",
+      "examples": [
+        {
+          "jp": "神社の隣にお寺があります。",
+          "romaji": "Jinja no tonari ni otera ga arimasu.",
+          "bn": "শ্রাইনের পাশে মন্দির আছে।",
+          "en": "There is a temple next to the shrine."
+        }
+      ]
+    }
+  ]
+}

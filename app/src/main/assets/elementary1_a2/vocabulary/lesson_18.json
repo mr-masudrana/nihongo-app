@@ -1,14 +1,84 @@
 {
   "lesson": 18,
-  "title": "জীবনের স্মৃতি ও ভবিষ্যৎ",
-  "title_en": "Life Memories and Future",
+  "title": "কোনো উপহার দেব কি?",
+  "title_en": "How about giving something as a gift?",
   "words": [
     {
-      "word": "おもいで",
-      "reading": "おもいで",
-      "romaji": "omoide",
-      "bn": "স্মৃতি",
-      "en": "memories"
+      "word": "おめでとうございます",
+      "reading": "おめでとうございます",
+      "romaji": "omedetou gozaimasu",
+      "bn": "অভিনন্দন!",
+      "en": "Congratulations!"
+    },
+    {
+      "word": "結婚します",
+      "reading": "けっこんします",
+      "romaji": "kekkon shimasu",
+      "bn": "বিয়ে করি",
+      "en": "get married"
+    },
+    {
+      "word": "生まれます",
+      "reading": "うまれます",
+      "romaji": "umaremasu",
+      "bn": "জন্মগ্রহণ করে",
+      "en": "be born"
+    },
+    {
+      "word": "合格します",
+      "reading": "ごうかくします",
+      "romaji": "goukakushimasu",
+      "bn": "পরীক্ষায় পাস করি",
+      "en": "pass an exam"
+    },
+    {
+      "word": "送別会",
+      "reading": "そうべつかい",
+      "romaji": "soubetsukai",
+      "bn": "বিদায় সংবর্ধনা / ফেয়ারওয়েল পার্টি",
+      "en": "farewell party"
+    },
+    {
+      "word": "選びます",
+      "reading": "えらびます",
+      "romaji": "erabimasu",
+      "bn": "বেছে নিই / পছন্দ করি",
+      "en": "choose / select"
+    },
+    {
+      "word": "あげます",
+      "reading": "あげます",
+      "romaji": "agemasu",
+      "bn": "দিই / উপহার দিই",
+      "en": "give"
+    },
+    {
+      "word": "思い出に残るもの",
+      "reading": "おもいでにのこるもの",
+      "romaji": "omoide ni nokoru mono",
+      "bn": "স্মৃতিতে থাকার মতো জিনিস",
+      "en": "something memorable"
+    },
+    {
+      "word": "色紙",
+      "reading": "しきし",
+      "romaji": "shikishi",
+      "bn": "শুভেচ্ছা লেখার বিশেষ কার্ডবোর্ড",
+      "en": "square message board"
+    },
+    {
+      "word": "幸せ(な)",
+      "reading": "しあわせ(な)",
+      "romaji": "shiawase (na)",
+      "bn": "সুখী",
+      "en": "happy"
+    },
+    {
+      "word": "いろいろお世話になりました",
+      "reading": "いろいろおせわになりました",
+      "romaji": "iroiro osewa ni narimashita",
+      "bn": "নানাভাবে সহযোগিতার জন্য অসংখ্য ধন্যবাদ",
+      "en": "Thank you for everything you have done for me"
     }
   ]
 }

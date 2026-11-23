@@ -1,0 +1,27 @@
+{
+  "lesson": 14,
+  "title": "সামনের চুলগুলো আরেকটু ছোট করে কেটে দেবেন?",
+  "title_en": "Will you cut my bangs a little shorter?",
+  "dialogues": [
+    {
+      "title": "১. সেলুনে চুল কাটার ধরন সম্পর্কে নিজের পছন্দ জানানো",
+      "title_en": "1. Explaining your desired hairstyle at a salon",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "今日は、どのぐらい切りますか?",
+          "romaji": "Kyou wa, dono gurai kirimasu ka?",
+          "bn": "আজ কতটুকু ছোট করে কাটবেন?",
+          "en": "How much would you like cut today?"
+        },
+        {
+          "speaker": "B",
+          "jp": "全体的に3センチぐらい切ってください。前髪はもう少し短くしてもらえますか?",
+          "romaji": "Zentaiteki ni san-senchi gurai kitte kudasai. Maegami wa mou sukoshi mijikaku shite moraemasu ka?",
+          "bn": "পুরোটা ৩ সেন্টিমিটারের মতো ছোট করে দিন। সামনের চুলগুলো আরেকটু ছোট করে দেবেন?",
+          "en": "Please cut about 3 cm overall. Could you cut the bangs a little shorter?"
+        }
+      ]
+    }
+  ]
+}

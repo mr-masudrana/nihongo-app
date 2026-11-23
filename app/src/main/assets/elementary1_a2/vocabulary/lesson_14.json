@@ -1,14 +1,77 @@
 {
   "lesson": 14,
-  "title": "হাসপাতাল ও ওষুধ",
-  "title_en": "Hospital and Medicine",
+  "title": "ছুটি নিলেও কি চলবে?",
+  "title_en": "May I take a day off?",
   "words": [
     {
-      "word": "くすり",
-      "reading": "くすり",
-      "romaji": "kusuri",
-      "bn": "ওষুধ",
-      "en": "medicine"
+      "word": "遅刻します",
+      "reading": "ちこくします",
+      "romaji": "chikoku shimasu",
+      "bn": "দেরিতে পৌঁছাই / লেট করি",
+      "en": "be late"
+    },
+    {
+      "word": "早退します",
+      "reading": "そうたいします",
+      "romaji": "soutai shimasu",
+      "bn": "নির্ধারিত সময়ের আগে ছুটি নিই",
+      "en": "leave early"
+    },
+    {
+      "word": "休みを取ります",
+      "reading": "やすみをとります",
+      "romaji": "yasumi o torimasu",
+      "bn": "ছুটি নিই",
+      "en": "take a day off"
+    },
+    {
+      "word": "有給休暇",
+      "reading": "ゆうきゅうきゅうか",
+      "romaji": "yuukyuu kyuuka",
+      "bn": "সবেতন ছুটি (পেইড লিভ)",
+      "en": "paid leave"
+    },
+    {
+      "word": "休暇届",
+      "reading": "きゅうかとどけ",
+      "romaji": "kyuuka todoke",
+      "bn": "ছুটির আবেদনপত্র",
+      "en": "leave request form"
+    },
+    {
+      "word": "道が混んでいます",
+      "reading": "みちがこんでいます",
+      "romaji": "michi ga konde imasu",
+      "bn": "রাস্তায় জ্যাম আছে",
+      "en": "the road is congested"
+    },
+    {
+      "word": "体調が悪い",
+      "reading": "たいちょうがわるい",
+      "romaji": "taichou ga warui",
+      "bn": "শরীর খারাপ লাগছে",
+      "en": "feeling unwell"
+    },
+    {
+      "word": "理由",
+      "reading": "りゆう",
+      "romaji": "riyuu",
+      "bn": "কারণ",
+      "en": "reason"
+    },
+    {
+      "word": "連絡先",
+      "reading": "れんらくさき",
+      "romaji": "renrakusaki",
+      "bn": "যোগাযোগের ঠিকানা বা নম্বর",
+      "en": "contact information"
+    },
+    {
+      "word": "印鑑 / ハンコ",
+      "reading": "いんかん / ハンコ",
+      "romaji": "inkan / hanko",
+      "bn": "ব্যক্তিগত সিলমোহর",
+      "en": "personal seal / stamp"
     }
   ]
 }

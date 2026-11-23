@@ -1,0 +1,39 @@
+{
+  "lesson": 3,
+  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title_en": "Nice to meet you.",
+  "points": [
+    {
+      "title": "জাপানি বর্ণমালা ও নামের সম্বোধন (~さん)",
+      "pattern": "日本の文字・名前の呼び方",
+      "explain": "জাপানে কাঞ্জি, হিরাগানা, কাতাকানা ও রোমাজি—এই ৪ ধরনের লিপি ব্যবহৃত হয়। অন্যের নামের শেষে ভদ্রতা হিসেবে '~さん' যোগ করা হয়, তবে নিজের নামের শেষে কখনো '~さん' বসে না।",
+      "title_en": "Japanese Characters & ~san",
+      "pattern_en": "Kanji, Hiragana, Katakana, Romaji",
+      "explain_en": "Add ~san to others' names, never your own.",
+      "examples": [
+        {
+          "jp": "田中さん",
+          "romaji": "Tanaka-san",
+          "bn": "জনাব/মিসেস তানাকা",
+          "en": "Mr./Ms. Tanaka"
+        }
+      ]
+    },
+    {
+      "title": "জাপানি সাল গণনা (Gengoo: 令和)",
+      "pattern": "元号 (昭和・平成・令和)",
+      "explain": "জাপানে ইংরেজি সালের পাশাপাশি সম্রাটের শাসনকাল অনুযায়ী সাল গণনা হয়। ২০১৯ সাল থেকে 'রেইওয়া' (令和) যুগ চলছে।",
+      "title_en": "Japanese Era Names (Gengoo)",
+      "pattern_en": "Showa, Heisei, Reiwa",
+      "explain_en": "Reiwa era began in 2019.",
+      "examples": [
+        {
+          "jp": "令和元年 (2019年)",
+          "romaji": "Reiwa gannen",
+          "bn": "রেইওয়া ১ম বছর (২০১৯)",
+          "en": "Reiwa Year 1 (2019)"
+        }
+      ]
+    }
+  ]
+}

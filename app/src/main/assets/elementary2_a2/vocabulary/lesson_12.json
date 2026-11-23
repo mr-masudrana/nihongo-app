@@ -1,14 +1,84 @@
 {
   "lesson": 12,
-  "title": "প্রযুক্তি ও দৈনন্দিন জীবন",
-  "title_en": "Technology and Daily Life",
+  "title": "এই ভ্যাকুয়াম ক্লিনারটি হালকা এবং চালানো সহজ",
+  "title_en": "This vacuum cleaner is light and easy to move around.",
   "words": [
     {
-      "word": "べんり",
-      "reading": "べんり",
-      "romaji": "benri",
-      "bn": "সুবিধাজনক",
-      "en": "convenient"
+      "word": "掃除機",
+      "reading": "そうじき",
+      "romaji": "soujiki",
+      "bn": "ভ্যাকুয়াম ক্লিনার",
+      "en": "vacuum cleaner"
+    },
+    {
+      "word": "電子レンジ / 炊飯器",
+      "reading": "でんしレンジ / すいはんき",
+      "romaji": "denshi renji / suihanki",
+      "bn": "মাইক্রোওয়েভ ওভেন / রাইস কুকার",
+      "en": "microwave / rice cooker"
+    },
+    {
+      "word": "家電量販店",
+      "reading": "かでんりょうはんてん",
+      "romaji": "kaden ryouhanten",
+      "bn": "বড় ইলেকট্রনিক্স শোরুম",
+      "en": "electronics retail store"
+    },
+    {
+      "word": "フリマアプリ",
+      "reading": "フリマアプリ",
+      "romaji": "furima apuri",
+      "bn": "সেকেন্ডহ্যান্ড কেনাবেচার অ্যাপ (Mercari ইত্যাদি)",
+      "en": "flea market app"
+    },
+    {
+      "word": "価格 / 値段",
+      "reading": "かかく / ねだん",
+      "romaji": "kakaku / nedan",
+      "bn": "মূল্য / দাম",
+      "en": "price"
+    },
+    {
+      "word": "税込 / 税別",
+      "reading": "ぜいこみ / ぜいべつ",
+      "romaji": "zeikomi / zeibetsu",
+      "bn": "ভ্যাটসহ / ভ্যাট ছাড়া",
+      "en": "tax included / tax excluded"
+    },
+    {
+      "word": "軽い / 重い",
+      "reading": "かるい / おもい",
+      "romaji": "karui / omoi",
+      "bn": "হালকা / ভারী",
+      "en": "light / heavy"
+    },
+    {
+      "word": "使いやすい / 使いにくい",
+      "reading": "つかいやすい / つかいにくい",
+      "romaji": "tsukaiyasui / tsukainikui",
+      "bn": "ব্যবহার করা সহজ / ব্যবহার করা কঠিন",
+      "en": "easy to use / hard to use"
+    },
+    {
+      "word": "動かしやすい",
+      "reading": "うごかしやすい",
+      "romaji": "ugokashiyasui",
+      "bn": "নড়াচড়া করা বা চালানো সহজ",
+      "en": "easy to move around"
+    },
+    {
+      "word": "保証",
+      "reading": "ほしょう",
+      "romaji": "hoshou",
+      "bn": "ওয়ারেন্টি / গ্যারান্টি",
+      "en": "warranty"
+    },
+    {
+      "word": "ポイント還元",
+      "reading": "ポイントかんげん",
+      "romaji": "pointo kangen",
+      "bn": "পয়েন্ট ক্যাশব্যাক",
+      "en": "point cashback"
     }
   ]
 }

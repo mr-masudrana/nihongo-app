@@ -1,14 +1,77 @@
 {
   "lesson": 17,
-  "title": "জাপানে বসবাসের পরামর্শ",
-  "title_en": "Advice for Living in Japan",
+  "title": "আগের চেয়ে ভালো জাপানি বলতে পারি",
+  "title_en": "I can speak Japanese better than before.",
   "words": [
     {
-      "word": "せいかつ",
-      "reading": "せいかつ",
-      "romaji": "seikatsu",
-      "bn": "জীবনযাপন",
-      "en": "daily life"
+      "word": "最近",
+      "reading": "さいきん",
+      "romaji": "saikin",
+      "bn": "সম্প্রতি / ইদানীং",
+      "en": "recently / lately"
+    },
+    {
+      "word": "前より",
+      "reading": "まえより",
+      "romaji": "mae yori",
+      "bn": "আগের চেয়ে",
+      "en": "than before"
+    },
+    {
+      "word": "増えます / 減ります",
+      "reading": "ふえます / へります",
+      "romaji": "fuemasu / herimasu",
+      "bn": "বাড়ে / কমে",
+      "en": "increase / decrease"
+    },
+    {
+      "word": "苦労します",
+      "reading": "くろうします",
+      "romaji": "kurou shimasu",
+      "bn": "কষ্ট বা সংগ্রাম করা",
+      "en": "have a hard time / struggle"
+    },
+    {
+      "word": "困ります",
+      "reading": "こまります",
+      "romaji": "komarimasu",
+      "bn": "সমস্যায় পড়া / বিপাকে পড়া",
+      "en": "be troubled / have difficulty"
+    },
+    {
+      "word": "笑います",
+      "reading": "わらいます",
+      "romaji": "waraimasu",
+      "bn": "হাসি",
+      "en": "laugh / smile"
+    },
+    {
+      "word": "和太鼓",
+      "reading": "わだいこ",
+      "romaji": "wadaiko",
+      "bn": "ঐতিহ্যবাহী জাপানি ঢোল",
+      "en": "Japanese drum"
+    },
+    {
+      "word": "方言",
+      "reading": "ほうげん",
+      "romaji": "hougen",
+      "bn": "আঞ্চলিক ভাষা / উপভাষা",
+      "en": "regional dialect"
+    },
+    {
+      "word": "授業",
+      "reading": "じゅぎょう",
+      "romaji": "jugyou",
+      "bn": "ক্লাস / পাঠদান",
+      "en": "class / lesson"
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "romaji": "mondai",
+      "bn": "সমস্যা / প্রশ্ন",
+      "en": "problem / question"
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "lesson": 7,
+  "title": "বৃষ্টি হলে হলে (অডিটোরিয়ামে) অনুষ্ঠান হবে",
+  "title_en": "If it rains, it will be held at the hall.",
+  "points": [
+    {
+      "title": "Can-do 28–30: এলাকার নোটিশ বোর্ড, চিঠি ও লাউডস্পিকার ঘোষণা বোঝা",
+      "pattern": "掲示板のお知らせや地域の無線放送を聞いて、主な情報を理解することができる。",
+      "explain": "পানি বন্ধের নোটিশ, গ্যাস চেকিং বা এলাকার অনুষ্ঠানের সময় ও বৃষ্টির বিকল্প ব্যবস্থা বুঝতে পারা।",
+      "title_en": "Can-do 28–30",
+      "pattern_en": "Can understand community notices and PA announcements.",
+      "explain_en": "Read utility notices and listen to municipal broadcasts.",
+      "examples": [
+        {
+          "jp": "4月9日 午後2時30分〜4時30分 断水します。",
+          "romaji": "Shigatsu kokonoka gogo niji sanjuppun kara yoji sanjuppun dansui shimasu.",
+          "bn": "৯ এপ্রিল বিকাল ২:৩০ থেকে ৪:৩০ পর্যন্ত পানি বন্ধ থাকবে।",
+          "en": "Water will be shut off on April 9 from 2:30 PM to 4:30 PM."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 31: স্থানীয় উৎসবে আমন্ত্রিত হলে প্রশ্ন করা ও উত্তর বোঝা",
+      "pattern": "地域のイベントに誘われたとき、内容について質問したり理解したりすることができる。",
+      "explain": "উৎসব বা অনুষ্ঠানে কী পোশাক পরতে হবে বা কী করা হয় তা জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 31",
+      "pattern_en": "Can ask about local events when invited.",
+      "explain_en": "Inquire about event details, dress codes, and activities.",
+      "examples": [
+        {
+          "jp": "浴衣を着て行きますか? 普通の服でいいですよ。",
+          "romaji": "Yukata o kite ikimasu ka? Futsuu no fuku de ii desu yo.",
+          "bn": "ইউকাতা পরে যাব কি? সাধারণ পোশাক পরলেই চলবে।",
+          "en": "Should I wear a yukata? Regular clothes are fine."
+        }
+      ]
+    }
+  ]
+}

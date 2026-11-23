@@ -1,21 +1,37 @@
 {
   "lesson": 6,
-  "title": "ইভেন্টে অংশগ্রহণ",
-  "title_en": "Participating in Events",
+  "title": "বিভিন্ন জায়গায় যেতে পেরে খুব ভালো লেগেছে",
+  "title_en": "I am glad that I went to a lot of different places.",
   "points": [
     {
-      "title": "ইভেন্টে অংশগ্রহণ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "さんか ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 6-এর মূল ব্যাকরণ।",
-      "title_en": "Participating in Events — Grammar Pattern",
-      "pattern_en": "Can do sanka",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 6.",
+      "title": "V-るつもりです (ভবিষ্যৎ পরিকল্পনা) ও V-(られ)て、〜 / なくて、〜",
+      "pattern": "明日は中禅寺湖に行くつもりです / ショーが見られなくて、残念でした",
+      "explain": "সুনির্দিষ্ট পরিকল্পনা জানাতে 'V-るつもりです' এবং কোনো কিছু করতে পারা বা না পারার অনুভূতি জানাতে সম্ভাব্য রূপের সাথে 'て / なくて' বসে।",
+      "title_en": "Intentions with つもり & Potential form reasons",
+      "pattern_en": "V-ru tsumori desu / V-(rare)te yokatta",
+      "explain_en": "State firm travel plans and express satisfaction or regret.",
       "examples": [
         {
-          "jp": "じぶんで さんか を することができます。",
-          "romaji": "Jibun de sanka o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে অংশগ্রহণ করতে পারি।",
-          "en": "I can do participation by myself."
+          "jp": "いろいろなところに行けて、よかったです。",
+          "romaji": "Iroiro na tokoro ni ikete, yokatta desu.",
+          "bn": "বিভিন্ন জায়গায় যেতে পেরে খুব ভালো লেগেছে।",
+          "en": "I'm glad I was able to go to many places."
+        }
+      ]
+    },
+    {
+      "title": "S1 し、S2 し、〜 ও V-る / V-ている / V-たとき、〜",
+      "pattern": "海で泳げたし、船に乗れたし、楽しかったです / 道を歩いているとき、リスを見ました",
+      "explain": "একাধিক অভিজ্ঞতা যুক্ত করতে '〜し' এবং ভ্রমণের সময় কোনো ঘটনা ঘটার মুহূর্ত বোঝাতে 'とき' ব্যবহৃত হয়।",
+      "title_en": "Listing experiences with 〜し & Time clauses with とき",
+      "pattern_en": "S1 shi, S2 shi / V-te iru toki",
+      "explain_en": "Summarize trip highlights and describe moments during a trip.",
+      "examples": [
+        {
+          "jp": "友だちと2人でハウステンボスに行って来ました。",
+          "romaji": "Tomodachi to futari de Hausutenbosu ni itte kimashita.",
+          "bn": "বন্ধুর সাথে ২ জনে মিলে হুইস টেন বশ ঘুরে এসেছি।",
+          "en": "I went to Huis Ten Bosch with a friend."
         }
       ]
     }

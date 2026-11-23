@@ -1,21 +1,37 @@
 {
   "lesson": 18,
-  "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা",
-  "title_en": "Farewell Greetings and Gratitude",
+  "title": "ভবিষ্যতে নিজের কোম্পানি গড়ব বলে ভাবছি",
+  "title_en": "I am thinking about starting my own company in the future.",
   "points": [
     {
-      "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "おせわ ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 18-এর মূল ব্যাকরণ।",
-      "title_en": "Farewell Greetings and Gratitude — Grammar Pattern",
-      "pattern_en": "Can do osewa",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 18.",
+      "title": "V-(よ)うと思います / 思っています (ভবিষ্যৎ সংকল্প) ও V-るために (উদ্দেশ্য)",
+      "pattern": "将来は、タイで自分の会社を作ろうと思います / 日本に住むために、もっとがんばります",
+      "explain": "ভবিষ্যতের পরিকল্পনা ও সংকল্প বোঝাতে ইচ্ছাসূচক রূপের সাথে 'と思います' এবং কোনো লক্ষ্য অর্জনের উদ্দেশ্যে বোঝাতে 'V-るために' বসে।",
+      "title_en": "Future intentions & Purpose with ために",
+      "pattern_en": "V-(yo)u to omoimasu / V-ru tame ni",
+      "explain_en": "Talk about career goals, dreams, and what you are doing to achieve them.",
       "examples": [
         {
-          "jp": "じぶんで おせわ を することができます。",
-          "romaji": "Jibun de osewa o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে সাহায্য / যত্ন করতে পারি।",
-          "en": "I can do help / care by myself."
+          "jp": "日本の技術を勉強して、国の役に立ちたいです。",
+          "romaji": "Nihon no gijutsu o benkyou shite, kuni no yaku ni tachitai desu.",
+          "bn": "জাপানের প্রযুক্তি শিখে দেশের কাজে লাগতে চাই।",
+          "en": "I want to learn Japanese technology and contribute to my country."
+        }
+      ]
+    },
+    {
+      "title": "V-てあげます / V-てもらいます / V-てくれます (উপকার ও কৃতজ্ঞতা)",
+      "pattern": "両親に家を建ててあげるつもりです / みなさんに親切にしてもらいました / 日本語を教えてくれました",
+      "explain": "অন্যের জন্য কিছু করে দেওয়া বোঝাতে '〜てあげます', অন্যের কাছ থেকে সাহায্য পাওয়া বোঝাতে '〜てもらいます' এবং কেউ আমাকে সাহায্য করেছে তা কৃতজ্ঞতার সাথে বলতে '〜てくれます' বসে।",
+      "title_en": "Giving and receiving favors: あげます / もらいます / くれます",
+      "pattern_en": "V-te agemasu / V-te moraimasu / V-te kuremasu",
+      "explain_en": "Express gratitude in a farewell speech and talk about helping family.",
+      "examples": [
+        {
+          "jp": "山内さんは、私にたくさん、日本語を教えてくれました。",
+          "romaji": "Yamauchi-san wa, watashi ni takusan, nihongo o oshiete kuremashita.",
+          "bn": "ইয়ামাউচি-সান আমাকে অনেক জাপানি ভাষা শিখিয়েছেন।",
+          "en": "Yamauchi-san taught me a lot of Japanese."
         }
       ]
     }

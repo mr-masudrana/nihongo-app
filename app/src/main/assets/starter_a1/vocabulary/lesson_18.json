@@ -1,14 +1,98 @@
 {
   "lesson": 18,
-  "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য",
-  "title_en": "Future Dreams and Goals",
+  "title": "উষ্ণ প্রস্রবণে (অনসেন) গোসল করতে চাই",
+  "title_en": "I want to go to a hot spring.",
   "words": [
     {
-      "word": "ゆめ",
-      "reading": "ゆめ",
-      "romaji": "yume",
-      "bn": "স্বপ্ন",
-      "en": "dream"
+      "word": "予定",
+      "reading": "よてい",
+      "romaji": "yotei",
+      "bn": "পরিকল্পনা / সিডিউল",
+      "en": "plans / schedule"
+    },
+    {
+      "word": "ゴールデンウィーク",
+      "reading": "ゴールデンウィーク",
+      "romaji": "gooruden wiiku",
+      "bn": "গোল্ডেন উইক (মে মাসের লম্বা ছুটি)",
+      "en": "Golden Week"
+    },
+    {
+      "word": "会います",
+      "reading": "あいます",
+      "romaji": "aimasu",
+      "bn": "দেখা করি",
+      "en": "meet"
+    },
+    {
+      "word": "入ります",
+      "reading": "はいります",
+      "romaji": "hairimasu",
+      "bn": "প্রবেশ করি / গোসল করি",
+      "en": "enter / take (a bath)"
+    },
+    {
+      "word": "旅行します",
+      "reading": "りょこうします",
+      "romaji": "ryokou shimasu",
+      "bn": "ভ্রমণ করি",
+      "en": "travel"
+    },
+    {
+      "word": "登ります",
+      "reading": "のぼります",
+      "romaji": "noborimasu",
+      "bn": "আরোহণ করি (পাহাড়ে ওঠা)",
+      "en": "climb"
+    },
+    {
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "romaji": "shinkansen",
+      "bn": "শিনকানসেন (বুলেট ট্রেন)",
+      "en": "bullet train"
+    },
+    {
+      "word": "船",
+      "reading": "ふね",
+      "romaji": "fune",
+      "bn": "জাহাজ / নৌকা",
+      "en": "ship / boat"
+    },
+    {
+      "word": "景色",
+      "reading": "けしき",
+      "romaji": "keshiki",
+      "bn": "প্রাকৃতিক দৃশ্য",
+      "en": "scenery"
+    },
+    {
+      "word": "気持ちいい",
+      "reading": "きもちいい",
+      "romaji": "kimochi ii",
+      "bn": "আরামদায়ক / ভালো লাগা",
+      "en": "feels good / comfortable"
+    },
+    {
+      "word": "あと",
+      "reading": "あと",
+      "romaji": "ato",
+      "bn": "এছাড়াও / আর",
+      "en": "also / in addition"
+    },
+    {
+      "word": "それから",
+      "reading": "それから",
+      "romaji": "sorekara",
+      "bn": "তারপর",
+      "en": "and then"
+    },
+    {
+      "word": "それに",
+      "reading": "それに",
+      "romaji": "soreni",
+      "bn": "তাছাড়া / অধিকন্তু",
+      "en": "moreover / besides"
     }
   ]
 }

@@ -1,0 +1,41 @@
+{
+  "lesson": 1,
+  "title": "রেস্তোরাঁয় কাজ করছি",
+  "title_en": "I work in a restaurant.",
+  "dialogues": [
+    {
+      "title": "১. অনেক দিন পর দেখা হলে কুশল বিনিময় ও কাজের কথা",
+      "title_en": "1. Greeting after a long time and talking about work",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "あ、お久しぶりです。お元気ですか?",
+          "romaji": "A, ohisashiburi desu. Ogenki desu ka?",
+          "bn": "ওহ, অনেক দিন পর দেখা। কেমন আছেন?",
+          "en": "Oh, long time no see. How have you been?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、おかげさまで。日本に来て1年になります。",
+          "romaji": "Hai, okagesama de. Nihon ni kite ichinen ni narimasu.",
+          "bn": "জি, ভালো আছি। জাপানে এসে ১ বছর হলো।",
+          "en": "I'm well, thanks. It's been a year since I came to Japan."
+        },
+        {
+          "speaker": "A",
+          "jp": "日本では何をしていますか?",
+          "romaji": "Nihon de wa nani o shite imasu ka?",
+          "bn": "জাপানে কী করছেন?",
+          "en": "What are you doing in Japan?"
+        },
+        {
+          "speaker": "B",
+          "jp": "工場で働いています。毎日大変ですが、勉強になります。",
+          "romaji": "Koujou de hataraite imasu. Mainichi taihen desu ga, benkyou ni narimasu.",
+          "bn": "কারখানায় কাজ করছি। প্রতিদিন কষ্ট হয়, তবে অনেক কিছু শিখছি।",
+          "en": "I work in a factory. It's tough every day, but I'm learning a lot."
+        }
+      ]
+    }
+  ]
+}

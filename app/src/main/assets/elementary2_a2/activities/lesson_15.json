@@ -1,0 +1,27 @@
+{
+  "lesson": 15,
+  "title": "মিটিং রুমের লাইট জ্বালানো অবস্থায় ছিল",
+  "title_en": "The lights in the meeting room were left on.",
+  "dialogues": [
+    {
+      "title": "১. পরিবেশ রক্ষা ও ময়লা ফেলার নিয়ম নিয়ে আলোচনা",
+      "title_en": "1. Discussing eco-habits and garbage sorting rules",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、このペットボトル、どうやって捨てればいいですか?",
+          "romaji": "Sumimasen, kono petto botoru, dou yatte sutereba ii desu ka?",
+          "bn": "মাফ করবেন, এই প্লাস্টিক বোতলটা কীভাবে ফেলব?",
+          "en": "Excuse me, how should I throw away this plastic bottle?"
+        },
+        {
+          "speaker": "B",
+          "jp": "ラベルとキャップを取って、中を洗ってから資源ごみの日に出してください。",
+          "romaji": "Raberu to kyappu o totte, naka o aratte kara shigen gomi no hi ni dashite kudasai.",
+          "bn": "লেবেল ও ঢাকনা খুলে ভেতরটা ধুয়ে তারপর রিসাইকেল ময়লার দিনে ফেলবেন।",
+          "en": "Remove the label and cap, rinse the inside, and put it out on recyclable day."
+        }
+      ]
+    }
+  ]
+}

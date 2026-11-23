@@ -1,56 +1,105 @@
 {
   "lesson": 2,
-  "title": "শখ ও পছন্দের বিষয়",
-  "title_en": "Hobbies and Interests",
+  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "title_en": "I'm sorry, I don't really understand.",
   "words": [
     {
-      "word": "しゅみ",
-      "reading": "しゅみ",
-      "romaji": "shumi",
-      "bn": "শখ",
-      "en": "hobby"
+      "word": "よくわかりません",
+      "reading": "よくわかりません",
+      "romaji": "yoku wakarimasen",
+      "bn": "ভালো বুঝতে পারছি না",
+      "en": "I don't really understand"
     },
     {
-      "word": "スポーツ",
-      "reading": "スポーツ",
-      "romaji": "supootsu",
-      "bn": "খেলাধুলা",
-      "en": "sports"
+      "word": "もういちど、お願いします",
+      "reading": "もういちど、おねがいします",
+      "romaji": "mou ichido, onegaishimasu",
+      "bn": "আরেকবার বলুন, দয়া করে",
+      "en": "One more time, please"
     },
     {
-      "word": "サッカー",
-      "reading": "サッカー",
-      "romaji": "sakkaa",
-      "bn": "ফুটবল",
-      "en": "football / soccer"
+      "word": "もう少し、ゆっくり言ってください",
+      "reading": "もうすこし、ゆっくりいってください",
+      "romaji": "mou sukoshi, yukkuri itte kudasai",
+      "bn": "আরেকটু ধীরে বলুন, দয়া করে",
+      "en": "Please speak a little more slowly"
     },
     {
-      "word": "おんがく",
-      "reading": "おんがく",
-      "romaji": "ongaku",
-      "bn": "গান / সংগীত",
-      "en": "music"
+      "word": "在留カード",
+      "reading": "ざいりゅうカード",
+      "romaji": "zairyuu kaado",
+      "bn": "রেসিডেন্স কার্ড (পরিচয়পত্র)",
+      "en": "residence card"
     },
     {
-      "word": "えいが",
-      "reading": "えいが",
-      "romaji": "eiga",
-      "bn": "সিনেমা",
-      "en": "movie"
+      "word": "部屋",
+      "reading": "へや",
+      "romaji": "heya",
+      "bn": "রুম / কক্ষ",
+      "en": "room"
     },
     {
-      "word": "りょこう",
-      "reading": "りょこう",
-      "romaji": "ryokou",
-      "bn": "ভ্রমণ",
-      "en": "travel"
+      "word": "日本語",
+      "reading": "にほんご",
+      "romaji": "nihongo",
+      "bn": "জাপানি ভাষা",
+      "en": "Japanese language"
     },
     {
-      "word": "すき",
-      "reading": "すき",
-      "romaji": "suki",
-      "bn": "পছন্দ",
-      "en": "like / favorite"
+      "word": "英語",
+      "reading": "えいご",
+      "romaji": "eigo",
+      "bn": "ইংরেজি ভাষা",
+      "en": "English language"
+    },
+    {
+      "word": "中国語",
+      "reading": "ちゅうごくご",
+      "romaji": "chuugokugo",
+      "bn": "চীনা ভাষা",
+      "en": "Chinese language"
+    },
+    {
+      "word": "少し",
+      "reading": "すこし",
+      "romaji": "sukoshi",
+      "bn": "অল্প / একটু",
+      "en": "a little"
+    },
+    {
+      "word": "消しゴム",
+      "reading": "けしゴム",
+      "romaji": "keshigomu",
+      "bn": "রাবার / ইরেজার",
+      "en": "eraser"
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "romaji": "kasa",
+      "bn": "ছাতা",
+      "en": "umbrella"
+    },
+    {
+      "word": "スマホ",
+      "reading": "スマホ",
+      "romaji": "sumaho",
+      "bn": "স্মার্টফোন",
+      "en": "smartphone"
+    },
+    {
+      "word": "免許証",
+      "reading": "めんきょしょう",
+      "romaji": "menkyoshoo",
+      "bn": "ড্রাইভিং লাইসেন্স",
+      "en": "driver's license"
+    },
+    {
+      "word": "蚊",
+      "reading": "か",
+      "romaji": "ka",
+      "bn": "মশা",
+      "en": "mosquito"
     }
   ]
 }

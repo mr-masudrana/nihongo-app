@@ -1,0 +1,139 @@
+{
+  "lesson": 16,
+  "title": "বাক্য যুক্ত করা ও কাজের ক্রম",
+  "title_en": "Connecting sentences and describing sequences",
+  "points": [
+    {
+      "title": "て-form দিয়ে একাধিক কাজ যুক্ত করা",
+      "pattern": "V1て-form、V2て-form、V3。",
+      "explain": "একই কর্তা ধারাবাহিকভাবে কয়েকটি কাজ করলে প্রথম ও মাঝের Verb-গুলোকে て-form করে যুক্ত করা হয়। শেষ Verb-এর tense পুরো বাক্যের tense নির্ধারণ করে।",
+      "title_en": "Connecting multiple actions with て-form",
+      "pattern_en": "V1て、V2て、V3。",
+      "explain_en": "Use the て-form to connect successive actions performed by the same subject. The tense of the final verb determines the tense of the sentence.",
+      "examples": [
+        {
+          "jp": "朝 ジョギングをして、シャワーを浴びて、会社へ行きます。",
+          "romaji": "Asa jogingu o shite, shawaa o abite, kaisha e ikimasu.",
+          "bn": "সকালে জগিং করি, গোসল করি, তারপর অফিসে যাই।",
+          "en": "In the morning, I jog, take a shower, and go to work."
+        },
+        {
+          "jp": "神戸へ行って、映画を見て、お茶を飲みました。",
+          "romaji": "Kobe e itte, eiga o mite, ocha o nomimashita.",
+          "bn": "কোবেতে গিয়ে সিনেমা দেখেছি এবং চা পান করেছি।",
+          "en": "I went to Kobe, saw a movie, and drank tea."
+        }
+      ]
+    },
+    {
+      "title": "い-adjective ও な-adjective যুক্ত করা",
+      "pattern": "い-adj → ～くて／な-adj → ～で",
+      "explain": "দুটি adjective দিয়ে একই বিষয় বর্ণনা করলে い-adjective-এর শেষ い বাদ দিয়ে くて বসে। な-adjective-এর পরে で বসে। いい-এর て-form হলো よくて।",
+      "title_en": "Connecting adjectives",
+      "pattern_en": "い-adj → ～くて / な-adj → ～で",
+      "explain_en": "To connect descriptions, change an い-adjective by replacing its final い with くて. Add で after a な-adjective. The て-form of いい is よくて.",
+      "examples": [
+        {
+          "jp": "ミラーさんは若くて、元気です。",
+          "romaji": "Miraa-san wa wakakute, genki desu.",
+          "bn": "মিলার সাহেব তরুণ এবং প্রাণবন্ত।",
+          "en": "Mr. Miller is young and energetic."
+        },
+        {
+          "jp": "奈良は静かで、きれいな町です。",
+          "romaji": "Nara wa shizuka de, kirei na machi desu.",
+          "bn": "নারা শান্ত ও সুন্দর শহর।",
+          "en": "Nara is a quiet, beautiful city."
+        }
+      ]
+    },
+    {
+      "title": "Noun দিয়ে পরিচয় বা বৈশিষ্ট্য যুক্ত করা",
+      "pattern": "N1で、N2です",
+      "explain": "দুটি noun-ভিত্তিক তথ্য যুক্ত করতে প্রথম noun-এর পরে で বসে।",
+      "title_en": "Connecting noun descriptions",
+      "pattern_en": "N1で、N2です",
+      "explain_en": "Use で after the first noun to connect two noun-based descriptions.",
+      "examples": [
+        {
+          "jp": "カリナさんはインドネシア人で、富士大学の留学生です。",
+          "romaji": "Karina-san wa Indoneshia-jin de, Fuji Daigaku no ryuugakusei desu.",
+          "bn": "কারিনা ইন্দোনেশীয় এবং ফুজি বিশ্ববিদ্যালয়ের বিদেশি শিক্ষার্থী।",
+          "en": "Karina is Indonesian and a student at Fuji University."
+        },
+        {
+          "jp": "カリナさんは学生で、マリアさんは主婦です。",
+          "romaji": "Karina-san wa gakusei de, Maria-san wa shufu desu.",
+          "bn": "কারিনা শিক্ষার্থী, আর মারিয়া গৃহিণী।",
+          "en": "Karina is a student, and Maria is a housewife."
+        }
+      ]
+    },
+    {
+      "title": "て-form + から — একটি কাজের পরে আরেকটি কাজ",
+      "pattern": "Vて-form + から、V2",
+      "explain": "প্রথম কাজটি সম্পন্ন হওয়ার পরে দ্বিতীয় কাজটি করা বোঝায়। てから-এর পরে সাধারণত নতুন কর্তা এলে は/が দিয়ে প্রকাশ করা যায়; প্রথম অংশের কর্তা が দিয়ে চিহ্নিত হতে পারে।",
+      "title_en": "After doing something",
+      "pattern_en": "Vて-form + から、V2",
+      "explain_en": "てから means that the second action takes place after the first action has been completed.",
+      "examples": [
+        {
+          "jp": "お金を入れてから、ボタンを押してください。",
+          "romaji": "Okane o irete kara, botan o oshite kudasai.",
+          "bn": "টাকা ঢোকানোর পরে বোতাম চাপুন।",
+          "en": "Put the money in, and then press the button."
+        },
+        {
+          "jp": "仕事が終わってから、食べます。",
+          "romaji": "Shigoto ga owatte kara, tabemasu.",
+          "bn": "কাজ শেষ করার পরে খাব।",
+          "en": "I will eat after I finish work."
+        }
+      ]
+    },
+    {
+      "title": "は দিয়ে বিষয় এবং が দিয়ে বৈশিষ্ট্য",
+      "pattern": "N1は N2が adjective です",
+      "explain": "কোনো ব্যক্তি বা বিষয়ের একটি নির্দিষ্ট বৈশিষ্ট্য বোঝাতে N1は দিয়ে topic এবং N2が দিয়ে যে অঙ্গ/বিষয়ের বৈশিষ্ট্য বলা হচ্ছে তা চিহ্নিত হয়।",
+      "title_en": "Topic with a characteristic",
+      "pattern_en": "N1は N2が adjective です",
+      "explain_en": "This pattern states that the topic has a particular characteristic. N1 is the topic, and N2 marks the part or feature being described.",
+      "examples": [
+        {
+          "jp": "大阪は食べ物がおいしいです。",
+          "romaji": "Oosaka wa tabemono ga oishii desu.",
+          "bn": "ওসাকার খাবার সুস্বাদু।",
+          "en": "The food in Osaka is very good."
+        },
+        {
+          "jp": "マリアさんは髪が長いです。",
+          "romaji": "Maria-san wa kami ga nagai desu.",
+          "bn": "মারিয়ার চুল লম্বা।",
+          "en": "Maria has long hair."
+        }
+      ]
+    },
+    {
+      "title": "どれ／どの — তিন বা তার বেশি থেকে বাছাই",
+      "pattern": "どれ／どの + N",
+      "explain": "তিন বা তার বেশি জিনিসের মধ্যে কোনটি জানতে どれ ব্যবহার হয়। Noun-এর আগে বসলে どの + N ব্যবহার করতে হয়। どれ সরাসরি noun-কে modify করে না।",
+      "title_en": "Choosing from three or more",
+      "pattern_en": "どれ / どの + N",
+      "explain_en": "Use どれ to ask which one among three or more items. Use どの before a noun; どれ cannot directly modify a noun.",
+      "examples": [
+        {
+          "jp": "ミラーさんの傘はどれですか。",
+          "romaji": "Miraa-san no kasa wa dore desu ka.",
+          "bn": "মিলার সাহেবের ছাতা কোনটি?",
+          "en": "Which is Mr. Miller's umbrella?"
+        },
+        {
+          "jp": "サントスさんはどの人ですか。",
+          "romaji": "Santosu-san wa dono hito desu ka.",
+          "bn": "সান্তোস সাহেব কোন ব্যক্তি?",
+          "en": "Which person is Mr. Santos?"
+        }
+      ]
+    }
+  ]
+}

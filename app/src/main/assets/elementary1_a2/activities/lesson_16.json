@@ -1,0 +1,34 @@
+{
+  "lesson": 16,
+  "title": "বেশি না খাওয়ার চেষ্টা করছি",
+  "title_en": "I try not to eat too much.",
+  "dialogues": [
+    {
+      "title": "১. অসুস্থ সহকর্মীকে পরামর্শ দেওয়া ও সুস্থ থাকার উপায় বলা",
+      "title_en": "1. Giving advice and discussing health habits",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "大丈夫ですか? 具合が悪そうですね。",
+          "romaji": "Daijoubu desu ka? Guai ga warusou desu ne.",
+          "bn": "ঠিক আছেন তো? দেখে মনে হচ্ছে শরীর খারাপ।",
+          "en": "Are you okay? You don't look well."
+        },
+        {
+          "speaker": "B",
+          "jp": "ちょっと寝不足で…。",
+          "romaji": "Chotto nebusoku de...",
+          "bn": "একটু ঘুম কম হয়েছে...",
+          "en": "I'm a bit short on sleep..."
+        },
+        {
+          "speaker": "A",
+          "jp": "じゃあ、今日は早く寝るといいですよ。",
+          "romaji": "Jaa, kyou wa hayaku neru to ii desu yo.",
+          "bn": "তাহলে আজ তাড়াতাড়ি ঘুমিয়ে পড়লে ভালো হবে।",
+          "en": "Then you should go to bed early today."
+        }
+      ]
+    }
+  ]
+}

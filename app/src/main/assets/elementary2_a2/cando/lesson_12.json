@@ -1,0 +1,39 @@
+{
+  "lesson": 12,
+  "title": "এই ভ্যাকুয়াম ক্লিনারটি হালকা এবং চালানো সহজ",
+  "title_en": "This vacuum cleaner is light and easy to move around.",
+  "points": [
+    {
+      "title": "Can-do 51–52: কোথায় কিনবেন তা পরামর্শ নেওয়া ও ফ্লি-মার্কেট অ্যাপ ব্যবহার",
+      "pattern": "何を買うか相談したり、フリマアプリを利用して製品を購入したりすることができる。",
+      "explain": "নতুন বা পুরোনো ইলেকট্রনিক্স পণ্য কোথায় ভালো পাওয়া যাবে তা জানতে এবং ফ্লি-মার্কেট অ্যাপে পণ্যের তথ্য বুঝতে পারা।",
+      "title_en": "Can-do 51–52",
+      "pattern_en": "Can ask where to buy items and use flea market apps.",
+      "explain_en": "Seek buying advice and understand secondhand app listings.",
+      "examples": [
+        {
+          "jp": "どこで買ったらいいですか? 家電量販店がいいですよ。",
+          "romaji": "Doko de kattara ii desu ka? Kaden ryouhanten ga ii desu yo.",
+          "bn": "কোথায় কিনলে ভালো হবে? বড় ইলেকট্রনিক্স দোকানে গেলে ভালো হবে।",
+          "en": "Where should I buy it? An electronics retail store is good."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 53–54: পণ্যের তুলনামূলক চার্ট পড়া ও দোকানে দরদাম করা",
+      "pattern": "商品の比較表や値札を読み取り、店の人に質問したり安くしてもらうよう頼んだりできる。",
+      "explain": "দামের ট্যাগে ট্যাক্সসহ/ছাড়া দাম বুঝতে এবং বিক্রেতাকে দাম কমানোর অনুরোধ করতে পারা।",
+      "title_en": "Can-do 53–54",
+      "pattern_en": "Can read comparison charts/price tags and negotiate prices.",
+      "explain_en": "Compare specs and politely ask for a discount.",
+      "examples": [
+        {
+          "jp": "これ、安くなりますか?",
+          "romaji": "Kore, yasuku narimasu ka?",
+          "bn": "এটার দাম কি কম হবে?",
+          "en": "Can you make this cheaper?"
+        }
+      ]
+    }
+  ]
+}

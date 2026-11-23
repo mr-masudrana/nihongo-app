@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "title": "খুব আন্তরিক মানুষ বলে মনে হচ্ছে",
+  "title_en": "He looks a serious person.",
+  "points": [
+    {
+      "title": "জাপানে দাড়ি রাখার নিয়ম, ওভারটাইম আইন ও কমিউনিটি ম্যাগাজিন",
+      "pattern": "日本人とひげ・コミュニティ誌・残業時間",
+      "explain": "জাপানের অনেক কর্মক্ষেত্রে পরিচ্ছন্নতার কারণে দাড়ি রাখার ওপর বিধিনিষেধ থাকতে পারে। এছাড়া আইন অনুযায়ী সাধারণত মাসে ৪৫ ঘণ্টার বেশি ওভারটাইম করানো যায় না।",
+      "title_en": "Facial Hair Etiquette, Community Magazines & Overtime Laws",
+      "pattern_en": "Workplace rules and labor laws in Japan",
+      "explain_en": "Some jobs restrict facial hair; overtime is legally capped at 45 hours/month.",
+      "examples": [
+        {
+          "jp": "ひげをはやしています。",
+          "romaji": "Hige o hayashite imasu.",
+          "bn": "দাড়ি রেখেছেন।",
+          "en": "He has a beard."
+        }
+      ]
+    }
+  ]
+}

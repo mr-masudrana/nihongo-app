@@ -1,14 +1,91 @@
 {
   "lesson": 12,
-  "title": "যাতায়াত ও দিকনির্দেশনা",
-  "title_en": "Transportation and Directions",
+  "title": "একসাথে পান করতে যাবেন?",
+  "title_en": "Do you want to go for a drink together?",
   "words": [
     {
-      "word": "えき",
-      "reading": "えき",
-      "romaji": "eki",
-      "bn": "স্টেশন",
-      "en": "station"
+      "word": "今日",
+      "reading": "きょう",
+      "romaji": "kyou",
+      "bn": "আজ",
+      "en": "today"
+    },
+    {
+      "word": "今週 / 来週",
+      "reading": "こんしゅう / らいしゅう",
+      "romaji": "konshuu / raishuu",
+      "bn": "এই সপ্তাহ / আগামী সপ্তাহ",
+      "en": "this week / next week"
+    },
+    {
+      "word": "今度",
+      "reading": "こんど",
+      "romaji": "kondo",
+      "bn": "পরের বার / আগামীতে",
+      "en": "next time"
+    },
+    {
+      "word": "夏祭り",
+      "reading": "なつまつり",
+      "romaji": "natsumatsuri",
+      "bn": "গ্রীষ্মকালীন উৎসব",
+      "en": "summer festival"
+    },
+    {
+      "word": "忘年会",
+      "reading": "ぼうねんかい",
+      "romaji": "bounenkai",
+      "bn": "বর্ষশেষ পার্টি",
+      "en": "year-end party"
+    },
+    {
+      "word": "花火大会",
+      "reading": "はなびたいかい",
+      "romaji": "hanabi taikai",
+      "bn": "আতশবাজি উৎসব",
+      "en": "fireworks festival"
+    },
+    {
+      "word": "いっしょに",
+      "reading": "いっしょに",
+      "romaji": "issho ni",
+      "bn": "একসাথে",
+      "en": "together"
+    },
+    {
+      "word": "行きませんか",
+      "reading": "いきませんか",
+      "romaji": "ikimasen ka",
+      "bn": "যাবেন কি? (আমন্ত্রণ)",
+      "en": "Won't you go?"
+    },
+    {
+      "word": "行きましょう",
+      "reading": "いきましょう",
+      "romaji": "ikimashou",
+      "bn": "চলুন যাই",
+      "en": "Let's go"
+    },
+    {
+      "word": "残念ですが",
+      "reading": "ざんねんですが",
+      "romaji": "zannen desu ga",
+      "bn": "দুঃখিত, কিন্তু...",
+      "en": "Unfortunately..."
+    },
+    {
+      "word": "用事があります",
+      "reading": "ようじがあります",
+      "romaji": "youji ga arimasu",
+      "bn": "জরুরি কাজ আছে",
+      "en": "I have something to do"
+    },
+    {
+      "word": "いいですね",
+      "reading": "いいですね",
+      "romaji": "ii desu ne",
+      "bn": "খুব ভালো হয়!",
+      "en": "Sounds great!"
     }
   ]
 }

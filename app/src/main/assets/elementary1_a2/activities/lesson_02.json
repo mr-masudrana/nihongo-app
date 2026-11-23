@@ -1,0 +1,27 @@
+{
+  "lesson": 2,
+  "title": "গেম খেলতে পছন্দ করি",
+  "title_en": "I like playing video games.",
+  "dialogues": [
+    {
+      "title": "১. ছুটির দিনের রুটিন ও পছন্দের শখ নিয়ে আলোচনা",
+      "title_en": "1. Discussing weekend activities and hobbies",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "休みの日は何をしますか?",
+          "romaji": "Yasumi no hi wa nani o shimasu ka?",
+          "bn": "ছুটির দিনে কী করেন?",
+          "en": "What do you do on your days off?"
+        },
+        {
+          "speaker": "B",
+          "jp": "たいてい友だちと市の体育館でバドミントンをします。",
+          "romaji": "Taitei tomodachi to shi no taiikukan de badominton o shimasu.",
+          "bn": "সাধারণত বন্ধুর সাথে শহরের জিমনেসিয়ামে ব্যাডমিন্টন খেলি।",
+          "en": "I usually play badminton with friends at the city gym."
+        }
+      ]
+    }
+  ]
+}

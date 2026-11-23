@@ -1,0 +1,27 @@
+{
+  "lesson": 10,
+  "title": "স্ট্যাপলারটা একটু দিন",
+  "title_en": "Please lend me the stapler.",
+  "dialogues": [
+    {
+      "title": "১. কর্মক্ষেত্রে কাজের নির্দেশনা ও জিনিস ধার চাওয়া",
+      "title_en": "1. Confirming instructions and borrowing items",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "これ、コピー、30枚お願い。",
+          "romaji": "Kore, kopii, sanjuu-mai onegai.",
+          "bn": "এটা ৩০ কপি ফটোকপি করে দাও।",
+          "en": "Please make 30 copies of this."
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、30枚ですね。わかりました。",
+          "romaji": "Hai, sanjuu-mai desu ne. Wakarimashita.",
+          "bn": "জি, ৩০ কপি তাই তো? বুঝেছি।",
+          "en": "Yes, 30 copies, right? Understood."
+        }
+      ]
+    }
+  ]
+}

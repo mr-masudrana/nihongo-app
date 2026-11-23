@@ -1,0 +1,23 @@
+{
+  "lesson": 17,
+  "title": "আগের চেয়ে ভালো জাপানি বলতে পারি",
+  "title_en": "I can speak Japanese better than before.",
+  "points": [
+    {
+      "title": "প্রশংসা পেলে বিনয়ী উত্তর (いえ、まだまだです) ও ওয়াদাইকো",
+      "pattern": "和太鼓・ほめられたとき・日本のテレビドラマ",
+      "explain": "জাপানে কেউ '日本語が上手ですね' (আপনি খুব ভালো জাপানি বলেন) বলে প্রশংসা করলে বিনয় দেখিয়ে 'いえ、まだまだです' (না, এখনো অনেক শেখা বাকি) বলা হয়।",
+      "title_en": "Responding Modestly to Compliments & Wadaiko",
+      "pattern_en": "Humble responses in Japanese culture",
+      "explain_en": "Respond with 'Iie, mada mada desu' when complimented on your Japanese.",
+      "examples": [
+        {
+          "jp": "いえ、まだまだです。",
+          "romaji": "Iie, mada mada desu.",
+          "bn": "না, এখনো অনেক শেখা বাকি।",
+          "en": "No, I still have a long way to go."
+        }
+      ]
+    }
+  ]
+}

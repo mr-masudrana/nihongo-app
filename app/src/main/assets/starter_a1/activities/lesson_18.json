@@ -1,0 +1,27 @@
+{
+  "lesson": 18,
+  "title": "উষ্ণ প্রস্রবণে (অনসেন) গোসল করতে চাই",
+  "title_en": "I want to go to a hot spring.",
+  "dialogues": [
+    {
+      "title": "১. জাপানে কী করতে চান ও ভ্রমণের অভিজ্ঞতা বলা",
+      "title_en": "1. Talking about travel wishes and experiences",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "日本で何がしたいですか?",
+          "romaji": "Nihon de nani ga shitai desu ka?",
+          "bn": "জাপানে কী করতে চান?",
+          "en": "What do you want to do in Japan?"
+        },
+        {
+          "speaker": "B",
+          "jp": "富士山に登りたいです。あと、新幹線に乗りたいです。",
+          "romaji": "Fujisan ni noboritai desu. Ato, shinkansen ni noritai desu.",
+          "bn": "ফুজি পাহাড়ে উঠতে চাই। এছাড়া, শিনকানসেনে চড়তে চাই।",
+          "en": "I want to climb Mt. Fuji. Also, I want to ride the bullet train."
+        }
+      ]
+    }
+  ]
+}

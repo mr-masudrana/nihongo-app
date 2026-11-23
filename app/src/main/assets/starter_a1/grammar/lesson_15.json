@@ -1,21 +1,37 @@
 {
   "lesson": 15,
-  "title": "অভিজ্ঞতা ও ভ্রমণ",
-  "title_en": "Experiences and Travel",
+  "title": "ব্যাটারি প্রয়োজন কিন্তু…",
+  "title_en": "I need some batteries.",
   "points": [
     {
-      "title": "অভিজ্ঞতা ও ভ্রমণ — মৌলিক বাক্য",
-      "pattern": "りょこう です。",
-      "explain": "Irodori Starter A1 লেসন 15-এর মূল বাক্য গঠন।",
-      "title_en": "Experiences and Travel — Basic Pattern",
-      "pattern_en": "ryokou desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 15.",
+      "title": "N がほしいんですが… (কোনো কিছু প্রয়োজন হলে)",
+      "pattern": "電池がほしいんですが、どこで買えますか?",
+      "explain": "কোনো জিনিস কেনার প্রয়োজন হলে 'がほしいんですが' বলে কোথায় পাওয়া যাবে তা জিজ্ঞাসা করা হয়।",
+      "title_en": "Expressing what you need",
+      "pattern_en": "N ga hoshiin desu ga, doko de kaemasu ka?",
+      "explain_en": "Ask where to buy something you need.",
       "examples": [
         {
-          "jp": "これは りょこう です。",
-          "romaji": "Kore wa ryokou desu.",
-          "bn": "এটি ভ্রমণ।",
-          "en": "This is trip."
+          "jp": "延長コードがほしいんですが、どこで買えますか?",
+          "romaji": "Enchou koodo ga hoshiin desu ga, doko de kaemasu ka?",
+          "bn": "একটি মাল্টিপ্লাগ প্রয়োজন, কোথায় কিনতে পারব?",
+          "en": "I need an extension cord; where can I buy one?"
+        }
+      ]
+    },
+    {
+      "title": "পণ্য সম্পর্কে মন্তব্য: ナA-ですね / イA-いですね",
+      "pattern": "このコート、おしゃれですね / このバッグ、かわいい!",
+      "explain": "কেনাকাটার সময় কোনো পণ্য দেখে ভালো লাগা প্রকাশ করতে এই বিশেষণগুলো ব্যবহৃত হয়।",
+      "title_en": "Commenting on products while shopping",
+      "pattern_en": "Na-adj desu ne / I-adj i desu ne",
+      "explain_en": "Share simple impressions about items with friends.",
+      "examples": [
+        {
+          "jp": "この傘、おもしろいですね。",
+          "romaji": "Kono kasa, omoshiroi desu ne.",
+          "bn": "এই ছাতাটা বেশ মজার, তাই না!",
+          "en": "This umbrella is interesting, isn't it."
         }
       ]
     }

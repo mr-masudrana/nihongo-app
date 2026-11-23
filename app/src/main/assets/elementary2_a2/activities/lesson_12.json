@@ -1,0 +1,34 @@
+{
+  "lesson": 12,
+  "title": "এই ভ্যাকুয়াম ক্লিনারটি হালকা এবং চালানো সহজ",
+  "title_en": "This vacuum cleaner is light and easy to move around.",
+  "dialogues": [
+    {
+      "title": "১. ইলেকট্রনিক্স দোকানে পণ্যের তুলনা ও দাম কমানোর অনুরোধ",
+      "title_en": "1. Comparing appliances and asking for a discount",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "どっちが使いやすいですか?",
+          "romaji": "Docchi ga tsukaiyasui desu ka?",
+          "bn": "কোনটি ব্যবহার করা বেশি সহজ?",
+          "en": "Which one is easier to use?"
+        },
+        {
+          "speaker": "B",
+          "jp": "こちらのほうが軽くて、動かしやすいですよ。",
+          "romaji": "Kochira no hou ga karukute, ugokashiyasui desu yo.",
+          "bn": "এটি বেশি হালকা এবং চালানো সহজ।",
+          "en": "This one is lighter and easier to move around."
+        },
+        {
+          "speaker": "A",
+          "jp": "そうですか。これ、もう少し安くなりますか?",
+          "romaji": "Sou desu ka. Kore, mou sukoshi yasuku narimasu ka?",
+          "bn": "আচ্ছা। এটার দাম কি আরেকটু কমানো যাবে?",
+          "en": "I see. Can this be made a little cheaper?"
+        }
+      ]
+    }
+  ]
+}

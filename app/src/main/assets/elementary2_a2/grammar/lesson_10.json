@@ -1,21 +1,37 @@
 {
   "lesson": 10,
-  "title": "পরিবারের অনুষ্ঠান",
-  "title_en": "Family Celebrations",
+  "title": "কোন ধরনের পোশাক পরে গেলে ভালো হবে?",
+  "title_en": "What kind of clothes should I wear?",
   "points": [
     {
-      "title": "পরিবারের অনুষ্ঠান — ব্যাকরণ প্যাটার্ন",
-      "pattern": "おいわい ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 10-এর মূল ব্যাকরণ।",
-      "title_en": "Family Celebrations — Grammar Pattern",
-      "pattern_en": "Can do oiwai",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 10.",
+      "title": "【প্রশ্নবোধক】V-ばいいですか? (শিষ্টাচার পরামর্শ) ও V-てはいけません / ちゃだめ",
+      "pattern": "お葬式には、何を持って行けばいいですか? / バスの中では、話しちゃだめだよね",
+      "explain": "কোনো অনুষ্ঠানে কী করণীয় তা জানতে শর্তসূচক রূপ 'V-ばいいですか?' এবং সামাজিক নিষেধাজ্ঞা বোঝাতে 'V-てはいけません / ちゃだめです' বসে।",
+      "title_en": "Asking about etiquette & Prohibitions",
+      "pattern_en": "V-ba ii desu ka? / V-te wa ikemasen",
+      "explain_en": "Ask what to wear/bring to events and express rules.",
       "examples": [
         {
-          "jp": "じぶんで おいわい を することができます。",
-          "romaji": "Jibun de oiwai o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে উদযাপন / অভিনন্দন করতে পারি।",
-          "en": "I can do celebration by myself."
+          "jp": "信号が赤のときは、横断歩道を渡ってはいけませんよ。",
+          "romaji": "Shingou ga aka no toki wa, oudanhodou o watatte wa ikemasen yo.",
+          "bn": "সিগন্যাল লাল থাকলে জেব্রা ক্রসিং পার হওয়া নিষেধ।",
+          "en": "You must not cross the crosswalk when the light is red."
+        }
+      ]
+    },
+    {
+      "title": "V-るように / ないように (উদ্দেশ্য) ও V-(ら)れます (কর্মবাচ্য ②)",
+      "pattern": "次の人が座れるように、食器を片付けます / 店長さんに注意されました",
+      "explain": "কোনো উদ্দেশ্য পূরণের জন্য '〜ように' এবং কারো দ্বারা সতর্ক বা তিরস্কৃত হওয়া বোঝাতে কর্মবাচ্য '注意されました' ব্যবহৃত হয়।",
+      "title_en": "Purpose with ように & Passive experiences",
+      "pattern_en": "V-ru you ni / Chuui saremashita",
+      "explain_en": "Explain the reason behind manners and describe cultural misunderstandings.",
+      "examples": [
+        {
+          "jp": "トイレがつまらないように、紙はごみ箱に捨てます。",
+          "romaji": "Toire ga tsumaranai you ni, kami wa gomibako ni sutemasu.",
+          "bn": "টয়লেট যেন জাম না হয় সেজন্য কাগজ ডাস্টবিনে ফেলি।",
+          "en": "We throw paper in the trash can so the toilet doesn't clog."
         }
       ]
     }

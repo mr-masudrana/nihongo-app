@@ -1,21 +1,43 @@
 {
   "lesson": 18,
-  "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য",
-  "title_en": "Future Dreams and Goals",
+  "title": "উষ্ণ প্রস্রবণে (অনসেন) গোসল করতে চাই",
+  "title_en": "I want to go to a hot spring.",
   "points": [
     {
-      "title": "ভবিষ্যতের স্বপ্ন ও লক্ষ্য — মৌলিক বাক্য",
-      "pattern": "ゆめ です。",
-      "explain": "Irodori Starter A1 লেসন 18-এর মূল বাক্য গঠন।",
-      "title_en": "Future Dreams and Goals — Basic Pattern",
-      "pattern_en": "yume desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 18.",
+      "title": "V-たいです (ইচ্ছা প্রকাশ করা) ও どこか",
+      "pattern": "温泉に入りたいです / どこか旅行したいです",
+      "explain": "নিজের কোনো কিছু করার ইচ্ছা বোঝাতে ক্রিয়ার ます বাদ দিয়ে 'たいです' যোগ করা হয়। কোথাও যাওয়ার ইচ্ছা বোঝাতে 'どこか' বসে।",
+      "title_en": "Expressing desires: V-tai desu",
+      "pattern_en": "V-tai desu / Dokoka V-tai desu",
+      "explain_en": "State what you want to do in Japan or on holidays.",
       "examples": [
         {
-          "jp": "これは ゆめ です。",
-          "romaji": "Kore wa yume desu.",
-          "bn": "এটি স্বপ্ন।",
-          "en": "This is dream."
+          "jp": "雪が見たいです。あと、温泉に入りたいです。",
+          "romaji": "Yuki ga mitai desu. Ato, onsen ni hairitai desu.",
+          "bn": "বরফ দেখতে চাই। এছাড়া, অনসেনে গোসল করতে চাই।",
+          "en": "I want to see snow. Also, I want to go into a hot spring."
+        },
+        {
+          "jp": "京都へ行きたいです。",
+          "romaji": "Kyouto e ikitai desu.",
+          "bn": "কিয়োতোতে যেতে চাই।",
+          "en": "I want to go to Kyoto."
+        }
+      ]
+    },
+    {
+      "title": "বাক্য সংযোগকারী: それから / それに / でも",
+      "pattern": "気持ちよかったです。それに、景色もきれいでした",
+      "explain": "ধারাবাহিক কাজ বোঝাতে 'それから', অতিরিক্ত ভালো দিক যোগ করতে 'それに' এবং বিপরীত তথ্য দিতে 'でも' ব্যবহৃত হয়।",
+      "title_en": "Sentence connectors: Sorekara, Soreni, Demo",
+      "pattern_en": "S1. Sorekara / Soreni / Demo, S2.",
+      "explain_en": "Connect multiple sentences smoothly when describing a trip.",
+      "examples": [
+        {
+          "jp": "おいしかったです。でも、ちょっと高かったです。",
+          "romaji": "Oishikatta desu. Demo, chotto takakatta desu.",
+          "bn": "খাবার সুস্বাদু ছিল। তবে একটু দামি ছিল।",
+          "en": "It was delicious. However, it was a bit expensive."
         }
       ]
     }

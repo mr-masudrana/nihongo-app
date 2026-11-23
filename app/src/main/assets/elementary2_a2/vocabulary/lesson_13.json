@@ -1,14 +1,77 @@
 {
   "lesson": 13,
-  "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং",
-  "title_en": "Environmental Protection",
+  "title": "বিভিন্ন নিদর্শন প্রদর্শিত আছে",
+  "title_en": "They display a lot of materials.",
   "words": [
     {
-      "word": "リサイクル",
-      "reading": "リサイクル",
-      "romaji": "risaikuru",
-      "bn": "রিসাইক্লিং",
-      "en": "recycling"
+      "word": "図書館",
+      "reading": "としょかん",
+      "romaji": "toshokan",
+      "bn": "লাইব্রেরি / গ্রন্থাগার",
+      "en": "library"
+    },
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "romaji": "shiryou",
+      "bn": "নথিপত্র / তথ্যসামগ্রী",
+      "en": "materials / documents"
+    },
+    {
+      "word": "展示してあります",
+      "reading": "てんじしてあります",
+      "romaji": "tenji shite arimasu",
+      "bn": "প্রদর্শন করে রাখা হয়েছে",
+      "en": "is on display"
+    },
+    {
+      "word": "建てられました",
+      "reading": "たてられました",
+      "romaji": "tateraremashita",
+      "bn": "নির্মিত হয়েছিল",
+      "en": "was built"
+    },
+    {
+      "word": "利用カード",
+      "reading": "りようカード",
+      "romaji": "riyou kaado",
+      "bn": "ব্যবহারকারী কার্ড (লাইব্রেরি কার্ড)",
+      "en": "user card / library card"
+    },
+    {
+      "word": "借ります / 返します",
+      "reading": "かります / かえします",
+      "romaji": "karimasu / kaeshimasu",
+      "bn": "ধার নিই / ফেরত দিই",
+      "en": "borrow / return"
+    },
+    {
+      "word": "返却ポスト",
+      "reading": "へんきゃくポスト",
+      "romaji": "henkyaku posuto",
+      "bn": "বই ফেরত দেওয়ার বক্স",
+      "en": "book return drop-box"
+    },
+    {
+      "word": "開きます / 閉まります",
+      "reading": "あきます / しまります",
+      "romaji": "akimasu / shimarimasu",
+      "bn": "খোলে / বন্ধ হয়",
+      "en": "open / close"
+    },
+    {
+      "word": "撮影禁止",
+      "reading": "さつえいきんし",
+      "romaji": "satsuei kinshi",
+      "bn": "ছবি তোলা নিষেধ",
+      "en": "no photography"
+    },
+    {
+      "word": "土足厳禁",
+      "reading": "どそくげんきん",
+      "romaji": "dosoku genkin",
+      "bn": "জুতা পায়ে প্রবেশ নিষেধ",
+      "en": "no shoes allowed"
     }
   ]
 }

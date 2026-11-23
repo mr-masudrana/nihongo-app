@@ -1,14 +1,91 @@
 {
   "lesson": 10,
-  "title": "কেনাকাটা ও দাম জিজ্ঞাসা",
-  "title_en": "Shopping and Prices",
+  "title": "স্ট্যাপলারটা একটু দিন",
+  "title_en": "Please lend me the stapler.",
   "words": [
     {
-      "word": "いくら",
-      "reading": "いくら",
-      "romaji": "ikura",
-      "bn": "কত দাম",
-      "en": "how much"
+      "word": "手伝います",
+      "reading": "てつだいます",
+      "romaji": "tetsudaimasu",
+      "bn": "সাহায্য করি",
+      "en": "help"
+    },
+    {
+      "word": "取ります",
+      "reading": "とります",
+      "romaji": "torimasu",
+      "bn": "নিই / এগিয়ে দিই",
+      "en": "take / pass"
+    },
+    {
+      "word": "閉めます",
+      "reading": "しめます",
+      "romaji": "shimemasu",
+      "bn": "বন্ধ করি",
+      "en": "close"
+    },
+    {
+      "word": "開けます",
+      "reading": "あけます",
+      "romaji": "akemasu",
+      "bn": "খুলি",
+      "en": "open"
+    },
+    {
+      "word": "片づけます",
+      "reading": "かたづけます",
+      "romaji": "katazukemasu",
+      "bn": "গুছিয়ে রাখি",
+      "en": "tidy up / put away"
+    },
+    {
+      "word": "コピーします",
+      "reading": "コピーします",
+      "romaji": "kopii shimasu",
+      "bn": "ফটোকপি করি",
+      "en": "photocopy"
+    },
+    {
+      "word": "〜枚",
+      "reading": "〜まい",
+      "romaji": "~mai",
+      "bn": "~টি (কাগজ/পাতা গণনা)",
+      "en": "counter for flat objects"
+    },
+    {
+      "word": "ホチキス",
+      "reading": "ホチキス",
+      "romaji": "hochikisu",
+      "bn": "স্ট্যাপলার",
+      "en": "stapler"
+    },
+    {
+      "word": "ドライバー",
+      "reading": "ドライバー",
+      "romaji": "doraibaa",
+      "bn": "স্ক্রু-ড্রাইভার",
+      "en": "screwdriver"
+    },
+    {
+      "word": "充電器",
+      "reading": "じゅうでんき",
+      "romaji": "juudenki",
+      "bn": "চার্জার",
+      "en": "charger"
+    },
+    {
+      "word": "貸してください",
+      "reading": "かしてください",
+      "romaji": "kashite kudasai",
+      "bn": "ধার দিন, দয়া করে",
+      "en": "Please lend me"
+    },
+    {
+      "word": "借りてもいいですか",
+      "reading": "かりてもいいですか",
+      "romaji": "karitemo ii desu ka",
+      "bn": "ধার নিতে পারি কি?",
+      "en": "May I borrow it?"
     }
   ]
 }

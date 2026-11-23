@@ -1,0 +1,23 @@
+{
+  "lesson": 16,
+  "title": "এটার দাম কত?",
+  "title_en": "How much is this?",
+  "points": [
+    {
+      "title": "জাপানি মুদ্রা, ইলেকট্রনিক পেমেন্ট ও কনবিনি খাবার",
+      "pattern": "日本の紙幣/貨幣・電子マネー・おにぎり",
+      "explain": "জাপানে ১, ৫, ১০, ৫০, ১০০, ৫০০ ইয়েনের কয়েন এবং ১,০০০, ৫,০০০, ১০,০০০ ইয়েনের নোট প্রচলিত। প্লাস্টিক ব্যাগের জন্য আলাদা চার্জ লাগে।",
+      "title_en": "Japanese Currency & Electronic Payment",
+      "pattern_en": "Coins, Bills, IC Cards, Plastic bag fee",
+      "explain_en": "Plastic bags cost extra; cashless payments are widely accepted.",
+      "examples": [
+        {
+          "jp": "カードで払います。",
+          "romaji": "Kaado de haraimasu.",
+          "bn": "কার্ডে পেমেন্ট করব।",
+          "en": "I'll pay by card."
+        }
+      ]
+    }
+  ]
+}

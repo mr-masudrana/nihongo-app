@@ -1,0 +1,39 @@
+{
+  "lesson": 10,
+  "title": "কোন ধরনের পোশাক পরে গেলে ভালো হবে?",
+  "title_en": "What kind of clothes should I wear?",
+  "points": [
+    {
+      "title": "Can-do 43–44: বিয়ে, অন্ত্যেষ্টিক্রিয়া ও দৈনন্দিন শিষ্টাচার নিয়ে প্রশ্ন",
+      "pattern": "日本の結婚式やお葬式などのマナーや、国との習慣の違いについて質問できる。",
+      "explain": "বিয়ে বা শোকানুষ্ঠানে কী পোশাক পরবেন ও কত টাকা উপহার দেবেন তা জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 43–44",
+      "pattern_en": "Can ask about wedding/funeral etiquette and cultural differences.",
+      "explain_en": "Understand Japanese social customs and food court manners.",
+      "examples": [
+        {
+          "jp": "食器は自分で片付けなくちゃ。",
+          "romaji": "Shokki wa jibun de katazukenakucha.",
+          "bn": "খাবারের প্লেট নিজেই গুছিয়ে রেখে আসতে হবে।",
+          "en": "You have to clear your own dishes."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 45–46: ভিন্ন সংস্কৃতির অভিজ্ঞতা বলা ও শিষ্টাচার বিষয়ক লেখা পড়া",
+      "pattern": "異文化体験のできごとを話したり、マナーに関するネットの書き込みを読んだりできる。",
+      "explain": "জাপানে এসে সংস্কৃতির ভিন্নতার কারণে হওয়া অভিজ্ঞতা বলতে এবং অনলাইনের নিবন্ধ পড়তে পারা।",
+      "title_en": "Can-do 45–46",
+      "pattern_en": "Can share cross-cultural experiences and read etiquette articles.",
+      "explain_en": "Discuss cultural surprises and read online forum posts.",
+      "examples": [
+        {
+          "jp": "国によって違うんですね。",
+          "romaji": "Kuni ni yotte chigaun desu ne.",
+          "bn": "দেশভেদে নিয়মগুলো আলাদা হয়, তাই না!",
+          "en": "It differs depending on the country, doesn't it!"
+        }
+      ]
+    }
+  ]
+}

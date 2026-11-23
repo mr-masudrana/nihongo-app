@@ -1,21 +1,43 @@
 {
   "lesson": 6,
-  "title": "রেস্তোরাঁয় খাবার অর্ডার করা",
-  "title_en": "Ordering at a Restaurant",
+  "title": "একটি চিজবার্গার দিন",
+  "title_en": "I'd like a cheeseburger, please.",
   "points": [
     {
-      "title": "[খাবার] を [সংখ্যা] ください — অর্ডার করা",
-      "pattern": "カレーを ひとつ ください。",
-      "explain": "দোকান বা রেস্তোরাঁয় কোনো কিছু চাইতে বা অর্ডার করতে ください ব্যবহৃত হয়।",
-      "title_en": "Ordering Food",
-      "pattern_en": "Karee o hitotsu kudasai.",
-      "explain_en": "Used to order items politely.",
+      "title": "N、お願いします / N、【সংখ্যা】ください (অর্ডার করা)",
+      "pattern": "ホットコーヒー、お願いします / 枝豆2つ、ください",
+      "explain": "রেস্তোরাঁয় খাবার অর্ডার করতে খাবারের নামের পর সংখ্যা (ひとつ、ふたつ、みっつ) বসিয়ে 'ください' বা 'お願いします' বলা হয়।",
+      "title_en": "Ordering food with counters",
+      "pattern_en": "N, onegaishimasu / N [number] kudasai",
+      "explain_en": "Use Japanese counters (hitotsu, futatsu...) after the food item.",
       "examples": [
         {
-          "jp": "みずを ふたつ ください。",
-          "romaji": "Mizu o futatsu kudasai.",
-          "bn": "দুই গ্লাস পানি দিন।",
-          "en": "Two waters, please."
+          "jp": "生ビール3つと、ウーロン茶1つ、お願いします。",
+          "romaji": "Nama-biiru mittsu to, uuroncha hitotsu, onegaishimasu.",
+          "bn": "৩টি ড্রাফট বিয়ার আর ১টি উলং চা দিন।",
+          "en": "Three draft beers and one oolong tea, please."
+        }
+      ]
+    },
+    {
+      "title": "Nにします (সিদ্ধান্ত জানানো) ও N(は)ありますか?",
+      "pattern": "私は、うどんにします / マヨネーズ、ありますか?",
+      "explain": "খাবারের মেনু থেকে কোনটি নেবেন তা ঠিক করলে 'にします' এবং টেবিলে কোনো কিছু (যেমন পানি বা সস) চাইতে 'ありますか?' ব্যবহৃত হয়।",
+      "title_en": "Deciding on an order & Requesting items",
+      "pattern_en": "N ni shimasu / N arimasu ka?",
+      "explain_en": "State your choice and ask for condiments or utensils.",
+      "examples": [
+        {
+          "jp": "私は、カレーにします。",
+          "romaji": "Watashi wa, karee ni shimasu.",
+          "bn": "আমি কারি নেব।",
+          "en": "I'll have curry."
+        },
+        {
+          "jp": "取り皿、ありますか?",
+          "romaji": "Torizara, arimasu ka?",
+          "bn": "ছোট প্লেট হবে কি?",
+          "en": "Do you have small plates?"
         }
       ]
     }

@@ -1,14 +1,77 @@
 {
   "lesson": 7,
-  "title": "স্বাস্থ্যকর জীবনযাপন",
-  "title_en": "Healthy Lifestyle",
+  "title": "বৃষ্টি হলে হলে (অডিটোরিয়ামে) অনুষ্ঠান হবে",
+  "title_en": "If it rains, it will be held at the hall.",
   "words": [
     {
-      "word": "うんどう",
-      "reading": "うんどう",
-      "romaji": "undou",
-      "bn": "ব্যায়াম",
-      "en": "exercise"
+      "word": "断水 / 水道工事",
+      "reading": "だんすい / すいどうこうじ",
+      "romaji": "dansui / suidou kouji",
+      "bn": "পানি সরবরাহ বন্ধ / পানির পাইপের কাজ",
+      "en": "water outage / waterworks construction"
+    },
+    {
+      "word": "自治会 / 町内会",
+      "reading": "じちかい / ちょうないかい",
+      "romaji": "jichikai / chounaikai",
+      "bn": "এলাকাবাসীর কল্যাণ সমিতি",
+      "en": "neighborhood association"
+    },
+    {
+      "word": "おみこしをかつぎます",
+      "reading": "おみこしをかつぎます",
+      "romaji": "omikoshi o katsugimasu",
+      "bn": "উৎসবের পালকি কাঁধে বহন করি",
+      "en": "carry a portable shrine"
+    },
+    {
+      "word": "ごみを拾います",
+      "reading": "ごみをひろいます",
+      "romaji": "gomi o hiroimasu",
+      "bn": "ময়লা কুড়াই / পরিষ্কার করি",
+      "en": "pick up trash"
+    },
+    {
+      "word": "延期します / 中止",
+      "reading": "えんきします / ちゅうし",
+      "romaji": "enki shimasu / chuushi",
+      "bn": "স্থগিত বা পিছিয়ে দেওয়া / বাতিল",
+      "en": "postpone / cancel"
+    },
+    {
+      "word": "ガスの点検",
+      "reading": "ガスのてんけん",
+      "romaji": "gasu no tenken",
+      "bn": "গ্যাস লাইন পরীক্ষা",
+      "en": "gas inspection"
+    },
+    {
+      "word": "寄付",
+      "reading": "きふ",
+      "romaji": "kifu",
+      "bn": "অনুদান / চাঁদা",
+      "en": "donation"
+    },
+    {
+      "word": "防災無線放送",
+      "reading": "ぼうさいむせんほうそう",
+      "romaji": "bousai musen housou",
+      "bn": "এলাকার লাউডস্পিকার ঘোষণা",
+      "en": "community PA broadcast"
+    },
+    {
+      "word": "盆踊り",
+      "reading": "ぼんおどり",
+      "romaji": "bon odori",
+      "bn": "বোন উৎসবের ঐতিহ্যবাহী নাচ",
+      "en": "Bon festival dance"
+    },
+    {
+      "word": "浴衣",
+      "reading": "ゆかた",
+      "romaji": "yukata",
+      "bn": "গ্রীষ্মকালীন সুতির কিমোনো (ইউকাতা)",
+      "en": "summer cotton kimono"
     }
   ]
 }

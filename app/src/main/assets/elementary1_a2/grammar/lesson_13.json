@@ -1,21 +1,37 @@
 {
   "lesson": 13,
-  "title": "আবহাওয়া ও পোশাক",
-  "title_en": "Weather and Clothing",
+  "title": "আর ১০ মিনিটের মতো লাগবে বলে মনে হচ্ছে",
+  "title_en": "It will probably end in about ten minutes.",
   "points": [
     {
-      "title": "আবহাওয়া ও পোশাক — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ふく について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 13-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Weather and Clothing — Grammar Pattern",
-      "pattern_en": "About fuku",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 13.",
+      "title": "〜んですが… (সমস্যা জানানো) ও V-そうです (কাজের অগ্রগতি অনুমান)",
+      "pattern": "パソコンが動かないんですが… / あと10分ぐらいで終わりそうです",
+      "explain": "কর্মক্ষেত্রে যান্ত্রিক সমস্যা জানাতে '〜んですが…' এবং কাজ কখন শেষ হবে তা অনুমান করে বলতে ক্রিয়ার ます বাদ দিয়ে 'そうです' বসে।",
+      "title_en": "Reporting problems & Estimating completion",
+      "pattern_en": "~n desu ga... / V-sou desu",
+      "explain_en": "Report equipment issues and estimate work progress.",
       "examples": [
         {
-          "jp": "ふくが わかりますか。",
-          "romaji": "fuku ga wakarimasu ka.",
-          "bn": "আপনি কি পোশাক বোঝেন?",
-          "en": "Do you understand clothes?"
+          "jp": "会議室の電気がつかないんですが…。",
+          "romaji": "Kaigishitsu no denki ga tsukanain desu ga...",
+          "bn": "মিটিং রুমের লাইট জ্বলছে না...",
+          "en": "The lights in the meeting room won't turn on..."
+        }
+      ]
+    },
+    {
+      "title": "V-たいとき、〜 (উদ্দেশ্য) ও V-ると、〜 (ফলাফল)",
+      "pattern": "両面コピーしたいときは、どうすればいいですか? / このボタンを押すと、コピーが始まります",
+      "explain": "কোনো কাজ করতে চাইলে কী করণীয় তা জানতে 'V-たいときは' এবং কোনো বোতাম চাপলে কী ঘটে তা বোঝাতে 'V-ると' ব্যবহৃত হয়।",
+      "title_en": "Conditional instructions: たいとき and ると",
+      "pattern_en": "V-tai toki wa / V-ru to",
+      "explain_en": "Ask how to operate office machines and understand step-by-step instructions.",
+      "examples": [
+        {
+          "jp": "このスタートボタンを押すと、コピーが始まります。",
+          "romaji": "Kono sutaato botan o osu to, kopii ga hajimarimasu.",
+          "bn": "এই স্টার্ট বোতামটি চাপলে ফটোকপি শুরু হবে।",
+          "en": "When you press this start button, copying begins."
         }
       ]
     }

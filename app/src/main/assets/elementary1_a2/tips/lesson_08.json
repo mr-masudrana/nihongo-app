@@ -1,0 +1,23 @@
+{
+  "lesson": 8,
+  "title": "বেসবল কখনো খেলেছেন কি?",
+  "title_en": "Have you ever played baseball?",
+  "points": [
+    {
+      "title": "জাপানের ঐতিহাসিক দুর্গ, আউটলেট মল ও প্রো-রেসলিং",
+      "pattern": "日本の城・アウトレットモール・プロレス",
+      "explain": "হিমেজি দুর্গ, মাৎসুমোতো দুর্গ ও ওসাকা দুর্গ জাপানের বিখ্যাত ঐতিহাসিক স্থাপনা। ছুটির দিনে আউটলেট মলে কেনাকাটা এবং প্রো-রেসলিং দেখা জাপানে জনপ্রিয় বিনোদন।",
+      "title_en": "Japanese Castles, Outlet Malls & Pro-wrestling",
+      "pattern_en": "Sightseeing and entertainment in Japan",
+      "explain_en": "Historic castles and outlet malls are popular weekend destinations.",
+      "examples": [
+        {
+          "jp": "お城に行きました。",
+          "romaji": "Oshiro ni ikimashita.",
+          "bn": "দুর্গ দেখতে গিয়েছিলাম।",
+          "en": "I visited a castle."
+        }
+      ]
+    }
+  ]
+}

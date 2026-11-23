@@ -1,0 +1,27 @@
+{
+  "lesson": 18,
+  "title": "ভবিষ্যতে নিজের কোম্পানি গড়ব বলে ভাবছি",
+  "title_en": "I am thinking about starting my own company in the future.",
+  "dialogues": [
+    {
+      "title": "১. ভবিষ্যতের স্বপ্ন বলা ও বিদায় অনুষ্ঠানে কৃতজ্ঞতা প্রকাশ",
+      "title_en": "1. Sharing future dreams and giving a farewell speech",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "将来、どんなことがしたいですか?",
+          "romaji": "Shourai, donna koto ga shitai desu ka?",
+          "bn": "ভবিষ্যতে কী করতে চান?",
+          "en": "What do you want to do in the future?"
+        },
+        {
+          "speaker": "B",
+          "jp": "すしの職人になりたいです。そして、将来は自分の店を作ろうと思います。",
+          "romaji": "Sushi no shokunin ni naritai desu. Soshite, shourai wa jibun no mise o tsukurou to omoimasu.",
+          "bn": "সুশির দক্ষ কারিগর হতে চাই। আর ভবিষ্যতে নিজের দোকান গড়ব বলে ভাবছি।",
+          "en": "I want to become a sushi chef. And in the future, I'm thinking of opening my own shop."
+        }
+      ]
+    }
+  ]
+}

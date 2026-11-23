@@ -1,14 +1,98 @@
 {
   "lesson": 11,
-  "title": "ছুটির দিন ও অবসর",
-  "title_en": "Holidays and Free Time",
+  "title": "কোন ধরনের মাঙ্গা পছন্দ করেন?",
+  "title_en": "What kind of manga do you like?",
   "words": [
     {
-      "word": "やすみ",
-      "reading": "やすみ",
-      "romaji": "yasumi",
-      "bn": "ছুটি",
-      "en": "holiday / rest"
+      "word": "趣味",
+      "reading": "しゅみ",
+      "romaji": "shumi",
+      "bn": "শখ",
+      "en": "hobby"
+    },
+    {
+      "word": "読みます",
+      "reading": "よみます",
+      "romaji": "yomimasu",
+      "bn": "পড়ি",
+      "en": "read"
+    },
+    {
+      "word": "聞きます",
+      "reading": "ききます",
+      "romaji": "kikimasu",
+      "bn": "শুনি",
+      "en": "listen"
+    },
+    {
+      "word": "見ます",
+      "reading": "みます",
+      "romaji": "mimasu",
+      "bn": "দেখি",
+      "en": "watch / see"
+    },
+    {
+      "word": "本",
+      "reading": "ほん",
+      "romaji": "hon",
+      "bn": "বই",
+      "en": "book"
+    },
+    {
+      "word": "音楽",
+      "reading": "おんがく",
+      "romaji": "ongaku",
+      "bn": "সংগীত / গান",
+      "en": "music"
+    },
+    {
+      "word": "映画",
+      "reading": "えいが",
+      "romaji": "eiga",
+      "bn": "সিনেমা",
+      "en": "movie"
+    },
+    {
+      "word": "料理",
+      "reading": "りょうり",
+      "romaji": "ryouri",
+      "bn": "রান্না",
+      "en": "cooking"
+    },
+    {
+      "word": "旅行",
+      "reading": "りょこう",
+      "romaji": "ryokou",
+      "bn": "ভ্রমণ",
+      "en": "travel"
+    },
+    {
+      "word": "大好き",
+      "reading": "だいすき",
+      "romaji": "daisuki",
+      "bn": "খুবই পছন্দ",
+      "en": "love / like very much"
+    },
+    {
+      "word": "たいてい",
+      "reading": "たいてい",
+      "romaji": "taitei",
+      "bn": "সাধারণত / বেশিরভাগ সময়",
+      "en": "usually"
+    },
+    {
+      "word": "ときどき",
+      "reading": "ときどき",
+      "romaji": "tokidoki",
+      "bn": "মাঝে মাঝে",
+      "en": "sometimes"
+    },
+    {
+      "word": "ぜんぜん",
+      "reading": "ぜんぜん",
+      "romaji": "zenzen",
+      "bn": "একেবারেই না",
+      "en": "not at all"
     }
   ]
 }

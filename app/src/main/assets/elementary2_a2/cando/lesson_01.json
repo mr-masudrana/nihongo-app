@@ -1,0 +1,39 @@
+{
+  "lesson": 1,
+  "title": "গত সপ্তাহে জাপানে এসেছি মাত্র",
+  "title_en": "I just came to Japan last week.",
+  "points": [
+    {
+      "title": "Can-do 01–02: কর্মক্ষেত্রে সহকর্মীদের ভূমিকা বোঝা ও বিস্তারিত পরিচয় দেওয়া",
+      "pattern": "スタッフの名前や役割を理解し、ややくわしい自己紹介をすることができる。",
+      "explain": "নতুন অফিসে সহকর্মীদের দায়িত্ব বুঝতে এবং নিজের নাম, অর্থ, পূর্ব অভিজ্ঞতা ও শখ নিয়ে পরিচয় দিতে পারা।",
+      "title_en": "Can-do 01–02",
+      "pattern_en": "Can understand staff roles and give a detailed self-introduction.",
+      "explain_en": "Understand who is in charge of what and introduce yourself thoroughly.",
+      "examples": [
+        {
+          "jp": "手続きのことは、山下さんが担当です。",
+          "romaji": "Tetsuzuki no koto wa, Yamashita-san ga tantou desu.",
+          "bn": "কাগজপত্রের কাজের দায়িত্বে আছেন ইয়ামাশিতা-সান।",
+          "en": "Yamashita-san is in charge of paperwork."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 03–04: নিজ শহরের বর্ণনা ও SNS কমিউনিটিতে পরিচয় লেখা",
+      "pattern": "自分の出身地について話したり、SNSに簡単な自己紹介を書いたりできる。",
+      "explain": "নিজ শহরের অবস্থান ও বৈশিষ্ট্য বলতে এবং অনলাইন গ্রুপে নিজের পরিচয় পোস্ট করতে পারা।",
+      "title_en": "Can-do 03–04",
+      "pattern_en": "Can talk about your hometown and write an SNS intro.",
+      "explain_en": "Describe your hometown and post introductions on social media.",
+      "examples": [
+        {
+          "jp": "ウランバートルは首都だから、都会ですよ。",
+          "romaji": "Uranbaatoru wa shuto da kara, tokai desu yo.",
+          "bn": "উলানবাটোর রাজধানী হওয়ায় বেশ আধুনিক শহর।",
+          "en": "Since Ulaanbaatar is the capital, it's a big city."
+        }
+      ]
+    }
+  ]
+}

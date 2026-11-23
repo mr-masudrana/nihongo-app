@@ -1,14 +1,84 @@
 {
   "lesson": 4,
-  "title": "ব্যাংক ও পোস্ট অফিস",
-  "title_en": "Bank and Post Office",
+  "title": "সয়া সস না লাগিয়ে খাবেন",
+  "title_en": "Please eat it without soy sauce.",
   "words": [
     {
-      "word": "ぎんこう",
-      "reading": "ぎんこう",
-      "romaji": "ginkou",
-      "bn": "ব্যাংক",
-      "en": "bank"
+      "word": "つけます / 混ぜます",
+      "reading": "つけます / まぜます",
+      "romaji": "tsukemasu / mazemasu",
+      "bn": "ডুবাই / মেশাই",
+      "en": "dip / mix"
+    },
+    {
+      "word": "かけます / のせます",
+      "reading": "かけます / のせます",
+      "romaji": "kakemasu / nosemasu",
+      "bn": "ছিটাই (সস/লবণ) / উপরে রাখি",
+      "en": "pour or sprinkle / place on top"
+    },
+    {
+      "word": "巻きます / むきます",
+      "reading": "まきます / むきます",
+      "romaji": "makimasu / mukimasu",
+      "bn": "রোল করি / খোসা ছাড়াই",
+      "en": "roll / peel"
+    },
+    {
+      "word": "そのまま",
+      "reading": "そのまま",
+      "romaji": "sonomama",
+      "bn": "যেমন আছে তেমনই (কিছু না মিশিয়ে)",
+      "en": "as is / plain"
+    },
+    {
+      "word": "味がついています",
+      "reading": "あじがついています",
+      "romaji": "aji ga tsuite imasu",
+      "bn": "আগে থেকেই মসলা/স্বাদ দেওয়া আছে",
+      "en": "already seasoned"
+    },
+    {
+      "word": "ポン酢 / ごまだれ",
+      "reading": "ポンず / ごまだれ",
+      "romaji": "ponzu / gomadare",
+      "bn": "টক সয়া সস / তিলের সস",
+      "en": "ponzu citrus soy sauce / sesame sauce"
+    },
+    {
+      "word": "ゆでます / 蒸します",
+      "reading": "ゆでます / むします",
+      "romaji": "yudemasu / mushimasu",
+      "bn": "সেদ্ধ করি (পানিতে) / ভাপে সেদ্ধ করি",
+      "en": "boil / steam"
+    },
+    {
+      "word": "いためます / 揚げます",
+      "reading": "いためます / あげます",
+      "romaji": "itamesu / agemasu",
+      "bn": "ভাজি (অল্প তেলে) / ডুবো তেলে ভাজি",
+      "en": "stir-fry / deep-fry"
+    },
+    {
+      "word": "家庭料理",
+      "reading": "かていりょうり",
+      "romaji": "katei ryouri",
+      "bn": "ঘরোয়া খাবার",
+      "en": "home cooking"
+    },
+    {
+      "word": "甘辛い",
+      "reading": "あまからい",
+      "romaji": "amakarai",
+      "bn": "মিষ্টি ও ঝাল স্বাদের",
+      "en": "sweet and spicy"
+    },
+    {
+      "word": "口コミ",
+      "reading": "くちコミ",
+      "romaji": "kuchikomi",
+      "bn": "অনলাইন রিভিউ / মতামত",
+      "en": "word of mouth / online review"
     }
   ]
 }

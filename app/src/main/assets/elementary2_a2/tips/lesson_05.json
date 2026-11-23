@@ -1,0 +1,23 @@
+{
+  "lesson": 5,
+  "title": "তাড়াতাড়ি বুকিং করে নেওয়াই ভালো",
+  "title_en": "You should make a reservation early.",
+  "points": [
+    {
+      "title": "হাইওয়ে বাস, রিয়োকান (旅館), মিনশুকু ও গেস্টহাউস",
+      "pattern": "日本の観光地・高速バス・ホテル/旅館/民宿/ゲストハウス",
+      "explain": "জাপানে কম খরচে দূরপাল্লার ভ্রমণের জন্য রাতের হাইওয়ে বাস (高速バス) জনপ্রিয়। 'রিয়োকান' হলো ঐতিহ্যবাহী তাতামি রুমের হোটেল যেখানে রাতের ও সকালের খাবার (1泊2食付) অন্তর্ভুক্ত থাকে।",
+      "title_en": "Highway Buses & Japanese Accommodations",
+      "pattern_en": "Ryokan, Minshuku, Guest houses, Highway buses",
+      "explain_en": "Ryokan offer traditional rooms and meals; highway buses are budget-friendly.",
+      "examples": [
+        {
+          "jp": "民宿もいいですよ。",
+          "romaji": "Minshuku mo ii desu yo.",
+          "bn": "পারিবারিক গেস্টহাউসও (মিনশুকু) ভালো।",
+          "en": "A family-run guesthouse is also good."
+        }
+      ]
+    }
+  ]
+}

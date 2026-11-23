@@ -1,0 +1,39 @@
+{
+  "lesson": 16,
+  "title": "বেশি না খাওয়ার চেষ্টা করছি",
+  "title_en": "I try not to eat too much.",
+  "points": [
+    {
+      "title": "Can-do 57–58: শারীরিক অসুস্থতায় পরামর্শ ও সুস্থ থাকার অভ্যাস বলা",
+      "pattern": "体調が悪いときの対処法をアドバイスしたり、健康のために気をつけていることを話せる。",
+      "explain": "সহকর্মী অসুস্থ হলে পরামর্শ দিতে এবং নিজের স্বাস্থ্য রক্ষার অভ্যাসগুলো বলতে পারা।",
+      "title_en": "Can-do 57–58",
+      "pattern_en": "Can give health advice and talk about healthy routines.",
+      "explain_en": "Offer wellness advice and describe personal health habits.",
+      "examples": [
+        {
+          "jp": "ジョギングしたり、ヨガをしたりしてます。",
+          "romaji": "Jogingu shitari, yoga o shitari shitemasu.",
+          "bn": "জগিং করি, মাঝে মাঝে যোগব্যায়ামও করি।",
+          "en": "I go jogging and sometimes do yoga."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 59–60: রোগ প্রতিরোধের খবর ও হাসপাতালের পোস্টার বোঝা",
+      "pattern": "流行している病気のニュースや病院のポスターを見て、症状や予防法を理解できる。",
+      "explain": "ফুড পয়জনিং বা ফ্লু প্রতিরোধের নিয়ম (হাত ধোয়া, মাস্ক পরা, খাবার ভালোভাবে সেদ্ধ করা) পোস্টার পড়ে বুঝতে পারা।",
+      "title_en": "Can-do 59–60",
+      "pattern_en": "Can understand illness news and hospital prevention posters.",
+      "explain_en": "Read public health notices and prevention guidelines.",
+      "examples": [
+        {
+          "jp": "食中毒の予防: よく加熱して食べましょう。",
+          "romaji": "Shokuchuudoku no yobou: yoku kanetsu shite tabemashou.",
+          "bn": "খাদ্যে বিষক্রিয়া প্রতিরোধ: ভালোভাবে রান্না করে খান।",
+          "en": "Food poisoning prevention: cook food thoroughly."
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,77 @@
 {
   "lesson": 11,
-  "title": "কাজের পরিবেশে মতামত",
-  "title_en": "Opinions at the Workplace",
+  "title": "পয়েন্ট কার্ডটা ভুলে ফেলে এসেছি",
+  "title_en": "I forgot to bring my point card.",
   "words": [
     {
-      "word": "いけん",
-      "reading": "いけん",
-      "romaji": "iken",
-      "bn": "মতামত",
-      "en": "opinion"
+      "word": "試着します / 着てみます",
+      "reading": "しちゃくします / きてみます",
+      "romaji": "shichaku shimasu / kite mimasu",
+      "bn": "পোশাক পরে ট্রায়াল দিই",
+      "en": "try on clothes"
+    },
+    {
+      "word": "試着室",
+      "reading": "しちゃくしつ",
+      "romaji": "shichakushitsu",
+      "bn": "ট্রায়াল রুম / ফিটিং রুম",
+      "en": "fitting room"
+    },
+    {
+      "word": "派手すぎます / 地味すぎます",
+      "reading": "はですぎます / じみすぎます",
+      "romaji": "hadesugimasu / jimisugimasu",
+      "bn": "অতিরিক্ত জমকালো / অতিরিক্ত সাদামাটা",
+      "en": "too flashy / too plain"
+    },
+    {
+      "word": "盗まれます",
+      "reading": "ぬすまれます",
+      "romaji": "nusumaremasu",
+      "bn": "চুরি হয়ে যায়",
+      "en": "be stolen"
+    },
+    {
+      "word": "落とし物 / 忘れ物",
+      "reading": "おとしもの / わすれもの",
+      "romaji": "otoshimono / wasuremono",
+      "bn": "হারানো জিনিস / ভুলে ফেলে আসা জিনিস",
+      "en": "lost item / forgotten item"
+    },
+    {
+      "word": "財布 / 鍵",
+      "reading": "さいふ / かぎ",
+      "romaji": "saifu / kagi",
+      "bn": "মানিব্যাগ / চাবি",
+      "en": "wallet / key"
+    },
+    {
+      "word": "インフォメーション",
+      "reading": "インフォメーション",
+      "romaji": "infomeeshon",
+      "bn": "তথ্য কেন্দ্র (ইনফরমেশন ডেস্ক)",
+      "en": "information desk"
+    },
+    {
+      "word": "呼び出し",
+      "reading": "よびだし",
+      "romaji": "yobidashi",
+      "bn": "ডাকা / ঘোষণা করা",
+      "en": "paging / calling a customer"
+    },
+    {
+      "word": "ポイントカード",
+      "reading": "ポイントカード",
+      "romaji": "pointo kaado",
+      "bn": "পয়েন্ট কার্ড / লয়্যালটি কার্ড",
+      "en": "point card"
+    },
+    {
+      "word": "領収書 / レシート",
+      "reading": "りょうしゅうしょ / レシート",
+      "romaji": "ryoushuusho / reshiito",
+      "bn": "অফিসিয়াল রসিদ / সাধারণ রসিদ",
+      "en": "official receipt / cash register receipt"
     }
   ]
 }

@@ -1,56 +1,112 @@
 {
   "lesson": 5,
-  "title": "পছন্দের খাবার ও পানীয়",
-  "title_en": "Favorite Foods and Drinks",
+  "title": "আমি উদোন পছন্দ করি",
+  "title_en": "I like udon.",
   "words": [
     {
-      "word": "たべもの",
+      "word": "食べ物",
       "reading": "たべもの",
       "romaji": "tabemono",
       "bn": "খাবার",
       "en": "food"
     },
     {
-      "word": "のみもの",
+      "word": "飲み物",
       "reading": "のみもの",
       "romaji": "nomimono",
-      "bn": "পানীয়",
-      "en": "drink"
+      "bn": "পানীয়",
+      "en": "drinks"
     },
     {
-      "word": "さかな",
+      "word": "魚",
       "reading": "さかな",
       "romaji": "sakana",
       "bn": "মাছ",
       "en": "fish"
     },
     {
-      "word": "にく",
+      "word": "肉",
       "reading": "にく",
       "romaji": "niku",
       "bn": "মাংস",
       "en": "meat"
     },
     {
-      "word": "やさい",
+      "word": "野菜",
       "reading": "やさい",
       "romaji": "yasai",
       "bn": "শাকসবজি",
       "en": "vegetables"
     },
     {
-      "word": "みず",
+      "word": "刺身",
+      "reading": "さしみ",
+      "romaji": "sashimi",
+      "bn": "সাশিমি (কাঁচা মাছ)",
+      "en": "sashimi"
+    },
+    {
+      "word": "天ぷら",
+      "reading": "てんぷら",
+      "romaji": "tenpura",
+      "bn": "টেম্পুরা",
+      "en": "tempura"
+    },
+    {
+      "word": "牛丼",
+      "reading": "ぎゅうどん",
+      "romaji": "gyuudon",
+      "bn": "গিউদোন (বিফ বোল)",
+      "en": "beef bowl"
+    },
+    {
+      "word": "納豆",
+      "reading": "なっとう",
+      "romaji": "nattou",
+      "bn": "নাত্তো (ফার্মেন্টেড সয়াবিন)",
+      "en": "fermented soybeans"
+    },
+    {
+      "word": "梅干し",
+      "reading": "うめぼし",
+      "romaji": "umeboshi",
+      "bn": "উমেবোশি (টক আচার)",
+      "en": "pickled plum"
+    },
+    {
+      "word": "お茶",
+      "reading": "おちゃ",
+      "romaji": "ocha",
+      "bn": "চা / গ্রিন টি",
+      "en": "tea / green tea"
+    },
+    {
+      "word": "水",
       "reading": "みず",
       "romaji": "mizu",
       "bn": "পানি",
       "en": "water"
     },
     {
-      "word": "おちゃ",
-      "reading": "おちゃ",
-      "romaji": "ocha",
-      "bn": "চা (গ্রিন টি)",
-      "en": "tea"
+      "word": "朝ご飯",
+      "reading": "あさごはん",
+      "romaji": "asagohan",
+      "bn": "সকালের নাশতা",
+      "en": "breakfast"
+    },
+    {
+      "word": "食べます",
+      "reading": "たべます",
+      "romaji": "tabemasu",
+      "bn": "খাই / খাওয়া",
+      "en": "eat"
+    },
+    {
+      "word": "飲みます",
+      "reading": "のみます",
+      "romaji": "nomimasu",
+      "bn": "পান করি / পান করা",
+      "en": "drink"
     }
   ]
 }

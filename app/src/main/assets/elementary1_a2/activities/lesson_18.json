@@ -1,0 +1,27 @@
+{
+  "lesson": 18,
+  "title": "কোনো উপহার দেব কি?",
+  "title_en": "How about giving something as a gift?",
+  "dialogues": [
+    {
+      "title": "১. সহকর্মীর বিদায় অনুষ্ঠানে উপহার নির্বাচন ও শুভকামনা",
+      "title_en": "1. Choosing a farewell gift and giving well wishes",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "来週、アナさんの送別会をしますね。何かプレゼントをあげませんか?",
+          "romaji": "Raishuu, Ana-san no soubetsukai o shimasu ne. Nanika purezento o agemasen ka?",
+          "bn": "আগামী সপ্তাহে আনার বিদায় অনুষ্ঠান আছে। কোনো উপহার দেব কি?",
+          "en": "We're having Ana's farewell party next week. Shall we give her a gift?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いいですね。思い出に残るものがいいと思います。",
+          "romaji": "Ii desu ne. Omoide ni nokoru mono ga ii to omoimasu.",
+          "bn": "ভালো আইডিয়া। স্মৃতিতে থাকার মতো কিছু দিলে ভালো হবে।",
+          "en": "Good idea. I think something memorable would be nice."
+        }
+      ]
+    }
+  ]
+}

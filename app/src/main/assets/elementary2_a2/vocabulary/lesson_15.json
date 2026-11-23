@@ -1,14 +1,77 @@
 {
   "lesson": 15,
-  "title": "খাবারের সংস্কৃতি ও রান্না",
-  "title_en": "Food Culture and Cooking",
+  "title": "মিটিং রুমের লাইট জ্বালানো অবস্থায় ছিল",
+  "title_en": "The lights in the meeting room were left on.",
   "words": [
     {
-      "word": "りょうり",
-      "reading": "りょうり",
-      "romaji": "ryouri",
-      "bn": "রান্না / খাবার",
-      "en": "cooking / dish"
+      "word": "エコ活動",
+      "reading": "エコかつどう",
+      "romaji": "eko katsudou",
+      "bn": "পরিবেশবান্ধব কার্যক্রম",
+      "en": "eco-friendly activities"
+    },
+    {
+      "word": "消します / つけます",
+      "reading": "けします / つけます",
+      "romaji": "keshimasu / tsukemasu",
+      "bn": "নিভিয়ে দিই (লাইট/এসি) / জ্বালাই",
+      "en": "turn off / turn on"
+    },
+    {
+      "word": "もったいない",
+      "reading": "もったいない",
+      "romaji": "mottainai",
+      "bn": "অপচয় / অপচয় করা অনুচিত",
+      "en": "wasteful / what a waste"
+    },
+    {
+      "word": "節電 / 節水",
+      "reading": "せつでん / せっすい",
+      "romaji": "setsuden / sessui",
+      "bn": "বিদ্যুৎ সাশ্রয় / পানি সাশ্রয়",
+      "en": "saving electricity / saving water"
+    },
+    {
+      "word": "マイバッグ / マイボトル",
+      "reading": "マイバッグ / マイボトル",
+      "romaji": "mai baggu / mai botoru",
+      "bn": "নিজস্ব শপিং ব্যাগ / নিজস্ব পানির বোতল",
+      "en": "reusable shopping bag / personal bottle"
+    },
+    {
+      "word": "ごみの分別",
+      "reading": "ごみのぶんべつ",
+      "romaji": "gomi no bunbetsu",
+      "bn": "ময়লা আলাদা করা (শ্রেণিবিন্যাস)",
+      "en": "trash separation / sorting"
+    },
+    {
+      "word": "燃えるごみ / 燃えないごみ",
+      "reading": "もえるごみ / もえないごみ",
+      "romaji": "moeru gomi / moenai gomi",
+      "bn": "দাহ্য ময়লা / অদাহ্য ময়লা",
+      "en": "burnable garbage / non-burnable garbage"
+    },
+    {
+      "word": "資源ごみ / 粗大ごみ",
+      "reading": "しげんごみ / そだいごみ",
+      "romaji": "shigen gomi / sodai gomi",
+      "bn": "রিসাইকেলযোগ্য ময়লা / বড় আকারের ময়লা",
+      "en": "recyclable waste / oversized garbage"
+    },
+    {
+      "word": "出しっ放し / ついたまま",
+      "reading": "だしっぱなし / ついたまま",
+      "romaji": "dashippanashi / tsuita mama",
+      "bn": "খোলা রেখে দেওয়া / চালু অবস্থায় থাকা",
+      "en": "left running / left on"
+    },
+    {
+      "word": "減らします",
+      "reading": "へらします",
+      "romaji": "herashimasu",
+      "bn": "কমাই / হ্রাস করি",
+      "en": "reduce"
     }
   ]
 }

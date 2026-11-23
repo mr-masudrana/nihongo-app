@@ -1,10 +1,87 @@
 {
   "lesson": 1,
-  "title": "নিজের দক্ষতা ও অভিজ্ঞতা",
-  "title_en": "Skills and Experiences",
+  "title": "গত সপ্তাহে জাপানে এসেছি মাত্র",
+  "title_en": "I just came to Japan last week.",
   "words": [
     {
-      "word": "けいけん",
+      "word": "主任",
+      "reading": "しゅにん",
+      "romaji": "shunin",
+      "bn": "সুপারভাইজার / ইনচার্জ",
+      "en": "supervisor / person in charge"
+    },
+    {
+      "word": "パート",
+      "reading": "パート",
+      "romaji": "paato",
+      "bn": "পার্ট-টাইম কর্মী",
+      "en": "part-time worker"
+    },
+    {
+      "word": "担当",
+      "reading": "たんとう",
+      "romaji": "tantou",
+      "bn": "দায়িত্বপ্রাপ্ত",
+      "en": "in charge of"
+    },
+    {
+      "word": "手続き",
+      "reading": "てつづき",
+      "romaji": "tetsuzuki",
+      "bn": "দাপ্তরিক প্রক্রিয়া / কাগজপত্রের কাজ",
+      "en": "procedure / paperwork"
+    },
+    {
+      "word": "〜と申します",
+      "reading": "〜ともうします",
+      "romaji": "~to moushimasu",
+      "bn": "আমার নাম ~ (অত্যন্ত ভদ্র রূপ)",
+      "en": "My name is ~ (humble/polite)"
+    },
+    {
+      "word": "〜という意味",
+      "reading": "〜といういみ",
+      "romaji": "~to iu imi",
+      "bn": "~ অর্থ বোঝায়",
+      "en": "means ~"
+    },
+    {
+      "word": "一生懸命",
+      "reading": "いっしょうけんめい",
+      "romaji": "isshoukenmei",
+      "bn": "সর্বাত্মক প্রচেষ্টা / প্রাণপণ",
+      "en": "with all one's might / hard"
+    },
+    {
+      "word": "島 / 森",
+      "reading": "しま / もり",
+      "romaji": "shima / mori",
+      "bn": "দ্বীপ / বন",
+      "en": "island / forest"
+    },
+    {
+      "word": "草原 / 砂漠 / 高原",
+      "reading": "そうげん / さばく / こうげん",
+      "romaji": "sougen / sabaku / kougen",
+      "bn": "তৃণভূমি / মরুভূমি / মালভূমি",
+      "en": "grassland / desert / highland"
+    },
+    {
+      "word": "首都 / 観光地",
+      "reading": "しゅと / かんこうち",
+      "romaji": "shuto / kankouchi",
+      "bn": "রাজধানী / পর্যটন কেন্দ্র",
+      "en": "capital city / tourist destination"
+    },
+    {
+      "word": "のんびりしています",
+      "reading": "のんびりしています",
+      "romaji": "nonbiri shite imasu",
+      "bn": "শান্ত ও নিরিবিলি / আরামদায়ক",
+      "en": "relaxed / laid-back"
+    },
+    {
+      "word": "経験",
       "reading": "けいけん",
       "romaji": "keiken",
       "bn": "অভিজ্ঞতা",

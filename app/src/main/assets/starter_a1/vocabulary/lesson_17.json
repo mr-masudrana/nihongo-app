@@ -1,14 +1,98 @@
 {
   "lesson": 17,
-  "title": "অনুমতি ও নিয়মকানুন",
-  "title_en": "Permissions and Rules",
+  "title": "সিনেমা দেখতে গিয়েছিলাম",
+  "title_en": "I went to see a movie.",
   "words": [
     {
-      "word": "しゃしん",
-      "reading": "しゃしん",
-      "romaji": "shashin",
-      "bn": "ছবি",
-      "en": "photo"
+      "word": "週末",
+      "reading": "しゅうまつ",
+      "romaji": "shuumatsu",
+      "bn": "সপ্তাহান্ত (উইকএন্ড)",
+      "en": "weekend"
+    },
+    {
+      "word": "休み",
+      "reading": "やすみ",
+      "romaji": "yasumi",
+      "bn": "ছুটি",
+      "en": "holiday / day off"
+    },
+    {
+      "word": "勉強します",
+      "reading": "べんきょうします",
+      "romaji": "benkyou shimasu",
+      "bn": "পড়াশোনা করি",
+      "en": "study"
+    },
+    {
+      "word": "買います",
+      "reading": "かいます",
+      "romaji": "kaimasu",
+      "bn": "কিনি",
+      "en": "buy"
+    },
+    {
+      "word": "掃除します",
+      "reading": "そうじします",
+      "romaji": "souji shimasu",
+      "bn": "পরিষ্কার করি",
+      "en": "clean"
+    },
+    {
+      "word": "洗濯します",
+      "reading": "せんたくします",
+      "romaji": "sentaku shimasu",
+      "bn": "কাপড় ধুই",
+      "en": "do laundry"
+    },
+    {
+      "word": "水族館",
+      "reading": "すいぞくかん",
+      "romaji": "suizokukan",
+      "bn": "অ্যাকুয়ারিয়াম",
+      "en": "aquarium"
+    },
+    {
+      "word": "温泉",
+      "reading": "おんせん",
+      "romaji": "onsen",
+      "bn": "উষ্ণ প্রস্রবণ (হট স্প্রিং)",
+      "en": "hot spring"
+    },
+    {
+      "word": "露天風呂",
+      "reading": "ろてんぶろ",
+      "romaji": "rotenburo",
+      "bn": "খোলা আকাশের নিচে উষ্ণ স্নান",
+      "en": "open-air bath"
+    },
+    {
+      "word": "楽しかった",
+      "reading": "たのしかった",
+      "romaji": "tanoshikatta",
+      "bn": "আনন্দদায়ক ছিল",
+      "en": "was fun"
+    },
+    {
+      "word": "大変でした",
+      "reading": "たいへんでした",
+      "romaji": "taihen deshita",
+      "bn": "কষ্টকর / কঠিন ছিল",
+      "en": "was tough / hard"
+    },
+    {
+      "word": "まあまあ",
+      "reading": "まあまあ",
+      "romaji": "maamaa",
+      "bn": "মোটামুটি",
+      "en": "so-so"
+    },
+    {
+      "word": "着きました",
+      "reading": "つきました",
+      "romaji": "tsukimashita",
+      "bn": "পৌঁছেছি",
+      "en": "arrived"
     }
   ]
 }

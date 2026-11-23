@@ -1,0 +1,209 @@
+{
+  "lesson": 14,
+  "title": "Verb Group ও て-form",
+  "title_en": "Verb groups and the て-form",
+  "points": [
+    {
+      "title": "জাপানি Verb-এর তিনটি Group",
+      "pattern": "Group I／Group II／Group III",
+      "explain": "জাপানি Verb conjugation শেখার জন্য Verb-গুলোকে তিনটি Group-এ ভাগ করা হয়। Group I (う-verb): ます-form-এর আগের ধ্বনি সাধারণত い-row থেকে আসে; যেমন 書きます, 飲みます। Group II (る-verb): অধিকাংশ ক্ষেত্রে ます-form-এর আগের ধ্বনি え-row থেকে আসে; যেমন 食べます, 見せます, তবে কিছু ব্যতিক্রম আছে। Group III: অনিয়মিত します এবং 来ます, এছাড়া N + します ধরনের Verb।",
+      "title_en": "The three verb groups",
+      "pattern_en": "Group I／Group II／Group III",
+      "explain_en": "Japanese verbs are classified into three groups for conjugation. Group I (う-verbs) usually have an い-row sound before ます, e.g. 書きます and 飲みます. Most Group II (る-verbs) have an え-row sound before ます, e.g. 食べます and 見せます, though there are exceptions. Group III contains the irregular verbs します and 来ます, as well as N + します verbs.",
+      "examples": [
+        {
+          "jp": "書きます → 書いて",
+          "romaji": "Kakimasu → kaite",
+          "bn": "লিখি → লিখে",
+          "en": "write → writing / and write"
+        },
+        {
+          "jp": "食べます → 食べて",
+          "romaji": "Tabemasu → tabete",
+          "bn": "খাই → খেয়ে",
+          "en": "eat → eating / and eat"
+        },
+        {
+          "jp": "来ます → 来て",
+          "romaji": "Kimasu → kite",
+          "bn": "আসি → এসে",
+          "en": "come → coming / and come"
+        }
+      ]
+    },
+    {
+      "title": "Vて-form — Verb-এর て-form তৈরি",
+      "pattern": "Group I: います／ちます／ります→って; にます／びます／みます→んで; きます→いて; ぎます→いで; します→して。Group II: ます বাদ + て。Group III: します→して; 来ます→来て。",
+      "explain": "て-form তৈরির নিয়ম Verb Group অনুযায়ী আলাদা। Group I-তে います・ちます・ります হলে って; にます・びます・みます হলে んで; きます হলে いて (行きます ব্যতিক্রম: 行って); ぎます হলে いで; します হলে して হয়। Group II-তে ます বাদ দিয়ে て যোগ হয়। Group III-তে します→して এবং 来ます→来て।",
+      "title_en": "Vて-form — forming the て-form",
+      "pattern_en": "Group I: います／ちます／ります→って; にます／びます／みます→んで; きます→いて; ぎます→いで; します→して. Group II: remove ます + て. Group III: します→して; 来ます→来て.",
+      "explain_en": "The て-form rules depend on the verb group. For Group I, います／ちます／ります become って; にます／びます／みます become んで; きます becomes いて (行きます is an exception: 行って); ぎます becomes いで; and します becomes して. For Group II, remove ます and add て. For Group III, します becomes して and 来ます becomes 来て.",
+      "examples": [
+        {
+          "jp": "買います → 買って",
+          "romaji": "Kaimasu → katte",
+          "bn": "কিনি → কিনে",
+          "en": "buy → buying / and buy"
+        },
+        {
+          "jp": "飲みます → 飲んで",
+          "romaji": "Nomimasu → nonde",
+          "bn": "পান করি → পান করে",
+          "en": "drink → drinking / and drink"
+        },
+        {
+          "jp": "書きます → 書いて",
+          "romaji": "Kakimasu → kaite",
+          "bn": "লিখি → লিখে",
+          "en": "write → writing / and write"
+        },
+        {
+          "jp": "行きます → 行って",
+          "romaji": "Ikimasu → itte",
+          "bn": "যাই → গিয়ে",
+          "en": "go → going / and go"
+        },
+        {
+          "jp": "食べます → 食べて",
+          "romaji": "Tabemasu → tabete",
+          "bn": "খাই → খেয়ে",
+          "en": "eat → eating / and eat"
+        },
+        {
+          "jp": "します → して",
+          "romaji": "Shimasu → shite",
+          "bn": "করি → করে",
+          "en": "do → doing / and do"
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + ください — অনুরোধ/নির্দেশ",
+      "pattern": "Vて-form + ください",
+      "explain": "কাউকে কোনো কাজ করতে অনুরোধ, নির্দেশ বা আমন্ত্রণ জানাতে Verb-এর て-form-এর পরে ください বসে। এটি ভদ্র অনুরোধ হলেও খুব আনুষ্ঠানিক নয়; আরও নম্রভাবে বলতে すみませんが যোগ করা যায়।",
+      "title_en": "Vて-form + ください — please do",
+      "pattern_en": "Vて-form + ください",
+      "explain_en": "Add ください after the て-form to ask, tell or invite someone to do something. It is a polite request but not extremely formal; すみませんが can make the request softer.",
+      "examples": [
+        {
+          "jp": "すみませんが、この 漢字の 読み方を 教えてください。",
+          "romaji": "Sumimasen ga, kono kanji no yomikata o oshiete kudasai.",
+          "bn": "মাফ করবেন, এই কাঞ্জিটির পড়ার নিয়মটি বলবেন, দয়া করে?",
+          "en": "Excuse me, could you tell me how to read this kanji, please?"
+        },
+        {
+          "jp": "ボールペンで 名前を 書いてください。",
+          "romaji": "Bōrupen de namae o kaite kudasai.",
+          "bn": "বলপয়েন্ট কলম দিয়ে নাম লিখুন, দয়া করে।",
+          "en": "Please write your name with a ballpoint pen."
+        },
+        {
+          "jp": "どうぞ たくさん 食べてください。",
+          "romaji": "Dōzo takusan tabete kudasai.",
+          "bn": "দয়া করে প্রচুর খান।",
+          "en": "Please eat as much as you want."
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + います — কাজ চলমান",
+      "pattern": "Vて-form + います",
+      "explain": "কোনো কাজ এই মুহূর্তে চলছে বোঝাতে Verb-এর て-form-এর পরে います বসে। প্রশ্ন করতে いますか এবং উত্তর দিতে はい、～ています／いいえ、～ていません ব্যবহার হয়।",
+      "title_en": "Vて-form + います — action in progress",
+      "pattern_en": "Vて-form + います",
+      "explain_en": "Add います after the て-form to describe an action in progress now. Ask with いますか and answer with はい、～ています or いいえ、～ていません.",
+      "examples": [
+        {
+          "jp": "ミラーさんは 今 電話を かけています。",
+          "romaji": "Mirā-san wa ima denwa o kakete imasu.",
+          "bn": "মি. মিলার এখন ফোন করছেন।",
+          "en": "Mr. Miller is making a phone call now."
+        },
+        {
+          "jp": "今 雨が 降っていますか。",
+          "romaji": "Ima ame ga futte imasu ka.",
+          "bn": "এখন কি বৃষ্টি হচ্ছে?",
+          "en": "Is it raining now?"
+        },
+        {
+          "jp": "はい、降っています。",
+          "romaji": "Hai, futte imasu.",
+          "bn": "হ্যাঁ, বৃষ্টি হচ্ছে।",
+          "en": "Yes, it is raining."
+        }
+      ]
+    },
+    {
+      "title": "Vます-form + ましょうか — আমি কি করে দেব?",
+      "pattern": "Vます-form (ます বাদ) + ましょうか",
+      "explain": "শ্রোতার জন্য কিছু করার প্রস্তাব দিতে ます-form থেকে ます বাদ দিয়ে ましょうか যোগ হয়। গ্রহণ করলে すみません、お願いします／はい、お願いします বলা যায়; প্রয়োজন না হলে いいえ、けっこうです বলা যায়।",
+      "title_en": "Vます-form + ましょうか — shall I do it?",
+      "pattern_en": "Vます-form (remove ます) + ましょうか",
+      "explain_en": "Use ましょうか after the verb stem (ます-form minus ます) to offer to do something for the listener. Accept with すみません、お願いします or はい、お願いします; decline with いいえ、けっこうです.",
+      "examples": [
+        {
+          "jp": "あしたも 来ましょうか。",
+          "romaji": "Ashita mo kimashō ka.",
+          "bn": "আমি কি আগামীকালও আসব?",
+          "en": "Shall I come tomorrow, too?"
+        },
+        {
+          "jp": "傘を 貸しましょうか。",
+          "romaji": "Kasa o kashimashō ka.",
+          "bn": "আমি কি আপনাকে ছাতা ধার দেব?",
+          "en": "Shall I lend you my umbrella?"
+        },
+        {
+          "jp": "荷物を 持ちましょうか。",
+          "romaji": "Nimotsu o mochimashō ka.",
+          "bn": "আমি কি আপনার ব্যাগ বহন করব?",
+          "en": "Shall I carry your bag?"
+        }
+      ]
+    },
+    {
+      "title": "N が V — অনুভূত/প্রাকৃতিক ঘটনার Subject",
+      "pattern": "N が V",
+      "explain": "কোনো ঘটনা ইন্দ্রিয় দিয়ে অনুভব করা বা নিরপেক্ষভাবে কোনো ঘটনা/অবস্থা বর্ণনা করার সময় Subject-এর পরে が বসে। যেমন বৃষ্টি হওয়া বা কারও অনুপস্থিতি বোঝানো।",
+      "title_en": "N が V — subject of a phenomenon",
+      "pattern_en": "N が V",
+      "explain_en": "Use が to mark the subject when describing something perceived through the senses or objectively reporting a phenomenon or situation, such as rain falling or someone being absent.",
+      "examples": [
+        {
+          "jp": "雨が 降っています。",
+          "romaji": "Ame ga futte imasu.",
+          "bn": "বৃষ্টি হচ্ছে।",
+          "en": "It's raining."
+        },
+        {
+          "jp": "ミラーさんが いませんね。",
+          "romaji": "Mirā-san ga imasen ne.",
+          "bn": "মি. মিলার এখানে নেই, তাই না?",
+          "en": "Mr. Miller isn't here, is he?"
+        }
+      ]
+    },
+    {
+      "title": "すみませんが — ভদ্রভাবে কথা শুরু/অনুরোধ",
+      "pattern": "すみませんが、～",
+      "explain": "কাউকে সম্বোধন করার আগে বা অনুরোধ করার সময় すみませんが ব্যবহার করে কথাটি নম্রভাবে শুরু করা যায়। এখানে が বাক্যকে বিপরীত অর্থ দেয় না; এটি কথার শুরুতে নরম ভূমিকা তৈরি করে।",
+      "title_en": "すみませんが — softening an opening or request",
+      "pattern_en": "すみませんが、～",
+      "explain_en": "Use すみませんが to begin a polite request or approach someone. Here が does not create an adversative meaning; it softens the opening before the main remark.",
+      "examples": [
+        {
+          "jp": "すみませんが、塩を 取ってください。",
+          "romaji": "Sumimasen ga, shio o totte kudasai.",
+          "bn": "মাফ করবেন, লবণটা এগিয়ে দেবেন, দয়া করে?",
+          "en": "Excuse me, could you pass the salt, please?"
+        },
+        {
+          "jp": "すみませんが、お名前は？",
+          "romaji": "Sumimasen ga, onamae wa?",
+          "bn": "মাফ করবেন, আপনার নাম কী?",
+          "en": "Excuse me, but what is your name?"
+        }
+      ]
+    }
+  ]
+}

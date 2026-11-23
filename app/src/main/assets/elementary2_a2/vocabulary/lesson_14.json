@@ -1,14 +1,77 @@
 {
   "lesson": 14,
-  "title": "স্থানীয় কমিউনিটি কার্যক্রম",
-  "title_en": "Local Community Activities",
+  "title": "সামনের চুলগুলো আরেকটু ছোট করে কেটে দেবেন?",
+  "title_en": "Will you cut my bangs a little shorter?",
   "words": [
     {
-      "word": "ちいき",
-      "reading": "ちいき",
-      "romaji": "chiiki",
-      "bn": "এলাকা / কমিউনিটি",
-      "en": "community / area"
+      "word": "宅配便 / 再配達",
+      "reading": "たくはいびん / さいはいたつ",
+      "romaji": "takuhaibin / saihaitatsu",
+      "bn": "কুরিয়ার ডেলিভারি / পুনরায় ডেলিভারি",
+      "en": "parcel delivery / redelivery"
+    },
+    {
+      "word": "不在連絡票",
+      "reading": "ふざいれんらくひょう",
+      "romaji": "fuzai renrakuhyou",
+      "bn": "অনুপস্থিতির ডেলিভারি স্লিপ",
+      "en": "missed delivery notice"
+    },
+    {
+      "word": "クリーニング",
+      "reading": "クリーニング",
+      "romaji": "kuriiningu",
+      "bn": "ড্রাই ক্লিনিং / লন্ড্রি",
+      "en": "dry cleaning"
+    },
+    {
+      "word": "仕上がり",
+      "reading": "しあがり",
+      "romaji": "shiagari",
+      "bn": "কাজ শেষ হওয়ার সময় (ডেলিভারি রেডি)",
+      "en": "completion / ready date"
+    },
+    {
+      "word": "美容院 / 理髪店",
+      "reading": "びよういん / りはつてん",
+      "romaji": "biyouin / rihatsuten",
+      "bn": "বিউটি সেলুন / নাপিতের দোকান",
+      "en": "beauty salon / barbershop"
+    },
+    {
+      "word": "前髪",
+      "reading": "まえがみ",
+      "romaji": "maegami",
+      "bn": "কপালের সামনের চুল (ব্যাংস)",
+      "en": "bangs / fringe"
+    },
+    {
+      "word": "全体的",
+      "reading": "ぜんたいてき",
+      "romaji": "zentaiteki",
+      "bn": "সামগ্রিকভাবে / পুরোটা",
+      "en": "overall / all over"
+    },
+    {
+      "word": "窓口",
+      "reading": "まどぐち",
+      "romaji": "madoguchi",
+      "bn": "কাউন্টার / সার্ভিস ডেস্ক",
+      "en": "service counter / window"
+    },
+    {
+      "word": "相談 / 情報",
+      "reading": "そうだん / じょうほう",
+      "romaji": "soudan / jouhou",
+      "bn": "পরামর্শ / তথ্য",
+      "en": "consultation / information"
+    },
+    {
+      "word": "通訳",
+      "reading": "つうやく",
+      "romaji": "tsuuyaku",
+      "bn": "দোভাষী",
+      "en": "interpreter"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "lesson": 8,
+  "title": "খাবারের স্টলগুলো কোথায় আছে জানেন কি?",
+  "title_en": "Do you know where the food stands are?",
+  "dialogues": [
+    {
+      "title": "১. উৎসব প্রাঙ্গণে স্বেচ্ছাসেবককে সময়, স্থান ও অংশগ্রহণের নিয়ম জিজ্ঞাসা",
+      "title_en": "1. Asking staff about times, locations, and participation at a festival",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。屋台はどこかわかりますか?",
+          "romaji": "Sumimasen. Yatai wa doko ka wakarimasu ka?",
+          "bn": "মাফ করবেন। খাবারের স্টলগুলো কোথায় জানেন কি?",
+          "en": "Excuse me. Do you know where the food stands are?"
+        },
+        {
+          "speaker": "B",
+          "jp": "屋台は、建物の外、広場のほうにありますよ。",
+          "romaji": "Yatai wa, tatemono no soto, hiroba no hou ni arimasu yo.",
+          "bn": "খাবারের স্টলগুলো ভবনের বাইরে, চত্বরের দিকে আছে।",
+          "en": "The food stands are outside the building, toward the plaza."
+        }
+      ]
+    }
+  ]
+}

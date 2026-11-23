@@ -1,0 +1,27 @@
+{
+  "lesson": 3,
+  "title": "শীতকালে খুব ঠান্ডা পড়ে",
+  "title_en": "It gets very cold in winter.",
+  "dialogues": [
+    {
+      "title": "১. প্রিয় ঋতু ও তার কারণ নিয়ে কথোপকথন",
+      "title_en": "1. Talking about favorite seasons and reasons",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "好きな季節はいつですか?",
+          "romaji": "Suki na kisetsu wa itsu desu ka?",
+          "bn": "আপনার প্রিয় ঋতু কোনটি?",
+          "en": "What is your favorite season?"
+        },
+        {
+          "speaker": "B",
+          "jp": "秋がいちばん好きです。もみじの景色がきれいですから。",
+          "romaji": "Aki ga ichiban suki desu. Momiji no keshiki ga kirei desu kara.",
+          "bn": "শরৎকাল সবচেয়ে পছন্দ করি। কারণ লাল ম্যাপল পাতার দৃশ্য খুব সুন্দর।",
+          "en": "I like autumn best because the fall foliage is beautiful."
+        }
+      ]
+    }
+  ]
+}

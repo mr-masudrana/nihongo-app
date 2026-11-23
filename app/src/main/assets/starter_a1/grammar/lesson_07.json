@@ -1,21 +1,49 @@
 {
   "lesson": 7,
-  "title": "ঘর ও আসবাবপত্র",
-  "title_en": "Rooms and Furniture",
+  "title": "৪টি রুম আছে",
+  "title_en": "There are four rooms.",
   "points": [
     {
-      "title": "ঘর ও আসবাবপত্র — মৌলিক বাক্য",
-      "pattern": "へや です。",
-      "explain": "Irodori Starter A1 লেসন 7-এর মূল বাক্য গঠন।",
-      "title_en": "Rooms and Furniture — Basic Pattern",
-      "pattern_en": "heya desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 7.",
+      "title": "【স্থান】に N が あります / ありません",
+      "pattern": "1階に部屋が4つあります / トースターはありません",
+      "explain": "কোনো স্থানে কী কী জিনিস বা রুম আছে তা বলতে 'に〜があります' এবং নেই বোঝাতে 'はありません / ないです' ব্যবহৃত হয়।",
+      "title_en": "Existence of things: あります / ありません",
+      "pattern_en": "[Place] ni N ga arimasu",
+      "explain_en": "Describe what facilities or furniture exist in a room.",
       "examples": [
         {
-          "jp": "これは へや です。",
-          "romaji": "Kore wa heya desu.",
-          "bn": "এটি রুম / ঘর।",
-          "en": "This is room."
+          "jp": "1階に部屋が4つあります。",
+          "romaji": "Ikkai ni heya ga yottsu arimasu.",
+          "bn": "১ম তলায় ৪টি রুম আছে।",
+          "en": "There are four rooms on the 1st floor."
+        },
+        {
+          "jp": "ベッドはないです。ふとんがあります。",
+          "romaji": "Beddo wa nai desu. Futon ga arimasu.",
+          "bn": "খাটের ব্যবস্থা নেই। ফুতন আছে।",
+          "en": "There is no bed. There is a futon."
+        }
+      ]
+    },
+    {
+      "title": "বিশেষণ (い-adjective ও な-adjective)",
+      "pattern": "家は静かです / ちょっとせまいです / 広くないです",
+      "explain": "বাসার বর্ণনা দিতে বিশেষণ ব্যবহৃত হয়। না-বাচক করতে い-বিশেষণে 'くないです' এবং な-বিশেষণে 'じゃないです' বসে।",
+      "title_en": "Adjectives (Affirmative & Negative)",
+      "pattern_en": "I-adj kunai desu / Na-adj ja nai desu",
+      "explain_en": "Describe your house using positive and negative adjectives.",
+      "examples": [
+        {
+          "jp": "アパートは、あまり静かじゃないです。",
+          "romaji": "Apaato wa, amari shizuka ja nai desu.",
+          "bn": "অ্যাপার্টমেন্টটি খুব একটা নিরিবিলি নয়।",
+          "en": "The apartment is not very quiet."
+        },
+        {
+          "jp": "寮は広くないです。",
+          "romaji": "Ryou wa hirokunai desu.",
+          "bn": "ডরমিটরিটি প্রশস্ত নয়।",
+          "en": "The dorm is not spacious."
         }
       ]
     }

@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "title": "গতকাল প্রচণ্ড বৃষ্টি হয়েছিল, তাই না!",
+  "title_en": "It rained heavily yesterday.",
+  "points": [
+    {
+      "title": "টাইফুন (台風) ও জাপানের আবহাওয়ার পূর্বাভাস",
+      "pattern": "台風・天気予報",
+      "explain": "গ্রীষ্ম থেকে শরৎকালে জাপানে টাইফুন আঘাত হানে; তখন ট্রেন ও স্কুল-অফিস বন্ধ থাকতে পারে। জাপানের আবহাওয়ার পূর্বাভাসে তাপমাত্রার পাশাপাশি কাপড় শুকানোর সূচক বা পরাগরেণুর (花粉) তথ্যও দেওয়া হয়।",
+      "title_en": "Typhoons & Detailed Weather Forecasts",
+      "pattern_en": "Taifuu & Tenki Yohou",
+      "explain_en": "Stay indoors during typhoons; forecasts include laundry and pollen indexes.",
+      "examples": [
+        {
+          "jp": "暖かい服装でお出かけください。",
+          "romaji": "Atatakai fukusou de odekake kudasai.",
+          "bn": "গরম কাপড় পরে বাইরে বের হবেন।",
+          "en": "Please go out in warm clothing."
+        }
+      ]
+    }
+  ]
+}

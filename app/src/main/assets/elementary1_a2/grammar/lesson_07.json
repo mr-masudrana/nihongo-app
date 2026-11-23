@@ -1,21 +1,37 @@
 {
   "lesson": 7,
-  "title": "বন্ধুদের সাথে দেখা করা",
-  "title_en": "Meeting Up with Friends",
+  "title": "রাস্তা হারিয়ে ফেলেছি, একটু দেরি হবে",
+  "title_en": "I will be a bit late because I got lost.",
   "points": [
     {
-      "title": "বন্ধুদের সাথে দেখা করা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "やくそく について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 7-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Meeting Up with Friends — Grammar Pattern",
-      "pattern_en": "About yakusoku",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 7.",
+      "title": "Nはどうですか? / Nでもいいですか? (দেখা করার সময় ও স্থান ঠিক করা)",
+      "pattern": "6時はどうですか? / 6時半でもいいですか?",
+      "explain": "সময় বা স্থান প্রস্তাব করতে 'はどうですか?' এবং বিকল্প প্রস্তাব দিতে 'でもいいですか?' ব্যবহৃত হয়।",
+      "title_en": "Suggesting and negotiating meeting times",
+      "pattern_en": "N wa dou desu ka? / N demo ii desu ka?",
+      "explain_en": "Propose a meeting time/place or suggest an alternative.",
       "examples": [
         {
-          "jp": "やくそくが わかりますか。",
-          "romaji": "yakusoku ga wakarimasu ka.",
-          "bn": "আপনি কি প্রতিশ্রুতি / অ্যাপয়েন্টমেন্ট বোঝেন?",
-          "en": "Do you understand promise / appointment?"
+          "jp": "6時はちょっと早いです。6時半でもいいですか?",
+          "romaji": "Rokuji wa chotto hayai desu. Rokujihan demo ii desu ka?",
+          "bn": "৬টা একটু তাড়াতাড়ি হয়ে যায়। সাড়ে ৬টা হলে চলবে?",
+          "en": "6:00 is a bit early. Is 6:30 okay?"
+        }
+      ]
+    },
+    {
+      "title": "কারণ প্রকাশ: Nで、〜 / V-て、〜",
+      "pattern": "事故で電車が止まりました / ねぼうして、今起きました",
+      "explain": "কোনো ঘটনা বা দেরি হওয়ার কারণ জানাতে বিশেষ্যের পর 'で' এবং ক্রিয়ার て-form বসে।",
+      "title_en": "Expressing cause or reason with で and て-form",
+      "pattern_en": "N de, ~ / V-te, ~",
+      "explain_en": "Explain why you are delayed.",
+      "examples": [
+        {
+          "jp": "道に迷って、ちょっと遅れます。",
+          "romaji": "Michi ni mayotte, chotto okuremasu.",
+          "bn": "রাস্তা হারিয়ে ফেলেছি, তাই একটু দেরি হবে।",
+          "en": "I got lost, so I'll be a little late."
         }
       ]
     }

@@ -1,21 +1,43 @@
 {
   "lesson": 9,
-  "title": "সময় ও সময়সূচি",
-  "title_en": "Time and Schedule",
+  "title": "১২টা থেকে ১টা পর্যন্ত দুপুরের বিরতি",
+  "title_en": "Lunch is from noon to 1 o'clock.",
   "points": [
     {
-      "title": "সময় ও সময়সূচি — মৌলিক বাক্য",
-      "pattern": "なんじ です。",
-      "explain": "Irodori Starter A1 লেসন 9-এর মূল বাক্য গঠন।",
-      "title_en": "Time and Schedule — Basic Pattern",
-      "pattern_en": "nanji desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 9.",
+      "title": "【সময়】に V-ます / 【সময়】ごろ V-ます",
+      "pattern": "5時に起きます / 11時ごろ寝ます",
+      "explain": "নির্দিষ্ট সময়ে কোনো কাজ করলে সময়ের পরে 'に' এবং আনুমানিক সময় বোঝাতে 'ごろ' বসে।",
+      "title_en": "Time expressions with に and ごろ",
+      "pattern_en": "[Time] ni V-masu / [Time] goro V-masu",
+      "explain_en": "Use に for exact times and ごろ for approximate times.",
       "examples": [
         {
-          "jp": "これは なんじ です。",
-          "romaji": "Kore wa nanji desu.",
-          "bn": "এটি কয়টা বাজে।",
-          "en": "This is what time."
+          "jp": "毎朝、6時半に起きます。",
+          "romaji": "Maiasa, rokuji-han ni okimasu.",
+          "bn": "প্রতিদিন সকালে সাড়ে ৬টায় উঠি।",
+          "en": "I wake up at 6:30 every morning."
+        },
+        {
+          "jp": "夜、11時ごろ寝ます。",
+          "romaji": "Yoru, juuichiji goro nemasu.",
+          "bn": "রাতে ১১টার দিকে ঘুমাই।",
+          "en": "I go to bed around 11 at night."
+        }
+      ]
+    },
+    {
+      "title": "【সময়】から【সময়】まで ও 【দিন】がいいです",
+      "pattern": "12時から1時まで、昼休みです / 私は、土曜日がいいです",
+      "explain": "কোনো কাজের শুরু থেকে শেষ বোঝাতে 'から〜まで' এবং নিজের সুবিধাজনক দিন/সময় জানাতে 'がいいです' ব্যবহৃত হয়।",
+      "title_en": "From ~ until ~ & Expressing preference",
+      "pattern_en": "[Time] kara [Time] made / [Date] ga ii desu",
+      "explain_en": "State schedules and preferred days.",
+      "examples": [
+        {
+          "jp": "仕事は9時から5時までです。",
+          "romaji": "Shigoto wa kuji kara goji made desu.",
+          "bn": "কাজ ৯টা থেকে ৫টা পর্যন্ত।",
+          "en": "Work is from 9 to 5."
         }
       ]
     }

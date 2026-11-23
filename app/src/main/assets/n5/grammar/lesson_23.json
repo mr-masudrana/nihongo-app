@@ -1,0 +1,85 @@
+{
+  "lesson": 23,
+  "title": "～とき ও ～と — সময় ও স্বাভাবিক ফল",
+  "title_en": "When and if/whenever",
+  "points": [
+    {
+      "title": "～とき — যখন",
+      "pattern": "V dictionary / Vない / Vた + とき",
+      "explain": "কোনো কাজ বা অবস্থা ঘটার সময় বোঝাতে とき ব্যবহার হয়। Noun-এর আগে の এবং な-adjective-এর আগে な বসে। とき-এর আগের verb-এর tense দিয়ে সময়ের সম্পর্ক বোঝানো হয়।",
+      "title_en": "とき — when",
+      "pattern_en": "V dictionary / Vない / Vた + とき",
+      "examples": [
+        {
+          "jp": "図書館で本を借りるとき、カードが要ります。",
+          "romaji": "Toshokan de hon o kariru toki, kaado ga irimasu.",
+          "bn": "লাইব্রেরি থেকে বই ধার করার সময় কার্ড লাগে।",
+          "en": "You need a card when borrowing a book from the library."
+        },
+        {
+          "jp": "若いとき、あまり勉強しませんでした。",
+          "romaji": "Wakai toki, amari benkyou shimasen deshita.",
+          "bn": "যখন তরুণ ছিলাম, খুব বেশি পড়াশোনা করতাম না।",
+          "en": "I didn't study much when I was young."
+        }
+      ]
+    },
+    {
+      "title": "V dictionary + と — করলে স্বাভাবিকভাবে",
+      "pattern": "V-dictionary form + と、～",
+      "explain": "একটি কাজ বা ঘটনা ঘটলে স্বাভাবিক/অনিবার্যভাবে আরেকটি ফল ঘটে—এমন নিয়ম, স্বয়ংক্রিয় ফল বা নির্দেশনা বোঝাতে と ব্যবহার হয়। সাধারণত ইচ্ছা, অনুরোধ বা আদেশ দিয়ে পরের clause শেষ করা যায় না।",
+      "title_en": "と — if/when (natural result)",
+      "pattern_en": "V-dictionary form + と、～",
+      "examples": [
+        {
+          "jp": "このボタンを押すと、お釣りが出ます。",
+          "romaji": "Kono botan o osu to, otsuri ga demasu.",
+          "bn": "এই বোতাম চাপলে ফেরত টাকা বের হয়।",
+          "en": "If you press this button, your change comes out."
+        },
+        {
+          "jp": "右へ曲がると、郵便局があります。",
+          "romaji": "Migi e magaru to, yuubinkyoku ga arimasu.",
+          "bn": "ডানে মোড় নিলে পোস্ট অফিস আছে।",
+          "en": "If you turn right, you'll see a post office."
+        }
+      ]
+    },
+    {
+      "title": "N が adj — অনুভূতি/ইন্দ্রিয় দিয়ে উপলব্ধি",
+      "pattern": "N が + adjective",
+      "explain": "কোনো বিষয়কে দেখা, শোনা বা অনুভব করার মতো নিরপেক্ষভাবে বর্ণনা করতে が দিয়ে subject চিহ্নিত করা হয়।",
+      "title_en": "Describing what is perceived",
+      "pattern_en": "N が + adjective",
+      "examples": [
+        {
+          "jp": "音が小さいです。",
+          "romaji": "Oto ga chiisai desu.",
+          "bn": "শব্দের আওয়াজ কম।",
+          "en": "The volume is low."
+        }
+      ]
+    },
+    {
+      "title": "N を + motion verb — কোনো পথ ধরে চলা",
+      "pattern": "Place／route + を + 歩きます／渡ります／曲がります",
+      "explain": "হাঁটা, পার হওয়া বা পথ ধরে এগোনোর মতো motion verb-এর সঙ্গে を ব্যবহার করে যে স্থান বা পথ অতিক্রম করা হয় তা বোঝানো হয়।",
+      "title_en": "を with verbs of motion",
+      "pattern_en": "Place／route + を + motion verb",
+      "examples": [
+        {
+          "jp": "公園を散歩します。",
+          "romaji": "Kouen o sanpo shimasu.",
+          "bn": "পার্কে/পার্কের ভেতর দিয়ে হাঁটাহাঁটি করি।",
+          "en": "I take a walk in the park."
+        },
+        {
+          "jp": "道を渡ります。",
+          "romaji": "Michi o watarimasu.",
+          "bn": "রাস্তা পার হই।",
+          "en": "I cross the road."
+        }
+      ]
+    }
+  ]
+}

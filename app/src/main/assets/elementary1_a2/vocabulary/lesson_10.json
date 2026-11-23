@@ -1,14 +1,91 @@
 {
   "lesson": 10,
-  "title": "ফোন ও মেসেজে যোগাযোগ",
-  "title_en": "Communicating by Phone and Message",
+  "title": "জাপানি ভাষার ক্লাসে অংশ নিতে চাই কিন্তু…",
+  "title_en": "I would like to take a Japanese-language class.",
   "words": [
     {
-      "word": "でんわ",
-      "reading": "でんわ",
-      "romaji": "denwa",
-      "bn": "ফোন",
-      "en": "phone"
+      "word": "公民館",
+      "reading": "こうみんかん",
+      "romaji": "kouminkan",
+      "bn": "কমিউনিটি সেন্টার",
+      "en": "community center"
+    },
+    {
+      "word": "講座 / 教室",
+      "reading": "こうざ / きょうしつ",
+      "romaji": "kouza / kyoushitsu",
+      "bn": "কোর্স / ক্লাস",
+      "en": "course / class"
+    },
+    {
+      "word": "書道",
+      "reading": "しょどう",
+      "romaji": "shodou",
+      "bn": "জাপানি ক্যালিগ্রাফি",
+      "en": "calligraphy"
+    },
+    {
+      "word": "合気道",
+      "reading": "あいきどう",
+      "romaji": "aikidou",
+      "bn": "আইকিদো (জাপানি মার্শাল আর্ট)",
+      "en": "aikido"
+    },
+    {
+      "word": "体験教室",
+      "reading": "たいけんきょうしつ",
+      "romaji": "taiken kyoushitsu",
+      "bn": "ট্রায়াল ক্লাস",
+      "en": "trial class"
+    },
+    {
+      "word": "費用",
+      "reading": "ひよう",
+      "romaji": "hiyou",
+      "bn": "খরচ / ফি",
+      "en": "cost / fee"
+    },
+    {
+      "word": "教科書",
+      "reading": "きょうかしょ",
+      "romaji": "kyoukasho",
+      "bn": "পাঠ্যবই",
+      "en": "textbook"
+    },
+    {
+      "word": "道具",
+      "reading": "どうぐ",
+      "romaji": "dougu",
+      "bn": "সরঞ্জাম / উপকরণ",
+      "en": "tools / equipment"
+    },
+    {
+      "word": "用意します",
+      "reading": "よういします",
+      "romaji": "youi shimasu",
+      "bn": "প্রস্তুত করি / ব্যবস্থা করি",
+      "en": "prepare / provide"
+    },
+    {
+      "word": "週に1回",
+      "reading": "しゅうにいっかい",
+      "romaji": "shuu ni ikkai",
+      "bn": "সপ্তাহে ১ বার",
+      "en": "once a week"
+    },
+    {
+      "word": "どういう意味ですか",
+      "reading": "どういういみですか",
+      "romaji": "dou iu imi desu ka",
+      "bn": "এর অর্থ কী?",
+      "en": "What does that mean?"
+    },
+    {
+      "word": "母語",
+      "reading": "ぼご",
+      "romaji": "bogo",
+      "bn": "মাতৃভাষা",
+      "en": "native language"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "lesson": 17,
+  "title": "সিনেমা দেখতে গিয়েছিলাম",
+  "title_en": "I went to see a movie.",
+  "dialogues": [
+    {
+      "title": "১. ছুটির দিনের কাজ ও অনুভূতি নিয়ে কথা বলা",
+      "title_en": "1. Talking about what you did on your day off",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "週末は何をしましたか?",
+          "romaji": "Shuumatsu wa nani o shimashita ka?",
+          "bn": "সপ্তাহান্তে কী করেছিলেন?",
+          "en": "What did you do on the weekend?"
+        },
+        {
+          "speaker": "B",
+          "jp": "友だちと映画を見に行きました。とても楽しかったです。",
+          "romaji": "Tomodachi to eiga o mi ni ikimashita. Totemo tanoshikatta desu.",
+          "bn": "বন্ধুর সাথে সিনেমা দেখতে গিয়েছিলাম। খুব মজা হয়েছে।",
+          "en": "I went to see a movie with a friend. It was great fun."
+        }
+      ]
+    }
+  ]
+}

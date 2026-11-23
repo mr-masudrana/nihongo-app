@@ -1,0 +1,153 @@
+{
+  "lesson": 13,
+  "title": "ইচ্ছা, কিছু করতে চাওয়া ও কোথাও যাওয়া",
+  "title_en": "Desires, wanting to do something and going somewhere",
+  "points": [
+    {
+      "title": "N が 欲しいです — কোনো কিছু চাই",
+      "pattern": "N が 欲しいです",
+      "explain": "欲しい (ほしい) একটি い-adjective। নিজের কোনো বস্তু বা জিনিস পাওয়ার ইচ্ছা বোঝাতে N-এর পরে が বসিয়ে 欲しいです ব্যবহার হয়। এটি সাধারণত বক্তার নিজের ইচ্ছা বোঝায়; অন্য কারও ইচ্ছা জানতে বা বলতে সরাসরি ব্যবহার করা হয় না।",
+      "title_en": "N が 欲しいです — wanting something",
+      "pattern_en": "N が 欲しいです",
+      "explain_en": "欲しい (ほしい) is an い-adjective. Use が after the thing wanted and 欲しいです to express the speaker's desire to have it. It normally expresses the speaker's own desire, not a third person's.",
+      "examples": [
+        {
+          "jp": "わたしは 友達が 欲しいです。",
+          "romaji": "Watashi wa tomodachi ga hoshii desu.",
+          "bn": "আমি বন্ধু চাই।",
+          "en": "I want some friends."
+        },
+        {
+          "jp": "今 何が いちばん 欲しいですか。",
+          "romaji": "Ima nani ga ichiban hoshii desu ka.",
+          "bn": "এখন আপনার সবচেয়ে বেশি কী চাই?",
+          "en": "What do you want most right now?"
+        },
+        {
+          "jp": "車が 欲しいです。",
+          "romaji": "Kuruma ga hoshii desu.",
+          "bn": "আমি একটি গাড়ি চাই।",
+          "en": "I want a car."
+        }
+      ]
+    },
+    {
+      "title": "Vます-form + たいです — কিছু করতে চাই",
+      "pattern": "Vます-form → ます বাদ + たいです",
+      "explain": "কোনো কাজ করার নিজের ইচ্ছা বোঝাতে Verb-এর ます-form থেকে ます বাদ দিয়ে たいです যোগ হয়। たい একটি い-adjective-এর মতো রূপ পরিবর্তন করে। কাজের Object-এ を অথবা が—দুটিই ব্যবহার করা যায়।",
+      "title_en": "Vます-form + たいです — wanting to do something",
+      "pattern_en": "Vます-form: remove ます + たいです",
+      "explain_en": "To express the speaker's desire to do an action, remove ます from the verb's ます-form and add たいです. たい inflects like an い-adjective. The object can be marked with を or が.",
+      "examples": [
+        {
+          "jp": "わたしは 沖縄へ 行きたいです。",
+          "romaji": "Watashi wa Okinawa e ikitai desu.",
+          "bn": "আমি ওকিনাওয়ায় যেতে চাই।",
+          "en": "I want to go to Okinawa."
+        },
+        {
+          "jp": "わたしは てんぷらを 食べたいです。",
+          "romaji": "Watashi wa tenpura o tabetai desu.",
+          "bn": "আমি টেম্পুরা খেতে চাই।",
+          "en": "I'd like to eat some tempura."
+        },
+        {
+          "jp": "神戸で 何を 買いたいですか。",
+          "romaji": "Kōbe de nani o kaitai desu ka.",
+          "bn": "কোবেতে কী কিনতে চান?",
+          "en": "What do you want to buy in Kobe?"
+        },
+        {
+          "jp": "靴を 買いたいです。",
+          "romaji": "Kutsu o kaitai desu.",
+          "bn": "আমি জুতা কিনতে চাই।",
+          "en": "I want to buy some shoes."
+        }
+      ]
+    },
+    {
+      "title": "Place へ Vます-form に 行きます／来ます／帰ります — কোনো কাজ করতে কোথাও যাওয়া",
+      "pattern": "Place へ／に + Vます-form + に 行きます／来ます／帰ります",
+      "explain": "কোথাও গিয়ে কোনো কাজ করার উদ্দেশ্য বোঝাতে Verb-এর ます-form থেকে ます বাদ দিয়ে に যোগ করা হয়। এরপর 行きます (যাই), 来ます (আসি) বা 帰ります (ফিরে যাই) ব্যবহার হয়। Nをします ধরনের কাজের ক্ষেত্রে N に 行きます-ও বলা যায়।",
+      "title_en": "Place へ Vます-form に 行きます／来ます／帰ります — going somewhere to do something",
+      "pattern_en": "Place へ／に + Vます-form + に 行きます／来ます／帰ります",
+      "explain_en": "To state the purpose of going, coming or returning somewhere, remove ます from the verb's ます-form and add に before 行きます, 来ます or 帰ります. For activities expressed with Nをします, use N に 行きます.",
+      "examples": [
+        {
+          "jp": "神戸へ インド料理を 食べに 行きます。",
+          "romaji": "Kōbe e Indo ryōri o tabe ni ikimasu.",
+          "bn": "আমি ভারতীয় খাবার খেতে কোবেতে যাচ্ছি।",
+          "en": "I'm going to Kobe to have some Indian food."
+        },
+        {
+          "jp": "神戸へ 買い物に 行きます。",
+          "romaji": "Kōbe e kaimono ni ikimasu.",
+          "bn": "আমি কেনাকাটা করতে কোবেতে যাচ্ছি।",
+          "en": "I'm going shopping in Kobe."
+        },
+        {
+          "jp": "日本へ 美術の 勉強に 来ました。",
+          "romaji": "Nihon e bijutsu no benkyō ni kimashita.",
+          "bn": "আমি চারুকলা পড়তে জাপানে এসেছি।",
+          "en": "I came to Japan to study art."
+        },
+        {
+          "jp": "あした 京都の お祭りに 行きます。",
+          "romaji": "Ashita Kyōto no omatsuri ni ikimasu.",
+          "bn": "আগামীকাল কিয়োটোর উৎসবে যাচ্ছি।",
+          "en": "I'm going to see a festival in Kyoto tomorrow."
+        }
+      ]
+    },
+    {
+      "title": "どこか／何か — কোথাও / কিছু",
+      "pattern": "どこか + へ／に／で／を ...　　何か + を ...",
+      "explain": "どこか অর্থ ‘কোথাও/কোনো এক জায়গায়’ এবং 何か অর্থ ‘কিছু/কোনো কিছু’। এদের পরে へ বা を-এর মতো Particle এলে কথ্য ব্যবহারে Particle কখনো বাদ দেওয়া যায়। বাক্যের Topic হিসেবে どこか ব্যবহার করলে は যোগ করা যায়।",
+      "title_en": "どこか／何か — somewhere / something",
+      "pattern_en": "どこか + へ／に／で ... ; 何か + を ...",
+      "explain_en": "どこか means “somewhere” and 何か means “something.” When followed by particles such as へ or を, the particle can sometimes be omitted in conversation. は can be added when どこか is the topic.",
+      "examples": [
+        {
+          "jp": "冬休みは どこかへ 行きましたか。",
+          "romaji": "Fuyuyasumi wa dokoka e ikimashita ka.",
+          "bn": "শীতের ছুটিতে কোথাও গিয়েছিলেন?",
+          "en": "Did you go anywhere for your winter holiday?"
+        },
+        {
+          "jp": "はい、北海道へ スキーに 行きました。",
+          "romaji": "Hai, Hokkaidō e sukī ni ikimashita.",
+          "bn": "হ্যাঁ, হোক্কাইডোতে স্কি করতে গিয়েছিলাম।",
+          "en": "Yes, I went skiing in Hokkaido."
+        },
+        {
+          "jp": "のどが かわきましたから、何か 飲みたいです。",
+          "romaji": "Nodo ga kawakimashita kara, nanika nomitai desu.",
+          "bn": "পিপাসা পেয়েছে, তাই কিছু পান করতে চাই।",
+          "en": "I'm thirsty; I'd like something to drink."
+        }
+      ]
+    },
+    {
+      "title": "ご～ — সম্মানসূচক Prefix",
+      "pattern": "ご + শব্দ／বিশেষ্য",
+      "explain": "ご～ একটি সম্মানসূচক Prefix। অন্যের সঙ্গে সম্পর্কিত বিষয় বা সেবার কথা সম্মান দেখিয়ে বলতে ব্যবহৃত হয়। যেমন ご注文 (আপনার অর্ডার)। কিছু শব্দে お～ ব্যবহৃত হয়; কোনটি বসবে তা শব্দভেদে নির্দিষ্ট।",
+      "title_en": "ご～ — respectful prefix",
+      "pattern_en": "ご + word／noun",
+      "explain_en": "ご～ is a respectful prefix used to show respect when referring to something related to the listener or another person. For example, ご注文 means “your order.” Some words instead take お～; usage depends on the word.",
+      "examples": [
+        {
+          "jp": "ご注文は？",
+          "romaji": "Go-chūmon wa?",
+          "bn": "আপনার অর্ডার কী?",
+          "en": "May I take your order?"
+        },
+        {
+          "jp": "ご家族は お元気ですか。",
+          "romaji": "Go-kazoku wa ogenki desu ka.",
+          "bn": "আপনার পরিবারের সবাই ভালো আছেন?",
+          "en": "How is your family?"
+        }
+      ]
+    }
+  ]
+}

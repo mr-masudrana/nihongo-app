@@ -1,0 +1,426 @@
+{
+  "lesson": 11,
+  "title": "দৈনন্দিন জাপানি শব্দভান্ডার – Lesson 11",
+  "words": [
+    {
+      "word": "います [こどもが～]",
+      "reading": "います [子どもが～]",
+      "romaji": "imasu [kodomo ga ~]",
+      "bn": "সন্তান আছে; (সন্তান) জন্মানো",
+      "en": "have [a child]"
+    },
+    {
+      "word": "います [にほんに～]",
+      "reading": "います [日本に～]",
+      "romaji": "imasu [Nihon ni ~]",
+      "bn": "জাপানে থাকা",
+      "en": "stay; be [in Japan]"
+    },
+    {
+      "word": "かかります",
+      "reading": "かかります",
+      "romaji": "kakarimasu",
+      "bn": "খরচ হওয়া; সময়/টাকা লাগা",
+      "en": "take, cost (referring to time or money)"
+    },
+    {
+      "word": "やすみます [かいしゃを～]",
+      "reading": "休みます [会社を～]",
+      "romaji": "yasumimasu [kaisha o ~]",
+      "bn": "ছুটি নেওয়া; কাজে অনুপস্থিত থাকা",
+      "en": "take a day off [work]"
+    },
+    {
+      "word": "ひとつ",
+      "reading": "一つ",
+      "romaji": "hitotsu",
+      "bn": "একটি (বস্তু গণনার সময়)",
+      "en": "one (used when counting things)"
+    },
+    {
+      "word": "ふたつ",
+      "reading": "二つ",
+      "romaji": "futatsu",
+      "bn": "দুটি",
+      "en": "two"
+    },
+    {
+      "word": "みっつ",
+      "reading": "三つ",
+      "romaji": "mittsu",
+      "bn": "তিনটি",
+      "en": "three"
+    },
+    {
+      "word": "よっつ",
+      "reading": "四つ",
+      "romaji": "yottsu",
+      "bn": "চারটি",
+      "en": "four"
+    },
+    {
+      "word": "いつつ",
+      "reading": "五つ",
+      "romaji": "itsutsu",
+      "bn": "পাঁচটি",
+      "en": "five"
+    },
+    {
+      "word": "むっつ",
+      "reading": "六つ",
+      "romaji": "muttsu",
+      "bn": "ছয়টি",
+      "en": "six"
+    },
+    {
+      "word": "ななつ",
+      "reading": "七つ",
+      "romaji": "nanatsu",
+      "bn": "সাতটি",
+      "en": "seven"
+    },
+    {
+      "word": "やっつ",
+      "reading": "八つ",
+      "romaji": "yattsu",
+      "bn": "আটটি",
+      "en": "eight"
+    },
+    {
+      "word": "ここのつ",
+      "reading": "九つ",
+      "romaji": "kokonotsu",
+      "bn": "নয়টি",
+      "en": "nine"
+    },
+    {
+      "word": "とお",
+      "reading": "十",
+      "romaji": "too",
+      "bn": "দশটি",
+      "en": "ten"
+    },
+    {
+      "word": "いくつ",
+      "reading": "いくつ",
+      "romaji": "ikutsu",
+      "bn": "কতটি?",
+      "en": "how many"
+    },
+    {
+      "word": "ひとり",
+      "reading": "一人",
+      "romaji": "hitori",
+      "bn": "একজন ব্যক্তি",
+      "en": "one person"
+    },
+    {
+      "word": "ふたり",
+      "reading": "二人",
+      "romaji": "futari",
+      "bn": "দুইজন ব্যক্তি",
+      "en": "two people"
+    },
+    {
+      "word": "～にん",
+      "reading": "～人",
+      "romaji": "~nin",
+      "bn": "～জন (মানুষ গণনার প্রত্যয়)",
+      "en": "~ people"
+    },
+    {
+      "word": "～だい",
+      "reading": "～台",
+      "romaji": "~dai",
+      "bn": "～টি (যন্ত্র, গাড়ি ইত্যাদি গণনা)",
+      "en": "counter for machines, cars, etc."
+    },
+    {
+      "word": "～まい",
+      "reading": "～枚",
+      "romaji": "~mai",
+      "bn": "～টি (কাগজ, ডাকটিকিট ইত্যাদি গণনা)",
+      "en": "counter for paper, stamps, etc."
+    },
+    {
+      "word": "～かい",
+      "reading": "～回",
+      "romaji": "~kai",
+      "bn": "～বার",
+      "en": "~ times"
+    },
+    {
+      "word": "りんご",
+      "reading": "りんご",
+      "romaji": "ringo",
+      "bn": "আপেল",
+      "en": "apple"
+    },
+    {
+      "word": "みかん",
+      "reading": "みかん",
+      "romaji": "mikan",
+      "bn": "ম্যান্ডারিন কমলা",
+      "en": "mandarin orange"
+    },
+    {
+      "word": "サンドイッチ",
+      "reading": "サンドイッチ",
+      "romaji": "sandoicchi",
+      "bn": "স্যান্ডউইচ",
+      "en": "sandwich"
+    },
+    {
+      "word": "カレー [ライス]",
+      "reading": "カレー [ライス]",
+      "romaji": "karee [raisu]",
+      "bn": "কারি [ভাতসহ]",
+      "en": "curry [with rice]"
+    },
+    {
+      "word": "アイスクリーム",
+      "reading": "アイスクリーム",
+      "romaji": "aisukuriimu",
+      "bn": "আইসক্রিম",
+      "en": "ice cream"
+    },
+    {
+      "word": "きって",
+      "reading": "切手",
+      "romaji": "kitte",
+      "bn": "ডাকটিকিট",
+      "en": "postage stamp"
+    },
+    {
+      "word": "はがき",
+      "reading": "はがき",
+      "romaji": "hagaki",
+      "bn": "পোস্টকার্ড",
+      "en": "postcard"
+    },
+    {
+      "word": "ふうとう",
+      "reading": "封筒",
+      "romaji": "fuutou",
+      "bn": "খাম",
+      "en": "envelope"
+    },
+    {
+      "word": "りょうしん",
+      "reading": "両親",
+      "romaji": "ryoushin",
+      "bn": "বাবা-মা; পিতা-মাতা",
+      "en": "parents"
+    },
+    {
+      "word": "きょうだい",
+      "reading": "兄弟",
+      "romaji": "kyoudai",
+      "bn": "ভাইবোন",
+      "en": "brothers and sisters"
+    },
+    {
+      "word": "あに",
+      "reading": "兄",
+      "romaji": "ani",
+      "bn": "বড় ভাই (নিজের)",
+      "en": "(my) elder brother"
+    },
+    {
+      "word": "おにいさん",
+      "reading": "お兄さん",
+      "romaji": "oniisan",
+      "bn": "বড় ভাই (অন্যের)",
+      "en": "(someone else’s) elder brother"
+    },
+    {
+      "word": "あね",
+      "reading": "姉",
+      "romaji": "ane",
+      "bn": "বড় বোন (নিজের)",
+      "en": "(my) elder sister"
+    },
+    {
+      "word": "おねえさん",
+      "reading": "お姉さん",
+      "romaji": "oneesan",
+      "bn": "বড় বোন (অন্যের)",
+      "en": "(someone else’s) elder sister"
+    },
+    {
+      "word": "おとうと",
+      "reading": "弟",
+      "romaji": "otouto",
+      "bn": "ছোট ভাই (নিজের)",
+      "en": "(my) younger brother"
+    },
+    {
+      "word": "おとうとさん",
+      "reading": "弟さん",
+      "romaji": "otoutosan",
+      "bn": "ছোট ভাই (অন্যের)",
+      "en": "(someone else’s) younger brother"
+    },
+    {
+      "word": "いもうと",
+      "reading": "妹",
+      "romaji": "imouto",
+      "bn": "ছোট বোন (নিজের)",
+      "en": "(my) younger sister"
+    },
+    {
+      "word": "いもうとさん",
+      "reading": "妹さん",
+      "romaji": "imoutosan",
+      "bn": "ছোট বোন (অন্যের)",
+      "en": "(someone else’s) younger sister"
+    },
+    {
+      "word": "がいこく",
+      "reading": "外国",
+      "romaji": "gaikoku",
+      "bn": "বিদেশ",
+      "en": "foreign country"
+    },
+    {
+      "word": "りゅうがくせい",
+      "reading": "留学生",
+      "romaji": "ryuugakusei",
+      "bn": "বিদেশি শিক্ষার্থী",
+      "en": "foreign student"
+    },
+    {
+      "word": "クラス",
+      "reading": "クラス",
+      "romaji": "kurasu",
+      "bn": "ক্লাস; শ্রেণি",
+      "en": "class"
+    },
+    {
+      "word": "～じかん",
+      "reading": "～時間",
+      "romaji": "~jikan",
+      "bn": "～ ঘণ্টা",
+      "en": "~ hour(s)"
+    },
+    {
+      "word": "～しゅうかん",
+      "reading": "～週間",
+      "romaji": "~shuukan",
+      "bn": "~ সপ্তাহ",
+      "en": "~ week(s)"
+    },
+    {
+      "word": "～かげつ",
+      "reading": "～か月",
+      "romaji": "~kagetsu",
+      "bn": "～ মাস",
+      "en": "~ month(s)"
+    },
+    {
+      "word": "～ねん",
+      "reading": "～年",
+      "romaji": "~nen",
+      "bn": "～ বছর",
+      "en": "~ year(s)"
+    },
+    {
+      "word": "～ぐらい",
+      "reading": "～ぐらい",
+      "romaji": "~gurai",
+      "bn": "প্রায় ～",
+      "en": "about ~"
+    },
+    {
+      "word": "どのくらい",
+      "reading": "どのくらい",
+      "romaji": "dono kurai",
+      "bn": "কতক্ষণ; কত সময়",
+      "en": "how long"
+    },
+    {
+      "word": "ぜんぶで",
+      "reading": "全部で",
+      "romaji": "zenbu de",
+      "bn": "সব মিলিয়ে; মোট",
+      "en": "in total"
+    },
+    {
+      "word": "みんな",
+      "reading": "みんな",
+      "romaji": "minna",
+      "bn": "সবাই; সবকিছু",
+      "en": "all, everything, everyone"
+    },
+    {
+      "word": "～だけ",
+      "reading": "～だけ",
+      "romaji": "~dake",
+      "bn": "শুধু ～",
+      "en": "only ~"
+    },
+    {
+      "word": "かしこまりました",
+      "reading": "かしこまりました",
+      "romaji": "kashikomarimashita",
+      "bn": "অবশ্যই; জি, বুঝেছি (সম্মানসূচক)",
+      "en": "Certainly (Sir/Madam)."
+    },
+    {
+      "word": "いい [お]てんきですね",
+      "reading": "いい [お]天気ですね",
+      "romaji": "ii [o] tenki desu ne",
+      "bn": "আবহাওয়া বেশ ভালো, তাই না?",
+      "en": "Nice weather, isn’t it?"
+    },
+    {
+      "word": "おでかけですか",
+      "reading": "お出かけですか",
+      "romaji": "odekake desu ka",
+      "bn": "বাইরে যাচ্ছেন?",
+      "en": "Are you going out?"
+    },
+    {
+      "word": "ちょっと ～まで",
+      "reading": "ちょっと ～まで",
+      "romaji": "chotto ~ made",
+      "bn": "একটু ～ পর্যন্ত যাচ্ছি",
+      "en": "I’m just going to ~."
+    },
+    {
+      "word": "いっていらっしゃい",
+      "reading": "いっていらっしゃい",
+      "romaji": "itte irasshai",
+      "bn": "যান, আবার ফিরে আসবেন",
+      "en": "See you later; go and come back."
+    },
+    {
+      "word": "いってきます",
+      "reading": "いってきます",
+      "romaji": "itte kimasu",
+      "bn": "আমি যাচ্ছি, ফিরে আসব",
+      "en": "See you later; I’m going and coming back."
+    },
+    {
+      "word": "ふなびん",
+      "reading": "船便",
+      "romaji": "funabin",
+      "bn": "জাহাজে পাঠানো ডাক",
+      "en": "sea mail"
+    },
+    {
+      "word": "こうくうびん [エアメール]",
+      "reading": "航空便 [エアメール]",
+      "romaji": "koukuubin [eameeru]",
+      "bn": "বিমান ডাক",
+      "en": "airmail"
+    },
+    {
+      "word": "おねがいします",
+      "reading": "お願いします",
+      "romaji": "onegaishimasu",
+      "bn": "অনুগ্রহ করে; দয়া করে",
+      "en": "Please; I ask a favour."
+    }
+  ]
+}

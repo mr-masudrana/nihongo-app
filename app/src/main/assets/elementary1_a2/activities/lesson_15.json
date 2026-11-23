@@ -1,0 +1,27 @@
+{
+  "lesson": 15,
+  "title": "জ্বর এসেছে এবং গলা ব্যথা করছে",
+  "title_en": "I have a fever, and my throat is sore.",
+  "dialogues": [
+    {
+      "title": "১. হাসপাতালে ডাক্তারের কাছে শারীরিক সমস্যা বলা",
+      "title_en": "1. Explaining symptoms to a doctor at the hospital",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "今日はどうしましたか?",
+          "romaji": "Kyou wa dou shimashita ka?",
+          "bn": "আজ কী সমস্যা হয়েছে?",
+          "en": "What brings you in today?"
+        },
+        {
+          "speaker": "B",
+          "jp": "昨日から熱があって、のどがすごく痛いんです。",
+          "romaji": "Kinou kara netsu ga atte, nodo ga sugoku itain desu.",
+          "bn": "গতকাল থেকে জ্বর এসেছে এবং গলায় খুব ব্যথা করছে।",
+          "en": "I've had a fever since yesterday, and my throat hurts a lot."
+        }
+      ]
+    }
+  ]
+}

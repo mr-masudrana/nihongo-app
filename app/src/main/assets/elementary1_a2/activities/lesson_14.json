@@ -1,0 +1,27 @@
+{
+  "lesson": 14,
+  "title": "ছুটি নিলেও কি চলবে?",
+  "title_en": "May I take a day off?",
+  "dialogues": [
+    {
+      "title": "১. অফিসে ফোন করে দেরি বা ছুটির কথা জানানো",
+      "title_en": "1. Calling the workplace to report lateness or absence",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません、朝から熱があって、今日、休んでもいいでしょうか?",
+          "romaji": "Sumimasen, asa kara netsu ga atte, kyou, yasundemo ii deshou ka?",
+          "bn": "মাফ করবেন, সকাল থেকে জ্বর এসেছে, আজ কি ছুটি নিতে পারি?",
+          "en": "Excuse me, I've had a fever since morning; may I take today off?"
+        },
+        {
+          "speaker": "B",
+          "jp": "わかりました。お大事に。",
+          "romaji": "Wakarimashita. Odaiji ni.",
+          "bn": "বুঝেছি। নিজের যত্ন নিন / তাড়াতাড়ি সুস্থ হয়ে উঠুন।",
+          "en": "Understood. Take care of yourself."
+        }
+      ]
+    }
+  ]
+}

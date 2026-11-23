@@ -1,0 +1,23 @@
+{
+  "lesson": 18,
+  "title": "ভবিষ্যতে নিজের কোম্পানি গড়ব বলে ভাবছি",
+  "title_en": "I am thinking about starting my own company in the future.",
+  "points": [
+    {
+      "title": "শোকুনিন (職人), বিদায় অনুষ্ঠান (送別会) ও ভাষা শেখার ধারাবাহিকতা",
+      "pattern": "職人・送別会・日本語の勉強法",
+      "explain": "জাপানে সুশি শেফ, কাঠমিস্ত্রি বা যেকোনো পেশায় দীর্ঘ সাধনার মাধ্যমে সর্বোচ্চ দক্ষতা অর্জনকারীকে 'শোকুনিন' (職人) বলে সম্মান করা হয়। বিদায় অনুষ্ঠানে (送別会) বিদায়ী ব্যক্তিকে ফুল ও উপহার দিয়ে শুভকামনা জানানো হয়।",
+      "title_en": "Shokunin (Artisans), Farewell Parties & Lifelong Learning",
+      "pattern_en": "Craftsmanship and workplace traditions in Japan",
+      "explain_en": "Shokunin are master artisans dedicated to perfecting their craft.",
+      "examples": [
+        {
+          "jp": "お元気でがんばってください。",
+          "romaji": "Ogenki de ganbatte kudasai.",
+          "bn": "ভালো থাকবেন এবং এগিয়ে যান।",
+          "en": "Take care and do your best."
+        }
+      ]
+    }
+  ]
+}

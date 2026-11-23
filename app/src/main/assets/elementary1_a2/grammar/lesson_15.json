@@ -1,21 +1,37 @@
 {
   "lesson": 15,
-  "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম",
-  "title_en": "Environment and Garbage Rules",
+  "title": "জ্বর এসেছে এবং গলা ব্যথা করছে",
+  "title_en": "I have a fever, and my throat is sore.",
   "points": [
     {
-      "title": "পরিবেশ ও আবর্জনা ফেলার নিয়ম — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ごみ について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 15-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Environment and Garbage Rules — Grammar Pattern",
-      "pattern_en": "About gomi",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 15.",
+      "title": "〜んです ② (শারীরিক উপসর্গ বলা) ও V-ないでください (নিষেধ)",
+      "pattern": "昨日から38度の熱があって、のどが痛いんです / 運転しないでください",
+      "explain": "ডাক্তারকে নিজের অসুস্থতার লক্ষণ জানাতে '〜んです' এবং ডাক্তারের নিষেধাজ্ঞা বোঝাতে 'V-ないでください' ব্যবহৃত হয়।",
+      "title_en": "Explaining symptoms & Medical precautions",
+      "pattern_en": "~n desu / V-naide kudasai",
+      "explain_en": "Describe symptoms to a doctor and understand what to avoid.",
       "examples": [
         {
-          "jp": "ごみが わかりますか。",
-          "romaji": "gomi ga wakarimasu ka.",
-          "bn": "আপনি কি আবর্জনা বোঝেন?",
-          "en": "Do you understand garbage?"
+          "jp": "今週は仕事を休んで、できるだけ人に会わないでください。",
+          "romaji": "Konshuu wa shigoto o yasunde, dekiru dake hito ni awanaide kudasai.",
+          "bn": "এই সপ্তাহে কাজ থেকে ছুটি নিন এবং যতটা সম্ভব মানুষের সাথে দেখা করবেন না।",
+          "en": "Take off work this week and avoid meeting people as much as possible."
+        }
+      ]
+    },
+    {
+      "title": "V-る前に / V-たあと (ওষুধ খাওয়ার নিয়ম)",
+      "pattern": "1日1回、寝る前に飲んでください / 飲んだあと、運転しないでくださいね",
+      "explain": "কোনো কাজের আগে বোঝাতে 'V-る前に' এবং কাজের পরে বোঝাতে 'V-たあと' ব্যবহৃত হয়।",
+      "title_en": "Medicine dosage: Before and after actions",
+      "pattern_en": "V-ru mae ni / V-ta ato",
+      "explain_en": "Understand instructions on when to take medication.",
+      "examples": [
+        {
+          "jp": "こちらは、せきを抑える薬です。食後に飲んでください。",
+          "romaji": "Kochira wa, seki o osaeru kusuri desu. Shokugo ni nonde kudasai.",
+          "bn": "এটি কাশি কমানোর ওষুধ। খাওয়ার পর খাবেন।",
+          "en": "This medicine suppresses coughing. Take it after meals."
         }
       ]
     }

@@ -1,0 +1,39 @@
+{
+  "lesson": 3,
+  "title": "শীতকালে খুব ঠান্ডা পড়ে",
+  "title_en": "It gets very cold in winter.",
+  "points": [
+    {
+      "title": "Can-do 08–09: জাপান ও নিজ দেশের ঋতু সম্পর্কে বলা",
+      "pattern": "日本の四季の特徴を理解し、自分の国の季節について簡単に話すことができる。",
+      "explain": "জাপানের চারটি ঋতুর বৈশিষ্ট্য বুঝতে এবং নিজের দেশের ঋতু ও আবহাওয়া নিয়ে বলতে পারা।",
+      "title_en": "Can-do 08–09",
+      "pattern_en": "Can describe seasons in Japan and your own country.",
+      "explain_en": "Compare seasonal features of Japan and your home country.",
+      "examples": [
+        {
+          "jp": "雨季と乾季があります。",
+          "romaji": "Uki to kanki ga arimasu.",
+          "bn": "বর্ষাকাল ও শুষ্ককাল আছে।",
+          "en": "There is a rainy season and a dry season."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 10: প্রিয় ঋতু ও কারণ ব্যাখ্যা করা",
+      "pattern": "自分が好きな季節とその理由について、簡単に話すことができる。",
+      "explain": "কোন ঋতু ভালো লাগে এবং কেন ভালো লাগে তা গুছিয়ে বলতে পারা।",
+      "title_en": "Can-do 10",
+      "pattern_en": "Can explain your favorite season and the reason.",
+      "explain_en": "State your preferred season and give reasons.",
+      "examples": [
+        {
+          "jp": "暑いのが大好きですから、夏が好きです。",
+          "romaji": "Atsui no ga daisuki desu kara, natsu ga suki desu.",
+          "bn": "গরম খুব ভালোবাসি বলে গ্রীষ্মকাল পছন্দ করি।",
+          "en": "I love hot weather, so I like summer."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 4,
+  "title": "টোকিওতে বসবাস করি",
+  "title_en": "I live in Tokyo.",
+  "points": [
+    {
+      "title": "জাপানের প্রধান শহরসমূহ ও বয়স জিজ্ঞাসা",
+      "pattern": "日本のおもな都市・年齢を聞く",
+      "explain": "টোকিও, ওসাকা, নাগোয়া, ইয়োকোহামা, সাপ্পোরো, ফুকুওকা জাপানের অন্যতম প্রধান শহর। জাপানে বয়স জিজ্ঞাসা করা হলে সরাসরি বলতে না চাইলে '秘密です' (গোপন) বা জন্মসালের রাশিচক্র (干支) বলা যায়।",
+      "title_en": "Major Japanese Cities & Asking Age",
+      "pattern_en": "Tokyo, Osaka, Nagoya, Sapporo, Fukuoka",
+      "explain_en": "Major cities in Japan and cultural etiquette around age.",
+      "examples": [
+        {
+          "jp": "秘密です。",
+          "romaji": "Himitsu desu.",
+          "bn": "এটা গোপন (বয়স বলতে না চাইলে)।",
+          "en": "It's a secret."
+        }
+      ]
+    }
+  ]
+}

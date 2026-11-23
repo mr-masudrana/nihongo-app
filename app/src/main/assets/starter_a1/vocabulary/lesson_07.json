@@ -1,14 +1,105 @@
 {
   "lesson": 7,
-  "title": "ঘর ও আসবাবপত্র",
-  "title_en": "Rooms and Furniture",
+  "title": "৪টি রুম আছে",
+  "title_en": "There are four rooms.",
   "words": [
     {
-      "word": "へや",
-      "reading": "へや",
-      "romaji": "heya",
-      "bn": "রুম / ঘর",
-      "en": "room"
+      "word": "玄関",
+      "reading": "げんかん",
+      "romaji": "genkan",
+      "bn": "প্রবেশদ্বার (জুতা খোলার স্থান)",
+      "en": "entrance hall"
+    },
+    {
+      "word": "お風呂",
+      "reading": "おふろ",
+      "romaji": "ofuro",
+      "bn": "বাথরুম / গোসলখানা",
+      "en": "bath"
+    },
+    {
+      "word": "階段",
+      "reading": "かいだん",
+      "romaji": "kaidan",
+      "bn": "সিঁড়ি",
+      "en": "stairs"
+    },
+    {
+      "word": "台所",
+      "reading": "だいどころ",
+      "romaji": "daidokoro",
+      "bn": "রান্নাঘর",
+      "en": "kitchen"
+    },
+    {
+      "word": "居間",
+      "reading": "いま",
+      "romaji": "ima",
+      "bn": "বসার ঘর / লিভিং রুম",
+      "en": "living room"
+    },
+    {
+      "word": "1階 / 2階",
+      "reading": "いっかい / にかい",
+      "romaji": "ikkai / nikai",
+      "bn": "১ম তলা / ২য় তলা",
+      "en": "1st floor / 2nd floor"
+    },
+    {
+      "word": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "romaji": "reizouko",
+      "bn": "ফ্রিজ",
+      "en": "refrigerator"
+    },
+    {
+      "word": "電子レンジ",
+      "reading": "でんしレンジ",
+      "romaji": "denshi renji",
+      "bn": "মাইক্রোওয়েভ ওভেন",
+      "en": "microwave"
+    },
+    {
+      "word": "炊飯器",
+      "reading": "すいはんき",
+      "romaji": "suihanki",
+      "bn": "রাইস কুকার",
+      "en": "rice cooker"
+    },
+    {
+      "word": "洗濯機",
+      "reading": "せんたくき",
+      "romaji": "sentakuki",
+      "bn": "ওয়াশিং মেশিন",
+      "en": "washing machine"
+    },
+    {
+      "word": "ふとん",
+      "reading": "ふとん",
+      "romaji": "futon",
+      "bn": "জাপানি তোশক ও লেপ",
+      "en": "futon"
+    },
+    {
+      "word": "広い / せまい",
+      "reading": "ひろい / せまい",
+      "romaji": "hiroi / semai",
+      "bn": "প্রশস্ত / সংকীর্ণ",
+      "en": "spacious / small"
+    },
+    {
+      "word": "新しい / 古い",
+      "reading": "あたらしい / ふるい",
+      "romaji": "atarashii / furui",
+      "bn": "নতুন / পুরোনো",
+      "en": "new / old"
+    },
+    {
+      "word": "静か(な)",
+      "reading": "しずか(な)",
+      "romaji": "shizuka (na)",
+      "bn": "নিরিবিলি / শান্ত",
+      "en": "quiet"
     }
   ]
 }

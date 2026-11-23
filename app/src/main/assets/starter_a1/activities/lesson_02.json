@@ -1,0 +1,61 @@
+{
+  "lesson": 2,
+  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "title_en": "I'm sorry, I don't really understand.",
+  "dialogues": [
+    {
+      "title": "১. রুম নম্বর বুঝতে না পেরে আবার জিজ্ঞাসা করা",
+      "title_en": "1. Asking someone to repeat a room number",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "部屋は、213です。",
+          "romaji": "Heya wa, 213 desu.",
+          "bn": "রুম নম্বর ২১৩।",
+          "en": "The room is 213."
+        },
+        {
+          "speaker": "B",
+          "jp": "すみません。もういちど、お願いします。",
+          "romaji": "Sumimasen. Mou ichido, onegaishimasu.",
+          "bn": "মাফ করবেন। আরেকবার বলুন।",
+          "en": "Excuse me. One more time, please."
+        },
+        {
+          "speaker": "A",
+          "jp": "部屋は、213です。",
+          "romaji": "Heya wa, 213 desu.",
+          "bn": "রুম নম্বর ২১৩।",
+          "en": "The room is 213."
+        },
+        {
+          "speaker": "B",
+          "jp": "わかりました。ありがとうございます。",
+          "romaji": "Wakarimashita. Arigatou gozaimasu.",
+          "bn": "বুঝেছি। অনেক ধন্যবাদ।",
+          "en": "I understand. Thank you."
+        }
+      ]
+    },
+    {
+      "title": "২. জাপানি ভাষা পারি কি না তা বলা",
+      "title_en": "2. Talking about languages you can speak",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "お客さん、日本語、できますか?",
+          "romaji": "Okyakusan, nihongo, dekimasu ka?",
+          "bn": "আপনি কি জাপানি ভাষা পারেন?",
+          "en": "Can you speak Japanese?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、少しできます。",
+          "romaji": "Hai, sukoshi dekimasu.",
+          "bn": "হ্যাঁ, অল্প পারি।",
+          "en": "Yes, a little."
+        }
+      ]
+    }
+  ]
+}

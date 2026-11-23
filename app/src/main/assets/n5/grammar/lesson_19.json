@@ -1,0 +1,107 @@
+{
+  "lesson": 19,
+  "title": "অভিজ্ঞতা, কাজের তালিকা ও পরিবর্তন",
+  "title_en": "Experiences, listing actions and changes",
+  "points": [
+    {
+      "title": "Verb-এর た-form তৈরি",
+      "pattern": "Vた-form",
+      "explain": "た-form হলো Verb-এর অতীত plain form। て-form-এর শেষ て → た এবং で → だ হয়। যেমন 書いて→書いた, 飲んで→飲んだ, 食べて→食べた, 来て→来た, して→した।",
+      "title_en": "Forming the た-form",
+      "pattern_en": "Vた-form",
+      "explain_en": "The た-form is the past plain form of a verb. Change final て to た and で to だ in the て-form.",
+      "examples": [
+        {
+          "jp": "書いて → 書いた",
+          "romaji": "Kaite → kaita",
+          "bn": "লিখে → লিখেছিল",
+          "en": "write → wrote"
+        },
+        {
+          "jp": "飲んで → 飲んだ",
+          "romaji": "Nonde → nonda",
+          "bn": "পান করে → পান করেছিল",
+          "en": "drink → drank"
+        },
+        {
+          "jp": "食べて → 食べた",
+          "romaji": "Tabete → tabeta",
+          "bn": "খেয়ে → খেয়েছিল",
+          "en": "eat → ate"
+        }
+      ]
+    },
+    {
+      "title": "～たことがあります — কোনো অভিজ্ঞতা হয়েছে",
+      "pattern": "Vた-form + ことがあります",
+      "explain": "অতীতে জীবনে কোনো কাজ করার অভিজ্ঞতা আছে বোঝাতে Verb-এর た-form-এর পরে ことがあります বসে। নির্দিষ্ট অতীত সময়ের ঘটনা বলতে সাধারণত ました ব্যবহার করা হয়।",
+      "title_en": "Have done something before",
+      "pattern_en": "Vた-form + ことがあります",
+      "explain_en": "Use this pattern to describe a past experience. For a specific event at a stated time, use the ordinary past tense instead.",
+      "examples": [
+        {
+          "jp": "馬に乗ったことがあります。",
+          "romaji": "Uma ni notta koto ga arimasu.",
+          "bn": "আমি ঘোড়ায় চড়ার অভিজ্ঞতা পেয়েছি।",
+          "en": "I've ridden a horse."
+        },
+        {
+          "jp": "去年、北海道で馬に乗りました。",
+          "romaji": "Kyonen, Hokkaidou de uma ni norimashita.",
+          "bn": "গত বছর হোক্কাইদোতে ঘোড়ায় চড়েছিলাম।",
+          "en": "I rode a horse in Hokkaido last year."
+        }
+      ]
+    },
+    {
+      "title": "～たり、～たりします — কয়েকটি উদাহরণমূলক কাজ",
+      "pattern": "V1た-formり、V2た-formり します",
+      "explain": "অনেক কাজের মধ্যে কয়েকটি উদাহরণ হিসেবে উল্লেখ করতে প্রতিটি Verb-এর た-form-এর সঙ্গে り যোগ করা হয়। শেষের します বাক্যের tense নির্ধারণ করে। কাজগুলো ধারাবাহিক ক্রমে হয়েছে এমন অর্থ নয়।",
+      "title_en": "Listing representative actions",
+      "pattern_en": "V1た-formり、V2た-formり します",
+      "explain_en": "Use this pattern to list a few representative actions from a longer list. It does not necessarily indicate the order in which the actions occur.",
+      "examples": [
+        {
+          "jp": "日曜日はテニスをしたり、映画を見たりします。",
+          "romaji": "Nichiyoubi wa tenisu o shitari, eiga o mitari shimasu.",
+          "bn": "রবিবার টেনিস খেলি, সিনেমা দেখি ইত্যাদি।",
+          "en": "On Sundays, I play tennis, watch movies, and so on."
+        },
+        {
+          "jp": "日曜日はテニスをしたり、映画を見たりしました。",
+          "romaji": "Nichiyoubi wa tenisu o shitari, eiga o mitari shimashita.",
+          "bn": "গত রবিবার টেনিস খেলেছি, সিনেমা দেখেছি ইত্যাদি।",
+          "en": "Last Sunday, I played tennis, watched a movie, and did other things."
+        }
+      ]
+    },
+    {
+      "title": "～く／～に／～に なります — পরিবর্তন হওয়া",
+      "pattern": "い-adj → ～くなります / な-adj・N → ～になります",
+      "explain": "কোনো অবস্থা বা বৈশিষ্ট্যের পরিবর্তন বোঝাতে い-adjective-এর শেষ い বাদ দিয়ে くなります বসে। な-adjective-এর পরে に なります এবং noun-এর পরেও に なります বসে।",
+      "title_en": "Become / change into",
+      "pattern_en": "い-adj → ～くなります / な-adj・N → ～になります",
+      "explain_en": "Use くなります after an い-adjective (dropping final い), and に なります after a な-adjective or noun to describe a change of state.",
+      "examples": [
+        {
+          "jp": "寒くなります。",
+          "romaji": "Samuku narimasu.",
+          "bn": "ঠান্ডা হয়ে যায়।",
+          "en": "It gets cold."
+        },
+        {
+          "jp": "元気になります。",
+          "romaji": "Genki ni narimasu.",
+          "bn": "সুস্থ/প্রাণবন্ত হয়ে উঠি।",
+          "en": "I get better."
+        },
+        {
+          "jp": "25歳になります。",
+          "romaji": "Nijuu-go-sai ni narimasu.",
+          "bn": "২৫ বছর বয়স হবে।",
+          "en": "I will turn 25."
+        }
+      ]
+    }
+  ]
+}

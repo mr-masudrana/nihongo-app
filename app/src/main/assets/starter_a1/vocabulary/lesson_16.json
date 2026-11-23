@@ -1,14 +1,98 @@
 {
   "lesson": 16,
-  "title": "স্বাস্থ্য ও শরীরের অবস্থা",
-  "title_en": "Health and Condition",
+  "title": "এটার দাম কত?",
+  "title_en": "How much is this?",
   "words": [
     {
-      "word": "げんき",
-      "reading": "げんき",
-      "romaji": "genki",
-      "bn": "সুস্থ / প্রাণবন্ত",
-      "en": "healthy / fine"
+      "word": "いくらですか",
+      "reading": "いくらですか",
+      "romaji": "ikura desu ka",
+      "bn": "দাম কত?",
+      "en": "How much is it?"
+    },
+    {
+      "word": "〜円",
+      "reading": "〜えん",
+      "romaji": "~en",
+      "bn": "~ ইয়েন (জাপানি মুদ্রা)",
+      "en": "~ yen"
+    },
+    {
+      "word": "百 / 千 / 万",
+      "reading": "ひゃく / せん / まん",
+      "romaji": "hyaku / sen / man",
+      "bn": "শত / হাজার / দশ হাজার",
+      "en": "hundred / thousand / ten thousand"
+    },
+    {
+      "word": "これ / それ / あれ",
+      "reading": "これ / それ / あれ",
+      "romaji": "kore / sore / are",
+      "bn": "এটা / ওটা / ঐটা",
+      "en": "this / that / that over there"
+    },
+    {
+      "word": "この / その / あの",
+      "reading": "この / その / あの",
+      "romaji": "kono / sono / ano",
+      "bn": "এই / ঐ / ঐ দূরের",
+      "en": "this ~ / that ~ / that ~ over there"
+    },
+    {
+      "word": "ひき肉",
+      "reading": "ひきにく",
+      "romaji": "hikiniku",
+      "bn": "মাংসের কিমা",
+      "en": "minced meat"
+    },
+    {
+      "word": "〜グラム (g)",
+      "reading": "〜グラム",
+      "romaji": "~guramu",
+      "bn": "~ গ্রাম",
+      "en": "~ grams"
+    },
+    {
+      "word": "〜個",
+      "reading": "〜こ",
+      "romaji": "~ko",
+      "bn": "~টি (ছোট গোল বস্তু)",
+      "en": "counter for small items"
+    },
+    {
+      "word": "〜ずつ",
+      "reading": "〜ずつ",
+      "romaji": "~zutsu",
+      "bn": "~টি করে (প্রতিটি)",
+      "en": "~ each"
+    },
+    {
+      "word": "温めますか",
+      "reading": "あたためますか",
+      "romaji": "atatamemasu ka",
+      "bn": "গরম করে দেব কি?",
+      "en": "Would you like it heated up?"
+    },
+    {
+      "word": "袋",
+      "reading": "ふくろ",
+      "romaji": "fukuro",
+      "bn": "ব্যাগ / পলিব্যাগ",
+      "en": "bag"
+    },
+    {
+      "word": "お箸",
+      "reading": "おはし",
+      "romaji": "ohashi",
+      "bn": "চপস্টিক",
+      "en": "chopsticks"
+    },
+    {
+      "word": "割引 / 半額",
+      "reading": "わりびき / はんがく",
+      "romaji": "waribiki / hangaku",
+      "bn": "ডিসকাউন্ট / অর্ধেক দাম",
+      "en": "discount / half price"
     }
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "lesson": 11,
+  "title": "কোন ধরনের মাঙ্গা পছন্দ করেন?",
+  "title_en": "What kind of manga do you like?",
+  "points": [
+    {
+      "title": "জাপানি মাঙ্গা, গেম ও জনপ্রিয় খেলাধুলা",
+      "pattern": "日本のマンガ・日本のゲーム・サッカー/ラグビー",
+      "explain": "জাপানে ছোট-বড় সবাই মাঙ্গা পড়েন। এছাড়া ভিডিও গেম, বেসবল, ফুটবল এবং রাগবি জাপানে অত্যন্ত জনপ্রিয়।",
+      "title_en": "Japanese Manga, Games & Sports",
+      "pattern_en": "Manga, Video Games, Baseball, Soccer",
+      "explain_en": "Manga and video games are enjoyed by all ages in Japan.",
+      "examples": [
+        {
+          "jp": "マンガが大好きです。",
+          "romaji": "Manga ga daisuki desu.",
+          "bn": "মাঙ্গা খুব ভালোবাসি।",
+          "en": "I love manga."
+        }
+      ]
+    }
+  ]
+}

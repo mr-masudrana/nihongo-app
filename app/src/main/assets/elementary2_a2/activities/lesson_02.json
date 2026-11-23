@@ -1,0 +1,27 @@
+{
+  "lesson": 2,
+  "title": "খুব আন্তরিক মানুষ বলে মনে হচ্ছে",
+  "title_en": "He looks a serious person.",
+  "dialogues": [
+    {
+      "title": "১. মানুষের বাহ্যিক বৈশিষ্ট্য ও প্রিয় তারকা নিয়ে কথোপকথন",
+      "title_en": "1. Identifying people and talking about favorite celebrities",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。江口さんはどの人ですか?",
+          "romaji": "Sumimasen. Eguchi-san wa dono hito desu ka?",
+          "bn": "মাফ করবেন। এগুচি-সান কোন জন?",
+          "en": "Excuse me. Which person is Eguchi-san?"
+        },
+        {
+          "speaker": "B",
+          "jp": "あの髪が短くて、ひげをはやしてる人ですよ。",
+          "romaji": "Ano kami ga mijikakute, hige o hayashiteru hito desu yo.",
+          "bn": "ঐ যে ছোট চুল আর দাড়িওয়ালা ভদ্রলোক।",
+          "en": "The person with short hair and a beard."
+        }
+      ]
+    }
+  ]
+}

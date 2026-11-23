@@ -1,0 +1,163 @@
+{
+  "lesson": 20,
+  "title": "Polite Style ও Plain Style",
+  "title_en": "Polite style and plain style",
+  "points": [
+    {
+      "title": "Polite Style ও Plain Style-এর পার্থক্য",
+      "pattern": "Polite: ～ます／です | Plain: dictionary form, ない, た, だ",
+      "explain": "জাপানিতে ভদ্র (Polite) ও সাধারণ/অনানুষ্ঠানিক (Plain) কথার ধরন আছে। অপরিচিত, বয়োজ্যেষ্ঠ বা আনুষ্ঠানিক পরিস্থিতিতে Polite Style ব্যবহার করা হয়। ঘনিষ্ঠ বন্ধু, পরিবার ও পরিচিত সহকর্মীদের সঙ্গে Plain Style ব্যবহার করা যায়।",
+      "title_en": "Polite style vs plain style",
+      "pattern_en": "Polite: ～ます／です | Plain: dictionary, ない, た, だ",
+      "explain_en": "Japanese has polite and plain speech styles. Use polite style with unfamiliar people, people of higher status, and in formal situations. Plain style is common with close friends, family, and familiar colleagues.",
+      "examples": [
+        {
+          "jp": "明日東京へ行きます。",
+          "romaji": "Ashita Toukyou e ikimasu.",
+          "bn": "আগামীকাল টোকিও যাব। (ভদ্র)",
+          "en": "I will go to Tokyo tomorrow. (polite)"
+        },
+        {
+          "jp": "明日東京へ行く。",
+          "romaji": "Ashita Toukyou e iku.",
+          "bn": "আগামীকাল টোকিও যাব। (সাধারণ)",
+          "en": "I will go to Tokyo tomorrow. (plain)"
+        }
+      ]
+    },
+    {
+      "title": "Verb-এর Plain Form",
+      "pattern": "ます→Dictionary / ません→ない / ました→た / ませんでした→なかった",
+      "explain": "Verb-এর Plain Form চারভাবে হয়: non-past affirmative = Dictionary Form, non-past negative = ない-form, past affirmative = た-form, past negative = なかった-form।",
+      "title_en": "Verb plain forms",
+      "pattern_en": "ます→dictionary / ません→ない / ました→た / ませんでした→なかった",
+      "explain_en": "The four basic verb plain forms are dictionary (non-past affirmative), ない (non-past negative), た (past affirmative), and なかった (past negative).",
+      "examples": [
+        {
+          "jp": "行きます → 行く",
+          "romaji": "Ikimasu → iku",
+          "bn": "যাই → যাওয়া",
+          "en": "go"
+        },
+        {
+          "jp": "行きません → 行かない",
+          "romaji": "Ikimasen → ikanai",
+          "bn": "যাই না → যায় না",
+          "en": "do not go"
+        },
+        {
+          "jp": "行きました → 行った",
+          "romaji": "Ikimashita → itta",
+          "bn": "গিয়েছিলাম",
+          "en": "went"
+        },
+        {
+          "jp": "行きませんでした → 行かなかった",
+          "romaji": "Ikimasen deshita → ikanakatta",
+          "bn": "যাইনি",
+          "en": "did not go"
+        }
+      ]
+    },
+    {
+      "title": "Noun ও な-adjective-এর Plain Form",
+      "pattern": "N／な-adj: だ・じゃない・だった・じゃなかった",
+      "explain": "Noun ও な-adjective-এর ক্ষেত্রে non-past affirmative-এ だ, negative-এ じゃない, past affirmative-এ だった এবং past negative-এ じゃなかった ব্যবহার হয়। বাক্যের শেষে だ কথোপকথনে অনেক সময় বাদ যায়।",
+      "title_en": "Plain forms of nouns and な-adjectives",
+      "pattern_en": "N / な-adj: だ・じゃない・だった・じゃなかった",
+      "explain_en": "For nouns and な-adjectives, use だ (non-past affirmative), じゃない (negative), だった (past affirmative), and じゃなかった (past negative). だ is often omitted in conversation.",
+      "examples": [
+        {
+          "jp": "学生だ。",
+          "romaji": "Gakusei da.",
+          "bn": "আমি/সে শিক্ষার্থী।",
+          "en": "I am / He is a student."
+        },
+        {
+          "jp": "学生じゃない。",
+          "romaji": "Gakusei janai.",
+          "bn": "শিক্ষার্থী নই/নয়।",
+          "en": "I am not / He is not a student."
+        },
+        {
+          "jp": "学生だった。",
+          "romaji": "Gakusei datta.",
+          "bn": "শিক্ষার্থী ছিলাম/ছিল।",
+          "en": "I was a student."
+        }
+      ]
+    },
+    {
+      "title": "い-adjective-এর Plain Form",
+      "pattern": "～い／～くない／～かった／～くなかった",
+      "explain": "い-adjective-এর plain form-এ present affirmative-এ মূল adjective, negative-এ い বাদ দিয়ে くない, past affirmative-এ かった এবং past negative-এ くなかった বসে।",
+      "title_en": "Plain forms of い-adjectives",
+      "pattern_en": "～い / ～くない / ～かった / ～くなかった",
+      "explain_en": "For い-adjectives, use the base form for non-past affirmative, くない for negative, かった for past affirmative, and くなかった for past negative.",
+      "examples": [
+        {
+          "jp": "高い。",
+          "romaji": "Takai.",
+          "bn": "দামি/উঁচু।",
+          "en": "It is expensive / high."
+        },
+        {
+          "jp": "高くない。",
+          "romaji": "Takakunai.",
+          "bn": "দামি নয়।",
+          "en": "It is not expensive."
+        },
+        {
+          "jp": "高かった。",
+          "romaji": "Takakatta.",
+          "bn": "দামি ছিল।",
+          "en": "It was expensive."
+        }
+      ]
+    },
+    {
+      "title": "Plain Style-এ প্রশ্ন ও particle বাদ দেওয়া",
+      "pattern": "Plain sentence + rising intonation",
+      "explain": "Plain Style-এর প্রশ্নে বাক্যের শেষে か সাধারণত বাদ দিয়ে স্বর উঁচু করা হয়। অর্থ পরিষ্কার হলে は, を, が ইত্যাদি কিছু particle কথোপকথনে বাদ যেতে পারে; তবে に, で, から, まで, と সাধারণত বাদ দেওয়া হয় না।",
+      "title_en": "Questions and particle omission in plain style",
+      "pattern_en": "Plain sentence + rising intonation",
+      "explain_en": "In plain-style questions, か is usually omitted and a rising intonation is used. Some particles such as は, を, and が may be omitted when the meaning is clear, but particles such as に, で, から, まで, and と are generally retained.",
+      "examples": [
+        {
+          "jp": "コーヒーを飲む？",
+          "romaji": "Koohii o nomu?",
+          "bn": "কফি খাবে?",
+          "en": "Want some coffee?"
+        },
+        {
+          "jp": "うん、飲む。",
+          "romaji": "Un, nomu.",
+          "bn": "হ্যাঁ, খাব।",
+          "en": "Yeah, sure."
+        },
+        {
+          "jp": "あした京都へ行かない？",
+          "romaji": "Ashita Kyouto e ikanai?",
+          "bn": "আগামীকাল কিয়োতো যাবে না?",
+          "en": "How about going to Kyoto tomorrow?"
+        }
+      ]
+    },
+    {
+      "title": "けど — কিন্তু / যদিও",
+      "pattern": "Sentence + けど、Sentence",
+      "explain": "けど কথোপকথনে ですが／が-এর মতো ‘কিন্তু’ বা ‘যদিও’ অর্থে ব্যবহৃত হয়।",
+      "title_en": "けど — but / although",
+      "pattern_en": "Sentence + けど、Sentence",
+      "explain_en": "けど is a conversational form meaning 'but' or 'although', similar to が.",
+      "examples": [
+        {
+          "jp": "そのカレーは辛いけど、おいしい。",
+          "romaji": "Sono karee wa karai kedo, oishii.",
+          "bn": "কারিটা ঝাল, কিন্তু সুস্বাদু।",
+          "en": "That curry is spicy, but it's nice."
+        }
+      ]
+    }
+  ]
+}

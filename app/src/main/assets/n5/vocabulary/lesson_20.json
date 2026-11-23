@@ -1,0 +1,160 @@
+{
+  "lesson": 20,
+  "title": "কথাবার্তা ও দৈনন্দিন অভিব্যক্তি",
+  "words": [
+    {
+      "word": "いります [ビザが～]",
+      "reading": "要ります [ビザが～]",
+      "romaji": "irimasu [biza ga ~]",
+      "bn": "প্রয়োজন হওয়া [ভিসা প্রয়োজন]",
+      "en": "need, require [a visa]"
+    },
+    {
+      "word": "しらべます",
+      "reading": "調べます",
+      "romaji": "shirabemasu",
+      "bn": "খোঁজ নেওয়া; পরীক্ষা করা",
+      "en": "check, investigate"
+    },
+    {
+      "word": "しゅうりします",
+      "reading": "修理します",
+      "romaji": "shuuri shimasu",
+      "bn": "মেরামত করা",
+      "en": "repair"
+    },
+    {
+      "word": "ぼく",
+      "reading": "僕",
+      "romaji": "boku",
+      "bn": "আমি (পুরুষদের অনানুষ্ঠানিক ব্যবহার)",
+      "en": "I (informal, used by men)"
+    },
+    {
+      "word": "きみ",
+      "reading": "君",
+      "romaji": "kimi",
+      "bn": "তুমি (অনানুষ্ঠানিক)",
+      "en": "you (informal)"
+    },
+    {
+      "word": "～くん",
+      "reading": "～君",
+      "romaji": "~kun",
+      "bn": "জনাব/বন্ধুর নামের পরে ব্যবহৃত সম্বোধন",
+      "en": "Mr.; suffix used with boys' names"
+    },
+    {
+      "word": "うん",
+      "reading": "うん",
+      "romaji": "un",
+      "bn": "হ্যাঁ (অনানুষ্ঠানিক)",
+      "en": "yes (informal)"
+    },
+    {
+      "word": "ううん",
+      "reading": "ううん",
+      "romaji": "uun",
+      "bn": "না (অনানুষ্ঠানিক)",
+      "en": "no (informal)"
+    },
+    {
+      "word": "ことば",
+      "reading": "言葉",
+      "romaji": "kotoba",
+      "bn": "শব্দ; ভাষা",
+      "en": "word, language"
+    },
+    {
+      "word": "きもの",
+      "reading": "着物",
+      "romaji": "kimono",
+      "bn": "কিমোনো; ঐতিহ্যবাহী জাপানি পোশাক",
+      "en": "kimono, traditional Japanese attire"
+    },
+    {
+      "word": "ビザ",
+      "reading": "ビザ",
+      "romaji": "biza",
+      "bn": "ভিসা",
+      "en": "visa"
+    },
+    {
+      "word": "はじめ",
+      "reading": "初め",
+      "romaji": "hajime",
+      "bn": "শুরু; প্রারম্ভ",
+      "en": "the beginning"
+    },
+    {
+      "word": "おわり",
+      "reading": "終わり",
+      "romaji": "owari",
+      "bn": "শেষ; সমাপ্তি",
+      "en": "the end"
+    },
+    {
+      "word": "こっち",
+      "reading": "こっち",
+      "romaji": "kocchi",
+      "bn": "এদিকে; এই স্থান (অনানুষ্ঠানিক)",
+      "en": "this way, this place (informal)"
+    },
+    {
+      "word": "そっち",
+      "reading": "そっち",
+      "romaji": "socchi",
+      "bn": "সেদিকে; শ্রোতার কাছের স্থান",
+      "en": "that way, near the listener"
+    },
+    {
+      "word": "あっち",
+      "reading": "あっち",
+      "romaji": "acchi",
+      "bn": "ওদিকে; দূরের স্থান",
+      "en": "that way, over there"
+    },
+    {
+      "word": "どっち",
+      "reading": "どっち",
+      "romaji": "docchi",
+      "bn": "কোনটি; কোন দিক",
+      "en": "which one, which way"
+    },
+    {
+      "word": "みんなで",
+      "reading": "みんなで",
+      "romaji": "minna de",
+      "bn": "সবাই মিলে",
+      "en": "all together"
+    },
+    {
+      "word": "～けど",
+      "reading": "～けど",
+      "romaji": "~kedo",
+      "bn": "কিন্তু; যদিও (অনানুষ্ঠানিক)",
+      "en": "~, but (informal)"
+    },
+    {
+      "word": "おなかがいっぱいです",
+      "reading": "おなかがいっぱいです",
+      "romaji": "onaka ga ippai desu",
+      "bn": "আমার পেট ভরে গেছে",
+      "en": "I'm full"
+    },
+    {
+      "word": "よかったら",
+      "reading": "よかったら",
+      "romaji": "yokattara",
+      "bn": "আপনার ইচ্ছা হলে; চাইলে",
+      "en": "if you like"
+    },
+    {
+      "word": "いろいろ",
+      "reading": "いろいろ",
+      "romaji": "iroiro",
+      "bn": "বিভিন্ন; নানারকম",
+      "en": "various"
+    }
+  ]
+}

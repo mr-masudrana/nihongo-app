@@ -1,0 +1,175 @@
+{
+  "lesson": 10,
+  "title": "অস্তিত্ব, অবস্থান ও স্থানবাচক শব্দ",
+  "title_en": "Existence, location and position",
+  "points": [
+    {
+      "title": "N が あります — জড় বস্তু/উদ্ভিদের অস্তিত্ব",
+      "pattern": "N が あります",
+      "explain": "কোনো জড় বস্তু, গাছপালা বা নিজে চলতে পারে না এমন কিছুর অস্তিত্ব বোঝাতে あります ব্যবহার হয়। যে জিনিসটি আছে, তার পরে が বসে।",
+      "title_en": "N が あります — existence of inanimate things",
+      "pattern_en": "N が あります",
+      "explain_en": "あります is used for the existence of inanimate things, plants and objects that cannot move by themselves. が marks the thing that exists.",
+      "examples": [
+        {
+          "jp": "コンピューターが あります。",
+          "romaji": "Konpyūtā ga arimasu.",
+          "bn": "একটি কম্পিউটার আছে।",
+          "en": "There is a computer."
+        },
+        {
+          "jp": "桜が あります。",
+          "romaji": "Sakura ga arimasu.",
+          "bn": "চেরি গাছ আছে।",
+          "en": "There are cherry trees."
+        },
+        {
+          "jp": "公園が あります。",
+          "romaji": "Kōen ga arimasu.",
+          "bn": "একটি পার্ক আছে।",
+          "en": "There is a park."
+        }
+      ]
+    },
+    {
+      "title": "N が います — মানুষ/প্রাণীর অস্তিত্ব",
+      "pattern": "N が います",
+      "explain": "মানুষ ও প্রাণীর মতো জীবিত এবং নিজে চলতে পারে এমন কিছুর অস্তিত্ব বোঝাতে います ব্যবহার হয়। যে ব্যক্তি বা প্রাণী আছে, তার পরে が বসে।",
+      "title_en": "N が います — existence of living things",
+      "pattern_en": "N が います",
+      "explain_en": "います is used for living things such as people and animals that can move by themselves. が marks the person or animal that exists.",
+      "examples": [
+        {
+          "jp": "男の人が います。",
+          "romaji": "Otoko no hito ga imasu.",
+          "bn": "একজন পুরুষ আছেন।",
+          "en": "There is a man."
+        },
+        {
+          "jp": "犬が います。",
+          "romaji": "Inu ga imasu.",
+          "bn": "একটি কুকুর আছে।",
+          "en": "There is a dog."
+        }
+      ]
+    },
+    {
+      "title": "Place に N が あります／います — কোনো স্থানে কিছু আছে",
+      "pattern": "Place に N が あります／います",
+      "explain": "কোনো বস্তু, ব্যক্তি বা প্রাণী কোথায় আছে তা বলতে স্থানের পরে に বসে। জড় বস্তুর জন্য あります এবং জীবিত ব্যক্তি/প্রাণীর জন্য います ব্যবহার হয়। প্রশ্নে কী আছে জানতে 何が, আর কে আছে জানতে だれが ব্যবহার করুন।",
+      "title_en": "Place に N が あります／います — something exists at a place",
+      "pattern_en": "Place に N が あります／います",
+      "explain_en": "に marks the place where a thing, person or animal exists. Use あります for inanimate things and います for people and animals. Ask 何が for what and だれが for who.",
+      "examples": [
+        {
+          "jp": "わたしの 部屋に 机が あります。",
+          "romaji": "Watashi no heya ni tsukue ga arimasu.",
+          "bn": "আমার ঘরে একটি ডেস্ক আছে।",
+          "en": "There is a desk in my room."
+        },
+        {
+          "jp": "事務所に ミラーさんが います。",
+          "romaji": "Jimusho ni Mirā-san ga imasu.",
+          "bn": "অফিসে মি. মিলার আছেন।",
+          "en": "Mr. Miller is in the office."
+        },
+        {
+          "jp": "地下に 何が ありますか。",
+          "romaji": "Chika ni nani ga arimasu ka.",
+          "bn": "বেসমেন্টে কী আছে?",
+          "en": "What's in the basement?"
+        },
+        {
+          "jp": "受付に だれが いますか。",
+          "romaji": "Uketsuke ni dare ga imasu ka.",
+          "bn": "রিসেপশনে কে আছেন?",
+          "en": "Who's at the reception desk?"
+        }
+      ]
+    },
+    {
+      "title": "N は Place に あります／います — কোনো কিছুর অবস্থান বলা",
+      "pattern": "N は Place に あります／います",
+      "explain": "আগে থেকে পরিচিত কোনো বস্তু বা ব্যক্তির অবস্থান জানাতে N-কে は দিয়ে Topic করা হয় এবং স্থানের পরে に বসে। অবস্থান জানতে どこに ব্যবহার করা যায়।",
+      "title_en": "N は Place に あります／います — stating where something is",
+      "pattern_en": "N は Place に あります／います",
+      "explain_en": "When talking about the location of a known thing or person, mark it as the topic with は and mark the place with に. Use どこに to ask where it is.",
+      "examples": [
+        {
+          "jp": "東京ディズニーランドは 千葉県に あります。",
+          "romaji": "Tōkyō Dizunīrando wa Chiba-ken ni arimasu.",
+          "bn": "টোকিও ডিজনিল্যান্ড চিবা প্রিফেকচারে অবস্থিত।",
+          "en": "Tokyo Disneyland is in Chiba Prefecture."
+        },
+        {
+          "jp": "ミラーさんは 事務所に います。",
+          "romaji": "Mirā-san wa jimusho ni imasu.",
+          "bn": "মি. মিলার অফিসে আছেন।",
+          "en": "Mr. Miller is in the office."
+        },
+        {
+          "jp": "ミラーさんは どこに いますか。",
+          "romaji": "Mirā-san wa doko ni imasu ka.",
+          "bn": "মি. মিলার কোথায় আছেন?",
+          "en": "Where is Mr. Miller?"
+        },
+        {
+          "jp": "事務所に います。",
+          "romaji": "Jimusho ni imasu.",
+          "bn": "তিনি অফিসে আছেন।",
+          "en": "He's in the office."
+        }
+      ]
+    },
+    {
+      "title": "N₁ の N₂ — অবস্থান/দিক নির্দেশক শব্দ",
+      "pattern": "N₁ の 上／下／前／後ろ／右／左／中／外／隣／近く／間",
+      "explain": "কোনো বস্তুর তুলনায় অন্য কিছুর অবস্থান বোঝাতে N₁-এর পরে の এবং অবস্থানবাচক শব্দ ব্যবহার হয়। যেমন: 上 (উপরে), 下 (নিচে), 前 (সামনে), 後ろ (পেছনে), 右 (ডানে), 左 (বামে), 中 (ভেতরে), 外 (বাইরে), 隣 (পাশে), 近く (কাছাকাছি), 間 (মাঝখানে)।",
+      "title_en": "N₁ の N₂ — words for position",
+      "pattern_en": "N₁ の 上／下／前／後ろ／右／左／中／外／隣／近く／間",
+      "explain_en": "Use の between a reference noun and a position word to describe where something is: 上 (above), 下 (below), 前 (in front), 後ろ (behind), 右 (right), 左 (left), 中 (inside), 外 (outside), 隣 (next to), 近く (near) and 間 (between).",
+      "examples": [
+        {
+          "jp": "机の 上に 写真が あります。",
+          "romaji": "Tsukue no ue ni shashin ga arimasu.",
+          "bn": "ডেস্কের ওপর একটি ছবি আছে।",
+          "en": "There is a photograph on the desk."
+        },
+        {
+          "jp": "郵便局は 銀行の 隣に あります。",
+          "romaji": "Yūbinkyoku wa ginkō no tonari ni arimasu.",
+          "bn": "ডাকঘরটি ব্যাংকের পাশে।",
+          "en": "The post office is next to the bank."
+        },
+        {
+          "jp": "本屋は 花屋と スーパーの 間に あります。",
+          "romaji": "Hon'ya wa hanaya to sūpā no aida ni arimasu.",
+          "bn": "বইয়ের দোকানটি ফুলের দোকান ও সুপারমার্কেটের মাঝখানে।",
+          "en": "The bookshop is between the florist and the supermarket."
+        }
+      ]
+    },
+    {
+      "title": "N₁ や N₂ — কয়েকটি উদাহরণ দিয়ে তালিকা",
+      "pattern": "N₁ や N₂ (など)",
+      "explain": "や দিয়ে দুই বা তার বেশি প্রতিনিধি উদাহরণ উল্লেখ করা হয়; এতে বোঝায় তালিকায় আরও জিনিস থাকতে পারে। と সম্পূর্ণ তালিকা বোঝাতে পারে, কিন্তু や অসম্পূর্ণ/উদাহরণমূলক তালিকা বোঝায়।",
+      "title_en": "N₁ や N₂ — giving an illustrative, non-exhaustive list",
+      "pattern_en": "N₁ や N₂ (など)",
+      "explain_en": "や lists a few representative examples and suggests there are other items too. Unlike と, which can present a complete list, や gives a non-exhaustive list.",
+      "examples": [
+        {
+          "jp": "箱の 中に 手紙や 写真が あります。",
+          "romaji": "Hako no naka ni tegami ya shashin ga arimasu.",
+          "bn": "বাক্সের মধ্যে চিঠি, ছবি ইত্যাদি আছে।",
+          "en": "There are letters, photographs and other things in the box."
+        },
+        {
+          "jp": "箱の 中に 手紙と 写真が あります。",
+          "romaji": "Hako no naka ni tegami to shashin ga arimasu.",
+          "bn": "বাক্সের মধ্যে চিঠি ও ছবি আছে।",
+          "en": "There are letters and photographs in the box."
+        }
+      ]
+    }
+  ]
+}

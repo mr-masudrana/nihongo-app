@@ -1,21 +1,37 @@
 {
   "lesson": 14,
-  "title": "হাসপাতাল ও ওষুধ",
-  "title_en": "Hospital and Medicine",
+  "title": "ছুটি নিলেও কি চলবে?",
+  "title_en": "May I take a day off?",
   "points": [
     {
-      "title": "হাসপাতাল ও ওষুধ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "くすり について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 14-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Hospital and Medicine — Grammar Pattern",
-      "pattern_en": "About kusuri",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 14.",
+      "title": "V-てもいいですか? / V-てもいいでしょうか? (অনুমতি চাওয়া)",
+      "pattern": "トイレに行って来てもいいですか? / 明日の午後、早退してもいいでしょうか?",
+      "explain": "কাজের ফাঁকে সাময়িক বিরতি নিতে 'V-てもいいですか?' এবং ছুটি বা আগে চলে যাওয়ার জন্য আরও বিনীতভাবে অনুমতি চাইতে '〜でしょうか?' ব্যবহৃত হয়।",
+      "title_en": "Asking permission politely",
+      "pattern_en": "V-temo ii desu ka? / V-temo ii deshou ka?",
+      "explain_en": "Ask co-workers or supervisors for permission.",
       "examples": [
         {
-          "jp": "くすりが わかりますか。",
-          "romaji": "kusuri ga wakarimasu ka.",
-          "bn": "আপনি কি ওষুধ বোঝেন?",
-          "en": "Do you understand medicine?"
+          "jp": "すみません、ちょっとトイレに行って来てもいいですか?",
+          "romaji": "Sumimasen, chotto toire ni itte kitemo ii desu ka?",
+          "bn": "মাফ করবেন, একটু টয়লেট থেকে ঘুরে আসতে পারি কি?",
+          "en": "Excuse me, may I go to the restroom for a moment?"
+        }
+      ]
+    },
+    {
+      "title": "V-なければなりません (বাধ্যবাধকতা) ও 〜んです ① (কারণ ব্যাখ্যা)",
+      "pattern": "ちょっと、役所に行かなければならないんです / 国の友だちが来るんです",
+      "explain": "কোনো কাজ অবশ্যই করতে হবে বোঝাতে '〜なければなりません' এবং ছুটি বা দেরির কারণ ব্যাখ্যা করতে '〜んです' ব্যবহৃত হয়।",
+      "title_en": "Obligation & Explaining reasons with 〜んです",
+      "pattern_en": "V-nakereba narimasen / ~n desu",
+      "explain_en": "Explain unavoidable errands or reasons for taking leave.",
+      "examples": [
+        {
+          "jp": "これから病院に行きます。それで、少し遅刻します。",
+          "romaji": "Kore kara byouin ni ikimasu. Sorede, sukoshi chikoku shimasu.",
+          "bn": "এখন হাসপাতালে যাব। সেজন্য একটু দেরি হবে।",
+          "en": "I'm going to the hospital now. So I'll be a little late."
         }
       ]
     }

@@ -1,0 +1,39 @@
+{
+  "lesson": 1,
+  "title": "রেস্তোরাঁয় কাজ করছি",
+  "title_en": "I work in a restaurant.",
+  "points": [
+    {
+      "title": "Can-do 01: দীর্ঘদিন পর দেখা হলে অভিবাদন",
+      "pattern": "久しぶりに会った人とあいさつをすることができる。",
+      "explain": "দীর্ঘদিন পর পরিচিত কারো সাথে দেখা হলে সম্পর্ক অনুযায়ী অভিবাদন জানাতে পারা।",
+      "title_en": "Can-do 01",
+      "pattern_en": "Can exchange greetings after a long time.",
+      "explain_en": "Greet acquaintances appropriately when meeting after a long time.",
+      "examples": [
+        {
+          "jp": "お久しぶりです。",
+          "romaji": "Ohisashiburi desu.",
+          "bn": "অনেক দিন পর দেখা হলো।",
+          "en": "Long time no see."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 02–03: সাম্প্রতিক অবস্থা ও জাপানের কাজ সম্পর্কে বলা",
+      "pattern": "自分の近況や、日本でしている仕事について簡単に話すことができる。",
+      "explain": "জাপানে কত দিন ধরে আছেন, অভ্যস্ত হয়েছেন কি না এবং কী কাজ করছেন তা বলতে পারা।",
+      "title_en": "Can-do 02–03",
+      "pattern_en": "Can talk about recent life and work in Japan.",
+      "explain_en": "Explain how long you've been in Japan and describe your job.",
+      "examples": [
+        {
+          "jp": "レストランで働いています。とても忙しいです。",
+          "romaji": "Resutoran de hataraite imasu. Totemo isogashii desu.",
+          "bn": "রেস্তোরাঁয় কাজ করছি। খুব ব্যস্ত থাকি।",
+          "en": "I work in a restaurant. It's very busy."
+        }
+      ]
+    }
+  ]
+}

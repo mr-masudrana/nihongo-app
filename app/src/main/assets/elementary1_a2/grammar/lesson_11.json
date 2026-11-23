@@ -1,21 +1,37 @@
 {
   "lesson": 11,
-  "title": "ছুটির ভ্রমণ পরিকল্পনা",
-  "title_en": "Planning a Holiday Trip",
+  "title": "মাংস আর সবজি আমি কিনে নিয়ে যাব",
+  "title_en": "I will bring meat and vegetables.",
   "points": [
     {
-      "title": "ছুটির ভ্রমণ পরিকল্পনা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "きっぷ について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 11-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Planning a Holiday Trip — Grammar Pattern",
-      "pattern_en": "About kippu",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 11.",
+      "title": "V-て行きます / 来ます (কাজ করে নিয়ে যাওয়া/আসা)",
+      "pattern": "肉と野菜は、私が買って行きますよ / おにぎりを作って行きます",
+      "explain": "কোনো কিছু কিনে বা তৈরি করে গন্তব্যে নিয়ে যাওয়া বোঝাতে ক্রিয়ার て-form এর সাথে '行きます' বসে।",
+      "title_en": "Doing something and going: V-te ikimasu",
+      "pattern_en": "Katte ikimasu / Tsukutte ikimasu",
+      "explain_en": "Discuss who will prepare or buy items for a gathering.",
       "examples": [
         {
-          "jp": "きっぷが わかりますか。",
-          "romaji": "kippu ga wakarimasu ka.",
-          "bn": "আপনি কি টিকিট বোঝেন?",
-          "en": "Do you understand ticket?"
+          "jp": "じゃあ、私はバナナを持って行きますね。",
+          "romaji": "Jaa, watashi wa banana o motte ikimasu ne.",
+          "bn": "তাহলে আমি কলা নিয়ে যাব।",
+          "en": "Then I will bring bananas."
+        }
+      ]
+    },
+    {
+      "title": "N1 と N2、どっちがいいですか? / Nのほうがいいです",
+      "pattern": "塩とたれ、どっちがいいですか? / 塩のほうがいいです / 何でもいいです",
+      "explain": "দুটির মধ্যে কোনটি পছন্দ তা জানতে 'どっちがいいですか?' এবং পছন্দেরটি বলতে '〜のほうがいいです' ব্যবহৃত হয়।",
+      "title_en": "Comparing two options: どっちがいい / のほうがいい",
+      "pattern_en": "N1 to N2, docchi ga ii desu ka? / N no hou ga ii desu",
+      "explain_en": "Compare two choices and state your preference.",
+      "examples": [
+        {
+          "jp": "チョコレートケーキとチーズケーキ、どっちがいいですか? どっちでもいいです。",
+          "romaji": "Chokoreeto keeki to chiizu keeki, docchi ga ii desu ka? Docchi demo ii desu.",
+          "bn": "চকলেট কেক আর চিজকেকের মধ্যে কোনটি ভালো? যেকোনো একটা হলেই চলবে।",
+          "en": "Chocolate cake or cheesecake, which is better? Either is fine."
         }
       ]
     }

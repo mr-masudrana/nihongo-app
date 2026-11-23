@@ -1,0 +1,23 @@
+{
+  "lesson": 16,
+  "title": "বেশি না খাওয়ার চেষ্টা করছি",
+  "title_en": "I try not to eat too much.",
+  "points": [
+    {
+      "title": "কাঁধ ব্যথা (肩こり) ও মাস্ক ব্যবহারের সংস্কৃতি",
+      "pattern": "肩こり/肩がこる・マスク",
+      "explain": "জাপানে ঠান্ডা লাগা, অ্যালার্জি বা অন্যকে সংক্রমণ থেকে বাঁচাতে মাস্ক পরা খুবই স্বাভাবিক ও ভদ্র আচরণ হিসেবে গণ্য করা হয়।",
+      "title_en": "Stiff Shoulders & Mask Etiquette",
+      "pattern_en": "Katakori & Wearing masks",
+      "explain_en": "Wearing masks when unwell or during allergy season is standard etiquette in Japan.",
+      "examples": [
+        {
+          "jp": "マスクをします。",
+          "romaji": "Masuku o shimasu.",
+          "bn": "মাস্ক পরি।",
+          "en": "I wear a mask."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+ "lesson": 4,
+ "title": "সময় ও দৈনন্দিন কাজ",
+ "words": [
+  {
+   "word": "起きます",
+   "reading": "おきます",
+   "romaji": "okimasu",
+   "bn": "ঘুম থেকে ওঠা",
+   "en": "get up, wake up",
+   "note": "II-গ্রুপ"
+  },
+  {
+   "word": "寝ます",
+   "reading": "ねます",
+   "romaji": "nemasu",
+   "bn": "ঘুমানো / ঘুমাতে যাওয়া",
+   "en": "sleep, go to bed",
+   "note": "II-গ্রুপ"
+  },
+  {
+   "word": "働きます",
+   "reading": "はたらきます",
+   "romaji": "hatarakimasu",
+   "bn": "কাজ করা",
+   "en": "work",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "休みます",
+   "reading": "やすみます",
+   "romaji": "yasumimasu",
+   "bn": "বিশ্রাম নেওয়া / ছুটি নেওয়া",
+   "en": "take a rest, take a holiday",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "勉強します",
+   "reading": "べんきょうします",
+   "romaji": "benkyoushimasu",
+   "bn": "পড়াশোনা করা",
+   "en": "study",
+   "note": "III-গ্রুপ"
+  },
+  {
+   "word": "終わります",
+   "reading": "おわります",
+   "romaji": "owarimasu",
+   "bn": "শেষ হওয়া",
+   "en": "finish",
+   "note": "I-গ্রুপ"
+  },
+  {
+   "word": "デパート",
+   "reading": "デパート",
+   "romaji": "depāto",
+   "bn": "ডিপার্টমেন্ট স্টোর",
+   "en": "department store"
+  },
+  {
+   "word": "銀行",
+   "reading": "ぎんこう",
+   "romaji": "ginkou",
+   "bn": "ব্যাংক",
+   "en": "bank"
+  },
+  {
+   "word": "郵便局",
+   "reading": "ゆうびんきょく",
+   "romaji": "yuubinkyoku",
+   "bn": "ডাকঘর",
+   "en": "post office"
+  },
+  {
+   "word": "図書館",
+   "reading": "としょかん",
+   "romaji": "toshokan",
+   "bn": "লাইব্রেরি",
+   "en": "library"
+  },
+  {
+   "word": "美術館",
+   "reading": "びじゅつかん",
+   "romaji": "bijutsukan",
+   "bn": "আর্ট মিউজিয়াম",
+   "en": "art museum, art gallery"
+  },
+  {
+   "word": "今",
+   "reading": "いま",
+   "romaji": "ima",
+   "bn": "এখন",
+   "en": "now"
+  },
+  {
+   "word": "～時",
+   "reading": "～じ",
+   "romaji": "~ji",
+   "bn": "~ টা (সময়)",
+   "en": "~ o'clock"
+  },
+  {
+   "word": "～分(ぷん)",
+   "reading": "～ふん",
+   "romaji": "~fun",
+   "bn": "~ মিনিট",
+   "en": "~ minute",
+   "note": "সংখ্যা অনুযায়ী ふん বা ぷん"
+  },
+  {
+   "word": "半",
+   "reading": "はん",
+   "romaji": "han",
+   "bn": "আধা / সাড়ে",
+   "en": "half"
+  },
+  {
+   "word": "何時",
+   "reading": "なんじ",
+   "romaji": "nanji",
+   "bn": "কয়টা বাজে",
+   "en": "what time"
+  },
+  {
+   "word": "何分",
+   "reading": "なんぷん",
+   "romaji": "nanpun",
+   "bn": "কত মিনিট",
+   "en": "what minute"
+  },
+  {
+   "word": "午前",
+   "reading": "ごぜん",
+   "romaji": "gozen",
+   "bn": "পূর্বাহ্ণ (AM)",
+   "en": "a.m., morning"
+  },
+  {
+   "word": "午後",
+   "reading": "ごご",
+   "romaji": "gogo",
+   "bn": "অপরাহ্ণ (PM)",
+   "en": "p.m., afternoon"
+  },
+  {
+   "word": "朝",
+   "reading": "あさ",
+   "romaji": "asa",
+   "bn": "সকাল",
+   "en": "morning"
+  },
+  {
+   "word": "昼",
+   "reading": "ひる",
+   "romaji": "hiru",
+   "bn": "দুপুর",
+   "en": "daytime, noon"
+  },
+  {
+   "word": "晩(夜)",
+   "reading": "ばん(よる)",
+   "romaji": "ban (yoru)",
+   "bn": "সন্ধ্যা / রাত",
+   "en": "night, evening"
+  },
+  {
+   "word": "おととい",
+   "reading": "おととい",
+   "romaji": "ototoi",
+   "bn": "পরশু (গতকালের আগের দিন)",
+   "en": "the day before yesterday"
+  },
+  {
+   "word": "きのう",
+   "reading": "きのう",
+   "romaji": "kinou",
+   "bn": "গতকাল",
+   "en": "yesterday"
+  },
+  {
+   "word": "きょう",
+   "reading": "きょう",
+   "romaji": "kyou",
+   "bn": "আজ",
+   "en": "today"
+  },
+  {
+   "word": "あした",
+   "reading": "あした",
+   "romaji": "ashita",
+   "bn": "আগামীকাল",
+   "en": "tomorrow"
+  },
+  {
+   "word": "あさって",
+   "reading": "あさって",
+   "romaji": "asatte",
+   "bn": "পরশু (আগামীকালের পরের দিন)",
+   "en": "the day after tomorrow"
+  },
+  {
+   "word": "けさ",
+   "reading": "けさ",
+   "romaji": "kesa",
+   "bn": "আজ সকালে",
+   "en": "this morning"
+  },
+  {
+   "word": "今晩",
+   "reading": "こんばん",
+   "romaji": "konban",
+   "bn": "আজ সন্ধ্যায় / রাতে",
+   "en": "this evening, tonight"
+  },
+  {
+   "word": "休み",
+   "reading": "やすみ",
+   "romaji": "yasumi",
+   "bn": "বিশ্রাম / ছুটি",
+   "en": "rest, a holiday, a day off"
+  },
+  {
+   "word": "昼休み",
+   "reading": "ひるやすみ",
+   "romaji": "hiruyasumi",
+   "bn": "দুপুরের বিরতি",
+   "en": "lunchtime"
+  },
+  {
+   "word": "試験",
+   "reading": "しけん",
+   "romaji": "shiken",
+   "bn": "পরীক্ষা",
+   "en": "examination, test"
+  },
+  {
+   "word": "会議",
+   "reading": "かいぎ",
+   "romaji": "kaigi",
+   "bn": "সভা / কনফারেন্স",
+   "en": "meeting, conference",
+   "note": "～を します: সভা করা"
+  },
+  {
+   "word": "映画",
+   "reading": "えいが",
+   "romaji": "eiga",
+   "bn": "সিনেমা",
+   "en": "film, movie"
+  },
+  {
+   "word": "毎朝",
+   "reading": "まいあさ",
+   "romaji": "maiasa",
+   "bn": "প্রতি সকালে",
+   "en": "every morning"
+  },
+  {
+   "word": "毎晩",
+   "reading": "まいばん",
+   "romaji": "maiban",
+   "bn": "প্রতি রাতে",
+   "en": "every night"
+  },
+  {
+   "word": "毎日",
+   "reading": "まいにち",
+   "romaji": "mainichi",
+   "bn": "প্রতিদিন",
+   "en": "every day"
+  },
+  {
+   "word": "月曜日",
+   "reading": "げつようび",
+   "romaji": "getsuyoubi",
+   "bn": "সোমবার",
+   "en": "Monday"
+  },
+  {
+   "word": "火曜日",
+   "reading": "かようび",
+   "romaji": "kayoubi",
+   "bn": "মঙ্গলবার",
+   "en": "Tuesday"
+  },
+  {
+   "word": "水曜日",
+   "reading": "すいようび",
+   "romaji": "suiyoubi",
+   "bn": "বুধবার",
+   "en": "Wednesday"
+  },
+  {
+   "word": "木曜日",
+   "reading": "もくようび",
+   "romaji": "mokuyoubi",
+   "bn": "বৃহস্পতিবার",
+   "en": "Thursday"
+  },
+  {
+   "word": "金曜日",
+   "reading": "きんようび",
+   "romaji": "kinyoubi",
+   "bn": "শুক্রবার",
+   "en": "Friday"
+  },
+  {
+   "word": "土曜日",
+   "reading": "どようび",
+   "romaji": "doyoubi",
+   "bn": "শনিবার",
+   "en": "Saturday"
+  },
+  {
+   "word": "日曜日",
+   "reading": "にちようび",
+   "romaji": "nichiyoubi",
+   "bn": "রবিবার",
+   "en": "Sunday"
+  },
+  {
+   "word": "何曜日",
+   "reading": "なんようび",
+   "romaji": "nanyoubi",
+   "bn": "সপ্তাহের কোন দিন",
+   "en": "what day of the week"
+  },
+  {
+   "word": "～から",
+   "reading": "～から",
+   "romaji": "~kara",
+   "bn": "~ থেকে",
+   "en": "from ~"
+  },
+  {
+   "word": "～まで",
+   "reading": "～まで",
+   "romaji": "~made",
+   "bn": "~ পর্যন্ত",
+   "en": "up to ~, until ~"
+  },
+  {
+   "word": "～と～",
+   "reading": "～と～",
+   "romaji": "~ to ~",
+   "bn": "এবং (বিশেষ্য জুড়তে)",
+   "en": "and (connecting nouns)"
+  },
+  {
+   "word": "大変ですね",
+   "reading": "たいへんですね",
+   "romaji": "taihen desu ne",
+   "bn": "ইস, কষ্টের ব্যাপার তো! (সহানুভূতি জানাতে)",
+   "en": "That's tough, isn't it?"
+  },
+  {
+   "word": "番号",
+   "reading": "ばんごう",
+   "romaji": "bangou",
+   "bn": "নম্বর",
+   "en": "number"
+  },
+  {
+   "word": "何番",
+   "reading": "なんばん",
+   "romaji": "nanban",
+   "bn": "কত নম্বর",
+   "en": "what number"
+  },
+  {
+   "word": "そちら",
+   "reading": "そちら",
+   "romaji": "sochira",
+   "bn": "আপনার ওখানে / আপনার দিক",
+   "en": "your place"
+  }
+ ],
+ "title_en": "Time and daily routine"
+}

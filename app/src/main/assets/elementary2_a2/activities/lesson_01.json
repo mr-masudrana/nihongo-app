@@ -1,0 +1,34 @@
+{
+  "lesson": 1,
+  "title": "গত সপ্তাহে জাপানে এসেছি মাত্র",
+  "title_en": "I just came to Japan last week.",
+  "dialogues": [
+    {
+      "title": "১. নতুন কর্মক্ষেত্রে বিস্তারিত আত্মপরিচয় ও নিজ শহরের বর্ণনা",
+      "title_en": "1. Detailed self-introduction at a new workplace",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "はじめまして。グエン・ティ・ホアと申します。ホアと呼んでください。",
+          "romaji": "Hajimemashite. Guen Ti Hoa to moushimasu. Hoa to yonde kudasai.",
+          "bn": "প্রথম দেখা হলো। আমার নাম নগুয়েন থি হোয়া। আমাকে হোয়া বলে ডাকবেন।",
+          "en": "Nice to meet you. My name is Nguyen Thi Hoa. Please call me Hoa."
+        },
+        {
+          "speaker": "B",
+          "jp": "ベトナムでは、どんな仕事をしていましたか?",
+          "romaji": "Betonamu de wa, donna shigoto o shite imashita ka?",
+          "bn": "ভিয়েতনামে কী কাজ করতেন?",
+          "en": "What kind of work did you do in Vietnam?"
+        },
+        {
+          "speaker": "A",
+          "jp": "ホテルで働いていました。一生懸命がんばります。",
+          "romaji": "Hoteru de hataraite imashita. Isshoukenmei ganbarimasu.",
+          "bn": "হোটেলে কাজ করতাম। আমি প্রাণপণ চেষ্টা করব।",
+          "en": "I worked at a hotel. I will do my best."
+        }
+      ]
+    }
+  ]
+}

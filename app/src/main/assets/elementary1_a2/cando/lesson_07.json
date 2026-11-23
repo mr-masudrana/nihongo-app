@@ -1,0 +1,39 @@
+{
+  "lesson": 7,
+  "title": "রাস্তা হারিয়ে ফেলেছি, একটু দেরি হবে",
+  "title_en": "I will be a bit late because I got lost.",
+  "points": [
+    {
+      "title": "Can-do 20–21: দেখা করার সময় ও স্থান আলোচনা করে ঠিক করা",
+      "pattern": "待ち合わせの時間と場所を質問したり、相談して決めたりすることができる。",
+      "explain": "কোথায় এবং কয়টায় একত্রিত হবেন তা আলোচনা করে ঠিক করতে পারা।",
+      "title_en": "Can-do 20–21",
+      "pattern_en": "Can discuss and decide meeting times and places.",
+      "explain_en": "Arrange meeting points and times.",
+      "examples": [
+        {
+          "jp": "朝8時に会社の門の前集合ね。",
+          "romaji": "Asa hachiji ni kaisha no mon no mae shuugou ne.",
+          "bn": "সকাল ৮টায় কোম্পানির গেটের সামনে একত্রিত হব।",
+          "en": "Let's meet in front of the company gate at 8 AM."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 22–23: দেরি হওয়ার মেসেজ পড়া ও লেখা",
+      "pattern": "遅刻を知らせるメッセージを読んで理解し、自分が遅れるメッセージを書くことができる。",
+      "explain": "দেরি হওয়ার কারণ জানিয়ে মেসেজ পাঠাতে এবং অপর পক্ষের মেসেজ বুঝতে পারা।",
+      "title_en": "Can-do 22–23",
+      "pattern_en": "Can read and write messages about being late.",
+      "explain_en": "Send and understand delay notifications.",
+      "examples": [
+        {
+          "jp": "すみません。時間をまちがえて、30分おくれます。",
+          "romaji": "Sumimasen. Jikan o machigaete, sanjuppun okuremasu.",
+          "bn": "মাফ করবেন। সময় ভুল করেছি, ৩০ মিনিট দেরি হবে।",
+          "en": "Sorry. I got the time wrong and will be 30 minutes late."
+        }
+      ]
+    }
+  ]
+}

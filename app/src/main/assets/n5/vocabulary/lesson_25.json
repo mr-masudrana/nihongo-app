@@ -1,0 +1,122 @@
+{
+  "lesson": 25,
+  "title": "Minna no Nihongo N5 - Lesson 25",
+  "words": [
+    {
+      "word": "考えます",
+      "reading": "かんがえます",
+      "romaji": "kangaemasu",
+      "bn": "ভাবা / বিবেচনা করা",
+      "en": "think, consider",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "着きます",
+      "reading": "つきます",
+      "romaji": "tsukimasu",
+      "bn": "পৌঁছানো",
+      "en": "arrive",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "取ります",
+      "reading": "とります",
+      "romaji": "torimasu",
+      "bn": "বয়সে বড় হওয়া",
+      "en": "grow old",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "足ります",
+      "reading": "たります",
+      "romaji": "tarimasu",
+      "bn": "যথেষ্ট হওয়া / পর্যাপ্ত হওয়া",
+      "en": "be enough, be sufficient",
+      "note": "II-গ্রুপ"
+    },
+    {
+      "word": "田舎",
+      "reading": "いなか",
+      "romaji": "inaka",
+      "bn": "গ্রামাঞ্চল / নিজের গ্রাম",
+      "en": "countryside, hometown"
+    },
+    {
+      "word": "チャンス",
+      "reading": "チャンス",
+      "romaji": "chansu",
+      "bn": "সুযোগ",
+      "en": "chance"
+    },
+    {
+      "word": "億",
+      "reading": "おく",
+      "romaji": "oku",
+      "bn": "১০ কোটি (একশ মিলিয়ন)",
+      "en": "hundred million"
+    },
+    {
+      "word": "もし～たら",
+      "reading": "もし～たら",
+      "romaji": "moshi ~tara",
+      "bn": "যদি … হয় / যদি … তাহলে",
+      "en": "if"
+    },
+    {
+      "word": "意味",
+      "reading": "いみ",
+      "romaji": "imi",
+      "bn": "অর্থ / মানে",
+      "en": "meaning"
+    },
+    {
+      "word": "もしもし",
+      "reading": "もしもし",
+      "romaji": "moshi moshi",
+      "bn": "হ্যালো (ফোনে)",
+      "en": "hello (used on the phone)"
+    },
+    {
+      "word": "転勤",
+      "reading": "てんきん",
+      "romaji": "tenkin",
+      "bn": "চাকরির বদলিতে অন্য অফিসে বদলি",
+      "en": "transfer (to another office)"
+    },
+    {
+      "word": "こと",
+      "reading": "こと",
+      "romaji": "koto",
+      "bn": "বিষয় / ব্যাপার / ঘটনা",
+      "en": "thing, matter"
+    },
+    {
+      "word": "暇",
+      "reading": "ひま",
+      "romaji": "hima",
+      "bn": "অবসর সময় / ফাঁকা সময়",
+      "en": "free time"
+    },
+    {
+      "word": "お世話になりました",
+      "reading": "おせわになりました",
+      "romaji": "osewa ni narimashita",
+      "bn": "আপনার সহযোগিতার জন্য ধন্যবাদ",
+      "en": "Thank you for everything you've done for me."
+    },
+    {
+      "word": "頑張ります",
+      "reading": "がんばります",
+      "romaji": "ganbarimasu",
+      "bn": "সাধ্যমতো চেষ্টা করব",
+      "en": "do one's best"
+    },
+    {
+      "word": "どうぞお元気で",
+      "reading": "どうぞおげんきで",
+      "romaji": "douzo ogenki de",
+      "bn": "ভালো থাকবেন / সুস্থ থাকবেন",
+      "en": "Please take care of yourself."
+    }
+  ]
+}

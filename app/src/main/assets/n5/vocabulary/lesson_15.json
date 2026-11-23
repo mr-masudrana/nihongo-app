@@ -1,0 +1,168 @@
+{
+  "lesson": 15,
+  "title": "জীবন, পেশা ও দৈনন্দিন বিষয়",
+  "words": [
+    {
+      "word": "置きます",
+      "reading": "おきます",
+      "romaji": "okimasu",
+      "bn": "রাখা",
+      "en": "put",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "作ります / 造ります",
+      "reading": "つくります",
+      "romaji": "tsukurimasu",
+      "bn": "তৈরি করা / বানানো",
+      "en": "make, produce",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "売ります",
+      "reading": "うります",
+      "romaji": "urimasu",
+      "bn": "বিক্রি করা",
+      "en": "sell",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "知ります",
+      "reading": "しります",
+      "romaji": "shirimasu",
+      "bn": "জানা",
+      "en": "get to know",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "住みます",
+      "reading": "すみます",
+      "romaji": "sumimasu",
+      "bn": "বাস করা",
+      "en": "live, reside",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "研究します",
+      "reading": "けんきゅうします",
+      "romaji": "kenkyuu shimasu",
+      "bn": "গবেষণা করা",
+      "en": "do research",
+      "note": "III-গ্রুপ"
+    },
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "romaji": "shiryou",
+      "bn": "তথ্য / উপকরণ",
+      "en": "materials, data"
+    },
+    {
+      "word": "カタログ",
+      "reading": "カタログ",
+      "romaji": "katarogu",
+      "bn": "ক্যাটালগ",
+      "en": "catalogue"
+    },
+    {
+      "word": "時刻表",
+      "reading": "じこくひょう",
+      "romaji": "jikokuhyou",
+      "bn": "সময়সূচি",
+      "en": "timetable"
+    },
+    {
+      "word": "服",
+      "reading": "ふく",
+      "romaji": "fuku",
+      "bn": "পোশাক",
+      "en": "clothes"
+    },
+    {
+      "word": "製品",
+      "reading": "せいひん",
+      "romaji": "seihin",
+      "bn": "উৎপাদিত পণ্য",
+      "en": "products"
+    },
+    {
+      "word": "ソフト",
+      "reading": "ソフト",
+      "romaji": "sofuto",
+      "bn": "সফটওয়্যার",
+      "en": "software"
+    },
+    {
+      "word": "電子辞書",
+      "reading": "でんしじしょ",
+      "romaji": "denshi jisho",
+      "bn": "ইলেকট্রনিক অভিধান",
+      "en": "electronic dictionary"
+    },
+    {
+      "word": "経済",
+      "reading": "けいざい",
+      "romaji": "keizai",
+      "bn": "অর্থনীতি",
+      "en": "economy"
+    },
+    {
+      "word": "市役所",
+      "reading": "しやくしょ",
+      "romaji": "shiyakusho",
+      "bn": "সিটি কর্পোরেশন / পৌরসভা কার্যালয়",
+      "en": "municipal office, city hall"
+    },
+    {
+      "word": "高校",
+      "reading": "こうこう",
+      "romaji": "koukou",
+      "bn": "উচ্চ বিদ্যালয়",
+      "en": "senior high school"
+    },
+    {
+      "word": "歯医者",
+      "reading": "はいしゃ",
+      "romaji": "haisha",
+      "bn": "দাঁতের ডাক্তার",
+      "en": "dentist"
+    },
+    {
+      "word": "独身",
+      "reading": "どくしん",
+      "romaji": "dokushin",
+      "bn": "অবিবাহিত / অবিবাহিত অবস্থা",
+      "en": "single, unmarried"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "romaji": "sumimasen",
+      "bn": "দুঃখিত / মাফ করবেন",
+      "en": "I'm sorry"
+    },
+    {
+      "word": "皆さん",
+      "reading": "みなさん",
+      "romaji": "minasan",
+      "bn": "সবাই / উপস্থিত সকলে",
+      "en": "ladies and gentlemen, everybody"
+    },
+    {
+      "word": "思い出します",
+      "reading": "おもいだします",
+      "romaji": "omoidasimasu",
+      "bn": "মনে করা / স্মরণ করা",
+      "en": "remember, recollect",
+      "note": "I-গ্রুপ"
+    },
+    {
+      "word": "いらっしゃいます",
+      "reading": "いらっしゃいます",
+      "romaji": "irasshaimasu",
+      "bn": "আছেন / যান / আসেন (সম্মানসূচক)",
+      "en": "be (honorific equivalent of います)",
+      "note": "I-গ্রুপ"
+    }
+  ]
+}

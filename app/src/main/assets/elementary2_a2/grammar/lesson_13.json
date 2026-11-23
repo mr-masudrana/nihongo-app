@@ -1,21 +1,37 @@
 {
   "lesson": 13,
-  "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং",
-  "title_en": "Environmental Protection",
+  "title": "বিভিন্ন নিদর্শন প্রদর্শিত আছে",
+  "title_en": "They display a lot of materials.",
   "points": [
     {
-      "title": "পরিবেশ সুরক্ষা ও রিসাইক্লিং — ব্যাকরণ প্যাটার্ন",
-      "pattern": "リサイクル ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 13-এর মূল ব্যাকরণ।",
-      "title_en": "Environmental Protection — Grammar Pattern",
-      "pattern_en": "Can do risaikuru",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 13.",
+      "title": "V-(ら)れます (কর্মবাচ্য ④) ও V-てあります (প্রস্তুত অবস্থা)",
+      "pattern": "この建物は、2年前に建てられました / いろいろな資料を展示してあります",
+      "explain": "ভবন নির্মিত হওয়া বা ব্যবহৃত হওয়ার ইতিহাস বলতে কর্মবাচ্য এবং দর্শকদের জন্য কোনো কিছু সাজিয়ে রাখা হয়েছে বোঝাতে 'V-てあります' বসে।",
+      "title_en": "Passive for buildings/events & Resultative state V-てあります",
+      "pattern_en": "Tateraremashita / Tenji shite arimasu",
+      "explain_en": "Understand facility descriptions and displays.",
       "examples": [
         {
-          "jp": "じぶんで リサイクル を することができます。",
-          "romaji": "Jibun de risaikuru o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে রিসাইক্লিং করতে পারি।",
-          "en": "I can do recycling by myself."
+          "jp": "このホールは、市の行事に使われています。",
+          "romaji": "Kono hooru wa, shi no gyouji ni tsukawarete imasu.",
+          "bn": "এই হলটি শহরের বিভিন্ন অনুষ্ঠানে ব্যবহৃত হয়।",
+          "en": "This hall is used for city events."
+        }
+      ]
+    },
+    {
+      "title": "N1 だけじゃなくて、N2も / 【প্রশ্নবোধক】V-ても、〜",
+      "pattern": "本だけじゃなくて、CDも借りられます / 市内の図書館なら、どこに返してもいいです",
+      "explain": "শুধু এটিই নয় ওটিও বোঝাতে 'だけじゃなくて〜も' এবং যেকোনো স্থানে বা সময়ে অনুমোদিত বোঝাতে 'どこに/いつ〜てもいいです' বসে।",
+      "title_en": "'Not only ~ but also' & 'No matter where/when'",
+      "pattern_en": "N1 dake ja nakute N2 mo / Doko ni V-temo ii desu",
+      "explain_en": "Understand library borrowing and return rules.",
+      "examples": [
+        {
+          "jp": "何冊借りてもいいですか? 10冊まで借りられます。",
+          "romaji": "Nansatsu karitemo ii desu ka? Jussatsu made kariraremasu.",
+          "bn": "কয়টি বই ধার নেওয়া যাবে? ১০টি পর্যন্ত ধার নেওয়া যাবে।",
+          "en": "How many books can I borrow? Up to 10 books."
         }
       ]
     }

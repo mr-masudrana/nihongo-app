@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "title": "এই ভ্যাকুয়াম ক্লিনারটি হালকা এবং চালানো সহজ",
+  "title_en": "This vacuum cleaner is light and easy to move around.",
+  "points": [
+    {
+      "title": "ফ্লি-মার্কেট অ্যাপ (Mercari) ও ইলেকট্রনিক্স দোকানে দরদাম (値切り交渉)",
+      "pattern": "フリマサイト/フリマアプリ・値切り交渉",
+      "explain": "জাপানে সাধারণ দোকানে দরদাম করা হয় না, তবে বড় ইলেকট্রনিক্স শোরুমে (যেমন Yodobashi, Bic Camera) বিক্রেতার সাথে কথা বলে ডিসকাউন্ট বা অতিরিক্ত পয়েন্ট পাওয়া সম্ভব।",
+      "title_en": "Flea Market Apps & Price Negotiation in Japan",
+      "pattern_en": "Secondhand shopping and electronics discounts",
+      "explain_en": "Haggling is uncommon in regular shops, but possible at electronics retail stores.",
+      "examples": [
+        {
+          "jp": "税込価格 (Tax included) / 税別価格 (Tax excluded)",
+          "romaji": "Zeikomi kakaku / Zeibetsu kakaku",
+          "bn": "ভ্যাটসহ দাম / ভ্যাট ছাড়া দাম",
+          "en": "Tax-included price / Tax-excluded price"
+        }
+      ]
+    }
+  ]
+}

@@ -1,14 +1,77 @@
 {
   "lesson": 9,
-  "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা",
-  "title_en": "Describing Travel Experiences",
+  "title": "প্রাপ্তবয়স্ক দিবসে (সেইজিন নো হি) কী করা হয়?",
+  "title_en": "What do people do on Coming-of-Age Day?",
   "words": [
     {
-      "word": "けしき",
-      "reading": "けしき",
-      "romaji": "keshiki",
-      "bn": "দৃশ্য",
-      "en": "scenery"
+      "word": "成人の日 / 成人式",
+      "reading": "せいじんのひ / せいじんしき",
+      "romaji": "seijin no hi / seijinshiki",
+      "bn": "প্রাপ্তবয়স্ক দিবস / প্রাপ্তবয়স্ক বরণ অনুষ্ঠান",
+      "en": "Coming-of-Age Day / ceremony"
+    },
+    {
+      "word": "お正月 / 年末年始",
+      "reading": "おしょうがつ / ねんまつねんし",
+      "romaji": "oshougatsu / nenmatsu nenshi",
+      "bn": "নববর্ষ / বছরের শেষ ও শুরুর ছুটি",
+      "en": "New Year / year-end and New Year holidays"
+    },
+    {
+      "word": "実家",
+      "reading": "じっか",
+      "romaji": "jikka",
+      "bn": "বাবা-মায়ের বাড়ি / গ্রামের বাড়ি",
+      "en": "parents' home / hometown family home"
+    },
+    {
+      "word": "お年玉",
+      "reading": "おとしだま",
+      "romaji": "otoshidama",
+      "bn": "নববর্ষে ছোটদের দেওয়া উপহারের টাকা",
+      "en": "New Year's gift money for children"
+    },
+    {
+      "word": "おせち料理",
+      "reading": "おせちりょうり",
+      "romaji": "osechi ryouri",
+      "bn": "নববর্ষের ঐতিহ্যবাহী খাবার",
+      "en": "traditional New Year dishes"
+    },
+    {
+      "word": "お雑煮",
+      "reading": "おぞうに",
+      "romaji": "ozouni",
+      "bn": "নববর্ষের রাইস কেক (মোচি) স্যুপ",
+      "en": "New Year rice cake soup"
+    },
+    {
+      "word": "初詣",
+      "reading": "はつもうで",
+      "romaji": "hatsumoude",
+      "bn": "নববর্ষে প্রথম মন্দির/শ্রাইন দর্শন",
+      "en": "first shrine/temple visit of the year"
+    },
+    {
+      "word": "餅つき",
+      "reading": "もちつき",
+      "romaji": "mochitsuki",
+      "bn": "মোচি (রাইস কেক) তৈরির ঐতিহ্যবাহী উৎসব",
+      "en": "rice cake pounding"
+    },
+    {
+      "word": "あけましておめでとうございます",
+      "reading": "あけましておめでとうございます",
+      "romaji": "akemashite omedetou gozaimasu",
+      "bn": "শুভ নববর্ষ!",
+      "en": "Happy New Year!"
+    },
+    {
+      "word": "今年もよろしくお願いします",
+      "reading": "ことしもよろしくおねがいします",
+      "romaji": "kotoshi mo yoroshiku onegaishimasu",
+      "bn": "এই বছরও আপনার সহযোগিতা কামনা করছি",
+      "en": "Best wishes for this year too"
     }
   ]
 }

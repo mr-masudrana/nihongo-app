@@ -1,0 +1,23 @@
+{
+  "lesson": 7,
+  "title": "বৃষ্টি হলে হলে (অডিটোরিয়ামে) অনুষ্ঠান হবে",
+  "title_en": "If it rains, it will be held at the hall.",
+  "points": [
+    {
+      "title": "চোনাইকাই (町内会), কাইরানবান (回覧板) ও মিচি-নো-একি",
+      "pattern": "祭りと神輿・町内会・回覧板・盆踊り・道の駅",
+      "explain": "জাপানের পাড়ায় পাড়ায় 'চোনাইকাই' (প্রতিবেশী সমিতি) থাকে। এলাকার জরুরি নোটিশ একটি ফোল্ডারে করে এক বাড়ি থেকে পাশের বাড়িতে ঘোরানো হয়, একে 'কাইরানবান' (回覧板) বলে।",
+      "title_en": "Neighborhood Associations (Chounaikai) & Kairanban",
+      "pattern_en": "Community life and festivals in Japan",
+      "explain_en": "Kairanban are circular notice boards passed from house to house.",
+      "examples": [
+        {
+          "jp": "回覧板を隣の家に回します。",
+          "romaji": "Kairanban o tonari no ie ni mawashimasu.",
+          "bn": "নোটিশ ফোল্ডারটি পাশের বাসায় পৌঁছে দিই।",
+          "en": "I pass the circular notice to the next house."
+        }
+      ]
+    }
+  ]
+}

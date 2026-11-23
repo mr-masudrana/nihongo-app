@@ -1,21 +1,37 @@
 {
   "lesson": 2,
-  "title": "কাজের নিয়ম ও নির্দেশনা",
-  "title_en": "Work Rules and Instructions",
+  "title": "খুব আন্তরিক মানুষ বলে মনে হচ্ছে",
+  "title_en": "He looks a serious person.",
   "points": [
     {
-      "title": "কাজের নিয়ম ও নির্দেশনা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ちゅうい ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 2-এর মূল ব্যাকরণ।",
-      "title_en": "Work Rules and Instructions — Grammar Pattern",
-      "pattern_en": "Can do chuui",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 2.",
+      "title": "V-ている + 人 (পোশাক বা কাজ দিয়ে ব্যক্তি চেনানো)",
+      "pattern": "ナインさんは、帽子をかぶっている人です / コピーをしている人です",
+      "explain": "কোনো ব্যক্তি কী পরে আছেন বা কী করছেন তা দিয়ে তাঁকে চিহ্নিত করতে 'V-ている + 人' ব্যবহৃত হয়।",
+      "title_en": "Identifying people with V-ている + 人",
+      "pattern_en": "Boushi o kabutte iru hito",
+      "explain_en": "Describe what someone is wearing or doing to identify them.",
       "examples": [
         {
-          "jp": "じぶんで ちゅうい を することができます。",
-          "romaji": "Jibun de chuui o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে সতর্কতা / মনোযোগ করতে পারি।",
-          "en": "I can do caution / attention by myself."
+          "jp": "原さんは、座って、本を読んでる人ですよ。",
+          "romaji": "Hara-san wa, suwatte, hon o yonderu hito desu yo.",
+          "bn": "হারা-সান হলেন ঐ যে বসে বই পড়ছেন তিনি।",
+          "en": "Hara-san is the person sitting and reading a book."
+        }
+      ]
+    },
+    {
+      "title": "Sし、〜 (একাধিক গুণ বা কারণ যুক্ত করা)",
+      "pattern": "三船敏郎は、演技が上手だし、本当にかっこいいです",
+      "explain": "কারো একাধিক ভালো দিক বা পছন্দ হওয়ার কারণগুলো পরপর যুক্ত করতে '〜し' ব্যবহৃত হয়।",
+      "title_en": "Listing multiple reasons/qualities with 〜し",
+      "pattern_en": "A shi, B desu",
+      "explain_en": "List multiple positive traits or reasons why you like someone.",
+      "examples": [
+        {
+          "jp": "かっこいいし、歌もダンスも上手だし、大好きです。",
+          "romaji": "Kakkoii shi, uta mo dansu mo jouzu da shi, daisuki desu.",
+          "bn": "তিনি স্মার্ট, আবার গান ও নাচেও দারুণ দক্ষ, তাই খুব পছন্দ করি।",
+          "en": "She's cool, and good at both singing and dancing, so I love her."
         }
       ]
     }

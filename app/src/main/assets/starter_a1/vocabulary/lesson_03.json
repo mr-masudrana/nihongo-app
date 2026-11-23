@@ -1,63 +1,98 @@
 {
   "lesson": 3,
-  "title": "আবহাওয়া ও ঋতু",
-  "title_en": "Weather and Seasons",
+  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title_en": "Nice to meet you.",
   "words": [
     {
-      "word": "てんき",
-      "reading": "てんき",
-      "romaji": "tenki",
-      "bn": "আবহাওয়া",
-      "en": "weather"
+      "word": "はじめまして",
+      "reading": "はじめまして",
+      "romaji": "hajimemashite",
+      "bn": "প্রথম দেখা হলো (শুভেচ্ছা)",
+      "en": "Nice to meet you"
     },
     {
-      "word": "あつい",
-      "reading": "あつい",
-      "romaji": "atsui",
-      "bn": "গরম",
-      "en": "hot"
+      "word": "私",
+      "reading": "わたし",
+      "romaji": "watashi",
+      "bn": "আমি",
+      "en": "I / myself"
     },
     {
-      "word": "さむい",
-      "reading": "さむい",
-      "romaji": "samui",
-      "bn": "ঠান্ডা",
-      "en": "cold"
+      "word": "名前",
+      "reading": "なまえ",
+      "romaji": "namae",
+      "bn": "নাম",
+      "en": "name"
     },
     {
-      "word": "あめ",
-      "reading": "あめ",
-      "romaji": "ame",
-      "bn": "বৃষ্টি",
-      "en": "rain"
+      "word": "国",
+      "reading": "くに",
+      "romaji": "kuni",
+      "bn": "দেশ",
+      "en": "country"
     },
     {
-      "word": "はる",
-      "reading": "はる",
-      "romaji": "haru",
-      "bn": "বসন্তকাল",
-      "en": "spring"
+      "word": "出身",
+      "reading": "しゅっしん",
+      "romaji": "shusshin",
+      "bn": "নিজ দেশ / জন্মস্থান",
+      "en": "hometown / country of origin"
     },
     {
-      "word": "なつ",
-      "reading": "なつ",
-      "romaji": "natsu",
-      "bn": "গ্রীষ্মকাল",
-      "en": "summer"
+      "word": "来ました",
+      "reading": "きました",
+      "romaji": "kimashita",
+      "bn": "এসেছি (আসা)",
+      "en": "came"
     },
     {
-      "word": "あき",
-      "reading": "あき",
-      "romaji": "aki",
-      "bn": "শরৎকাল",
-      "en": "autumn"
+      "word": "友だち",
+      "reading": "ともだち",
+      "romaji": "tomodachi",
+      "bn": "বন্ধু",
+      "en": "friend"
     },
     {
-      "word": "ふゆ",
-      "reading": "ふゆ",
-      "romaji": "fuyu",
-      "bn": "শীতকাল",
-      "en": "winter"
+      "word": "同じ",
+      "reading": "おなじ",
+      "romaji": "onaji",
+      "bn": "একই",
+      "en": "same"
+    },
+    {
+      "word": "会社",
+      "reading": "かいしゃ",
+      "romaji": "kaisha",
+      "bn": "কোম্পানি",
+      "en": "company"
+    },
+    {
+      "word": "国籍",
+      "reading": "こくせき",
+      "romaji": "kokuseki",
+      "bn": "জাতীয়তা",
+      "en": "nationality"
+    },
+    {
+      "word": "生年月日",
+      "reading": "せいねんがっぴ",
+      "romaji": "seinengappi",
+      "bn": "জন্মতারিখ",
+      "en": "date of birth"
+    },
+    {
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "romaji": "juusho",
+      "bn": "ঠিকানা",
+      "en": "address"
+    },
+    {
+      "word": "電話番号",
+      "reading": "でんわばんごう",
+      "romaji": "denwa bangou",
+      "bn": "ফোন নম্বর",
+      "en": "telephone number"
     }
   ]
 }

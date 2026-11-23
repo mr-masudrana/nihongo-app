@@ -1,0 +1,27 @@
+{
+  "lesson": 3,
+  "title": "অ্যালার্জি আছে বলে খেতে পারি না",
+  "title_en": "I cannot eat it because of an allergy.",
+  "dialogues": [
+    {
+      "title": "১. ফোনে রেস্তোরাঁর টেবিল বুকিং করা",
+      "title_en": "1. Making a restaurant reservation by phone",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "あのう、予約をしたいんですけど…。来週の水曜日の夜、6人です。",
+          "romaji": "Anou, yoyaku o shitain desu kedo... Raishuu no suiyoubi no yoru, rokunin desu.",
+          "bn": "শুনুন, একটি রিজার্ভেশন করতে চাই... আগামী বুধবার রাতে, ৬ জন।",
+          "en": "Excuse me, I'd like to make a reservation... Next Wednesday night, for 6 people."
+        },
+        {
+          "speaker": "B",
+          "jp": "9日の水曜日19時ですね。お名前とお電話番号をお願いします。",
+          "romaji": "Kokonoka no suiyoubi juukuji desu ne. Onamae to odenwa bangou o onegaishimasu.",
+          "bn": "৯ তারিখ বুধবার সন্ধ্যা ৭টা, তাই তো? আপনার নাম ও ফোন নম্বরটি দিন।",
+          "en": "Wednesday the 9th at 7:00 PM. May I have your name and phone number?"
+        }
+      ]
+    }
+  ]
+}

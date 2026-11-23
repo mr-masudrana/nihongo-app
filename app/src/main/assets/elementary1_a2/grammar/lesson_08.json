@@ -1,21 +1,37 @@
 {
   "lesson": 8,
-  "title": "ভাষা ও সংস্কৃতি শেখা",
-  "title_en": "Learning Language and Culture",
+  "title": "বেসবল কখনো খেলেছেন কি?",
+  "title_en": "Have you ever played baseball?",
   "points": [
     {
-      "title": "ভাষা ও সংস্কৃতি শেখা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ぶんか について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 8-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Learning Language and Culture — Grammar Pattern",
-      "pattern_en": "About bunka",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 8.",
+      "title": "V-たことがあります (অভিজ্ঞতা) ও V-に行きませんか? (আমন্ত্রণ)",
+      "pattern": "プロレスを見たことがありますか? / いっしょに食べに行きませんか?",
+      "explain": "কোনো কাজের অভিজ্ঞতা আছে কি না তা জানতে ক্রিয়ার た-form এর সাথে 'ことがあります' এবং আমন্ত্রণ জানাতে 'V-に行きませんか?' বসে।",
+      "title_en": "Asking about experiences & Inviting",
+      "pattern_en": "V-ta koto ga arimasu ka? / V-ni ikimasen ka?",
+      "explain_en": "Ask if someone has done something before and invite them out.",
       "examples": [
         {
-          "jp": "ぶんかが わかりますか。",
-          "romaji": "bunka ga wakarimasu ka.",
-          "bn": "আপনি কি সংস্কৃতি বোঝেন?",
-          "en": "Do you understand culture?"
+          "jp": "富士山に登ったことがありますか?",
+          "romaji": "Fujisan ni nobotta koto ga arimasu ka?",
+          "bn": "কখনো ফুজি পাহাড়ে উঠেছেন কি?",
+          "en": "Have you ever climbed Mt. Fuji?"
+        }
+      ]
+    },
+    {
+      "title": "Nの前に、〜 / Nのあと(で)、〜 (কাজের ক্রম)",
+      "pattern": "食事の前に、お金をおろしたいんですが… / 買い物のあとで、ゲームコーナーに行きませんか?",
+      "explain": "কোনো কাজের আগে ('の前に') বা পরে ('のあとで') কী করবেন তা বোঝাতে এই গঠন ব্যবহৃত হয়।",
+      "title_en": "Before and after an activity",
+      "pattern_en": "N no mae ni / N no ato de",
+      "explain_en": "Discuss the sequence of activities during an outing.",
+      "examples": [
+        {
+          "jp": "食事の前に、ATMでお金をおろしたいんですが…。",
+          "romaji": "Shokuji no mae ni, ATM de okane o oroshitain desu ga...",
+          "bn": "খাওয়ার আগে এটিএম থেকে টাকা তুলতে চাই...",
+          "en": "I'd like to withdraw money at the ATM before eating..."
         }
       ]
     }

@@ -1,0 +1,39 @@
+{
+  "lesson": 2,
+  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "title_en": "I'm sorry, I don't really understand.",
+  "points": [
+    {
+      "title": "জাইরিউ কার্ড (Residence Card)",
+      "pattern": "在留カード",
+      "explain": "জাপানে ৩ মাসের বেশি বসবাসকারী বিদেশি নাগরিকদের পরিচয়পত্র হলো জাইরিউ কার্ড। এটি সর্বদা সাথে রাখা আইনত বাধ্যতামূলক।",
+      "title_en": "Residence Card",
+      "pattern_en": "Zairyuu Kaado",
+      "explain_en": "Foreign residents must carry their residence card at all times.",
+      "examples": [
+        {
+          "jp": "在留カード、見せてください。",
+          "romaji": "Zairyuu kaado, misete kudasai.",
+          "bn": "রেসিডেন্স কার্ড দেখান, দয়া করে।",
+          "en": "Please show me your residence card."
+        }
+      ]
+    },
+    {
+      "title": "জাপানি সংক্ষিপ্ত শব্দ (Abbreviations)",
+      "pattern": "略語 (スマホ、コンビニ、エアコン)",
+      "explain": "জাপানি ভাষায় বড় বিদেশি শব্দ সংক্ষিপ্ত করে বলা হয়, যেমন: স্মার্টফোন → スマホ (সুমাহো), কনভিনিয়েন্স স্টোর → コンビニ (কোনবিনি)।",
+      "title_en": "Abbreviations in Japanese",
+      "pattern_en": "Sumaho, Konbini, Eakon",
+      "explain_en": "Japanese frequently shortens long loanwords.",
+      "examples": [
+        {
+          "jp": "スマホです。",
+          "romaji": "Sumaho desu.",
+          "bn": "স্মার্টফোন।",
+          "en": "It's a smartphone."
+        }
+      ]
+    }
+  ]
+}

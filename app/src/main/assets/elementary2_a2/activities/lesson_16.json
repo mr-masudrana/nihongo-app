@@ -1,0 +1,27 @@
+{
+  "lesson": 16,
+  "title": "ভূমিকম্প হলেও আতঙ্কিত হয়ে ছোটাছুটি করবেন না",
+  "title_en": "Do not panic in case of an earthquake.",
+  "dialogues": [
+    {
+      "title": "১. দুর্যোগের সময় আশ্রয়কেন্দ্র (避難所) সম্পর্কে জিজ্ঞাসা করা",
+      "title_en": "1. Asking about evacuation shelters during a disaster",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。この近くの避難所はどこですか?",
+          "romaji": "Sumimasen. Kono chikaku no hinanjo wa doko desu ka?",
+          "bn": "মাফ করবেন। এই এলাকার কাছাকাছি আশ্রয়কেন্দ্র কোথায়?",
+          "en": "Excuse me. Where is the nearest evacuation shelter?"
+        },
+        {
+          "speaker": "B",
+          "jp": "さくら小学校の体育館ですよ。いっしょに行きましょう。",
+          "romaji": "Sakura Shougakkou no taiikukan desu yo. Issho ni ikimashou.",
+          "bn": "সাকুরা প্রাথমিক বিদ্যালয়ের জিমনেসিয়াম। চলুন একসাথে যাই।",
+          "en": "It's the gymnasium at Sakura Elementary School. Let's go together."
+        }
+      ]
+    }
+  ]
+}

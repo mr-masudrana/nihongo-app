@@ -1,21 +1,37 @@
 {
   "lesson": 14,
-  "title": "স্থানীয় কমিউনিটি কার্যক্রম",
-  "title_en": "Local Community Activities",
+  "title": "সামনের চুলগুলো আরেকটু ছোট করে কেটে দেবেন?",
+  "title_en": "Will you cut my bangs a little shorter?",
   "points": [
     {
-      "title": "স্থানীয় কমিউনিটি কার্যক্রম — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ちいき ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 14-এর মূল ব্যাকরণ।",
-      "title_en": "Local Community Activities — Grammar Pattern",
-      "pattern_en": "Can do chiiki",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 14.",
+      "title": "ナA-に / イA-く V (কাজের ধরন বা ফলাফল বর্ণনা)",
+      "pattern": "全体的に短く切ってください / 前髪は、もう少し短く切ってもらえますか?",
+      "explain": "কোনো কাজ কীভাবে করবেন (যেমন: ছোট করে কাটা, পরিষ্কার করে ধোয়া) তা বোঝাতে বিশেষণকে ক্রিয়া বিশেষণে (〜に / 〜く) রূপান্তর করা হয়।",
+      "title_en": "Adverbs modifying verbs: 〜に and 〜く",
+      "pattern_en": "Mijikaku kitte kudasai / Kirei ni araimasu",
+      "explain_en": "Specify how you want your hair cut or items cleaned.",
       "examples": [
         {
-          "jp": "じぶんで ちいき を することができます。",
-          "romaji": "Jibun de chiiki o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে এলাকা / কমিউনিটি করতে পারি।",
-          "en": "I can do community / area by myself."
+          "jp": "ここは、きれいに洗ってください。",
+          "romaji": "Koko wa, kirei ni aratte kudasai.",
+          "bn": "এই জায়গাটা পরিষ্কার করে ধুয়ে দেবেন।",
+          "en": "Please wash this part cleanly."
+        }
+      ]
+    },
+    {
+      "title": "Nのために、〜 (উদ্দেশ্য বা উপকারের জন্য)",
+      "pattern": "外国の方のために、いろいろなサービスがあります",
+      "explain": "কাদের জন্য বা কী উদ্দেশ্যে সেবাটি দেওয়া হচ্ছে তা বোঝাতে 'Nのために' ব্যবহৃত হয়।",
+      "title_en": "Expressing purpose/beneficiary with 〜のために",
+      "pattern_en": "Gaikoku no kata no tame ni",
+      "explain_en": "Understand services designed for foreign residents.",
+      "examples": [
+        {
+          "jp": "生活の相談窓口があります。無料で利用できます。",
+          "romaji": "Seikatsu no soudan madoguchi ga arimasu. Muryou de riyou dekimasu.",
+          "bn": "জীবনযাত্রা বিষয়ক পরামর্শ কাউন্টার আছে। বিনামূল্যে ব্যবহার করা যায়।",
+          "en": "There is a daily life consultation desk. It's free to use."
         }
       ]
     }

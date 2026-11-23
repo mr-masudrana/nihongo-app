@@ -1,14 +1,91 @@
 {
   "lesson": 2,
-  "title": "প্রতিবেশীদের সাথে পরিচয়",
-  "title_en": "Meeting Neighbors",
+  "title": "গেম খেলতে পছন্দ করি",
+  "title_en": "I like playing video games.",
   "words": [
     {
-      "word": "となり",
-      "reading": "となり",
-      "romaji": "tonari",
-      "bn": "পাশের বাসা",
-      "en": "next door"
+      "word": "写真を撮ります",
+      "reading": "しゃしんをとります",
+      "romaji": "shashin o torimasu",
+      "bn": "ছবি তুলি",
+      "en": "take photos"
+    },
+    {
+      "word": "弾きます",
+      "reading": "ひきます",
+      "romaji": "hikimasu",
+      "bn": "বাদ্যযন্ত্র বাজাই",
+      "en": "play (an instrument)"
+    },
+    {
+      "word": "おしゃべりをします",
+      "reading": "おしゃべりをします",
+      "romaji": "oshaberi o shimasu",
+      "bn": "গল্পগুজব করি",
+      "en": "chat"
+    },
+    {
+      "word": "出かけます",
+      "reading": "でかけます",
+      "romaji": "dekakemasu",
+      "bn": "বাইরে ঘুরতে যাই",
+      "en": "go out"
+    },
+    {
+      "word": "習います",
+      "reading": "ならいます",
+      "romaji": "naraimasu",
+      "bn": "শিখি (কারো কাছ থেকে)",
+      "en": "learn / take lessons"
+    },
+    {
+      "word": "体育館",
+      "reading": "たいいくかん",
+      "romaji": "taiikukan",
+      "bn": "জিমনেসিয়াম / ইনডোর স্টেডিয়াম",
+      "en": "gymnasium"
+    },
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "romaji": "yuugata",
+      "bn": "সন্ধ্যা / বিকাল",
+      "en": "early evening"
+    },
+    {
+      "word": "釣り",
+      "reading": "つり",
+      "romaji": "tsuri",
+      "bn": "মাছ ধরা",
+      "en": "fishing"
+    },
+    {
+      "word": "いけばな",
+      "reading": "いけばな",
+      "romaji": "ikebana",
+      "bn": "জাপানি ফুল সাজানোর শিল্প",
+      "en": "flower arrangement"
+    },
+    {
+      "word": "3人家族",
+      "reading": "さんにんかぞく",
+      "romaji": "sannin kazoku",
+      "bn": "৩ জনের পরিবার",
+      "en": "family of three"
+    },
+    {
+      "word": "娘",
+      "reading": "むすめ",
+      "romaji": "musume",
+      "bn": "মেয়ে / কন্যা",
+      "en": "daughter"
+    },
+    {
+      "word": "フィリピン人",
+      "reading": "フィリピンじん",
+      "romaji": "Firipinjin",
+      "bn": "ফিলিপিনো নাগরিক",
+      "en": "Filipino person"
     }
   ]
 }

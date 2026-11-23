@@ -1,0 +1,39 @@
+{
+  "lesson": 10,
+  "title": "স্ট্যাপলারটা একটু দিন",
+  "title_en": "Please lend me the stapler.",
+  "points": [
+    {
+      "title": "Can-do 39–41: কাজের নির্দেশনা ও হাতে লেখা নোট বোঝা",
+      "pattern": "職場で短い指示を聞いたり、手書きのメモを見て内容を理解できる。",
+      "explain": "কর্মক্ষেত্রে ছোট নির্দেশনা শুনে তা নিশ্চিত করতে এবং হাতে লেখা নোটের কাজ বুঝতে পারা।",
+      "title_en": "Can-do 39–41",
+      "pattern_en": "Can understand spoken instructions and handwritten memos.",
+      "explain_en": "Follow simple instructions and memos at work.",
+      "examples": [
+        {
+          "jp": "すみません、いくつですか?",
+          "romaji": "Sumimasen, ikutsu desu ka?",
+          "bn": "মাফ করবেন, কয়টি লাগবে?",
+          "en": "Excuse me, how many?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 42–43: জিনিস ধার চাওয়া ও চেকলিস্ট দেখা",
+      "pattern": "借りたいものを頼んだり、備品リストを見て確認することができる。",
+      "explain": "প্রয়োজনীয় জিনিস ধার চাইতে এবং সরঞ্জামের তালিকা (Checklist) মিলিয়ে দেখতে পারা।",
+      "title_en": "Can-do 42–43",
+      "pattern_en": "Can ask to borrow items and check equipment lists.",
+      "explain_en": "Borrow workplace items and verify checklists.",
+      "examples": [
+        {
+          "jp": "スマホの充電器、ありますか?",
+          "romaji": "Sumaho no juudenki, arimasu ka?",
+          "bn": "স্মার্টফোনের চার্জার আছে কি?",
+          "en": "Do you have a smartphone charger?"
+        }
+      ]
+    }
+  ]
+}

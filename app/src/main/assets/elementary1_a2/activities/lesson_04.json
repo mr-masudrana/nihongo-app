@@ -1,0 +1,27 @@
+{
+  "lesson": 4,
+  "title": "গতকাল প্রচণ্ড বৃষ্টি হয়েছিল, তাই না!",
+  "title_en": "It rained heavily yesterday.",
+  "dialogues": [
+    {
+      "title": "১. প্রতিবেশীর সাথে আবহাওয়া নিয়ে অভিবাদন বিনিময়",
+      "title_en": "1. Greeting a neighbor while commenting on the weather",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "おはようございます。今日はいい天気ですね。",
+          "romaji": "Ohayou gozaimasu. Kyou wa ii tenki desu ne.",
+          "bn": "সুপ্রভাত। আজ আবহাওয়াটা খুব ভালো, তাই না?",
+          "en": "Good morning. Nice weather today, isn't it?"
+        },
+        {
+          "speaker": "B",
+          "jp": "そうですね。だいぶ暖かくなりましたね。",
+          "romaji": "Sou desu ne. Daibu atatakaku narimashita ne.",
+          "bn": "হ্যাঁ, ঠিক বলেছেন। বেশ উষ্ণ হয়ে উঠেছে।",
+          "en": "Yes, it has gotten much warmer."
+        }
+      ]
+    }
+  ]
+}

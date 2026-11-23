@@ -1,14 +1,84 @@
 {
   "lesson": 5,
-  "title": "উৎসব ও অনুষ্ঠান",
-  "title_en": "Festivals and Events",
+  "title": "খুবই জমজমাট এবং সুবিধাজনক",
+  "title_en": "It is very lively and convenient.",
   "words": [
     {
-      "word": "おまつり",
-      "reading": "おまつり",
-      "romaji": "omatsuri",
-      "bn": "উৎসব",
-      "en": "festival"
+      "word": "便利(な) / 不便(な)",
+      "reading": "べんり(な) / ふべん(な)",
+      "romaji": "benri (na) / fuben (na)",
+      "bn": "সুবিধাজনক / অসুবিধাজনক",
+      "en": "convenient / inconvenient"
+    },
+    {
+      "word": "緑が多い / 少ない",
+      "reading": "みどりがおおい / すくない",
+      "romaji": "midori ga ooi / sukunai",
+      "bn": "সবুজ গাছপালা বেশি / কম",
+      "en": "lots of greenery / little greenery"
+    },
+    {
+      "word": "田舎 / 都会",
+      "reading": "いなか / とかい",
+      "romaji": "inaka / tokai",
+      "bn": "গ্রামাঞ্চল / বড় শহর",
+      "en": "countryside / city"
+    },
+    {
+      "word": "住みやすい",
+      "reading": "すみやすい",
+      "romaji": "sumiyasui",
+      "bn": "বসবাসের জন্য আরামদায়ক",
+      "en": "comfortable to live in"
+    },
+    {
+      "word": "おすすめ",
+      "reading": "おすすめ",
+      "romaji": "osusume",
+      "bn": "সুপারিশকৃত / সেরা",
+      "en": "recommendation"
+    },
+    {
+      "word": "休憩所",
+      "reading": "きゅうけいじょ",
+      "romaji": "kyuukeijo",
+      "bn": "বিশ্রামাগার",
+      "en": "rest area"
+    },
+    {
+      "word": "名物",
+      "reading": "めいぶつ",
+      "romaji": "meibutsu",
+      "bn": "স্থানীয় বিখ্যাত খাবার বা জিনিস",
+      "en": "local specialty"
+    },
+    {
+      "word": "砂浜",
+      "reading": "すなはま",
+      "romaji": "sunahama",
+      "bn": "বালুকাময় সমুদ্র সৈকত",
+      "en": "sandy beach"
+    },
+    {
+      "word": "展望台",
+      "reading": "てんぼうだい",
+      "romaji": "tenboudai",
+      "bn": "পর্যবেক্ষণ টাওয়ার / ভিউপয়েন্ট",
+      "en": "observation deck"
+    },
+    {
+      "word": "夕日",
+      "reading": "ゆうひ",
+      "romaji": "yuuhi",
+      "bn": "সূর্যাস্ত",
+      "en": "sunset"
+    },
+    {
+      "word": "見渡します",
+      "reading": "みわたします",
+      "romaji": "miwatashimasu",
+      "bn": "চারদিকে তাকিয়ে দেখি",
+      "en": "overlook / look out over"
     }
   ]
 }

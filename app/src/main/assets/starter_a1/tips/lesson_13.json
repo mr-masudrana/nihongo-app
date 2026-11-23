@@ -1,0 +1,23 @@
+{
+  "lesson": 13,
+  "title": "এই বাস কি বিমানবন্দরে যায়?",
+  "title_en": "Does this bus go to the airport?",
+  "points": [
+    {
+      "title": "জাপানের গণপরিবহন ও আইসি কার্ড (Suica / ICOCA)",
+      "pattern": "通勤事情・交通機関の利用のし方",
+      "explain": "জাপানের ট্রেন ও বাস অত্যন্ত সময়নিষ্ঠ। ভ্রমণের জন্য সুইকা (Suica) বা ইকOCA (ICOCA)-এর মতো রিচার্জেবল আইসি কার্ড ব্যবহার করলে টিকিট কাটার ঝামেলা থাকে না।",
+      "title_en": "Public Transport & IC Cards",
+      "pattern_en": "Trains, Buses, Suica, ICOCA",
+      "explain_en": "Japanese trains are punctual; IC cards make travel seamless.",
+      "examples": [
+        {
+          "jp": "何番線ですか?",
+          "romaji": "Nanbansen desu ka?",
+          "bn": "কত নম্বর প্ল্যাটফর্ম?",
+          "en": "Which platform?"
+        }
+      ]
+    }
+  ]
+}

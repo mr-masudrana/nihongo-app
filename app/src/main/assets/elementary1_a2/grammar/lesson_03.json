@@ -1,21 +1,43 @@
 {
   "lesson": 3,
-  "title": "সুপারমার্কেটে কেনাকাটা",
-  "title_en": "Shopping at the Supermarket",
+  "title": "শীতকালে খুব ঠান্ডা পড়ে",
+  "title_en": "It gets very cold in winter.",
   "points": [
     {
-      "title": "সুপারমার্কেটে কেনাকাটা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "ねだん について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 3-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Shopping at the Supermarket — Grammar Pattern",
-      "pattern_en": "About nedan",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 3.",
+      "title": "Nに / ナA-に / イA-くなります (অবস্থার পরিবর্তন)",
+      "pattern": "暖かくなります / 学校が休みになります",
+      "explain": "আবহাওয়া বা পরিস্থিতির পরিবর্তন বোঝাতে い-বিশেষণে 'くなります' এবং な-বিশেষণ/বিশেষ্যে 'になります' বসে।",
+      "title_en": "Describing seasonal changes with なります",
+      "pattern_en": "I-adj ku narimasu / Na-adj ni narimasu",
+      "explain_en": "Express how weather and seasons change.",
       "examples": [
         {
-          "jp": "ねだんが わかりますか。",
-          "romaji": "nedan ga wakarimasu ka.",
-          "bn": "আপনি কি দাম বোঝেন?",
-          "en": "Do you understand price?"
+          "jp": "冬はとても寒くなります。",
+          "romaji": "Fuyu wa totemo samuku narimasu.",
+          "bn": "শীতকালে খুব ঠান্ডা পড়ে।",
+          "en": "It gets very cold in winter."
+        },
+        {
+          "jp": "秋はすずしくなります。",
+          "romaji": "Aki wa suzushiku narimasu.",
+          "bn": "শরৎকালে আবহাওয়া শীতল হয়।",
+          "en": "It becomes cool in autumn."
+        }
+      ]
+    },
+    {
+      "title": "〜ですから (কারণ) এবং N1 とか N2 とか (উদাহরণ)",
+      "pattern": "もみじの景色がきれいですから / ぶどうとか梨とか",
+      "explain": "কোনো ঋতু পছন্দ বা অপছন্দ করার কারণ বলতে 'から' এবং উদাহরণ দিতে 'とか' ব্যবহৃত হয়।",
+      "title_en": "Giving reasons with から & Examples with とか",
+      "pattern_en": "S1 kara, S2 / N1 toka N2 toka",
+      "explain_en": "Explain why you like a season and give examples.",
+      "examples": [
+        {
+          "jp": "私は暑いのが苦手ですから、秋がいちばん好きです。",
+          "romaji": "Watashi wa atsui no ga nigate desu kara, aki ga ichiban suki desu.",
+          "bn": "আমি গরম সহ্য করতে পারি না, তাই শরৎকাল সবচেয়ে পছন্দ করি।",
+          "en": "Since I'm bad with heat, I like autumn the best."
         }
       ]
     }

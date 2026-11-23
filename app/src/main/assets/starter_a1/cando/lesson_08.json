@@ -1,0 +1,39 @@
+{
+  "lesson": 8,
+  "title": "ইয়ামাদা-সান কোথায় আছেন?",
+  "title_en": "Where is Yamada-san?",
+  "points": [
+    {
+      "title": "Can-do 31–32: কর্মক্ষেত্রের রুম ও সহকর্মীর অবস্থান",
+      "pattern": "職場の部屋の説明を理解し、人の居場所を質問したり答えたりすることができる。",
+      "explain": "অফিস বা কারখানার বিভিন্ন কক্ষের কাজ বুঝতে এবং সহকর্মী কোথায় আছেন তা বলতে পারা।",
+      "title_en": "Can-do 31–32",
+      "pattern_en": "Can understand workplace rooms and ask where someone is.",
+      "explain_en": "Identify workplace rooms and locate people.",
+      "examples": [
+        {
+          "jp": "辻さんは、いませんね。たぶん倉庫です。",
+          "romaji": "Tsuji-san wa, imasen ne. Tabun souko desu.",
+          "bn": "সুজি-সান নেই। সম্ভবত গুদাম ঘরে আছেন।",
+          "en": "Tsuji-san isn't here. Probably in the warehouse."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 33–34: জিনিসপত্রের অবস্থান ও কক্ষের সাইনবোর্ড",
+      "pattern": "ものの置き場を質問したり、部屋の入り口の表示を見て何の部屋かわかる。",
+      "explain": "অফিসের সরঞ্জাম কোথায় আছে তা জিজ্ঞাসা করতে এবং দরজার সাইনবোর্ড পড়ে কক্ষ চিনতে পারা।",
+      "title_en": "Can-do 33–34",
+      "pattern_en": "Can ask where equipment is and read room signs.",
+      "explain_en": "Locate office supplies and read room signs.",
+      "examples": [
+        {
+          "jp": "事務室・応接室・更衣室",
+          "romaji": "Jimushitsu / Ousetsushitsu / Kouishitsu",
+          "bn": "অফিস রুম / অভ্যর্থনা কক্ষ / চেঞ্জিং রুম",
+          "en": "Office / Reception room / Changing room"
+        }
+      ]
+    }
+  ]
+}

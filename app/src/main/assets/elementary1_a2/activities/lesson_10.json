@@ -1,0 +1,27 @@
+{
+  "lesson": 10,
+  "title": "জাপানি ভাষার ক্লাসে অংশ নিতে চাই কিন্তু…",
+  "title_en": "I would like to take a Japanese-language class.",
+  "dialogues": [
+    {
+      "title": "১. কমিউনিটি সেন্টারের ক্লাস সম্পর্কে খোঁজ নেওয়া",
+      "title_en": "1. Inquiring about classes at a community center",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。合気道をやってみたいんですが、まだ空いていますか?",
+          "romaji": "Sumimasen. Aikidou o yatte mitain desu ga, mada aite imasu ka?",
+          "bn": "মাফ করবেন। আইকিদো শিখতে চাই, সিট খালি আছে কি?",
+          "en": "Excuse me. I'd like to try aikido; are there still openings?"
+        },
+        {
+          "speaker": "B",
+          "jp": "だいじょうぶですよ。最初はTシャツでもだいじょうぶです。",
+          "romaji": "Daijoubu desu yo. Saisho wa T-shatsu demo daijoubu desu.",
+          "bn": "হ্যাঁ, সমস্যা নেই। শুরুতে টি-শার্ট পরে আসলেও চলবে।",
+          "en": "Yes, it's fine. A T-shirt is fine at first."
+        }
+      ]
+    }
+  ]
+}

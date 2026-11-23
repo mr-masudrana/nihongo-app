@@ -1,0 +1,23 @@
+{
+  "lesson": 17,
+  "title": "এটি বড় ভাইয়ের দেওয়া তাবিজ (ওমামোরি)",
+  "title_en": "This is a personal amulet my older brother gave me.",
+  "points": [
+    {
+      "title": "তাতামি ঘরে বসার নিয়ম (正座), ওমামোরি ও পরিবারের সম্বোধন",
+      "pattern": "和室での座り方・お守り・家族の呼び方",
+      "explain": "জাপানি তাতামি ঘরে আনুষ্ঠানিকভাবে হাঁটু গেড়ে বসার নিয়মকে 'সেইজা' (正座) বলে। মন্দির ও শ্রাইন থেকে পাওয়া 'ওমামোরি' (তাবিজ) ব্যাগে বা মানিব্যাগে রাখা হয়।",
+      "title_en": "Sitting in a Washitsu, Omamori & Family Terms",
+      "pattern_en": "Seiza, Omamori, Family honorifics",
+      "explain_en": "Seiza is formal kneeling on tatami; omamori are lucky charms from shrines/temples.",
+      "examples": [
+        {
+          "jp": "楽にしてください (আরাম করে বসুন)",
+          "romaji": "Raku ni shite kudasai",
+          "bn": "পা ছড়িয়ে আরাম করে বসুন",
+          "en": "Please make yourself comfortable"
+        }
+      ]
+    }
+  ]
+}

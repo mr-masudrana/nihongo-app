@@ -1,0 +1,39 @@
+{
+  "lesson": 15,
+  "title": "মিটিং রুমের লাইট জ্বালানো অবস্থায় ছিল",
+  "title_en": "The lights in the meeting room were left on.",
+  "points": [
+    {
+      "title": "Can-do 64–65: পরিবেশবান্ধব নোটিশ পড়া ও সাশ্রয়ী অভ্যাস নিয়ে বলা",
+      "pattern": "エコ活動の貼り紙を理解し、環境のために気をつけていることを話すことができる。",
+      "explain": "অফিসের বিদ্যুৎ ও পানি সাশ্রয়ের নোটিশ বুঝতে এবং নিজের পরিবেশবান্ধব অভ্যাস বলতে পারা।",
+      "title_en": "Can-do 64–65",
+      "pattern_en": "Can understand eco-notices and talk about environmental habits.",
+      "explain_en": "Follow energy-saving rules and share eco-friendly practices.",
+      "examples": [
+        {
+          "jp": "エアコンは28度に設定しています。",
+          "romaji": "Eakon wa nijuuhachi-do ni settei shite imasu.",
+          "bn": "এসি ২৮ ডিগ্রিতে সেট করে রাখি।",
+          "en": "I set the air conditioner to 28 degrees."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 66–67: ময়লা আলাদা করা ও ফেলার নিয়ম জানা",
+      "pattern": "ごみの分け方・出し方の説明を読み、どうやって捨てればいいか質問することができる。",
+      "explain": "দাহ্য, অদাহ্য ও রিসাইকেল ময়লা কোন দিন কীভাবে ফেলতে হবে তা জিজ্ঞাসা করতে ও বুঝতে পারা।",
+      "title_en": "Can-do 66–67",
+      "pattern_en": "Can understand trash sorting guides and ask how to dispose of items.",
+      "explain_en": "Sort garbage properly and follow local collection schedules.",
+      "examples": [
+        {
+          "jp": "燃えるごみは、火曜日と金曜日です。",
+          "romaji": "Moeru gomi wa, kayoubi to kinyoubi desu.",
+          "bn": "দাহ্য ময়লা ফেলার দিন হলো মঙ্গলবার ও শুক্রবার।",
+          "en": "Burnable garbage days are Tuesday and Friday."
+        }
+      ]
+    }
+  ]
+}

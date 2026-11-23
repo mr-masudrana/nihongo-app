@@ -1,0 +1,39 @@
+{
+  "lesson": 5,
+  "title": "তাড়াতাড়ি বুকিং করে নেওয়াই ভালো",
+  "title_en": "You should make a reservation early.",
+  "points": [
+    {
+      "title": "Can-do 19–20: পর্যটন কেন্দ্রের তথ্য জানা ও বন্ধুর সাথে ভ্রমণ পরিকল্পনা",
+      "pattern": "日本の観光地の紹介を聞いたり、友人と旅行の計画を話し合ったりすることができる。",
+      "explain": "হোক্কাইদো, কিয়োতো, ওকিনাওয়া বা ফুজি হ্রদের বৈশিষ্ট্য জানতে এবং ভ্রমণের পরিকল্পনা করতে পারা।",
+      "title_en": "Can-do 19–20",
+      "pattern_en": "Can understand tourist info and plan trips with friends.",
+      "explain_en": "Discuss destinations, activities, and transportation.",
+      "examples": [
+        {
+          "jp": "景色がきれいなところがいいです。",
+          "romaji": "Keshiki ga kirei na tokoro ga ii desu.",
+          "bn": "সুন্দর প্রাকৃতিক দৃশ্য আছে এমন জায়গা ভালো হবে।",
+          "en": "A place with beautiful scenery would be nice."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 21–22: ভ্রমণের পরামর্শ নেওয়া ও ট্রাভেল রিভিউ পড়া",
+      "pattern": "旅行についてアドバイスを求めたり、旅行サイトの口コミを読んで理解したりできる。",
+      "explain": "কোথায় থাকবেন বা কী নিয়ে যাবেন তা জানতে এবং ভ্রমণ ওয়েবসাইটের রিভিউ পড়তে পারা।",
+      "title_en": "Can-do 21–22",
+      "pattern_en": "Can seek travel advice and read travel site reviews.",
+      "explain_en": "Get tips on lodging/packing and read traveler reviews.",
+      "examples": [
+        {
+          "jp": "湖からはとても美しい富士山が見えました。",
+          "romaji": "Mizuumi kara wa totemo utsukushii Fujisan ga miemashita.",
+          "bn": "হ্রদ থেকে অত্যন্ত সুন্দর ফুজি পাহাড় দেখা গিয়েছিল।",
+          "en": "A very beautiful Mt. Fuji was visible from the lake."
+        }
+      ]
+    }
+  ]
+}

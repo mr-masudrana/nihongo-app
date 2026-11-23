@@ -1,0 +1,173 @@
+{
+  "lesson": 5,
+  "title": "যাওয়া, আসা ও যাতায়াত",
+  "title_en": "Going, coming and transportation",
+  "points": [
+    {
+      "title": "N (স্থান) へ 行きます／来ます／帰ります",
+      "pattern": "N (place) へ 行きます／来ます／帰ります",
+      "explain": "行きます (যাওয়া), 来ます (আসা) ও 帰ります (ফিরে যাওয়া)-এর আগে গন্তব্যস্থানের পরে へ বসে। এখানে へ-এর উচ্চারণ ‘এ’।",
+      "title_en": "N (place) へ movement verbs",
+      "pattern_en": "N (place) へ 行きます／来ます／帰ります",
+      "explain_en": "Use へ after a destination with 行きます (go), 来ます (come) and 帰ります (return). In this particle use, へ is pronounced e.",
+      "examples": [
+        {
+          "jp": "京都へ 行きます。",
+          "romaji": "Kyōto e ikimasu.",
+          "bn": "কিয়োটোতে যাব।",
+          "en": "I am going to Kyoto."
+        },
+        {
+          "jp": "日本へ 来ました。",
+          "romaji": "Nihon e kimashita.",
+          "bn": "জাপানে এসেছিলাম।",
+          "en": "I came to Japan."
+        },
+        {
+          "jp": "うちへ 帰ります。",
+          "romaji": "Uchi e kaerimasu.",
+          "bn": "বাড়ি ফিরব।",
+          "en": "I am going home."
+        }
+      ]
+    },
+    {
+      "title": "どこへも 行きません — কোথাও না যাওয়া",
+      "pattern": "どこへも／何も／だれも + negative verb",
+      "explain": "প্রশ্নবাচক শব্দের সঙ্গে も এবং না-বাচক ক্রিয়া ব্যবহার করলে ‘কোথাও না’, ‘কিছুই না’, ‘কেউ না’ অর্থ হয়।",
+      "title_en": "どこへも行きません — negative scope with も",
+      "pattern_en": "interrogative + も + negative verb",
+      "explain_en": "When も follows an interrogative and the verb is negative, the meaning becomes “nowhere,” “nothing” or “nobody.”",
+      "examples": [
+        {
+          "jp": "どこへも 行きません。",
+          "romaji": "Doko e mo ikimasen.",
+          "bn": "কোথাও যাব না।",
+          "en": "I am not going anywhere."
+        },
+        {
+          "jp": "何も 食べません。",
+          "romaji": "Nani mo tabemasen.",
+          "bn": "কিছুই খাব না।",
+          "en": "I will not eat anything."
+        },
+        {
+          "jp": "だれも 来ませんでした。",
+          "romaji": "Dare mo kimasen deshita.",
+          "bn": "কেউ আসেনি।",
+          "en": "Nobody came."
+        }
+      ]
+    },
+    {
+      "title": "N (যানবাহন) で V — যানবাহনে যাতায়াত",
+      "pattern": "N (vehicle) で V",
+      "explain": "যানবাহনের নামের পরে で বসিয়ে কাজটি কোন মাধ্যমে করা হচ্ছে তা বোঝানো হয়। হেঁটে গেলে あるいて বলা হয়; এ ক্ষেত্রে で লাগে না।",
+      "title_en": "N (vehicle) で V — means of transportation",
+      "pattern_en": "N (vehicle) で V",
+      "explain_en": "で after a vehicle noun indicates the means of transportation. For travelling on foot, use あるいて without で.",
+      "examples": [
+        {
+          "jp": "電車で 行きます。",
+          "romaji": "Densha de ikimasu.",
+          "bn": "ট্রেনে যাব।",
+          "en": "I will go by train."
+        },
+        {
+          "jp": "タクシーで 来ました。",
+          "romaji": "Takushī de kimashita.",
+          "bn": "ট্যাক্সিতে এসেছি।",
+          "en": "I came by taxi."
+        },
+        {
+          "jp": "駅から 歩いて 帰りました。",
+          "romaji": "Eki kara aruite kaerimashita.",
+          "bn": "স্টেশন থেকে হেঁটে বাড়ি ফিরেছি।",
+          "en": "I walked home from the station."
+        }
+      ]
+    },
+    {
+      "title": "N (ব্যক্তি/প্রাণী) と V — কারও সঙ্গে",
+      "pattern": "N (person/animal) と V",
+      "explain": "কারও সঙ্গে কোনো কাজ করলে সেই ব্যক্তি বা প্রাণীর পরে と বসে। একা কাজ করলে ひとりで ব্যবহার করা হয়।",
+      "title_en": "N (person/animal) と V — doing something with someone",
+      "pattern_en": "N (person/animal) と V",
+      "explain_en": "と marks the person or animal with whom an action is done. For doing something alone, use ひとりで.",
+      "examples": [
+        {
+          "jp": "家族と 日本へ 来ました。",
+          "romaji": "Kazoku to Nihon e kimashita.",
+          "bn": "পরিবারের সঙ্গে জাপানে এসেছি।",
+          "en": "I came to Japan with my family."
+        },
+        {
+          "jp": "一人で 東京へ 行きます。",
+          "romaji": "Hitori de Tōkyō e ikimasu.",
+          "bn": "একা টোকিওতে যাব।",
+          "en": "I will go to Tokyo alone."
+        }
+      ]
+    },
+    {
+      "title": "いつ — কখন",
+      "pattern": "いつ + V ですか／か",
+      "explain": "কোনো কাজ কখন হয়েছে বা হবে তা জানতে いつ ব্যবহার করা হয়। いつ-এর পরে সাধারণত に বসে না।",
+      "title_en": "いつ — asking when",
+      "pattern_en": "いつ + verb question",
+      "explain_en": "Use いつ to ask when an action happened or will happen. The particle に is generally not added after いつ.",
+      "examples": [
+        {
+          "jp": "いつ 日本へ 来ましたか。",
+          "romaji": "Itsu Nihon e kimashita ka.",
+          "bn": "কবে জাপানে এসেছিলেন?",
+          "en": "When did you come to Japan?"
+        },
+        {
+          "jp": "３月２５日に 来ました。",
+          "romaji": "San-gatsu nijūgo-nichi ni kimashita.",
+          "bn": "২৫ মার্চ এসেছিলাম।",
+          "en": "I came on March 25."
+        }
+      ]
+    },
+    {
+      "title": "～よ — তথ্যের ওপর জোর",
+      "pattern": "Sentence + よ",
+      "explain": "বাক্যের শেষে よ বসিয়ে শ্রোতাকে নতুন বা গুরুত্বপূর্ণ তথ্য জানানো, কিংবা নিজের মতামতের ওপর জোর দেওয়া হয়।",
+      "title_en": "～よ — emphasis or informing the listener",
+      "pattern_en": "Sentence + よ",
+      "explain_en": "よ at the end of a sentence emphasizes information the listener may not know or stresses the speaker's view.",
+      "examples": [
+        {
+          "jp": "北海道に 馬が たくさん いますよ。",
+          "romaji": "Hokkaidō ni uma ga takusan imasu yo.",
+          "bn": "হোক্কাইদোতে অনেক ঘোড়া আছে কিন্তু!",
+          "en": "There are lots of horses in Hokkaido, you know."
+        }
+      ]
+    },
+    {
+      "title": "そうですね — সহমত বা সহানুভূতি",
+      "pattern": "そうですね。",
+      "explain": "কথোপকথনে বক্তার বক্তব্যের সঙ্গে সহমত বা সহানুভূতি প্রকাশ করতে そうですね ব্যবহার করা হয়।",
+      "title_en": "そうですね — agreement or sympathy",
+      "pattern_en": "そうですね。",
+      "explain_en": "そうですね is used to express agreement or sympathy with what the speaker has said.",
+      "examples": [
+        {
+          "jp": "あしたは 日曜日ですね。",
+          "romaji": "Ashita wa nichiyōbi desu ne.",
+          "bn": "আগামীকাল রবিবার, তাই না?",
+          "en": "It's Sunday tomorrow, isn't it?"
+        },
+        {
+          "jp": "あ、そうですね。",
+          "romaji": "A, sō desu ne.",
+          "bn": "হ্যাঁ, ঠিক তাই।",
+          "en": "Oh, yes, so it is."
+        }
+      ]
+    }
+  ]
+}

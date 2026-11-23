@@ -1,21 +1,37 @@
 {
   "lesson": 10,
-  "title": "ফোন ও মেসেজে যোগাযোগ",
-  "title_en": "Communicating by Phone and Message",
+  "title": "জাপানি ভাষার ক্লাসে অংশ নিতে চাই কিন্তু…",
+  "title_en": "I would like to take a Japanese-language class.",
   "points": [
     {
-      "title": "ফোন ও মেসেজে যোগাযোগ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "でんわ について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 10-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Communicating by Phone and Message — Grammar Pattern",
-      "pattern_en": "About denwa",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 10.",
+      "title": "V-てみたいんですが… (নতুন কিছু চেষ্টা করার ইচ্ছা) ও V-ましょうか?",
+      "pattern": "合気道をやってみたいんですが… / 教室のチラシを持って来ましょうか?",
+      "explain": "নতুন কোনো কিছু করে দেখার ইচ্ছা প্রকাশ করতে 'V-てみたいんですが…' এবং কাউকে কোনো সাহায্যের প্রস্তাব দিতে 'V-ましょうか?' বসে।",
+      "title_en": "Trying something new & Offering help",
+      "pattern_en": "V-te mitain desu ga... / V-mashou ka?",
+      "explain_en": "Express interest in trying a class and offer assistance.",
       "examples": [
         {
-          "jp": "でんわが わかりますか。",
-          "romaji": "denwa ga wakarimasu ka.",
-          "bn": "আপনি কি ফোন বোঝেন?",
-          "en": "Do you understand phone?"
+          "jp": "書道教室に参加してみたいんですが、道具は必要ですか?",
+          "romaji": "Shodou kyoushitsu ni sanka shite mitain desu ga, dougu wa hitsuyou desu ka?",
+          "bn": "ক্যালিগ্রাফি ক্লাসে অংশ নিতে চাই, সরঞ্জাম লাগবে কি?",
+          "en": "I'd like to try the calligraphy class; do I need equipment?"
+        }
+      ]
+    },
+    {
+      "title": "【সময়কাল】(に)〜回 (পৌনঃপুনিকতা) ও Nのとき (সময়)",
+      "pattern": "日本語クラスは週に1回です / 高校のとき、少し勉強しました",
+      "explain": "সপ্তাহে বা মাসে কতবার তা বলতে '(に)〜回' এবং কোনো সময়ের ঘটনা বোঝাতে 'のとき' ব্যবহৃত হয়।",
+      "title_en": "Frequency per period & 'When' clauses",
+      "pattern_en": "[Period] ni ~kai / N no toki",
+      "explain_en": "State class frequency and talk about past periods.",
+      "examples": [
+        {
+          "jp": "仕事のとき、会社の人と少し話します。",
+          "romaji": "Shigoto no toki, kaisha no hito to sukoshi hanashimasu.",
+          "bn": "কাজের সময় কোম্পানির লোকজনের সাথে একটু কথা বলি।",
+          "en": "At work, I talk a little with coworkers."
         }
       ]
     }

@@ -1,0 +1,41 @@
+{
+  "lesson": 4,
+  "title": "টোকিওতে বসবাস করি",
+  "title_en": "I live in Tokyo.",
+  "dialogues": [
+    {
+      "title": "১. পরিবার ও বসবাসের স্থান নিয়ে কথা বলা",
+      "title_en": "1. Talking about family and where you live",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ミロさんは、何歳ですか?",
+          "romaji": "Miro-san wa, nansai desu ka?",
+          "bn": "মিরো, আপনার বয়স কত?",
+          "en": "How old are you, Miro?"
+        },
+        {
+          "speaker": "B",
+          "jp": "25歳です。",
+          "romaji": "Nijuugo-sai desu.",
+          "bn": "২৫ বছর।",
+          "en": "I'm 25."
+        },
+        {
+          "speaker": "A",
+          "jp": "どこに住んでいますか?",
+          "romaji": "Doko ni sunde imasu ka?",
+          "bn": "কোথায় থাকেন?",
+          "en": "Where do you live?"
+        },
+        {
+          "speaker": "B",
+          "jp": "赤羽に住んでいます。家族はフィリピンに住んでいます。",
+          "romaji": "Akabane ni sunde imasu. Kazoku wa Firipin ni sunde imasu.",
+          "bn": "আকাবানেতে থাকি। পরিবার ফিলিপাইনে থাকে।",
+          "en": "I live in Akabane. My family lives in the Philippines."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": 18,
+  "title": "উষ্ণ প্রস্রবণে (অনসেন) গোসল করতে চাই",
+  "title_en": "I want to go to a hot spring.",
+  "points": [
+    {
+      "title": "Can-do 76–77: ছুটির পরিকল্পনা ও জাপানে ইচ্ছার কথা বলা",
+      "pattern": "休みの日にしたいことや、日本でしたいことを質問したり答えたりできる。",
+      "explain": "ছুটির দিনে বা জাপানে কী কী করতে চান তা বলতে পারা।",
+      "title_en": "Can-do 76–77",
+      "pattern_en": "Can talk about what you want to do on holidays and in Japan.",
+      "explain_en": "Ask and answer about travel plans and wishes.",
+      "examples": [
+        {
+          "jp": "ゴールデンウィークの予定は?",
+          "romaji": "Gooruden wiiku no yotei wa?",
+          "bn": "গোল্ডেন উইকের পরিকল্পনা কী?",
+          "en": "What are your plans for Golden Week?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 78–79: ভ্রমণের অভিজ্ঞতা লেখা ও বলা",
+      "pattern": "旅行先でしたことや感想について、SNSに書き込んだり簡単に話したりできる。",
+      "explain": "ভ্রমণের অভিজ্ঞতা ও অনুভূতি বন্ধুদের সাথে শেয়ার করতে এবং SNS-এ লিখতে পারা।",
+      "title_en": "Can-do 78–79",
+      "pattern_en": "Can write and talk about travel experiences.",
+      "explain_en": "Share trip highlights and impressions.",
+      "examples": [
+        {
+          "jp": "はじめて露天風呂に入りました。気持ちよかったです。",
+          "romaji": "Hajimete rotenburo ni hairimashita. Kimochi yokatta desu.",
+          "bn": "প্রথমবার খোলা আকাশের নিচে অনসেনে গোসল করলাম। খুব আরাম লেগেছে।",
+          "en": "I went into an open-air hot spring for the first time. It felt great."
+        }
+      ]
+    }
+  ]
+}

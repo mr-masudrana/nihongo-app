@@ -1,0 +1,39 @@
+{
+  "lesson": 12,
+  "title": "বেন্তোটা দেখতে খুব সুস্বাদু মনে হচ্ছে",
+  "title_en": "Your bento looks delicious.",
+  "points": [
+    {
+      "title": "Can-do 39–40: খাবারের চেহারা ও স্বাদ নিয়ে মন্তব্য করা",
+      "pattern": "食べ物を見た印象を言ったり、食べて感想を言ったりすることができる。",
+      "explain": "খাবার দেখে কেমন মনে হচ্ছে এবং খাওয়ার পর স্বাদ কেমন লাগলো তা বলতে পারা।",
+      "title_en": "Can-do 39–40",
+      "pattern_en": "Can comment on how food looks and tastes.",
+      "explain_en": "Give visual and taste impressions of dishes.",
+      "examples": [
+        {
+          "jp": "味は、うすくないですか?",
+          "romaji": "Aji wa, usukunai desu ka?",
+          "bn": "স্বাদটা কি হালকা (কম) মনে হচ্ছে?",
+          "en": "Isn't the flavor too light?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 41–42: রান্নার উপকরণ জিজ্ঞাসা ও ইনস্ট্যান্ট খাবারের নির্দেশনা পড়া",
+      "pattern": "料理の材料を質問したり、カップ焼きそばなどの作り方の説明を読んで理解できる。",
+      "explain": "খাবারের ভেতর কী কী উপকরণ আছে তা জানতে এবং প্যাকেটের গায়ে লেখা রান্নার ধাপ বুঝতে পারা।",
+      "title_en": "Can-do 41–42",
+      "pattern_en": "Can discuss dish ingredients and read cooking instructions.",
+      "explain_en": "Ask about ingredients and follow instant noodle directions.",
+      "examples": [
+        {
+          "jp": "鶏肉とか、エビとかが入っています。",
+          "romaji": "Toriniku toka, ebi toka ga haitte imasu.",
+          "bn": "এতে মুরগির মাংস, চিংড়ি ইত্যাদি দেওয়া আছে।",
+          "en": "It has chicken, shrimp, and other ingredients inside."
+        }
+      ]
+    }
+  ]
+}

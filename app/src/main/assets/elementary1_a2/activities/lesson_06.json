@@ -1,0 +1,27 @@
+{
+  "lesson": 6,
+  "title": "পোস্ট অফিসে কীভাবে গেলে ভালো হয়?",
+  "title_en": "Please tell me how to get to the post office.",
+  "dialogues": [
+    {
+      "title": "১. রাস্তায় পথচারীকে পথ জিজ্ঞাসা করা",
+      "title_en": "1. Asking a passerby for directions",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。郵便局はどう行ったらいいですか?",
+          "romaji": "Sumimasen. Yuubinkyoku wa dou ittara ii desu ka?",
+          "bn": "মাফ করবেন। পোস্ট অফিসে কীভাবে গেলে ভালো হয়?",
+          "en": "Excuse me. How do I get to the post office?"
+        },
+        {
+          "speaker": "B",
+          "jp": "この道をまっすぐ行って、2つ目の信号を左に曲がってください。",
+          "romaji": "Kono michi o massugu itte, futatsume no shingou o hidari ni magatte kudasai.",
+          "bn": "এই রাস্তা সোজা গিয়ে ২য় সিগন্যালে বামে ঘুরবেন।",
+          "en": "Go straight down this road and turn left at the second traffic light."
+        }
+      ]
+    }
+  ]
+}

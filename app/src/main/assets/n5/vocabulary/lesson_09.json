@@ -1,0 +1,377 @@
+{
+  "lesson": 9,
+  "title": "দৈনন্দিন জাপানি শব্দভান্ডার – Lesson 9",
+  "words": [
+    {
+      "word": "わかります",
+      "reading": "分かります",
+      "romaji": "wakarimasu",
+      "bn": "বুঝতে পারা",
+      "en": "understand"
+    },
+    {
+      "word": "あります",
+      "reading": "あります",
+      "romaji": "arimasu",
+      "bn": "আছে; থাকা",
+      "en": "have; exist (inanimate things)"
+    },
+    {
+      "word": "すき[な]",
+      "reading": "好き[な]",
+      "romaji": "suki",
+      "bn": "পছন্দ; পছন্দের",
+      "en": "like"
+    },
+    {
+      "word": "きらい[な]",
+      "reading": "嫌い[な]",
+      "romaji": "kirai",
+      "bn": "অপছন্দ; অপছন্দের",
+      "en": "dislike"
+    },
+    {
+      "word": "じょうず[な]",
+      "reading": "上手[な]",
+      "romaji": "jouzu",
+      "bn": "দক্ষ; ভালো পারে",
+      "en": "good at"
+    },
+    {
+      "word": "へた[な]",
+      "reading": "下手[な]",
+      "romaji": "heta",
+      "bn": "অদক্ষ; ভালো পারে না",
+      "en": "poor at"
+    },
+    {
+      "word": "のみもの",
+      "reading": "飲み物",
+      "romaji": "nomimono",
+      "bn": "পানীয়",
+      "en": "drinks"
+    },
+    {
+      "word": "りょうり",
+      "reading": "料理",
+      "romaji": "ryouri",
+      "bn": "রান্না; রান্না করা খাবার",
+      "en": "dish (cooked food); cooking",
+      "note": "～をします: রান্না করা"
+    },
+    {
+      "word": "スポーツ",
+      "reading": "スポーツ",
+      "romaji": "supootsu",
+      "bn": "খেলাধুলা",
+      "en": "sport",
+      "note": "～をします: খেলাধুলা করা"
+    },
+    {
+      "word": "やきゅう",
+      "reading": "野球",
+      "romaji": "yakyuu",
+      "bn": "বেসবল",
+      "en": "baseball",
+      "note": "～をします: বেসবল খেলা"
+    },
+    {
+      "word": "ダンス",
+      "reading": "ダンス",
+      "romaji": "dansu",
+      "bn": "নাচ",
+      "en": "dance",
+      "note": "～をします: নাচা"
+    },
+    {
+      "word": "りょこう",
+      "reading": "旅行",
+      "romaji": "ryokou",
+      "bn": "ভ্রমণ; সফর",
+      "en": "trip; tour",
+      "note": "～をします: ভ্রমণ করা"
+    },
+    {
+      "word": "おんがく",
+      "reading": "音楽",
+      "romaji": "ongaku",
+      "bn": "সংগীত",
+      "en": "music"
+    },
+    {
+      "word": "うた",
+      "reading": "歌",
+      "romaji": "uta",
+      "bn": "গান",
+      "en": "song"
+    },
+    {
+      "word": "クラシック",
+      "reading": "クラシック",
+      "romaji": "kurashikku",
+      "bn": "ধ্রুপদি সংগীত",
+      "en": "classical music"
+    },
+    {
+      "word": "ジャズ",
+      "reading": "ジャズ",
+      "romaji": "jazu",
+      "bn": "জ্যাজ সংগীত",
+      "en": "jazz"
+    },
+    {
+      "word": "コンサート",
+      "reading": "コンサート",
+      "romaji": "konsaato",
+      "bn": "কনসার্ট",
+      "en": "concert"
+    },
+    {
+      "word": "カラオケ",
+      "reading": "カラオケ",
+      "romaji": "karaoke",
+      "bn": "কারাওকে",
+      "en": "karaoke"
+    },
+    {
+      "word": "かぶき",
+      "reading": "歌舞伎",
+      "romaji": "kabuki",
+      "bn": "কাবুকি (জাপানি ঐতিহ্যবাহী নাট্যশিল্প)",
+      "en": "Kabuki (traditional Japanese musical drama)"
+    },
+    {
+      "word": "え",
+      "reading": "絵",
+      "romaji": "e",
+      "bn": "ছবি; আঁকা ছবি",
+      "en": "picture; drawing"
+    },
+    {
+      "word": "じ",
+      "reading": "字",
+      "romaji": "ji",
+      "bn": "অক্ষর; হরফ",
+      "en": "letter; character"
+    },
+    {
+      "word": "かんじ",
+      "reading": "漢字",
+      "romaji": "kanji",
+      "bn": "কাঞ্জি; চীনা উৎসের জাপানি অক্ষর",
+      "en": "Chinese character"
+    },
+    {
+      "word": "ひらがな",
+      "reading": "ひらがな",
+      "romaji": "hiragana",
+      "bn": "হিরাগানা লিপি",
+      "en": "hiragana script"
+    },
+    {
+      "word": "カタカナ",
+      "reading": "カタカナ",
+      "romaji": "katakana",
+      "bn": "কাতাকানা লিপি",
+      "en": "katakana script"
+    },
+    {
+      "word": "ローマじ",
+      "reading": "ローマ字",
+      "romaji": "roomaji",
+      "bn": "রোমান হরফ",
+      "en": "the Roman alphabet"
+    },
+    {
+      "word": "こまかい おかね",
+      "reading": "細かいお金",
+      "romaji": "komakai okane",
+      "bn": "খুচরা টাকা",
+      "en": "small change"
+    },
+    {
+      "word": "チケット",
+      "reading": "チケット",
+      "romaji": "chiketto",
+      "bn": "টিকিট",
+      "en": "ticket"
+    },
+    {
+      "word": "じかん",
+      "reading": "時間",
+      "romaji": "jikan",
+      "bn": "সময়",
+      "en": "time"
+    },
+    {
+      "word": "ようじ",
+      "reading": "用事",
+      "romaji": "youji",
+      "bn": "কাজ; জরুরি বিষয়; কোনো কাজ",
+      "en": "something to do; errand"
+    },
+    {
+      "word": "やくそく",
+      "reading": "約束",
+      "romaji": "yakusoku",
+      "bn": "প্রতিশ্রুতি; অ্যাপয়েন্টমেন্ট",
+      "en": "appointment; promise",
+      "note": "～をします: প্রতিশ্রুতি দেওয়া"
+    },
+    {
+      "word": "アルバイト",
+      "reading": "アルバイト",
+      "romaji": "arubaito",
+      "bn": "খণ্ডকালীন কাজ",
+      "en": "part-time job",
+      "note": "～をします: খণ্ডকালীন কাজ করা"
+    },
+    {
+      "word": "ごしゅじん",
+      "reading": "ご主人",
+      "romaji": "goshujin",
+      "bn": "অন্যের স্বামী",
+      "en": "someone else's husband"
+    },
+    {
+      "word": "おっと／しゅじん",
+      "reading": "夫／主人",
+      "romaji": "otto / shujin",
+      "bn": "আমার স্বামী",
+      "en": "my husband"
+    },
+    {
+      "word": "おくさん",
+      "reading": "奥さん",
+      "romaji": "okusan",
+      "bn": "অন্যের স্ত্রী",
+      "en": "someone else's wife"
+    },
+    {
+      "word": "つま／かない",
+      "reading": "妻／家内",
+      "romaji": "tsuma / kanai",
+      "bn": "আমার স্ত্রী",
+      "en": "my wife"
+    },
+    {
+      "word": "こども",
+      "reading": "子ども",
+      "romaji": "kodomo",
+      "bn": "শিশু; সন্তান",
+      "en": "child"
+    },
+    {
+      "word": "よく",
+      "reading": "よく",
+      "romaji": "yoku",
+      "bn": "ভালোভাবে; প্রায়ই; অনেক",
+      "en": "well; much"
+    },
+    {
+      "word": "だいたい",
+      "reading": "だいたい",
+      "romaji": "daitai",
+      "bn": "মোটামুটি; প্রায়",
+      "en": "mostly; roughly"
+    },
+    {
+      "word": "たくさん",
+      "reading": "たくさん",
+      "romaji": "takusan",
+      "bn": "অনেক; প্রচুর",
+      "en": "many; much"
+    },
+    {
+      "word": "すこし",
+      "reading": "少し",
+      "romaji": "sukoshi",
+      "bn": "অল্প; সামান্য",
+      "en": "a little; a few"
+    },
+    {
+      "word": "ぜんぜん",
+      "reading": "全然",
+      "romaji": "zenzen",
+      "bn": "একেবারেই না",
+      "en": "not at all (used with negatives)"
+    },
+    {
+      "word": "はやく",
+      "reading": "早く／速く",
+      "romaji": "hayaku",
+      "bn": "তাড়াতাড়ি; দ্রুত",
+      "en": "early; quickly"
+    },
+    {
+      "word": "～から",
+      "reading": "～から",
+      "romaji": "~kara",
+      "bn": "কারণ ~",
+      "en": "because ~"
+    },
+    {
+      "word": "どうして",
+      "reading": "どうして",
+      "romaji": "doushite",
+      "bn": "কেন",
+      "en": "why"
+    },
+    {
+      "word": "かしてください。",
+      "reading": "貸してください。",
+      "romaji": "kashite kudasai",
+      "bn": "আমাকে ধার দিন",
+      "en": "Please lend (it to me)."
+    },
+    {
+      "word": "いいですよ。",
+      "reading": "いいですよ。",
+      "romaji": "ii desu yo",
+      "bn": "অবশ্যই; ঠিক আছে",
+      "en": "Sure; Certainly."
+    },
+    {
+      "word": "ざんねんです[が]",
+      "reading": "残念です[が]",
+      "romaji": "zannen desu [ga]",
+      "bn": "দুঃখিত; দুর্ভাগ্যবশত",
+      "en": "I'm sorry [but], unfortunately"
+    },
+    {
+      "word": "ああ",
+      "reading": "ああ",
+      "romaji": "aa",
+      "bn": "ওহ",
+      "en": "oh"
+    },
+    {
+      "word": "いっしょに いかがですか。",
+      "reading": "一緒にいかがですか。",
+      "romaji": "issho ni ikaga desu ka",
+      "bn": "আমাদের সঙ্গে যোগ দেবেন?",
+      "en": "Won't you join me (us)?"
+    },
+    {
+      "word": "～は ちょっと……。",
+      "reading": "～はちょっと……。",
+      "romaji": "~ wa chotto...",
+      "bn": "~ একটু অসুবিধাজনক… (নম্রভাবে না বলা)",
+      "en": "~ is a bit difficult (euphemistic refusal)"
+    },
+    {
+      "word": "だめですか。",
+      "reading": "だめですか。",
+      "romaji": "dame desu ka",
+      "bn": "তাহলে কি পারবেন না?",
+      "en": "So you can't (come)?"
+    },
+    {
+      "word": "また こんど おねがいします。",
+      "reading": "また今度お願いします。",
+      "romaji": "mata kondo onegaishimasu",
+      "bn": "আবার অন্য কোনো সময় অনুরোধ করব",
+      "en": "Please ask me again some other time."
+    }
+  ]
+}

@@ -1,21 +1,49 @@
 {
   "lesson": 11,
-  "title": "ছুটির দিন ও অবসর",
-  "title_en": "Holidays and Free Time",
+  "title": "কোন ধরনের মাঙ্গা পছন্দ করেন?",
+  "title_en": "What kind of manga do you like?",
   "points": [
     {
-      "title": "ছুটির দিন ও অবসর — মৌলিক বাক্য",
-      "pattern": "やすみ です。",
-      "explain": "Irodori Starter A1 লেসন 11-এর মূল বাক্য গঠন।",
-      "title_en": "Holidays and Free Time — Basic Pattern",
-      "pattern_en": "yasumi desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 11.",
+      "title": "趣味は何ですか? / どんな N が好きですか?",
+      "pattern": "どんなスポーツが好きですか? / あまり好きじゃないです",
+      "explain": "কোন ধরনের জিনিস পছন্দ তা জানতে 'どんな N' এবং খুব একটা পছন্দ নয় বোঝাতে 'あまり〜じゃないです / くないです' বসে।",
+      "title_en": "Asking about hobbies and preferences",
+      "pattern_en": "Shumi wa nan desu ka? / Donna N ga suki desu ka?",
+      "explain_en": "Ask specific preferences using donna.",
       "examples": [
         {
-          "jp": "これは やすみ です。",
-          "romaji": "Kore wa yasumi desu.",
-          "bn": "এটি ছুটি।",
-          "en": "This is holiday / rest."
+          "jp": "どんなスポーツが好きですか?",
+          "romaji": "Donna supootsu ga suki desu ka?",
+          "bn": "কোন ধরনের খেলা পছন্দ করেন?",
+          "en": "What kind of sports do you like?"
+        },
+        {
+          "jp": "スポーツは、あまり好きじゃないです。",
+          "romaji": "Supootsu wa, amari suki ja nai desu.",
+          "bn": "খেলাধুলা খুব একটা পছন্দ করি না।",
+          "en": "I don't like sports very much."
+        }
+      ]
+    },
+    {
+      "title": "【ব্যক্তি】と【স্থান】で V-ます (ছুটির দিনের কাজ)",
+      "pattern": "休みの日は、たいてい、夫と公園でテニスをします",
+      "explain": "কার সাথে ('と') এবং কোথায় ('で') কাজটি করেন তা এভাবে প্রকাশ করা হয়। একেবারেই না বোঝাতে 'ぜんぜん V-ません' বসে।",
+      "title_en": "Doing activities with someone at a place",
+      "pattern_en": "[Person] to [Place] de V-masu",
+      "explain_en": "Describe weekend activities with frequency adverbs.",
+      "examples": [
+        {
+          "jp": "休みの日は、たいてい、映画を見ます。",
+          "romaji": "Yasumi no hi wa, taitei, eiga o mimasu.",
+          "bn": "ছুটির দিনে সাধারণত সিনেমা দেখি।",
+          "en": "On my days off, I usually watch movies."
+        },
+        {
+          "jp": "スポーツは、ぜんぜんしません。",
+          "romaji": "Supootsu wa, zenzen shimasen.",
+          "bn": "খেলাধুলা একেবারেই করি না।",
+          "en": "I don't do sports at all."
         }
       ]
     }

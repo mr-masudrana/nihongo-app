@@ -1,0 +1,34 @@
+{
+  "lesson": 7,
+  "title": "বৃষ্টি হলে হলে (অডিটোরিয়ামে) অনুষ্ঠান হবে",
+  "title_en": "If it rains, it will be held at the hall.",
+  "dialogues": [
+    {
+      "title": "১. স্থানীয় উৎসব ও বোন-ওদোরি নাচে আমন্ত্রণ",
+      "title_en": "1. Being invited to a local Bon-odori festival",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "来週の土曜日、さくら公園で盆踊りがあるんだけど、いっしょに行かない?",
+          "romaji": "Raishuu no doyoubi, Sakura Kouen de bon-odori ga arun da kedo, issho ni ikanai?",
+          "bn": "আগামী শনিবার সাকুরা পার্কে বোন-ওদোরি নাচ আছে, একসাথে যাবে?",
+          "en": "There's a Bon dance at Sakura Park next Saturday; want to go together?"
+        },
+        {
+          "speaker": "B",
+          "jp": "盆踊り? 何ですか? 踊り方がわからないんですが…。",
+          "romaji": "Bon-odori? Nan desu ka? Odorikata ga wakaranain desu ga...",
+          "bn": "বোন-ওদোরি? সেটা কী? আমি তো নাচতে জানি না...",
+          "en": "Bon-odori? What is that? I don't know how to dance..."
+        },
+        {
+          "speaker": "A",
+          "jp": "簡単だから、だれでも踊れますよ。雨が降ったら、ホールでやります。",
+          "romaji": "Kantan da kara, dare demo odoremasu yo. Ame ga futtara, hooru de yarimasu.",
+          "bn": "খুব সহজ, যে কেউ নাচতে পারবে। বৃষ্টি হলে হলে অনুষ্ঠান হবে।",
+          "en": "It's easy, anyone can dance. If it rains, it'll be held in the hall."
+        }
+      ]
+    }
+  ]
+}

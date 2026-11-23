@@ -1,0 +1,23 @@
+{
+  "lesson": 6,
+  "title": "বিভিন্ন জায়গায় যেতে পেরে খুব ভালো লেগেছে",
+  "title_en": "I am glad that I went to a lot of different places.",
+  "points": [
+    {
+      "title": "শিনকানসেন টিকিট (乗車券 + 特急券) এবং ওসাকা ও তাকao পাহাড়",
+      "pattern": "新幹線の切符・日本の観光地3・串カツ・たこ焼き",
+      "explain": "শিনকানসেনে চড়তে সাধারণ ভাড়ার টিকিট (乗車券) এবং এক্সপ্রেস টিকিট (特急券)—এই দুটি টিকিট লাগে। ওসাকায় 'কুশিকাৎসু' খাওয়ার সময় সসের বাটিতে একবার কামড় দেওয়া খাবার দ্বিতীয়বার ডোবানো নিষেধ (二度づけ禁止)।",
+      "title_en": "Shinkansen Tickets & Osaka Food Etiquette",
+      "pattern_en": "Joshaken, Tokkyuken, and No Double-Dipping",
+      "explain_en": "Shinkansen requires a base fare ticket plus an express ticket; never double-dip kushi-katsu.",
+      "examples": [
+        {
+          "jp": "二度づけ禁止 (No double-dipping)",
+          "romaji": "Nidozuke kinshi",
+          "bn": "দ্বিতীয়বার সসে ডোবানো নিষেধ",
+          "en": "No double-dipping"
+        }
+      ]
+    }
+  ]
+}

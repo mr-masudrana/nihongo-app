@@ -1,14 +1,91 @@
 {
   "lesson": 2,
-  "title": "কাজের নিয়ম ও নির্দেশনা",
-  "title_en": "Work Rules and Instructions",
+  "title": "খুব আন্তরিক মানুষ বলে মনে হচ্ছে",
+  "title_en": "He looks a serious person.",
   "words": [
     {
-      "word": "ちゅうい",
-      "reading": "ちゅうい",
-      "romaji": "chuui",
-      "bn": "সতর্কতা / মনোযোগ",
-      "en": "caution / attention"
+      "word": "帽子をかぶっています",
+      "reading": "ぼうしをかぶっています",
+      "romaji": "boushi o kabutte imasu",
+      "bn": "টুপি পরে আছেন",
+      "en": "wearing a hat"
+    },
+    {
+      "word": "めがねをかけています",
+      "reading": "めがねをかけています",
+      "romaji": "megane o kakete imasu",
+      "bn": "চশমা পরে আছেন",
+      "en": "wearing glasses"
+    },
+    {
+      "word": "ひげをはやしています",
+      "reading": "ひげをはやしています",
+      "romaji": "hige o hayashite imasu",
+      "bn": "দাড়ি রেখেছেন",
+      "en": "has a beard"
+    },
+    {
+      "word": "ワンピース / シャツ",
+      "reading": "ワンピース / シャツ",
+      "romaji": "wanpiisu / shatsu",
+      "bn": "ওয়ান-পিস ড্রেস / শার্ট",
+      "en": "dress / shirt"
+    },
+    {
+      "word": "ズボン / くつ",
+      "reading": "ズボン / くつ",
+      "romaji": "zubon / kutsu",
+      "bn": "প্যান্ট / জুতা",
+      "en": "trousers / shoes"
+    },
+    {
+      "word": "まじめ(な)",
+      "reading": "まじめ(な)",
+      "romaji": "majime (na)",
+      "bn": "আন্তরিক / সিরিয়াস / নিয়মনিষ্ঠ",
+      "en": "serious / earnest"
+    },
+    {
+      "word": "明るい",
+      "reading": "あかるい",
+      "romaji": "akarui",
+      "bn": "প্রাণবন্ত / হাসিখুশি",
+      "en": "cheerful / bright"
+    },
+    {
+      "word": "きびしい / やさしい",
+      "reading": "きびしい / やさしい",
+      "romaji": "kibishii / yasashii",
+      "bn": "কঠোর / দয়ালু",
+      "en": "strict / kind"
+    },
+    {
+      "word": "俳優 / 歌手",
+      "reading": "はいゆう / かしゅ",
+      "romaji": "haiyuu / kashu",
+      "bn": "অভিনেতা / গায়ক",
+      "en": "actor / singer"
+    },
+    {
+      "word": "演技が上手",
+      "reading": "えんぎがじょうず",
+      "romaji": "engi ga jouzu",
+      "bn": "অভিনয়ে দক্ষ",
+      "en": "good at acting"
+    },
+    {
+      "word": "きっかけ",
+      "reading": "きっかけ",
+      "romaji": "kikkake",
+      "bn": "সূচনা / উপলক্ষ / কারণ",
+      "en": "trigger / reason / opportunity"
+    },
+    {
+      "word": "引退します",
+      "reading": "いんたいします",
+      "romaji": "intai shimasu",
+      "bn": "অবসর গ্রহণ করা",
+      "en": "retire"
     }
   ]
 }

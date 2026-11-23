@@ -1,0 +1,39 @@
+{
+  "lesson": 9,
+  "title": "প্রাপ্তবয়স্ক দিবসে (সেইজিন নো হি) কী করা হয়?",
+  "title_en": "What do people do on Coming-of-Age Day?",
+  "points": [
+    {
+      "title": "Can-do 38–40: জাপান ও নিজ দেশের বার্ষিক উৎসব নিয়ে কথা বলা",
+      "pattern": "日本の年中行事について理解し、お正月の過ごし方や自分の国の祭りを紹介できる。",
+      "explain": "নববর্ষ বা প্রাপ্তবয়স্ক দিবসে কী করা হয় তা জানতে এবং নিজ দেশের ঈদ, পূজা বা নববর্ষের বর্ণনা দিতে পারা।",
+      "title_en": "Can-do 38–40",
+      "pattern_en": "Can discuss Japanese annual events and introduce your own festivals.",
+      "explain_en": "Talk about New Year holidays and cultural celebrations.",
+      "examples": [
+        {
+          "jp": "田舎に帰って家族でお祝いします。",
+          "romaji": "Inaka ni kaette kazoku de oiwai shimasu.",
+          "bn": "গ্রামের বাড়িতে ফিরে পরিবারের সাথে উদযাপন করি।",
+          "en": "I go back to my hometown and celebrate with family."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 41–42: উৎসবের নিবন্ধ পড়া ও নববর্ষের শুভেচ্ছা বার্তা লেখা",
+      "pattern": "イベントの記事を読んで理解し、新年のあいさつを書いて送ることができる。",
+      "explain": "স্থানীয় মোচিৎসুকি উৎসবের খবর পড়তে এবং নববর্ষের শুভেচ্ছা কার্ড বা মেসেজ লিখতে পারা।",
+      "title_en": "Can-do 41–42",
+      "pattern_en": "Can read event articles and write New Year greetings.",
+      "explain_en": "Read local festival reports and send New Year messages.",
+      "examples": [
+        {
+          "jp": "あけましておめでとうございます。今年もよろしくお願いします。",
+          "romaji": "Akemashite omedetou gozaimasu. Kotoshi mo yoroshiku onegaishimasu.",
+          "bn": "শুভ নববর্ষ! এই বছরও ভালো সম্পর্ক রাখবেন।",
+          "en": "Happy New Year! Best wishes for this year too."
+        }
+      ]
+    }
+  ]
+}

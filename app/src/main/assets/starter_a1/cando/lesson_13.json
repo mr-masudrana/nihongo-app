@@ -1,0 +1,39 @@
+{
+  "lesson": 13,
+  "title": "এই বাস কি বিমানবন্দরে যায়?",
+  "title_en": "Does this bus go to the airport?",
+  "points": [
+    {
+      "title": "Can-do 52–53: ট্রেন/বাসের গন্তব্য ও স্টেশনের নাম জিজ্ঞাসা",
+      "pattern": "電車やバスが行き先に行くか質問したり、駅名を確認したりできる。",
+      "explain": "বাস বা ট্রেন সঠিক গন্তব্যে যাচ্ছে কি না এবং বর্তমান স্টেশন কোনটি তা জিজ্ঞাসা করতে পারা।",
+      "title_en": "Can-do 52–53",
+      "pattern_en": "Can confirm train/bus destinations and current stops.",
+      "explain_en": "Check transit routes and station announcements.",
+      "examples": [
+        {
+          "jp": "すみません、今どこですか?",
+          "romaji": "Sumimasen, ima doko desu ka?",
+          "bn": "মাফ করবেন, এখন আমরা কোথায়?",
+          "en": "Excuse me, where are we now?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 54–56: যাতায়াতের পথ ও স্টেশনের সাইনবোর্ড বোঝা",
+      "pattern": "行き方を質問したり、駅の中の表示を見て意味がわかる。",
+      "explain": "গন্তব্যে যাওয়ার উপায় জানতে এবং স্টেশনের সাইনবোর্ড (出口, 乗り場, 禁煙) বুঝতে পারা।",
+      "title_en": "Can-do 54–56",
+      "pattern_en": "Can ask directions and understand station signs.",
+      "explain_en": "Understand commute times, directions, and station signage.",
+      "examples": [
+        {
+          "jp": "1時間ぐらいかかります。",
+          "romaji": "Ichijikan gurai kakarimasu.",
+          "bn": "প্রায় ১ ঘণ্টা সময় লাগে।",
+          "en": "It takes about 1 hour."
+        }
+      ]
+    }
+  ]
+}

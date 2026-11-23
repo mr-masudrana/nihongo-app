@@ -1,0 +1,55 @@
+{
+  "lesson": 1,
+  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
+  "title_en": "Good morning! (Greetings)",
+  "points": [
+    {
+      "title": "অভিবাদনের অঙ্গভঙ্গি (Ojigi)",
+      "pattern": "あいさつのジェスチャー",
+      "explain": "জাপানে দেখা হলে বা ধন্যবাদ জানাতে কোমর থেকে মাথা নুইয়ে 'ওজিগি' (Bow) করা হয়। বন্ধুর সাথে রাস্তায় দেখা হলে হালকা মাথা ঝাঁকানোই যথেষ্ট। দুই হাত জোড় করা খাবারের আগে ব্যবহৃত হয়, অভিবাদনের জন্য নয়।",
+      "title_en": "Greeting gestures (Ojigi)",
+      "pattern_en": "Bowing in Japan",
+      "explain_en": "In Japan, people bow from the waist (ojigi) when greeting or thanking.",
+      "examples": [
+        {
+          "jp": "おはようございます。",
+          "romaji": "Ohayou gozaimasu.",
+          "bn": "শুভ সকাল (মাথা নুইয়ে)।",
+          "en": "Good morning (with a bow)."
+        }
+      ]
+    },
+    {
+      "title": "'সায়োনারা' (Sayoonara) এর ব্যবহার",
+      "pattern": "「さようなら」のあいさつ",
+      "explain": "দৈনন্দিন জীবনে পরিচিতদের সাথে বিদায় নেওয়ার সময় 'সায়োনারা' খুব কম ব্যবহৃত হয়। এটি মূলত স্কুল বা দীর্ঘদিনের জন্য বিদায় নেওয়ার সময় বলা হয়।",
+      "title_en": "When to use 'Sayoonara'",
+      "pattern_en": "Daily farewells vs Sayoonara",
+      "explain_en": "Sayoonara is rarely used in everyday life unless parting for a long time.",
+      "examples": [
+        {
+          "jp": "じゃあ、また。",
+          "romaji": "Jaa, mata.",
+          "bn": "আবার দেখা হবে।",
+          "en": "See you later."
+        }
+      ]
+    },
+    {
+      "title": "ধন্যবাদ অর্থে 'সুমিমাসেন' এর ব্যবহার",
+      "pattern": "「すみません」を使うとき",
+      "explain": "কেউ আপনার পড়ে যাওয়া জিনিস তুলে দিলে বা ট্রেনে সিট ছেড়ে দিলে কৃতজ্ঞতা ও সামান্য সংকোচ প্রকাশ করতে 'সুমিমাসেন' বলা হয়।",
+      "title_en": "When to use 'sumimasen'",
+      "pattern_en": "Apologizing while thanking",
+      "explain_en": "Used when someone goes out of their way to help you.",
+      "examples": [
+        {
+          "jp": "あ、すみません。",
+          "romaji": "A, sumimasen.",
+          "bn": "ওহ, ধন্যবাদ / মাফ করবেন।",
+          "en": "Oh, thank you / sorry."
+        }
+      ]
+    }
+  ]
+}

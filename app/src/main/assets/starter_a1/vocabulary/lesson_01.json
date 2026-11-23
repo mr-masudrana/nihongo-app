@@ -1,63 +1,105 @@
 {
   "lesson": 1,
-  "title": "জাপানি ভাষায় শুভেচ্ছা ও পরিচিতি",
-  "title_en": "Greetings and Introductions",
+  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
+  "title_en": "Good morning! (Greetings)",
   "words": [
     {
-      "word": "はじめまして",
-      "reading": "はじめまして",
-      "romaji": "hajimemashite",
-      "bn": "প্রথম দেখা হলো (শুভেচ্ছা)",
-      "en": "Nice to meet you"
+      "word": "おはようございます",
+      "reading": "おはようございます",
+      "romaji": "ohayou gozaimasu",
+      "bn": "শুভ সকাল (ভদ্র রূপ)",
+      "en": "Good morning (polite)"
     },
     {
-      "word": "わたし",
-      "reading": "わたし",
-      "romaji": "watashi",
-      "bn": "আমি",
-      "en": "I / me"
+      "word": "おはよう",
+      "reading": "おはよう",
+      "romaji": "ohayou",
+      "bn": "শুভ সকাল (সাধারণ)",
+      "en": "Good morning (casual)"
     },
     {
-      "word": "なまえ",
-      "reading": "なまえ",
-      "romaji": "namae",
-      "bn": "নাম",
-      "en": "name"
+      "word": "こんにちは",
+      "reading": "こんにちは",
+      "romaji": "konnichiwa",
+      "bn": "শুভ দুপুর / হ্যালো",
+      "en": "Hello / Good afternoon"
     },
     {
-      "word": "くに",
-      "reading": "くに",
-      "romaji": "kuni",
-      "bn": "দেশ",
-      "en": "country"
+      "word": "こんばんは",
+      "reading": "こんばんは",
+      "romaji": "konbanwa",
+      "bn": "শুভ সন্ধ্যা",
+      "en": "Good evening"
     },
     {
-      "word": "しごと",
-      "reading": "しごと",
-      "romaji": "shigoto",
-      "bn": "কাজ / পেশা",
-      "en": "job / work"
+      "word": "じゃあ、また",
+      "reading": "じゃあ、また",
+      "romaji": "jaa, mata",
+      "bn": "আবার দেখা হবে",
+      "en": "See you later"
     },
     {
-      "word": "にほん",
-      "reading": "にほん",
-      "romaji": "nihon",
-      "bn": "জাপান",
-      "en": "Japan"
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "romaji": "shitsureeshimasu",
+      "bn": "আসি / বিদায় নিচ্ছি (ভদ্র)",
+      "en": "Excuse me / Goodbye (polite)"
     },
     {
-      "word": "バングラデシュ",
-      "reading": "バングラデシュ",
-      "romaji": "banguradeshu",
-      "bn": "বাংলাদেশ",
-      "en": "Bangladesh"
+      "word": "お先に失礼します",
+      "reading": "おさきにしつれいします",
+      "romaji": "osaki ni shitsureeshimasu",
+      "bn": "আমি আগে যাচ্ছি (কর্মক্ষেত্রে)",
+      "en": "Excuse me for leaving ahead of you"
     },
     {
-      "word": "よろしくおねがいします",
-      "reading": "よろしくおねがいします",
-      "romaji": "yoroshiku onegaishimasu",
-      "bn": "দয়া করে ভালো সম্পর্ক রাখবেন / ধন্যবাদ",
-      "en": "Pleased to meet you"
+      "word": "お疲れさまでした",
+      "reading": "おつかれさまでした",
+      "romaji": "otsukaresama deshita",
+      "bn": "কাজের জন্য ধন্যবাদ / বিদায়",
+      "en": "Thank you for your hard work"
+    },
+    {
+      "word": "おやすみなさい",
+      "reading": "おやすみなさい",
+      "romaji": "oyasuminasai",
+      "bn": "শুভ রাত্রি",
+      "en": "Good night"
+    },
+    {
+      "word": "ありがとうございます",
+      "reading": "ありがとうございます",
+      "romaji": "arigatou gozaimasu",
+      "bn": "অনেক ধন্যবাদ",
+      "en": "Thank you very much"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "romaji": "sumimasen",
+      "bn": "মাফ করবেন / ধন্যবাদ",
+      "en": "Excuse me / I'm sorry / Thank you"
+    },
+    {
+      "word": "ごめん",
+      "reading": "ごめん",
+      "romaji": "gomen",
+      "bn": "দুঃখিত (বন্ধুদের মাঝে)",
+      "en": "Sorry (casual)"
+    },
+    {
+      "word": "どうぞ",
+      "reading": "どうぞ",
+      "romaji": "douzo",
+      "bn": "নিন / এই যে",
+      "en": "Here you go / Please"
+    },
+    {
+      "word": "いいえ",
+      "reading": "いいえ",
+      "romaji": "iie",
+      "bn": "না / কিছু না",
+      "en": "No / You're welcome"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "lesson": 14,
+  "title": "অনেক বড় ভবন, তাই না!",
+  "title_en": "It's a big building, isn't it.",
+  "dialogues": [
+    {
+      "title": "১. ফোনে নিজের অবস্থান জানানো",
+      "title_en": "1. Telling someone where you are on the phone",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "もしもし、今どこにいますか?",
+          "romaji": "Moshi moshi, ima doko ni imasu ka?",
+          "bn": "হ্যালো, এখন কোথায় আছেন?",
+          "en": "Hello, where are you now?"
+        },
+        {
+          "speaker": "B",
+          "jp": "今、改札の前にいます。",
+          "romaji": "Ima, kaisatsu no mae ni imasu.",
+          "bn": "এখন টিকিট গেটের সামনে আছি।",
+          "en": "I'm in front of the ticket gate now."
+        }
+      ]
+    }
+  ]
+}

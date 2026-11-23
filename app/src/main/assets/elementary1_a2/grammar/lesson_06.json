@@ -1,21 +1,37 @@
 {
   "lesson": 6,
-  "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য",
-  "title_en": "Asking Directions",
+  "title": "পোস্ট অফিসে কীভাবে গেলে ভালো হয়?",
+  "title_en": "Please tell me how to get to the post office.",
   "points": [
     {
-      "title": "রাস্তা জিজ্ঞাসা ও গন্তব্য — ব্যাকরণ প্যাটার্ন",
-      "pattern": "まっすぐ について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 6-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Asking Directions — Grammar Pattern",
-      "pattern_en": "About massugu",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 6.",
+      "title": "Nに行きたいんですが… / V-て、〜 (পথ জিজ্ঞাসা ও নির্দেশনা)",
+      "pattern": "郵便局に行きたいんですが… / この道をまっすぐ行って、左に曲がってください",
+      "explain": "গন্তব্যে যাওয়ার পথ জানতে 'に行きたいんですが…' এবং পরপর নির্দেশনা দিতে ক্রিয়ার て-form ব্যবহৃত হয়।",
+      "title_en": "Asking and giving directions",
+      "pattern_en": "N ni ikitain desu ga... / V-te, ~te kudasai",
+      "explain_en": "Ask for directions politely and chain instructions with te-form.",
       "examples": [
         {
-          "jp": "まっすぐが わかりますか。",
-          "romaji": "massugu ga wakarimasu ka.",
-          "bn": "আপনি কি সোজা বোঝেন?",
-          "en": "Do you understand straight?"
+          "jp": "橋を渡って、すぐ右に曲がったところにあります。",
+          "romaji": "Hashi o watatte, sugu migi ni magatta tokoro ni arimasu.",
+          "bn": "সেতু পার হয়ে ঠিক ডানে ঘুরলেই পাবেন।",
+          "en": "Cross the bridge and turn right immediately."
+        }
+      ]
+    },
+    {
+      "title": "N1 じゃなくて、N2 (ভুল সংশোধন করা)",
+      "pattern": "1つ目じゃなくて、2つ目です",
+      "explain": "অপর ব্যক্তি ভুল বুঝলে সেটি সংশোধন করে সঠিক তথ্য দিতে 'じゃなくて' ব্যবহৃত হয়।",
+      "title_en": "Correcting information with じゃなくて",
+      "pattern_en": "N1 ja nakute, N2",
+      "explain_en": "Clarify misunderstandings by saying 'not N1, but N2'.",
+      "examples": [
+        {
+          "jp": "市立博物館じゃなくて、科学博物館です。",
+          "romaji": "Shiritsu hakubutsukan ja nakute, kagaku hakubutsukan desu.",
+          "bn": "পৌর জাদুঘর নয়, বিজ্ঞান জাদুঘর।",
+          "en": "Not the municipal museum, the science museum."
         }
       ]
     }

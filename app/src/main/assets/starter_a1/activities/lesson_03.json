@@ -1,0 +1,41 @@
+{
+  "lesson": 3,
+  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title_en": "Nice to meet you.",
+  "dialogues": [
+    {
+      "title": "১. আন্তর্জাতিক অনুষ্ঠানে প্রথম পরিচয়",
+      "title_en": "1. Meeting at an international exchange party",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "お名前は?",
+          "romaji": "O-namae wa?",
+          "bn": "আপনার নাম কী?",
+          "en": "What is your name?"
+        },
+        {
+          "speaker": "B",
+          "jp": "チャンです。ベトナムから来ました。",
+          "romaji": "Chan desu. Betonamu kara kimashita.",
+          "bn": "আমি চ্যান। ভিয়েতনাম থেকে এসেছি।",
+          "en": "I'm Trang. I'm from Vietnam."
+        },
+        {
+          "speaker": "A",
+          "jp": "ケマラさんも、ベトナムからですか?",
+          "romaji": "Kemara-san mo, Betonamu kara desu ka?",
+          "bn": "কেমারাও কি ভিয়েতনাম থেকে?",
+          "en": "Are you from Vietnam too, Khemera?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いいえ。ベトナムじゃないです。カンボジアから来ました。",
+          "romaji": "Iie. Betonamu ja nai desu. Kanbojia kara kimashita.",
+          "bn": "না। ভিয়েতনাম নয়। আমি কম্বোডিয়া থেকে এসেছি।",
+          "en": "No. Not Vietnam. I came from Cambodia."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "lesson": 11,
+  "title": "সংখ্যা, Counter ও পরিমাণ",
+  "title_en": "Numbers, counters and quantities",
+  "points": [
+    {
+      "title": "জাপানি সংখ্যা ও Counter Suffix",
+      "pattern": "Number + counter",
+      "explain": "জাপানিতে মানুষ ও জিনিস গোনার সময় কী গোনা হচ্ছে তার ওপর Counter বা গণনাসূচক প্রত্যয় বদলে যায়। সাধারণ জিনিসের জন্য ひとつ、ふたつ、みっつ…とお; মানুষের জন্য 一人 (ひとり), 二人 (ふたり), 三人 (さんにん); সমতল জিনিসের জন্য ～枚; যানবাহন/যন্ত্রের জন্য ～台; বার/ঘটনার জন্য ～回; মিনিটের জন্য ～分; ঘণ্টার জন্য ～時間; দিনের জন্য ～日; সপ্তাহের জন্য ～週間; মাসের জন্য ～か月; বছরের জন্য ～年 ব্যবহার হয়।",
+      "title_en": "Japanese numbers and counter suffixes",
+      "pattern_en": "Number + counter",
+      "explain_en": "Japanese uses different counters depending on what is being counted. General objects use ひとつ, ふたつ, みっつ … とお; people use 人 (with special forms ひとり and ふたり); flat objects use 枚; machines and vehicles use 台; occurrences use 回; minutes use 分; hours use 時間; days use 日; weeks use 週間; months use か月; and years use 年.",
+      "examples": [
+        {
+          "jp": "りんごを 四つ 買いました。",
+          "romaji": "Ringo o yottsu kaimashita.",
+          "bn": "চারটি আপেল কিনেছি।",
+          "en": "I bought four apples."
+        },
+        {
+          "jp": "外国人の 学生が 二人 います。",
+          "romaji": "Gaikokujin no gakusei ga futari imasu.",
+          "bn": "দুজন বিদেশি শিক্ষার্থী আছে।",
+          "en": "There are two foreign students."
+        },
+        {
+          "jp": "車が 三台 あります。",
+          "romaji": "Kuruma ga sandai arimasu.",
+          "bn": "তিনটি গাড়ি আছে।",
+          "en": "There are three cars."
+        }
+      ]
+    },
+    {
+      "title": "Quantifier-এর অবস্থান — পরিমাণের সংখ্যা কোথায় বসে",
+      "pattern": "N を／が + Quantifier + V",
+      "explain": "সাধারণত যে বিশেষ্যকে গোনা হচ্ছে তার পরে Particle এবং তারপর Quantifier বসে। অর্থাৎ N + Particle + সংখ্যা/Counter + Verb। সময়ের দৈর্ঘ্য বোঝানো Quantifier-এর ক্ষেত্রে ব্যবহার কিছুটা আলাদা হতে পারে।",
+      "title_en": "Position of quantifiers",
+      "pattern_en": "N + particle + Quantifier + V",
+      "explain_en": "A quantifier usually comes after the noun and its particle: N + particle + number/counter + verb. Quantifiers expressing duration can behave differently.",
+      "examples": [
+        {
+          "jp": "みかんを 八つ 買いました。",
+          "romaji": "Mikan o yattsu kaimashita.",
+          "bn": "আটটি ম্যান্ডারিন কমলা কিনেছি।",
+          "en": "I bought eight mandarin oranges."
+        },
+        {
+          "jp": "外国人の 学生が 五人 います。",
+          "romaji": "Gaikokujin no gakusei ga gonin imasu.",
+          "bn": "পাঁচজন বিদেশি শিক্ষার্থী আছে।",
+          "en": "There are five foreign students."
+        }
+      ]
+    },
+    {
+      "title": "いくつ／なん + Counter — কতটি/কতজন",
+      "pattern": "いくつ + V／なん + counter + ありますか・いますか",
+      "explain": "সাধারণ জিনিসের সংখ্যা জানতে いくつ ব্যবহার হয়। নির্দিষ্ট Counter-এর সংখ্যা জানতে なん + Counter ব্যবহার করুন; যেমন 何人 (なんにん) কতজন, 何時間 (なんじかん) কত ঘণ্টা।",
+      "title_en": "いくつ／なん + counter — asking how many",
+      "pattern_en": "いくつ + V／なん + counter + ありますか・いますか",
+      "explain_en": "Use いくつ to ask how many general objects there are. Use なん + counter to ask for a count with a specific counter, such as 何人 (how many people) or 何時間 (how many hours).",
+      "examples": [
+        {
+          "jp": "みかんを いくつ 買いましたか。",
+          "romaji": "Mikan o ikutsu kaimashita ka.",
+          "bn": "কতটি ম্যান্ডারিন কমলা কিনেছেন?",
+          "en": "How many mandarin oranges did you buy?"
+        },
+        {
+          "jp": "八つ 買いました。",
+          "romaji": "Yattsu kaimashita.",
+          "bn": "আটটি কিনেছি।",
+          "en": "I bought eight."
+        },
+        {
+          "jp": "毎晩 何時間 日本語を 勉強しますか。",
+          "romaji": "Maiban nan-jikan nihongo o benkyō shimasu ka.",
+          "bn": "প্রতি রাতে কত ঘণ্টা জাপানি পড়েন?",
+          "en": "How many hours do you study Japanese every night?"
+        },
+        {
+          "jp": "二時間 勉強します。",
+          "romaji": "Ni-jikan benkyō shimasu.",
+          "bn": "দুই ঘণ্টা পড়ি।",
+          "en": "I study for two hours."
+        }
+      ]
+    },
+    {
+      "title": "どのくらい — কতক্ষণ/কত সময় ধরে",
+      "pattern": "どのくらい + V ますか",
+      "explain": "কোনো কাজ করতে কত সময় লাগে বা কত দিন/বছর ধরে কাজটি করা হচ্ছে তা জানতে どのくらい ব্যবহার হয়। উত্তরে সময়ের পরিমাণ বলা হয়।",
+      "title_en": "どのくらい — asking about duration",
+      "pattern_en": "どのくらい + V ますか",
+      "explain_en": "Use どのくらい to ask how long an activity takes or how long it has continued. The answer gives a duration.",
+      "examples": [
+        {
+          "jp": "どのくらい 日本語を 勉強しましたか。",
+          "romaji": "Dono kurai nihongo o benkyō shimashita ka.",
+          "bn": "কত বছর জাপানি পড়েছেন?",
+          "en": "How long did you study Japanese?"
+        },
+        {
+          "jp": "三年 勉強しました。",
+          "romaji": "San-nen benkyō shimashita.",
+          "bn": "তিন বছর পড়েছি।",
+          "en": "I studied for three years."
+        },
+        {
+          "jp": "大阪から 東京まで どのくらい かかりますか。",
+          "romaji": "Ōsaka kara Tōkyō made dono kurai kakarimasu ka.",
+          "bn": "ওসাকা থেকে টোকিও যেতে কত সময় লাগে?",
+          "en": "How long does it take from Osaka to Tokyo?"
+        }
+      ]
+    },
+    {
+      "title": "～ぐらい — আনুমানিক পরিমাণ",
+      "pattern": "Quantifier + ぐらい",
+      "explain": "সংখ্যা বা পরিমাণের পরে ぐらい বসিয়ে ‘প্রায়/মোটামুটি’ বোঝানো হয়।",
+      "title_en": "～ぐらい — approximate quantity or duration",
+      "pattern_en": "Quantifier + ぐらい",
+      "explain_en": "ぐらい follows a number or quantity to mean “about” or “approximately.”",
+      "examples": [
+        {
+          "jp": "学校に 先生が 三十人ぐらい います。",
+          "romaji": "Gakkō ni sensei ga sanjū-nin gurai imasu.",
+          "bn": "স্কুলে প্রায় ৩০ জন শিক্ষক আছেন।",
+          "en": "There are about thirty teachers at our school."
+        },
+        {
+          "jp": "十五分ぐらい かかります。",
+          "romaji": "Jūgo-fun gurai kakarimasu.",
+          "bn": "প্রায় ১৫ মিনিট লাগে।",
+          "en": "It takes about fifteen minutes."
+        }
+      ]
+    },
+    {
+      "title": "সময় + に + 一回／回数 + V — কতবার করা হয়",
+      "pattern": "Time period に + 回数 + V",
+      "explain": "কোনো নির্দিষ্ট সময়ের মধ্যে কাজটি কতবার করা হয় তা বোঝাতে সময়ের পরে に এবং কতবার বোঝাতে ～回 ব্যবহার হয়।",
+      "title_en": "Time period に 回数 V — frequency",
+      "pattern_en": "Time period に + 回数 + V",
+      "explain_en": "Use に after a time period and ～回 for the number of times an action occurs during that period.",
+      "examples": [
+        {
+          "jp": "一か月に 二回 映画を 見ます。",
+          "romaji": "Ikkagetsu ni nikai eiga o mimasu.",
+          "bn": "মাসে দুইবার সিনেমা দেখি।",
+          "en": "I go to see a film about twice a month."
+        },
+        {
+          "jp": "一週間に 三回 ジョギングを します。",
+          "romaji": "Isshūkan ni sankai jogingu o shimasu.",
+          "bn": "সপ্তাহে তিনবার জগিং করি।",
+          "en": "I go jogging three times a week."
+        }
+      ]
+    },
+    {
+      "title": "Quantifier／N + だけ — শুধু/মাত্র",
+      "pattern": "Quantifier + だけ／N + だけ",
+      "explain": "だけ অর্থ ‘শুধু’ বা ‘মাত্র’। কোনো পরিমাণ বা বিশেষ্যের পরে বসে বোঝায় যে এর বেশি বা অন্য কিছু নেই।",
+      "title_en": "Quantifier／N + だけ — only",
+      "pattern_en": "Quantifier + だけ／N + だけ",
+      "explain_en": "だけ means “only.” It follows a quantity or noun to indicate that there is no more or nothing else.",
+      "examples": [
+        {
+          "jp": "パワー電気に 外国人の 社員が 一人だけ います。",
+          "romaji": "Pawā Denki ni gaikokujin no shain ga hitori dake imasu.",
+          "bn": "পাওয়ার ইলেকট্রিকে মাত্র একজন বিদেশি কর্মী আছেন।",
+          "en": "There is only one foreign employee at Power Electric."
+        },
+        {
+          "jp": "休みは 日曜日だけです。",
+          "romaji": "Yasumi wa nichiyōbi dake desu.",
+          "bn": "ছুটি শুধু রবিবার।",
+          "en": "Sunday is my only day off."
+        }
+      ]
+    }
+  ]
+}

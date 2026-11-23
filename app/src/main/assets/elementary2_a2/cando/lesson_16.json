@@ -1,0 +1,39 @@
+{
+  "lesson": 16,
+  "title": "ভূমিকম্প হলেও আতঙ্কিত হয়ে ছোটাছুটি করবেন না",
+  "title_en": "Do not panic in case of an earthquake.",
+  "points": [
+    {
+      "title": "Can-do 68–70: জরুরি ভূমিকম্প সতর্কবার্তা ও দুর্যোগ মহড়ার নির্দেশ বোঝা",
+      "pattern": "災害のニュースやアナウンス、避難訓練の説明を聞いて理解することができる。",
+      "explain": "ফোন বা টিভিতে জরুরি ভূমিকম্প সতর্কবার্তা এবং আগুন বা ভূমিকম্পের মহড়ার নির্দেশনা বুঝতে পারা।",
+      "title_en": "Can-do 68–70",
+      "pattern_en": "Can understand disaster warnings and evacuation drill instructions.",
+      "explain_en": "Follow emergency alerts and safety protocols.",
+      "examples": [
+        {
+          "jp": "テーブルの下に入って、頭を守ってください。",
+          "romaji": "Teeburu no shita ni haitte, atama o mamotte kudasai.",
+          "bn": "টেবিলের নিচে ঢুকে মাথা রক্ষা করুন।",
+          "en": "Get under a table and protect your head."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 71–72: দুর্যোগে আশ্রয়কেন্দ্র খোঁজা ও দুর্যোগ নির্দেশিকা পড়া",
+      "pattern": "災害時に必要な情報を質問したり、防災パンフレットを読んで理解したりできる。",
+      "explain": "নিরাপদ আশ্রয়কেন্দ্র কোথায় তা জানতে এবং সহজ জাপানিতে লেখা দুর্যোগ প্রস্তুতি পুস্তিকা পড়তে পারা।",
+      "title_en": "Can-do 71–72",
+      "pattern_en": "Can ask for shelter info and read disaster prevention brochures.",
+      "explain_en": "Locate evacuation sites and prepare emergency supplies.",
+      "examples": [
+        {
+          "jp": "非常持ち出し袋を準備します。",
+          "romaji": "Hijou mochidashi bukuro o junbi shimasu.",
+          "bn": "জরুরি দুর্যোগ ব্যাগ প্রস্তুত করি।",
+          "en": "I prepare an emergency grab bag."
+        }
+      ]
+    }
+  ]
+}

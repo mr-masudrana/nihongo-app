@@ -1,0 +1,67 @@
+{
+  "lesson": 24,
+  "title": "দেওয়া, পাওয়া ও উপকার করা",
+  "title_en": "Giving and receiving",
+  "points": [
+    {
+      "title": "くれます — আমাকে/আমাদের দেয়",
+      "pattern": "Person が（私に）N を くれます",
+      "explain": "অন্য কেউ বক্তাকে বা বক্তার পরিবারের কাউকে কিছু দিলে くれます ব্যবহার হয়। あげます সাধারণত বক্তা অন্য কাউকে দিলে ব্যবহৃত হয়; বক্তা নিজে গ্রহণকারী হলে くれます উপযুক্ত।",
+      "title_en": "くれます — someone gives to me",
+      "pattern_en": "Person が（私に）N を くれます",
+      "examples": [
+        {
+          "jp": "佐藤さんは私にクリスマスカードをくれました。",
+          "romaji": "Satou-san wa watashi ni kurisumasu kaado o kuremashita.",
+          "bn": "সাতো-সান আমাকে ক্রিসমাস কার্ড দিয়েছেন।",
+          "en": "Ms. Sato gave me a Christmas card."
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + あげます — কারও জন্য কাজ করা",
+      "pattern": "Person に Vて-form + あげます",
+      "explain": "নিজে অন্য কারও উপকারের জন্য কোনো কাজ করলে ～てあげます ব্যবহার হয়। তবে উচ্চ মর্যাদার ব্যক্তির ক্ষেত্রে এটি patronizing শোনাতে পারে; সতর্কভাবে ব্যবহার করতে হয়।",
+      "title_en": "Doing something for someone",
+      "pattern_en": "Person に Vて-form + あげます",
+      "examples": [
+        {
+          "jp": "木村さんに本を貸してあげました。",
+          "romaji": "Kimura-san ni hon o kashite agemashita.",
+          "bn": "কিমুরা-সানকে বই ধার দিয়েছি (তাঁর উপকারের জন্য)।",
+          "en": "I lent Ms. Kimura a book."
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + もらいます — কারও কাছ থেকে কাজ করিয়ে নেওয়া/সুবিধা পাওয়া",
+      "pattern": "Person に／から Vて-form + もらいます",
+      "explain": "অন্য কেউ আমার জন্য কোনো কাজ করে দিলে এবং আমি সেই কাজ থেকে উপকার পেলে ～てもらいます ব্যবহার হয়। কাজটি করা ব্যক্তিকে に বা から দিয়ে চিহ্নিত করা যায়।",
+      "title_en": "Receiving a favour",
+      "pattern_en": "Person に／から Vて-form + もらいます",
+      "examples": [
+        {
+          "jp": "山田さんに電話番号を教えてもらいました。",
+          "romaji": "Yamada-san ni denwa bangou o oshiete moraimashita.",
+          "bn": "ইয়ামাদা-সান আমাকে ফোন নম্বরটি জানিয়ে দিয়েছেন।",
+          "en": "Mr. Yamada told me the telephone number."
+        }
+      ]
+    },
+    {
+      "title": "Vて-form + くれます — কেউ আমার জন্য কাজ করে দেয়",
+      "pattern": "Person が Vて-form + くれます",
+      "explain": "অন্য কেউ বক্তার জন্য বা বক্তার পরিবারের কারও জন্য কোনো কাজ করে দিলে ～てくれます ব্যবহার হয়। বক্তা এই কাজকে নিজের জন্য পাওয়া উপকার হিসেবে দেখায়।",
+      "title_en": "Someone does a favour for me",
+      "pattern_en": "Person が Vて-form + くれます",
+      "examples": [
+        {
+          "jp": "母はセーターを送ってくれました。",
+          "romaji": "Haha wa seetaa o okutte kuremashita.",
+          "bn": "মা আমাকে একটি সোয়েটার পাঠিয়ে দিয়েছেন।",
+          "en": "My mother sent me a sweater."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": 16,
+  "title": "এটার দাম কত?",
+  "title_en": "How much is this?",
+  "points": [
+    {
+      "title": "Can-do 66–68: পণ্যের দাম ও পরিমাণ বলা",
+      "pattern": "商品の値段を聞いたり質問したりし、必要な量や数を伝えることができる。",
+      "explain": "দোকানে দাম জিজ্ঞাসা করতে এবং গ্রাম বা সংখ্যায় প্রয়োজনীয় পরিমাণ বলতে পারা।",
+      "title_en": "Can-do 66–68",
+      "pattern_en": "Can ask prices and specify quantities.",
+      "explain_en": "Understand prices and order by weight or count.",
+      "examples": [
+        {
+          "jp": "ひき肉200gください。",
+          "romaji": "Hikiniku nihyaku-guramu kudasai.",
+          "bn": "২০০ গ্রাম মাংসের কিমা দিন।",
+          "en": "200g of minced meat, please."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 69–70: কনবিনি কাউন্টার ও ডিসকাউন্ট স্টিকার বোঝা",
+      "pattern": "コンビニのレジの質問に答えたり、割引表示を見て値段がわかる。",
+      "explain": "ক্যাশ কাউন্টারে চপস্টিক, ব্যাগ বা খাবার গরম করার প্রশ্নের উত্তর দিতে এবং ডিসকাউন্ট (割引 / 半額) বুঝতে পারা।",
+      "title_en": "Can-do 69–70",
+      "pattern_en": "Can answer checkout questions and read discount labels.",
+      "explain_en": "Respond at convenience store registers and calculate discounts.",
+      "examples": [
+        {
+          "jp": "半額 (50% OFF)",
+          "romaji": "Hangaku",
+          "bn": "অর্ধেক দাম",
+          "en": "Half price"
+        }
+      ]
+    }
+  ]
+}

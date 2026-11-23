@@ -1,21 +1,37 @@
 {
   "lesson": 3,
-  "title": "অনলাইন কেনাকাটা ও ডেলিভারি",
-  "title_en": "Online Shopping and Delivery",
+  "title": "অ্যালার্জি আছে বলে খেতে পারি না",
+  "title_en": "I cannot eat it because of an allergy.",
   "points": [
     {
-      "title": "অনলাইন কেনাকাটা ও ডেলিভারি — ব্যাকরণ প্যাটার্ন",
-      "pattern": "にもつ ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 3-এর মূল ব্যাকরণ।",
-      "title_en": "Online Shopping and Delivery — Grammar Pattern",
-      "pattern_en": "Can do nimotsu",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 3.",
+      "title": "S1 ので、S2 (ব্যক্তিগত কারণ জানিয়ে অনুরোধ/অস্বীকৃতি)",
+      "pattern": "アレルギーがあるので、食べられないんです / 自転車で来たので、飲めないんです",
+      "explain": "অ্যালার্জি, ধর্মীয় নিষেধাজ্ঞা বা ব্যক্তিগত কারণ ভদ্রভাবে জানাতে '〜ので、〜んです' ব্যবহৃত হয়।",
+      "title_en": "Giving personal reasons politely with ので",
+      "pattern_en": "S1 node, S2 n desu",
+      "explain_en": "Explain dietary restrictions or personal reasons softly.",
       "examples": [
         {
-          "jp": "じぶんで にもつ を することができます。",
-          "romaji": "Jibun de nimotsu o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে পার্সেল / মালামাল করতে পারি।",
-          "en": "I can do parcel / luggage by myself."
+          "jp": "宗教上の理由で食べられないので、入れないでください。",
+          "romaji": "Shuukyoujou no riyuu de taberarenai node, irenaide kudasai.",
+          "bn": "ধর্মীয় কারণে খেতে পারি না, তাই দয়া করে দেবেন না।",
+          "en": "I can't eat it for religious reasons, so please leave it out."
+        }
+      ]
+    },
+    {
+      "title": "ナA-な / イA-い / V-るのは、Nです (নির্দিষ্ট তথ্য তুলে ধরা)",
+      "pattern": "人気があるのは、お刺身定食です",
+      "explain": "কোন খাবারটি জনপ্রিয় বা সেরা তা নির্দিষ্ট করে বলতে '〜のは、Nです' গঠন ব্যবহৃত হয়।",
+      "title_en": "Highlighting specific items with 〜のは、Nです",
+      "pattern_en": "Ninki ga aru no wa, N desu",
+      "explain_en": "Emphasize the recommended or popular dish.",
+      "examples": [
+        {
+          "jp": "この店でいちばん人気があるのは、からあげ定食です。",
+          "romaji": "Kono mise de ichiban ninki ga aru no wa, karaage teishoku desu.",
+          "bn": "এই দোকানের সবচেয়ে জনপ্রিয় খাবার হলো কারাআগে সেট মেনু।",
+          "en": "The most popular dish at this restaurant is the karaage set meal."
         }
       ]
     }

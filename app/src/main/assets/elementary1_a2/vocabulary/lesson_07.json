@@ -1,14 +1,91 @@
 {
   "lesson": 7,
-  "title": "বন্ধুদের সাথে দেখা করা",
-  "title_en": "Meeting Up with Friends",
+  "title": "রাস্তা হারিয়ে ফেলেছি, একটু দেরি হবে",
+  "title_en": "I will be a bit late because I got lost.",
   "words": [
     {
-      "word": "やくそく",
-      "reading": "やくそく",
-      "romaji": "yakusoku",
-      "bn": "প্রতিশ্রুতি / অ্যাপয়েন্টমেন্ট",
-      "en": "promise / appointment"
+      "word": "集合",
+      "reading": "しゅうごう",
+      "romaji": "shuugou",
+      "bn": "একত্রিত হওয়া / মিটিং পয়েন্ট",
+      "en": "gathering / meeting up"
+    },
+    {
+      "word": "受付",
+      "reading": "うけつけ",
+      "romaji": "uketsuke",
+      "bn": "রিসেপশন / অভ্যর্থনা ডেস্ক",
+      "en": "reception desk"
+    },
+    {
+      "word": "門",
+      "reading": "もん",
+      "romaji": "mon",
+      "bn": "গেট / ফটক",
+      "en": "gate"
+    },
+    {
+      "word": "30分前",
+      "reading": "さんじゅっぷんまえ",
+      "romaji": "sanjuppun mae",
+      "bn": "৩০ মিনিট আগে",
+      "en": "30 minutes before"
+    },
+    {
+      "word": "事故",
+      "reading": "じこ",
+      "romaji": "jiko",
+      "bn": "দুর্ঘটনা",
+      "en": "accident"
+    },
+    {
+      "word": "止まります",
+      "reading": "とまります",
+      "romaji": "tomarimasu",
+      "bn": "থেমে যায় / বন্ধ হয়",
+      "en": "stop"
+    },
+    {
+      "word": "ねぼうします",
+      "reading": "ねぼうします",
+      "romaji": "nebou shimasu",
+      "bn": "বেশি সময় ঘুমিয়ে ফেলি",
+      "en": "oversleep"
+    },
+    {
+      "word": "道に迷います",
+      "reading": "みちにまよいます",
+      "romaji": "michi ni mayoimasu",
+      "bn": "রাস্তা হারিয়ে ফেলি",
+      "en": "get lost"
+    },
+    {
+      "word": "遅れます",
+      "reading": "おくれます",
+      "romaji": "okuremasu",
+      "bn": "দেরি হয়",
+      "en": "be late"
+    },
+    {
+      "word": "まちがえます",
+      "reading": "まちがえます",
+      "romaji": "machigaemasu",
+      "bn": "ভুল করি",
+      "en": "make a mistake"
+    },
+    {
+      "word": "急ぎます",
+      "reading": "いそぎます",
+      "romaji": "isogimasu",
+      "bn": "তাড়াহুড়ো করি",
+      "en": "hurry"
+    },
+    {
+      "word": "待ちます",
+      "reading": "まちます",
+      "romaji": "machimasu",
+      "bn": "অপেক্ষা করি",
+      "en": "wait"
     }
   ]
 }

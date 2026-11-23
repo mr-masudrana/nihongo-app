@@ -1,21 +1,43 @@
 {
   "lesson": 12,
-  "title": "যাতায়াত ও দিকনির্দেশনা",
-  "title_en": "Transportation and Directions",
+  "title": "একসাথে পান করতে যাবেন?",
+  "title_en": "Do you want to go for a drink together?",
   "points": [
     {
-      "title": "যাতায়াত ও দিকনির্দেশনা — মৌলিক বাক্য",
-      "pattern": "えき です。",
-      "explain": "Irodori Starter A1 লেসন 12-এর মূল বাক্য গঠন।",
-      "title_en": "Transportation and Directions — Basic Pattern",
-      "pattern_en": "eki desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 12.",
+      "title": "【সময়】に【স্থান】で【ইভেন্ট】があります",
+      "pattern": "日曜日に、さくら公園でタイフェスティバルがあります",
+      "explain": "কখন এবং কোথায় কোনো অনুষ্ঠান বা উৎসব অনুষ্ঠিত হবে তা জানাতে এই গঠন ব্যবহৃত হয়।",
+      "title_en": "Event time and location",
+      "pattern_en": "[Time] ni [Place] de [Event] ga arimasu",
+      "explain_en": "State when and where an event takes place.",
       "examples": [
         {
-          "jp": "これは えき です。",
-          "romaji": "Kore wa eki desu.",
-          "bn": "এটি স্টেশন।",
-          "en": "This is station."
+          "jp": "来週、夏祭りがありますね。",
+          "romaji": "Raishuu, natsumatsuri ga arimasu ne.",
+          "bn": "আগামী সপ্তাহে গ্রীষ্ম উৎসব আছে, তাই না?",
+          "en": "There's a summer festival next week, isn't there?"
+        }
+      ]
+    },
+    {
+      "title": "V-ませんか? / V-ましょう / V-に行きます",
+      "pattern": "いっしょに焼肉を食べに行きませんか? / また今度行きましょう",
+      "explain": "কাউকে আমন্ত্রণ জানাতে 'V-ませんか?', প্রস্তাবে রাজি হতে 'V-ましょう' এবং কোনো উদ্দেশ্যে যেতে 'V-に行きます' বসে।",
+      "title_en": "Inviting & Accepting/Declining",
+      "pattern_en": "V-masen ka? / V-mashou / V-ni ikimasu",
+      "explain_en": "Invite someone to an activity or meal.",
+      "examples": [
+        {
+          "jp": "いっしょに飲みに行きませんか?",
+          "romaji": "Issho ni nomi ni ikimasen ka?",
+          "bn": "একসাথে পান করতে যাবেন?",
+          "en": "Would you like to go for a drink together?"
+        },
+        {
+          "jp": "ええ、いいですね。行きましょう。",
+          "romaji": "Ee, ii desu ne. Ikimashou.",
+          "bn": "হ্যাঁ, বেশ ভালো। চলুন যাই।",
+          "en": "Yes, sounds good. Let's go."
         }
       ]
     }

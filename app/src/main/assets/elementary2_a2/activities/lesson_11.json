@@ -1,0 +1,27 @@
+{
+  "lesson": 11,
+  "title": "পয়েন্ট কার্ডটা ভুলে ফেলে এসেছি",
+  "title_en": "I forgot to bring my point card.",
+  "dialogues": [
+    {
+      "title": "১. কাপড়ের দোকানে ট্রায়াল দেওয়া ও হারানো জিনিসের খোঁজ করা",
+      "title_en": "1. Trying on clothes and reporting a lost item",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。このセーター、着てみてもいいですか?",
+          "romaji": "Sumimasen. Kono seetaa, kite mitemo ii desu ka?",
+          "bn": "মাফ করবেন। এই সোয়েটারটা একটু পরে দেখতে পারি?",
+          "en": "Excuse me. May I try on this sweater?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、どうぞ。試着室はあちらです。",
+          "romaji": "Hai, douzo. Shichakushitsu wa achira desu.",
+          "bn": "জি, অবশ্যই। ট্রায়াল রুম ঐদিকে।",
+          "en": "Yes, please go ahead. The fitting room is over there."
+        }
+      ]
+    }
+  ]
+}

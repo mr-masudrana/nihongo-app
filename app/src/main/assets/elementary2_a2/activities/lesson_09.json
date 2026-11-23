@@ -1,0 +1,27 @@
+{
+  "lesson": 9,
+  "title": "প্রাপ্তবয়স্ক দিবসে (সেইজিন নো হি) কী করা হয়?",
+  "title_en": "What do people do on Coming-of-Age Day?",
+  "dialogues": [
+    {
+      "title": "১. জাপানের বার্ষিক উৎসব ও নিজ দেশের উৎসব নিয়ে আলোচনা",
+      "title_en": "1. Discussing Japanese annual events and festivals in your country",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "成人の日は、何をするんですか?",
+          "romaji": "Seijin no hi wa, nani o surun desu ka?",
+          "bn": "প্রাপ্তবয়স্ক দিবসে কী করা হয়?",
+          "en": "What do people do on Coming-of-Age Day?"
+        },
+        {
+          "speaker": "B",
+          "jp": "20歳になった人をお祝いするんだよ。着物を着て、成人式に出ます。",
+          "romaji": "Hatachi ni natta hito o oiwai surun da yo. Kimono o kite, seijinshiki ni demasu.",
+          "bn": "যাদের ২০ বছর বয়স হয়েছে তাদের অভিনন্দন জানানো হয়। কিমোনো পরে অনুষ্ঠানে যোগ দেয়।",
+          "en": "People celebrate those who turned 20. They wear kimono and attend the ceremony."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 9,
+  "title": "১২টা থেকে ১টা পর্যন্ত দুপুরের বিরতি",
+  "title_en": "Lunch is from noon to 1 o'clock.",
+  "points": [
+    {
+      "title": "সকালের অ্যাসেম্বলি (朝礼) ও পাবলিক পুল",
+      "pattern": "朝礼・公営プール・映画を見る",
+      "explain": "জাপানের অনেক কোম্পানি ও কারখানায় কাজ শুরুর আগে 'চোউরেই' (朝礼) বা সংক্ষিপ্ত সভা এবং হালকা শরীরচর্চা (ラジオ体操) করা হয়।",
+      "title_en": "Morning Assembly (Chourei) & Public Facilities",
+      "pattern_en": "Chourei & Radio Taiso",
+      "explain_en": "Many workplaces start the day with a brief morning meeting.",
+      "examples": [
+        {
+          "jp": "8時50分から朝礼です。",
+          "romaji": "Hachiji gojuppun kara chourei desu.",
+          "bn": "৮টা ৫০ থেকে সকালের সভা।",
+          "en": "Morning assembly starts at 8:50."
+        }
+      ]
+    }
+  ]
+}

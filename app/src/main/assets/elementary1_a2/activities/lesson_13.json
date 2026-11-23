@@ -1,0 +1,27 @@
+{
+  "lesson": 13,
+  "title": "আর ১০ মিনিটের মতো লাগবে বলে মনে হচ্ছে",
+  "title_en": "It will probably end in about ten minutes.",
+  "dialogues": [
+    {
+      "title": "১. কর্মক্ষেত্রে যন্ত্রপাতির সমস্যা ও কাজের অগ্রগতি জানানো",
+      "title_en": "1. Reporting a machine issue and work status",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "すみません。コピー機が動かないんですが…。",
+          "romaji": "Sumimasen. Kopiiki ga ugokanain desu ga...",
+          "bn": "মাফ করবেন। ফটোকপি মেশিনটা কাজ করছে না...",
+          "en": "Excuse me. The photocopier isn't working..."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、紙が詰まってますね。今、直します。",
+          "romaji": "A, kami ga tsumattemasu ne. Ima, naoshimasu.",
+          "bn": "ওহ, কাগজ আটকে গেছে। এখনই ঠিক করে দিচ্ছি।",
+          "en": "Oh, paper is jammed. I'll fix it now."
+        }
+      ]
+    }
+  ]
+}

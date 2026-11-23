@@ -1,14 +1,77 @@
 {
   "lesson": 13,
-  "title": "আবহাওয়া ও পোশাক",
-  "title_en": "Weather and Clothing",
+  "title": "আর ১০ মিনিটের মতো লাগবে বলে মনে হচ্ছে",
+  "title_en": "It will probably end in about ten minutes.",
   "words": [
     {
-      "word": "ふく",
-      "reading": "ふく",
-      "romaji": "fuku",
-      "bn": "পোশাক",
-      "en": "clothes"
+      "word": "動きません",
+      "reading": "うごきません",
+      "romaji": "ugokimasen",
+      "bn": "চলে না / কাজ করে না",
+      "en": "doesn't move / doesn't work"
+    },
+    {
+      "word": "電気がつきません",
+      "reading": "でんきがつきません",
+      "romaji": "denki ga tsukimasen",
+      "bn": "লাইট জ্বলে না / পাওয়ার আসে না",
+      "en": "the light/power won't turn on"
+    },
+    {
+      "word": "紙が詰まりました",
+      "reading": "かみがつまりました",
+      "romaji": "kami ga tsumarimashita",
+      "bn": "কাগজ আটকে গেছে",
+      "en": "paper is jammed"
+    },
+    {
+      "word": "変な音",
+      "reading": "へんなおと",
+      "romaji": "hen na oto",
+      "bn": "অদ্ভুত শব্দ",
+      "en": "strange noise"
+    },
+    {
+      "word": "両面コピー",
+      "reading": "りょうめんコピー",
+      "romaji": "ryoumen kopii",
+      "bn": "উভয় পৃষ্ঠায় ফটোকপি",
+      "en": "double-sided copy"
+    },
+    {
+      "word": "拡大 / 縮小",
+      "reading": "かくだい / しゅくしょう",
+      "romaji": "kakudai / shukushou",
+      "bn": "বড় করা / ছোট করা",
+      "en": "enlarge / reduce"
+    },
+    {
+      "word": "電源",
+      "reading": "でんげん",
+      "romaji": "dengen",
+      "bn": "পাওয়ার / বিদ্যুৎ সংযোগ",
+      "en": "power supply"
+    },
+    {
+      "word": "並べます",
+      "reading": "ならべます",
+      "romaji": "narabemasu",
+      "bn": "সাজিয়ে রাখি",
+      "en": "arrange / line up"
+    },
+    {
+      "word": "配ります",
+      "reading": "くばります",
+      "romaji": "kubarimasu",
+      "bn": "বিতরণ করি",
+      "en": "distribute / hand out"
+    },
+    {
+      "word": "都合が悪い",
+      "reading": "つごうがわるい",
+      "romaji": "tsugou ga warui",
+      "bn": "অসুবিধাজনক (সময় বা পরিস্থিতি)",
+      "en": "inconvenient"
     }
   ]
 }

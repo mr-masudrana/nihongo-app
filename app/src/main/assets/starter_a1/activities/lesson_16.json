@@ -1,0 +1,41 @@
+{
+  "lesson": 16,
+  "title": "এটার দাম কত?",
+  "title_en": "How much is this?",
+  "dialogues": [
+    {
+      "title": "১. কনভিনিয়েন্স স্টোরের ক্যাশ কাউন্টারে কথোপকথন",
+      "title_en": "1. At a convenience store checkout",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "こちら、温めますか?",
+          "romaji": "Kochira, atatamemasu ka?",
+          "bn": "এটা কি গরম করে দেব?",
+          "en": "Would you like this heated up?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、お願いします。",
+          "romaji": "Hai, onegaishimasu.",
+          "bn": "হ্যাঁ, গরম করে দিন।",
+          "en": "Yes, please."
+        },
+        {
+          "speaker": "A",
+          "jp": "袋、いりますか?",
+          "romaji": "Fukuro, irimasu ka?",
+          "bn": "ব্যাগ লাগবে কি?",
+          "en": "Do you need a bag?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いいえ、けっこうです。",
+          "romaji": "Iie, kekkou desu.",
+          "bn": "না, লাগবে না।",
+          "en": "No, I'm fine."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "lesson": 4,
+  "title": "গতকাল প্রচণ্ড বৃষ্টি হয়েছিল, তাই না!",
+  "title_en": "It rained heavily yesterday.",
+  "points": [
+    {
+      "title": "Can-do 11: আবহাওয়ার কথা বলে অভিবাদন জানানো",
+      "pattern": "天気の話題に触れながら、あいさつをすることができる。",
+      "explain": "প্রতিবেশী বা সহকর্মীর সাথে দেখা হলে আবহাওয়া নিয়ে ছোট কথা বলে অভিবাদন জানাতে পারা।",
+      "title_en": "Can-do 11",
+      "pattern_en": "Can exchange greetings while talking about the weather.",
+      "explain_en": "Use weather as a natural conversation starter.",
+      "examples": [
+        {
+          "jp": "毎日、よく降りますね。",
+          "romaji": "Mainichi, yoku furimasu ne.",
+          "bn": "প্রতিদিন বেশ বৃষ্টি হচ্ছে, তাই না?",
+          "en": "It rains a lot every day, doesn't it?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 12–13: আবহাওয়ার পূর্বাভাস ও SNS পোস্ট বোঝা",
+      "pattern": "天気予報を聞いて理解し、天気についてのSNSの書き込みを読むことができる。",
+      "explain": "টিভি বা রেডিওর আবহাওয়ার পূর্বাভাস এবং টাইফুন বা তুষারপাত নিয়ে SNS পোস্ট বুঝতে পারা।",
+      "title_en": "Can-do 12–13",
+      "pattern_en": "Can understand weather forecasts and SNS weather posts.",
+      "explain_en": "Follow weather forecasts and social media updates.",
+      "examples": [
+        {
+          "jp": "台風が来てます。外はすごい雨がふっています。",
+          "romaji": "Taifuu ga kitemasu. Soto wa sugoi ame ga futte imasu.",
+          "bn": "টাইফুন আসছে। বাইরে প্রচণ্ড বৃষ্টি হচ্ছে।",
+          "en": "A typhoon is coming. It's raining heavily outside."
+        }
+      ]
+    }
+  ]
+}

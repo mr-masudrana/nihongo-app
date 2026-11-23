@@ -1,0 +1,23 @@
+{
+  "lesson": 10,
+  "title": "কোন ধরনের পোশাক পরে গেলে ভালো হবে?",
+  "title_en": "What kind of clothes should I wear?",
+  "points": [
+    {
+      "title": "বিয়ে (ご祝儀), অন্ত্যেষ্টিক্রিয়া (香典), ট্রেনে ফোন ও ওতোশি",
+      "pattern": "葬式・携帯電話マナー・結婚式・お見舞い・お通し",
+      "explain": "জাপানে বিয়েতে সাদা টাই ও বিশেষ খামে (ご祝儀袋) বিজোড় সংখ্যার টাকা (যেমন ৩০,০০০ ইয়েন) দেওয়া হয়, আর অন্ত্যেষ্টিক্রিয়ায় কালো পোশাক ও কালো টাই পরা হয়। ট্রেনে ফোন সাইলেন্ট মোডে রাখা ও কথা না বলা বাধ্যতামূলক শিষ্টাচার।",
+      "title_en": "Weddings, Funerals, Train Phone Etiquette & Otooshi",
+      "pattern_en": "Essential Japanese social manners",
+      "explain_en": "Wear white ties to weddings, black to funerals, and keep phones silent on trains.",
+      "examples": [
+        {
+          "jp": "電車の中ではマナーモードにします。",
+          "romaji": "Densha no naka de wa manaa moodo ni shimasu.",
+          "bn": "ট্রেনের ভেতরে ফোন সাইলেন্ট মোডে রাখি।",
+          "en": "Put your phone on silent mode inside the train."
+        }
+      ]
+    }
+  ]
+}

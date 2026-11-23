@@ -30,6 +30,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.nihongo.domain.Gamification
@@ -44,7 +45,7 @@ import com.example.nihongo.ui.stats.StatsViewModel
 import java.util.Calendar
 
 /**
- * Home ট্যাব: route == ROUTE_HUB হলে নতুন হোম (Irodori JFT-Basic সেকশনসমূহ);
+ * Home ট্যাব: route == ROUTE_HUB হলে হোম সেকশনসমূহ;
  * নইলে নির্বাচিত সেকশন/পাতা (LearnScreen)।
  */
 @Composable
@@ -68,33 +69,34 @@ private data class Tile(val glyph: String, val title: String, val route: String)
 private val basicTiles = listOf(
     Tile("あ", "Hiragana", ROUTE_HIRAGANA),
     Tile("ア", "Katakana", ROUTE_KATAKANA),
-    Tile("数", "Number", ROUTE_NUMBER),
-    Tile("言", "Sentences", ROUTE_SENTENCES),
-    Tile("問", "Test", ROUTE_TEST_KANA)
+    Tile("数", "Number", ROUTE_NUMBER)
 )
 
 private val starterA1Tiles = listOf(
     Tile("語", "Vocabulary", ROUTE_A1_VOCAB),
     Tile("字", "Kanji", ROUTE_A1_KANJI),
     Tile("文", "Grammar", ROUTE_A1_GRAMMAR),
-    Tile("話", "Dialogue", ROUTE_A1_CONVO),
-    Tile("問", "Test", ROUTE_TEST_A1)
+    Tile("話", "Activities", ROUTE_A1_ACTIVITIES),
+    Tile("力", "Can-do", ROUTE_A1_CANDO),
+    Tile("暮", "Tips of life in Japan", ROUTE_A1_TIPS)
 )
 
 private val elementary1A2Tiles = listOf(
     Tile("語", "Vocabulary", ROUTE_A2_1_VOCAB),
     Tile("字", "Kanji", ROUTE_A2_1_KANJI),
     Tile("文", "Grammar", ROUTE_A2_1_GRAMMAR),
-    Tile("話", "Dialogue", ROUTE_A2_1_CONVO),
-    Tile("問", "Test", ROUTE_TEST_A2_1)
+    Tile("話", "Activities", ROUTE_A2_1_ACTIVITIES),
+    Tile("力", "Can-do", ROUTE_A2_1_CANDO),
+    Tile("暮", "Tips of life in Japan", ROUTE_A2_1_TIPS)
 )
 
 private val elementary2A2Tiles = listOf(
     Tile("語", "Vocabulary", ROUTE_A2_2_VOCAB),
     Tile("字", "Kanji", ROUTE_A2_2_KANJI),
     Tile("文", "Grammar", ROUTE_A2_2_GRAMMAR),
-    Tile("話", "Dialogue", ROUTE_A2_2_CONVO),
-    Tile("問", "Test", ROUTE_TEST_A2_2)
+    Tile("話", "Activities", ROUTE_A2_2_ACTIVITIES),
+    Tile("力", "Can-do", ROUTE_A2_2_CANDO),
+    Tile("暮", "Tips of life in Japan", ROUTE_A2_2_TIPS)
 )
 
 @Composable
@@ -125,7 +127,7 @@ private fun HomeHub(statsVm: StatsViewModel, onRoute: (String) -> Unit) {
         HomeHeader(greet, streak)
 
         LevelSection(
-            "BASIC (কানা ও সংখ্যা)", basicTiles, onRoute,
+            "BASIC", basicTiles, onRoute,
             accent = cs.primary, onAccent = cs.onPrimary
         )
         LevelSection(
@@ -227,7 +229,7 @@ private fun TileCard(
 ) {
     val cs = MaterialTheme.colorScheme
     SoftCard(
-        modifier.height(88.dp),
+        modifier.height(94.dp),
         color = cs.surfaceContainerLow,
         borderColor = cs.outlineVariant.copy(alpha = 0.6f),
         shape = RoundedCornerShape(18.dp),
@@ -239,18 +241,20 @@ private fun TileCard(
         ) {
             Box(
                 Modifier
-                    .size(36.dp)
-                    .clip(RoundedCornerShape(11.dp))
+                    .size(34.dp)
+                    .clip(RoundedCornerShape(10.dp))
                     .background(accent.copy(alpha = 0.14f)),
                 contentAlignment = Alignment.Center
             ) {
-                BigText(t.glyph, 20.sp, color = accent, weight = FontWeight.Bold)
+                BigText(t.glyph, 18.sp, color = accent, weight = FontWeight.Bold)
             }
             Text(
                 t.title,
-                style = MaterialTheme.typography.titleSmall,
+                style = MaterialTheme.typography.labelLarge,
                 color = cs.onSurface,
-                maxLines = 1
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis,
+                lineHeight = 16.sp
             )
         }
     }

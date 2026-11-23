@@ -1,0 +1,23 @@
+{
+  "lesson": 1,
+  "title": "রেস্তোরাঁয় কাজ করছি",
+  "title_en": "I work in a restaurant.",
+  "points": [
+    {
+      "title": "সিনিয়র-জুনিয়র (先輩・後輩) ও পদমর্যাদা",
+      "pattern": "「目上」と「目下」・先輩後輩",
+      "explain": "জাপানি সমাজে বয়স, প্রতিষ্ঠানে যোগদানের সময় (সিনিয়র-জুনিয়র) এবং পদমর্যাদা অনুযায়ী ভদ্র রূপ (丁寧体) ও সাধারণ রূপ (普通体) ব্যবহার করা হয়। দোকানে ক্রেতাদের সাথে সর্বদা সম্মানসূচক ভাষা ব্যবহৃত হয়।",
+      "title_en": "Degrees of Formality & Senpai-Koohai",
+      "pattern_en": "Meue, Meshita, Senpai, Koohai",
+      "explain_en": "Speech styles depend on age, seniority, and social status.",
+      "examples": [
+        {
+          "jp": "お元気ですか? (দীর্ঘদিন পর দেখা হলে)",
+          "romaji": "Ogenki desu ka?",
+          "bn": "কেমন আছেন? (প্রতিদিন দেখা হয় এমন সহকর্মীকে এটি বলা হয় না)",
+          "en": "How have you been? (Not used for colleagues seen daily)"
+        }
+      ]
+    }
+  ]
+}

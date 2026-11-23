@@ -1,0 +1,39 @@
+{
+  "lesson": 12,
+  "title": "একসাথে পান করতে যাবেন?",
+  "title_en": "Do you want to go for a drink together?",
+  "points": [
+    {
+      "title": "Can-do 48–49: ইভেন্টের নোটিশ পড়া ও অংশগ্রহণ",
+      "pattern": "イベントのお知らせを見て日時や場所を探し、行くかどうか質問できる。",
+      "explain": "পোস্টার বা নোটিশ থেকে অনুষ্ঠানের তারিখ, সময় ও স্থান খুঁজে বের করতে পারা।",
+      "title_en": "Can-do 48–49",
+      "pattern_en": "Can read event notices and ask about attending.",
+      "explain_en": "Find date, time, and venue on event flyers.",
+      "examples": [
+        {
+          "jp": "明日の忘年会に行きますか?",
+          "romaji": "Ashita no bounenkai ni ikimasu ka?",
+          "bn": "আগামীকালের বর্ষশেষ পার্টিতে যাবেন?",
+          "en": "Are you going to tomorrow's year-end party?"
+        }
+      ]
+    },
+    {
+      "title": "Can-do 50–51: আমন্ত্রণ জানানো ও মেসেজে উত্তর দেওয়া",
+      "pattern": "相手を誘ったり都合を言ったりし、誘いのメッセージに返事を書くことができる。",
+      "explain": "বন্ধুকে আমন্ত্রণ জানাতে, নিজের সুবিধা-অসুবিধা বলতে এবং মেসেজে উত্তর লিখতে পারা।",
+      "title_en": "Can-do 50–51",
+      "pattern_en": "Can invite others and reply to invitation messages.",
+      "explain_en": "Accept or politely decline invitations.",
+      "examples": [
+        {
+          "jp": "いっしょに行きましょう。",
+          "romaji": "Issho ni ikimashou.",
+          "bn": "চলুন একসাথে যাই।",
+          "en": "Let's go together."
+        }
+      ]
+    }
+  ]
+}

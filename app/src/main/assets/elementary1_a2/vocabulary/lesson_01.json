@@ -1,14 +1,105 @@
 {
   "lesson": 1,
-  "title": "নতুন শহরে জীবন শুরু",
-  "title_en": "Starting Life in a New Town",
+  "title": "রেস্তোরাঁয় কাজ করছি",
+  "title_en": "I work in a restaurant.",
   "words": [
     {
-      "word": "まち",
-      "reading": "まち",
-      "romaji": "machi",
-      "bn": "শহর",
-      "en": "town"
+      "word": "お久しぶりです",
+      "reading": "おひさしぶりです",
+      "romaji": "ohisashiburi desu",
+      "bn": "অনেক দিন পর দেখা হলো (ভদ্র)",
+      "en": "Long time no see (polite)"
+    },
+    {
+      "word": "久しぶり",
+      "reading": "ひさしぶり",
+      "romaji": "hisashiburi",
+      "bn": "অনেক দিন পর দেখা (সাধারণ)",
+      "en": "Long time no see (casual)"
+    },
+    {
+      "word": "おかげさまで",
+      "reading": "おかげさまで",
+      "romaji": "okagesama de",
+      "bn": "আপনার দোয়ায় / ভালো আছি",
+      "en": "Thanks to you / I'm doing well"
+    },
+    {
+      "word": "〜になります",
+      "reading": "〜になります",
+      "romaji": "~ni narimasu",
+      "bn": "~ হয়ে গেছে (সময় অতিবাহিত হওয়া)",
+      "en": "it has been ~ (duration)"
+    },
+    {
+      "word": "半年",
+      "reading": "はんとし",
+      "romaji": "hantoshi",
+      "bn": "ছয় মাস / অর্ধেক বছর",
+      "en": "half a year"
+    },
+    {
+      "word": "去年",
+      "reading": "きょねん",
+      "romaji": "kyonen",
+      "bn": "গত বছর",
+      "en": "last year"
+    },
+    {
+      "word": "先月 / 先週",
+      "reading": "せんげつ / せんしゅう",
+      "romaji": "sengetsu / senshuu",
+      "bn": "গত মাস / গত সপ্তাহ",
+      "en": "last month / last week"
+    },
+    {
+      "word": "慣れます",
+      "reading": "なれます",
+      "romaji": "naremasu",
+      "bn": "অভ্যস্ত হওয়া",
+      "en": "get used to"
+    },
+    {
+      "word": "なんとか",
+      "reading": "なんとか",
+      "romaji": "nantoka",
+      "bn": "কোনোমতে / মোটামুটি",
+      "en": "somehow / managing"
+    },
+    {
+      "word": "介護の仕事",
+      "reading": "かいごのしごと",
+      "romaji": "kaigo no shigoto",
+      "bn": "কেয়ারগিভিং বা সেবামূলক কাজ",
+      "en": "caregiving work"
+    },
+    {
+      "word": "建設の仕事",
+      "reading": "けんせつのしごと",
+      "romaji": "kensetsu no shigoto",
+      "bn": "নির্মাণ কাজ",
+      "en": "construction work"
+    },
+    {
+      "word": "専門学校",
+      "reading": "せんもんがっこう",
+      "romaji": "senmon gakkou",
+      "bn": "ভোকেশনাল / কারিগরি স্কুল",
+      "en": "vocational school"
+    },
+    {
+      "word": "通います",
+      "reading": "かよいます",
+      "romaji": "kayoimasu",
+      "bn": "নিয়মিত যাতায়াত করি",
+      "en": "commute / attend"
+    },
+    {
+      "word": "勉強になります",
+      "reading": "べんきょうになります",
+      "romaji": "benkyou ni narimasu",
+      "bn": "অনেক কিছু শেখা যায়",
+      "en": "it's educational / good learning experience"
     }
   ]
 }

@@ -1,21 +1,37 @@
 {
   "lesson": 9,
-  "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা",
-  "title_en": "Describing Travel Experiences",
+  "title": "প্রাপ্তবয়স্ক দিবসে (সেইজিন নো হি) কী করা হয়?",
+  "title_en": "What do people do on Coming-of-Age Day?",
   "points": [
     {
-      "title": "ভ্রমণের অভিজ্ঞতা বর্ণনা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "けしき ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 9-এর মূল ব্যাকরণ।",
-      "title_en": "Describing Travel Experiences — Grammar Pattern",
-      "pattern_en": "Can do keshiki",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 9.",
+      "title": "Nしか + না-বাচক ক্রিয়া (মাত্র/শুধুমাত্র) ও V-たりして、〜",
+      "pattern": "乗り物に3つしか乗れませんでした / 買い物をしたりして、楽しかったです",
+      "explain": "প্রত্যাশার চেয়ে কম বোঝাতে 'Nしか + না-বাচক' এবং ছুটির দিনে করা একাধিক কাজের উদাহরণ দিতে 'V-たりして' বসে।",
+      "title_en": "Only/merely with しか & Listing actions with たり",
+      "pattern_en": "N shika + negative / V-tari shite",
+      "explain_en": "Talk about holiday activities and limitations.",
       "examples": [
         {
-          "jp": "じぶんで けしき を することができます。",
-          "romaji": "Jibun de keshiki o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে দৃশ্য করতে পারি।",
-          "en": "I can do scenery by myself."
+          "jp": "今年は、1日だけ実家に帰りました。",
+          "romaji": "Kotoshi wa, ichinichi dake jikka ni kaerimashita.",
+          "bn": "এই বছর মাত্র ১ দিনের জন্য গ্রামের বাড়িতে গিয়েছিলাম।",
+          "en": "This year, I went back to my parents' home for just one day."
+        }
+      ]
+    },
+    {
+      "title": "V-ながら、〜 (একই সাথে দুটি কাজ) ও Nによって (ভিন্নতা)",
+      "pattern": "町を歩きながら、みんなで水をかけ合います / レバランは、年によって違います",
+      "explain": "একটি কাজ করতে করতে অন্য কাজ করা বোঝাতে 'V-ながら' এবং সময় বা অঞ্চলভেদে ভিন্ন হয় বোঝাতে 'Nによって' ব্যবহৃত হয়।",
+      "title_en": "Simultaneous actions with ながら & Variations with によって",
+      "pattern_en": "V-nagara / N ni yotte chigaimasu",
+      "explain_en": "Describe cultural festivals and how traditions vary.",
+      "examples": [
+        {
+          "jp": "田舎に帰る人が多いです。海外に旅行する人もいます。",
+          "romaji": "Inaka ni kaeru hito ga ooi desu. Kaigai ni ryokou suru hito mo imasu.",
+          "bn": "গ্রামে ফিরে যাওয়া মানুষের সংখ্যা বেশি। আবার বিদেশে ঘুরতে যাওয়া মানুষও আছে।",
+          "en": "Many people return to their hometowns. Some also travel abroad."
         }
       ]
     }

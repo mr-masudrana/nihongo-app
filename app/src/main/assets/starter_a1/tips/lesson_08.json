@@ -1,0 +1,23 @@
+{
+  "lesson": 8,
+  "title": "ইয়ামাদা-সান কোথায় আছেন?",
+  "title_en": "Where is Yamada-san?",
+  "points": [
+    {
+      "title": "কর্মক্ষেত্রের ইউনিফর্ম, চা এবং ফ্যাক্স (FAX)",
+      "pattern": "制服・お茶・FAX",
+      "explain": "জাপানের কারখানা ও প্রতিষ্ঠানে নিরাপত্তার জন্য ইউনিফর্ম পরা হয়। অফিসের প্যান্ট্রিতে গ্রিন টি বা বার্লি টি (麦茶) থাকে। এছাড়া জাপানে সরকারি ও দাপ্তরিক কাজে এখনো ফ্যাক্স (FAX) ব্যাপকভাবে ব্যবহৃত হয়।",
+      "title_en": "Work Uniforms, Tea & FAX in Japan",
+      "pattern_en": "Seifuku, Ocha, FAX",
+      "explain_en": "Uniforms are common; fax machines are still widely used in offices.",
+      "examples": [
+        {
+          "jp": "FAXは、コピー機の横です。",
+          "romaji": "Fakkusu wa, kopiiki no yoko desu.",
+          "bn": "ফ্যাক্স মেশিন ফটোকপি মেশিনের পাশে।",
+          "en": "The fax machine is next to the copier."
+        }
+      ]
+    }
+  ]
+}

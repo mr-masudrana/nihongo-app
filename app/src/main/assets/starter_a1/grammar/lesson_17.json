@@ -1,21 +1,43 @@
 {
   "lesson": 17,
-  "title": "অনুমতি ও নিয়মকানুন",
-  "title_en": "Permissions and Rules",
+  "title": "সিনেমা দেখতে গিয়েছিলাম",
+  "title_en": "I went to see a movie.",
   "points": [
     {
-      "title": "অনুমতি ও নিয়মকানুন — মৌলিক বাক্য",
-      "pattern": "しゃしん です。",
-      "explain": "Irodori Starter A1 লেসন 17-এর মূল বাক্য গঠন।",
-      "title_en": "Permissions and Rules — Basic Pattern",
-      "pattern_en": "shashin desu.",
-      "explain_en": "Core pattern for Irodori Starter A1 Lesson 17.",
+      "title": "অতীত কাল: V-ました / V-ませんでした",
+      "pattern": "映画を見に行きました / 週末は、何もしませんでした",
+      "explain": "অতীতে কোনো কাজ করা বোঝাতে 'V-ました' এবং না করা বোঝাতে 'V-ませんでした' বসে। কোথাও যাইনি বোঝাতে 'どこにも行きませんでした' ব্যবহৃত হয়।",
+      "title_en": "Past tense of verbs",
+      "pattern_en": "V-mashita / V-masen deshita",
+      "explain_en": "Talk about what you did or didn't do on your day off.",
       "examples": [
         {
-          "jp": "これは しゃしん です。",
-          "romaji": "Kore wa shashin desu.",
-          "bn": "এটি ছবি।",
-          "en": "This is photo."
+          "jp": "週末は、何もしませんでした。家でゆっくりしました。",
+          "romaji": "Shuumatsu wa, nani mo shimasen deshita. Ie de yukkuri shimashita.",
+          "bn": "সপ্তাহান্তে কিছুই করিনি। বাসায় বিশ্রাম নিয়েছি।",
+          "en": "I didn't do anything on the weekend. I relaxed at home."
+        }
+      ]
+    },
+    {
+      "title": "বিশেষণ ও বিশেষ্যের অতীত কাল (〜かったです / 〜でした)",
+      "pattern": "とても楽しかったです / あまり多くなかったです",
+      "explain": "অতীতের অভিজ্ঞতা ও অনুভূতি জানাতে い-বিশেষণে 'かったです' (না-বাচক 'くなかったです') এবং な-বিশেষণ/বিশেষ্যে 'でした' (না-বাচক 'じゃなかったです') বসে।",
+      "title_en": "Past tense of adjectives and nouns",
+      "pattern_en": "I-adj katta desu / Na-adj deshita",
+      "explain_en": "Share your impressions of past events and trips.",
+      "examples": [
+        {
+          "jp": "国際フェスティバルは、とても楽しかったです。",
+          "romaji": "Kokusai fesutibaru wa, totemo tanoshikatta desu.",
+          "bn": "আন্তর্জাতিক উৎসবটি খুবই আনন্দদায়ক ছিল।",
+          "en": "The international festival was very fun."
+        },
+        {
+          "jp": "富士山に登りました。あまり大変じゃなかったです。",
+          "romaji": "Fujisan ni noborimashita. Amari taihen ja nakatta desu.",
+          "bn": "ফুজি পাহাড়ে উঠেছিলাম। খুব একটা কঠিন ছিল না।",
+          "en": "I climbed Mt. Fuji. It wasn't too tough."
         }
       ]
     }

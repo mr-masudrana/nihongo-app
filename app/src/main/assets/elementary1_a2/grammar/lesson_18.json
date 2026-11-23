@@ -1,21 +1,37 @@
 {
   "lesson": 18,
-  "title": "জীবনের স্মৃতি ও ভবিষ্যৎ",
-  "title_en": "Life Memories and Future",
+  "title": "কোনো উপহার দেব কি?",
+  "title_en": "How about giving something as a gift?",
   "points": [
     {
-      "title": "জীবনের স্মৃতি ও ভবিষ্যৎ — ব্যাকরণ প্যাটার্ন",
-      "pattern": "おもいで について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 18-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Life Memories and Future — Grammar Pattern",
-      "pattern_en": "About omoide",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 18.",
+      "title": "S(普通形)そうです (শোনা কথা) ও 【ব্যক্তি】に【বস্তু】をあげます",
+      "pattern": "お子さんが生まれたそうですね / アナさんにプレゼントをあげませんか?",
+      "explain": "কারো সুখবর শুনে তা উল্লেখ করতে '〜そうですね' এবং কাউকে উপহার দেওয়া বোঝাতে '〜にあげます' ব্যবহৃত হয়।",
+      "title_en": "Hearsay with 〜そうです & Giving with あげます",
+      "pattern_en": "S(plain) sou desu ne / [Person] ni [Thing] o agemasu",
+      "explain_en": "Congratulate someone on news you heard and discuss gift-giving.",
       "examples": [
         {
-          "jp": "おもいでが わかりますか。",
-          "romaji": "omoide ga wakarimasu ka.",
-          "bn": "আপনি কি স্মৃতি বোঝেন?",
-          "en": "Do you understand memories?"
+          "jp": "試験に合格したそうですね。おめでとうございます!",
+          "romaji": "Shiken ni goukaku shita sou desu ne. Omedetou gozaimasu!",
+          "bn": "শুনলাম পরীক্ষায় পাস করেছেন! অভিনন্দন!",
+          "en": "I heard you passed the exam. Congratulations!"
+        }
+      ]
+    },
+    {
+      "title": "S(普通形)と言っていました / S(普通形)と思います (মতামত ও উদ্ধৃতি)",
+      "pattern": "焼き鳥が大好きだと言っていました / 思い出に残るものがいいと思います",
+      "explain": "অন্য কেউ কী বলেছিলেন তা জানাতে 'と言っていました' এবং নিজের মতামত জানাতে 'と思います' বসে।",
+      "title_en": "Quoting someone & Expressing opinions",
+      "pattern_en": "S(plain) to itte imashita / S(plain) to omoimasu",
+      "explain_en": "Discuss gift ideas based on what someone said and your own thoughts.",
+      "examples": [
+        {
+          "jp": "みんなで時計をあげませんか? 実用的なものがいいと思います。",
+          "romaji": "Minna de tokei o agemasen ka? Jitsuyouteki na mono ga ii to omoimasu.",
+          "bn": "সবাই মিলে একটা ঘড়ি উপহার দেব কি? আমার মনে হয় কাজের জিনিস ভালো হবে।",
+          "en": "Shall we all give a watch? I think something practical is good."
         }
       ]
     }

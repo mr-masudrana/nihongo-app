@@ -1,0 +1,39 @@
+{
+  "lesson": 10,
+  "title": "জাপানি ভাষার ক্লাসে অংশ নিতে চাই কিন্তু…",
+  "title_en": "I would like to take a Japanese-language class.",
+  "points": [
+    {
+      "title": "Can-do 31–32: কোর্সের বিজ্ঞপ্তি পড়া ও অফিসে তথ্য জিজ্ঞাসা",
+      "pattern": "公民館の講座の案内を読み、興味のある講座について質問して理解できる。",
+      "explain": "কমিউনিটি সেন্টারের ফ্লায়ার পড়ে সময়, খরচ ও নিয়মকানুন জানতে পারা।",
+      "title_en": "Can-do 31–32",
+      "pattern_en": "Can read class flyers and ask questions at the office.",
+      "explain_en": "Find course schedules/fees and inquire at reception.",
+      "examples": [
+        {
+          "jp": "毎週土曜日 10:00〜11:30、費用は無料です。",
+          "romaji": "Maishuu doyoubi juu-ji kara juuichi-ji han, hiyou wa muryou desu.",
+          "bn": "প্রতি শনিবার ১০:০০–১১:৩০, ফি বিনামূল্যে।",
+          "en": "Every Saturday 10:00-11:30, free of charge."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 33–34: জাপানি ক্লাস নিয়ে বন্ধুর সাথে কথা ও সাক্ষাৎকার",
+      "pattern": "地域の日本語教室について質問したり、参加前のインタビューに答えたりできる。",
+      "explain": "জাপানি ভাষা শেখার পূর্ব অভিজ্ঞতা, মাতৃভাষা এবং ভবিষ্যৎ লক্ষ্য সম্পর্কে সাক্ষাৎকারে উত্তর দিতে পারা।",
+      "title_en": "Can-do 33–34",
+      "pattern_en": "Can discuss Japanese classes and answer intake interviews.",
+      "explain_en": "Explain your language background and learning goals.",
+      "examples": [
+        {
+          "jp": "もっと会話を勉強したいです。",
+          "romaji": "Motto kaiwa o benkyou shitai desu.",
+          "bn": "আরও বেশি কথোপকথন শিখতে চাই।",
+          "en": "I want to study more conversation."
+        }
+      ]
+    }
+  ]
+}

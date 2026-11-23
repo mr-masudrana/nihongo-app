@@ -1,0 +1,71 @@
+{
+  "lesson": 1,
+  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
+  "title_en": "Good morning! (Greetings)",
+  "points": [
+    {
+      "title": "Can-do 01: দেখা হলে অভিবাদন জানানো",
+      "pattern": "人に会ったとき、あいさつをすることができる。",
+      "explain": "কারো সাথে দেখা হলে সময় ও সম্পর্ক অনুযায়ী অভিবাদন জানাতে পারা।",
+      "title_en": "Can-do 01",
+      "pattern_en": "Can exchange greetings when you meet someone.",
+      "explain_en": "Greet someone appropriately when meeting.",
+      "examples": [
+        {
+          "jp": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "bn": "শুভ দুপুর / হ্যালো।",
+          "en": "Hello."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 02: বিদায় নেওয়ার সময় অভিবাদন",
+      "pattern": "人と別れるとき、あいさつをすることができる。",
+      "explain": "কারো কাছ থেকে বিদায় নেওয়ার সময় যথাযথ অভিবাদন জানাতে পারা।",
+      "title_en": "Can-do 02",
+      "pattern_en": "Can say goodbye when leaving.",
+      "explain_en": "Say goodbye appropriately when parting.",
+      "examples": [
+        {
+          "jp": "じゃあ、また。失礼します。",
+          "romaji": "Jaa, mata. Shitsureeshimasu.",
+          "bn": "আবার দেখা হবে। আসি।",
+          "en": "See you later. Goodbye."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 03: ধন্যবাদ ও ক্ষমা চাওয়া",
+      "pattern": "人にお礼を言ったり、謝ったりすることができる。",
+      "explain": "উপকার পেলে ধন্যবাদ জানাতে এবং ভুল হলে ক্ষমা চাইতে পারা।",
+      "title_en": "Can-do 03",
+      "pattern_en": "Can thank someone or apologize to them.",
+      "explain_en": "Express gratitude or apologize.",
+      "examples": [
+        {
+          "jp": "すみません。ありがとうございます。",
+          "romaji": "Sumimasen. Arigatou gozaimasu.",
+          "bn": "মাফ করবেন। ধন্যবাদ।",
+          "en": "Excuse me. Thank you."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 04: মেসেজ স্ট্যাম্পের অর্থ বোঝা",
+      "pattern": "メッセージスタンプを見て、意味を理解することができる。",
+      "explain": "মেসেজিং অ্যাপে 'おはよう' বা 'ありがとう' লেখা স্টিকারের অর্থ বুঝতে পারা।",
+      "title_en": "Can-do 04",
+      "pattern_en": "Can understand stickers with messages.",
+      "explain_en": "Understand message stickers like Good morning or Thanks.",
+      "examples": [
+        {
+          "jp": "おやすみなさい。",
+          "romaji": "Oyasuminasai.",
+          "bn": "শুভ রাত্রি।",
+          "en": "Good night."
+        }
+      ]
+    }
+  ]
+}

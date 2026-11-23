@@ -1,0 +1,195 @@
+{
+  "lesson": 18,
+  "title": "দক্ষতা, শখ ও অবসর",
+  "words": [
+    {
+      "word": "できます",
+      "reading": "できます",
+      "romaji": "dekimasu",
+      "bn": "পারা; করতে সক্ষম হওয়া",
+      "en": "be able to, can"
+    },
+    {
+      "word": "あらいます",
+      "reading": "洗います",
+      "romaji": "araimasu",
+      "bn": "ধোয়া",
+      "en": "wash"
+    },
+    {
+      "word": "ひきます",
+      "reading": "弾きます",
+      "romaji": "hikimasu",
+      "bn": "বাদ্যযন্ত্র বাজানো",
+      "en": "play (a stringed instrument, piano, etc.)"
+    },
+    {
+      "word": "うたいます",
+      "reading": "歌います",
+      "romaji": "utaimasu",
+      "bn": "গান গাওয়া",
+      "en": "sing"
+    },
+    {
+      "word": "あつめます",
+      "reading": "集めます",
+      "romaji": "atsumemasu",
+      "bn": "জড়ো করা; সংগ্রহ করা",
+      "en": "collect, gather"
+    },
+    {
+      "word": "すてます",
+      "reading": "捨てます",
+      "romaji": "sutemasu",
+      "bn": "ফেলে দেওয়া",
+      "en": "throw away"
+    },
+    {
+      "word": "かえます",
+      "reading": "換えます",
+      "romaji": "kaemasu",
+      "bn": "বদলানো; বিনিময় করা",
+      "en": "exchange, change"
+    },
+    {
+      "word": "うんてんします",
+      "reading": "運転します",
+      "romaji": "unten shimasu",
+      "bn": "গাড়ি চালানো",
+      "en": "drive"
+    },
+    {
+      "word": "よやくします",
+      "reading": "予約します",
+      "romaji": "yoyaku shimasu",
+      "bn": "আগে থেকে বুকিং/সংরক্ষণ করা",
+      "en": "reserve, book"
+    },
+    {
+      "word": "ピアノ",
+      "reading": "ピアノ",
+      "romaji": "piano",
+      "bn": "পিয়ানো",
+      "en": "piano"
+    },
+    {
+      "word": "～メートル",
+      "reading": "～メートル",
+      "romaji": "~ meetoru",
+      "bn": "～ মিটার",
+      "en": "~ meter"
+    },
+    {
+      "word": "げんきん",
+      "reading": "現金",
+      "romaji": "genkin",
+      "bn": "নগদ টাকা",
+      "en": "cash"
+    },
+    {
+      "word": "しゅみ",
+      "reading": "趣味",
+      "romaji": "shumi",
+      "bn": "শখ",
+      "en": "hobby"
+    },
+    {
+      "word": "にっき",
+      "reading": "日記",
+      "romaji": "nikki",
+      "bn": "দিনলিপি; ডায়েরি",
+      "en": "diary"
+    },
+    {
+      "word": "おいのり",
+      "reading": "お祈り",
+      "romaji": "oinori",
+      "bn": "প্রার্থনা",
+      "en": "prayer"
+    },
+    {
+      "word": "かちょう",
+      "reading": "課長",
+      "romaji": "kachou",
+      "bn": "বিভাগীয়/সেকশন প্রধান",
+      "en": "section head"
+    },
+    {
+      "word": "ぶちょう",
+      "reading": "部長",
+      "romaji": "buchou",
+      "bn": "বিভাগীয় প্রধান",
+      "en": "department head"
+    },
+    {
+      "word": "しゃちょう",
+      "reading": "社長",
+      "romaji": "shachou",
+      "bn": "কোম্পানির প্রেসিডেন্ট/ব্যবস্থাপনা পরিচালক",
+      "en": "company president"
+    },
+    {
+      "word": "どうぶつ",
+      "reading": "動物",
+      "romaji": "doubutsu",
+      "bn": "প্রাণী",
+      "en": "animal"
+    },
+    {
+      "word": "うま",
+      "reading": "馬",
+      "romaji": "uma",
+      "bn": "ঘোড়া",
+      "en": "horse"
+    },
+    {
+      "word": "インターネット",
+      "reading": "インターネット",
+      "romaji": "intaanetto",
+      "bn": "ইন্টারনেট",
+      "en": "the Internet"
+    },
+    {
+      "word": "とくに",
+      "reading": "特に",
+      "romaji": "tokuni",
+      "bn": "বিশেষ করে",
+      "en": "especially"
+    },
+    {
+      "word": "へえ",
+      "reading": "へえ",
+      "romaji": "hee",
+      "bn": "আরে! সত্যি নাকি! (বিস্ময় প্রকাশ)",
+      "en": "What! Really! (expressing surprise)"
+    },
+    {
+      "word": "それはおもしろいですね",
+      "reading": "それはおもしろいですね",
+      "romaji": "sore wa omoshiroi desu ne",
+      "bn": "সেটা তো মজার!",
+      "en": "That's interesting, isn't it?"
+    },
+    {
+      "word": "なかなか",
+      "reading": "なかなか",
+      "romaji": "nakanaka",
+      "bn": "সহজে/তেমন (সাধারণত নেতিবাচক বাক্যে)",
+      "en": "not easily (used with negatives)"
+    },
+    {
+      "word": "ほんとうですか",
+      "reading": "本当ですか",
+      "romaji": "hontou desu ka",
+      "bn": "সত্যি?",
+      "en": "Really?"
+    },
+    {
+      "word": "ぜひ",
+      "reading": "ぜひ",
+      "romaji": "zehi",
+      "bn": "অবশ্যই; নিশ্চয়ই",
+      "en": "by all means, really"
+    }
+  ]
+}

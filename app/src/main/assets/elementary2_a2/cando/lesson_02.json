@@ -1,0 +1,39 @@
+{
+  "lesson": 2,
+  "title": "খুব আন্তরিক মানুষ বলে মনে হচ্ছে",
+  "title_en": "He looks a serious person.",
+  "points": [
+    {
+      "title": "Can-do 05–06: পোশাক ও চেহারার বর্ণনা দিয়ে মানুষ চেনানো",
+      "pattern": "人の特徴を言って教えたり、その場にいない人の見た目や様子を話したりできる。",
+      "explain": "পোশাক, চুল বা কাজের বর্ণনা দিয়ে কাউকে খুঁজে বের করতে এবং কারো স্বভাব সম্পর্কে বলতে পারা।",
+      "title_en": "Can-do 05–06",
+      "pattern_en": "Can identify people by traits and describe others' appearances.",
+      "explain_en": "Describe clothing, features, and personality traits.",
+      "examples": [
+        {
+          "jp": "見た目はこわそうだけど、やさしい人です。",
+          "romaji": "Mitame wa kowasou da kedo, yasashii hito desu.",
+          "bn": "দেখতে রাগী মনে হলেও মানুষটা খুব দয়ালু।",
+          "en": "He looks scary, but he's actually kind."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 07–08: প্রিয় তারকা নিয়ে বলা ও সাক্ষাৎকার পড়া",
+      "pattern": "好きな有名人について理由やきっかけを話したり、インタビュー記事を読んだりできる。",
+      "explain": "প্রিয় গায়ক বা অভিনেতাকে কেন পছন্দ করেন তা বলতে এবং কমিউনিটি ম্যাগাজিনের সাক্ষাৎকার পড়তে পারা।",
+      "title_en": "Can-do 07–08",
+      "pattern_en": "Can talk about favorite celebrities and read interview articles.",
+      "explain_en": "Explain why you admire a celebrity and read profile articles.",
+      "examples": [
+        {
+          "jp": "映画を見て、好きになりました。",
+          "romaji": "Eiga o mite, suki ni narimashita.",
+          "bn": "সিনেমাটি দেখে ভালো লেগে গিয়েছিল।",
+          "en": "I came to like him after watching the movie."
+        }
+      ]
+    }
+  ]
+}

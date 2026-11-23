@@ -1,14 +1,77 @@
 {
   "lesson": 18,
-  "title": "বিদায়ী শুভেচ্ছা ও কৃতজ্ঞতা",
-  "title_en": "Farewell Greetings and Gratitude",
+  "title": "ভবিষ্যতে নিজের কোম্পানি গড়ব বলে ভাবছি",
+  "title_en": "I am thinking about starting my own company in the future.",
   "words": [
     {
-      "word": "おせわ",
-      "reading": "おせわ",
-      "romaji": "osewa",
-      "bn": "সাহায্য / যত্ন",
-      "en": "help / care"
+      "word": "将来",
+      "reading": "しょうらい",
+      "romaji": "shourai",
+      "bn": "ভবিষ্যৎ",
+      "en": "future"
+    },
+    {
+      "word": "希望 / 夢",
+      "reading": "きぼう / ゆめ",
+      "romaji": "kibou / yume",
+      "bn": "আশা / স্বপ্ন",
+      "en": "hope / dream"
+    },
+    {
+      "word": "職人",
+      "reading": "しょくにん",
+      "romaji": "shokunin",
+      "bn": "দক্ষ কারিগর / মাস্টার ক্রাফটসম্যান",
+      "en": "artisan / craftsperson"
+    },
+    {
+      "word": "建てます",
+      "reading": "たてます",
+      "romaji": "tatemasu",
+      "bn": "নির্মাণ করি (বাড়ি)",
+      "en": "build"
+    },
+    {
+      "word": "続けます",
+      "reading": "つづけます",
+      "romaji": "tsuzukemasu",
+      "bn": "চালিয়ে যাই / অব্যাহত রাখি",
+      "en": "continue"
+    },
+    {
+      "word": "考えます",
+      "reading": "かんがえます",
+      "romaji": "kangaemasu",
+      "bn": "চিন্তা করি / বিবেচনা করি",
+      "en": "think / consider"
+    },
+    {
+      "word": "役に立ちます",
+      "reading": "やくにたちます",
+      "romaji": "yaku ni tachimasu",
+      "bn": "কাজে লাগে / উপকারে আসে",
+      "en": "be useful / helpful"
+    },
+    {
+      "word": "卒業します / 留学します",
+      "reading": "そつぎょうします / りゅうがくします",
+      "romaji": "sotsugyou shimasu / ryuugaku shimasu",
+      "bn": "স্নাতক হওয়া / বিদেশে পড়াশোনা করা",
+      "en": "graduate / study abroad"
+    },
+    {
+      "word": "帰国します",
+      "reading": "きこくします",
+      "romaji": "kikoku shimasu",
+      "bn": "নিজ দেশে ফিরে যাওয়া",
+      "en": "return to one's home country"
+    },
+    {
+      "word": "募集",
+      "reading": "ぼしゅう",
+      "romaji": "boshuu",
+      "bn": "নিয়োগ / আবেদন আহ্বান",
+      "en": "recruitment"
     }
   ]
 }

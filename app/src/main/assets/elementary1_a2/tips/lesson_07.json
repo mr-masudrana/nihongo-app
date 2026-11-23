@@ -1,0 +1,23 @@
+{
+  "lesson": 7,
+  "title": "রাস্তা হারিয়ে ফেলেছি, একটু দেরি হবে",
+  "title_en": "I will be a bit late because I got lost.",
+  "points": [
+    {
+      "title": "সময়ানুবর্তিতা ও ট্রেন বিলম্বের সনদ (遅延証明書)",
+      "pattern": "遅刻・電車の運行トラブル",
+      "explain": "জাপানে নির্ধারিত সময়ের ৫-১০ মিনিট দেরি হলেও আগে থেকে মেসেজ বা ফোন করে জানানো জরুরি। দুর্ঘটনা বা আবহাওয়ার কারণে ট্রেন দেরি করলে স্টেশন বা অনলাইন থেকে 'চিয়েন-শোউমেইশো' (遅延証明書) সংগ্রহ করে অফিসে জমা দেওয়া যায়।",
+      "title_en": "Punctuality & Train Delay Certificates",
+      "pattern_en": "Chikoku & Chien-shoomeesho",
+      "explain_en": "Always notify early if running late; obtain a delay certificate if trains are delayed.",
+      "examples": [
+        {
+          "jp": "遅延証明書をもらいます。",
+          "romaji": "Chien shoomeesho o moraimasu.",
+          "bn": "ট্রেন বিলম্বের সনদ সংগ্রহ করি।",
+          "en": "I get a train delay certificate."
+        }
+      ]
+    }
+  ]
+}

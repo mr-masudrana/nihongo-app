@@ -1,21 +1,37 @@
 {
   "lesson": 11,
-  "title": "কাজের পরিবেশে মতামত",
-  "title_en": "Opinions at the Workplace",
+  "title": "পয়েন্ট কার্ডটা ভুলে ফেলে এসেছি",
+  "title_en": "I forgot to bring my point card.",
   "points": [
     {
-      "title": "কাজের পরিবেশে মতামত — ব্যাকরণ প্যাটার্ন",
-      "pattern": "いけん ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 11-এর মূল ব্যাকরণ।",
-      "title_en": "Opinions at the Workplace — Grammar Pattern",
-      "pattern_en": "Can do iken",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 11.",
+      "title": "V-てみてもいいですか? / ナA- / イA- すぎます / 〜の (কেনাকাটা)",
+      "pattern": "このセーター、着てみてもいいですか? / この色はちょっと派手すぎます / もうちょっと大きいの、ありますか?",
+      "explain": "পোশাক পরে দেখার অনুমতি চাইতে '着てみてもいいですか?', অতিরিক্ত বোঝাতে 'すぎます' এবং বিশেষ্যের পরিবর্তে 'の' ব্যবহৃত হয়।",
+      "title_en": "Trying on clothes, 'Too ~' with すぎます, and Pronoun の",
+      "pattern_en": "Kite mitemo ii desu ka? / Ookii no",
+      "explain_en": "Ask to try on items and request different sizes or colors.",
       "examples": [
         {
-          "jp": "じぶんで いけん を することができます。",
-          "romaji": "Jibun de iken o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে মতামত করতে পারি।",
-          "en": "I can do opinion by myself."
+          "jp": "もうちょっと大きいの、ありますか?",
+          "romaji": "Mou chotto ookii no, arimasu ka?",
+          "bn": "আরেকটু বড় সাইজেরটা হবে কি?",
+          "en": "Do you have a slightly larger one?"
+        }
+      ]
+    },
+    {
+      "title": "NをV-(ら)れます (ক্ষতিবাচক কর্মবাচ্য) ও V-てしまいました (অনুতাপ/সম্পন্ন)",
+      "pattern": "自転車を盗まれました / ポイントカード、忘れてしまいました",
+      "explain": "কোনো কিছু চুরি বা হারিয়ে যাওয়ার কষ্ট বোঝাতে কর্মবাচ্য '盗まれました' এবং অনিচ্ছাকৃত ভুল বা ভুলে যাওয়া বোঝাতে 'V-てしまいました' বসে।",
+      "title_en": "Adversative passive & Regret with 〜てしまいました",
+      "pattern_en": "N o nusumaremashita / V-te shimaimashita",
+      "explain_en": "Report stolen items or express regret over forgetting something.",
+      "examples": [
+        {
+          "jp": "もしかしたら、バッグをとられたかもしれません。",
+          "romaji": "Moshikashitara, baggu o torareta kamoshiremasen.",
+          "bn": "সম্ভবত আমার ব্যাগটা চুরি হয়ে গেছে।",
+          "en": "My bag might have been stolen."
         }
       ]
     }

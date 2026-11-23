@@ -1,0 +1,23 @@
+{
+  "lesson": 11,
+  "title": "পয়েন্ট কার্ডটা ভুলে ফেলে এসেছি",
+  "title_en": "I forgot to bring my point card.",
+  "points": [
+    {
+      "title": "জরুরি ফোন নম্বর (১১০ পুলিশ, ১১৯ অ্যাম্বুলেন্স/ফায়ার) ও পয়েন্ট কার্ড",
+      "pattern": "洋服のサイズ・緊急時の電話番号・ポイントカード・セール",
+      "explain": "জাপানে চুরি বা অপরাধের জন্য ১১০ (পুলিশ) এবং অগ্নিকাণ্ড বা অ্যাম্বুলেন্সের জন্য ১১৯ নম্বরে কল করতে হয়। এছাড়া প্রায় সব দোকানে পয়েন্ট কার্ড ব্যবহার করে ডিসকাউন্ট পাওয়া যায়।",
+      "title_en": "Emergency Numbers (110 / 119), Clothing Sizes & Point Cards",
+      "pattern_en": "Shopping and safety essentials in Japan",
+      "explain_en": "Call 110 for police and 119 for ambulance/fire emergencies.",
+      "examples": [
+        {
+          "jp": "警察: 110番 / 救急・火事: 119番",
+          "romaji": "Keisatsu: hyakutooban / Kyuukyuu: hyakujuukyuuban",
+          "bn": "পুলিশ: ১১০ / অ্যাম্বুলেন্স ও আগুন: ১১৯",
+          "en": "Police: 110 / Ambulance & Fire: 119"
+        }
+      ]
+    }
+  ]
+}

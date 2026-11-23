@@ -1,21 +1,37 @@
 {
   "lesson": 16,
-  "title": "ভবিষ্যতের ক্যারিয়ার পরিকল্পনা",
-  "title_en": "Future Career Plans",
+  "title": "ভূমিকম্প হলেও আতঙ্কিত হয়ে ছোটাছুটি করবেন না",
+  "title_en": "Do not panic in case of an earthquake.",
   "points": [
     {
-      "title": "ভবিষ্যতের ক্যারিয়ার পরিকল্পনা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "しょうらい ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 16-এর মূল ব্যাকরণ।",
-      "title_en": "Future Career Plans — Grammar Pattern",
-      "pattern_en": "Can do shourai",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 16.",
+      "title": "命令形 (আদেশসূচক রূপ: 急げ / 走るな) ও V-ないようにしてください",
+      "pattern": "急げ。こっちに集まれ / 走るな / できるだけ煙を吸わないようにしてください",
+      "explain": "জরুরি অবস্থায় সংক্ষিপ্ত আদেশ দিতে '急げ' বা নিষেধ করতে '走るな' ব্যবহৃত হয়। সতর্কতা বোঝাতে '〜ないようにしてください' বসে।",
+      "title_en": "Emergency imperatives & Precautions",
+      "pattern_en": "Isoge / Hashiru na / Suwanai you ni shite kudasai",
+      "explain_en": "Understand urgent commands and safety instructions during drills.",
       "examples": [
         {
-          "jp": "じぶんで しょうらい を することができます。",
-          "romaji": "Jibun de shourai o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে ভবিষ্যৎ করতে পারি।",
-          "en": "I can do future by myself."
+          "jp": "エレベーターは使わないで、階段で逃げてください。",
+          "romaji": "Erebeetaa wa tsukawanaide, kaidan de nigete kudasai.",
+          "bn": "লিফট ব্যবহার না করে সিঁড়ি দিয়ে বের হয়ে যান।",
+          "en": "Do not use the elevator; escape using the stairs."
+        }
+      ]
+    },
+    {
+      "title": "Sても、〜 (সত্ত্বেও) ও V(普通形)かどうか (কিনা)",
+      "pattern": "大きな地震が来ても、あわてて動かないでください / 店が開いているかどうか、わからない",
+      "explain": "কোনো দুর্যোগ ঘটলেও শান্ত থাকা বোঝাতে '〜ても' এবং অনিশ্চিত তথ্য জানতে '〜かどうか' ব্যবহৃত হয়।",
+      "title_en": "'Even if' with 〜ても & Indirect yes/no questions with かどうか",
+      "pattern_en": "Jishin ga kitemo / Aite iru ka dou ka",
+      "explain_en": "Stay calm during emergencies and ask about open facilities.",
+      "examples": [
+        {
+          "jp": "ドアが開かなくなると、外に逃げられなくなります。",
+          "romaji": "Doa ga akanaku naru to, soto ni nigerarenaku narimasu.",
+          "bn": "দরজা না খুললে বাইরে বের হওয়া অসম্ভব হয়ে পড়বে।",
+          "en": "If the door won't open, you won't be able to escape outside."
         }
       ]
     }

@@ -1,0 +1,23 @@
+{
+  "lesson": 12,
+  "title": "একসাথে পান করতে যাবেন?",
+  "title_en": "Do you want to go for a drink together?",
+  "points": [
+    {
+      "title": "জাপানের গ্রীষ্ম উৎসব (夏祭り) ও পর্বত",
+      "pattern": "夏祭り・日本の山・空手",
+      "explain": "গ্রীষ্মকালে জাপান জুড়ে বোন-ওদোরি নাচ ও আতশবাজি উৎসব হয়। মাউন্ট ফুজি জাপানের সর্বোচ্চ পর্বত (৩,৭৭৬ মিটার)।",
+      "title_en": "Summer Festivals (Natsumatsuri) & Mt. Fuji",
+      "pattern_en": "Hanabi, Bon-odori, Mt. Fuji",
+      "explain_en": "Summer festivals feature fireworks and traditional dances.",
+      "examples": [
+        {
+          "jp": "夏祭りに行きます。",
+          "romaji": "Natsumatsuri ni ikimasu.",
+          "bn": "গ্রীষ্ম উৎসবে যাচ্ছি।",
+          "en": "I'm going to the summer festival."
+        }
+      ]
+    }
+  ]
+}

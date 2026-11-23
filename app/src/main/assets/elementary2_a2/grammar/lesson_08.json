@@ -1,21 +1,37 @@
 {
   "lesson": 8,
-  "title": "সমস্যা ও সমাধানের উপায়",
-  "title_en": "Problems and Solutions",
+  "title": "খাবারের স্টলগুলো কোথায় আছে জানেন কি?",
+  "title_en": "Do you know where the food stands are?",
   "points": [
     {
-      "title": "সমস্যা ও সমাধানের উপায় — ব্যাকরণ প্যাটার্ন",
-      "pattern": "こしょう ことができます",
-      "explain": "Irodori Elementary 2 (A2) লেসন 8-এর মূল ব্যাকরণ।",
-      "title_en": "Problems and Solutions — Grammar Pattern",
-      "pattern_en": "Can do koshou",
-      "explain_en": "Core grammar for Irodori Elementary 2 Lesson 8.",
+      "title": "もう V-ました / まだ V-て(い)ません / まだ V-ます",
+      "pattern": "スピーチコンテストは、もう始まりましたか? / まだ始まってません / イベント、まだやってますか?",
+      "explain": "অনুষ্ঠান শুরু হয়েছে কি না জানতে 'もう〜ましたか', এখনো শুরু হয়নি বোঝাতে 'まだ〜ていません' এবং এখনো চলছে বোঝাতে 'まだ〜ています' বসে।",
+      "title_en": "Already, Not yet, and Still: もう and まだ",
+      "pattern_en": "Mou hajimarimashita ka? / Mada hajimattemasen / Mada yattemasu",
+      "explain_en": "Check event schedules and ongoing activities.",
       "examples": [
         {
-          "jp": "じぶんで こしょう を することができます。",
-          "romaji": "Jibun de koshou o suru koto ga dekimasu.",
-          "bn": "নিজে নিজে নষ্ট / বিকল করতে পারি।",
-          "en": "I can do breakdown by myself."
+          "jp": "カラオケ大会は、まだやってますか? はい、4時までやってますよ。",
+          "romaji": "Karaoke taikai wa, mada yattemasu ka? Hai, yoji made yattemasu yo.",
+          "bn": "কারাওকে প্রতিযোগিতা কি এখনো চলছে? হ্যাঁ, ৪টা পর্যন্ত চলবে।",
+          "en": "Is the karaoke contest still going on? Yes, until 4 PM."
+        }
+      ]
+    },
+    {
+      "title": "【প্রশ্নবোধক】+ S(普通形)か、〜 (পরোক্ষ প্রশ্ন)",
+      "pattern": "明日のフリーマーケットは、何時からか、わかりますか? / 屋台はどこかわかりますか?",
+      "explain": "বাক্যের ভেতরে প্রশ্ন যুক্ত করে বিনীতভাবে তথ্য জানতে প্রশ্নবোধক বাক্যাংশের শেষে 'か' বসানো হয়।",
+      "title_en": "Embedded questions with 〜か",
+      "pattern_en": "Nanji kara ka, wakarimasu ka? / Doko ka wakarimasu ka?",
+      "explain_en": "Politely ask staff for times, locations, and requirements.",
+      "examples": [
+        {
+          "jp": "だれでも参加できるか、教えてください。",
+          "romaji": "Dare demo sanka dekiru ka, oshiete kudasai.",
+          "bn": "সবাই অংশ নিতে পারবে কি না, দয়া করে বলুন।",
+          "en": "Please tell me if anyone can participate."
         }
       ]
     }

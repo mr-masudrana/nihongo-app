@@ -1,0 +1,23 @@
+{
+  "lesson": 14,
+  "title": "সামনের চুলগুলো আরেকটু ছোট করে কেটে দেবেন?",
+  "title_en": "Will you cut my bangs a little shorter?",
+  "points": [
+    {
+      "title": "কুরিয়ার সেবা (宅配便), লন্ড্রি, সেলুন ও বিদেশিদের পরামর্শ কেন্দ্র",
+      "pattern": "クリーニングサービス・宅配便・理髪店/美容院・外国人向けの公共サービス",
+      "explain": "জাপানে কুরিয়ার ডেলিভারি মিস হলে ফোনে বা কিউআর (QR) কোড স্ক্যান করে সুবিধাজনক সময়ে পুনরায় পার্সেল (再配達) আনা যায়। এছাড়া সিটি হলে বিদেশিদের জন্য বহুভাষিক পরামর্শ কেন্দ্র থাকে।",
+      "title_en": "Parcel Redelivery, Dry Cleaning & Multilingual Support",
+      "pattern_en": "Everyday services in Japan",
+      "explain_en": "Scan the QR code on missed delivery slips to schedule free redelivery.",
+      "examples": [
+        {
+          "jp": "コンビニから荷物を送れます。",
+          "romaji": "Konbini kara nimotsu o okuremasu.",
+          "bn": "কনভিনিয়েন্স স্টোর থেকে পার্সেল পাঠানো যায়।",
+          "en": "You can send parcels from a convenience store."
+        }
+      ]
+    }
+  ]
+}

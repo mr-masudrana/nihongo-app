@@ -1,0 +1,27 @@
+{
+  "lesson": 4,
+  "title": "সয়া সস না লাগিয়ে খাবেন",
+  "title_en": "Please eat it without soy sauce.",
+  "dialogues": [
+    {
+      "title": "১. শাবু-শাবু খাওয়ার নিয়ম ও নিজ দেশের খাবারের পরিচয়",
+      "title_en": "1. Learning how to eat shabu-shabu and introducing home dishes",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "どうやって食べるんですか?",
+          "romaji": "Dou yatte taberun desu ka?",
+          "bn": "এটি কীভাবে খেতে হয়?",
+          "en": "How do you eat this?"
+        },
+        {
+          "speaker": "B",
+          "jp": "お肉を1枚ずつ取って、お湯の中で2、3回しゃぶしゃぶってするんですよ。",
+          "romaji": "Oniku o ichimai zutsu totte, oyu no naka de ni-sankai shabushabu tte surun desu yo.",
+          "bn": "এক টুকরো করে মাংস নিয়ে গরম পানিতে ২-৩ বার নেড়েচেড়ে সেদ্ধ করে খাবেন।",
+          "en": "Take one slice of meat at a time and swish it in the hot broth 2 or 3 times."
+        }
+      ]
+    }
+  ]
+}

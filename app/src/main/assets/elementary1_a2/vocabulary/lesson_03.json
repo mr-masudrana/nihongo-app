@@ -1,14 +1,77 @@
 {
   "lesson": 3,
-  "title": "সুপারমার্কেটে কেনাকাটা",
-  "title_en": "Shopping at the Supermarket",
+  "title": "শীতকালে খুব ঠান্ডা পড়ে",
+  "title_en": "It gets very cold in winter.",
   "words": [
     {
-      "word": "ねだん",
-      "reading": "ねだん",
-      "romaji": "nedan",
-      "bn": "দাম",
-      "en": "price"
+      "word": "季節",
+      "reading": "きせつ",
+      "romaji": "kisetsu",
+      "bn": "ঋতু",
+      "en": "season"
+    },
+    {
+      "word": "春 / 夏 / 秋 / 冬",
+      "reading": "はる / なつ / あき / ふゆ",
+      "romaji": "haru / natsu / aki / fuyu",
+      "bn": "বসন্ত / গ্রীষ্ম / শরৎ / শীত",
+      "en": "spring / summer / autumn / winter"
+    },
+    {
+      "word": "桜の花が咲きます",
+      "reading": "さくらのはながさきます",
+      "romaji": "sakura no hana ga sakimasu",
+      "bn": "চেরি ফুল ফোটে",
+      "en": "cherry blossoms bloom"
+    },
+    {
+      "word": "暖かい / すずしい",
+      "reading": "あたたかい / すずしい",
+      "romaji": "atatakai / suzushii",
+      "bn": "উষ্ণ / শীতল ও আরামদায়ক",
+      "en": "warm / cool"
+    },
+    {
+      "word": "梅雨",
+      "reading": "つゆ",
+      "romaji": "tsuyu",
+      "bn": "বর্ষাকাল (জুন-জুলাই)",
+      "en": "rainy season"
+    },
+    {
+      "word": "蒸し暑い",
+      "reading": "むしあつい",
+      "romaji": "mushiatsui",
+      "bn": "ভ্যাপসা গরম",
+      "en": "humid and hot"
+    },
+    {
+      "word": "セミが鳴きます",
+      "reading": "セミがなきます",
+      "romaji": "semi ga nakimasu",
+      "bn": "সিকাডা পোকা ডাকে",
+      "en": "cicadas chirp"
+    },
+    {
+      "word": "紅葉",
+      "reading": "もみじ",
+      "romaji": "momiji",
+      "bn": "শরতের লাল ম্যাপল পাতা",
+      "en": "autumn leaves"
+    },
+    {
+      "word": "雨季 / 乾季",
+      "reading": "うき / かんき",
+      "romaji": "uki / kanki",
+      "bn": "বর্ষা ঋতু / শুষ্ক ঋতু",
+      "en": "rainy season / dry season"
+    },
+    {
+      "word": "ぶどう / 梨",
+      "reading": "ぶどう / なし",
+      "romaji": "budou / nashi",
+      "bn": "আঙুর / নাশপাতি",
+      "en": "grapes / pear"
     }
   ]
 }

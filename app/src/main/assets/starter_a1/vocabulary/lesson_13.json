@@ -1,14 +1,98 @@
 {
   "lesson": 13,
-  "title": "শহরের দর্শনীয় স্থান",
-  "title_en": "Places in Town",
+  "title": "এই বাস কি বিমানবন্দরে যায়?",
+  "title_en": "Does this bus go to the airport?",
   "words": [
     {
-      "word": "びょういん",
-      "reading": "びょういん",
-      "romaji": "byouin",
-      "bn": "হাসপাতাল",
-      "en": "hospital"
+      "word": "空港",
+      "reading": "くうこう",
+      "romaji": "kuukou",
+      "bn": "বিমানবন্দর",
+      "en": "airport"
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "romaji": "eki",
+      "bn": "স্টেশন",
+      "en": "station"
+    },
+    {
+      "word": "何番線",
+      "reading": "なんばんせん",
+      "romaji": "nanbansen",
+      "bn": "কত নম্বর প্ল্যাটফর্ম",
+      "en": "which platform"
+    },
+    {
+      "word": "電車 / 地下鉄",
+      "reading": "でんしゃ / ちかてつ",
+      "romaji": "densha / chikatetsu",
+      "bn": "ট্রেন / পাতাল রেল (মেট্রো)",
+      "en": "train / subway"
+    },
+    {
+      "word": "バス / タクシー",
+      "reading": "バス / タクシー",
+      "romaji": "basu / takushii",
+      "bn": "বাস / ট্যাক্সি",
+      "en": "bus / taxi"
+    },
+    {
+      "word": "自転車 / バイク",
+      "reading": "じてんしゃ / バイク",
+      "romaji": "jitensha / baiku",
+      "bn": "সাইকেল / মোটরবাইক",
+      "en": "bicycle / motorbike"
+    },
+    {
+      "word": "歩いて",
+      "reading": "あるいて",
+      "romaji": "aruite",
+      "bn": "হেঁটে",
+      "en": "on foot"
+    },
+    {
+      "word": "乗ります",
+      "reading": "のります",
+      "romaji": "norimasu",
+      "bn": "চড়ি / উঠি",
+      "en": "get on / ride"
+    },
+    {
+      "word": "降ります",
+      "reading": "おります",
+      "romaji": "orimasu",
+      "bn": "নামি",
+      "en": "get off"
+    },
+    {
+      "word": "乗り換えます",
+      "reading": "のりかえます",
+      "romaji": "norikaemasu",
+      "bn": "ট্রেন/বাস পরিবর্তন করি",
+      "en": "transfer"
+    },
+    {
+      "word": "かかります",
+      "reading": "かかります",
+      "romaji": "kakarimasu",
+      "bn": "সময় লাগে",
+      "en": "take (time)"
+    },
+    {
+      "word": "どうやって",
+      "reading": "どうやって",
+      "romaji": "dou yatte",
+      "bn": "কীভাবে",
+      "en": "how"
+    },
+    {
+      "word": "東 / 西 / 南 / 北",
+      "reading": "ひがし / にし / みなみ / きた",
+      "romaji": "higashi / nishi / minami / kita",
+      "bn": "পূর্ব / পশ্চিম / দক্ষিণ / উত্তর",
+      "en": "east / west / south / north"
     }
   ]
 }

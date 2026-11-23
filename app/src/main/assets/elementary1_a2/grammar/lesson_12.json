@@ -1,21 +1,37 @@
 {
   "lesson": 12,
-  "title": "হোটেল ও থাকার ব্যবস্থা",
-  "title_en": "Hotels and Accommodation",
+  "title": "বেন্তোটা দেখতে খুব সুস্বাদু মনে হচ্ছে",
+  "title_en": "Your bento looks delicious.",
   "points": [
     {
-      "title": "হোটেল ও থাকার ব্যবস্থা — ব্যাকরণ প্যাটার্ন",
-      "pattern": "よやく について",
-      "explain": "Irodori Elementary 1 (A2) লেসন 12-এর ব্যাকরণ আলোচনা।",
-      "title_en": "Hotels and Accommodation — Grammar Pattern",
-      "pattern_en": "About yoyaku",
-      "explain_en": "Grammar point for Irodori Elementary 1 Lesson 12.",
+      "title": "ナA- / イA- そうです (দেখে মনে হওয়া)",
+      "pattern": "そのお弁当、おいしそうですね / 辛そうな料理ですね",
+      "explain": "কোনো খাবার দেখে তার স্বাদ বা অবস্থা অনুমান করতে বিশেষণের সাথে 'そうです' (বিশেষ্যের আগে 'そうな') যুক্ত হয়। (いい → よさそうです)",
+      "title_en": "Expressing visual impressions: 〜そうです",
+      "pattern_en": "Oishisou desu ne / Karasou na ryouri",
+      "explain_en": "Describe how food looks before tasting it.",
       "examples": [
         {
-          "jp": "よやくが わかりますか。",
-          "romaji": "yoyaku ga wakarimasu ka.",
-          "bn": "আপনি কি বুকিং / রিজার্ভেশন বোঝেন?",
-          "en": "Do you understand reservation?"
+          "jp": "そのケーキ、甘そうですね。",
+          "romaji": "Sono keeki, amasou desu ne.",
+          "bn": "ঐ কেকটা দেখে বেশ মিষ্টি মনে হচ্ছে।",
+          "en": "That cake looks sweet."
+        }
+      ]
+    },
+    {
+      "title": "V-てみます (চেখে দেখা) ও স্বাদের বর্ণনা (甘くて / 甘くなくて)",
+      "pattern": "よかったら、食べてみてください / 甘くなくて、おいしいですよ",
+      "explain": "কোনো খাবার চেখে দেখতে বলতে '食べてみてください' এবং স্বাদের নেতিবাচক গুণ যুক্ত করতে '〜くなくて' বসে।",
+      "title_en": "Trying food with V-te mimasu & Taste descriptions",
+      "pattern_en": "Tabete mite kudasai / Amakunakute oishii",
+      "explain_en": "Invite someone to try a dish and describe its flavor.",
+      "examples": [
+        {
+          "jp": "この卵焼き、甘くておいしいですね。",
+          "romaji": "Kono tamagoyaki, amakute oishii desu ne.",
+          "bn": "এই ওমলেটটা মিষ্টি এবং খুব সুস্বাদু!",
+          "en": "This rolled omelet is sweet and delicious."
         }
       ]
     }

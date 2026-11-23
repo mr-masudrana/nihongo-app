@@ -1,0 +1,39 @@
+{
+  "lesson": 11,
+  "title": "পয়েন্ট কার্ডটা ভুলে ফেলে এসেছি",
+  "title_en": "I forgot to bring my point card.",
+  "points": [
+    {
+      "title": "Can-do 47: কাপড়ের দোকানে রঙ ও সাইজ পছন্দ করে কেনা",
+      "pattern": "衣料品店などで、色やサイズなどの希望を伝えて、買いたいものを購入できる。",
+      "explain": "পোশাক ট্রায়াল দিতে এবং বড় বা ছোট সাইজ কিংবা অন্য রঙ চাইতে পারা।",
+      "title_en": "Can-do 47",
+      "pattern_en": "Can request colors/sizes and buy clothes at a store.",
+      "explain_en": "Try on garments and ask for different sizes or colors.",
+      "examples": [
+        {
+          "jp": "これ、ちょっと小さすぎます。",
+          "romaji": "Kore, chotto chiisasugimasu.",
+          "bn": "এটা একটু বেশিই ছোট।",
+          "en": "This is a bit too small."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 48–50: চুরি/হারানো জিনিসের বর্ণনা দেওয়া ও দোকানের ঘোষণা বোঝা",
+      "pattern": "トラブルや落とし物の特徴・場所を伝えたり、店内放送を聞いて理解したりできる。",
+      "explain": "মানিব্যাগ বা ফোন হারিয়ে গেলে ইনফরমেশন ডেস্কে তার রঙ, ধরন ও স্থান বলতে পারা।",
+      "title_en": "Can-do 48–50",
+      "pattern_en": "Can report lost items/troubles and understand store announcements.",
+      "explain_en": "Describe lost belongings and listen to PA paging.",
+      "examples": [
+        {
+          "jp": "トイレに忘れたと思います。黒い財布です。",
+          "romaji": "Toire ni wasureta to omoimasu. Kuroi saifu desu.",
+          "bn": "মনে হয় টয়লেটে ভুলে ফেলে এসেছি। কালো রঙের মানিব্যাগ।",
+          "en": "I think I left it in the restroom. It's a black wallet."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "lesson": 3,
+  "title": "শীতকালে খুব ঠান্ডা পড়ে",
+  "title_en": "It gets very cold in winter.",
+  "points": [
+    {
+      "title": "জাপানের জলবায়ু, বর্ষা (梅雨), হানামি ও মোমিজি",
+      "pattern": "日本の気候・梅雨・桜と花見・紅葉",
+      "explain": "মে মাসের শেষ থেকে জুলাইয়ের মাঝামাঝি জাপানে বর্ষাকাল (梅雨) চলে। বসন্তে চেরি ফুলের নিচে বসে পিকনিক করাকে 'হানামি' (花見) এবং শরতে রঙিন পাতা দেখাকে 'মোমিজি' (紅葉) বলে।",
+      "title_en": "Climate, Tsuyu, Hanami & Autumn Foliage",
+      "pattern_en": "Seasonal traditions in Japan",
+      "explain_en": "Hanami is cherry blossom viewing; tsuyu is the early summer rainy season.",
+      "examples": [
+        {
+          "jp": "春は桜の花が咲きます。",
+          "romaji": "Haru wa sakura no hana ga sakimasu.",
+          "bn": "বসন্তে চেরি ফুল ফোটে।",
+          "en": "Cherry blossoms bloom in spring."
+        }
+      ]
+    }
+  ]
+}

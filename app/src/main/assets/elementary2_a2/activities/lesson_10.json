@@ -1,0 +1,27 @@
+{
+  "lesson": 10,
+  "title": "কোন ধরনের পোশাক পরে গেলে ভালো হবে?",
+  "title_en": "What kind of clothes should I wear?",
+  "dialogues": [
+    {
+      "title": "১. হাসপাতাল পরিদর্শন, বিয়ে বা অন্ত্যেষ্টিক্রিয়ার শিষ্টাচার জিজ্ঞাসা",
+      "title_en": "1. Asking about hospital visit, wedding, and funeral manners",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "今度、友だちの結婚式があるんですけど、どんな服を着て行けばいいですか?",
+          "romaji": "Kondo, tomodachi no kekkonshiki ga arun desu kedo, donna fuku o kite ikeba ii desu ka?",
+          "bn": "সামনে বন্ধুর বিয়ের অনুষ্ঠান আছে, কী ধরনের পোশাক পরে গেলে ভালো হবে?",
+          "en": "My friend's wedding is coming up; what kind of clothes should I wear?"
+        },
+        {
+          "speaker": "B",
+          "jp": "男性なら、スーツに白いネクタイがいいですよ。黒いネクタイはだめです。",
+          "romaji": "Dansei nara, suutsu ni shiroi nekutai ga ii desu yo. Kuroi nekutai wa dame desu.",
+          "bn": "পুরুষ হলে স্যুটের সাথে সাদা টাই পরা ভালো। কালো টাই পরা নিষেধ।",
+          "en": "For men, a suit with a white tie is good. A black tie is not allowed."
+        }
+      ]
+    }
+  ]
+}

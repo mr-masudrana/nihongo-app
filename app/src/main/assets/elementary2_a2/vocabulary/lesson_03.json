@@ -1,14 +1,84 @@
 {
   "lesson": 3,
-  "title": "অনলাইন কেনাকাটা ও ডেলিভারি",
-  "title_en": "Online Shopping and Delivery",
+  "title": "অ্যালার্জি আছে বলে খেতে পারি না",
+  "title_en": "I cannot eat it because of an allergy.",
   "words": [
     {
-      "word": "にもつ",
-      "reading": "にもつ",
-      "romaji": "nimotsu",
-      "bn": "পার্সেল / মালামাল",
-      "en": "parcel / luggage"
+      "word": "定食",
+      "reading": "ていしょく",
+      "romaji": "teishoku",
+      "bn": "সেট মেনু (ভাত, স্যুপ ও মূল তরকারি)",
+      "en": "set meal"
+    },
+    {
+      "word": "日替わり",
+      "reading": "ひがわり",
+      "romaji": "higawari",
+      "bn": "প্রতিদিন পরিবর্তিত মেনু",
+      "en": "daily special"
+    },
+    {
+      "word": "おかわり自由",
+      "reading": "おかわりじゆう",
+      "romaji": "okawari jiyuu",
+      "bn": "বিনামূল্যে যত খুশি নেওয়া (রিফিল)",
+      "en": "free refills"
+    },
+    {
+      "word": "平日のみ",
+      "reading": "へいじつのみ",
+      "romaji": "heijitsu nomi",
+      "bn": "শুধুমাত্র কর্মদিবসে (সোম-শুক্র)",
+      "en": "weekdays only"
+    },
+    {
+      "word": "わさび抜き",
+      "reading": "わさびぬき",
+      "romaji": "wasabi nuki",
+      "bn": "ওয়াসাবি ছাড়া",
+      "en": "without wasabi"
+    },
+    {
+      "word": "宗教上の理由",
+      "reading": "しゅうきょうじょうのりゆう",
+      "romaji": "shuukyoujou no riyuu",
+      "bn": "ধর্মীয় কারণে",
+      "en": "for religious reasons"
+    },
+    {
+      "word": "ベジタリアン",
+      "reading": "ベジタリアン",
+      "romaji": "bejitarian",
+      "bn": "নিরামিষভোজী",
+      "en": "vegetarian"
+    },
+    {
+      "word": "テーブル / 座敷",
+      "reading": "テーブル / ざしき",
+      "romaji": "teeburu / zashiki",
+      "bn": "টেবিল সিট / তাতামি মেঝের আসন",
+      "en": "table / tatami seating"
+    },
+    {
+      "word": "別々でお願いします",
+      "reading": "べつべつでおねがいします",
+      "romaji": "betsubetsu de onegaishimasu",
+      "bn": "আলাদা আলাদা বিল করুন, দয়া করে",
+      "en": "Separate bills, please"
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "romaji": "yoyaku",
+      "bn": "বুকিং / রিজার্ভেশন",
+      "en": "reservation"
+    },
+    {
+      "word": "有効期限",
+      "reading": "ゆうこうきげん",
+      "romaji": "yuukoukigen",
+      "bn": "মেয়াদোত্তীর্ণের তারিখ (কুপন/কার্ড)",
+      "en": "expiration / validity date"
     }
   ]
 }

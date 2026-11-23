@@ -1,0 +1,39 @@
+{
+  "lesson": 6,
+  "title": "পোস্ট অফিসে কীভাবে গেলে ভালো হয়?",
+  "title_en": "Please tell me how to get to the post office.",
+  "points": [
+    {
+      "title": "Can-do 17–18: সরাসরি ও ফোনে পথ জিজ্ঞাসা করা",
+      "pattern": "ほかの人や電話で道をたずねて、その答えを理解することができる。",
+      "explain": "রাস্তায় বা ফোনে কোনো গন্তব্যের দিকনির্দেশনা জিজ্ঞাসা করতে ও বুঝতে পারা।",
+      "title_en": "Can-do 17–18",
+      "pattern_en": "Can ask and understand directions in person and by phone.",
+      "explain_en": "Follow step-by-step directions to a destination.",
+      "examples": [
+        {
+          "jp": "黒いビルの隣です。",
+          "romaji": "Kuroi biru no tonari desu.",
+          "bn": "কালো ভবনটির পাশে।",
+          "en": "It's next to the black building."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 19: গাড়িতে যাওয়ার সময় পথ দেখানো",
+      "pattern": "車に乗せてもらったときなどに、目的地までの行き方を伝えることができる。",
+      "explain": "কেউ গাড়িতে পৌঁছে দেওয়ার সময় মোড় ও চিহ্ন বলে গন্তব্য দেখাতে পারা।",
+      "title_en": "Can-do 19",
+      "pattern_en": "Can give directions while riding in a car.",
+      "explain_en": "Guide a driver to your house or destination.",
+      "examples": [
+        {
+          "jp": "次の信号を左に曲がってください。ここでいいです。",
+          "romaji": "Tsugi no shingou o hidari ni magatte kudasai. Koko de ii desu.",
+          "bn": "পরের সিগন্যালে বামে ঘুরুন। এখানেই নামব।",
+          "en": "Turn left at the next light. Here is fine."
+        }
+      ]
+    }
+  ]
+}
