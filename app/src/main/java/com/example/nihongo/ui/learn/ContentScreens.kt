@@ -761,13 +761,13 @@ fun LessonKanjiScreen(level: String, no: Int, onOpenDetail: (Int) -> Unit) {
                         )
                         if (k.words.isNotEmpty()) {
                             Text(
-                                k.words.joinToString(" · ") { "${it.w} (${it.r})" },
+                                k.words.joinToString(" · ") { "${it.word} (${it.reading})" },
                                 style = MaterialTheme.typography.labelMedium,
                                 color = cs.onSurfaceVariant
                             )
                         }
                     }
-                    SpeakButton(onClick = { tts.speak(k.words.firstOrNull()?.w ?: k.kanji) }, diameter = 40.dp)
+                    SpeakButton(onClick = { tts.speak(k.words.firstOrNull()?.reading ?: k.kanji) }, diameter = 40.dp)
                 }
             }
         }
