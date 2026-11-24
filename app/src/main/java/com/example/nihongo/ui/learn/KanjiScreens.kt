@@ -307,7 +307,7 @@ fun KanjiTabScreen() {
                         .clickable { selectedIndex = null },
                     contentAlignment = Alignment.Center
                 ) {
-                    AppIcon(AppIcons.Back, size = 20.dp, tint = cs.onSurface)
+                    Text("←", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold, color = cs.onSurface)
                 }
                 Spacer(Modifier.width(12.dp))
                 Text(
