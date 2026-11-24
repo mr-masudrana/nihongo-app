@@ -93,13 +93,19 @@ fun LearnScreen(
         val no = route.substringAfter(':', "").toIntOrNull()
         val parts = base.split("/")
         when {
-            base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
-            base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
+            base == ROUTE_HIRAGANA || parts.getOrNull(1) == "hiragana" -> KanaChartScreen(kanaVm, "hiragana")
+            base == ROUTE_KATAKANA || parts.getOrNull(1) == "katakana" -> KanaChartScreen(kanaVm, "katakana")
             base == ROUTE_NUMBER -> NumberScreen()
             base in listOf(ROUTE_BOOK_A1, ROUTE_BOOK_A2_1, ROUTE_BOOK_A2_2) ->
                 BookLessonsScreen(
                     level = base,
-                    onOpenSection = { lessonNo, type -> onRoute("$base/$type:$lessonNo") },
+                    onOpenSection = { lessonNo, type ->
+                        if (lessonNo == 0 && type in listOf("hiragana", "katakana")) {
+                            onRoute("$base/$type")
+                        } else {
+                            onRoute("$base/$type:$lessonNo")
+                        }
+                    },
                     onOpenKanjiAll = { onRoute("$base/kanji") }
                 )
             parts.getOrNull(1) == "kanji_detail" && no != null ->

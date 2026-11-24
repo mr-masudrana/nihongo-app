@@ -1,37 +1,81 @@
 {
   "lesson": 3,
-  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title": "よろしくお願いします (পরিচিত হয়ে আনন্দিত / ধন্যবাদ)",
   "title_en": "Nice to meet you.",
   "points": [
     {
-      "title": "Can-do 08: সহজ আত্মপরিচয় দেওয়া",
+      "title": "Can-do 08: নিজের নাম ও দেশ/এলাকা বলে সংক্ষিপ্ত পরিচিতি",
       "pattern": "名前や出身などを言って、簡単な自己紹介をすることができる。",
-      "explain": "নাম ও দেশের নাম বলে নিজের পরিচয় দিতে পারা।",
+      "explain": "নিজের নাম ও কোথা থেকে এসেছেন তা বলে সহজভাবে নিজেকে পরিচয় করিয়ে দিন।",
       "title_en": "Can-do 08",
-      "pattern_en": "Can give a simple self-introduction.",
-      "explain_en": "Introduce yourself with your name and country.",
+      "pattern_en": "Can give a simple self-introduction, for example by saying your name and country/hometown.",
+      "explain_en": "Introduce yourself simply using your name and country or hometown.",
       "examples": [
         {
-          "jp": "はじめまして。よろしくお願いします。",
-          "romaji": "Hajimemashite. Yoroshiku onegaishimasu.",
-          "bn": "প্রথম দেখা হলো। পরিচিত হয়ে ভালো লাগলো।",
-          "en": "Nice to meet you."
+          "jp": "はじめまして。トンです。タイから来ました。よろしくお願いします。",
+          "romaji": "Hajimemashite. Ton desu. Tai kara kimashita. Yoroshiku onegaishimasu.",
+          "bn": "প্রথম পরিচয়। আমি তন। থাইল্যান্ড থেকে এসেছি। পরিচিত হয়ে ভালো লাগল।",
+          "en": "Nice to meet you. I'm Ton. I came from Thailand. Pleased to meet you."
         }
       ]
     },
     {
-      "title": "Can-do 09–11: নেমট্যাগ ও আবেদনপত্র পূরণ",
-      "pattern": "名札や申込書に、氏名、国籍、生年月日などを書き込むことができる。",
-      "explain": "আবেদনপত্রে নাম, জাতীয়তা, জন্মতারিখ ও ঠিকানা লিখতে পারা।",
-      "title_en": "Can-do 09–11",
-      "pattern_en": "Can fill in name tags and application forms.",
-      "explain_en": "Write name, nationality, DOB, and address on forms.",
+      "title": "Can-do 09: নেম ট্যাগে নিজের দেশ ও নাম লেখা",
+      "pattern": "名札などに、自分の国と名前を書くことができる。",
+      "explain": "নেম ট্যাগ বা ব্যাজে নিজের দেশ ও নাম স্পষ্টভাবে লিখুন।",
+      "title_en": "Can-do 09",
+      "pattern_en": "Can write your name and country on a name tag, etc.",
+      "explain_en": "Write your country and name on a name tag or badge.",
       "examples": [
         {
-          "jp": "国籍・生年月日・住所",
-          "romaji": "Kokuseki / Seinengappi / Juusho",
-          "bn": "জাতীয়তা / জন্মতারিখ / ঠিকানা",
-          "en": "Nationality / Date of birth / Address"
+          "jp": "インドネシア　アクバル",
+          "romaji": "Indoneshia · Akubaru",
+          "bn": "দেশ: ইন্দোনেশিয়া, নাম: আকবর।",
+          "en": "Country: Indonesia, Name: Akbar."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 10: নাম ও দেশ/নিজ এলাকা নিয়ে প্রশ্ন ও উত্তর",
+      "pattern": "はじめて会った人に、名前や出身などを質問したり、質問に答えたりすることができる。",
+      "explain": "প্রথমবার দেখা হওয়া কারো নাম ও কোথা থেকে এসেছেন তা জিজ্ঞাসা ও উত্তর দিতে পারা।",
+      "title_en": "Can-do 10",
+      "pattern_en": "Can ask and answer questions about your name and country/hometown, when meeting someone for the first time.",
+      "explain_en": "Ask and answer about names and countries/hometowns when meeting for the first time.",
+      "examples": [
+        {
+          "jp": "お名前は？",
+          "romaji": "Onamae wa?",
+          "bn": "আপনার নাম কী?",
+          "en": "What's your name?"
+        },
+        {
+          "jp": "ご出身は？",
+          "romaji": "Goshusshin wa?",
+          "bn": "আপনার বাড়ি/দেশ কোথায়?",
+          "en": "Where are you from?"
+        },
+        {
+          "jp": "いいえ。ベトナムじゃないです。私はカンボジアから来ました。",
+          "romaji": "Iie. Betonamu janai desu. Watashi wa Kambojia kara kimashita.",
+          "bn": "না। ভিয়েতনামের নই। আমি কম্বোডিয়া থেকে এসেছি।",
+          "en": "No. Not from Vietnam. I came from Cambodia."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 11: আবেদন ফরমে নাম, জাতীয়তা, জন্মতারিখ ইত্যাদি লেখা",
+      "pattern": "申込書に、氏名、国籍、生年月日などを書き込むことができる。",
+      "explain": "আবেদন ফরমে পূর্ণ নাম (氏名), জাতীয়তা (国籍), জন্মতারিখ (生年月日), ঠিকানা (住所), ফোন ও ইমেইল লিখুন।",
+      "title_en": "Can-do 11",
+      "pattern_en": "Can write your full name, nationality, date of birth, etc. on an application form.",
+      "explain_en": "Fill in full name, nationality, date of birth, address, phone, and email on an application form.",
+      "examples": [
+        {
+          "jp": "氏名：山田 太郎",
+          "romaji": "Shimei: Yamada Taroo",
+          "bn": "পূর্ণ নাম: ইয়ামাদা তারো।",
+          "en": "Full name: Yamada Taro."
         }
       ]
     }

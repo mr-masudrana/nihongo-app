@@ -15,12 +15,31 @@ data class KanjiItem(
     val sentenceJp: String, val sentenceBn: String
 )
 
-/** কথোপকথনের একটি লাইন। speaker = "A" | "B" */
+/** কথোপকথনের একটি লাইন। speaker = "A" | "B" | "C" */
 data class ConvoLine(val speaker: String, val jp: String, val romaji: String, val bn: String, val en: String = "")
-data class Dialogue(val title: String, val lines: List<ConvoLine>, val titleEn: String = "")
+data class Dialogue(
+    val title: String,
+    val lines: List<ConvoLine>,
+    val titleEn: String = "",
+    val activityNo: Int = 0,
+    val candoId: String = "",
+    val candoJp: String = "",
+    val candoEn: String = "",
+    val candoBn: String = ""
+)
 
 /** assets/<level>/<folder>/lesson_NN.json (activities / conversation) */
-data class ConvoLesson(val no: Int, val title: String, val dialogues: List<Dialogue>, val titleEn: String = "")
+data class ConvoLesson(
+    val no: Int,
+    val title: String,
+    val dialogues: List<Dialogue>,
+    val titleEn: String = "",
+    val topicJp: String = "",
+    val topicEn: String = "",
+    val questionJp: String = "",
+    val questionBn: String = "",
+    val questionEn: String = ""
+)
 
 /** দৈনন্দিন বাক্য (assets/sentences.json) */
 data class SentenceItem(val jp: String, val romaji: String, val bn: String, val en: String = "")
@@ -129,17 +148,28 @@ class ContentRepository private constructor(private val context: Context) {
     fun activitiesLesson(level: String, no: Int): ConvoLesson? =
         readObject(lessonPath(level, "activities", no))?.let { o ->
             ConvoLesson(
-                o.optInt("lesson", no), o.optString("title", ""),
+                o.optInt("lesson", no),
+                o.optString("title", ""),
                 list(o.optJSONArray("dialogues")) { d ->
                     Dialogue(
-                        d.optString("title"),
-                        list(d.optJSONArray("lines")) { l ->
+                        title = d.optString("title"),
+                        lines = list(d.optJSONArray("lines")) { l ->
                             ConvoLine(l.optString("speaker"), l.optString("jp"), l.optString("romaji"), l.optString("bn"), l.optString("en"))
                         },
-                        d.optString("title_en")
+                        titleEn = d.optString("title_en"),
+                        activityNo = d.optInt("activity_no", 0),
+                        candoId = d.optString("cando_id"),
+                        candoJp = d.optString("cando_jp"),
+                        candoEn = d.optString("cando_en"),
+                        candoBn = d.optString("cando_bn")
                     )
                 },
-                o.optString("title_en")
+                titleEn = o.optString("title_en"),
+                topicJp = o.optString("topic_jp"),
+                topicEn = o.optString("topic_en"),
+                questionJp = o.optString("question_prompt_jp"),
+                questionBn = o.optString("question_prompt_bn"),
+                questionEn = o.optString("question_prompt_en")
             )
         }
 

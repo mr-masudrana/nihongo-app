@@ -1,39 +1,222 @@
 {
   "lesson": 3,
-  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "topic_jp": "私のこと",
+  "topic_en": "About Myself",
+  "title": "よろしくお願いします (পরিচিত হয়ে আনন্দিত / ধন্যবাদ)",
   "title_en": "Nice to meet you.",
+  "question_prompt_jp": "はじめて会う人に自己紹介するとき、どんなことを言いますか？",
+  "question_prompt_bn": "প্রথমবার দেখা হওয়া কারো কাছে নিজেকে পরিচয় করিয়ে দেওয়ার সময় কী কী বলা হয়?",
+  "question_prompt_en": "What do you say when you are introducing yourself to someone you are meeting for the first time?",
   "dialogues": [
     {
-      "title": "১. আন্তর্জাতিক অনুষ্ঠানে প্রথম পরিচয়",
-      "title_en": "1. Meeting at an international exchange party",
+      "activity_no": 1,
+      "cando_id": "08",
+      "cando_jp": "名前や出身などを言って、簡単な自己紹介をすることができる。",
+      "cando_en": "Can give a simple self-introduction, for example by saying your name and country/hometown.",
+      "cando_bn": "নিজের নাম ও দেশ/নিজ এলাকার কথা বলে সংক্ষিপ্ত পরিচিতি দিতে পারা।",
+      "title": "1. はじめまして (প্রথম পরিচয়ে পরিচিতি)",
+      "title_en": "1. Nice to meet you — Self-introduction",
       "lines": [
         {
           "speaker": "A",
-          "jp": "お名前は?",
-          "romaji": "O-namae wa?",
-          "bn": "আপনার নাম কী?",
-          "en": "What is your name?"
-        },
-        {
-          "speaker": "B",
-          "jp": "チャンです。ベトナムから来ました。",
-          "romaji": "Chan desu. Betonamu kara kimashita.",
-          "bn": "আমি চ্যান। ভিয়েতনাম থেকে এসেছি।",
-          "en": "I'm Trang. I'm from Vietnam."
+          "jp": "はじめまして。トンです。タイから来ました。よろしくお願いします。",
+          "romaji": "Hajimemashite. Ton desu. Tai kara kimashita. Yoroshiku onegaishimasu.",
+          "bn": "প্রথম পরিচয়। আমি তন। থাইল্যান্ড থেকে এসেছি। পরিচিত হয়ে ভালো লাগল। (①)",
+          "en": "Nice to meet you. I'm Ton. I came from Thailand. Pleased to meet you. (1)"
         },
         {
           "speaker": "A",
-          "jp": "ケマラさんも、ベトナムからですか?",
-          "romaji": "Kemara-san mo, Betonamu kara desu ka?",
-          "bn": "কেমারাও কি ভিয়েতনাম থেকে?",
-          "en": "Are you from Vietnam too, Khemera?"
+          "jp": "はじめまして。ヤミンです。ミャンマーから来ました。どうぞよろしくお願いします。",
+          "romaji": "Hajimemashite. Yamin desu. Myanmaa kara kimashita. Doozo yoroshiku onegaishimasu.",
+          "bn": "প্রথম পরিচয়। আমি ইয়ামিন। মিয়ানমার থেকে এসেছি। পরিচিত হয়ে ভালো লাগল। (②)",
+          "en": "Nice to meet you. I'm Yamin. I came from Myanmar. Nice to meet you. (2)"
+        },
+        {
+          "speaker": "A",
+          "jp": "はじめまして。私はマルシアです。ブラジルから来ました。よろしくお願いします。",
+          "romaji": "Hajimemashite. Watashi wa Marushia desu. Burajiru kara kimashita. Yoroshiku onegaishimasu.",
+          "bn": "প্রথম পরিচয়। আমি মার্সিয়া। ব্রাজিল থেকে এসেছি। পরিচিত হয়ে ভালো লাগল। (③)",
+          "en": "Nice to meet you. I'm Marcia. I came from Brazil. Pleased to meet you. (3)"
+        },
+        {
+          "speaker": "A",
+          "jp": "パクです。パク・ソンジンです。韓国から来ました。どうぞよろしくお願いします。",
+          "romaji": "Paku desu. Paku Sonjin desu. Kankoku kara kimashita. Doozo yoroshiku onegaishimasu.",
+          "bn": "আমি পাক। পাক সং-জিন। দক্ষিণ কোরিয়া থেকে এসেছি। পরিচিত হয়ে ভালো লাগল। (④)",
+          "en": "I'm Park. Park Sung-jin. I came from Korea. Nice to meet you. (4)"
+        }
+      ]
+    },
+    {
+      "activity_no": 2,
+      "cando_id": "09",
+      "cando_jp": "名札などに、自分の国と名前を書くことができる。",
+      "cando_en": "Can write your name and country on a name tag, etc.",
+      "cando_bn": "নেম ট্যাগ বা ব্যাজে নিজের দেশ ও নাম লিখতে পারা।",
+      "title": "2. 名札 (নেম ট্যাগে দেশ ও নাম লেখা)",
+      "title_en": "2. Name tag — Writing country and name",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "インドネシア　アクバル",
+          "romaji": "Indoneshia · Akubaru",
+          "bn": "নেম ট্যাগের উদাহরণ: দেশ — ইন্দোনেশিয়া, নাম — আকবর।",
+          "en": "Name tag example: Country — Indonesia, Name — Akbar."
         },
         {
           "speaker": "B",
-          "jp": "いいえ。ベトナムじゃないです。カンボジアから来ました。",
-          "romaji": "Iie. Betonamu ja nai desu. Kanbojia kara kimashita.",
-          "bn": "না। ভিয়েতনাম নয়। আমি কম্বোডিয়া থেকে এসেছি।",
-          "en": "No. Not Vietnam. I came from Cambodia."
+          "jp": "名前と国を書いてください。",
+          "romaji": "Namae to kuni o kaite kudasai.",
+          "bn": "অনুগ্রহ করে নাম এবং দেশ লিখুন।",
+          "en": "Please write your name and country."
+        }
+      ]
+    },
+    {
+      "activity_no": 3,
+      "cando_id": "10",
+      "cando_jp": "はじめて会った人に、名前や出身などを質問したり、質問に答えたりすることができる。",
+      "cando_en": "Can ask and answer questions about your name and country/hometown, when meeting someone for the first time.",
+      "cando_bn": "প্রথমবার দেখা হওয়া কারো নাম ও দেশ/নিজ এলাকা নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা।",
+      "title": "3. ご出身は？ (আপনার বাড়ি/দেশ কোথায়?)",
+      "title_en": "3. Where are you from? — Asking & answering about name and origin",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "こんにちは。金子です。",
+          "romaji": "Konnichiwa. Kaneko desu.",
+          "bn": "শুভ দুপুর। আমি কানেকো। (কানেকো-সান)",
+          "en": "Hello. I'm Kaneko."
+        },
+        {
+          "speaker": "B",
+          "jp": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "bn": "শুভ দুপুর। (চ্যান, হাই, কেমারা)",
+          "en": "Hello. (Chan, Hai, Kemara)"
+        },
+        {
+          "speaker": "A",
+          "jp": "お名前は？",
+          "romaji": "Onamae wa?",
+          "bn": "আপনার নাম কী?",
+          "en": "What's your name?"
+        },
+        {
+          "speaker": "B",
+          "jp": "チャンです。私はハイです。ケマラです。",
+          "romaji": "Chan desu. Watashi wa Hai desu. Kemara desu.",
+          "bn": "আমি চ্যান। আমি হাই। আমি কেমারা।",
+          "en": "I'm Chan. I'm Hai. I'm Kemara."
+        },
+        {
+          "speaker": "A",
+          "jp": "えーと、チャンさん、ハイさん、ケマラさん……、ご出身は？",
+          "romaji": "Eeto, Chan-san, Hai-san, Kemara-san......, goshusshin wa?",
+          "bn": "আচ্ছা, চ্যান-সান, হাই-সান, কেমারা-সান……, আপনাদের বাড়ি/দেশ কোথায়?",
+          "en": "Um, Chan-san, Hai-san, Kemara-san..., where are you from?"
+        },
+        {
+          "speaker": "B",
+          "jp": "ベトナムです。ハノイから来ました。",
+          "romaji": "Betonamu desu. Hanoi kara kimashita.",
+          "bn": "ভিয়েতনাম। হ্যানয় থেকে এসেছি। (চ্যান)",
+          "en": "Vietnam. I came from Hanoi. (Chan)"
+        },
+        {
+          "speaker": "A",
+          "jp": "そうですか。ハイさんは？お国は？",
+          "romaji": "Soo desu ka. Hai-san wa? Okuni wa?",
+          "bn": "তাই নাকি! হাই-সান, আপনার কোথায়? আপনার দেশ কোনটি?",
+          "en": "I see. How about Hai-san? What country are you from?"
+        },
+        {
+          "speaker": "C",
+          "jp": "私もベトナムです。",
+          "romaji": "Watashi mo Betonamu desu.",
+          "bn": "আমিও ভিয়েতনামের। (হাই)",
+          "en": "I'm also from Vietnam. (Hai)"
+        },
+        {
+          "speaker": "A",
+          "jp": "ベトナムの、どちらからですか？",
+          "romaji": "Betonamu no, dochira kara desu ka?",
+          "bn": "ভিয়েতনামের কোন জায়গা থেকে এসেছেন?",
+          "en": "Which part of Vietnam are you from?"
+        },
+        {
+          "speaker": "C",
+          "jp": "フエです。",
+          "romaji": "Fue desu.",
+          "bn": "হুয়ে থেকে।",
+          "en": "From Hue."
+        },
+        {
+          "speaker": "A",
+          "jp": "そうですか。ケマラさんも、ベトナムからですか？",
+          "romaji": "Soo desu ka. Kemara-san mo, Betonamu kara desu ka?",
+          "bn": "তাই নাকি। কেমারা-সান, আপনিও কি ভিয়েতনাম থেকে এসেছেন?",
+          "en": "I see. Are you also from Vietnam, Kemara-san?"
+        },
+        {
+          "speaker": "D",
+          "jp": "いいえ。ベトナムじゃないです。私はカンボジアから来ました。",
+          "romaji": "Iie. Betonamu janai desu. Watashi wa Kambojia kara kimashita.",
+          "bn": "না। ভিয়েতনামের নই। আমি কম্বোডিয়া থেকে এসেছি। (কেমারা)",
+          "en": "No. Not from Vietnam. I came from Cambodia. (Kemara)"
+        },
+        {
+          "speaker": "A",
+          "jp": "そうですか。みなさんは、友だちですか？",
+          "romaji": "Soo desu ka. Minasan wa, tomodachi desu ka?",
+          "bn": "তাই নাকি। আপনারা সবাই কি বন্ধু?",
+          "en": "I see. Are you all friends?"
+        },
+        {
+          "speaker": "D",
+          "jp": "はい。同じ会社です。",
+          "romaji": "Hai. Onaji kaisha desu.",
+          "bn": "হ্যাঁ। একই কোম্পানির।",
+          "en": "Yes. We're at the same company."
+        }
+      ]
+    },
+    {
+      "activity_no": 4,
+      "cando_id": "11",
+      "cando_jp": "申込書に、氏名、国籍、生年月日などを書き込むことができる。",
+      "cando_en": "Can write your full name, nationality, date of birth, etc. on an application form.",
+      "cando_bn": "আবেদন ফরমে পূর্ণ নাম, জাতীয়তা, জন্মতারিখ ইত্যাদি লিখতে পারা।",
+      "title": "4. 申込書 (আবেদন ফরম পূরণ)",
+      "title_en": "4. Application form — Filling in personal details",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "氏名：山田 太郎",
+          "romaji": "Shimei: Yamada Taroo",
+          "bn": "পূর্ণ নাম: ইয়ামাদা তারো।",
+          "en": "Full name: Yamada Taro."
+        },
+        {
+          "speaker": "A",
+          "jp": "国籍：日本",
+          "romaji": "Kokuseki: Nihon",
+          "bn": "জাতীয়তা: জাপান।",
+          "en": "Nationality: Japan."
+        },
+        {
+          "speaker": "A",
+          "jp": "生年月日：1995年12月31日",
+          "romaji": "Seinengappi: 1995-nen 12-gatsu 31-nichi",
+          "bn": "জন্মতারিখ: ১৯৯৫ সাল ১২ মাস ৩১ তারিখ।",
+          "en": "Date of birth: December 31, 1995."
+        },
+        {
+          "speaker": "A",
+          "jp": "住所・電話番号・メール",
+          "romaji": "Juusho · Denwabangoo · Meeru",
+          "bn": "ঠিকানা, ফোন নম্বর এবং ইমেইল।",
+          "en": "Address, telephone number, and email."
         }
       ]
     }

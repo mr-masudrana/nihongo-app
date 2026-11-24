@@ -1,53 +1,83 @@
 {
   "lesson": 2,
-  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "title": "すみません、よくわかりません (দুঃখিত, ঠিক বুঝতে পারিনি)",
   "title_en": "I'm sorry, I don't really understand.",
   "points": [
     {
-      "title": "Can-do 05: বুঝতে না পারলে পুনরায় জিজ্ঞাসা করা",
+      "title": "Can-do 05: আবার বলতে বা ধীরে বলতে অনুরোধ করা",
       "pattern": "相手の言っていることがよくわからないとき、聞き返すことができる。",
-      "explain": "কথা বুঝতে না পারলে আরেকবার বা ধীরে বলার অনুরোধ করতে পারা।",
+      "explain": "কথা না বুঝলে ভদ্রভাবে আরেকবার বলতে বা ধীরে বলতে অনুরোধ করুন।",
       "title_en": "Can-do 05",
-      "pattern_en": "Can ask someone to say something again.",
-      "explain_en": "Ask for repetition or slower speech.",
+      "pattern_en": "Can ask someone to say something again if you don't really understand.",
+      "explain_en": "Politely ask someone to repeat or speak more slowly when you don't understand.",
       "examples": [
+        {
+          "jp": "すみません。もういちど、お願いします。",
+          "romaji": "Sumimasen. Moo ichido, onegaishimasu.",
+          "bn": "দুঃখিত। আরেকবার বলুন, দয়া করে।",
+          "en": "I'm sorry. One more time, please."
+        },
+        {
+          "jp": "すみません。もう少し、ゆっくり言ってください。",
+          "romaji": "Sumimasen. Moo sukoshi, yukkuri itte kudasai.",
+          "bn": "দুঃখিত। আরেকটু ধীরে বলুন, দয়া করে।",
+          "en": "I'm sorry. Please speak a little more slowly."
+        },
         {
           "jp": "すみません。よくわかりません。",
           "romaji": "Sumimasen. Yoku wakarimasen.",
-          "bn": "মাফ করবেন। ভালো বুঝতে পারছি না।",
-          "en": "Excuse me. I don't really understand."
+          "bn": "দুঃখিত। ঠিক বুঝতে পারিনি।",
+          "en": "I'm sorry. I don't really understand."
         }
       ]
     },
     {
-      "title": "Can-do 06: ভাষা জানার বিষয়ে প্রশ্ন ও উত্তর",
-      "pattern": "日本語やほかのことばができるかどうか質問したり、答えたりすることができる。",
-      "explain": "জাপানি বা অন্য ভাষা বলতে ও বুঝতে পারেন কি না তা বলতে পারা।",
+      "title": "Can-do 06: ভাষা জানা বা বলা নিয়ে প্রশ্ন ও উত্তর",
+      "pattern": "日本語やほかのことばができるかどうか質問したり、質問に答えたりすることができる。",
+      "explain": "জাপানি বা অন্য কোনো ভাষা বলতে বা বুঝতে পারেন কি না তা জিজ্ঞাসা ও উত্তর দিতে শিখুন।",
       "title_en": "Can-do 06",
-      "pattern_en": "Can ask and answer about languages spoken.",
-      "explain_en": "Ask and answer whether someone speaks Japanese or other languages.",
+      "pattern_en": "Can question whether someone can speak Japanese and ask if someone speaks other languages.",
+      "explain_en": "Ask and answer whether someone can speak or understand Japanese or other languages.",
       "examples": [
         {
-          "jp": "はい、少しわかります。",
-          "romaji": "Hai, sukoshi wakarimasu.",
-          "bn": "হ্যাঁ, অল্প বুঝি।",
-          "en": "Yes, I understand a little."
+          "jp": "あのう、日本語、できますか？",
+          "romaji": "Anoo, nihongo, dekimasu ka?",
+          "bn": "শুনুন, জাপানি বলতে পারেন?",
+          "en": "Um, can you speak Japanese?"
+        },
+        {
+          "jp": "はい、少しできます。",
+          "romaji": "Hai, sukoshi dekimasu.",
+          "bn": "হ্যাঁ, একটু পারি।",
+          "en": "Yes, I can a little."
+        },
+        {
+          "jp": "じゃあ、英語、わかりますか？",
+          "romaji": "Jaa, eigo, wakarimasu ka?",
+          "bn": "তাহলে ইংরেজি বোঝেন?",
+          "en": "Then do you understand English?"
         }
       ]
     },
     {
-      "title": "Can-do 07: জাপানি শব্দ জিজ্ঞাসা করা",
+      "title": "Can-do 07: জাপানিতে কোনো শব্দের নাম জানতে চাওয়া",
       "pattern": "日本語の言い方がわからないとき、どう言えばいいか質問して、その答えを理解することができる。",
-      "explain": "কোনো কিছুর জাপানি নাম জিজ্ঞাসা করতে ও উত্তর বুঝতে পারা।",
+      "explain": "কোনো জিনিস বা শব্দের জাপানি নাম না জানলে এভাবে প্রশ্ন করুন।",
       "title_en": "Can-do 07",
-      "pattern_en": "Can ask how to say something in Japanese.",
-      "explain_en": "Ask how to say a word in Japanese and understand the reply.",
+      "pattern_en": "Can ask how to say something in Japanese and understand the answer.",
+      "explain_en": "Ask what something is called in Japanese and understand the reply.",
       "examples": [
         {
-          "jp": "「Driver's license」は、日本語で何と言いますか?",
-          "romaji": "'Driver's license' wa nihongo de nan to iimasu ka?",
-          "bn": "'Driver's license' জাপানি ভাষায় কী বলে?",
-          "en": "How do you say 'driver's license' in Japanese?"
+          "jp": "これは、日本語で何と言いますか？",
+          "romaji": "Kore wa, nihongo de nan to iimasu ka?",
+          "bn": "এটাকে জাপানিতে কী বলে?",
+          "en": "How do you say this in Japanese?"
+        },
+        {
+          "jp": "あのう、[driver's license]は、日本語で何と言いますか？",
+          "romaji": "Anoo, [driver's license] wa, nihongo de nan to iimasu ka?",
+          "bn": "শুনুন, [driver's license]-কে জাপানিতে কী বলে?",
+          "en": "Um, how do you say [driver's license] in Japanese?"
         }
       ]
     }

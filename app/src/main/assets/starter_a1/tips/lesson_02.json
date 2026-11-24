@@ -1,37 +1,69 @@
 {
   "lesson": 2,
-  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "title": "すみません、よくわかりません (দুঃখিত, ঠিক বুঝতে পারিনি)",
   "title_en": "I'm sorry, I don't really understand.",
   "points": [
     {
-      "title": "জাইরিউ কার্ড (Residence Card)",
-      "pattern": "在留カード",
-      "explain": "জাপানে ৩ মাসের বেশি বসবাসকারী বিদেশি নাগরিকদের পরিচয়পত্র হলো জাইরিউ কার্ড। এটি সর্বদা সাথে রাখা আইনত বাধ্যতামূলক।",
-      "title_en": "Residence Card",
-      "pattern_en": "Zairyuu Kaado",
-      "explain_en": "Foreign residents must carry their residence card at all times.",
+      "title": "রেসিডেন্স কার্ড (在留カード · Residence card)",
+      "pattern": "在留カード (Zairyuu kaado)",
+      "explain": "জাপানে ৩ মাস বা তার বেশি সময় বসবাসকারী বিদেশি নাগরিকদের রেসিডেন্স কার্ড দেওয়া হয়। এতে নাম, বয়স, জাতীয়তা/অঞ্চল, ঠিকানা, ভিসার ধরন ও কাজের অনুমোদন উল্লেখ থাকে। জাপানে বসবাসকালে সবসময় এটি সাথে রাখা বাধ্যতামূলক।",
+      "title_en": "Residence card (在留カード)",
+      "pattern_en": "Mandatory ID for foreign residents in Japan",
+      "explain_en": "Foreign residents staying in Japan for 3 months or more receive a residence card and must carry it at all times.",
       "examples": [
         {
           "jp": "在留カード、見せてください。",
           "romaji": "Zairyuu kaado, misete kudasai.",
-          "bn": "রেসিডেন্স কার্ড দেখান, দয়া করে।",
+          "bn": "অনুগ্রহ করে রেসিডেন্স কার্ড দেখান।",
           "en": "Please show me your residence card."
         }
       ]
     },
     {
-      "title": "জাপানি সংক্ষিপ্ত শব্দ (Abbreviations)",
-      "pattern": "略語 (スマホ、コンビニ、エアコン)",
-      "explain": "জাপানি ভাষায় বড় বিদেশি শব্দ সংক্ষিপ্ত করে বলা হয়, যেমন: স্মার্টফোন → スマホ (সুমাহো), কনভিনিয়েন্স স্টোর → コンビニ (কোনবিনি)।",
-      "title_en": "Abbreviations in Japanese",
-      "pattern_en": "Sumaho, Konbini, Eakon",
-      "explain_en": "Japanese frequently shortens long loanwords.",
+      "title": "ওদেন (おでん · Oden)",
+      "pattern": "おでん (Oden)",
+      "explain": "দাশি (dashi) স্যুপে মুলা, আলু, সেদ্ধ ডিম, কোননিয়াকু, চিকুওয়া ইত্যাদি উপাদান সিদ্ধ করে তৈরি জনপ্রিয় শীতকালীন জাপানি খাবার। ইজাকায়া, বিশেষ দোকান এবং কনভিনিয়েন্স স্টোরে সহজেই পাওয়া যায়।",
+      "title_en": "Oden (おでん)",
+      "pattern_en": "Popular Japanese winter stew",
+      "explain_en": "Ingredients such as radish, potato, egg, and konnyaku simmered in dashi broth; widely available in winter and at convenience stores.",
       "examples": [
         {
-          "jp": "スマホです。",
-          "romaji": "Sumaho desu.",
-          "bn": "স্মার্টফোন।",
-          "en": "It's a smartphone."
+          "jp": "おでん、おいしいですね。",
+          "romaji": "Oden, oishii desu ne.",
+          "bn": "ওদেন খুব সুস্বাদু, তাই না?",
+          "en": "Oden is delicious, isn't it?"
+        }
+      ]
+    },
+    {
+      "title": "সংক্ষিপ্ত শব্দ বা অ্যাব্রিভিয়েশন (略語 · Abbreviations)",
+      "pattern": "略語 (スマホ・コンビニ・エアコン)",
+      "explain": "দৈনন্দিন জাপানিতে বড় শব্দের সংক্ষিপ্ত রূপ খুব প্রচলিত—যেমন: スマートフォン → スマホ (স্মার্টফোন), コンビニエンスストア → コンビニ (কনভিনিয়েন্স স্টোর), エアコン (এয়ার কন্ডিশনার), リモコン (রিমোট কন্ট্রোল)।",
+      "title_en": "Abbreviations (略語)",
+      "pattern_en": "Shortened everyday words in Japanese",
+      "explain_en": "Common abbreviations include sumaho (smartphone), konbini (convenience store), eakon (air conditioner), and rimokon (remote).",
+      "examples": [
+        {
+          "jp": "スマホですよ。",
+          "romaji": "Sumaho desu yo.",
+          "bn": "স্মাহো (স্মার্টফোন)।",
+          "en": "It's a sumaho (smartphone)."
+        }
+      ]
+    },
+    {
+      "title": "মশা ও সুরক্ষা (蚊 · Mosquitoes)",
+      "pattern": "蚊・蚊取り線香 (Katori senkoo)",
+      "explain": "গ্রীষ্মে বিশেষত সন্ধ্যায় মশা দেখা যায়। জাপানের মশায় সাধারণত ম্যালেরিয়া বা ডেঙ্গুর মতো রোগ ছড়ানোর ঝুঁকি কম হলেও কামড়ালে চুলকানি হয়। সুরক্ষায় মশা তাড়ানোর স্প্রে, ইলেকট্রিক রিপেলেন্ট বা কাতোরি সেঙ্কো (কয়েল) ব্যবহার করা হয়।",
+      "title_en": "Mosquitoes (蚊)",
+      "pattern_en": "Insect repellents and katori senkoo in Japan",
+      "explain_en": "Mosquitoes appear in summer evenings; people use sprays, electric repellents, or katori senkoo incense coils.",
+      "examples": [
+        {
+          "jp": "蚊です。",
+          "romaji": "Ka desu.",
+          "bn": "কা (মশা)।",
+          "en": "It's a ka (mosquito)."
         }
       ]
     }

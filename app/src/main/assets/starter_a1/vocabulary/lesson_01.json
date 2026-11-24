@@ -1,20 +1,20 @@
 {
   "lesson": 1,
-  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
-  "title_en": "Good morning! (Greetings)",
+  "title": "おはようございます (শুভ সকাল!)",
+  "title_en": "Good morning!",
   "words": [
     {
       "word": "おはようございます",
       "reading": "おはようございます",
-      "romaji": "ohayou gozaimasu",
+      "romaji": "ohayoo gozaimasu",
       "bn": "শুভ সকাল (ভদ্র রূপ)",
       "en": "Good morning (polite)"
     },
     {
       "word": "おはよう",
       "reading": "おはよう",
-      "romaji": "ohayou",
-      "bn": "শুভ সকাল (সাধারণ)",
+      "romaji": "ohayoo",
+      "bn": "শুভ সকাল (সাধারণ / বন্ধুদের সাথে)",
       "en": "Good morning (casual)"
     },
     {
@@ -56,50 +56,120 @@
       "word": "お疲れさまでした",
       "reading": "おつかれさまでした",
       "romaji": "otsukaresama deshita",
-      "bn": "কাজের জন্য ধন্যবাদ / বিদায়",
-      "en": "Thank you for your hard work"
+      "bn": "কাজের জন্য ধন্যবাদ (ভদ্র)",
+      "en": "Thank you for your hard work (polite)"
+    },
+    {
+      "word": "お疲れさま",
+      "reading": "おつかれさま",
+      "romaji": "otsukaresama",
+      "bn": "কাজের জন্য ধন্যবাদ (সাধারণ)",
+      "en": "Thanks for your hard work (casual)"
     },
     {
       "word": "おやすみなさい",
       "reading": "おやすみなさい",
       "romaji": "oyasuminasai",
-      "bn": "শুভ রাত্রি",
-      "en": "Good night"
+      "bn": "শুভ রাত্রি (ভদ্র)",
+      "en": "Good night (polite)"
+    },
+    {
+      "word": "おやすみ",
+      "reading": "おやすみ",
+      "romaji": "oyasumi",
+      "bn": "শুভ রাত্রি (সাধারণ)",
+      "en": "Good night (casual)"
     },
     {
       "word": "ありがとうございます",
       "reading": "ありがとうございます",
-      "romaji": "arigatou gozaimasu",
+      "romaji": "arigatoo gozaimasu",
       "bn": "অনেক ধন্যবাদ",
       "en": "Thank you very much"
+    },
+    {
+      "word": "どうもありがとう",
+      "reading": "どうもありがとう",
+      "romaji": "doomo arigatoo",
+      "bn": "অনেক ধন্যবাদ (বন্ধুদের সাথে)",
+      "en": "Thanks a lot"
+    },
+    {
+      "word": "どうも",
+      "reading": "どうも",
+      "romaji": "doomo",
+      "bn": "ধন্যবাদ",
+      "en": "Thanks"
     },
     {
       "word": "すみません",
       "reading": "すみません",
       "romaji": "sumimasen",
-      "bn": "মাফ করবেন / ধন্যবাদ",
+      "bn": "দুঃখিত / ধন্যবাদ / শুনুন",
       "en": "Excuse me / I'm sorry / Thank you"
     },
     {
       "word": "ごめん",
       "reading": "ごめん",
       "romaji": "gomen",
-      "bn": "দুঃখিত (বন্ধুদের মাঝে)",
+      "bn": "সরি / দুঃখিত (বন্ধুদের মধ্যে)",
       "en": "Sorry (casual)"
+    },
+    {
+      "word": "これ",
+      "reading": "これ",
+      "romaji": "kore",
+      "bn": "এটা",
+      "en": "this"
+    },
+    {
+      "word": "あめ",
+      "reading": "あめ",
+      "romaji": "ame",
+      "bn": "ক্যান্ডি / লজেন্স",
+      "en": "candy"
+    },
+    {
+      "word": "プレゼント",
+      "reading": "プレゼント",
+      "romaji": "purezento",
+      "bn": "উপহার",
+      "en": "present"
     },
     {
       "word": "どうぞ",
       "reading": "どうぞ",
-      "romaji": "douzo",
-      "bn": "নিন / এই যে",
-      "en": "Here you go / Please"
+      "romaji": "doozo",
+      "bn": "এই নিন / দয়া করে",
+      "en": "here you go / please"
     },
     {
       "word": "いいえ",
       "reading": "いいえ",
       "romaji": "iie",
-      "bn": "না / কিছু না",
-      "en": "No / You're welcome"
+      "bn": "না / স্বাগতম (ধন্যবাদের উত্তরে)",
+      "en": "no / you're welcome"
+    },
+    {
+      "word": "落としましたよ",
+      "reading": "おとしましたよ",
+      "romaji": "otoshimashita yo",
+      "bn": "আপনি এটি ফেলে দিয়েছেন",
+      "en": "You dropped this"
+    },
+    {
+      "word": "わあ",
+      "reading": "わあ",
+      "romaji": "waa",
+      "bn": "বাহ! (বিস্ময় প্রকাশ)",
+      "en": "wow (expresses surprise)"
+    },
+    {
+      "word": "痛い！",
+      "reading": "いたい！",
+      "romaji": "itai!",
+      "bn": "আহ, ব্যথা লাগলো!",
+      "en": "Ouch!"
     }
   ]
 }

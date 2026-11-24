@@ -1,21 +1,53 @@
 {
   "lesson": 4,
-  "title": "টোকিওতে বসবাস করি",
-  "title_en": "I live in Tokyo.",
+  "title": "東京に住んでいます (জাপানের জীবনযাত্রা ও সংস্কৃতি)",
+  "title_en": "I live in Tokyo. (Tips of Life in Japan)",
   "points": [
     {
-      "title": "জাপানের প্রধান শহরসমূহ ও বয়স জিজ্ঞাসা",
-      "pattern": "日本のおもな都市・年齢を聞く",
-      "explain": "টোকিও, ওসাকা, নাগোয়া, ইয়োকোহামা, সাপ্পোরো, ফুকুওকা জাপানের অন্যতম প্রধান শহর। জাপানে বয়স জিজ্ঞাসা করা হলে সরাসরি বলতে না চাইলে '秘密です' (গোপন) বা জন্মসালের রাশিচক্র (干支) বলা যায়।",
-      "title_en": "Major Japanese Cities & Asking Age",
-      "pattern_en": "Tokyo, Osaka, Nagoya, Sapporo, Fukuoka",
-      "explain_en": "Major cities in Japan and cultural etiquette around age.",
+      "title": "জাপানের প্রধান শহরসমূহ (Major Japanese cities)",
+      "pattern": "東京・大阪・名古屋・札幌・福岡・横浜",
+      "explain": "জাপানের রাজধানী টোকিও (東京) ছাড়াও ওসাকা (大阪), নাগোয়া (名古屋), সাপ্পোরো (札幌), ফুকুওকা (福岡), ইয়োকোহামা (横浜) ইত্যাদি বড় শহর ও অঞ্চলে দেশ-বিদেশের মানুষ বসবাস ও কাজ করেন।",
+      "title_en": "Major Japanese cities",
+      "pattern_en": "Tokyo, Osaka, Nagoya, Sapporo, Fukuoka, Yokohama",
+      "explain_en": "Alongside Tokyo, major hubs like Osaka, Nagoya, Sapporo, Fukuoka, and Yokohama are home to diverse communities.",
       "examples": [
         {
-          "jp": "秘密です。",
-          "romaji": "Himitsu desu.",
-          "bn": "এটা গোপন (বয়স বলতে না চাইলে)।",
-          "en": "It's a secret."
+          "jp": "東京に住んでいます。",
+          "romaji": "Tookyoo ni sundeimasu.",
+          "bn": "টোকিওতে বসবাস করছি।",
+          "en": "I live in Tokyo."
+        }
+      ]
+    },
+    {
+      "title": "কারো বয়স জিজ্ঞাসা করার শিষ্টাচার (Asking a person's age)",
+      "pattern": "何歳ですか？ / おいくつですか？",
+      "explain": "জাপানে প্রথম পরিচয়ে বা বয়স্ক/অপরিচিত কারো বয়স সরাসরি জিজ্ঞাসা করা সবসময় স্বাভাবিক নয়; প্রয়োজন হলে ভদ্রভাবে '何歳ですか？' বা 'おいくつですか？' বলা হয় এবং বয়স গোপন রাখতে চাইলে মৃদু হাসিতে এড়িয়ে যাওয়াও স্বাভাবিক।",
+      "title_en": "Asking a person's age",
+      "pattern_en": "Politeness and nuance when asking age",
+      "explain_en": "Ask politely when needed using 何歳ですか？ or おいくつですか？; keeping exact age private is also respected.",
+      "examples": [
+        {
+          "jp": "おいくつですか？",
+          "romaji": "Oikutsu desu ka?",
+          "bn": "বয়স কত? (সম্মানসূচক)",
+          "en": "How old are you? (Polite)"
+        }
+      ]
+    },
+    {
+      "title": "জাপানের সমুদ্র ও উপকূল (The seas of Japan)",
+      "pattern": "海 (Umi) · 太平洋・日本海",
+      "explain": "চারদিকে সমুদ্রবেষ্টিত দ্বীপরাষ্ট্র হওয়ায় জাপানে সমুদ্রসৈকত, সামুদ্রিক খাবার ও গ্রীষ্মকালীন অবকাশে সমুদ্রে (海) যাওয়ার সংস্কৃতি বেশ জনপ্রিয়।",
+      "title_en": "The seas of Japan",
+      "pattern_en": "Coastal life and sea outings (海)",
+      "explain_en": "As an island nation surrounded by sea, coastal trips and seafood are a major part of life in Japan.",
+      "examples": [
+        {
+          "jp": "友だちと海！",
+          "romaji": "Tomodachi to umi!",
+          "bn": "বন্ধুদের সাথে সমুদ্রে!",
+          "en": "With friends at the sea!"
         }
       ]
     }

@@ -1,14 +1,21 @@
 {
   "lesson": 3,
-  "title": "পরিচিত হয়ে ভালো লাগলো",
+  "title": "よろしくお願いします (পরিচিত হয়ে আনন্দিত / ধন্যবাদ)",
   "title_en": "Nice to meet you.",
   "words": [
     {
       "word": "はじめまして",
       "reading": "はじめまして",
       "romaji": "hajimemashite",
-      "bn": "প্রথম দেখা হলো (শুভেচ্ছা)",
-      "en": "Nice to meet you"
+      "bn": "প্রথম পরিচয় (কথা শুরুর অভিবাদন)",
+      "en": "nice to meet you (used when meeting someone for the first time)"
+    },
+    {
+      "word": "よろしくお願いします",
+      "reading": "よろしくおねがいします",
+      "romaji": "yoroshiku onegaishimasu",
+      "bn": "পরিচিত হয়ে ভালো লাগল / ধন্যবাদ",
+      "en": "nice to meet you (used at the end of an introduction)"
     },
     {
       "word": "私",
@@ -18,11 +25,32 @@
       "en": "I / myself"
     },
     {
+      "word": "〜から来ました",
+      "reading": "〜からきました",
+      "romaji": "〜kara kimashita",
+      "bn": "~ থেকে এসেছি",
+      "en": "came from ~"
+    },
+    {
+      "word": "来る",
+      "reading": "くる",
+      "romaji": "kuru",
+      "bn": "আসা (মূল ক্রিয়া)",
+      "en": "come"
+    },
+    {
       "word": "名前",
       "reading": "なまえ",
       "romaji": "namae",
       "bn": "নাম",
       "en": "name"
+    },
+    {
+      "word": "お名前",
+      "reading": "おなまえ",
+      "romaji": "onamae",
+      "bn": "আপনার নাম (ভদ্র রূপ)",
+      "en": "your name"
     },
     {
       "word": "国",
@@ -32,18 +60,32 @@
       "en": "country"
     },
     {
-      "word": "出身",
-      "reading": "しゅっしん",
-      "romaji": "shusshin",
-      "bn": "নিজ দেশ / জন্মস্থান",
-      "en": "hometown / country of origin"
+      "word": "お国",
+      "reading": "おくに",
+      "romaji": "okuni",
+      "bn": "আপনার দেশ (ভদ্র রূপ)",
+      "en": "your country"
     },
     {
-      "word": "来ました",
-      "reading": "きました",
-      "romaji": "kimashita",
-      "bn": "এসেছি (আসা)",
-      "en": "came"
+      "word": "ご出身",
+      "reading": "ごしゅっしん",
+      "romaji": "goshusshin",
+      "bn": "নিজ এলাকা / জন্মস্থান (ভদ্র)",
+      "en": "your country / hometown"
+    },
+    {
+      "word": "どちら",
+      "reading": "どちら",
+      "romaji": "dochira",
+      "bn": "কোন জায়গা / কোন দিক",
+      "en": "where (polite)"
+    },
+    {
+      "word": "みなさん",
+      "reading": "みなさん",
+      "romaji": "minasan",
+      "bn": "আপনারা সবাই / সবাই",
+      "en": "everyone"
     },
     {
       "word": "友だち",
@@ -56,15 +98,92 @@
       "word": "同じ",
       "reading": "おなじ",
       "romaji": "onaji",
-      "bn": "একই",
+      "bn": "একই / সমান",
       "en": "same"
     },
     {
       "word": "会社",
       "reading": "かいしゃ",
       "romaji": "kaisha",
-      "bn": "কোম্পানি",
+      "bn": "কোম্পানি / প্রতিষ্ঠান",
       "en": "company"
+    },
+    {
+      "word": "タイ",
+      "reading": "タイ",
+      "romaji": "Tai",
+      "bn": "থাইল্যান্ড",
+      "en": "Thailand"
+    },
+    {
+      "word": "ミャンマー",
+      "reading": "ミャンマー",
+      "romaji": "Myanmaa",
+      "bn": "মিয়ানমার",
+      "en": "Myanmar"
+    },
+    {
+      "word": "ブラジル",
+      "reading": "ブラジル",
+      "romaji": "Burajiru",
+      "bn": "ব্রাজিল",
+      "en": "Brazil"
+    },
+    {
+      "word": "韓国",
+      "reading": "かんこく",
+      "romaji": "Kankoku",
+      "bn": "দক্ষিণ কোরিয়া",
+      "en": "Korea"
+    },
+    {
+      "word": "インドネシア",
+      "reading": "インドネシア",
+      "romaji": "Indoneshia",
+      "bn": "ইন্দোনেশিয়া",
+      "en": "Indonesia"
+    },
+    {
+      "word": "ベトナム",
+      "reading": "ベトナム",
+      "romaji": "Betonamu",
+      "bn": "ভিয়েতনাম",
+      "en": "Vietnam"
+    },
+    {
+      "word": "ハノイ",
+      "reading": "ハノイ",
+      "romaji": "Hanoi",
+      "bn": "হ্যানয়",
+      "en": "Hanoi"
+    },
+    {
+      "word": "フエ",
+      "reading": "フエ",
+      "romaji": "Fue",
+      "bn": "হুয়ে",
+      "en": "Hue"
+    },
+    {
+      "word": "カンボジア",
+      "reading": "カンボジア",
+      "romaji": "Kambojia",
+      "bn": "কম্বোডিয়া",
+      "en": "Cambodia"
+    },
+    {
+      "word": "日本",
+      "reading": "にほん",
+      "romaji": "Nihon",
+      "bn": "জাপান",
+      "en": "Japan"
+    },
+    {
+      "word": "氏名",
+      "reading": "しめい",
+      "romaji": "shimei",
+      "bn": "পূর্ণ নাম",
+      "en": "full name"
     },
     {
       "word": "国籍",
@@ -81,6 +200,34 @@
       "en": "date of birth"
     },
     {
+      "word": "西暦",
+      "reading": "せいれき",
+      "romaji": "seireki",
+      "bn": "খ্রিস্টাব্দ / সাধারণ সাল",
+      "en": "Western calendar year"
+    },
+    {
+      "word": "〜年",
+      "reading": "〜ねん",
+      "romaji": "〜nen",
+      "bn": "~ সাল / বছর",
+      "en": "~ year"
+    },
+    {
+      "word": "〜月",
+      "reading": "〜がつ",
+      "romaji": "〜gatsu",
+      "bn": "~ মাস",
+      "en": "~ month"
+    },
+    {
+      "word": "〜日",
+      "reading": "〜にち",
+      "romaji": "〜nichi",
+      "bn": "~ তারিখ / দিন",
+      "en": "~ day of the month"
+    },
+    {
       "word": "住所",
       "reading": "じゅうしょ",
       "romaji": "juusho",
@@ -90,9 +237,16 @@
     {
       "word": "電話番号",
       "reading": "でんわばんごう",
-      "romaji": "denwa bangou",
-      "bn": "ফোন নম্বর",
+      "romaji": "denwabangoo",
+      "bn": "টেলিফোন / ফোন নম্বর",
       "en": "telephone number"
+    },
+    {
+      "word": "メール",
+      "reading": "メール",
+      "romaji": "meeru",
+      "bn": "ইমেইল",
+      "en": "email"
     }
   ]
 }

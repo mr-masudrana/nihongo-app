@@ -396,7 +396,7 @@ private fun NumRow(n: NumberItem, onSpeak: () -> Unit) {
     }
 }
 
-// ---------------------------------------------------------------- কথোপকথন
+// ---------------------------------------------------------------- কথোপকথন ও Irodori Activities
 
 @Composable
 private fun ConvoLessonContent(level: String, no: Int) {
@@ -406,19 +406,99 @@ private fun ConvoLessonContent(level: String, no: Int) {
     }
     val lesson = loaded
     if (lesson == null) { Loading(); return }
-    Column(Modifier.fillMaxSize()) {
-        LessonTitle(tr(lesson.title, lesson.titleEn))
-        if (lesson.dialogues.isEmpty()) {
+    val cs = MaterialTheme.colorScheme
+
+    if (lesson.dialogues.isEmpty()) {
+        Column(Modifier.fillMaxSize()) {
+            LessonTitle(tr(lesson.title, lesson.titleEn))
             EmptyLesson()
-        } else {
-            LazyColumn(
-                Modifier.fillMaxSize(),
-                contentPadding = listPadding,
-                verticalArrangement = Arrangement.spacedBy(12.dp)
+        }
+        return
+    }
+
+    LazyColumn(
+        Modifier.fillMaxSize(),
+        contentPadding = listPadding,
+        verticalArrangement = Arrangement.spacedBy(14.dp)
+    ) {
+        // Irodori Textbook Style Lesson Banner (Topic + 第 N 課 + Warm-up Question)
+        item(key = "irodori_header") {
+            SoftCard(
+                Modifier.fillMaxWidth(),
+                color = cs.surfaceContainerLow,
+                borderColor = cs.primary.copy(alpha = 0.35f)
             ) {
-                items(lesson.dialogues) { d -> DialogueCard(d) }
+                Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Box(
+                            Modifier
+                                .clip(CircleShape)
+                                .background(cs.primary)
+                                .padding(horizontal = 10.dp, vertical = 4.dp)
+                        ) {
+                            Text(
+                                if (lesson.topicJp.isNotBlank()) "${lesson.topicJp} · ${lesson.topicEn}"
+                                else ContentRepository.levelDisplayName(level),
+                                style = MaterialTheme.typography.labelSmall,
+                                color = cs.onPrimary,
+                                fontWeight = FontWeight.Bold
+                            )
+                        }
+                    }
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Box(
+                            Modifier
+                                .clip(CircleShape)
+                                .background(cs.primaryContainer)
+                                .padding(horizontal = 12.dp, vertical = 6.dp)
+                        ) {
+                            Text(
+                                "第 $no 課",
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold,
+                                color = cs.onPrimaryContainer
+                            )
+                        }
+                        Spacer(Modifier.width(10.dp))
+                        Text(
+                            tr(lesson.title, lesson.titleEn),
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
+                            color = cs.onSurface,
+                            modifier = Modifier.weight(1f)
+                        )
+                    }
+                    if (lesson.questionJp.isNotBlank()) {
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+                                .clip(androidx.compose.foundation.shape.RoundedCornerShape(12.dp))
+                                .background(cs.surface)
+                                .padding(12.dp),
+                            verticalAlignment = Alignment.Top
+                        ) {
+                            Box(
+                                Modifier
+                                    .size(24.dp)
+                                    .clip(CircleShape)
+                                    .background(cs.tertiary),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Text("?", style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold, color = cs.onTertiary)
+                            }
+                            Spacer(Modifier.width(10.dp))
+                            Column(Modifier.weight(1f)) {
+                                Text(lesson.questionJp, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.SemiBold, color = cs.onSurface)
+                                Spacer(Modifier.height(2.dp))
+                                Text(tr(lesson.questionBn, lesson.questionEn), style = MaterialTheme.typography.bodySmall, color = cs.onSurfaceVariant)
+                            }
+                        }
+                    }
+                }
             }
         }
+
+        items(lesson.dialogues) { d -> DialogueCard(d) }
     }
 }
 
@@ -426,38 +506,119 @@ private fun ConvoLessonContent(level: String, no: Int) {
 private fun DialogueCard(d: Dialogue) {
     val cs = MaterialTheme.colorScheme
     val tts = LocalTts.current
+    var scriptOpen by rememberSaveable(d.title) { mutableStateOf(true) }
+
     SoftCard(Modifier.fillMaxWidth()) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(
-                    tr(d.title, d.titleEn),
-                    style = MaterialTheme.typography.titleMedium,
-                    color = cs.onSurface,
-                    modifier = Modifier.weight(1f)
-                )
-                SpeakButton(
-                    onClick = { tts.speak(d.lines.joinToString("\n") { it.jp }) },
-                    diameter = 40.dp
-                )
-            }
-            d.lines.forEach { l ->
-                val isA = l.speaker == "A"
-                val chip = if (isA) cs.primary else cs.tertiary
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
-                    Box(
+        Column(verticalArrangement = Arrangement.spacedBy(0.dp)) {
+            // Irodori Activity Header Strip (Crimson/Primary Header + Yellow/Secondary Can-do Goal Bar)
+            Column(
+                Modifier
+                    .fillMaxWidth()
+                    .background(cs.primaryContainer.copy(alpha = 0.7f))
+                    .padding(horizontal = 16.dp, vertical = 12.dp)
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(
+                        tr(d.title, d.titleEn),
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = cs.onPrimaryContainer,
+                        modifier = Modifier.weight(1f)
+                    )
+                    SpeakButton(
+                        onClick = { tts.speak(d.lines.joinToString("\n") { it.jp }) },
+                        diameter = 38.dp
+                    )
+                }
+                if (d.candoId.isNotBlank() || d.candoJp.isNotBlank()) {
+                    Spacer(Modifier.height(8.dp))
+                    Row(
                         Modifier
-                            .size(28.dp)
-                            .clip(CircleShape)
-                            .background(chip.copy(alpha = 0.15f)),
-                        contentAlignment = Alignment.Center
+                            .fillMaxWidth()
+                            .clip(androidx.compose.foundation.shape.RoundedCornerShape(10.dp))
+                            .background(cs.tertiaryContainer.copy(alpha = 0.85f))
+                            .padding(horizontal = 10.dp, vertical = 8.dp),
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(l.speaker, style = MaterialTheme.typography.labelLarge, color = chip)
+                        if (d.candoId.isNotBlank()) {
+                            Box(
+                                Modifier
+                                    .clip(CircleShape)
+                                    .background(cs.tertiary)
+                                    .padding(horizontal = 8.dp, vertical = 2.dp)
+                            ) {
+                                Text(
+                                    "Can-do ${d.candoId}",
+                                    style = MaterialTheme.typography.labelSmall,
+                                    fontWeight = FontWeight.Bold,
+                                    color = cs.onTertiary
+                                )
+                            }
+                            Spacer(Modifier.width(8.dp))
+                        }
+                        Column(Modifier.weight(1f)) {
+                            if (d.candoJp.isNotBlank()) {
+                                Text(d.candoJp, style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.SemiBold, color = cs.onTertiaryContainer)
+                            }
+                            if (d.candoBn.isNotBlank() || d.candoEn.isNotBlank()) {
+                                Text(tr(d.candoBn, d.candoEn), style = MaterialTheme.typography.bodySmall, color = cs.onTertiaryContainer.copy(alpha = 0.9f))
+                            }
+                        }
                     }
-                    Spacer(Modifier.width(10.dp))
-                    Column(Modifier.weight(1f).clickable { tts.speak(l.jp) }) {
-                        Text(l.jp, style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
-                        Text(l.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
-                        Text(tr(l.bn, l.en), style = MaterialTheme.typography.bodySmall, color = cs.tertiary)
+                }
+            }
+
+            // 聴解スクリプト (Listening Script Toggle & Speech Bubbles)
+            Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Row(
+                    Modifier
+                        .fillMaxWidth()
+                        .clickable { scriptOpen = !scriptOpen },
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        tr("聴解スクリプト · কথোপকথন ও উচ্চারণ (${d.lines.size} লাইন)", "Listening Script · Dialogues (${d.lines.size} lines)"),
+                        style = MaterialTheme.typography.labelMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        color = cs.primary,
+                        modifier = Modifier.weight(1f)
+                    )
+                    Text(if (scriptOpen) "▴" else "▾", color = cs.primary)
+                }
+
+                if (scriptOpen) {
+                    d.lines.forEach { l ->
+                        val chip = when (l.speaker) {
+                            "A" -> cs.primary
+                            "B" -> cs.tertiary
+                            else -> cs.secondary
+                        }
+                        Row(
+                            Modifier
+                                .fillMaxWidth()
+                                .clip(androidx.compose.foundation.shape.RoundedCornerShape(12.dp))
+                                .background(cs.surfaceContainerLowest)
+                                .clickable { tts.speak(l.jp) }
+                                .padding(10.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Box(
+                                Modifier
+                                    .size(28.dp)
+                                    .clip(CircleShape)
+                                    .background(chip.copy(alpha = 0.16f)),
+                                contentAlignment = Alignment.Center
+                            ) {
+                                Text(l.speaker, style = MaterialTheme.typography.labelLarge, fontWeight = FontWeight.Bold, color = chip)
+                            }
+                            Spacer(Modifier.width(10.dp))
+                            Column(Modifier.weight(1f)) {
+                                Text(l.jp, style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.SemiBold, color = cs.onSurface)
+                                Text(l.romaji, style = MaterialTheme.typography.labelMedium, color = cs.outline)
+                                Text(tr(l.bn, l.en), style = MaterialTheme.typography.bodySmall, color = cs.primary)
+                            }
+                            SpeakButton(onClick = { tts.speak(l.jp) }, diameter = 34.dp)
+                        }
                     }
                 }
             }
@@ -647,10 +808,22 @@ fun BookLessonsScreen(
 
                     // ড্রপডাউন মেনু (Starter L1, L2-তে Kanji ও Grammar নেই — Lesson 3 থেকে শুরু)
                     if (isExpanded) {
-                        val visibleOptions = if (level == "starter_a1" && info.no <= 2) {
-                            lessonDropdownOptions.filter { it.type !in setOf("kanji", "grammar") }
-                        } else {
-                            lessonDropdownOptions
+                        val visibleOptions = when {
+                            level == "starter_a1" && info.no == 1 -> listOf(
+                                LessonDropdownOption("activities", "話", "Activities (1–4)", "কথোপকথন ও মেসেজ স্টিকার", "Dialogs & message stickers"),
+                                LessonDropdownOption("cando", "力", "Can-do (01–04)", "পাঠের লক্ষ্যসমূহ", "Learning objectives"),
+                                LessonDropdownOption("vocab", "語", "Vocabulary", "গুরুত্বপূর্ণ শব্দার্থ", "Key words & readings"),
+                                LessonDropdownOption("hiragana_chart", "あ", "Hiragana Words (ひらがな)", "হিরাগানা চার্ট, দীর্ঘ ও যুক্ত ধ্বনি", "Hiragana chart & long/double sounds"),
+                                LessonDropdownOption("tips", "暮", "Life of live in Japan", "জাপানের জীবনযাত্রা ও সংস্কৃতি", "Culture & daily life tips")
+                            )
+                            level == "starter_a1" && info.no == 2 -> listOf(
+                                LessonDropdownOption("activities", "話", "Activities", "কথোপকথন ও অনুশীলন", "Dialogs & practice"),
+                                LessonDropdownOption("cando", "力", "Can-do (05–07)", "পাঠের লক্ষ্যসমূহ", "Learning objectives"),
+                                LessonDropdownOption("vocab", "語", "Vocabulary", "গুরুত্বপূর্ণ শব্দার্থ", "Key words & readings"),
+                                LessonDropdownOption("katakana_chart", "ア", "Katakana Words (カタカナ)", "কাতাকানা চার্ট ও উচ্চারণ", "Katakana chart & readings"),
+                                LessonDropdownOption("tips", "暮", "Life of live in Japan", "জাপানের জীবনযাত্রা ও সংস্কৃতি", "Culture & daily life tips")
+                            )
+                            else -> lessonDropdownOptions
                         }
                         Spacer(Modifier.height(12.dp))
                         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -659,7 +832,13 @@ fun BookLessonsScreen(
                                     Modifier.fillMaxWidth(),
                                     color = cs.surface,
                                     borderColor = cs.outlineVariant.copy(alpha = 0.5f),
-                                    onClick = { onOpenSection(info.no, opt.type) }
+                                    onClick = {
+                                        when (opt.type) {
+                                            "hiragana_chart" -> onOpenSection(0, "hiragana")
+                                            "katakana_chart" -> onOpenSection(0, "katakana")
+                                            else -> onOpenSection(info.no, opt.type)
+                                        }
+                                    }
                                 ) {
                                     Row(
                                         Modifier.padding(horizontal = 14.dp, vertical = 10.dp),

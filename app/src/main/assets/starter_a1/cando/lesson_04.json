@@ -1,37 +1,81 @@
 {
   "lesson": 4,
-  "title": "টোকিওতে বসবাস করি",
+  "title": "東京に住んでいます (টোকিওতে বসবাস করছি)",
   "title_en": "I live in Tokyo.",
   "points": [
     {
-      "title": "Can-do 12–13: পরিবার, বয়স ও বাসস্থান",
-      "pattern": "家族のメンバーを理解し、住んでいるところや年齢などを質問・応答できる。",
-      "explain": "পরিবারের সদস্যদের পরিচয় বুঝতে এবং বয়স ও বাসস্থান সম্পর্কে প্রশ্ন ও উত্তর দিতে পারা।",
-      "title_en": "Can-do 12–13",
-      "pattern_en": "Can introduce family and ask/answer about age and residence.",
-      "explain_en": "Understand family introductions and discuss age and location.",
+      "title": "Can-do 12: পরিবারের পরিচিতি শুনে সদস্যদের চিনতে পারা",
+      "pattern": "家族の紹介を聞いて、家族のメンバーを理解することができる。",
+      "explain": "কে কার বাবা, মা, স্বামী, স্ত্রী, ভাই, বোন বা সন্তান তা পরিচিতি শুনে বুঝুন।",
+      "title_en": "Can-do 12",
+      "pattern_en": "Can listen to a family being introduced and understand who is who.",
+      "explain_en": "Understand family relationships when someone introduces their family members.",
       "examples": [
         {
-          "jp": "東京に住んでいます。",
-          "romaji": "Toukyou ni sunde imasu.",
-          "bn": "টোকিওতে থাকি।",
-          "en": "I live in Tokyo."
+          "jp": "呉さん、夫と子どもです。",
+          "romaji": "Go-san, otto to kodomo desu.",
+          "bn": "গো-সান, এরা আমার স্বামী এবং সন্তান।",
+          "en": "Go-san, this is my husband and child."
         }
       ]
     },
     {
-      "title": "Can-do 14–15: ছবি ও SNS পোস্ট বোঝা",
-      "pattern": "写真を見て質問したり、SNSの短い書き込みを理解したりできる。",
-      "explain": "ছবি দেখে কে বা কী তা জিজ্ঞাসা করতে এবং বন্ধুর SNS পোস্ট বুঝতে পারা।",
-      "title_en": "Can-do 14–15",
-      "pattern_en": "Can ask about photos and read short SNS posts.",
-      "explain_en": "Talk about photos and understand short social media posts.",
+      "title": "Can-do 13: বসবাসের স্থান ও বয়স নিয়ে প্রশ্ন ও উত্তর",
+      "pattern": "住んでいるところや年齢などを質問したり、質問に答えたりすることができる。",
+      "explain": "কারো বয়স ও কোথায় থাকেন তা জিজ্ঞাসা করতে এবং নিজের বয়স ও ঠিকানা বলতে পারা।",
+      "title_en": "Can-do 13",
+      "pattern_en": "Can ask and answer questions about where you live and your age.",
+      "explain_en": "Ask and answer about age (何歳ですか / いくつですか) and where you live (どこに住んでいますか).",
       "examples": [
         {
-          "jp": "これ、だれですか? 姉の子どもです。",
-          "romaji": "Kore, dare desu ka? Ane no kodomo desu.",
-          "bn": "এটি কে? আমার বড় বোনের সন্তান।",
-          "en": "Who is this? My older sister's child."
+          "jp": "ミロさんは、何歳ですか？ — 25歳です。",
+          "romaji": "Miro-san wa, nansai desu ka? — 25-sai desu.",
+          "bn": "মিরো-সান, আপনার বয়স কত? — ২৫ বছর।",
+          "en": "Miro-san, how old are you? — I'm 25 years old."
+        },
+        {
+          "jp": "どこに住んでいますか？ — 赤羽に住んでいます。",
+          "romaji": "Doko ni sundeimasu ka? — Akabane ni sundeimasu.",
+          "bn": "কোথায় থাকেন? — আকাবানেতে থাকি।",
+          "en": "Where do you live? — I live in Akabane."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 14: ছবি দেখে ব্যক্তি কে ও বয়স নিয়ে সহজ প্রশ্নোত্তর",
+      "pattern": "写真を見ながら、その人がだれかなどの簡単な質問をしたり、質問に答えたりすることができる。",
+      "explain": "ছবি দেখিয়ে 'これ、だれですか？' (এটি কে?) বা '何歳ですか？' (বয়স কত?) প্রশ্ন ও উত্তর দিন।",
+      "title_en": "Can-do 14",
+      "pattern_en": "Can ask and answer simple questions about a photograph, such as 'who is that?'",
+      "explain_en": "Ask and answer simple questions about people in a photo.",
+      "examples": [
+        {
+          "jp": "これ、だれですか？ — 私の母です。",
+          "romaji": "Kore, dare desu ka? — Watashi no haha desu.",
+          "bn": "এটি কে? — আমার মা।",
+          "en": "Who is this? — It's my mother."
+        },
+        {
+          "jp": "ペットのジョンです。",
+          "romaji": "Petto no Jon desu.",
+          "bn": "আমাদের পোষা প্রাণী জন।",
+          "en": "It's John, our pet."
+        }
+      ]
+    },
+    {
+      "title": "Can-do 15: বন্ধুর সোশ্যাল মিডিয়া পোস্ট ও ছবি থেকে বিষয় বোঝা",
+      "pattern": "友人のSNSの短い書き込みを読んで、写真を手がかりに、話題を理解することができる。",
+      "explain": "ছোট সোশ্যাল মিডিয়ার পোস্টের লেখা ও ছবি মিলিয়ে কী বিষয় নিয়ে লেখা তা বুঝুন।",
+      "title_en": "Can-do 15",
+      "pattern_en": "Can read a short social media post by a friend and understand the topic with help from the photograph.",
+      "explain_en": "Understand the topic of a short social media post using clues from the photo.",
+      "examples": [
+        {
+          "jp": "友だちと海！お天気最高",
+          "romaji": "Tomodachi to umi! Otenki saikoo",
+          "bn": "বন্ধুদের সাথে সমুদ্রে! আবহাওয়া দারুণ।",
+          "en": "With friends at the sea! Great weather."
         }
       ]
     }

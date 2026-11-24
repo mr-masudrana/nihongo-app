@@ -1,25 +1,91 @@
 {
   "lesson": 2,
-  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "topic_jp": "はじめての日本語",
+  "topic_en": "Starting to Speak Japanese",
+  "title": "すみません、よくわかりません (দুঃখিত, ঠিক বুঝতে পারিনি)",
   "title_en": "I'm sorry, I don't really understand.",
+  "question_prompt_jp": "相手の言っていることがわからないとき、どうしますか？日本語で言いたいけれど、ことばがわからないとき、どうすればいいですか？",
+  "question_prompt_bn": "সামনের মানুষটির কথা না বুঝলে আপনি কী করেন? জাপানিতে বলতে চান কিন্তু শব্দ না জানলে কী করা উচিত?",
+  "question_prompt_en": "What should you do if you don't understand what someone has said? What should you do when you don't know how to say something in Japanese?",
   "dialogues": [
     {
-      "title": "১. রুম নম্বর বুঝতে না পেরে আবার জিজ্ঞাসা করা",
-      "title_en": "1. Asking someone to repeat a room number",
+      "activity_no": 1,
+      "cando_id": "05",
+      "cando_jp": "相手の言っていることがよくわからないとき、聞き返すことができる。",
+      "cando_en": "Can ask someone to say something again if you don't really understand.",
+      "cando_bn": "সামনের ব্যক্তির কথা ভালোভাবে না বুঝলে আবার বলতে অনুরোধ করতে পারা।",
+      "title": "1. もういちど、お願いします (আবার বলুন, দয়া করে)",
+      "title_en": "1. One more time, please — Asking to repeat",
       "lines": [
+        {
+          "speaker": "A",
+          "jp": "在留カード、見せてください。",
+          "romaji": "Zairyuu kaado, misete kudasai.",
+          "bn": "অনুগ্রহ করে রেসিডেন্স কার্ড দেখান। (Dialogue 1)",
+          "en": "Please show me your residence card. (Dialogue 1)"
+        },
+        {
+          "speaker": "B",
+          "jp": "すみません。よくわかりません。",
+          "romaji": "Sumimasen. Yoku wakarimasen.",
+          "bn": "দুঃখিত। ঠিক বুঝতে পারিনি।",
+          "en": "I'm sorry. I don't really understand."
+        },
+        {
+          "speaker": "A",
+          "jp": "えー、在留カード、レジデンスカードです。",
+          "romaji": "Ee, zairyuu kaado, rejidentzu kaado desu.",
+          "bn": "আঃ, জাইর‍্যু কার্দো, রেসিডেন্স কার্ড।",
+          "en": "Er, zairyuu card, it's a residence card."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、はい。",
+          "romaji": "A, hai.",
+          "bn": "ওহ, হ্যাঁ।",
+          "en": "Oh, yes."
+        },
+        {
+          "speaker": "A",
+          "jp": "ここ、名前、書いてください。",
+          "romaji": "Koko, namae, kaite kudasai.",
+          "bn": "এখানে নাম লিখুন, দয়া করে। (Dialogue 2)",
+          "en": "Please write your name here. (Dialogue 2)"
+        },
+        {
+          "speaker": "B",
+          "jp": "すみません。もう少し、ゆっくり言ってください。",
+          "romaji": "Sumimasen. Moo sukoshi, yukkuri itte kudasai.",
+          "bn": "দুঃখিত। আরেকটু ধীরে বলুন, দয়া করে।",
+          "en": "I'm sorry. Please speak a little more slowly."
+        },
+        {
+          "speaker": "A",
+          "jp": "ここ、名前、書いてください。",
+          "romaji": "Koko, namae, kaite kudasai.",
+          "bn": "এখানে নাম লিখুন, দয়া করে।",
+          "en": "Please write your name here."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、わかりました。",
+          "romaji": "A, wakarimashita.",
+          "bn": "ওহ, বুঝতে পেরেছি।",
+          "en": "Oh, I understand."
+        },
         {
           "speaker": "A",
           "jp": "部屋は、213です。",
           "romaji": "Heya wa, 213 desu.",
-          "bn": "রুম নম্বর ২১৩।",
-          "en": "The room is 213."
+          "bn": "রুম নম্বর ২১৩। (Dialogue 3)",
+          "en": "The room is 213. (Dialogue 3)"
         },
         {
           "speaker": "B",
           "jp": "すみません。もういちど、お願いします。",
-          "romaji": "Sumimasen. Mou ichido, onegaishimasu.",
-          "bn": "মাফ করবেন। আরেকবার বলুন।",
-          "en": "Excuse me. One more time, please."
+          "romaji": "Sumimasen. Moo ichido, onegaishimasu.",
+          "bn": "দুঃখিত। আরেকবার বলুন, দয়া করে।",
+          "en": "I'm sorry. One more time, please."
         },
         {
           "speaker": "A",
@@ -31,29 +97,269 @@
         {
           "speaker": "B",
           "jp": "わかりました。ありがとうございます。",
-          "romaji": "Wakarimashita. Arigatou gozaimasu.",
-          "bn": "বুঝেছি। অনেক ধন্যবাদ।",
-          "en": "I understand. Thank you."
+          "romaji": "Wakarimashita. Arigatoo gozaimasu.",
+          "bn": "বুঝতে পেরেছি। অনেক ধন্যবাদ।",
+          "en": "I understand. Thank you very much."
         }
       ]
     },
     {
-      "title": "২. জাপানি ভাষা পারি কি না তা বলা",
-      "title_en": "2. Talking about languages you can speak",
+      "activity_no": 2,
+      "cando_id": "06",
+      "cando_jp": "日本語やほかのことばができるかどうか質問したり、質問に答えたりすることができる。",
+      "cando_en": "Can question whether someone can speak Japanese and ask if someone speaks other languages.",
+      "cando_bn": "জাপানি বা অন্য ভাষা বলতে পারেন কি না তা জিজ্ঞাসা করতে এবং প্রশ্নের উত্তর দিতে পারা।",
+      "title": "2. 日本語、できますか？ (জাপানি বলতে পারেন?)",
+      "title_en": "2. Can you speak Japanese? — Asking about languages",
       "lines": [
         {
           "speaker": "A",
-          "jp": "お客さん、日本語、できますか?",
+          "jp": "はい、どうぞ。",
+          "romaji": "Hai, doozo.",
+          "bn": "হ্যাঁ, নিন। (Dialogue 1 - কনভিনিয়েন্স স্টোর)",
+          "en": "Yes, here you go. (Dialogue 1 - Convenience store)"
+        },
+        {
+          "speaker": "B",
+          "jp": "どうも。",
+          "romaji": "Doomo.",
+          "bn": "ধন্যবাদ।",
+          "en": "Thanks."
+        },
+        {
+          "speaker": "A",
+          "jp": "お客さん、日本語、できますか？",
           "romaji": "Okyakusan, nihongo, dekimasu ka?",
-          "bn": "আপনি কি জাপানি ভাষা পারেন?",
-          "en": "Can you speak Japanese?"
+          "bn": "গ্রাহক (আপনি), জাপানি বলতে পারেন?",
+          "en": "Customer, can you speak Japanese?"
         },
         {
           "speaker": "B",
           "jp": "はい、少しできます。",
           "romaji": "Hai, sukoshi dekimasu.",
-          "bn": "হ্যাঁ, অল্প পারি।",
+          "bn": "হ্যাঁ, একটু পারি।",
+          "en": "Yes, I can speak a little."
+        },
+        {
+          "speaker": "A",
+          "jp": "これ、読んでください。日本語、わかりますか？",
+          "romaji": "Kore, yonde kudasai. Nihongo, wakarimasu ka?",
+          "bn": "এটা পড়ুন, দয়া করে। জাপানি বোঝেন? (Dialogue 2 - সিটি অফিস)",
+          "en": "Please read this. Do you understand Japanese? (Dialogue 2 - City office)"
+        },
+        {
+          "speaker": "B",
+          "jp": "すみません。わかりません。",
+          "romaji": "Sumimasen. Wakarimasen.",
+          "bn": "দুঃখিত। বুঝি না।",
+          "en": "I'm sorry. I don't understand."
+        },
+        {
+          "speaker": "A",
+          "jp": "じゃあ、英語、わかりますか？",
+          "romaji": "Jaa, eigo, wakarimasu ka?",
+          "bn": "তাহলে ইংরেজি বোঝেন?",
+          "en": "Then do you understand English?"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、わかります。",
+          "romaji": "Hai, wakarimasu.",
+          "bn": "হ্যাঁ, বুঝি।",
+          "en": "Yes, I understand."
+        },
+        {
+          "speaker": "A",
+          "jp": "あのう、中国語、できますか？",
+          "romaji": "Anoo, chuugokugo, dekimasu ka?",
+          "bn": "শুনুন, চীনা ভাষা বলতে পারেন? (Dialogue 3 - থিম পার্ক)",
+          "en": "Um, can you speak Chinese? (Dialogue 3 - Theme park)"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、できます。",
+          "romaji": "Hai, dekimasu.",
+          "bn": "হ্যাঁ, পারি।",
+          "en": "Yes, I can."
+        },
+        {
+          "speaker": "A",
+          "jp": "あのう、インドネシア語、わかりますか？",
+          "romaji": "Anoo, indoneshiago, wakarimasu ka?",
+          "bn": "শুনুন, ইন্দোনেশিয়ান ভাষা বোঝেন? (Dialogue 4 - ইন্দোনেশিয়ান রেস্তোরাঁ)",
+          "en": "Um, do you understand Indonesian? (Dialogue 4 - Indonesian restaurant)"
+        },
+        {
+          "speaker": "B",
+          "jp": "はい、少し。",
+          "romaji": "Hai, sukoshi.",
+          "bn": "হ্যাঁ, একটু।",
           "en": "Yes, a little."
+        }
+      ]
+    },
+    {
+      "activity_no": 3,
+      "cando_id": "07",
+      "cando_jp": "日本語の言い方がわからないとき、どう言えばいいか質問して、その答えを理解することができる。",
+      "cando_en": "Can ask how to say something in Japanese and understand the answer.",
+      "cando_bn": "জাপানিতে কোনো কিছু কীভাবে বলতে হয় তা প্রশ্ন করতে এবং উত্তর বুঝতে পারা।",
+      "title": "3. これは日本語で何と言いますか？ (একে জাপানিতে কী বলে?)",
+      "title_en": "3. How do you say this in Japanese? — Asking word names",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "あのう、これは、日本語で何ですか？",
+          "romaji": "Anoo, kore wa, nihongo de nan desu ka?",
+          "bn": "শুনুন, এটা জাপানিতে কী? (Dialogue 1 - 傘 / ছাতা)",
+          "en": "Um, what is this in Japanese? (Dialogue 1 - Umbrella)"
+        },
+        {
+          "speaker": "B",
+          "jp": "傘です。",
+          "romaji": "Kasa desu.",
+          "bn": "ছাতা (কাসা)।",
+          "en": "It's an umbrella (kasa)."
+        },
+        {
+          "speaker": "A",
+          "jp": "すみません。もう少し、ゆっくり言ってください。",
+          "romaji": "Sumimasen. Moo sukoshi, yukkuri itte kudasai.",
+          "bn": "দুঃখিত। আরেকটু ধীরে বলুন, দয়া করে।",
+          "en": "I'm sorry. Please speak a little more slowly."
+        },
+        {
+          "speaker": "B",
+          "jp": "傘。",
+          "romaji": "Kasa.",
+          "bn": "ছাতা।",
+          "en": "Umbrella."
+        },
+        {
+          "speaker": "A",
+          "jp": "ありがとうございます。",
+          "romaji": "Arigatoo gozaimasu.",
+          "bn": "অনেক ধন্যবাদ।",
+          "en": "Thank you very much."
+        },
+        {
+          "speaker": "A",
+          "jp": "これは、日本語で何と言いますか？",
+          "romaji": "Kore wa, nihongo de nan to iimasu ka?",
+          "bn": "এটাকে জাপানিতে কী বলে? (Dialogue 2 - スマホ / স্মার্টফোন)",
+          "en": "How do you say this in Japanese? (Dialogue 2 - Smartphone)"
+        },
+        {
+          "speaker": "B",
+          "jp": "スマホですよ。",
+          "romaji": "Sumaho desu yo.",
+          "bn": "স্মাহো (স্মার্টফোন)।",
+          "en": "It's a sumaho (smartphone)."
+        },
+        {
+          "speaker": "A",
+          "jp": "すみません。もういちど、お願いします。",
+          "romaji": "Sumimasen. Moo ichido, onegaishimasu.",
+          "bn": "দুঃখিত। আরেকবার বলুন, দয়া করে।",
+          "en": "I'm sorry. One more time, please."
+        },
+        {
+          "speaker": "B",
+          "jp": "スマホ。",
+          "romaji": "Sumaho.",
+          "bn": "স্মাহো।",
+          "en": "Sumaho."
+        },
+        {
+          "speaker": "A",
+          "jp": "ありがとうございます。",
+          "romaji": "Arigatoo gozaimasu.",
+          "bn": "অনেক ধন্যবাদ।",
+          "en": "Thank you very much."
+        },
+        {
+          "speaker": "A",
+          "jp": "あのう、[driver's license]は、日本語で何と言いますか？",
+          "romaji": "Anoo, [driver's license] wa, nihongo de nan to iimasu ka?",
+          "bn": "শুনুন, [driver's license]-কে জাপানিতে কী বলে? (Dialogue 3 - 免許証 / ড্রাইভিং লাইসেন্স)",
+          "en": "Um, how do you say [driver's license] in Japanese? (Dialogue 3 - Driver's license)"
+        },
+        {
+          "speaker": "B",
+          "jp": "ああ、免許証です。",
+          "romaji": "Aa, menkyoshoo desu.",
+          "bn": "ওহ, মেনকিয়োশো (ড্রাইভিং লাইসেন্স)।",
+          "en": "Oh, it's a menkyoshoo (driver's license)."
+        },
+        {
+          "speaker": "A",
+          "jp": "すみません。もう少し、ゆっくり言ってください。",
+          "romaji": "Sumimasen. Moo sukoshi, yukkuri itte kudasai.",
+          "bn": "দুঃখিত। আরেকটু ধীরে বলুন, দয়া করে।",
+          "en": "I'm sorry. Please speak a little more slowly."
+        },
+        {
+          "speaker": "B",
+          "jp": "めんきょしょう。",
+          "romaji": "Menkyoshoo.",
+          "bn": "মেনকিয়োশো।",
+          "en": "Menkyoshoo."
+        },
+        {
+          "speaker": "A",
+          "jp": "めんきょしょう。わかりました。",
+          "romaji": "Menkyoshoo. Wakarimashita.",
+          "bn": "মেনকিয়োশো। বুঝতে পেরেছি।",
+          "en": "Menkyoshoo. I understand."
+        },
+        {
+          "speaker": "B",
+          "jp": "あー。",
+          "romaji": "Aa.",
+          "bn": "আঃ। (Dialogue 4 - 蚊 / মশা)",
+          "en": "Ah. (Dialogue 4 - Mosquito)"
+        },
+        {
+          "speaker": "A",
+          "jp": "[Mosquito]は、日本語で何ですか？",
+          "romaji": "[Mosquito] wa, nihongo de nan desu ka?",
+          "bn": "[Mosquito] জাপানিতে কী?",
+          "en": "What is [Mosquito] in Japanese?"
+        },
+        {
+          "speaker": "B",
+          "jp": "蚊です。",
+          "romaji": "Ka desu.",
+          "bn": "কা (মশা)।",
+          "en": "It's a ka (mosquito)."
+        },
+        {
+          "speaker": "A",
+          "jp": "え？もういちど、お願いします。",
+          "romaji": "E? Moo ichido, onegaishimasu.",
+          "bn": "হ্যাঁ? আরেকবার বলুন, দয়া করে।",
+          "en": "Huh? One more time, please."
+        },
+        {
+          "speaker": "B",
+          "jp": "「か」です。",
+          "romaji": "\"Ka\" desu.",
+          "bn": "\"কা\"।",
+          "en": "It's \"ka\"."
+        },
+        {
+          "speaker": "A",
+          "jp": "か？",
+          "romaji": "Ka?",
+          "bn": "কা?",
+          "en": "Ka?"
+        },
+        {
+          "speaker": "B",
+          "jp": "そうそう。",
+          "romaji": "Soo soo.",
+          "bn": "হ্যাঁ, ঠিক তাই।",
+          "en": "That's right."
         }
       ]
     }

@@ -1,39 +1,355 @@
 {
   "lesson": 4,
-  "title": "টোকিওতে বসবাস করি",
+  "topic_jp": "私のこと",
+  "topic_en": "About Myself",
+  "title": "東京に住んでいます (টোকিওতে বসবাস করছি)",
   "title_en": "I live in Tokyo.",
+  "question_prompt_jp": "家族や友だち、ペットの写真を待っていますか？ほかの人に見せることがありますか？",
+  "question_prompt_bn": "আপনার কাছে কি পরিবার, বন্ধু বা পোষা প্রাণীর ছবি আছে? আপনি কি অন্যদের সেগুলো দেখান?",
+  "question_prompt_en": "Do you have photos of your family, friends, or pets? Have you shown them to other people?",
   "dialogues": [
     {
-      "title": "১. পরিবার ও বসবাসের স্থান নিয়ে কথা বলা",
-      "title_en": "1. Talking about family and where you live",
+      "activity_no": 1,
+      "cando_id": "12",
+      "cando_jp": "家族の紹介を聞いて、家族のメンバーを理解することができる。",
+      "cando_en": "Can listen to a family being introduced and understand who is who.",
+      "cando_bn": "পরিবারের পরিচিতি শুনে কে কার পরিচয় তা বুঝতে পারা।",
+      "title": "1. 夫と子どもです (স্বামী ও সন্তান)",
+      "title_en": "1. Husband and child — Family introductions",
       "lines": [
         {
           "speaker": "A",
-          "jp": "ミロさんは、何歳ですか?",
-          "romaji": "Miro-san wa, nansai desu ka?",
-          "bn": "মিরো, আপনার বয়স কত?",
-          "en": "How old are you, Miro?"
+          "jp": "あれ？ヒマルさん？",
+          "romaji": "Are? Himaru-san?",
+          "bn": "আরে? হিমাল-সান নাকি? (会話1 - রাস্তায়)",
+          "en": "Huh? Himaru-san? (Dialogue 1 - On the street)"
         },
         {
           "speaker": "B",
-          "jp": "25歳です。",
-          "romaji": "Nijuugo-sai desu.",
-          "bn": "২৫ বছর।",
-          "en": "I'm 25."
+          "jp": "ああ、下山先生、こんにちは。",
+          "romaji": "Aa, Shimoyama-sensei, konnichiwa.",
+          "bn": "ওহ, শিমোয়ামা-সেন্সেই, শুভ দুপুর।",
+          "en": "Oh, Shimoyama-sensei, hello."
         },
         {
           "speaker": "A",
-          "jp": "どこに住んでいますか?",
-          "romaji": "Doko ni sunde imasu ka?",
+          "jp": "こんにちは。ヒマルさん、えーと、妻です。",
+          "romaji": "Konnichiwa. Himaru-san, eeto, tsuma desu.",
+          "bn": "শুভ দুপুর। হিমাল-সান, আচ্ছা, ইনি আমার স্ত্রী।",
+          "en": "Hello. Himaru-san, um, this is my wife."
+        },
+        {
+          "speaker": "B",
+          "jp": "ヒマルです。よろしくお願いします。",
+          "romaji": "Himaru desu. Yoroshiku onegaishimasu.",
+          "bn": "আমি হিমাল। পরিচিত হয়ে ভালো লাগল।",
+          "en": "I'm Himaru. Nice to meet you."
+        },
+        {
+          "speaker": "A",
+          "jp": "ああ、呉さん。",
+          "romaji": "Aa, Go-san.",
+          "bn": "ওহ, গো-সান। (会話2 - সুপারমার্কেটে)",
+          "en": "Oh, Go-san. (Dialogue 2 - At a supermarket)"
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、井上さん、こんにちは。",
+          "romaji": "A, Inoue-san, konnichiwa.",
+          "bn": "আহ, ইনোউয়ে-সান, শুভ দুপুর।",
+          "en": "Oh, Inoue-san, hello."
+        },
+        {
+          "speaker": "A",
+          "jp": "こんにちは。呉さん、夫と子どもです。",
+          "romaji": "Konnichiwa. Go-san, otto to kodomo desu.",
+          "bn": "শুভ দুপুর। গো-সান, এরা আমার স্বামী এবং সন্তান।",
+          "en": "Hello. Go-san, this is my husband and child."
+        },
+        {
+          "speaker": "C",
+          "jp": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "bn": "শুভ দুপুর। (ইনোউয়ের স্বামী)",
+          "en": "Hello. (Inoue's husband)"
+        },
+        {
+          "speaker": "D",
+          "jp": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "bn": "শুভ দুপুর। (ইনোউয়ের সন্তান)",
+          "en": "Hello. (Inoue's child)"
+        },
+        {
+          "speaker": "A",
+          "jp": "えっと、紹介します。こちら、リナさん。",
+          "romaji": "Eeto, shookaishimasu. Kochira, Rina-san.",
+          "bn": "আচ্ছা, পরিচয় করিয়ে দিচ্ছি। ইনি রিনা-সান। (会話3 - কারখানার অফিসে)",
+          "en": "Um, let me introduce you. This is Rina-san. (Dialogue 3 - At a factory office)"
+        },
+        {
+          "speaker": "B",
+          "jp": "はじめまして。リナです。",
+          "romaji": "Hajimemashite. Rina desu.",
+          "bn": "প্রথম পরিচয়। আমি রিনা।",
+          "en": "Nice to meet you. I'm Rina."
+        },
+        {
+          "speaker": "A",
+          "jp": "リナさん、父です。母です。兄です。",
+          "romaji": "Rina-san, chichi desu. Haha desu. Ani desu.",
+          "bn": "রিনা-সান, ইনি বাবা। ইনি মা। ইনি বড় ভাই।",
+          "en": "Rina-san, this is my father. My mother. My older brother."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、石田さん。",
+          "romaji": "A, Ishida-san.",
+          "bn": "আহ, ইশিদা-সান। (会話4 - ইভেন্ট ভেন্যুতে)",
+          "en": "Oh, Ishida-san. (Dialogue 4 - At an event venue)"
+        },
+        {
+          "speaker": "A",
+          "jp": "ああ、パトさん。紹介します。妹と弟です。",
+          "romaji": "Aa, Pato-san. Shookaishimasu. Imooto to otooto desu.",
+          "bn": "ওহ, পাতো-সান। পরিচয় করিয়ে দিচ্ছি। এরা আমার ছোট বোন এবং ছোট ভাই।",
+          "en": "Oh, Pato-san. Let me introduce you. This is my younger sister and younger brother."
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、はじめまして。パトです。よろしくお願いします。",
+          "romaji": "A, hajimemashite. Pato desu. Yoroshiku onegaishimasu.",
+          "bn": "আহ, প্রথম পরিচয়। আমি পাতো। পরিচিত হয়ে ভালো লাগল।",
+          "en": "Oh, nice to meet you. I'm Pato. Pleased to meet you."
+        }
+      ]
+    },
+    {
+      "activity_no": 2,
+      "cando_id": "13",
+      "cando_jp": "住んでいるところや年齢などを質問したり、質問に答えたりすることができる。",
+      "cando_en": "Can ask and answer questions about where you live and your age.",
+      "cando_bn": "কোথায় থাকেন এবং বয়স কত তা নিয়ে প্রশ্ন করতে ও উত্তর দিতে পারা।",
+      "title": "2. 25歳です (২৫ বছর বয়স)",
+      "title_en": "2. I'm 25 years old. — Asking & answering about age and residence",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "ミロです。フィリピンから来ました。よろしくお願いします。",
+          "romaji": "Miro desu. Firipin kara kimashita. Yoroshiku onegaishimasu.",
+          "bn": "আমি মিরো। ফিলিপিন্স থেকে এসেছি। পরিচিত হয়ে ভালো লাগল।",
+          "en": "I'm Miro. I came from the Philippines. Nice to meet you."
+        },
+        {
+          "speaker": "B",
+          "jp": "ミロさん、うちの家族です。妻と子ども、それから、父です。",
+          "romaji": "Miro-san, uchi no kazoku desu. Tsuma to kodomo, sorekara, chichi desu.",
+          "bn": "মিরো-সান, এরা আমার পরিবার। স্ত্রী ও সন্তান, আর ইনি বাবা।",
+          "en": "Miro-san, this is my family. My wife and child, and also my father."
+        },
+        {
+          "speaker": "A",
+          "jp": "あのう、お名前は？",
+          "romaji": "Anoo, onamae wa?",
+          "bn": "শুনুন, তোমার নাম কী?",
+          "en": "Um, what's your name?"
+        },
+        {
+          "speaker": "C",
+          "jp": "伸一です。",
+          "romaji": "Shin'ichi desu.",
+          "bn": "শিন'ইচি। (সন্তান)",
+          "en": "I'm Shin'ichi. (Child)"
+        },
+        {
+          "speaker": "A",
+          "jp": "しんいち。何歳ですか？",
+          "romaji": "Shin'ichi. Nansai desu ka?",
+          "bn": "শিন'ইচি, তোমার বয়স কত?",
+          "en": "Shin'ichi, how old are you?"
+        },
+        {
+          "speaker": "B",
+          "jp": "いくつですか？",
+          "romaji": "Ikutsu desu ka?",
+          "bn": "কত বছর বয়স? (সহজ প্রশ্ন)",
+          "en": "How old are you? (Casual/gentle)"
+        },
+        {
+          "speaker": "C",
+          "jp": "4歳です。",
+          "romaji": "4-sai desu.",
+          "bn": "৪ বছর।",
+          "en": "I'm 4 years old."
+        },
+        {
+          "speaker": "B",
+          "jp": "ミロさんは、何歳？",
+          "romaji": "Miro-san wa, nansai?",
+          "bn": "মিরো-সান, আপনার বয়স কত?",
+          "en": "Miro-san, how old are you?"
+        },
+        {
+          "speaker": "A",
+          "jp": "25歳です。",
+          "romaji": "25-sai desu.",
+          "bn": "২৫ বছর।",
+          "en": "I'm 25 years old."
+        },
+        {
+          "speaker": "B",
+          "jp": "どこに住んでいますか？",
+          "romaji": "Doko ni sundeimasu ka?",
           "bn": "কোথায় থাকেন?",
           "en": "Where do you live?"
         },
         {
+          "speaker": "A",
+          "jp": "赤羽に住んでいます。",
+          "romaji": "Akabane ni sundeimasu.",
+          "bn": "আকাবানেতে থাকি।",
+          "en": "I live in Akabane."
+        },
+        {
           "speaker": "B",
-          "jp": "赤羽に住んでいます。家族はフィリピンに住んでいます。",
-          "romaji": "Akabane ni sunde imasu. Kazoku wa Firipin ni sunde imasu.",
-          "bn": "আকাবানেতে থাকি। পরিবার ফিলিপাইনে থাকে।",
-          "en": "I live in Akabane. My family lives in the Philippines."
+          "jp": "そうですか。ご家族は？",
+          "romaji": "Soo desu ka. Gokazoku wa?",
+          "bn": "তাই নাকি! আপনার পরিবার কোথায় থাকেন?",
+          "en": "I see. How about your family?"
+        },
+        {
+          "speaker": "A",
+          "jp": "家族は、フィリピンに住んでいます。",
+          "romaji": "Kazoku wa, Firipin ni sundeimasu.",
+          "bn": "পরিবার ফিলিপিন্সে থাকেন।",
+          "en": "My family lives in the Philippines."
+        }
+      ]
+    },
+    {
+      "activity_no": 3,
+      "cando_id": "14",
+      "cando_jp": "写真を見ながら、その人がだれかなどの簡単な質問をしたり、質問に答えたりすることができる。",
+      "cando_en": "Can ask and answer simple questions about a photograph, such as 'who is that?'",
+      "cando_bn": "ছবি দেখে ছবির ব্যক্তি কে বা কী পরিচয় তা নিয়ে সহজ প্রশ্ন করতে ও উত্তর দিতে পারা।",
+      "title": "3. ペットのジョンです (পোষা প্রাণী জন)",
+      "title_en": "3. It's John, our pet. — Asking & answering about photos",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "これ、だれですか？",
+          "romaji": "Kore, dare desu ka?",
+          "bn": "এটি কে? (① মা)",
+          "en": "Who is this? (1 - Mother)"
+        },
+        {
+          "speaker": "B",
+          "jp": "私の母です。ブラジルに住んでいます。",
+          "romaji": "Watashi no haha desu. Burajiru ni sundeimasu.",
+          "bn": "আমার মা। ব্রাজিলে থাকেন।",
+          "en": "She's my mother. She lives in Brazil."
+        },
+        {
+          "speaker": "A",
+          "jp": "これ、だれですか？",
+          "romaji": "Kore, dare desu ka?",
+          "bn": "এটি কে? (② বোনের সন্তান)",
+          "en": "Who is this? (2 - Sister's child)"
+        },
+        {
+          "speaker": "B",
+          "jp": "姉の子どもです。",
+          "romaji": "Ane no kodomo desu.",
+          "bn": "বড় বোনের সন্তান।",
+          "en": "It's my older sister's child."
+        },
+        {
+          "speaker": "A",
+          "jp": "かわいいですね。いくつですか？",
+          "romaji": "Kawaii desu ne. Ikutsu desu ka?",
+          "bn": "খুব মিষ্টি, তাই না! বয়স কত?",
+          "en": "So cute, isn't it? How old?"
+        },
+        {
+          "speaker": "B",
+          "jp": "3歳です。",
+          "romaji": "3-sai desu.",
+          "bn": "৩ বছর।",
+          "en": "3 years old."
+        },
+        {
+          "speaker": "A",
+          "jp": "あ、犬。かわいいですね。",
+          "romaji": "A, inu. Kawaii desu ne.",
+          "bn": "ওহ, কুকুর। খুব মিষ্টি তো! (③ পোষা কুকুর জন)",
+          "en": "Oh, a dog. Cute, isn't it? (3 - Pet dog John)"
+        },
+        {
+          "speaker": "B",
+          "jp": "ありがとう、ペットのジョンです。",
+          "romaji": "Arigatoo, petto no Jon desu.",
+          "bn": "ধন্যবাদ, আমাদের পোষা প্রাণী জন।",
+          "en": "Thanks, it's John, our pet."
+        },
+        {
+          "speaker": "A",
+          "jp": "へー、何歳ですか？",
+          "romaji": "Hee, nansai desu ka?",
+          "bn": "আরে, বয়স কত?",
+          "en": "Oh, how old is he?"
+        },
+        {
+          "speaker": "B",
+          "jp": "16歳です。おじいさんです。",
+          "romaji": "16-sai desu. Ojiisan desu.",
+          "bn": "১৬ বছর। বেশ বুড়ো (দাদা/মুরুব্বি)।",
+          "en": "He's 16 years old. He's an old man."
+        },
+        {
+          "speaker": "A",
+          "jp": "これ、だれですか？恋人？",
+          "romaji": "Kore, dare desu ka? Koibito?",
+          "bn": "এটি কে? প্রেমিক/প্রেমিকা নাকি? (④ বন্ধু)",
+          "en": "Who is this? Partner/lover? (4 - Friend)"
+        },
+        {
+          "speaker": "B",
+          "jp": "え、ああ、友だちです。東京に住んでいます。",
+          "romaji": "E, aa, tomodachi desu. Tookyoo ni sundeimasu.",
+          "bn": "হ্যাঁ, ওহ, বন্ধু। টোকিওতে থাকেন।",
+          "en": "Huh, oh, it's a friend. They live in Tokyo."
+        }
+      ]
+    },
+    {
+      "activity_no": 4,
+      "cando_id": "15",
+      "cando_jp": "友人のSNSの短い書き込みを読んで、写真を手がかりに、話題を理解することができる。",
+      "cando_en": "Can read a short social media post by a friend and understand the topic with help from the photograph.",
+      "cando_bn": "বন্ধুর সোশ্যাল মিডিয়ার সংক্ষিপ্ত পোস্ট পড়ে ছবির সাহায্যে মূল বিষয় বুঝতে পারা।",
+      "title": "4. 友だちと海！ (বন্ধুদের সাথে সমুদ্র!)",
+      "title_en": "4. Friends and the sea! — Reading short social media posts",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "子どもの1才の誕生日でした！",
+          "romaji": "Kodomo no 1-sai no tanjoobi deshita!",
+          "bn": "সন্তানের ১ম জন্মদিন ছিল! (পোস্ট ① - 誕生日 / জন্মদিন)",
+          "en": "It was my child's 1st birthday! (Post 1 - Birthday)"
+        },
+        {
+          "speaker": "B",
+          "jp": "友だちと海！お天気最高",
+          "romaji": "Tomodachi to umi! Otenki saikoo",
+          "bn": "বন্ধুদের সাথে সমুদ্রে! আবহাওয়া দারুণ। (পোস্ট ② - 海 / সমুদ্র, お天気 / আবহাওয়া)",
+          "en": "With friends at the sea! Great weather. (Post 2 - Sea, Weather)"
+        },
+        {
+          "speaker": "C",
+          "jp": "父と私のツーショットです。",
+          "romaji": "Chichi to watashi no tsuushotto desu.",
+          "bn": "বাবা এবং আমার একসাথে তোলা ছবি (টু-শট)। (পোস্ট ③)",
+          "en": "A two-shot of my dad and me. (Post 3)"
         }
       ]
     }

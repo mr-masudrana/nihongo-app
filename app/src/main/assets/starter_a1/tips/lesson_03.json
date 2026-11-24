@@ -1,37 +1,53 @@
 {
   "lesson": 3,
-  "title": "পরিচিত হয়ে ভালো লাগলো",
-  "title_en": "Nice to meet you.",
+  "title": "よろしくお願いします (জাপানের জীবনযাত্রা ও সংস্কৃতি)",
+  "title_en": "Nice to meet you. (Tips of Life in Japan)",
   "points": [
     {
-      "title": "জাপানি বর্ণমালা ও নামের সম্বোধন (~さん)",
-      "pattern": "日本の文字・名前の呼び方",
-      "explain": "জাপানে কাঞ্জি, হিরাগানা, কাতাকানা ও রোমাজি—এই ৪ ধরনের লিপি ব্যবহৃত হয়। অন্যের নামের শেষে ভদ্রতা হিসেবে '~さん' যোগ করা হয়, তবে নিজের নামের শেষে কখনো '~さん' বসে না।",
-      "title_en": "Japanese Characters & ~san",
-      "pattern_en": "Kanji, Hiragana, Katakana, Romaji",
-      "explain_en": "Add ~san to others' names, never your own.",
+      "title": "জাপানি লিপি ব্যবস্থা (日本の文字 · Japanese characters)",
+      "pattern": "漢字・ひらがな・カタカナ・ローマ字",
+      "explain": "জাপানিতে চার ধরনের লিপি ব্যবহৃত হয়: ১) 漢字 (Kanji — অর্থবহ চীনা অক্ষর), ২) ひらがな (Hiragana — কণা, ক্রিয়া ও বিশেষণের শেষ অংশ), ৩) カタカナ (Katakana — বিদেশি শব্দ, বিদেশি নাম ও শব্দ-অনুকরণ), ৪) ローマ字 (Romaji — স্টেশন, সাইনবোর্ড ও ডিজিটাল ইনপুটে)।",
+      "title_en": "Japanese characters (日本の文字)",
+      "pattern_en": "Kanji, Hiragana, Katakana, and Romaji",
+      "explain_en": "Japanese uses Kanji for meaning, Hiragana for grammar/endings, Katakana for foreign words/names, and Romaji for signs/input.",
       "examples": [
         {
-          "jp": "田中さん",
-          "romaji": "Tanaka-san",
-          "bn": "জনাব/মিসেস তানাকা",
-          "en": "Mr./Ms. Tanaka"
+          "jp": "私はマルシアです。",
+          "romaji": "Watashi wa Marushia desu.",
+          "bn": "হিরাগানা ও কাতাকানার সমন্বয়ে গঠিত বাক্য।",
+          "en": "Sentence combining Hiragana and Katakana."
         }
       ]
     },
     {
-      "title": "জাপানি সাল গণনা (Gengoo: 令和)",
-      "pattern": "元号 (昭和・平成・令和)",
-      "explain": "জাপানে ইংরেজি সালের পাশাপাশি সম্রাটের শাসনকাল অনুযায়ী সাল গণনা হয়। ২০১৯ সাল থেকে 'রেইওয়া' (令和) যুগ চলছে।",
-      "title_en": "Japanese Era Names (Gengoo)",
-      "pattern_en": "Showa, Heisei, Reiwa",
-      "explain_en": "Reiwa era began in 2019.",
+      "title": "কাউকে ডাকার রীতি (名前の呼び方 · How to call someone)",
+      "pattern": "〜さん / 〜くん / 〜ちゃん / 〜さま",
+      "explain": "কারো নামের শেষে 'さん' (san) যোগ করা সবচেয়ে সাধারণ ও ভদ্র রীতি (নারী-পুরুষ ও বয়স নির্বিশেষে)। ঘনিষ্ঠ বা ছোটদের ক্ষেত্রে 'くん' (kun) বা 'ちゃん' (chan) এবং গ্রাহক/সেবার ক্ষেত্রে 'さま' (sama) ব্যবহৃত হয়; নিজের নামের সাথে 'さん' যুক্ত করা হয় না।",
+      "title_en": "How to call someone (名前の呼び方)",
+      "pattern_en": "Using -san, -kun, -chan, and -sama",
+      "explain_en": "-san is polite and standard for others; -kun/-chan are used for younger/close people; -sama is for customers; never attach -san to your own name.",
       "examples": [
         {
-          "jp": "令和元年 (2019年)",
-          "romaji": "Reiwa gannen",
-          "bn": "রেইওয়া ১ম বছর (২০১৯)",
-          "en": "Reiwa Year 1 (2019)"
+          "jp": "チャンさん、ご出身は？",
+          "romaji": "Chan-san, goshusshin wa?",
+          "bn": "চ্যান-সান, আপনার বাড়ি/দেশ কোথায়?",
+          "en": "Chan-san, where are you from?"
+        }
+      ]
+    },
+    {
+      "title": "জাপানি যুগনাম বা গেঙ্গো (元号 · Japanese era names)",
+      "pattern": "西暦と元号 (昭和・平成・令和)",
+      "explain": "জাপানে গ্রেগরিয়ান ক্যালেন্ডারের (西暦) পাশাপাশি সম্রাটের শাসনকাল অনুযায়ী যুগনাম বা '元号' (Gengoo) ব্যবহৃত হয়—যেমন: 昭和 (Showa), 平成 (Heisei) এবং ২০১৯ সাল থেকে 令和 (Reiwa)। সরকারি ফরম ও আইডিতে উভয়টিই দেখা যায়।",
+      "title_en": "Japanese era names (元号)",
+      "pattern_en": "Western calendar vs Gengoo (Reiwa, Heisei, Showa)",
+      "explain_en": "Official documents in Japan use both Western years and imperial era names (gengoo) such as Reiwa (since 2019), Heisei, and Showa.",
+      "examples": [
+        {
+          "jp": "生年月日：1995年12月31日",
+          "romaji": "Seinengappi: 1995-nen 12-gatsu 31-nichi",
+          "bn": "জন্মতারিখ: ১৯৯৫ সাল ১২ মাস ৩১ তারিখ।",
+          "en": "Date of birth: December 31, 1995."
         }
       ]
     }

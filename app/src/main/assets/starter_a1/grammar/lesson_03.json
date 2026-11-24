@@ -1,43 +1,137 @@
 {
   "lesson": 3,
-  "title": "পরিচিত হয়ে ভালো লাগলো",
-  "title_en": "Nice to meet you.",
+  "title": "よろしくお願いします (ব্যাকরণ নোট — 文法ノート)",
+  "title_en": "Nice to meet you. (Grammar Notes)",
   "points": [
     {
-      "title": "N₁ は N₂ です / 【স্থান】から来ました",
-      "pattern": "私は [নাম] です。[দেশ] から来ました。",
-      "explain": "নিজের নাম ও কোন দেশ থেকে এসেছেন তা জানাতে এই বাক্য দুটি ব্যবহৃত হয়।",
-      "title_en": "Self-introduction patterns",
-      "pattern_en": "N1 wa N2 desu / [Place] kara kimashita",
-      "explain_en": "Used to state your name and where you come from.",
+      "title": "1. Nです / N1は N2です",
+      "pattern": "Nです / N1は N2です",
+      "explain": "বিশেষ্যের (N) পরে 'です' বসিয়ে বাক্য গঠন করা হয়। 'は' (wa) টপিক নির্দেশ করে। প্রেক্ষাপট থেকে বোঝা গেলে '私は' বাদ দিয়ে সরাসরি 'トンです।' বলা স্বাভাবিক।",
+      "title_en": "1. N desu / N1 wa N2 desu",
+      "pattern_en": "N desu / N1 wa N2 desu",
+      "explain_en": "です follows a noun to make a sentence; は marks the topic (pronounced wa). Omitting 私は when obvious is natural.",
       "examples": [
         {
-          "jp": "はじめまして。トンです。タイから来ました。",
-          "romaji": "Hajimemashite. Ton desu. Tai kara kimashita.",
-          "bn": "প্রথম দেখা হলো। আমি টন। থাইল্যান্ড থেকে এসেছি।",
-          "en": "Nice to meet you. I'm Ton. I'm from Thailand."
+          "jp": "トンです。",
+          "romaji": "Ton desu.",
+          "bn": "আমি তন।",
+          "en": "I'm Ton."
+        },
+        {
+          "jp": "私はマルシアです。",
+          "romaji": "Watashi wa Marushia desu.",
+          "bn": "আমি মার্সিয়া।",
+          "en": "I'm Marcia."
         }
       ]
     },
     {
-      "title": "Nも (ও / আরও) এবং Nじゃないです (নয়)",
-      "pattern": "私もベトナムです / ベトナムじゃないです",
-      "explain": "আগের ব্যক্তির মতো একই তথ্য হলে 'も' এবং না-বাচক বোঝাতে 'じゃないです' বসে।",
-      "title_en": "Particle も and Negative じゃないです",
-      "pattern_en": "N mo / N ja nai desu",
-      "explain_en": "Use も for 'also' and じゃないです for negative noun sentences.",
+      "title": "2. [place 場所]から来ました",
+      "pattern": "[場所]から来ました",
+      "explain": "কোন দেশ বা জায়গা থেকে এসেছেন তা বোঝাতে 'から' (kara) কণা ব্যবহৃত হয়। '来ました' হলো '来る' (আসা)-এর অতীত রূপ; পরিচিতিতে এটি একটি স্থির অভিব্যক্তি হিসেবে ব্যবহৃত হয়।",
+      "title_en": "2. [place] kara kimashita",
+      "pattern_en": "[place] kara kimashita",
+      "explain_en": "から indicates where you came from; 来ました is the past form of 来る (to come).",
       "examples": [
+        {
+          "jp": "ブラジルから来ました。",
+          "romaji": "Burajiru kara kimashita.",
+          "bn": "ব্রাজিল থেকে এসেছি।",
+          "en": "I came from Brazil."
+        },
+        {
+          "jp": "はじめまして。ニンです。ミャンマーから来ました。",
+          "romaji": "Hajimemashite. Nin desu. Myanmaa kara kimashita.",
+          "bn": "প্রথম পরিচয়। আমি নিন। মিয়ানমার থেকে এসেছি।",
+          "en": "Nice to meet you. I'm Nin. I came from Myanmar."
+        }
+      ]
+    },
+    {
+      "title": "3. Nは？",
+      "pattern": "Nは？",
+      "explain": "আগের বিষয়ে বা কারো নাম/উৎস জানতে 'Nは？' (উচ্চারণ: wa?) ব্যবহৃত হয়। আরও ভদ্র করতে 'お' বা 'ご' উপসর্গ যুক্ত করা হয় (যেমন: お名前は？, ご出身は？, お国は？)।",
+      "title_en": "3. N wa?",
+      "pattern_en": "N wa?",
+      "explain_en": "Used to ask about a topic with rising intonation; polite prefixes お / ご are added to words like お名前は？ and ご出身は？.",
+      "examples": [
+        {
+          "jp": "お名前は？",
+          "romaji": "Onamae wa?",
+          "bn": "আপনার নাম কী?",
+          "en": "What's your name?"
+        },
+        {
+          "jp": "ご出身は？",
+          "romaji": "Goshusshin wa?",
+          "bn": "আপনার বাড়ি/দেশ কোথায়?",
+          "en": "Where are you from?"
+        }
+      ]
+    },
+    {
+      "title": "4. Sか？",
+      "pattern": "Sか？",
+      "explain": "বাক্যের শেষে 'か' (ka) যুক্ত করে ঊর্ধ্বমুখী স্বরে (rising intonation) প্রশ্ন তৈরি করা হয়। কথোপকথনে 'あなた' না বলে ব্যক্তির নামের শেষে 'さん' যুক্ত করা হয়।",
+      "title_en": "4. S ka?",
+      "pattern_en": "S ka?",
+      "explain_en": "Add か at the end of a sentence with rising intonation to ask a question; use person's name + さん instead of あなた.",
+      "examples": [
+        {
+          "jp": "みなさんは、友だちですか？",
+          "romaji": "Minasan wa, tomodachi desu ka?",
+          "bn": "আপনারা সবাই কি বন্ধু?",
+          "en": "Are you all friends?"
+        },
+        {
+          "jp": "マイさんは、ベトナムからですか？",
+          "romaji": "Mai-san wa, Betonamu kara desu ka?",
+          "bn": "মাই-সান, আপনি কি ভিয়েতনাম থেকে এসেছেন?",
+          "en": "Are you from Vietnam, Mai-san?"
+        }
+      ]
+    },
+    {
+      "title": "5. Nも",
+      "pattern": "Nも",
+      "explain": "'も' (mo) কণাটি 'ও' বা 'একইভাবে' অর্থ প্রকাশ করে (যেমন: আমিও, তাও)।",
+      "title_en": "5. N mo",
+      "pattern_en": "N mo",
+      "explain_en": "も is a particle meaning 'also' or 'the same as'.",
+      "examples": [
+        {
+          "jp": "ケマラさんも、ベトナムからですか？",
+          "romaji": "Kemara-san mo, Betonamu kara desu ka?",
+          "bn": "কেমারা-সানও কি ভিয়েতনাম থেকে এসেছেন?",
+          "en": "Are you also from Vietnam, Kemara-san?"
+        },
         {
           "jp": "私もベトナムです。",
           "romaji": "Watashi mo Betonamu desu.",
           "bn": "আমিও ভিয়েতনামের।",
-          "en": "I am from Vietnam too."
+          "en": "I'm also from Vietnam."
+        }
+      ]
+    },
+    {
+      "title": "6. Nじゃないです",
+      "pattern": "Nじゃないです",
+      "explain": "কোনো কিছু না বোঝাতে (না-বাচক বাক্যে) 'じゃないです' ব্যবহৃত হয় (লেখ্য ভাষায় 'ではありません')।",
+      "title_en": "6. N janai desu",
+      "pattern_en": "N janai desu",
+      "explain_en": "Negative form used in speech to say something is not N (written form: ではありません).",
+      "examples": [
+        {
+          "jp": "いいえ、フィリピンじゃないです。ベトナムから来ました。",
+          "romaji": "Iie, Firipin janai desu. Betonamu kara kimashita.",
+          "bn": "না, ফিলিপিন্সের নই। ভিয়েতনাম থেকে এসেছি।",
+          "en": "No, I'm not from the Philippines. I came from Vietnam."
         },
         {
-          "jp": "いいえ、ベトナムじゃないです。",
-          "romaji": "Iie, Betonamu ja nai desu.",
-          "bn": "না, ভিয়েতনাম নয়।",
-          "en": "No, I'm not from Vietnam."
+          "jp": "私は、ソムチャイじゃないです。サクチャイです。",
+          "romaji": "Watashi wa, Somuchai janai desu. Sakuchai desu.",
+          "bn": "আমি সমচাই নই। সাকচাই।",
+          "en": "I'm not Somchai. I'm Sakchai."
         }
       ]
     }

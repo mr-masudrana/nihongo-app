@@ -1,72 +1,320 @@
 {
   "lesson": 1,
-  "title": "শুভ সকাল! (শুভেচ্ছা ও বিদায়)",
-  "title_en": "Good morning! (Greetings)",
+  "topic_jp": "はじめての日本語",
+  "topic_en": "Starting to Speak Japanese",
+  "title": "おはようございます (শুভ সকাল!)",
+  "title_en": "Good morning!",
+  "question_prompt_jp": "あなたの母語では、人に会ったときや別れるとき、どんなあいさつをしますか？時間や相手によって違いますか？",
+  "question_prompt_bn": "আপনার মাতৃভাষায় কারো সাথে দেখা হলে বা বিদায় নেওয়ার সময় কী অভিবাদন জানান? সময় বা ব্যক্তিভেদে কি তা আলাদা হয়?",
+  "question_prompt_en": "In your language, what do you say when you meet someone or when you leave? Does it depend on the time or who you're speaking to?",
   "dialogues": [
     {
-      "title": "১. কারো সাথে দেখা হলে শুভেচ্ছা বিনিময়",
-      "title_en": "1. Greeting people when meeting",
+      "activity_no": 1,
+      "cando_id": "01",
+      "cando_jp": "人に会ったとき、あいさつをすることができる。",
+      "cando_en": "Can exchange greetings when you meet someone.",
+      "cando_bn": "কারো সাথে দেখা হলে অভিবাদন বিনিময় করতে পারা।",
+      "title": "1. こんにちは (দেখা হলে শুভেচ্ছা)",
+      "title_en": "1. Hello — Greeting people when meeting",
       "lines": [
         {
           "speaker": "A",
+          "jp": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "bn": "শুভ দুপুর / হ্যালো।",
+          "en": "Hello. (Dialogue 1)"
+        },
+        {
+          "speaker": "B",
+          "jp": "ああ、こんにちは。",
+          "romaji": "Aa, konnichiwa.",
+          "bn": "ওহ, শুভ দুপুর।",
+          "en": "Oh, hello."
+        },
+        {
+          "speaker": "A",
           "jp": "おはようございます。",
-          "romaji": "Ohayou gozaimasu.",
-          "bn": "শুভ সকাল।",
-          "en": "Good morning."
+          "romaji": "Ohayoo gozaimasu.",
+          "bn": "শুভ সকাল (ভদ্র রূপ)।",
+          "en": "Good morning. (Dialogue 2 - Polite)"
         },
         {
           "speaker": "B",
           "jp": "おはようございます。",
-          "romaji": "Ohayou gozaimasu.",
+          "romaji": "Ohayoo gozaimasu.",
+          "bn": "শুভ সকাল।",
+          "en": "Good morning."
+        },
+        {
+          "speaker": "A",
+          "jp": "こんばんは。",
+          "romaji": "Konbanwa.",
+          "bn": "শুভ সন্ধ্যা।",
+          "en": "Good evening. (Dialogue 3)"
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、こんばんは。",
+          "romaji": "A, konbanwa.",
+          "bn": "আহ, শুভ সন্ধ্যা।",
+          "en": "Oh, good evening."
+        },
+        {
+          "speaker": "A",
+          "jp": "おはよう。",
+          "romaji": "Ohayoo.",
+          "bn": "শুভ সকাল (বন্ধু বা ঘনিষ্ঠদের সাথে)।",
+          "en": "Good morning. (Dialogue 4 - Casual)"
+        },
+        {
+          "speaker": "B",
+          "jp": "おはよう。",
+          "romaji": "Ohayoo.",
           "bn": "শুভ সকাল।",
           "en": "Good morning."
         }
       ]
     },
     {
-      "title": "২. কর্মক্ষেত্র থেকে বিদায় নেওয়া",
-      "title_en": "2. Saying goodbye at work",
+      "activity_no": 2,
+      "cando_id": "02",
+      "cando_jp": "人と別れるとき、あいさつをすることができる。",
+      "cando_en": "Can say goodbye when leaving.",
+      "cando_bn": "কারো কাছ থেকে বিদায় নেওয়ার সময় অভিবাদন জানাতে পারা।",
+      "title": "2. お先に失礼します (বিদায় নেওয়ার অভিবাদন)",
+      "title_en": "2. Goodbye — Saying goodbye when leaving",
       "lines": [
+        {
+          "speaker": "A",
+          "jp": "じゃあ、また。",
+          "romaji": "Jaa, mata.",
+          "bn": "আবার দেখা হবে (সাধারণ বিদায়)।",
+          "en": "See you later. (Dialogue 1)"
+        },
+        {
+          "speaker": "B",
+          "jp": "じゃあ、また。",
+          "romaji": "Jaa, mata.",
+          "bn": "আবার দেখা হবে।",
+          "en": "See you later."
+        },
+        {
+          "speaker": "A",
+          "jp": "じゃあ、また。",
+          "romaji": "Jaa, mata.",
+          "bn": "আবার দেখা হবে।",
+          "en": "See you later. (Dialogue 2)"
+        },
+        {
+          "speaker": "B",
+          "jp": "失礼します。",
+          "romaji": "Shitsureeshimasu.",
+          "bn": "আসি / বিদায় নিচ্ছি (ভদ্র)।",
+          "en": "Goodbye. (Polite)"
+        },
         {
           "speaker": "A",
           "jp": "お先に失礼します。",
           "romaji": "Osaki ni shitsureeshimasu.",
-          "bn": "আমি আগে যাচ্ছি।",
-          "en": "Excuse me for leaving ahead of you."
+          "bn": "আমি আগে যাচ্ছি (কর্মক্ষেত্র থেকে বিদায়)।",
+          "en": "Excuse me for leaving ahead of you. (Dialogue 3 - At work)"
         },
         {
           "speaker": "B",
           "jp": "あ、お疲れさまでした。",
           "romaji": "A, otsukaresama deshita.",
-          "bn": "আচ্ছা, ধন্যবাদ।",
+          "bn": "আচ্ছা, আজকের কাজের জন্য ধন্যবাদ।",
           "en": "Oh, thank you for your hard work."
+        },
+        {
+          "speaker": "C",
+          "jp": "お疲れさま。",
+          "romaji": "Otsukaresama.",
+          "bn": "ধন্যবাদ / ভালো থেকো (সহকর্মীদের মধ্যে)।",
+          "en": "Thanks for your hard work. (Casual)"
+        },
+        {
+          "speaker": "A",
+          "jp": "じゃあ、また。おやすみ。",
+          "romaji": "Jaa, mata. Oyasumi.",
+          "bn": "আবার দেখা হবে। শুভ রাত্রি (সাধারণ)।",
+          "en": "See you later. Good night. (Dialogue 4)"
+        },
+        {
+          "speaker": "B",
+          "jp": "おやすみなさい。",
+          "romaji": "Oyasuminasai.",
+          "bn": "শুভ রাত্রি (ভদ্র রূপ)।",
+          "en": "Good night. (Polite)"
         }
       ]
     },
     {
-      "title": "৩. ধন্যবাদ ও দুঃখ প্রকাশ করা",
-      "title_en": "3. Thanking and apologizing",
+      "activity_no": 3,
+      "cando_id": "03",
+      "cando_jp": "人にお礼を言ったり、謝ったりすることができる。",
+      "cando_en": "Can thank someone or apologize to them.",
+      "cando_bn": "কাউকে ধন্যবাদ জানাতে বা ক্ষমা চাইতে পারা।",
+      "title": "3. ありがとうございます (ধন্যবাদ ও ক্ষমা চাওয়া)",
+      "title_en": "3. Thank you — Thanking and apologizing",
       "lines": [
+        {
+          "speaker": "A",
+          "jp": "ありがとうございます。",
+          "romaji": "Arigatoo gozaimasu.",
+          "bn": "অনেক ধন্যবাদ।",
+          "en": "Thank you very much. (Dialogue 1)"
+        },
         {
           "speaker": "A",
           "jp": "これ、落としましたよ。",
           "romaji": "Kore, otoshimashita yo.",
-          "bn": "এটা পড়ে গিয়েছিল।",
-          "en": "You dropped this."
+          "bn": "এই যে, এটা পড়ে গিয়েছিল।",
+          "en": "You dropped this. (Dialogue 2)"
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、すみません。",
+          "romaji": "A, sumimasen.",
+          "bn": "ওহ, ধন্যবাদ / দুঃখিত।",
+          "en": "Oh, thank you / sorry."
+        },
+        {
+          "speaker": "A",
+          "jp": "どうぞ。",
+          "romaji": "Doozo.",
+          "bn": "এই নিন (সিট ছেড়ে দেওয়া বা কিছু দেওয়া)।",
+          "en": "Here you go / Please. (Dialogue 3)"
         },
         {
           "speaker": "B",
           "jp": "あ、すみません。ありがとうございます。",
-          "romaji": "A, sumimasen. Arigatou gozaimasu.",
-          "bn": "ওহ, মাফ করবেন। অনেক ধন্যবাদ।",
-          "en": "Oh, sorry. Thank you very much."
+          "romaji": "A, sumimasen. Arigatoo gozaimasu.",
+          "bn": "আহ, কষ্ট দিলাম। অনেক ধন্যবাদ।",
+          "en": "Oh, excuse me. Thank you very much."
         },
         {
           "speaker": "A",
           "jp": "いいえ。",
           "romaji": "Iie.",
-          "bn": "কিছু না।",
+          "bn": "না না, ঠিক আছে (স্বাগতম)।",
           "en": "You're welcome."
+        },
+        {
+          "speaker": "A",
+          "jp": "あめ、どうぞ。",
+          "romaji": "Ame, doozo.",
+          "bn": "ক্যান্ডি (চকলেট) নিন।",
+          "en": "Have a candy. (Dialogue 4)"
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、どうも。",
+          "romaji": "A, doomo.",
+          "bn": "ওহ, ধন্যবাদ।",
+          "en": "Oh, thanks."
+        },
+        {
+          "speaker": "A",
+          "jp": "これ、プレゼント。",
+          "romaji": "Kore, purezento.",
+          "bn": "এই নিন, উপহার।",
+          "en": "Here is a present. (Dialogue 5)"
+        },
+        {
+          "speaker": "B",
+          "jp": "わあ、どうもありがとう。",
+          "romaji": "Waa, doomo arigatoo.",
+          "bn": "বাহ, অনেক ধন্যবাদ!",
+          "en": "Wow, thanks a lot!"
+        },
+        {
+          "speaker": "A",
+          "jp": "痛い！",
+          "romaji": "Itai!",
+          "bn": "আহ, ব্যথা পেলাম!",
+          "en": "Ouch! (Dialogue 6 - Apologizing)"
+        },
+        {
+          "speaker": "B",
+          "jp": "あ、すみません。",
+          "romaji": "A, sumimasen.",
+          "bn": "ওহ, দুঃখিত!",
+          "en": "Oh, I'm sorry."
+        },
+        {
+          "speaker": "A",
+          "jp": "あ、ごめん！",
+          "romaji": "A, gomen!",
+          "bn": "আহ, সরি! (বন্ধুদের মধ্যে)",
+          "en": "Oh, sorry! (Dialogue 7 - Casual)"
+        },
+        {
+          "speaker": "B",
+          "jp": "あー！",
+          "romaji": "Aa!",
+          "bn": "আহ!",
+          "en": "Ah!"
+        },
+        {
+          "speaker": "A",
+          "jp": "すみません……。",
+          "romaji": "Sumimasen......",
+          "bn": "দুঃখিত…… (অফিসে ভুল হলে)।",
+          "en": "I'm sorry...... (Dialogue 8 - At work)"
+        }
+      ]
+    },
+    {
+      "activity_no": 4,
+      "cando_id": "04",
+      "cando_jp": "「おはよう」や「ありがとう」などのメッセージスタンプを見て、意味を理解することができる。",
+      "cando_en": "Can understand stickers with messages such as 'good morning' or 'thanks.'",
+      "cando_bn": "'শুভ সকাল' বা 'ধন্যবাদ' লেখা মেসেজ স্টিকার দেখে অর্থ বুঝতে পারা।",
+      "title": "4. メッセージスタンプ (মেসেজ স্টিকার)",
+      "title_en": "4. Message Stickers — Understanding chat stickers",
+      "lines": [
+        {
+          "speaker": "A",
+          "jp": "おはようございます！",
+          "romaji": "Ohayoo gozaimasu!",
+          "bn": "স্টিকার ১: শুভ সকাল! (সকালে মেসেজ পাঠানোর সময়)",
+          "en": "Sticker: Good morning!"
+        },
+        {
+          "speaker": "B",
+          "jp": "おやすみなさい",
+          "romaji": "Oyasuminasai",
+          "bn": "স্টিকার ২: শুভ রাত্রি (রাতে ঘুমানোর সময়)",
+          "en": "Sticker: Good night"
+        },
+        {
+          "speaker": "A",
+          "jp": "じゃあ、また",
+          "romaji": "Jaa, mata",
+          "bn": "স্টিকার ৩: আবার দেখা হবে",
+          "en": "Sticker: See you later"
+        },
+        {
+          "speaker": "B",
+          "jp": "すみません",
+          "romaji": "Sumimasen",
+          "bn": "স্টিকার ৪: দুঃখিত / ক্ষমা করবেন",
+          "en": "Sticker: I'm sorry / Excuse me"
+        },
+        {
+          "speaker": "A",
+          "jp": "ありがとうございます",
+          "romaji": "Arigatoo gozaimasu",
+          "bn": "স্টিকার ৫: অনেক ধন্যবাদ",
+          "en": "Sticker: Thank you very much"
+        },
+        {
+          "speaker": "B",
+          "jp": "わかりました / はーい / OK",
+          "romaji": "Wakarimashita / Haai / OK",
+          "bn": "স্টিকার ৬: বুঝতে পেরেছি / হ্যাঁ / ঠিক আছে",
+          "en": "Sticker: Understood / Yes / OK"
         }
       ]
     }

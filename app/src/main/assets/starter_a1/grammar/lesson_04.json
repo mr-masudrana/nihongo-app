@@ -1,49 +1,93 @@
 {
   "lesson": 4,
-  "title": "টোকিওতে বসবাস করি",
-  "title_en": "I live in Tokyo.",
+  "title": "東京に住んでいます (ব্যাকরণ নোট — 文法ノート)",
+  "title_en": "I live in Tokyo. (Grammar Notes)",
   "points": [
     {
-      "title": "N₁ と N₂ (এবং) / N₁ の N₂ (এর)",
-      "pattern": "夫と子どもです / 私の母です",
-      "explain": "একাধিক ব্যক্তি বা বস্তু যুক্ত করতে 'と' এবং সম্পর্ক বা মালিকানা বোঝাতে 'の' বসে।",
-      "title_en": "Particles と and の",
-      "pattern_en": "N1 to N2 / N1 no N2",
-      "explain_en": "と connects nouns; の shows possession or relation.",
+      "title": "1. N1と N2",
+      "pattern": "N1と N2",
+      "explain": "একাধিক বিশেষ্যকে একসাথে যুক্ত করতে 'と' (to) কণা ব্যবহৃত হয় (যেমন: স্বামী ও সন্তান, বাবা ও মা)।",
+      "title_en": "1. N1 to N2",
+      "pattern_en": "N1 to N2",
+      "explain_en": "と connects nouns together (e.g., husband and child, father and mother).",
       "examples": [
         {
-          "jp": "妻と子どもです。",
-          "romaji": "Tsuma to kodomo desu.",
-          "bn": "আমার স্ত্রী এবং সন্তান।",
-          "en": "My wife and child."
+          "jp": "夫と子どもです。",
+          "romaji": "Otto to kodomo desu.",
+          "bn": "স্বামী এবং সন্তান।",
+          "en": "Husband and child."
         },
         {
-          "jp": "ペットのジョンです。",
-          "romaji": "Petto no Jon desu.",
-          "bn": "আমার পোষা প্রাণী জন।",
-          "en": "My pet, John."
+          "jp": "私の家族です。父と母と姉です。",
+          "romaji": "Watashi no kazoku desu. Chichi to haha to ane desu.",
+          "bn": "এটি আমার পরিবার। বাবা, মা এবং বড় বোন।",
+          "en": "This is my family. My father, mother, and older sister."
         }
       ]
     },
     {
-      "title": "【স্থান】に住んでいます (বসবাস করা) ও বয়স জিজ্ঞাসা",
-      "pattern": "東京に住んでいます / 何歳ですか?",
-      "explain": "কোথায় থাকেন তা বলতে স্থানের পরে 'に 住んでいます' এবং বয়স জানতে '何歳ですか' বা 'いくつですか' ব্যবহৃত হয়।",
-      "title_en": "Living in a place & Asking age",
-      "pattern_en": "[Place] ni sunde imasu / Nansai desu ka?",
-      "explain_en": "State residence and ask/answer ages.",
+      "title": "2. [Interrogative expressions 疑問表現]ですか？",
+      "pattern": "[疑問表現]ですか？",
+      "explain": "বয়স জানতে '何歳ですか？' বা 'おいくつですか？' (সম্মানসূচক) এবং ঘনিষ্ঠদের ক্ষেত্রে '何歳？' ব্যবহৃত হয়। '何歳' সংখ্যা জানতে এবং 'いくつ' সাধারণ বয়স/পরিমাণ জানতে ব্যবহৃত হয়।",
+      "title_en": "2. [Interrogative expressions] desu ka?",
+      "pattern_en": "[Interrogative expressions] desu ka?",
+      "explain_en": "何歳ですか？ and おいくつですか？ ask age; 何歳 asks for a number while いくつ is softer/more general.",
+      "examples": [
+        {
+          "jp": "何歳ですか？ — 15歳です。",
+          "romaji": "Nansai desu ka? — 15-sai desu.",
+          "bn": "বয়স কত? — ১৫ বছর।",
+          "en": "How old are you? — I'm 15."
+        },
+        {
+          "jp": "おいくつですか？ — 90歳です。",
+          "romaji": "Oikutsu desu ka? — 90-sai desu.",
+          "bn": "বয়স কত? — ৯০ বছর।",
+          "en": "How old are you? — 90 years old."
+        }
+      ]
+    },
+    {
+      "title": "3. [place 場所]に住んでいます",
+      "pattern": "[場所]に住んでいます",
+      "explain": "কোথায় বসবাস করেন তা বোঝাতে জায়গার নামের পরে 'に' (ni) কণা ও '住んでいます' বসে। প্রশ্ন করতে 'どこに住んでいますか？' বলা হয়।",
+      "title_en": "3. [place] ni sundeimasu",
+      "pattern_en": "[place] ni sundeimasu",
+      "explain_en": "Indicates where someone lives using に + 住んでいます; ask with どこに住んでいますか？.",
       "examples": [
         {
           "jp": "家族は、フィリピンに住んでいます。",
-          "romaji": "Kazoku wa, Firipin ni sunde imasu.",
-          "bn": "আমার পরিবার ফিলিপাইনে থাকে।",
+          "romaji": "Kazoku wa, Firipin ni sundeimasu.",
+          "bn": "পরিবার ফিলিপিন্সে থাকেন।",
           "en": "My family lives in the Philippines."
         },
         {
-          "jp": "25歳です。",
-          "romaji": "Nijuugo-sai desu.",
-          "bn": "২৫ বছর বয়স।",
-          "en": "I am 25 years old."
+          "jp": "どこに住んでいますか？ — 東京に住んでいます。",
+          "romaji": "Doko ni sundeimasu ka? — Tookyoo ni sundeimasu.",
+          "bn": "কোথায় থাকেন? — টোকিওতে থাকি।",
+          "en": "Where do you live? — I live in Tokyo."
+        }
+      ]
+    },
+    {
+      "title": "4. N1の N2",
+      "pattern": "N1の N2",
+      "explain": "দুটি বিশেষ্যের সম্পর্ক বোঝাতে (যেমন: মালিকানা, পরিবার, পরিচয় বা অবস্থান) মাঝে 'の' (no) কণা ব্যবহৃত হয়—যেমন: '私の母' (আমার মা), '姉の子ども' (বোনের সন্তান), 'ペットのジョン' (পোষা প্রাণী জন)।",
+      "title_en": "4. N1 no N2",
+      "pattern_en": "N1 no N2",
+      "explain_en": "の links two nouns to show relationship, belonging, or identity (e.g., 私の母, 姉の子ども, ペットのジョン).",
+      "examples": [
+        {
+          "jp": "私の母です。",
+          "romaji": "Watashi no haha desu.",
+          "bn": "আমার মা।",
+          "en": "She's my mother."
+        },
+        {
+          "jp": "ペットのジョンです。",
+          "romaji": "Petto no Jon desu.",
+          "bn": "আমাদের পোষা প্রাণী জন।",
+          "en": "It's John, our pet."
         }
       ]
     }

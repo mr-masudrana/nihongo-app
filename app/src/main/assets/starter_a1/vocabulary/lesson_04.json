@@ -1,70 +1,63 @@
 {
   "lesson": 4,
-  "title": "টোকিওতে বসবাস করি",
+  "title": "東京に住んでいます (টোকিওতে বসবাস করছি)",
   "title_en": "I live in Tokyo.",
   "words": [
-    {
-      "word": "家族",
-      "reading": "かぞく",
-      "romaji": "kazoku",
-      "bn": "পরিবার",
-      "en": "family"
-    },
     {
       "word": "父",
       "reading": "ちち",
       "romaji": "chichi",
-      "bn": "আমার বাবা",
-      "en": "my father"
+      "bn": "বাবা (নিজের বাবা)",
+      "en": "father (my father)"
     },
     {
       "word": "母",
       "reading": "はは",
       "romaji": "haha",
-      "bn": "আমার মা",
-      "en": "my mother"
+      "bn": "মা (নিজের মা)",
+      "en": "mother (my mother)"
     },
     {
       "word": "兄",
       "reading": "あに",
       "romaji": "ani",
-      "bn": "আমার বড় ভাই",
-      "en": "my older brother"
+      "bn": "বড় ভাই (নিজের)",
+      "en": "older brother"
     },
     {
       "word": "姉",
       "reading": "あね",
       "romaji": "ane",
-      "bn": "আমার বড় বোন",
-      "en": "my older sister"
+      "bn": "বড় বোন (নিজের)",
+      "en": "older sister"
     },
     {
       "word": "弟",
       "reading": "おとうと",
-      "romaji": "otouto",
-      "bn": "আমার ছোট ভাই",
-      "en": "my younger brother"
+      "romaji": "otooto",
+      "bn": "ছোট ভাই (নিজের)",
+      "en": "younger brother"
     },
     {
       "word": "妹",
       "reading": "いもうと",
-      "romaji": "imouto",
-      "bn": "আমার ছোট বোন",
-      "en": "my younger sister"
+      "romaji": "imooto",
+      "bn": "ছোট বোন (নিজের)",
+      "en": "younger sister"
     },
     {
       "word": "夫",
       "reading": "おっと",
       "romaji": "otto",
-      "bn": "আমার স্বামী",
-      "en": "my husband"
+      "bn": "স্বামী (নিজের)",
+      "en": "husband"
     },
     {
       "word": "妻",
       "reading": "つま",
       "romaji": "tsuma",
-      "bn": "আমার স্ত্রী",
-      "en": "my wife"
+      "bn": "স্ত্রী (নিজের)",
+      "en": "wife"
     },
     {
       "word": "子ども",
@@ -74,25 +67,88 @@
       "en": "child"
     },
     {
+      "word": "家族",
+      "reading": "かぞく",
+      "romaji": "kazoku",
+      "bn": "পরিবার",
+      "en": "family"
+    },
+    {
+      "word": "ご家族",
+      "reading": "ごかぞく",
+      "romaji": "gokazoku",
+      "bn": "আপনার পরিবার (ভদ্র)",
+      "en": "your family"
+    },
+    {
+      "word": "うちの",
+      "reading": "うちの",
+      "romaji": "uchi no",
+      "bn": "আমাদের / আমার (পরিবার বা নিজের)",
+      "en": "my / our (family)"
+    },
+    {
+      "word": "紹介します",
+      "reading": "しょうかいします",
+      "romaji": "shookaishimasu",
+      "bn": "পরিচয় করিয়ে দিচ্ছি",
+      "en": "I will introduce you"
+    },
+    {
+      "word": "こちら",
+      "reading": "こちら",
+      "romaji": "kochira",
+      "bn": "ইনি / এই যে (কাউকে পরিচয় করিয়ে দিতে)",
+      "en": "this person (used when introducing someone)"
+    },
+    {
+      "word": "〜歳",
+      "reading": "〜さい",
+      "romaji": "〜sai",
+      "bn": "~ বছর বয়স",
+      "en": "~ years old"
+    },
+    {
       "word": "何歳",
       "reading": "なんさい",
       "romaji": "nansai",
-      "bn": "কত বছর বয়স",
+      "bn": "কত বছর বয়স?",
       "en": "how old"
     },
     {
-      "word": "二十歳",
-      "reading": "はたち",
-      "romaji": "hatachi",
-      "bn": "২০ বছর বয়স",
-      "en": "20 years old"
+      "word": "いくつ",
+      "reading": "いくつ",
+      "romaji": "ikutsu",
+      "bn": "কত (বয়স/সংখ্যা)",
+      "en": "how old / how many"
+    },
+    {
+      "word": "どこ",
+      "reading": "どこ",
+      "romaji": "doko",
+      "bn": "কোথায়?",
+      "en": "where"
     },
     {
       "word": "住んでいます",
       "reading": "すんでいます",
-      "romaji": "sunde imasu",
-      "bn": "বসবাস করি",
-      "en": "live / reside"
+      "romaji": "sundeimasu",
+      "bn": "বসবাস করছি / থাকি",
+      "en": "live / be living"
+    },
+    {
+      "word": "住む",
+      "reading": "すむ",
+      "romaji": "sumu",
+      "bn": "বসবাস করা (মূল ক্রিয়া)",
+      "en": "live"
+    },
+    {
+      "word": "だれ",
+      "reading": "だれ",
+      "romaji": "dare",
+      "bn": "কে?",
+      "en": "who"
     },
     {
       "word": "犬",
@@ -102,11 +158,60 @@
       "en": "dog"
     },
     {
+      "word": "ペット",
+      "reading": "ペット",
+      "romaji": "petto",
+      "bn": "পোষা প্রাণী",
+      "en": "pet"
+    },
+    {
+      "word": "恋人",
+      "reading": "こいびと",
+      "romaji": "koibito",
+      "bn": "প্রেমিক / প্রেমিকা / সঙ্গী",
+      "en": "lover / partner"
+    },
+    {
+      "word": "おじいさん",
+      "reading": "おじいさん",
+      "romaji": "ojiisan",
+      "bn": "দাদা / নানা / বয়স্ক পুরুষ",
+      "en": "grandfather / old man"
+    },
+    {
+      "word": "かわいい",
+      "reading": "かわいい",
+      "romaji": "kawaii",
+      "bn": "মিষ্টি / কিউট / সুন্দর",
+      "en": "cute"
+    },
+    {
+      "word": "東京",
+      "reading": "とうきょう",
+      "romaji": "Tookyoo",
+      "bn": "টোকিও",
+      "en": "Tokyo"
+    },
+    {
       "word": "誕生日",
       "reading": "たんじょうび",
-      "romaji": "tanjoubi",
+      "romaji": "tanjoobi",
       "bn": "জন্মদিন",
       "en": "birthday"
+    },
+    {
+      "word": "海",
+      "reading": "うみ",
+      "romaji": "umi",
+      "bn": "সমুদ্র",
+      "en": "sea"
+    },
+    {
+      "word": "お天気",
+      "reading": "おてんき",
+      "romaji": "otenki",
+      "bn": "আবহাওয়া",
+      "en": "weather"
     }
   ]
 }

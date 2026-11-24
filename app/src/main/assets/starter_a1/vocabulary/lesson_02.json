@@ -1,26 +1,47 @@
 {
   "lesson": 2,
-  "title": "মাফ করবেন, ভালো বুঝতে পারিনি",
+  "title": "すみません、よくわかりません (দুঃখিত, ঠিক বুঝতে পারিনি)",
   "title_en": "I'm sorry, I don't really understand.",
   "words": [
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "romaji": "sumimasen",
+      "bn": "দুঃখিত / ক্ষমা করবেন",
+      "en": "I'm sorry / excuse me"
+    },
     {
       "word": "よくわかりません",
       "reading": "よくわかりません",
       "romaji": "yoku wakarimasen",
-      "bn": "ভালো বুঝতে পারছি না",
+      "bn": "ঠিক বুঝতে পারিনি",
       "en": "I don't really understand"
+    },
+    {
+      "word": "わかりません",
+      "reading": "わかりません",
+      "romaji": "wakarimasen",
+      "bn": "বুঝতে পারছি না / বুঝি না",
+      "en": "I don't understand"
+    },
+    {
+      "word": "わかりました",
+      "reading": "わかりました",
+      "romaji": "wakarimashita",
+      "bn": "বুঝতে পেরেছি",
+      "en": "I understand / Got it"
     },
     {
       "word": "もういちど、お願いします",
       "reading": "もういちど、おねがいします",
-      "romaji": "mou ichido, onegaishimasu",
+      "romaji": "moo ichido, onegaishimasu",
       "bn": "আরেকবার বলুন, দয়া করে",
       "en": "One more time, please"
     },
     {
       "word": "もう少し、ゆっくり言ってください",
       "reading": "もうすこし、ゆっくりいってください",
-      "romaji": "mou sukoshi, yukkuri itte kudasai",
+      "romaji": "moo sukoshi, yukkuri itte kudasai",
       "bn": "আরেকটু ধীরে বলুন, দয়া করে",
       "en": "Please speak a little more slowly"
     },
@@ -28,8 +49,22 @@
       "word": "在留カード",
       "reading": "ざいりゅうカード",
       "romaji": "zairyuu kaado",
-      "bn": "রেসিডেন্স কার্ড (পরিচয়পত্র)",
+      "bn": "রেসিডেন্স কার্ড (বসবাসের পরিচয়পত্র)",
       "en": "residence card"
+    },
+    {
+      "word": "ここ",
+      "reading": "ここ",
+      "romaji": "koko",
+      "bn": "এখানে",
+      "en": "here"
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "romaji": "namae",
+      "bn": "নাম",
+      "en": "name"
     },
     {
       "word": "部屋",
@@ -39,39 +74,109 @@
       "en": "room"
     },
     {
-      "word": "日本語",
-      "reading": "にほんご",
-      "romaji": "nihongo",
-      "bn": "জাপানি ভাষা",
-      "en": "Japanese language"
+      "word": "日本語、できますか？",
+      "reading": "にほんご、できますか？",
+      "romaji": "nihongo, dekimasu ka?",
+      "bn": "জাপানি ভাষা বলতে পারেন?",
+      "en": "Can you speak Japanese?"
+    },
+    {
+      "word": "日本語、わかりますか？",
+      "reading": "にほんご、わかりますか？",
+      "romaji": "nihongo, wakarimasu ka?",
+      "bn": "জাপানি ভাষা বোঝেন?",
+      "en": "Do you understand Japanese?"
+    },
+    {
+      "word": "はい、できます",
+      "reading": "はい、できます",
+      "romaji": "hai, dekimasu",
+      "bn": "হ্যাঁ, পারি",
+      "en": "Yes, I can"
+    },
+    {
+      "word": "はい、少しできます",
+      "reading": "はい、すこしできます",
+      "romaji": "hai, sukoshi dekimasu",
+      "bn": "হ্যাঁ, একটু পারি",
+      "en": "Yes, I can a little"
+    },
+    {
+      "word": "はい、わかります",
+      "reading": "はい、わかります",
+      "romaji": "hai, wakarimasu",
+      "bn": "হ্যাঁ, বুঝি",
+      "en": "Yes, I understand"
+    },
+    {
+      "word": "はい、少し",
+      "reading": "はい、すこし",
+      "romaji": "hai, sukoshi",
+      "bn": "হ্যাঁ, একটু",
+      "en": "Yes, a little"
     },
     {
       "word": "英語",
       "reading": "えいご",
       "romaji": "eigo",
       "bn": "ইংরেজি ভাষা",
-      "en": "English language"
+      "en": "English"
     },
     {
       "word": "中国語",
       "reading": "ちゅうごくご",
       "romaji": "chuugokugo",
       "bn": "চীনা ভাষা",
-      "en": "Chinese language"
+      "en": "Chinese"
     },
     {
-      "word": "少し",
-      "reading": "すこし",
-      "romaji": "sukoshi",
-      "bn": "অল্প / একটু",
-      "en": "a little"
+      "word": "インドネシア語",
+      "reading": "インドネシアご",
+      "romaji": "indoneshiago",
+      "bn": "ইন্দোনেশিয়ান ভাষা",
+      "en": "Indonesian"
     },
     {
-      "word": "消しゴム",
-      "reading": "けしゴム",
-      "romaji": "keshigomu",
-      "bn": "রাবার / ইরেজার",
-      "en": "eraser"
+      "word": "お客さん",
+      "reading": "おきゃくさん",
+      "romaji": "okyakusan",
+      "bn": "গ্রাহক / অতিথি",
+      "en": "customer (used to address a customer)"
+    },
+    {
+      "word": "はい、どうぞ",
+      "reading": "はい、どうぞ",
+      "romaji": "hai, doozo",
+      "bn": "হ্যাঁ, নিন",
+      "en": "Yes, here you go"
+    },
+    {
+      "word": "じゃあ",
+      "reading": "じゃあ",
+      "romaji": "jaa",
+      "bn": "তাহলে",
+      "en": "Well then"
+    },
+    {
+      "word": "あのう",
+      "reading": "あのう",
+      "romaji": "anoo",
+      "bn": "শুনুন / আঃ (কথা শুরু করার শব্দ)",
+      "en": "Um (used when starting to talk to someone)"
+    },
+    {
+      "word": "これは、日本語で何と言いますか？",
+      "reading": "これは、にほんごでなんといいますか？",
+      "romaji": "kore wa, nihongo de nan to iimasu ka?",
+      "bn": "এটাকে জাপানিতে কী বলে?",
+      "en": "How do you say this in Japanese?"
+    },
+    {
+      "word": "これは、日本語で何ですか？",
+      "reading": "これは、にほんごでなんですか？",
+      "romaji": "kore wa, nihongo de nan desu ka?",
+      "bn": "এটা জাপানিতে কী?",
+      "en": "What is this in Japanese?"
     },
     {
       "word": "傘",
@@ -100,6 +205,97 @@
       "romaji": "ka",
       "bn": "মশা",
       "en": "mosquito"
+    },
+    {
+      "word": "え？",
+      "reading": "え？",
+      "romaji": "e?",
+      "bn": "হ্যাঁ? / কী বললেন?",
+      "en": "Huh?"
+    },
+    {
+      "word": "そうそう",
+      "reading": "そうそう",
+      "romaji": "soo soo",
+      "bn": "হ্যাঁ, ঠিক তাই",
+      "en": "That's right"
+    },
+    {
+      "word": "ゼロ",
+      "reading": "ゼロ",
+      "romaji": "zero",
+      "bn": "০ (শূন্য)",
+      "en": "0 (zero)"
+    },
+    {
+      "word": "いち",
+      "reading": "いち",
+      "romaji": "ichi",
+      "bn": "১ (এক)",
+      "en": "1 (ichi)"
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "romaji": "ni",
+      "bn": "২ (দুই)",
+      "en": "2 (ni)"
+    },
+    {
+      "word": "さん",
+      "reading": "さん",
+      "romaji": "san",
+      "bn": "৩ (তিন)",
+      "en": "3 (san)"
+    },
+    {
+      "word": "よん",
+      "reading": "よん",
+      "romaji": "yon",
+      "bn": "৪ (চার)",
+      "en": "4 (yon)"
+    },
+    {
+      "word": "ご",
+      "reading": "ご",
+      "romaji": "go",
+      "bn": "৫ (পাঁচ)",
+      "en": "5 (go)"
+    },
+    {
+      "word": "ろく",
+      "reading": "ろく",
+      "romaji": "roku",
+      "bn": "৬ (ছয়)",
+      "en": "6 (roku)"
+    },
+    {
+      "word": "なな",
+      "reading": "なな",
+      "romaji": "nana",
+      "bn": "৭ (সাত)",
+      "en": "7 (nana)"
+    },
+    {
+      "word": "はち",
+      "reading": "はち",
+      "romaji": "hachi",
+      "bn": "৮ (আট)",
+      "en": "8 (hachi)"
+    },
+    {
+      "word": "きゅう",
+      "reading": "きゅう",
+      "romaji": "kyuu",
+      "bn": "৯ (নয়)",
+      "en": "9 (kyuu)"
+    },
+    {
+      "word": "じゅう",
+      "reading": "じゅう",
+      "romaji": "juu",
+      "bn": "১০ (দশ)",
+      "en": "10 (juu)"
     }
   ]
 }
