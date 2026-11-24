@@ -49,6 +49,7 @@ import com.example.nihongo.ui.settings.SettingsViewModel
 import com.example.nihongo.ui.stats.StatsViewModel
 import com.example.nihongo.ui.theme.NihongoTheme
 import com.example.nihongo.ui.home.HomeScreen
+import com.example.nihongo.ui.learn.KanjiTabScreen
 import com.example.nihongo.ui.learn.ROUTE_HUB
 import com.example.nihongo.ui.learn.parentRoute
 import com.example.nihongo.ui.search.SearchScreen
@@ -102,7 +103,7 @@ class MainActivity : ComponentActivity() {
         BackHandler(enabled = tab == 0 && homeRoute != ROUTE_HUB) { homeRoute = parentRoute(homeRoute) }
         // প্রোফাইল ট্যাবে সেটিংস খোলা থাকলে ব্যাক চাপলে প্রোফাইলে ফেরে
         var showSettings by rememberSaveable { mutableStateOf(false) }
-        BackHandler(enabled = tab == 2 && showSettings) { showSettings = false }
+        BackHandler(enabled = tab == 3 && showSettings) { showSettings = false }
 
         Scaffold(
             containerColor = cs.background,
@@ -110,7 +111,8 @@ class MainActivity : ComponentActivity() {
                 NavigationBar(containerColor = cs.surfaceContainer, tonalElevation = 0.dp) {
                     val items = listOf(
                         AppIcons.Home to "Home",
-                        AppIcons.Search to "Search",
+                        AppIcons.Search to "Vocabulary",
+                        AppIcons.Star to "Kanji",
                         AppIcons.Person to "Profile"
                     )
                     items.forEachIndexed { i, (iconVec, label) ->
@@ -119,7 +121,7 @@ class MainActivity : ComponentActivity() {
                             onClick = {
                                 // Home আবার চাপলে হোমের মূল পাতায় ফেরে
                                 if (i == 0 && tab == 0) homeRoute = ROUTE_HUB
-                                if (i == 2 && tab == 2) showSettings = false
+                                if (i == 3 && tab == 3) showSettings = false
                                 tab = i
                             },
                             icon = { AppIcon(iconVec, size = 24.dp) },
@@ -148,6 +150,7 @@ class MainActivity : ComponentActivity() {
                             vocabQuizVm = vocabQuizVm
                         )
                         1 -> SearchScreen(searchVm)
+                        2 -> KanjiTabScreen()
                         else -> if (showSettings) {
                             SettingsScreen(settingsVm, onBack = { showSettings = false })
                         } else {

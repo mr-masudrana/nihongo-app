@@ -187,6 +187,27 @@ class ContentRepository private constructor(private val context: Context) {
         }.getOrDefault(emptyList())
     }
 
+    /** নির্দিষ্ট লেসনের শব্দ ও বাক্যে ব্যবহৃত কাঞ্জিসমূহ ফিল্টার করে */
+    fun lessonKanji(level: String, no: Int): List<KanjiItem> {
+        if (level == "starter_a1" && no <= 2) return emptyList()
+        val all = kanji(level)
+        if (all.isEmpty()) return emptyList()
+        val textPool = buildString {
+            vocabLesson(level, no)?.words?.forEach { append(it.word); append(' ') }
+            grammarLesson(level, no)?.points?.forEach { p ->
+                append(p.pattern); append(' ')
+                p.examples.forEach { append(it.jp); append(' ') }
+            }
+            activitiesLesson(level, no)?.dialogues?.forEach { d ->
+                d.lines.forEach { append(it.jp); append(' ') }
+            }
+        }
+        val matched = all.filter { item ->
+            item.kanji in textPool || item.words.any { it.word in textPool }
+        }
+        return if (matched.isNotEmpty()) matched else all.take(6)
+    }
+
     // ---------------------------------------------------------------- দৈনন্দিন বাক্য
 
     private var sentenceCache: List<SentenceSection>? = null

@@ -22,7 +22,12 @@ import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -269,5 +274,96 @@ private fun ReadingRow(label: String, value: String) {
             style = MaterialTheme.typography.titleMedium,
             color = cs.onSurface
         )
+    }
+}
+
+
+// ---------------------------------------------------------------- বটম ট্যাবের জন্য Kanji Hub
+
+@Composable
+fun KanjiTabScreen() {
+    var selectedLevel by rememberSaveable { mutableStateOf("starter_a1") }
+    var selectedIndex by rememberSaveable(selectedLevel) { mutableStateOf<Int?>(null) }
+    val cs = MaterialTheme.colorScheme
+    val levels = listOf(
+        "starter_a1" to "Starter A1",
+        "elementary1_a2" to "Elementary 1 A2",
+        "elementary2_a2" to "Elementary 2 A2"
+    )
+
+    Column(Modifier.fillMaxSize()) {
+        if (selectedIndex != null) {
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 20.dp, vertical = 10.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Box(
+                    Modifier
+                        .size(38.dp)
+                        .clip(CircleShape)
+                        .background(cs.surfaceContainerHigh)
+                        .clickable { selectedIndex = null },
+                    contentAlignment = Alignment.Center
+                ) {
+                    AppIcon(AppIcons.Back, size = 20.dp, tint = cs.onSurface)
+                }
+                Spacer(Modifier.width(12.dp))
+                Text(
+                    "${ContentRepository.levelDisplayName(selectedLevel)} · Kanji #${(selectedIndex ?: 0) + 1}",
+                    style = MaterialTheme.typography.titleMedium,
+                    color = cs.onSurface
+                )
+            }
+            KanjiDetailScreen(
+                level = selectedLevel,
+                index = selectedIndex ?: 0,
+                onNavigate = { nextIdx -> selectedIndex = nextIdx }
+            )
+        } else {
+            Text(
+                tr("Kanji তালিকা", "Kanji Directory"),
+                style = MaterialTheme.typography.headlineSmall,
+                color = cs.onBackground,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(start = 20.dp, end = 20.dp, top = 16.dp, bottom = 8.dp)
+            )
+            Row(
+                Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 20.dp, vertical = 6.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                levels.forEach { (lvl, shortLabel) ->
+                    val active = selectedLevel == lvl
+                    SoftCard(
+                        Modifier.weight(1f),
+                        color = if (active) cs.primaryContainer else cs.surfaceContainerLow,
+                        borderColor = if (active) cs.primary else cs.outlineVariant.copy(alpha = 0.6f),
+                        shape = RoundedCornerShape(14.dp),
+                        onClick = { selectedLevel = lvl; selectedIndex = null }
+                    ) {
+                        Box(
+                            Modifier.fillMaxWidth().padding(vertical = 10.dp, horizontal = 6.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                shortLabel,
+                                style = MaterialTheme.typography.labelMedium,
+                                fontWeight = if (active) FontWeight.Bold else FontWeight.Medium,
+                                color = if (active) cs.onPrimaryContainer else cs.onSurface,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        }
+                    }
+                }
+            }
+            Spacer(Modifier.height(4.dp))
+            Box(Modifier.weight(1f)) {
+                KanjiGridScreen(level = selectedLevel, onOpen = { idx -> selectedIndex = idx })
+            }
+        }
     }
 }

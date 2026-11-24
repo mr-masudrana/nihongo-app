@@ -32,29 +32,10 @@ const val ROUTE_HIRAGANA = "hiragana"
 const val ROUTE_KATAKANA = "katakana"
 const val ROUTE_NUMBER = "number"
 
-// Starter A1 Routes
-const val ROUTE_A1_VOCAB = "starter_a1/vocab"
-const val ROUTE_A1_KANJI = "starter_a1/kanji"
-const val ROUTE_A1_GRAMMAR = "starter_a1/grammar"
-const val ROUTE_A1_ACTIVITIES = "starter_a1/activities"
-const val ROUTE_A1_CANDO = "starter_a1/cando"
-const val ROUTE_A1_TIPS = "starter_a1/tips"
-
-// Elementary 1 (A2) Routes
-const val ROUTE_A2_1_VOCAB = "elementary1_a2/vocab"
-const val ROUTE_A2_1_KANJI = "elementary1_a2/kanji"
-const val ROUTE_A2_1_GRAMMAR = "elementary1_a2/grammar"
-const val ROUTE_A2_1_ACTIVITIES = "elementary1_a2/activities"
-const val ROUTE_A2_1_CANDO = "elementary1_a2/cando"
-const val ROUTE_A2_1_TIPS = "elementary1_a2/tips"
-
-// Elementary 2 (A2) Routes
-const val ROUTE_A2_2_VOCAB = "elementary2_a2/vocab"
-const val ROUTE_A2_2_KANJI = "elementary2_a2/kanji"
-const val ROUTE_A2_2_GRAMMAR = "elementary2_a2/grammar"
-const val ROUTE_A2_2_ACTIVITIES = "elementary2_a2/activities"
-const val ROUTE_A2_2_CANDO = "elementary2_a2/cando"
-const val ROUTE_A2_2_TIPS = "elementary2_a2/tips"
+// Book routes (Book -> Lesson List with expandable dropdowns -> Lesson Detail)
+const val ROUTE_BOOK_A1 = "starter_a1"
+const val ROUTE_BOOK_A2_1 = "elementary1_a2"
+const val ROUTE_BOOK_A2_2 = "elementary2_a2"
 
 private fun typeName(t: String) = when (t) {
     "vocab" -> "Vocabulary"
@@ -62,7 +43,7 @@ private fun typeName(t: String) = when (t) {
     "grammar" -> "Grammar"
     "activities", "convo" -> "Activities"
     "cando" -> "Can-do"
-    "tips" -> "Tips of life in Japan"
+    "tips" -> "Life of live in Japan"
     else -> t.replaceFirstChar { it.uppercase() }
 }
 
@@ -73,28 +54,30 @@ private fun crumb(route: String): Pair<String, String> {
         ROUTE_HIRAGANA -> "Basic" to "Hiragana"
         ROUTE_KATAKANA -> "Basic" to "Katakana"
         ROUTE_NUMBER -> "Basic" to "Number"
+        ROUTE_BOOK_A1, ROUTE_BOOK_A2_1, ROUTE_BOOK_A2_2 ->
+            "Irodori" to ContentRepository.levelDisplayName(base)
         else -> {
             val parts = base.split("/")
             val level = ContentRepository.levelDisplayName(parts[0])
             val type = typeName(parts.getOrElse(1) { "" })
             when {
                 no == null -> level to type
-                parts.getOrNull(1) == "kanji" -> "$level · $type" to "${no + 1}"
-                else -> "$level · $type" to "Lesson $no"
+                parts.getOrNull(1) == "kanji_detail" -> "$level · Kanji" to "${no + 1}"
+                else -> "$level · Lesson $no" to type
             }
         }
     }
 }
 
-/** ব্যাক চাপলে এক ধাপ উপরে: লেসন → লেসন তালিকা → Home সূচি */
+/** ব্যাক চাপলে এক ধাপ উপরে: লেসন কনটেন্ট → বইয়ের লেসন তালিকা → Home বইয়ের তালিকা */
 fun parentRoute(route: String): String = when {
-    ':' in route -> route.substringBefore(':')
+    ':' in route -> route.substringBefore('/').let { book ->
+        if (book in listOf(ROUTE_BOOK_A1, ROUTE_BOOK_A2_1, ROUTE_BOOK_A2_2)) book else ROUTE_HUB
+    }
+    '/' in route -> route.substringBefore('/')
     else -> ROUTE_HUB
 }
 
-/**
- * হোমের কোনো টাইল চাপলে এই স্ক্রিন খোলে (ROUTE_HUB-এর জন্য নয় — সেটা HomeScreen দেখায়)।
- */
 @Composable
 fun LearnScreen(
     route: String,
@@ -113,8 +96,16 @@ fun LearnScreen(
             base == ROUTE_HIRAGANA -> KanaChartScreen(kanaVm, "hiragana")
             base == ROUTE_KATAKANA -> KanaChartScreen(kanaVm, "katakana")
             base == ROUTE_NUMBER -> NumberScreen()
-            parts.getOrNull(1) == "kanji" && no != null ->
+            base in listOf(ROUTE_BOOK_A1, ROUTE_BOOK_A2_1, ROUTE_BOOK_A2_2) ->
+                BookLessonsScreen(
+                    level = base,
+                    onOpenSection = { lessonNo, type -> onRoute("$base/$type:$lessonNo") },
+                    onOpenKanjiAll = { onRoute("$base/kanji") }
+                )
+            parts.getOrNull(1) == "kanji_detail" && no != null ->
                 KanjiDetailScreen(parts[0], no, onNavigate = { onRoute("$base:$it") })
+            parts.getOrNull(1) == "kanji" && no != null ->
+                LessonKanjiScreen(parts[0], no, onOpenDetail = { idx -> onRoute("${parts[0]}/kanji_detail:$idx") })
             parts.getOrNull(1) == "kanji" ->
                 KanjiGridScreen(parts[0], onOpen = { onRoute("$base:$it") })
             no != null -> LessonContent(parts[0], parts.getOrElse(1) { "vocab" }, no)

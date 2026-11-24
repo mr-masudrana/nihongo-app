@@ -44,10 +44,6 @@ import com.example.nihongo.ui.quiz.VocabQuizViewModel
 import com.example.nihongo.ui.stats.StatsViewModel
 import java.util.Calendar
 
-/**
- * Home ট্যাব: route == ROUTE_HUB হলে হোম সেকশনসমূহ;
- * নইলে নির্বাচিত সেকশন/পাতা (LearnScreen)।
- */
 @Composable
 fun HomeScreen(
     route: String,
@@ -64,39 +60,56 @@ fun HomeScreen(
     }
 }
 
-private data class Tile(val glyph: String, val title: String, val route: String)
+private data class BookItem(
+    val badge: String,
+    val jpTitle: String,
+    val title: String,
+    val subtitleBn: String,
+    val subtitleEn: String,
+    val lessonsCount: String,
+    val route: String,
+    val accentIndex: Int
+)
+
+private val irodoriBooks = listOf(
+    BookItem(
+        badge = "A1",
+        jpTitle = "いろどり 入門",
+        title = "Irodori Starter (A1)",
+        subtitleBn = "প্রাথমিক কথোপকথন, দৈনন্দিন শব্দ ও জাপানি জীবনযাত্রা",
+        subtitleEn = "Basic daily conversations, vocabulary & life in Japan",
+        lessonsCount = "18 Lessons",
+        route = ROUTE_BOOK_A1,
+        accentIndex = 0
+    ),
+    BookItem(
+        badge = "A2 · 1",
+        jpTitle = "いろどり 初級 1",
+        title = "Irodori Elementary 1 (A2)",
+        subtitleBn = "কর্মক্ষেত্র, ভ্রমণ, হাসপাতাল ও সামাজিক যোগাযোগ",
+        subtitleEn = "Workplace, travel, hospital & social communication",
+        lessonsCount = "18 Lessons",
+        route = ROUTE_BOOK_A2_1,
+        accentIndex = 1
+    ),
+    BookItem(
+        badge = "A2 · 2",
+        jpTitle = "いろどり 初級 2",
+        title = "Irodori Elementary 2 (A2)",
+        subtitleBn = "স্থানীয় উৎসব, কেনাকাটা, দুর্যোগ প্রস্তুতি ও ভবিষ্যৎ পরিকল্পনা",
+        subtitleEn = "Local events, shopping, disaster prep & future goals",
+        lessonsCount = "18 Lessons",
+        route = ROUTE_BOOK_A2_2,
+        accentIndex = 2
+    )
+)
+
+private data class BasicTile(val glyph: String, val title: String, val route: String)
 
 private val basicTiles = listOf(
-    Tile("あ", "Hiragana", ROUTE_HIRAGANA),
-    Tile("ア", "Katakana", ROUTE_KATAKANA),
-    Tile("数", "Number", ROUTE_NUMBER)
-)
-
-private val starterA1Tiles = listOf(
-    Tile("語", "Vocabulary", ROUTE_A1_VOCAB),
-    Tile("字", "Kanji", ROUTE_A1_KANJI),
-    Tile("文", "Grammar", ROUTE_A1_GRAMMAR),
-    Tile("話", "Activities", ROUTE_A1_ACTIVITIES),
-    Tile("力", "Can-do", ROUTE_A1_CANDO),
-    Tile("暮", "Tips of life in Japan", ROUTE_A1_TIPS)
-)
-
-private val elementary1A2Tiles = listOf(
-    Tile("語", "Vocabulary", ROUTE_A2_1_VOCAB),
-    Tile("字", "Kanji", ROUTE_A2_1_KANJI),
-    Tile("文", "Grammar", ROUTE_A2_1_GRAMMAR),
-    Tile("話", "Activities", ROUTE_A2_1_ACTIVITIES),
-    Tile("力", "Can-do", ROUTE_A2_1_CANDO),
-    Tile("暮", "Tips of life in Japan", ROUTE_A2_1_TIPS)
-)
-
-private val elementary2A2Tiles = listOf(
-    Tile("語", "Vocabulary", ROUTE_A2_2_VOCAB),
-    Tile("字", "Kanji", ROUTE_A2_2_KANJI),
-    Tile("文", "Grammar", ROUTE_A2_2_GRAMMAR),
-    Tile("話", "Activities", ROUTE_A2_2_ACTIVITIES),
-    Tile("力", "Can-do", ROUTE_A2_2_CANDO),
-    Tile("暮", "Tips of life in Japan", ROUTE_A2_2_TIPS)
+    BasicTile("あ", "Hiragana", ROUTE_HIRAGANA),
+    BasicTile("ア", "Katakana", ROUTE_KATAKANA),
+    BasicTile("数", "Number", ROUTE_NUMBER)
 )
 
 @Composable
@@ -122,26 +135,169 @@ private fun HomeHub(statsVm: StatsViewModel, onRoute: (String) -> Unit) {
             .fillMaxSize()
             .verticalScroll(rememberScrollState())
             .padding(bottom = 32.dp),
-        verticalArrangement = Arrangement.spacedBy(24.dp)
+        verticalArrangement = Arrangement.spacedBy(22.dp)
     ) {
         HomeHeader(greet, streak)
 
-        LevelSection(
-            "BASIC", basicTiles, onRoute,
-            accent = cs.primary, onAccent = cs.onPrimary
-        )
-        LevelSection(
-            "IRODORI · STARTER A1", starterA1Tiles, onRoute,
-            accent = cs.secondary, onAccent = cs.onSecondary
-        )
-        LevelSection(
-            "IRODORI · ELEMENTARY 1 (A2)", elementary1A2Tiles, onRoute,
-            accent = cs.tertiary, onAccent = cs.onTertiary
-        )
-        LevelSection(
-            "IRODORI · ELEMENTARY 2 (A2)", elementary2A2Tiles, onRoute,
-            accent = cs.primary, onAccent = cs.onPrimary
-        )
+        // Irodori Books Shelf
+        Column(
+            Modifier.padding(horizontal = 20.dp).entrance(),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    Modifier
+                        .size(width = 4.dp, height = 22.dp)
+                        .clip(CircleShape)
+                        .background(cs.primary)
+                )
+                Spacer(Modifier.width(10.dp))
+                Text(
+                    tr("IRODORI পাঠ্যবইসমূহ", "IRODORI TEXTBOOKS"),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = cs.onSurface
+                )
+            }
+
+            irodoriBooks.forEach { book ->
+                val accent = when (book.accentIndex) {
+                    0 -> cs.secondary
+                    1 -> cs.tertiary
+                    else -> cs.primary
+                }
+                BookCard(book = book, accent = accent, onClick = { onRoute(book.route) })
+            }
+        }
+
+        // Basic Letters & Numbers
+        Column(
+            Modifier.padding(horizontal = 20.dp).entrance(),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Box(
+                    Modifier
+                        .size(width = 4.dp, height = 22.dp)
+                        .clip(CircleShape)
+                        .background(cs.outline)
+                )
+                Spacer(Modifier.width(10.dp))
+                Text(
+                    tr("বর্ণমালা ও সংখ্যা (BASIC)", "ALPHABET & NUMBERS (BASIC)"),
+                    style = MaterialTheme.typography.titleMedium,
+                    color = cs.onSurface
+                )
+            }
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                basicTiles.forEach { t ->
+                    SoftCard(
+                        Modifier.weight(1f).height(84.dp),
+                        color = cs.surfaceContainerLow,
+                        borderColor = cs.outlineVariant.copy(alpha = 0.6f),
+                        shape = RoundedCornerShape(16.dp),
+                        onClick = { onRoute(t.route) }
+                    ) {
+                        Column(
+                            Modifier.fillMaxSize().padding(10.dp),
+                            verticalArrangement = Arrangement.SpaceBetween,
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            BigText(t.glyph, 22.sp, color = cs.primary, weight = FontWeight.Bold)
+                            Text(
+                                t.title,
+                                style = MaterialTheme.typography.labelMedium,
+                                color = cs.onSurface,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun BookCard(book: BookItem, accent: Color, onClick: () -> Unit) {
+    val cs = MaterialTheme.colorScheme
+    SoftCard(
+        Modifier.fillMaxWidth(),
+        color = cs.surfaceContainerLow,
+        borderColor = accent.copy(alpha = 0.35f),
+        shape = RoundedCornerShape(20.dp),
+        onClick = onClick
+    ) {
+        Row(
+            Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // Book cover spine / badge
+            Box(
+                Modifier
+                    .size(width = 62.dp, height = 78.dp)
+                    .clip(RoundedCornerShape(14.dp))
+                    .background(accent.copy(alpha = 0.15f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text(
+                        "彩",
+                        fontSize = 24.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = accent
+                    )
+                    Spacer(Modifier.height(2.dp))
+                    Box(
+                        Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .background(accent)
+                            .padding(horizontal = 6.dp, vertical = 2.dp)
+                    ) {
+                        Text(
+                            book.badge,
+                            style = MaterialTheme.typography.labelSmall,
+                            fontWeight = FontWeight.Bold,
+                            color = cs.onPrimary
+                        )
+                    }
+                }
+            }
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f)) {
+                Text(
+                    book.jpTitle,
+                    style = MaterialTheme.typography.labelMedium,
+                    color = accent,
+                    fontWeight = FontWeight.SemiBold
+                )
+                Text(
+                    book.title,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = cs.onSurface,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(Modifier.height(3.dp))
+                Text(
+                    tr(book.subtitleBn, book.subtitleEn),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = cs.onSurfaceVariant,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis
+                )
+                Spacer(Modifier.height(6.dp))
+                Text(
+                    book.lessonsCount,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = cs.primary,
+                    fontWeight = FontWeight.Medium
+                )
+            }
+            Spacer(Modifier.width(8.dp))
+            AppIcon(AppIcons.ChevronRight, size = 24.dp, tint = accent)
+        }
     }
 }
 
@@ -162,7 +318,7 @@ private fun HomeHeader(greet: Triple<String, String, String>, streak: Int) {
             )
             BigText(greet.first, 32.sp, color = cs.onBackground, weight = FontWeight.Bold)
             Text(
-                tr("JFT-Basic · Irodori সিলেবাস (A1 - A2)", "JFT-Basic · Irodori Syllabus (A1 - A2)"),
+                tr("JFT-Basic · একটি বই নির্বাচন করুন", "JFT-Basic · Select a textbook"),
                 style = MaterialTheme.typography.labelMedium,
                 color = cs.primary
             )
@@ -177,85 +333,6 @@ private fun HomeHeader(greet: Triple<String, String, String>, streak: Int) {
             AppIcon(AppIcons.Fire, size = 18.dp, tint = Color(0xFFFF7043))
             Spacer(Modifier.width(6.dp))
             Text("$streak", style = MaterialTheme.typography.titleSmall, color = cs.onSurface)
-        }
-    }
-}
-
-@Composable
-private fun LevelSection(
-    label: String,
-    tiles: List<Tile>,
-    onRoute: (String) -> Unit,
-    accent: Color,
-    onAccent: Color
-) {
-    val cs = MaterialTheme.colorScheme
-    Column(
-        Modifier.padding(horizontal = 20.dp).entrance(),
-        verticalArrangement = Arrangement.spacedBy(12.dp)
-    ) {
-        Row(verticalAlignment = Alignment.CenterVertically) {
-            Box(
-                Modifier
-                    .size(width = 4.dp, height = 24.dp)
-                    .clip(CircleShape)
-                    .background(accent)
-            )
-            Spacer(Modifier.width(10.dp))
-            Text(label, style = MaterialTheme.typography.titleMedium, color = cs.onSurface)
-        }
-        tiles.chunked(3).forEach { rowTiles ->
-            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                rowTiles.forEach { t ->
-                    TileCard(
-                        t, accent = accent, onAccent = onAccent,
-                        modifier = Modifier.weight(1f),
-                        onClick = { onRoute(t.route) }
-                    )
-                }
-                repeat(3 - rowTiles.size) { Spacer(Modifier.weight(1f)) }
-            }
-        }
-    }
-}
-
-@Composable
-private fun TileCard(
-    t: Tile,
-    accent: Color,
-    onAccent: Color,
-    modifier: Modifier,
-    onClick: () -> Unit
-) {
-    val cs = MaterialTheme.colorScheme
-    SoftCard(
-        modifier.height(94.dp),
-        color = cs.surfaceContainerLow,
-        borderColor = cs.outlineVariant.copy(alpha = 0.6f),
-        shape = RoundedCornerShape(18.dp),
-        onClick = onClick
-    ) {
-        Column(
-            Modifier.fillMaxSize().padding(10.dp),
-            verticalArrangement = Arrangement.SpaceBetween
-        ) {
-            Box(
-                Modifier
-                    .size(34.dp)
-                    .clip(RoundedCornerShape(10.dp))
-                    .background(accent.copy(alpha = 0.14f)),
-                contentAlignment = Alignment.Center
-            ) {
-                BigText(t.glyph, 18.sp, color = accent, weight = FontWeight.Bold)
-            }
-            Text(
-                t.title,
-                style = MaterialTheme.typography.labelLarge,
-                color = cs.onSurface,
-                maxLines = 2,
-                overflow = TextOverflow.Ellipsis,
-                lineHeight = 16.sp
-            )
         }
     }
 }

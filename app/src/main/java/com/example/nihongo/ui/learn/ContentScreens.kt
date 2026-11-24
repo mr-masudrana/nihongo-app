@@ -507,3 +507,269 @@ private fun SentenceRow(s: SentenceItem, onSpeak: () -> Unit) {
         }
     }
 }
+
+
+// ---------------------------------------------------------------- বইয়ের লেসন তালিকা (প্রতি লেসনে ড্রপডাউন মেনুসহ)
+
+private data class LessonDropdownOption(
+    val type: String,
+    val glyph: String,
+    val label: String,
+    val subLabelBn: String,
+    val subLabelEn: String
+)
+
+private val lessonDropdownOptions = listOf(
+    LessonDropdownOption("activities", "話", "Activities", "কথোপকথন ও অনুশীলন", "Dialogs & practice"),
+    LessonDropdownOption("cando", "力", "Can-do", "পাঠের লক্ষ্যসমূহ", "Learning objectives"),
+    LessonDropdownOption("vocab", "語", "Vocabulary", "গুরুত্বপূর্ণ শব্দার্থ", "Key words & readings"),
+    LessonDropdownOption("kanji", "字", "Kanji", "লেসনের কাঞ্জি ও অর্থ", "Kanji words & strokes"),
+    LessonDropdownOption("grammar", "文", "Grammar", "ব্যাকরণ ও বাক্যের গঠন", "Grammar patterns"),
+    LessonDropdownOption("tips", "暮", "Life of live in Japan", "জাপানের জীবনযাত্রা ও সংস্কৃতি", "Culture & daily life tips")
+)
+
+@Composable
+fun BookLessonsScreen(
+    level: String,
+    onOpenSection: (Int, String) -> Unit,
+    onOpenKanjiAll: () -> Unit
+) {
+    val ctx = LocalContext.current
+    val loaded by produceState<List<LessonInfo>?>(null, level) {
+        value = withContext(Dispatchers.IO) { ContentRepository.get(ctx).lessonInfos(level, "vocab") }
+    }
+    val lessons = loaded
+    if (lessons == null) { Loading(); return }
+    val cs = MaterialTheme.colorScheme
+    var expandedLesson by rememberSaveable(level) { mutableStateOf<Int?>(1) }
+
+    LazyColumn(
+        Modifier.fillMaxSize(),
+        contentPadding = listPadding,
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        // বইয়ের সব কাঞ্জি একসাথে দেখার শর্টকাট ব্যানার
+        item(key = "all_kanji_banner") {
+            SoftCard(
+                Modifier.fillMaxWidth(),
+                color = cs.primaryContainer.copy(alpha = 0.55f),
+                borderColor = cs.primary.copy(alpha = 0.3f),
+                onClick = onOpenKanjiAll
+            ) {
+                Row(
+                    Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Box(
+                        Modifier
+                            .size(36.dp)
+                            .clip(CircleShape)
+                            .background(cs.primary.copy(alpha = 0.15f)),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        BigText("漢", 18.sp, color = cs.primary, weight = FontWeight.Bold)
+                    }
+                    Spacer(Modifier.width(12.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text(
+                            tr("এই বইয়ের সব কাঞ্জি (All Kanji)", "All Kanji in this Book"),
+                            style = MaterialTheme.typography.titleSmall,
+                            color = cs.onSurface,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                        Text(
+                            tr("একনজরে সব কাঞ্জি ও স্ট্রোক দেখুন", "Browse full kanji grid & strokes"),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = cs.onSurfaceVariant
+                        )
+                    }
+                    AppIcon(AppIcons.ChevronRight, size = 22.dp, tint = cs.primary)
+                }
+            }
+        }
+
+        items(lessons, key = { it.no }) { info ->
+            val isExpanded = expandedLesson == info.no
+            SoftCard(
+                Modifier.fillMaxWidth(),
+                color = if (isExpanded) cs.surfaceContainer else cs.surfaceContainerLow,
+                borderColor = if (isExpanded) cs.primary.copy(alpha = 0.5f) else cs.outlineVariant.copy(alpha = 0.6f),
+                onClick = {
+                    expandedLesson = if (isExpanded) null else info.no
+                }
+            ) {
+                Column(Modifier.padding(16.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Box(
+                            Modifier
+                                .size(44.dp)
+                                .clip(CircleShape)
+                                .background(if (isExpanded) cs.primary else cs.primaryContainer),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                "L${info.no}",
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold,
+                                color = if (isExpanded) cs.onPrimary else cs.onPrimaryContainer
+                            )
+                        }
+                        Spacer(Modifier.width(12.dp))
+                        Column(Modifier.weight(1f)) {
+                            Text(
+                                tr("লেসন ${info.no}", "Lesson ${info.no}"),
+                                style = MaterialTheme.typography.labelSmall,
+                                color = cs.primary,
+                                fontWeight = FontWeight.SemiBold
+                            )
+                            Text(
+                                if (info.title.isNotEmpty()) tr(info.title, info.titleEn) else tr("লেসন ${info.no}", "Lesson ${info.no}"),
+                                style = MaterialTheme.typography.titleMedium,
+                                color = cs.onSurface,
+                                fontWeight = FontWeight.SemiBold
+                            )
+                        }
+                        Spacer(Modifier.width(8.dp))
+                        Box(
+                            Modifier
+                                .size(30.dp)
+                                .clip(CircleShape)
+                                .background(cs.surfaceContainerHigh),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Text(
+                                if (isExpanded) "▴" else "▾",
+                                style = MaterialTheme.typography.titleMedium,
+                                color = cs.onSurface
+                            )
+                        }
+                    }
+
+                    // ড্রপডাউন মেনু (Starter L1, L2-তে Kanji ও Grammar নেই — Lesson 3 থেকে শুরু)
+                    if (isExpanded) {
+                        val visibleOptions = if (level == "starter_a1" && info.no <= 2) {
+                            lessonDropdownOptions.filter { it.type !in setOf("kanji", "grammar") }
+                        } else {
+                            lessonDropdownOptions
+                        }
+                        Spacer(Modifier.height(12.dp))
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            visibleOptions.forEach { opt ->
+                                SoftCard(
+                                    Modifier.fillMaxWidth(),
+                                    color = cs.surface,
+                                    borderColor = cs.outlineVariant.copy(alpha = 0.5f),
+                                    onClick = { onOpenSection(info.no, opt.type) }
+                                ) {
+                                    Row(
+                                        Modifier.padding(horizontal = 14.dp, vertical = 10.dp),
+                                        verticalAlignment = Alignment.CenterVertically
+                                    ) {
+                                        Box(
+                                            Modifier
+                                                .size(32.dp)
+                                                .clip(CircleShape)
+                                                .background(cs.secondaryContainer),
+                                            contentAlignment = Alignment.Center
+                                        ) {
+                                            BigText(opt.glyph, 16.sp, color = cs.onSecondaryContainer, weight = FontWeight.Bold)
+                                        }
+                                        Spacer(Modifier.width(12.dp))
+                                        Column(Modifier.weight(1f)) {
+                                            Text(
+                                                opt.label,
+                                                style = MaterialTheme.typography.titleSmall,
+                                                color = cs.onSurface,
+                                                fontWeight = FontWeight.SemiBold
+                                            )
+                                            Text(
+                                                tr(opt.subLabelBn, opt.subLabelEn),
+                                                style = MaterialTheme.typography.bodySmall,
+                                                color = cs.onSurfaceVariant
+                                            )
+                                        }
+                                        AppIcon(AppIcons.ChevronRight, size = 20.dp, tint = cs.outline)
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun LessonKanjiScreen(level: String, no: Int, onOpenDetail: (Int) -> Unit) {
+    val ctx = LocalContext.current
+    val loaded by produceState<Pair<List<com.example.nihongo.data.KanjiItem>, List<com.example.nihongo.data.KanjiItem>>?>(null, level, no) {
+        value = withContext(Dispatchers.IO) {
+            val repo = ContentRepository.get(ctx)
+            repo.lessonKanji(level, no) to repo.kanji(level)
+        }
+    }
+    val data = loaded
+    if (data == null) { Loading(); return }
+    val (lessonList, fullList) = data
+    val tts = LocalTts.current
+    val cs = MaterialTheme.colorScheme
+
+    if (level == "starter_a1" && no <= 2) {
+        EmptyState(
+            AppIcons.Inbox,
+            tr("এই লেসনে কাঞ্জি নেই", "No Kanji in this lesson"),
+            tr("Starter বইয়ে কাঞ্জি Lesson 3 থেকে শুরু হয়।", "In Starter, Kanji starts from Lesson 3.")
+        )
+        return
+    }
+    if (lessonList.isEmpty()) { EmptyLesson(); return }
+
+    LazyColumn(
+        Modifier.fillMaxSize(),
+        contentPadding = listPadding,
+        verticalArrangement = Arrangement.spacedBy(10.dp)
+    ) {
+        items(lessonList) { k ->
+            val globalIndex = fullList.indexOfFirst { it.kanji == k.kanji }.coerceAtLeast(0)
+            SoftCard(
+                Modifier.fillMaxWidth(),
+                onClick = { onOpenDetail(globalIndex) }
+            ) {
+                Row(Modifier.padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
+                    Box(
+                        Modifier
+                            .size(56.dp)
+                            .clip(CircleShape)
+                            .background(cs.primaryContainer),
+                        contentAlignment = Alignment.Center
+                    ) {
+                        BigText(k.kanji, 28.sp, color = cs.onPrimaryContainer, weight = FontWeight.Bold)
+                    }
+                    Spacer(Modifier.width(14.dp))
+                    Column(Modifier.weight(1f)) {
+                        Text(
+                            tr(k.bn, k.en),
+                            style = MaterialTheme.typography.titleMedium,
+                            color = cs.onSurface,
+                            fontWeight = FontWeight.SemiBold
+                        )
+                        Text(
+                            "音: ${k.onyomi}   訓: ${k.kunyomi}",
+                            style = MaterialTheme.typography.bodySmall,
+                            color = cs.primary
+                        )
+                        if (k.words.isNotEmpty()) {
+                            Text(
+                                k.words.joinToString(" · ") { "${it.w} (${it.r})" },
+                                style = MaterialTheme.typography.labelMedium,
+                                color = cs.onSurfaceVariant
+                            )
+                        }
+                    }
+                    SpeakButton(onClick = { tts.speak(k.words.firstOrNull()?.w ?: k.kanji) }, diameter = 40.dp)
+                }
+            }
+        }
+    }
+}
